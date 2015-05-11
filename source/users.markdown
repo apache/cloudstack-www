@@ -22,7 +22,7 @@ Our users include many major service providers running CloudStack to offer publi
 
 **Are you using CloudStack ?**
 
-If you are using CloudStack in your organisation and your company isn’t listed here, please complete our brief adoption [survey](/survey.html). We’re happy to keep your company name anonymous if you require.
+If you are using CloudStack in your organisation and your company is not listed here, please complete our brief adoption [survey](/survey.html). We’re happy to keep your company name anonymous if you require.
 
 **Noticed Something wrong ?**
 
