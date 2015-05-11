@@ -99,7 +99,6 @@
                 <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes" target="_blank">Release Notes</a></li>
                 <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home" target="_blank">Wiki</a></li>
                 <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Books" target="_blank">Books</a></li>
-                <li><a tabindex="-1" href="docs/" target="_blank">Obsolete Docs</a></li>
                 <li><a tabindex="-1" href="docs/api/">API Documentation</a></li>
               </ul>
             </li>
@@ -132,7 +131,7 @@
 
 <div class="page-header">
 
-<h1 id="indicators">Apache CloudStack: Security</h1>
+<h1 id="indicators">Apache CloudStack Trademark Guidelines</h1>
 
 </div>
 
@@ -140,61 +139,150 @@
 
 </div>
 
-<p>The Apache CloudStack project understands that as a core infrastructure project, the application security of Apache CloudStack is of critical importance to the community and users.</p>
+<p>Apache CloudStack, CloudStack, the CloudStack word design, the Apache 
+CloudStack word design, the cloud monkey logo, either separately or in 
+combination are hereinafter referred to as "CloudStack Trademarks" and 
+are trademarks or registered trademarks of the Apache Software 
+Foundation. Excepting the provisions outlined below you may not use the 
+CloudStack trademarks or any confusingly similar mark as a trademark for 
+your product, to imply endorsement by the project, or use the CloudStack 
+trademarks in any other manner that might cause confusion in the 
+marketplace.</p>
 
-<h2 id="apache-cloudstack-security-team">Apache CloudStack Security Team</h2>
+<p>Trademark law dictates that owners must police their marks or risk the 
+loss of the marks.</p>
 
-<p>The PMC has decided to create a "Security Team" for CloudStack.  The Security Team's charter is to manage the response to vulnerabilities reported with Apache CloudStack.  This includes communication with the report, issue verification, issue correction, public communication creation, and vendor coordination.  The Security Team may ask assistance from other community members to help verify or correct a reported issue.</p>
+<p>The Apache Software Foundation has an established trademark policy 
+(<a href="http://www.apache.org/foundation/marks">http://www.apache.org/foundation/marks</a>) 
+that when in conflict should be considered the canonical standard (with one 
+exception noted below).</p>
 
-<p>Members of the PMC are eligible to join the security team, but lurking is discouraged.</p>
+<p>However, the Apache Software Foundation has given the responsibility for 
+brand management to the project's Project Management Committee. Thus 
+this document should be taken as additive to the Apache Software 
+Foundation's trademark guideline. Nothing contained herein provides an 
+exception to those guidelines (again, with one exception below).</p>
 
-<p>Community members engaged by the Security Team are expected to hold the issue in confidence until public announcement of the vulnerability.  This protects the users of the software and gives reasonable time for the response process to be implemented.  Further information can be found on the ASF's <a href="http://www.apache.org/foundation/how-it-works.html">How it Works</a> page.</p>
+<p><em>Exception:</em> The Apache CloudStack PMC is the contact point for all requests
+related to the use of the CloudStack Trademarks. In places where the Apache
+Software Foundation's formal trademark usage documentation and policies specify
+trademarks@apache.org, requesters should use press@cloudstack.apache.org or
+private@cloudstack.apache.org.  In places where the Apache Software
+Foundation's policies specify that explicit approval must come from the VP
+Brand Management, requesters will be given authoritative approval from a
+representative of the Apache CloudStack PMC instead.  The Apache Software
+Foundation has delegated approval authority to the Apache CloudStack PMC,
+specifically related to the CloudStack Trademarks.</p>
 
-<p>The CloudStack security team works closely with, and under the direction of, the <a href="http://www.apache.org/security/">ASF security team</a>.</p>
+<h2 id="mark-usage">Mark usage</h2>
 
-<h2 id="reporting-potential-vulnerabilities-in-apache-cloudstack">Reporting Potential Vulnerabilities in Apache CloudStack</h2>
+<h3 id="wordmark">Wordmark</h3>
 
-<p>If you've found an issue that you believe is a security vulnerability in a released version of CloudStack, please report it to <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#101;&#099;&#117;&#114;&#105;&#116;&#121;&#064;&#099;&#108;&#111;&#117;&#100;&#115;&#116;&#097;&#099;&#107;&#046;&#097;&#112;&#097;&#099;&#104;&#101;&#046;&#111;&#114;&#103;">&#115;&#101;&#099;&#117;&#114;&#105;&#116;&#121;&#064;&#099;&#108;&#111;&#117;&#100;&#115;&#116;&#097;&#099;&#107;&#046;&#097;&#112;&#097;&#099;&#104;&#101;&#046;&#111;&#114;&#103;</a> with details about the vulnerability, how it might be exploited, and any additional information that might be useful.</p>
+<p>The word 'CloudStack' is a registered trademark, 
+and should use the '®' symbol. In places where that symbol is not 
+reasonably used it is acceptable to use '(R)' as an alternative.</p>
 
-<p>Upon notification, the ACS security team will initiate the security response procedure. If the issue is validated, the team generally takes 2-4 weeks from notification to public announcement of the vulnerability. During this time, the team will communicate with you as they proceed through the response procedure, and ask that the issue not be announced before an agreed-upon date.</p>
+<h3 id="other-cloudstack-marks">Other CloudStack marks</h3>
 
-<p>The security team asks that you <strong>please do not create publicly-viewable JIRA tickets related to the issue</strong>. If validated, a JIRA ticket with the security flag set will be created for tracking the issue in a non-public manner.</p>
+<p>The CloudStack word design, the Apache CloudStack word design, the
+'Apache CloudStack' wordmark  and the 
+cloud monkey logo are all trademarks and should not appear without the 
+'™' symbol being present.</p>
 
-<h2 id="procedure-for-responding-to-potential-security-issues">Procedure for Responding to Potential Security Issues</h2>
+<h3 id="apache-cloudstack-logo-tm">Apache CloudStack Logo (TM)</h3>
+
+<p>The Apache CloudStack logo with the "TM" symbol present may be 
+downloaded here:</p>
 
 <ul>
-  <li> Upon receiving notice of a potential security issue, a security team member will create a bug to track the investigation, this bug must be flagged as a security issue. Security flag should mean contents of ticket are not visible to non-security team members
-  <li> Security team investigates the issue to confirm/deny the presence of a vulnerability within CloudStack
-  <li> If the issue is determined not to be a vulnerability the reporter will be notified and the issue will be closed as invalid
-  <li> If issue is confirmed as a CloudStack vulnerability:
-  <ul>
-    <li> Security team notifies the Apache Security team
-    <li> Security team assigns a risk rating to the vulnerability using the Common Vulnerability Scoring System
-    <li> Security team works with reporter to get a chance to investigate and mitigate the issue in a timely manner before public announcement. This should be between 15-30 days, depending on the severity and complexity of the issue
-    <li> Security team works with Apache Security Team to reserve a CVE Identifier for future public release
-    <li> Security team works with appropriate code maintainer(s) to create patch to mitigate the issue
-    <li> Testing is conducted to verify patch mitigates issue and does not cause regression errors
-    <li> Security team creates a vulnerability announcement
-    <li> Patch is committed to trunk and other supported branches that are affected.  The commit should not refer to a particular vulnerability
-    <li> A new CloudStack release or hotfix is prepared and tested, containing the new security patch
-    <li> Distributor coordination is implemented to enable a coordinated announcement
-    <li> Security team posts vulnerability announcement to...
-    <ul>
-      <li> CloudStack dev list
-      <li> CloudStack users list
-      <li> The Bugtraq mailing list
-    
-    <li> After announcement, CHANGES and NEWS files need to be updated to reflect the vulnerability and fix. This must happen AFTER the announcement.
-    <li> Also after announcement, modify the Jira ticket so that the issue is now publicly viewable.
-  
-  <li> After the vulnerability is addressed, the CloudStack community should review development processes to see how the community can minimize the chance of similar vulnerabilities being introduced in the future.
+  <li><a href="http://svn.apache.org/repos/asf/cloudstack/media/ai/apache_cloudstack.ai">Apache CloudStack logo with "open source cloud computing" tagline (.ai file)</a></li>
+  <li><a href="http://svn.apache.org/repos/asf/cloudstack/media/ai/apache_cloudstack_sans_tagline.ai">Apache CloudStack logo without the tagline (.ai file)</a></li>
+  <li><a href="http://svn.apache.org/repos/asf/cloudstack/media/ai/apache_cloudstack_with_cloud_monkey.ai">Apache CloudStack logo with "open source cloud computing" tagline and the Cloud Monkey (.ai file)</a></li>
+  <li><a href="http://svn.apache.org/repos/asf/cloudstack/media/jpeg/apache_cloudstack.jpg">Apache CloudStack logo with "open source cloud computing" tagline (JPEG file)</a></li>
+  <li><a href="http://svn.apache.org/repos/asf/cloudstack/media/jpeg/apache_cloudstack_sans_tagline.jpg">Apache CloudStack logo without the tagline (JPEG file)</a></li>
+  <li><a href="http://svn.apache.org/repos/asf/cloudstack/media/jpeg/apache_cloudstack_with_cloud_monkey.jpg">Apache CloudStack logo with "open source cloud computing" tagline and the Cloud Monkey (JPEG file)</a></li>
+</ul>
 
+<h2 id="events">Events</h2>
 
-## For further information
+<h3 id="exhibiting-at-events">Exhibiting at Events:</h3>
 
-Further information about Apache CloudStack's security practices can be found in the [CloudStack Security wiki page](https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Security).
+<p>Apache CloudStack committers may, without prior approval, use the 
+CloudStack Trademarks to promote exhibits or sessions at events with the 
+aim to promote Apache CloudStack, though the general adherence to the 
+ASF's trademark guidelines is still required.</p>
 
-</li></li></li></li></li></li></ul></li></li></li></li></li></li></li></li></li></li></li></ul></li></li></li></li></ul>
+<h3 id="sponsoring-events">Sponsoring Events:</h3>
+
+<p>Sponsoring events can provide good visibility for the project, however 
+it frequently requires funds that the project does not have access to. 
+Many outside organizations wish to provide this type of visibility.</p>
+
+<p>The following is required:</p>
+
+<ul>
+  <li>Sponsorship discussed and approved on the <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#112;&#114;&#101;&#115;&#115;&#064;&#099;&#108;&#111;&#117;&#100;&#115;&#116;&#097;&#099;&#107;&#046;&#097;&#112;&#097;&#099;&#104;&#101;&#046;&#111;&#114;&#103;">&#112;&#114;&#101;&#115;&#115;&#064;&#099;&#108;&#111;&#117;&#100;&#115;&#116;&#097;&#099;&#107;&#046;&#097;&#112;&#097;&#099;&#104;&#101;&#046;&#111;&#114;&#103;</a> mailing list.</li>
+  <li>Requests for approval will be acknowledged by a member of the PMC and approved automatically if no issues are raised 72 hours after acknowledgement.</li>
+  <li>Sponsorship must be provided with no additional affiliation - and only project provided marks used.</li>
+  <li>At least one committer must be planning to represent the project.</li>
+</ul>
+
+<h3 id="cloudstack-specific-conferences">CloudStack Specific Conferences:</h3>
+
+<p>The following is required:</p>
+
+<ul>
+  <li>Project approval from the PMC is needed via the <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#112;&#114;&#101;&#115;&#115;&#064;&#099;&#108;&#111;&#117;&#100;&#115;&#116;&#097;&#099;&#107;&#046;&#097;&#112;&#097;&#099;&#104;&#101;&#046;&#111;&#114;&#103;">&#112;&#114;&#101;&#115;&#115;&#064;&#099;&#108;&#111;&#117;&#100;&#115;&#116;&#097;&#099;&#107;&#046;&#097;&#112;&#097;&#099;&#104;&#101;&#046;&#111;&#114;&#103;</a> mailing list.</li>
+  <li>Requests for approval will be acknowledged by a member of the PMC and approved automatically if no issues are raised 72 hours after acknowledgement.</li>
+  <li>Membership on committees deciding content should be open to any Committer.</li>
+  <li>At least one committer must be planning to attend the event.</li>
+</ul>
+
+<h3 id="meetup-groups-hackfests-barcamps-birds-of-a-feather-and-other-small-events">Meetup groups, hackfests, barcamps, Birds of a Feather, and other small events:</h3>
+
+<p>Local area user events are encouraged.</p>
+
+<ul>
+  <li>Events which include the CloudStack name, should be styled: "Apache CloudStack"</li>
+  <li>Annotation on the group's web presence should indicate that there is no affiliation between the group and the project.</li>
+  <li>A link to the project's website should be present.</li>
+</ul>
+
+<h2 id="non-software-goods">Non-software goods</h2>
+
+<p>Creating non-software goods (e.g.: stickers, event give-aways, etc…) to help
+promote the Apache CloudStack project is encouraged.  However, there are some
+requirements that must be met prior to producing the goods.  Additionally,
+goods bearing any of the CloudStack marks may not be sold without explicit
+written permission.</p>
+
+<p>The following is required:</p>
+
+<ul>
+  <li>The design (mock-up) must be shared with the CloudStack PMC via <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#112;&#114;&#101;&#115;&#115;&#064;&#099;&#108;&#111;&#117;&#100;&#115;&#116;&#097;&#099;&#107;&#046;&#097;&#112;&#097;&#099;&#104;&#101;&#046;&#111;&#114;&#103;">&#112;&#114;&#101;&#115;&#115;&#064;&#099;&#108;&#111;&#117;&#100;&#115;&#116;&#097;&#099;&#107;&#046;&#097;&#112;&#097;&#099;&#104;&#101;&#046;&#111;&#114;&#103;</a>.</li>
+  <li>Requests for approval will be acknowledged by a member of the PMC and approved automatically if no issues are raised 72 hours after acknowledgement.</li>
+  <li>Permission may be granted for requests that are intended to promote the Apache CloudStack project.</li>
+  <li>Permission will likely <em>not</em> be granted for requests that are indented to, or percieved to by the PMC, reflect negatively on Apache CloudStack.</li>
+  <li>Approval may be contingent on specific requested changed in how the mark(s) are applied.</li>
+</ul>
+
+<h2 id="websites">Websites</h2>
+
+<p>No additional guidelines are required above and beyond the 
+<a href="http://www.apache.org/foundation/marks/domains.html">Third Party Domain Name Branding Policy</a>. 
+In general:</p>
+
+<blockquote>
+  <p>you may not use Apache marks such as "ApacheFoo" or "Foo" in your own 
+domain names if that use would be likely to confuse a relevant consumer 
+about the source of software or services provided through your domain 
+with products or services provided by the Apache Foo project or the 
+Apache Software Foundation as a whole. You should apply the 
+"likelihood of confusion" test described in our 
+<a href="http://www.apache.org/foundation/marks/">formal Trademark Policy</a>, and 
+please realize that the use of Apache marks in third party domain 
+names is generally not "nominative fair use."</p>
+</blockquote>
 
 
             <footer>
