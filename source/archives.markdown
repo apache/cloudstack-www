@@ -1,0 +1,30 @@
+---
+title: Archives
+---
+
+<h2 id="indicators">Archived Releases</h2>
+
+* [apache-cloudstack-4.4.0.src.tar.bz2](http://archive.apache.org/dist/cloudstack/releases/4.4.0/apache-cloudstack-4.4.0-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/cloudstack/releases/4.4.0/apache-cloudstack-4.4.0-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/cloudstack/releases/4.4.0/apache-cloudstack-4.4.0-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/cloudstack/releases/4.4.0/apache-cloudstack-4.4.0-src.tar.bz2.sha) ]
+* [apache-cloudstack-4.3.1.src.tar.bz2](http://archive.apache.org/dist/cloudstack/releases/4.3.1/apache-cloudstack-4.3.1-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/cloudstack/releases/4.3.1/apache-cloudstack-4.3.1-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/cloudstack/releases/4.3.1/apache-cloudstack-4.3.1-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/cloudstack/releases/4.3.1/apache-cloudstack-4.3.1-src.tar.bz2.sha) ]
+* [apache-cloudstack-4.3.0.src.tar.bz2](http://archive.apache.org/dist/cloudstack/releases/4.3.0/apache-cloudstack-4.3.0-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/cloudstack/releases/4.3.0/apache-cloudstack-4.3.0-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/cloudstack/releases/4.3.0/apache-cloudstack-4.3.0-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/cloudstack/releases/4.3.0/apache-cloudstack-4.3.0-src.tar.bz2.sha) ]
+* [apache-cloudstack-4.2.1.src.tar.bz2](http://archive.apache.org/dist/cloudstack/releases/4.2.1/apache-cloudstack-4.2.1-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/cloudstack/releases/4.2.1/apache-cloudstack-4.2.1-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/cloudstack/releases/4.2.1/apache-cloudstack-4.2.1-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/cloudstack/releases/4.2.1/apache-cloudstack-4.2.1-src.tar.bz2.sha) ]
+* [apache-cloudstack-4.2.0.src.tar.bz2](http://archive.apache.org/dist/cloudstack/releases/4.2.0/apache-cloudstack-4.2.0-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/cloudstack/releases/4.2.0/apache-cloudstack-4.2.0-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/cloudstack/releases/4.2.0/apache-cloudstack-4.2.0-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/cloudstack/releases/4.2.0/apache-cloudstack-4.2.0-src.tar.bz2.sha) ]
+* [apache-cloudstack-4.1.1.src.tar.bz2](http://archive.apache.org/dist/cloudstack/releases/4.1.1/apache-cloudstack-4.1.1-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/cloudstack/releases/4.1.1/apache-cloudstack-4.1.1-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/cloudstack/releases/4.1.1/apache-cloudstack-4.1.1-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/cloudstack/releases/4.1.1/apache-cloudstack-4.1.1-src.tar.bz2.sha) ]
+* [apache-cloudstack-4.1.0.src.tar.bz2](http://archive.apache.org/dist/cloudstack/releases/4.1.0/apache-cloudstack-4.1.0-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/cloudstack/releases/4.1.0/apache-cloudstack-4.1.0-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/cloudstack/releases/4.1.0/apache-cloudstack-4.1.0-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/cloudstack/releases/4.1.0/apache-cloudstack-4.1.0-src.tar.bz2.sha) ]
+* [apache-cloudstack-4.0.2.src.tar.bz2](http://archive.apache.org/dist/cloudstack/releases/4.0.2/apache-cloudstack-4.0.2-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/cloudstack/releases/4.0.2/apache-cloudstack-4.0.2-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/cloudstack/releases/4.0.2/apache-cloudstack-4.0.2-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/cloudstack/releases/4.0.2/apache-cloudstack-4.0.2-src.tar.bz2.sha) ]
+* [apache-cloudstack-4.0.1-incubating.src.tar.bz2](http://archive.apache.org/dist/incubator/cloudstack/releases/4.0.1-incubating/apache-cloudstack-4.0.1-incubating-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/incubator/cloudstack/releases/4.0.1-incubating/apache-cloudstack-4.0.1-incubating-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/incubator/cloudstack/releases/4.0.1-incubating/apache-cloudstack-4.0.1-incubating-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/incubator/cloudstack/releases/4.0.1-incubating/apache-cloudstack-4.0.1-incubating-src.tar.bz2.sha) ]
+* [apache-cloudstack-4.0.0-incubating.src.tar.bz2](http://archive.apache.org/dist/incubator/cloudstack/releases/4.0.0-incubating/apache-cloudstack-4.0.0-incubating-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/incubator/cloudstack/releases/4.0.0-incubating/apache-cloudstack-4.0.0-incubating-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/incubator/cloudstack/releases/4.0.0-incubating/apache-cloudstack-4.0.0-incubating-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/incubator/cloudstack/releases/4.0.0-incubating/apache-cloudstack-4.0.0-incubating-src.tar.bz2.sha) ]
+
+<h3>CloudMonkey release archives</h3>
+
+* [apache-cloudstack-cloudmonkey-5.3.0](http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.0/)
+* [apache-cloudstack-cloudmonkey-5.2.0](http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-5.2.0/)
+* [apache-cloudstack-cloudmonkey-5.1.0](http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-5.1.0/)
+* [apache-cloudstack-cloudmonkey-5.0.0](http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-5.0.0/)
+
+Releases of CloudStack as a Citrix project prior to the project's acceptance into the incubator can be found on SourceForge.net:
+
+Please note the releases listed below are NOT Apache project releases.  These links are being provided to the user community, as a convenience only.
+
+- [Binaries for Red Hat Enterprise Linux 6.2 and CentOS 6.2](http://sourceforge.net/projects/cloudstack/files/CloudStack%20Acton/3.0.2/CloudStack-oss-3.0.2-1-rhel6.2.tar.gz/download)
+- [Binaries for Ubuntu 10.04 LTS](http://sourceforge.net/projects/cloudstack/files/CloudStack%20Acton/3.0.2/CloudStack-oss-3.0.2-1-ubuntu10.04.tar.gz/download)
