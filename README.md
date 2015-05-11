@@ -4,6 +4,7 @@ Source of Apache CloudStack Web site
 This is built using [middleman](https://middlemanapp.com)
 
     $ gem install middleman
+    $ bundle install
 
 All sources are in the `/source` directory
 

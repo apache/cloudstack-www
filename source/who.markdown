@@ -154,6 +154,8 @@ This page includes all of the Apache CloudStack Project Management Committee (PM
 
 ** Likitha Shetty ** (likithas)
 
+** Marco Sinhoreli ** (marcos)
+
 ** Min Chen ** (mchen)
 
 ** Mice Xia ** (mice)
