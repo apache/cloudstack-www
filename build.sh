@@ -17,5 +17,5 @@
 # under the License.
 
 middleman build
-cp -r ./build ./content
+cp -r ./build/* ./content
 git add ./content/\*
