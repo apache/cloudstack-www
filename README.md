@@ -16,7 +16,7 @@ To serve it locally:
 
     $ middleman server
 
-IMPORTANT: To publish your changes, commit the build into the asf-site directory
+IMPORTANT: To publish your changes, commit the build into the asf-site * branch *
 
 GOTCHA, *TODO*, the `build` directory needs to be renamed `content` in the asf-site branch for the site to be served properly.
 
