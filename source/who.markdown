@@ -23,201 +23,200 @@ PMC members are listed in both the PMC member section and the Committer section
 This page includes all of the Apache CloudStack Project Management Committee (PMC) members and committers, and their ASF usernames. 
 
 
-## PMC 
+## PMC
 
-** Alex Huang ** (ahuang)
+**Alena Prokharchyk** (alena1108)
 
-** Alex Karasulu ** (akarasulu)
+**Alex Huang** (ahuang)
 
-** Alena Prokharchyk ** (alena1108)
+**Alex Karasulu** (akarasulu)
 
-** Animesh ** (animesh)
+**Animesh** (animesh)
 
-** Chip Childers ** (chipchilders)
+**Chip Childers** (chipchilders)
 
-** Chiradeep Vittal ** (chiradeep)
+**Chiradeep Vittal** (chiradeep)
 
-** Daan ** (dahn)
+**Daan** (dahn)
 
-** Ian Duffy ** (duffy)
+**David Nalley** (ke4qqq)
 
-** Disheng Su ** (edison)
+**Disheng Su** (edison)
 
-** Giles Sirett ** (giles)
+**Giles Sirett** (giles)
 
-** Go Chiba ** (gochiba)
+**Go Chiba** (gochiba)
 
-** Matt Richard Hogstrom ** (hogstrom)
+**Hugo Trippaers** (hugo)
 
-** Hugo Trippaers ** (hugo)
+**Ian Duffy** (duffy)
 
-** Ilya Musayev ** (ilya)
+**Ilya Musayev** (ilya)
 
-** John Burwell ** (jburwell)
+**Jim Jagielski** (jim)
 
-** Jim Jagielski ** (jim)
+**Joe Brockmeier** (jzb)
 
-** John Kinsella ** (jlk)
+**John Burwell** (jburwell)
 
-** Joe Brockmeier ** (jzb)
+**John Kinsella** (jlk)
 
-** David Nalley ** (ke4qqq)
+**Kevin Kluge** (kluge)
 
-** Kevin Kluge ** (kluge)
+**Marcus Sorensen** (mlsorensen)
 
-** Marcus Sorensen ** (mlsorensen)
+**Mark R. Hinkle** (mrhinkle)
 
-** Mohammad Nour El-Din ** (mnour)
+**Matt Richard Hogstrom** (hogstrom)
 
-** Mark R. Hinkle ** (mrhinkle)
+**Mike Tutkowski** (mtutkowski)
 
-** Mike Tutkowski ** (mtutkowski)
+**Mohammad Nour El-Din** (mnour)
 
-** Noah Slater ** (nslater)
+**Noah Slater** (nslater)
 
-** Olivier Lamy ** (olamy)
+**Olivier Lamy** (olamy)
 
-** Pierre-Luc Dion ** (pdion891)
+**Pierre-Luc Dion** (pdion891)
 
-** Rajani Karuturi ** (rajani)
+**Prasanna** (tsp)
 
-** Sebastien Goasguen ** (sebgoa)
+**Rajani Karuturi** (rajani)
 
-** Prasanna ** (tsp)
+**Sebastien Goasguen** (sebgoa)
 
-** Wido den Hollander ** (widodh)
+**Wido den Hollander** (widodh)
 
-** William Chan ** (willchan)
-
+**William Chan** (willchan)
 
 ## Committers
 
-** Ahmad Emneina ** (ahmad)
+**Abhinandan Prateek** (aprateek)
 
-** Amogh Vasekar ** (amoghvk)
+**Ahmad Emneina** (ahmad)
 
-** Anthony Xu ** (anthonyxu)
+**Amogh Vasekar** (amoghvk)
 
-** Abhinandan Prateek ** (aprateek)
+**Anh Tu Nguyen** (tuna)
 
-** Brian Federle ** (bfederle)
+**Anthony Xu** (anthonyxu)
 
-** Rohit Yadav ** (bhaisaab)
+**Brett Porter** (brett)
 
-** Brett Porter ** (brett)
+**Brian Federle** (bfederle)
 
-** Clayton Weise ** (claytonweise)
+**Bruno Demion** (milamber)
 
-** Chris Suich ** (csuich2)
+**Chris Suich** (csuich2)
 
-** Darren Shepherd ** (darren)
+**Clayton Weise** (claytonweise)
 
-** Dave Cahill ** (dcahill)
+**Darren Shepherd** (darren)
 
-** Demetrius Tsitrelis ** (demetriust)
+**Dave Cahill** (dcahill)
 
-** Devdeep Singh ** (devdeep)
+**Demetrius Tsitrelis** (demetriust)
 
-** Xin Zhang ** (frankzhang)
+**Devdeep Singh** (devdeep)
 
-** Gavin Lee ** (gavinlee)
+**Gavin Lee** (gavinlee)
 
-** Girish Prabhakar Shilamkar ** (girish)
+**Geoff Higginbottom** (higster)
 
-** Toshiaki Hatano ** (haeena)
+**Girish Prabhakar Shilamkar** (girish)
 
-** Geoff Higginbottom ** (higster)
+**Hiroaki Kawai** (kawai)
 
-** Isaac Chiang ** (isaacchiang)
+**Isaac Chiang** (isaacchiang)
 
-** Jayapal ** (jayapal)
+**Jason Bausewein** (jbausewein)
 
-** Jason Bausewein ** (jbausewein)
+**Jayapal** (jayapal)
 
-** Jessica Wang ** (jessicawang)
+**Jessica Tomechak** (jtomechak)
 
-** Jessica Tomechak ** (jtomechak)
+**Jessica Wang** (jessicawang)
 
-** Hiroaki Kawai ** (kawai)
+**Kelcey Damage** (kdamage)
 
-** Kelcey Damage ** (kdamage)
+**Kelven Yang** (kelveny)
 
-** Kelven Yang ** (kelveny)
+**Kirk Kosinski** (kirk)
 
-** Kirk Kosinski ** (kirk)
+**Kishan** (kishan)
 
-** Kishan ** (kishan)
+**Koushik Das** (koushik)
 
-** Laszlo Hornyak ** (kocka)
+**Laszlo Hornyak** (kocka)
 
-** Koushik Das ** (koushik)
+**Likitha Shetty** (likithas)
 
-** Likitha Shetty ** (likithas)
+**Marco Sinhoreli** (marcos)
 
-** Marco Sinhoreli ** (marcos)
+**Mice Xia** (mice)
 
-** Min Chen ** (mchen)
+**Min Chen** (mchen)
 
-** Mice Xia ** (mice)
+**Murali Mohan Reddy** (muralireddy)
 
-** Bruno Demion ** (milamber)
+**Nitin** (nitin)
 
-** Murali Mohan Reddy ** (muralireddy)
+**Noa Resare** (noa)
 
-** Nitin ** (nitin)
+**Nux** (nux)
 
-** Noa Resare ** (noa)
+**Olga Smola** (olgasmola)
 
-** Nux ** (nux)
+**Paul Angus** (paul_a)
 
-** Olga Smola ** (olgasmola)
+**Phong Nguyen** (pnguyen)
 
-** Paul Angus ** (paul_a)
+**Prachi Damle** (prachidamle)
 
-** Phong Nguyen ** (pnguyen)
+**Pranav Saxena** (pranavs)
 
-** Prachi Damle ** (prachidamle)
+**Radhika Nair** (radhika)
 
-** Pranav Saxena ** (pranavs)
+**Rajesh Battala** (rajeshbattala)
 
-** Radhika Nair ** (radhika)
+**Rohit Yadav** (bhaisaab)
 
-** Rajesh Battala ** (rajeshbattala)
+**Sailaja Mada** (sailajamada)
 
-** Sailaja Mada ** (sailajamada)
+**Saksham Srivastava** (saksham)
 
-** Saksham Srivastava ** (saksham)
+**Sam Robertson** (slriv)
 
-** Sangeetha Hariharan ** (sangeethah)
+**Sangeetha Hariharan** (sangeethah)
 
-** Sanjay Tripathi ** (sanjaytripathi)
+**Sanjay Tripathi** (sanjaytripathi)
 
-** Sanjeev Neelarapu ** (sanjeev)
+**Sanjeev Neelarapu** (sanjeev)
 
-** Santhosh ** (santhoshedukulla)
+**Santhosh** (santhoshedukulla)
 
-** Sateesh Chodapuneedi ** (sateesh)
+**Sateesh Chodapuneedi** (sateesh)
 
-** Sonny Heng Chhen ** (schhen)
+**Sheng Yang** (yasker)
 
-** Sam Robertson ** (slriv)
+**Sonny Heng Chhen** (schhen)
 
-** Sowmya Krishnan ** (sowmya)
+**Sowmya Krishnan** (sowmya)
 
-** Sudhap ** (sudhap)
+**Srikanteswararao Talluri** (talluri)
 
-** Venkata Swamy ** (swamy)
+**Sudhap** (sudhap)
 
-** Will Stevens ** (swill)
+**Toshiaki Hatano** (haeena)
 
-** Srikanteswararao Talluri ** (talluri)
+**Venkata Swamy** (swamy)
 
-** Anh Tu Nguyen ** (tuna)
+**Vijayendra Bhamidipati** (vijayendrabvs)
 
-** Vijayendra Bhamidipati ** (vijayendrabvs)
+**Wei Zhou** (weizhou)
 
-** Wei Zhou ** (weizhou)
+**Will Stevens** (swill)
 
-** Sheng Yang ** (yasker)
+**Xin Zhang** (frankzhang)
 
-** Yoshikazu Nojima ** (ynojima)
+**Yoshikazu Nojima** (ynojima)
