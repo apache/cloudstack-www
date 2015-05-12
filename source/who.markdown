@@ -119,11 +119,19 @@ This page includes all of the Apache CloudStack Project Management Committee (PM
 
 **Devdeep Singh** (devdeep)
 
+**Erik Weber** (erikw)
+
+**Funs Kessen** (snuf)
+
+**Gaurav Nandkumar Aradhye** (gaurav)
+
 **Gavin Lee** (gavinlee)
 
 **Geoff Higginbottom** (higster)
 
 **Girish Prabhakar Shilamkar** (girish)
+
+**Harikrishna Patnala** (harikrishna)
 
 **Hiroaki Kawai** (kawai)
 
@@ -136,6 +144,8 @@ This page includes all of the Apache CloudStack Project Management Committee (PM
 **Jessica Tomechak** (jtomechak)
 
 **Jessica Wang** (jessicawang)
+
+**Karen Vuong** (karenv)
 
 **Kelcey Damage** (kdamage)
 
@@ -171,6 +181,8 @@ This page includes all of the Apache CloudStack Project Management Committee (PM
 
 **Phong Nguyen** (pnguyen)
 
+**Pierre-Yves Rischard** (pyr)
+
 **Prachi Damle** (prachidamle)
 
 **Pranav Saxena** (pranavs)
@@ -178,6 +190,10 @@ This page includes all of the Apache CloudStack Project Management Committee (PM
 **Radhika Nair** (radhika)
 
 **Rajesh Battala** (rajeshbattala)
+
+**Remi Bergsma** (remi)
+
+**Rene Moser** (resmo)
 
 **Rohit Yadav** (bhaisaab)
 
@@ -214,6 +230,8 @@ This page includes all of the Apache CloudStack Project Management Committee (PM
 **Vijayendra Bhamidipati** (vijayendrabvs)
 
 **Wei Zhou** (weizhou)
+
+**Wilder Rodrigues** (ekho)
 
 **Will Stevens** (swill)
 
