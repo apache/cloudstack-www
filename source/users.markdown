@@ -38,6 +38,7 @@ If you noticed something wrong  with your entry here (or if you’d like us to r
 * [Datapipe](http://www.datapipe.com)
 * [DATAWAYS SA](http://www.dataways.gr)
 * [En La Nube](http://www.enlanube.com.co)
+* [EVRY](https://www.evry.com)
 * [Exaserve](http://www.exaserve.com)
 * [INRIA](http://inria.fr)
 * [Kumo](http://kumo.com.co)
@@ -124,7 +125,6 @@ If you noticed something wrong  with your entry here (or if you’d like us to r
 * Ennit
 * EnterpriseDB
 * Entisys Solutions
-* Evry
 * EXA Serve
 * Exoscale
 * Experteq IT Services
