@@ -141,8 +141,15 @@ $ git checkout -b mybranch
 <p>The git repositories are hosted on Apache infrastructure, and can be found here:</p>
 
 <ul>
-<li>Apache CloudStack <a href="https://git-wip-us.apache.org/repos/asf/cloudstack.git">https://git-wip-us.apache.org/repos/asf/cloudstack.git</a></li>
-<li>Apache CloudStack CloudMonkey <a href="https://git-wip-us.apache.org/repos/asf/cloudstack-cloudmonkey.git">https://git-wip-us.apache.org/repos/asf/cloudstack-cloudmonkey.git</a></li>
+<li><a href="https://git-wip-us.apache.org/repos/asf/cloudstack.git">Apache CloudStack source code</a></li>
+<li><a href="https://git-wip-us.apache.org/repos/asf/cloudstack-cloudmonkey.git">Apache CloudStack Cloudmonkey source code</a></li>
+<li><a href="https://github.com/apache/cloudstack-ec2stack">Apache CloudStack EC2stack Inteface</a></li>
+<li><a href="https://github.com/apache/cloudstack-gcestack">Apache CloudStack GCEstack Interface</a></li>
+<li><a href="https://github.com/apache/cloudstack-docs">General Documentation</a></li>
+<li><a href="https://github.com/apache/cloudstack-docs-install">Installation Guide</a></li>
+<li><a href="://github.com/apache/cloudstack-docs-admin">Administrative Guide</a></li>
+<li><a href="://github.com/apache/cloudstack-docs-rn">Release Notes</a></li>
+<li><a href="://github.com/apache/cloudstack-www">Apache CloudStack Website</a></li>
 </ul>
 
 <p>To get the most recent source for Apache CloudStack, use:</p>
@@ -151,9 +158,9 @@ $ git checkout -b mybranch
 git clone https://git-wip-us.apache.org/repos/asf/cloudstack.git
 </pre>
 
-<p>Similarly, clone the cloudstack-cloudmonkey repository to get access to the most recent source for CloudMonkey.</p>
+<p>Similarly, clone the cloudstack-cloudmonkey repository or the other repositories to get access to the most recent source of all CloudStack subprojects.</p>
 
-<p>For projects related to Apache CloudStack, see the <a href="https://github.com/cloudstack-extras">CloudStack-extras repositories on GitHub</a>.</p>
+<p>For projects related to Apache CloudStack but not under ASF governance, see the <a href="https://github.com/cloudstack-extras">CloudStack-extras repositories on GitHub</a>.</p>
               
 </div>
             
