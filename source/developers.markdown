@@ -2,6 +2,8 @@
 title: Developer Resources for Apache CloudStack
 ---
 
+Title: Developer Resources for Apache CloudStack
+
 <div class="row">
 
 <div class="col-lg-12">
@@ -24,13 +26,23 @@ title: Developer Resources for Apache CloudStack
 
 <p>If you're a committer on an Apache project, it means that you can commit directly to the project's repository. For instance, with Apache CloudStack committers are allowed to directly push commits into the git repository.</p>
 
-<p>Non-committers, however, have to submit patches for review. Don't worry, it's not an onerous process at all. The first time you submit a patch, it will take a minute or two to create an account on <a href="http://reviews.apache.org/">Review Board</a>, but it's a piece of cake from start to finish.</p>
+<p>Non-committers, however, have to submit patches for review. Apache CloudStack accepts <a href="https://github.com">GitHub</a> pull requests. If you are new to Git and GitHub, check these two links:</p>
+<p>
+<ul>
+  <li><a href="https://try.github.io/levels/1/challenges/1">GitHub 15 minutes </a>tutorial</li>
+  <li><a href="https://help.github.com/articles/creating-a-pull-request/">Creating </a>Pull Requests</li>
+</ul>
+</p>
 
-<h3> Assumptions </h3>
+<p>Apache CloudStack has a read-only mirror on <a href="https://github.com/apache/cloudstack">GitHub</a> that is kept in sync with the canonical Git repo maintained by the Apache Software Foundation. Submitting GitHub pull requests is the easiest way to get your contribution upstream. For detailed instructions see the link below:</p>
 
-<p>For the purpose of this post, we'll assume that you already have a system with <a href="http://git-scm.com/">Git</a> and have found a bug to fix or have a feature that you'd like to submit, and you're willing to contribute that code or documentation under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</a>.</p>
+<br><a href="https://github.com/apache/cloudstack/blob/master/CONTRIBUTING.md">GitHub Contribution Guidelines</a></br>
 
-<p>Further, if you're fixing a bug we'll assume that you've either filed a bug report or are submitting a fix for a known bug. If you find a bug and would like to fix it, that's awesome! Please be sure to file the bug too, though.</p>
+<h3>Submitting a patch through JIRA</h3>
+
+<p>While we encourage you to submit your contribution through GitHub pull requests, you can also attach a patch in a JIRA ticket. For the purpose of these instructions, we'll assume that you already have a system with <a href="http://git-scm.com/">Git</a> and have found a bug to fix or have a feature that you'd like to submit, and you're willing to contribute that code or documentation under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</a>.</p>
+
+<p>Further, if you're fixing a bug we'll assume that you've either filed a bug report (where you will attach your patch) or are submitting a fix for a known bug. If you find a bug and would like to fix it, that's awesome! Please be sure to file the bug too, though.</p>
 
 <p>If you want to add a feature, you should bring it up for discussion on the <a href="mailto:dev@cloudstack.apache.org">dev@cloudstack.apache.org</a> mailing list before implementing it. This ensures that it meshes with the plans that other contributors have for Apache CloudStack, and that you're not doing redundant work. Other developers may also have ideas for the feature or suggestions that will help you land the feature without having to re-do the work. More information about our mailing lists can be found <a href="/mailing-lists.html">here</a>.</p>
 
@@ -69,45 +81,13 @@ $ git checkout -b mybranch
 
 <pre>git commit -m "Insert a meaningful summary of changes here."</pre>
 
-<p>Finally, you're going to create a patch to upload to <a href="http://reviews.apache.org/">Review Board</a>:</p>
+<p>Finally, you can create a patch and attach it to the JIRA issue that you created for the bug you are fixing.</p>
 
 <pre>git format-patch master --stdout > ~/patch-name.patch</pre>
 
-<h3>Using Review Board</h3>
+<h3>Review</h3>
 
-<p>Review Board is the main method of sending patches to the Apache CloudStack project. That's not to say that a patch sent directly to the mailing list will be ignored, but the <em>strong preference</em> is that patches be submitted through Review Board. Don't worry, it's a very easy tool to use.</p>
-
-<p>If you haven't already, create an account with Review Board. Registering only requires an email address, first name, and last name. After you're registered, head to <a href="https://reviews.apache.org/r/new/">New Review Request</a> and select the repository (<strong>cloudstack-git</strong>) and upload the patch (diff) created with git.</p>
-
-<p>Click <strong>Create Review Request</strong> and then fill out the information required. Specifically:</p>
-
-<ol>
-<li>Summary</li>
-<li>Groups (choose cloudstack)</li>
-<li>People (only use if you need specific committers to review changes)</li>
-<li>Description</li>
-<li>Testing Done</li>
-</ol>
-
-<p>The <strong>Summary</strong> will be the subject that's sent to the cloudstack-dev mailing list. So if your summary is "fixed feature foo" the subject of the mail sent to the list will be "Review Request: fixed feature foo". Try to be descriptive with the Summary. If you're submitting a patch for a bug, please be sure to include the bug number in the summary. (Like "Bugfix CS-15942: Fixing problem with redundant routers.")</p>
-
-<p>The description should be a full description of what you've done. Please be specific, and include enough information that any reviewer will be able to look at your patch without asking for follow-up information.   You need to include the bug ID that your patch relates to as well (ex:  CLOUDSTACK-XXX ).</p>
-
-<p>If you're submitting a patch that modifies code, adds features, etc. you should test before submitting. Please be sure to describe your tests here.</p>
-
-<p>Once you're sure everything is OK, go ahead and submit the patch. But that's <em>not</em> the end of the process. The work isn't done until the patch is committed!</p>
-
-<h3> Review </h3>
-
-<p>Once you've submitted your patch, you should receive a response within a few days. If you receive no response within a week, please ping the cloudstack-dev mailing list. One of the features of Review Board is that shows all of the requests and when they were posted, and the committers know that they should be responsible for reviewing patches in a timely fashion.</p>
-
-<p>When your patch is reviewed, it may be accepted as-is or you may be asked to make changes. If you're asked to make changes, please work with the committer to see the patch through to acceptance.</p>
-
-<p>If the patch is accepted and committed, you have one last task (don't worry, it's minor and kind of satisfying).</p>
-
-<p>Go back to Review Board, click <strong>My Dashboard</strong> and then <strong>Outgoing Reviews</strong>. Go to your submission, you should see a "Ship it!" message from the reviewer. Click the <strong>Close</strong> button and choose <strong>Submitted</strong>. The status has now changed from <em>pending</em> to <em>submitted</em>.</p>
-
-<p>That's it &ndash; you've helped make Apache CloudStack a better project. Thanks!</p>
+<p>Once you've submitted your pull request, you should receive a response within a few days. If you receive no response within a week, please ping the cloudstack-dev mailing list (dev@cloudstack.apache.org).</p>
 
 <h3>Screencast</h3>
 
@@ -130,7 +110,7 @@ $ git checkout -b mybranch
 
 <a href="https://issues.apache.org/jira/browse/CLOUDSTACK" class="list-group-item">Jira</a>
 
-<a href="https://reviews.apache.org/dashboard/" class="list-group-item">Reviewboard</a>
+<a hread="https://github.com/apache/cloudstack/blob/master/CONTRIBUTING.md" class="list-group-item">Contribution Guidelines</a>
 
 <a href="https://builds.apache.org/view/A-D/view/Cloudstack/" class="list-group-item">ASF Jenkins</a>
 
@@ -161,8 +141,15 @@ $ git checkout -b mybranch
 <p>The git repositories are hosted on Apache infrastructure, and can be found here:</p>
 
 <ul>
-<li>Apache CloudStack <a href="https://git-wip-us.apache.org/repos/asf/cloudstack.git">https://git-wip-us.apache.org/repos/asf/cloudstack.git</a></li>
-<li>Apache CloudStack CloudMonkey <a href="https://git-wip-us.apache.org/repos/asf/cloudstack-cloudmonkey.git">https://git-wip-us.apache.org/repos/asf/cloudstack-cloudmonkey.git</a></li>
+<li><a href="https://git-wip-us.apache.org/repos/asf/cloudstack.git">Apache CloudStack source code</a></li>
+<li><a href="https://git-wip-us.apache.org/repos/asf/cloudstack-cloudmonkey.git">Apache CloudStack Cloudmonkey source code</a></li>
+<li><a href="https://github.com/apache/cloudstack-ec2stack">Apache CloudStack EC2stack Inteface</a></li>
+<li><a href="https://github.com/apache/cloudstack-gcestack">Apache CloudStack GCEstack Interface</a></li>
+<li><a href="https://github.com/apache/cloudstack-docs">General Documentation</a></li>
+<li><a href="https://github.com/apache/cloudstack-docs-install">Installation Guide</a></li>
+<li><a href="://github.com/apache/cloudstack-docs-admin">Administrative Guide</a></li>
+<li><a href="://github.com/apache/cloudstack-docs-rn">Release Notes</a></li>
+<li><a href="://github.com/apache/cloudstack-www">Apache CloudStack Website</a></li>
 </ul>
 
 <p>To get the most recent source for Apache CloudStack, use:</p>
@@ -171,9 +158,9 @@ $ git checkout -b mybranch
 git clone https://git-wip-us.apache.org/repos/asf/cloudstack.git
 </pre>
 
-<p>Similarly, clone the cloudstack-cloudmonkey repository to get access to the most recent source for CloudMonkey.</p>
+<p>Similarly, clone the cloudstack-cloudmonkey repository or the other repositories to get access to the most recent source of all CloudStack subprojects.</p>
 
-<p>For projects related to Apache CloudStack, see the <a href="https://github.com/cloudstack-extras">CloudStack-extras repositories on GitHub</a>.</p>
+<p>For projects related to Apache CloudStack but not under ASF governance, see the <a href="https://github.com/cloudstack-extras">CloudStack-extras repositories on GitHub</a>.</p>
               
 </div>
             
@@ -183,3 +170,4 @@ git clone https://git-wip-us.apache.org/repos/asf/cloudstack.git
 </div>
 
 </div>
+
