@@ -1538,6 +1538,7 @@ th {
 
 .table-bordered {
   border: 1px solid #ecf0f1;
+  width: 100%;
 }
 
 .table-bordered > thead > tr > th,
