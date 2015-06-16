@@ -33,6 +33,8 @@ This page includes all of the Apache CloudStack Project Management Committee (PM
 
 **Animesh** (animesh)
 
+**Bruno Demion** (milamber)
+
 **Chip Childers** (chipchilders)
 
 **Chiradeep Vittal** (chiradeep)
@@ -104,8 +106,6 @@ This page includes all of the Apache CloudStack Project Management Committee (PM
 **Brett Porter** (brett)
 
 **Brian Federle** (bfederle)
-
-**Bruno Demion** (milamber)
 
 **Chris Suich** (csuich2)
 
