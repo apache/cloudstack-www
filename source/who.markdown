@@ -31,7 +31,7 @@ Active Project Management Committee contains (in alphabetical order):
 |Chip Childers|chipchilders|
 |Chiradeep Vittal|chiradeep|Citrix|
 |Bruno Demion|milamber|
-|Daan|dahn|Schuberg Philis|
+|Daan Hoogland|dahn|Schuberg Philis|
 |David Nalley|ke4qqq|Citrix|
 |Giles Sirett|giles|ShapeBlue|
 |Go Chiba|gochiba|
