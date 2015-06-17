@@ -51,6 +51,7 @@ Active Project Management Committee contains (in alphabetical order):
 |Pierre-Luc Dion|pdion891|
 |Prasanna|tsp|
 |Rajani Karuturi|rajani|Citrix|+5.5|
+|Rohit Yadav|bhaisaab|ShapeBlue|
 |Sebastien Goasguen|sebgoa|Citrix|
 |Wido den Hollander|widodh|
 |William Chan|willchan|
@@ -120,7 +121,6 @@ Active list of committers include
 |Rajesh Battala|rajeshbattala|Citrix|+5.5|
 |Remi Bergsma|remi|
 |Rene Moser|resmo|
-|Rohit Yadav|bhaisaab|ShapeBlue|
 |Sailaja Mada|sailajamada|Citrix|+5.5|
 |Saksham Srivastava|saksham|Citrix|+5.5|
 |Sam Robertson|slriv|
