@@ -83,7 +83,7 @@ Active list of committers include
 |Dave Cahill|dcahill|
 |Demetrius Tsitrelis|demetriust|
 |Devdeep Singh|devdeep|Citrix|+5.5|
-|Erik Weber|erikw|
+|Erik Weber|erikw|EVRY|+1|
 |Funs Kessen|snuf|
 |Gaurav Nandkumar Aradhye|gaurav|
 |Gavin Lee|gavinlee|
