@@ -76,7 +76,6 @@ Active list of committers include
 |Anthony Xu|anthonyxu|
 |Brett Porter|brett|
 |Brian Federle|bfederle|
-|Bruno Demion|milamber|
 |Chris Suich|csuich2|
 |Clayton Weise|claytonweise|
 |Darren Shepherd|darren|
