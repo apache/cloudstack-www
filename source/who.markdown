@@ -18,44 +18,45 @@ title: Apache CloudStack Project Membership
 
 This page includes the Apache CloudStack Project Management Committee (PMC) members and committers.
 
-
 ## PMC
-Active Project Management Committee contains (in alphabetical order):
+
+Active Project Management Committee contains (in alphabetical order of their usernames):
 
 {:.table-bordered}
-| Name | username | organization | timezone |
-|------|----------|--------------|----------|
-|Alena Prokharchyk|alena1108|
-|Alex Karasulu|akarasulu|
-|Animesh|animesh|
-|Chip Childers|chipchilders|
-|Chiradeep Vittal|chiradeep|Citrix|
-|Bruno Demion|milamber|
-|Daan Hoogland|dahn|Schuberg Philis|
-|David Nalley|ke4qqq|Citrix|
-|Giles Sirett|giles|ShapeBlue|
-|Go Chiba|gochiba|
-|Hugo Trippaers|hugo|Schuberg Philis|
-|Ilya Musayev|ilya|
-|Jim Jagielski|jim|
-|Joe Brockmeier|jzb|
-|John Burwell|jburwell|ShapeBlue|
-|John Kinsella|jlk|
-|Kevin Kluge|kluge|
-|Marcus Sorensen|mlsorensen|
-|Mark R. Hinkle|mrhinkle|Citrix|
-|Matt Richard Hogstrom|hogstrom|
-|Mike Tutkowski|mtutkowski|
-|Mohammad Nour El-Din|mnour|
-|Noah Slater|nslater|
-|Pierre-Luc Dion|pdion891|
-|Prasanna|tsp|
-|Rajani Karuturi|rajani|Citrix|+5.5|
-|Rohit Yadav|bhaisaab|ShapeBlue|
-|Sebastien Goasguen|sebgoa|Citrix|
-|Wido den Hollander|widodh|
-|Wilder Rodrigues|ekho|Schuberg Philis|
-|William Chan|willchan|
+| Username | Name |
+|----------|------|
+|akarasulu|Alex Karasulu|
+|alena1108|Alena Prokharchyk|
+|animesh|Animesh|
+|bhaisaab|Rohit Yadav|
+|chipchilders|Chip Childers|
+|chiradeep|Chiradeep Vittal|
+|dahn|Daan|
+|giles|Giles Sirett|
+|gochiba|Go Chiba|
+|hogstrom|Matt Richard Hogstrom|
+|hugo|Hugo Trippaers|
+|ilya|Ilya Musayev|
+|jburwell|John Burwell|
+|jim|Jim Jagielski|
+|jlk|John Kinsella|
+|jzb|Joe Brockmeier|
+|ke4qqq|David Nalley|
+|kluge|Kevin Kluge|
+|milamber|Bruno Demion|
+|mlsorensen|Marcus Sorensen|
+|mnour|Mohammad Nour El-Din|
+|mrhinkle|Mark R. Hinkle|
+|mtutkowski|Mike Tutkowski|
+|nslater|Noah Slater|
+|nux|Nux|
+|pdion891|Pierre-Luc Dion|
+|rajani|Rajani Karuturi|
+|sebgoa|Sebastien Goasguen|
+|swill|Will Stevens|
+|tsp|Prasanna|
+|widodh|Wido den Hollander|
+|willchan|William Chan|
 
 ## Emeritus PMC Members
 PMC members who are no longer active include:
@@ -66,82 +67,118 @@ PMC members who are no longer active include:
 + Olivier Lamy (olamy)
 
 ## Committers
-Active list of committers include
+
+Active list of committers (in alphabetical order of their usernames)
 
 {:.table-bordered}
-| Name | username | organization | timezone |
-|------|----------|--------------|----------|
-|Abhinandan Prateek|aprateek|ShapeBlue|+5.5|
-|Ahmad Emneina|ahmad|Citrix|
-|Amogh Vasekar|amoghvk|Citrix|
-|Anh Tu Nguyen|tuna|
-|Anthony Xu|anthonyxu|
-|Brett Porter|brett|
-|Brian Federle|bfederle|
-|Chris Suich|csuich2|
-|Clayton Weise|claytonweise|
-|Darren Shepherd|darren|
-|Dave Cahill|dcahill|
-|Demetrius Tsitrelis|demetriust|
-|Devdeep Singh|devdeep|Citrix|+5.5|
-|Erik Weber|erikw|EVRY|+1|
-|Funs Kessen|snuf|
-|Gaurav Nandkumar Aradhye|gaurav|
-|Gavin Lee|gavinlee|
-|Geoff Higginbottom|higster|ShapeBlue|
-|Girish Prabhakar Shilamkar|girish|
-|Harikrishna Patnala|harikrishna|Citrix|
-|Hiroaki Kawai|kawai|
-|Isaac Chiang|isaacchiang|
-|Jason Bausewein|jbausewein|
-|Jayapal|jayapal|Citrix|+5.5|
-|Jessica Tomechak|jtomechak|
-|Jessica Wang|jessicawang|
-|Karen Vuong|karenv|Citrix|
-|Kelcey Damage|kdamage|
-|Kelven Yang|kelveny|
-|Kirk Kosinski|kirk|
-|Kishan|kishan|Citrix|+5.5|
-|Koushik Das|koushik|Citrix|+5.5|
-|Laszlo Hornyak|kocka|
-|Likitha Shetty|likithas|Citrix|+5.5|
-|Marco Sinhoreli|marcos|
-|Mice Xia|mice|
-|Min Chen|mchen|
-|Murali Mohan Reddy|muralireddy|
-|Nitin|nitin|Citrix|
-|Noa Resare|noa|
-|Nux|nux|
-|Olga Smola|olgasmola|
-|Paul Angus|paul_a|ShapeBlue|
-|Phong Nguyen|pnguyen|
-|Pierre-Yves Rischard|pyr|
-|Prachi Damle|prachidamle|
-|Pranav Saxena|pranavs|
-|Radhika Nair|radhika|
-|Rajesh Battala|rajeshbattala|Citrix|+5.5|
-|Remi Bergsma|remi|
-|Rene Moser|resmo|
-|Sailaja Mada|sailajamada|Citrix|+5.5|
-|Saksham Srivastava|saksham|Citrix|+5.5|
-|Sam Robertson|slriv|
-|Sangeetha Hariharan|sangeethah|
-|Sanjay Tripathi|sanjaytripathi|Citrix|+5.5|
-|Sanjeev Neelarapu|sanjeev|Citrix|+5.5|
-|Santhosh|santhoshedukulla|
-|Sateesh Chodapuneedi|sateesh|Citrix|+5.5|
-|Sheng Yang|yasker|
-|Sonny Heng Chhen|schhen|
-|Sowmya Krishnan|sowmya|Citrix|
-|Srikanteswararao Talluri|talluri|
-|Sudhap|sudhap|
-|Toshiaki Hatano|haeena|
-|Venkata Swamy|swamy|
-|Vijayendra Bhamidipati|vijayendrabvs|
-|Wei Zhou|weizhou|
-|Will Stevens|swill|
-|Xin Zhang|frankzhang|
-|Yoshikazu Nojima|ynojima|
+| Username | Name |
+|----------|------|
+|ahmad|Ahmad Emneina|
+|ahuang|Alex Huang|
+|akarasulu|Alex Karasulu|
+|alena1108|Alena Prokharchyk|
+|amoghvk|Amogh Vasekar|
+|animesh|Animesh|
+|anthonyxu|Anthony Xu|
+|aprateek|Abhinandan Prateek|
+|bfederle|Brian Federle|
+|bhaisaab|Rohit Yadav|
+|brett|Brett Porter|
+|chipchilders|Chip Childers|
+|chiradeep|Chiradeep Vittal|
+|claytonweise|Clayton Weise|
+|csuich2|Chris Suich|
+|dahn|Daan|
+|darren|Darren Shepherd|
+|dcahill|Dave Cahill|
+|demetriust|Demetrius Tsitrelis|
+|devdeep|Devdeep Singh|
+|duffy|Ian Duffy|
+|edison|Disheng Su|
+|ekho|Wilder Rodrigues|
+|erikw|Erik Weber|
+|frankzhang|Xin Zhang|
+|gaurav|Gaurav Nandkumar Aradhye|
+|gavinlee|Gavin Lee|
+|giles|Giles Sirett|
+|girish|Girish Prabhakar Shilamkar|
+|gochiba|Go Chiba|
+|haeena|Toshiaki Hatano|
+|harikrishna|Harikrishna Patnala|
+|higster|Geoff Higginbottom|
+|hogstrom|Matt Richard Hogstrom|
+|hugo|Hugo Trippaers|
+|ilya|Ilya Musayev|
+|isaacchiang|Isaac Chiang|
+|jayapal|Jayapal|
+|jbausewein|Jason Bausewein|
+|jburwell|John Burwell|
+|jessicawang|Jessica Wang|
+|jim|Jim Jagielski|
+|jlk|John Kinsella|
+|jtomechak|Jessica Tomechak|
+|jzb|Joe Brockmeier|
+|karenv|Karen Vuong|
+|kawai|Hiroaki Kawai|
+|kdamage|Kelcey Damage|
+|ke4qqq|David Nalley|
+|kelveny|Kelven Yang|
+|kirk|Kirk Kosinski|
+|kishan|Kishan|
+|kluge|Kevin Kluge|
+|kocka|Laszlo Hornyak|
+|koushik|Koushik Das|
+|likithas|Likitha Shetty|
+|mchen|Min Chen|
+|mice|Mice Xia|
+|milamber|Bruno Demion|
+|mlsorensen|Marcus Sorensen|
+|mnour|Mohammad Nour El-Din|
+|mrhinkle|Mark R. Hinkle|
+|msinhore|Marco Sinhoreli|
+|mtutkowski|Mike Tutkowski|
+|muralireddy|Murali Mohan Reddy|
+|nitin|Nitin|
+|noa|Noa Resare|
+|nslater|Noah Slater|
+|nux|Nux|
+|olamy|Olivier Lamy|
+|olgasmola|Olga Smola|
+|paul_a|Paul Angus|
+|pdion891|Pierre-Luc Dion|
+|pnguyen|Phong Nguyen|
+|prachidamle|Prachi Damle|
+|pranavs|Pranav Saxena|
+|pyr|Pierre-Yves Ritschard|
+|radhika|Radhika Nair|
+|rajani|Rajani Karuturi|
+|rajeshbattala|Rajesh Battala|
+|remi|Remi Bergsma|
+|resmo|Rene Moser|
+|sailajamada|Sailaja Mada|
+|saksham|Saksham Srivastava|
+|sangeethah|Sangeetha Hariharan|
+|sanjaytripathi|Sanjay Tripathi|
+|sanjeev|Sanjeev Neelarapu|
+|santhoshedukulla|Santhosh|
+|sateesh|Sateesh Chodapuneedi|
+|schhen|Sonny Heng Chhen|
+|sebgoa|Sebastien Goasguen|
+|slriv|Sam Robertson|
+|snuf|Funs Kessen|
+|sowmya|Sowmya Krishnan|
+|sudhap|Sudhap|
+|swamy|Venkata Swamy|
+|swill|Will Stevens|
+|talluri|Srikanteswararao Talluri|
+|tsp|Prasanna|
+|tuna|Anh Tu Nguyen|
+|vijayendrabvs|Vijayendra Bhamidipati|
+|weizhou|Wei Zhou|
+|widodh|Wido den Hollander|
+|willchan|William Chan|
+|yasker|Sheng Yang|
+|ynojima|Yoshikazu Nojima|
 
 ## Emeritus Committers
 Committers who are no longer active include:
