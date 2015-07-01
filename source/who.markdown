@@ -39,7 +39,7 @@ Active Project Management Committee contains (in alphabetical order):
 |Ilya Musayev|ilya|
 |Jim Jagielski|jim|
 |Joe Brockmeier|jzb|
-|John Burwell|jburwell|
+|John Burwell|jburwell|ShapeBlue|
 |John Kinsella|jlk|
 |Kevin Kluge|kluge|
 |Marcus Sorensen|mlsorensen|
@@ -54,6 +54,7 @@ Active Project Management Committee contains (in alphabetical order):
 |Rohit Yadav|bhaisaab|ShapeBlue|
 |Sebastien Goasguen|sebgoa|Citrix|
 |Wido den Hollander|widodh|
+|Wilder Rodrigues|ekho|Schuberg Philis|
 |William Chan|willchan|
 
 ## Emeritus PMC Members
@@ -138,7 +139,6 @@ Active list of committers include
 |Venkata Swamy|swamy|
 |Vijayendra Bhamidipati|vijayendrabvs|
 |Wei Zhou|weizhou|
-|Wilder Rodrigues|ekho|Schuberg Philis|
 |Will Stevens|swill|
 |Xin Zhang|frankzhang|
 |Yoshikazu Nojima|ynojima|
