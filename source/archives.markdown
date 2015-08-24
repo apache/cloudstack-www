@@ -4,6 +4,7 @@ title: Archives
 
 <h2 id="indicators">Archived Releases</h2>
 
+* [apache-cloudstack-4.5.1.src.tar.bz2](http://archive.apache.org/dist/cloudstack/releases/4.5.1/apache-cloudstack-4.5.1-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/cloudstack/releases/4.5.1/apache-cloudstack-4.5.1-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/cloudstack/releases/4.5.1/apache-cloudstack-4.5.1-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/cloudstack/releases/4.5.1/apache-cloudstack-4.5.1-src.tar.bz2.sha) ]
 * [apache-cloudstack-4.4.0.src.tar.bz2](http://archive.apache.org/dist/cloudstack/releases/4.4.0/apache-cloudstack-4.4.0-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/cloudstack/releases/4.4.0/apache-cloudstack-4.4.0-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/cloudstack/releases/4.4.0/apache-cloudstack-4.4.0-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/cloudstack/releases/4.4.0/apache-cloudstack-4.4.0-src.tar.bz2.sha) ]
 * [apache-cloudstack-4.3.1.src.tar.bz2](http://archive.apache.org/dist/cloudstack/releases/4.3.1/apache-cloudstack-4.3.1-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/cloudstack/releases/4.3.1/apache-cloudstack-4.3.1-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/cloudstack/releases/4.3.1/apache-cloudstack-4.3.1-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/cloudstack/releases/4.3.1/apache-cloudstack-4.3.1-src.tar.bz2.sha) ]
 * [apache-cloudstack-4.3.0.src.tar.bz2](http://archive.apache.org/dist/cloudstack/releases/4.3.0/apache-cloudstack-4.3.0-src.tar.bz2) [ [PGP](http://archive.apache.org/dist/cloudstack/releases/4.3.0/apache-cloudstack-4.3.0-src.tar.bz2.asc) ][ [MD5](http://archive.apache.org/dist/cloudstack/releases/4.3.0/apache-cloudstack-4.3.0-src.tar.bz2.md5) ][ [SHA512](http://archive.apache.org/dist/cloudstack/releases/4.3.0/apache-cloudstack-4.3.0-src.tar.bz2.sha) ]
@@ -17,6 +18,7 @@ title: Archives
 
 <h3>CloudMonkey release archives</h3>
 
+* [apache-cloudstack-cloudmonkey-5.3.1](http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.1/)
 * [apache-cloudstack-cloudmonkey-5.3.0](http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.0/)
 * [apache-cloudstack-cloudmonkey-5.2.0](http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-5.2.0/)
 * [apache-cloudstack-cloudmonkey-5.1.0](http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-5.1.0/)
