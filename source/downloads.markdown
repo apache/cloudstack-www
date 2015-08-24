@@ -74,7 +74,7 @@ title: Apache CloudStack Downloads
 
 <p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.5.2/">Version 4.5.2 Release Notes</a> document.</p>
 
-<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.4/">Installation Guide</a>.</p>
+<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.5/">Installation Guide</a>.</p>
 
 <p>Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.5.2 can be found in the upgrade section of the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.5.2/">Release Notes</a>.</p>
 
