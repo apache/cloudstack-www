@@ -54,6 +54,7 @@ Active Project Management Committee contains (in alphabetical order of their use
 |nux|Nux|
 |pdion891|Pierre-Luc Dion|
 |rajani|Rajani Karuturi|
+|remi|Remi Bergsma|
 |sebgoa|Sebastien Goasguen|
 |swill|Will Stevens|
 |tsp|Prasanna|
@@ -153,7 +154,6 @@ Active list of committers (in alphabetical order of their usernames)
 |radhika|Radhika Nair|
 |rajani|Rajani Karuturi|
 |rajeshbattala|Rajesh Battala|
-|remi|Remi Bergsma|
 |resmo|Rene Moser|
 |sailajamada|Sailaja Mada|
 |saksham|Saksham Srivastava|
