@@ -30,7 +30,7 @@ title: Apache CloudStack Downloads
 </p>
 
 <p>
-<a href="http://www.apache.org/dyn/closer.cgi/cloudstack/releases/4.5.2/apache-cloudstack-4.5.2-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the 4.5.2 Source!</button></a>
+<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.5.2/apache-cloudstack-4.5.2-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the 4.5.2 Source!</button></a>
 
 <a href="http://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
 <a href="http://www.apache.org/dist/cloudstack/releases/4.5.2/apache-cloudstack-4.5.2-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
@@ -39,7 +39,7 @@ title: Apache CloudStack Downloads
 </p>
 
 <p>
-<a href="http://www.apache.org/dyn/closer.cgi/cloudstack/releases/4.4.4/apache-cloudstack-4.4.4-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the 4.4.4 Source!</button></a>
+<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.4.4/apache-cloudstack-4.4.4-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the 4.4.4 Source!</button></a>
 
 <a href="http://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
 <a href="http://www.apache.org/dist/cloudstack/releases/4.4.4/apache-cloudstack-4.4.4-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
@@ -49,7 +49,7 @@ title: Apache CloudStack Downloads
 </p>
 
 <p>
-<a href="http://www.apache.org/dyn/closer.cgi/cloudstack/releases/4.3.2/apache-cloudstack-4.3.2-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the 4.3.2 Source!</button></a>
+<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.3.2/apache-cloudstack-4.3.2-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the 4.3.2 Source!</button></a>
 
 <a href="http://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
 <a href="http://www.apache.org/dist/cloudstack/releases/4.3.2/apache-cloudstack-4.3.2-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
@@ -63,9 +63,9 @@ title: Apache CloudStack Downloads
 <p>For easier installation or upgrades, the official source code release has been supplemented by community members who have chosen to provide package repositories.</p>
 
 <ul>
-<li>CloudStack Packages by ShapeBlue: <a href="http://shapeblue.com/packages/">http://shapeblue.com/packages</a></li>
 <li>DEB package repository: <a href="http://cloudstack.apt-get.eu/ubuntu">http://cloudstack.apt-get.eu/ubuntu</a></li>
 <li>RPM package repository: <a href="http://cloudstack.apt-get.eu/rhel/">http://cloudstack.apt-get.eu/rhel/</a></li>
+<li>CloudStack Packages by ShapeBlue: <a href="http://shapeblue.com/packages/">http://shapeblue.com/packages</a></li>
 </ul>
 
 <p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.4/installation.html#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
@@ -172,7 +172,7 @@ Apache CloudStack's CloudMonkey tool is a CLI and shell environment designed for
 CloudMonkey's most current release is 5.3.2.
 
 <p>
-<a href="http://www.apache.org/dyn/closer.cgi/cloudstack/releases/cloudmonkey-5.3.2/apache-cloudstack-cloudmonkey-5.3.2-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the 5.3.2 Source!</button></a>
+<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-5.3.2/apache-cloudstack-cloudmonkey-5.3.2-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the 5.3.2 Source!</button></a>
 
 <a href="http://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
 <a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.2/apache-cloudstack-cloudmonkey-5.3.2-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
