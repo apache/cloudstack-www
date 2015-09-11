@@ -116,7 +116,7 @@ Have a feature request? We'd invite you to [bring it up on the mailing list](mai
 </tr>
 <tr>
 <td style="width: 200px; text-align: left;"><strong>Multiple Storage Solutions</strong></td>
-<td style="width: 518px;">CloudStack supports many storage solutions with&nbsp; iSCSI and NFS being preferred, but anything that can have multiple nodes mount it simultaneously will work.&nbsp; This gives you the ultimate freedom in deciding your storage servers from using commodity hardware to integrating with enterprise-grade solutions such as Dell EqualLogic or NetApp.</td>
+<td style="width: 518px;">CloudStack supports many storage solutions with&nbsp; iSCSI and NFS being preferred, but anything that can have multiple nodes mount it simultaneously will work.&nbsp; Ceph RBD is also supported in combination with the KVM hypervisor. This gives you the ultimate freedom in deciding your storage servers from using commodity hardware to integrating with enterprise-grade solutions such as Dell EqualLogic or NetApp.</td>
 </tr>
 <tr>
 <td style="width: 200px; text-align: left;"><strong>Storage Tiering</strong></td>
