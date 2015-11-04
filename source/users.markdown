@@ -30,9 +30,12 @@ If you noticed something wrong  with your entry here (or if you’d like us to r
 
 * [ActOnMagic](http://www.actonmagic.com)
 * [Appcore](http://www.appcore.com)
+* [AxiomIO](http://axiomio.com)
 * [Ayaline](http://www.ayaline.com)
+* [BIT.Group GmbH](http://www.bautzen-it.de)
 * [BT](http://btcloud.bt.com)
 * [CloudOps](http://www.cloudops.com)
+* [Codero](http://www.codero.com)
 * [DATACENTER Services](http://www.companycloud.nl)
 * [DataCentrix](http://www.datacentrix.co.za)
 * [Datapipe](http://www.datapipe.com)
@@ -40,18 +43,31 @@ If you noticed something wrong  with your entry here (or if you’d like us to r
 * [En La Nube](http://www.enlanube.com.co)
 * [EVRY](https://www.evry.com)
 * [Exaserve](http://www.exaserve.com)
+* [FiberCloud](http://www.fibercloud.com)
+* [FortaCloud](http://www.fortacloud.co)
+* [Heinlein Support GmbH](http://www.heinlein-support.de)
+* [Imperial College](http://www.imperial.ac.uk/computing)
+* [InhouseIT](http://www.inhouseit.com)
 * [INRIA](http://inria.fr)
 * [Kumo](http://kumo.com.co)
 * [M5 Hosting Inc](http://m5cloud.com)
 * [Melbourne University](http://nectar.org.au)
+* [Miriadis](http://www.miriadis.com)
 * [Neobitti](http://neobitti.fi)
+* [Openminds](http://www.openminds.be)
 * [Overweb srl](http://stacksquare.com)
+* [Polcom](http://polcom.com.pl)
 * [Reliable Networks](http://www.reliablenetworks.com)
 * [Redbridge](http://www.redbridge.se)
 * [SafeSwiss Cloud](https://www.safeswisscloud.ch)
 * [SJC Inc](http://www.sjcloud.cn/index.xhtml)
+* [Telia Latvia](http://www.telia.lv)
+* [Tranquil Hosting](http://www.tqhosting.com)
+* [Treestle BV](http://www.liquidns.com)
 * [Tucha](http://tucha.ua)
+* [University of Cologne](http://rrzk.uni-koeln.de/)
 * [UPCnet](http://www.upcnet.es)
+* [VDI Space, Inc](http://www.vdispace.com)
 * [wirenc.com](http://www.wirenc.com)
 * [Youngsoft Inc](http://youngsoft.com)
 * [Zeromachine](http://zeromachine.net)
@@ -229,5 +245,4 @@ If you noticed something wrong  with your entry here (or if you’d like us to r
 * Xtendsys
 * Zajil Telecom
 * Zenoss
-* Zynga 
-
+* Zynga
