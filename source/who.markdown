@@ -87,6 +87,7 @@ Active list of committers (in alphabetical order of their usernames)
 |bfederle|Brian Federle|
 |bhaisaab|Rohit Yadav|
 |brett|Brett Porter|
+|boris|Boris Schrijver|
 |chipchilders|Chip Childers|
 |chiradeep|Chiradeep Vittal|
 |claytonweise|Clayton Weise|
