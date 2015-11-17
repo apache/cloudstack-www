@@ -68,6 +68,9 @@ title: Apache CloudStack Downloads
 <li>CentOS/RHEL 7 RPM package repository: <a href="http://cloudstack.apt-get.eu/centos7/">http://cloudstack.apt-get.eu/centos7/</a></li>
 </ul>
 
+<p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.6/management-server/index.html#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
+
+
 <h4>Release Notes for CloudStack 4.6.0</h4>
 
 <p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.6.0/">Version 4.6.0 Release Notes</a> document.</p>
@@ -76,8 +79,6 @@ title: Apache CloudStack Downloads
 
 <p>Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.6.0 can be found in the upgrade section of the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.6.0/">Release Notes</a>.</p>
 
-
-<p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.4/installation.html#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
 
 <h4>Release Notes for CloudStack 4.5.2</h4>
 
