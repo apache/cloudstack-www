@@ -26,7 +26,16 @@ title: Apache CloudStack Downloads
 
 <h4>Source Release</h4>
 
-<p>Apache CloudStack's most current release is 4.5.2.
+<p>Apache CloudStack's most current release is 4.6.0.
+</p>
+
+<p>
+<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.6.0/apache-cloudstack-4.6.0-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the 4.6.0 Source!</button></a>
+
+<a href="http://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/4.6.0/apache-cloudstack-4.6.0-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/4.6.0/apache-cloudstack-4.6.0-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/4.6.0/apache-cloudstack-4.6.0-src.tar.bz2.sha"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
 </p>
 
 <p>
@@ -48,15 +57,6 @@ title: Apache CloudStack Downloads
 
 </p>
 
-<p>
-<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.3.2/apache-cloudstack-4.3.2-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the 4.3.2 Source!</button></a>
-
-<a href="http://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/4.3.2/apache-cloudstack-4.3.2-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/4.3.2/apache-cloudstack-4.3.2-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/4.3.2/apache-cloudstack-4.3.2-src.tar.bz2.sha"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
-
-</p>
 
 <h4>Packages</h4>
 
@@ -64,11 +64,21 @@ title: Apache CloudStack Downloads
 
 <ul>
 <li>DEB package repository: <a href="http://cloudstack.apt-get.eu/ubuntu">http://cloudstack.apt-get.eu/ubuntu</a></li>
-<li>RPM package repository: <a href="http://cloudstack.apt-get.eu/rhel/">http://cloudstack.apt-get.eu/rhel/</a></li>
-<li>CloudStack Packages by ShapeBlue: <a href="http://shapeblue.com/packages/">http://shapeblue.com/packages</a></li>
+<li>CentOS/RHEL 6 RPM package repository: <a href="http://cloudstack.apt-get.eu/rhel/">http://cloudstack.apt-get.eu/rhel/</a></li>
+<li>CentOS/RHEL 7 RPM package repository: <a href="http://cloudstack.apt-get.eu/centos7/">http://cloudstack.apt-get.eu/centos7/</a></li>
 </ul>
 
-<p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.4/installation.html#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
+<p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.6/management-server/index.html#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
+
+
+<h4>Release Notes for CloudStack 4.6.0</h4>
+
+<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.6.0/">Version 4.6.0 Release Notes</a> document.</p>
+
+<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.6/">Installation Guide</a>.</p>
+
+<p>Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.6.0 can be found in the upgrade section of the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.6.0/">Release Notes</a>.</p>
+
 
 <h4>Release Notes for CloudStack 4.5.2</h4>
 
@@ -86,15 +96,6 @@ title: Apache CloudStack Downloads
 <p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.4/">Installation Guide</a>.</p>
 
 <p>Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.4.4 can be found in the upgrade section of the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.4.4/">Release Notes</a>.</p>
-
-
-<h4>Release Notes for CloudStack 4.3.2</h4>
-
-<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.3.2/">Version 4.3.2 Release Notes</a> document.</p>
-
-<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.3/">Installation Guide</a>.</p>
-
-<p>Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.3.2 can be found in the upgrade section of the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.3.2/">Release Notes</a>.</p>
 
 
 </div>
