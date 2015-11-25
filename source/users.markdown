@@ -224,6 +224,7 @@ If you noticed something wrong  with your entry here (or if you’d like us to r
 * Stratosec
 * SunGard AS
 * SwiftStack
+* SWISS TXT
 * Taiwan Mobile
 * Targus Technologies
 * Tata
