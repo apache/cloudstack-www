@@ -24,7 +24,7 @@ title: Apache CloudStack Downloads
 
 <h2>Latest CloudStack Release</h2>
 
-<h4>Source Release</h4>
+<h4>Official Source Release</h4>
 
 <p>Apache CloudStack's most current release is 4.6.0.
 </p>
@@ -58,7 +58,7 @@ title: Apache CloudStack Downloads
 </p>
 
 
-<h4>Packages</h4>
+<h4>Third Party Packages (not endorsed by Apache)</h4>
 
 <p>For easier installation or upgrades, the official source code release has been supplemented by community members who have chosen to provide package repositories.</p>
 
@@ -66,6 +66,7 @@ title: Apache CloudStack Downloads
 <li>DEB package repository: <a href="http://cloudstack.apt-get.eu/ubuntu">http://cloudstack.apt-get.eu/ubuntu</a></li>
 <li>CentOS/RHEL 6 RPM package repository: <a href="http://cloudstack.apt-get.eu/rhel/">http://cloudstack.apt-get.eu/rhel/</a></li>
 <li>CentOS/RHEL 7 RPM package repository: <a href="http://cloudstack.apt-get.eu/centos7/">http://cloudstack.apt-get.eu/centos7/</a></li>
+<li>CloudStack Packages by ShapeBlue: <a href="http://shapeblue.com/packages/">http://shapeblue.com/packages</a></li>
 </ul>
 
 <p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.6/management-server/index.html#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
