@@ -1,5 +1,5 @@
 ---
-title:  Apache CloudStack: Open Source Cloud Computing
+title:  Apache CloudStack Open Source Cloud Computing
 ---
 
 ##<i class="icon-cloud"></i> Understanding Apache CloudStack
