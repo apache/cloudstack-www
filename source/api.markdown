@@ -23,6 +23,12 @@ we would welcome your help, please file a bug in the
 [CloudStack bug tracker](https://issues.apache.org/jira/browse/CLOUDSTACK)
 or by submitting a patch.
 
+## 4.8.x
+
+* [Root Admin API](api/apidocs-4.8/TOC_Root_Admin.html)
+* [Domain Admin API](api/apidocs-4.8/TOC_Domain_Admin.html)
+* [User API](api/apidocs-4.8/TOC_User.html)
+
 ## 4.7.x
 
 * [Root Admin API](api/apidocs-4.7/TOC_Root_Admin.html)
