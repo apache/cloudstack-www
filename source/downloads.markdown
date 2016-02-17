@@ -26,26 +26,26 @@ title: Apache CloudStack Downloads
 
 <h4>Source Release</h4>
 
-<p>Apache CloudStack's most current release is 4.7.0.
+<p>Apache CloudStack's most current release is 4.8.0.
 </p>
 
 <p>
-<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.7.0/apache-cloudstack-4.7.0-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the 4.7.0 Source!</button></a>
+<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.8.0/apache-cloudstack-4.8.0-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the 4.8.0 Source!</button></a>
 
 <a href="http://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/4.7.0/apache-cloudstack-4.7.0-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/4.7.0/apache-cloudstack-4.7.0-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/4.7.0/apache-cloudstack-4.7.0-src.tar.bz2.sha"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/4.8.0/apache-cloudstack-4.8.0-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/4.8.0/apache-cloudstack-4.8.0-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/4.8.0/apache-cloudstack-4.8.0-src.tar.bz2.sha"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
+
 </p>
 
 <p>
-<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.6.2/apache-cloudstack-4.6.2-src.tar.bz2"><button type="button" class="btn btn-primary btn-md">Get the 4.6.2 Source!</button></a>
+<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.7.1/apache-cloudstack-4.7.1-src.tar.bz2"><button type="button" class="btn btn-primary btn-md">Get the 4.7.1 Source!</button></a>
 
 <a href="http://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/4.6.2/apache-cloudstack-4.6.2-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/4.6.2/apache-cloudstack-4.6.2-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/4.6.2/apache-cloudstack-4.6.2-src.tar.bz2.sha"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
-
+<a href="http://www.apache.org/dist/cloudstack/releases/4.7.1/apache-cloudstack-4.7.1-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/4.7.1/apache-cloudstack-4.7.1-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/4.7.1/apache-cloudstack-4.7.1-src.tar.bz2.sha"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
 </p>
 
 <p>
@@ -124,21 +124,22 @@ Additionally, you can verify the MD5 or SHA512 signatures on the files.
 </div>
                 
 
-<h4>Release Notes for CloudStack 4.7.0</h4>
+<h4>Release Notes for CloudStack 4.8.0</h4>
 
-<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.7.0/">Version 4.7.0 Release Notes</a> document.</p>
+<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.8.0/">Version 4.8.0 Release Notes</a> document.</p>
+
+<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.8/">Installation Guide</a>.</p>
+
+<p>Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.8.0 can be found in the upgrade section of the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.8.0/">Release Notes</a>.</p>
+
+
+<h4>Release Notes for CloudStack 4.7.1</h4>
+
+<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.7.0/">Version 4.7.1 Release Notes</a> document.</p>
 
 <p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.7/">Installation Guide</a>.</p>
 
-<p>Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.7.0 can be found in the upgrade section of the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.7.0/">Release Notes</a>.</p>
-
-<h4>Release Notes for CloudStack 4.6.2</h4>
-
-<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.6.2/">Version 4.6.2 Release Notes</a> document.</p>
-
-<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.6/">Installation Guide</a>.</p>
-
-<p>Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.6.2 can be found in the upgrade section of the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.6.2/">Release Notes</a>.</p>
+<p>Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.7.1 can be found in the upgrade section of the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.7.0/">Release Notes</a>.</p>
 
 
 <h4>Release Notes for CloudStack 4.5.2</h4>
