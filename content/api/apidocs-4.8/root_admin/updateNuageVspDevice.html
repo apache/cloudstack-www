@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../includes/main.css" type="text/css">
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+<title>Apache CloudStack | The Power Behind Your Cloud</title>
+</head>
+<body>
+<div id="insidetopbg">
+<div id="inside_wrapper">
+<div class="uppermenu_panel">
+<div class="uppermenu_box"></div>
+</div>
+<div id="main_master">
+<div id="inside_header">
+<div class="header_top">
+<a class="cloud_logo" href="http://cloudstack.org"></a>
+<div class="mainemenu_panel"></div>
+</div>
+</div>
+<div id="main_content">
+<div class="inside_apileftpanel">
+<div class="inside_contentpanel" style="width:930px;">
+<div class="api_titlebox">
+<div class="api_titlebox_left">
+<span>
+									Apache CloudStack v4.8.0 Root Admin API Reference
+								</span>
+<p></p>
+<h1>updateNuageVspDevice</h1>
+<p>Update a Nuage VSP device</p>
+</div>
+<div class="api_titlebox_right">
+<a class="api_backbutton" href="../TOC_Root_Admin.html"></a>
+</div>
+</div>
+<div class="api_tablepanel">
+<h2>Request parameters</h2>
+<table class="apitable">
+<tr class="hed">
+<td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>physicalnetworkid</strong></td><td style="width:500px;"><strong>the ID of the physical network in to which Nuage VSP is added</strong></td><td style="width:180px;"><strong>true</strong></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>apiversion</i></td><td style="width:500px;"><i>the version of the API to use to communicate to Nuage VSD</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>hostname</i></td><td style="width:500px;"><i>the hostname of the Nuage VSD</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>password</i></td><td style="width:500px;"><i>the password of CMS user in Nuage VSD</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>port</i></td><td style="width:500px;"><i>the port to communicate to Nuage VSD</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>retrycount</i></td><td style="width:500px;"><i>the number of retries on failure to communicate to Nuage VSD</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>retryinterval</i></td><td style="width:500px;"><i>the time to wait after failure before retrying to communicate to Nuage VSD</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>username</i></td><td style="width:500px;"><i>the user name of the CMS user in Nuage VSD</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+</table>
+</div>
+<div class="api_tablepanel">
+<h2>Response Tags</h2>
+<table class="apitable">
+<tr class="hed">
+<td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>apiversion</strong></td><td style="width:500px;">the version of the API to use to communicate to Nuage VSD</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>hostname</strong></td><td style="width:500px;">the hostname of the Nuage VSD</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>nuagedevicename</strong></td><td style="width:500px;">the name of the Nuage VSP device</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>physicalnetworkid</strong></td><td style="width:500px;">the ID of the physical network to which this Nuage VSP belongs to</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>port</strong></td><td style="width:500px;">the port to communicate to Nuage VSD</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>provider</strong></td><td style="width:500px;">the service provider name corresponding to this Nuage VSP device</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>retrycount</strong></td><td style="width:500px;">the number of retries on failure to communicate to Nuage VSD</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>retryinterval</strong></td><td style="width:500px;">the time to wait after failure before retrying to communicate to Nuage VSD</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>vspdeviceid</strong></td><td style="width:500px;">the device id of the Nuage VSD</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="comments_thread">
+<script type="text/javascript" src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+<noscript>
+<iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+</noscript>
+</div>
+<div id="footer_mainmaster">
+<p>Copyright &copy; 2016 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+<br>
+                Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
