@@ -25,13 +25,19 @@ Active Project Management Committee contains (in alphabetical order of their use
 {:.table-bordered}
 | Username | Name |
 |----------|------|
+|ahuang|Alex Huang|
 |akarasulu|Alex Karasulu|
 |alena1108|Alena Prokharchyk|
 |animesh|Animesh|
 |bhaisaab|Rohit Yadav|
+|boris|Boris Schrijver|
 |chipchilders|Chip Childers|
 |chiradeep|Chiradeep Vittal|
 |dahn|Daan|
+|duffy|Ian Duffy|
+|edison|Disheng Su|
+|ekho|Wilder Rodrigues|
+|erikw|Erik Weber|
 |giles|Giles Sirett|
 |gochiba|Go Chiba|
 |hogstrom|Matt Richard Hogstrom|
@@ -41,6 +47,7 @@ Active Project Management Committee contains (in alphabetical order of their use
 |jim|Jim Jagielski|
 |jlk|John Kinsella|
 |jzb|Joe Brockmeier|
+|karenv|Karen Vuong|
 |ke4qqq|David Nalley|
 |kluge|Kevin Kluge|
 |milamber|Bruno Demion|
@@ -50,8 +57,10 @@ Active Project Management Committee contains (in alphabetical order of their use
 |mtutkowski|Mike Tutkowski|
 |nslater|Noah Slater|
 |nux|Nux|
+|olamy|Olivier Lamy|
 |pdion891|Pierre-Luc Dion|
 |rajani|Rajani Karuturi|
+|remi|Remi Bergsma|
 |sebgoa|Sebastien Goasguen|
 |swill|Will Stevens|
 |tsp|Prasanna|
@@ -83,8 +92,8 @@ Active list of committers (in alphabetical order of their usernames)
 |aprateek|Abhinandan Prateek|
 |bfederle|Brian Federle|
 |bhaisaab|Rohit Yadav|
-|brett|Brett Porter|
 |boris|Boris Schrijver|
+|brett|Brett Porter|
 |chipchilders|Chip Childers|
 |chiradeep|Chiradeep Vittal|
 |claytonweise|Clayton Weise|
@@ -152,6 +161,7 @@ Active list of committers (in alphabetical order of their usernames)
 |pranavs|Pranav Saxena|
 |pyr|Pierre-Yves Ritschard|
 |radhika|Radhika Nair|
+|rafael|Rafael Weingärtner|
 |rajani|Rajani Karuturi|
 |rajeshbattala|Rajesh Battala|
 |remi|Remi Bergsma|
