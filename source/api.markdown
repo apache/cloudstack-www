@@ -25,7 +25,7 @@ or by submitting a patch.
 
 ## 4.9.x
 
-* [All API](./api/apidocs-4.9/index.html)
+* [All API](api/apidocs-4.9/index.html)
 
 ## 4.8.x
 
