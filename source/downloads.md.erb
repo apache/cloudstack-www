@@ -35,8 +35,7 @@ title: Apache CloudStack Downloads
 </p>
 
 <p>
-    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/<%= data.cloudstack.versions.main %>
-    /apache-cloudstack-<%= data.cloudstack.versions.main %>-src.tar.bz2">
+    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/<%= data.cloudstack.versions.main %>/apache-cloudstack-<%= data.cloudstack.versions.main %>-src.tar.bz2">
         <button type="button" class="btn btn-primary btn-lg">
             Get the <%= data.cloudstack.versions.main %> Source!
         </button>
@@ -65,8 +64,7 @@ title: Apache CloudStack Downloads
 
 <% data.cloudstack.versions.others.each do |other_version| %>
 <p>
-    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/<%= other_version %>
-    /apache-cloudstack-<%= other_version %>-src.tar.bz2">
+    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/<%= other_version %>/apache-cloudstack-<%= other_version %>-src.tar.bz2">
         <button type="button" class="btn btn-primary btn-md">
             Get the <%= other_version %> Source!
         </button>
@@ -106,7 +104,7 @@ title: Apache CloudStack Downloads
     <li>CentOS/RHEL 7 RPM repository: <a href="http://cloudstack.apt-get.eu/centos/7/">http://cloudstack.apt-get.eu/centos/7/</a></li>
 </ul>
 
-<p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.8/management-server/index.html#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
+<p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/<%= data.cloudstack.versions.branch %>/management-server/index.html#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
 
 
 <h4>Third-Party Distributions</h4>
