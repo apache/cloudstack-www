@@ -40,6 +40,7 @@ If you noticed something wrong  with your entry here (or if you’d like us to r
 * [DataCentrix](http://www.datacentrix.co.za)
 * [Datapipe](http://www.datapipe.com)
 * [DATAWAYS SA](http://www.dataways.gr)
+* [Delimiter Corp](https://www.delimiter.com/)
 * [En La Nube](http://www.enlanube.com.co)
 * [EVRY](https://www.evry.com)
 * [Exaserve](http://www.exaserve.com)
