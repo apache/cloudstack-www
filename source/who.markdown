@@ -32,6 +32,7 @@ Active Project Management Committee contains (in alphabetical order of their use
 |chipchilders|Chip Childers|
 |chiradeep|Chiradeep Vittal|
 |dahn|Daan|
+|ekho|Wilder Rodrigues|
 |giles|Giles Sirett|
 |gochiba|Go Chiba|
 |hogstrom|Matt Richard Hogstrom|
@@ -41,6 +42,7 @@ Active Project Management Committee contains (in alphabetical order of their use
 |jim|Jim Jagielski|
 |jlk|John Kinsella|
 |jzb|Joe Brockmeier|
+|karenv|Karen Vuong|
 |ke4qqq|David Nalley|
 |kluge|Kevin Kluge|
 |milamber|Bruno Demion|
@@ -96,7 +98,6 @@ Active list of committers (in alphabetical order of their usernames)
 |devdeep|Devdeep Singh|
 |duffy|Ian Duffy|
 |edison|Disheng Su|
-|ekho|Wilder Rodrigues|
 |erikw|Erik Weber|
 |frankzhang|Xin Zhang|
 |gaurav|Gaurav Nandkumar Aradhye|
@@ -119,7 +120,6 @@ Active list of committers (in alphabetical order of their usernames)
 |jlk|John Kinsella|
 |jtomechak|Jessica Tomechak|
 |jzb|Joe Brockmeier|
-|karenv|Karen Vuong|
 |kawai|Hiroaki Kawai|
 |kdamage|Kelcey Damage|
 |ke4qqq|David Nalley|
