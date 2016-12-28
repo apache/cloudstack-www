@@ -143,6 +143,7 @@ Active list of committers (in alphabetical order of their usernames)
 |noa|Noa Resare|
 |nslater|Noah Slater|
 |nux|Nux|
+|nvazquez|Nicolás Vázquez|
 |olamy|Olivier Lamy|
 |olgasmola|Olga Smola|
 |paul_a|Paul Angus|
@@ -165,6 +166,7 @@ Active list of committers (in alphabetical order of their usernames)
 |sateesh|Sateesh Chodapuneedi|
 |schhen|Sonny Heng Chhen|
 |sebgoa|Sebastien Goasguen|
+|serg38|Sergey Levitskiy|
 |slriv|Sam Robertson|
 |snuf|Funs Kessen|
 |sowmya|Sowmya Krishnan|
