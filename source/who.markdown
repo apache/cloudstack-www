@@ -139,6 +139,7 @@ Active list of committers (in alphabetical order of their usernames)
 |msinhore|Marco Sinhoreli|
 |mtutkowski|Mike Tutkowski|
 |muralireddy|Murali Mohan Reddy|
+|nvazquez|Nicolás Vázquez|
 |nitin|Nitin|
 |noa|Noa Resare|
 |nslater|Noah Slater|
