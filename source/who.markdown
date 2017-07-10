@@ -55,13 +55,16 @@ Active Project Management Committee contains (in alphabetical order of their use
 |mnour|Mohammad Nour El-Din|
 |mrhinkle|Mark R. Hinkle|
 |mtutkowski|Mike Tutkowski|
-|nslater|Noah Slater|
+|nslater|Naomi Slater|
 |nux|Nux|
 |olamy|Olivier Lamy|
+|paul_a|Paul Angus|
 |pdion891|Pierre-Luc Dion|
+|rafael|Rafael Weingärtner|
 |rajani|Rajani Karuturi|
 |remi|Remi Bergsma|
 |sebgoa|Sebastien Goasguen|
+|sweller|Simon Weller|
 |swill|Will Stevens|
 |tsp|Prasanna|
 |widodh|Wido den Hollander|
@@ -150,7 +153,7 @@ Active list of committers (in alphabetical order of their usernames)
 |muralireddy|Murali Mohan Reddy|
 |nitin|Nitin|
 |noa|Noa Resare|
-|nslater|Noah Slater|
+|nslater|Naomi Slater|
 |nux|Nux|
 |nvazquez|Nicolás Vázquez|
 |olamy|Olivier Lamy|
@@ -182,7 +185,9 @@ Active list of committers (in alphabetical order of their usernames)
 |sowmya|Sowmya Krishnan|
 |sudhap|Sudhap|
 |swamy|Venkata Swamy|
+|sweller|Simon Weller|
 |swill|Will Stevens|
+|syed|Syed Ahmed|
 |talluri|Srikanteswararao Talluri|
 |tsp|Prasanna|
 |tuna|Anh Tu Nguyen|
