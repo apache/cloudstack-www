@@ -16,41 +16,93 @@ To serve it locally:
 
     $ middleman server
 	
-#Building
+# Building
 To build the HTML files, you just need to execute the `build.sh`. The script will automatically generate the HTML files and then move them to the `content` folder.
 
-# Commiting 
-Use GitHub PR to make changes. **No one should commit directly to Apache remote repositories without opening a PR and waiting for proper review**.
-If you got the feedback and have amended the changes (if needed), it is time to **commit** the changes to **Apache Software Foundation (AFS) remote repository**. The ASF remote repository for this project is: `https://git-wip-us.apache.org/repos/asf/cloudstack-www.git`
+# Committing
+Use a GitHub PR to make changes to the live site. **No one should commit directly to the repositories without opening a PR and waiting for proper review**.  
+Once the PR has incorporated all of the feedback from the review process, it is time to **commit** the changes.  Merging the PR into `master` will not publish the changes to the live website, the following steps are required to make the live site reflect the status of the `master` branch.
 
-**IMPORTANT:** To publish your changes, you should commit into the **asf-site** branch (pay attention, this is the name of the branch in the remote repository). **Do not forget**, you also have to commit the same changes to the master; so, **master** and **asf-site** branches are synchronized.
+**IMPORTANT:** In order to publish changes to the live site, you must commit into the `asf-site` branch.  It is very important that the `master` branch stays synchronized with the the `asf-site` branch.
 
-The **asf-site** branch is synchronized with a web server that delivers the Apache CloudStack web pages.
+The ASF maintains and integration which automatically publishes the content of the `asf-site` branch to a web server that delivers the Apache CloudStack web pages.
 
 GOTCHA, the `build` directory needs to be renamed to `content` in the asf-site branch for the site to be served properly; If you use the `build.sh` script, this step is already taken care of.
 
-## Step by step
-* Fork the repo to your own Github: `<your_github_user>`. To do that, you can access `https://github.com/apache/cloudstack-www` and click on `fork` on the right upper corner of the page.
-* Then, you can clone to you local git repo using: `git clone`; e.g. `git clone https://github.com/apache/cloudstack-www.git` or `git clone https://github.com/<your_github_user>/cloudstack-www.git`
+## Step by Step
+* Fork this repo to your Github account: `<your_github_user>`. To do that, navigate to `https://github.com/apache/cloudstack-www` and click `fork` in the top right corner of the page.
+* Then, clone your fork to your local workstation: `git clone git@github.com:<your_github_user>/cloudstack-www.git`
+* Cloning this way will make your Github fork the `origin` remote.
 * `cd cloudstack-www`
-* __This step is only required for committers:__ (add the ASF remote repo) `git remote add upstream https://git-wip-us.apache.org/repos/asf/cloudstack-www.git`
-* if you have cloned  directly from Apache namespace on Github, then you need to add your namespace on Github as well, `git remote add <your_github_user> https://github.com/<your_github_user>/cloudstack-www.git`
-* (get the master branch): `git checkout -b master origin/master` or `git checkout -b master <your_github_user>/master`
-* Now, it is your turn to make the changes you want
-* `middleman build` will build/"compile" the HTML files from the sources
-* ` middleman server [-p <portnumber>]`. This will serve/deliver your HTML files over HTTP. You just gotta access them using a browser; e.g. `http://localhost:[port_configured]`. **Check your changes!!**
-* Execute `./build.sh`
-* `git add -A`
-* `git commit -am "your commit message"`
-* `git push `<your_github_user>` master`
-* Check if the changes appear properly on your Github project, and then create a PR against the Apache `cloudstack-www` repo.
-* Get feedback on the PR and proceed once PR review is accepted
-* If you are not a committer, your job finishes here. Congratulations you have made the Apache CloudStack website better  :thumbsup:
-* Continuing, for committers. Clone or add the repo of our contributor on Github using `git remote add <friend_contributor> https://github.com/<friend_contributor>/cloudstack-www.git`
-* `git checkout asf-site`
-* `git merge <repo_where_the_changes_are>/master`; e.g. `git merge <friend_contributor>/master` or `git merge <your_github_user>/master`
-* `git log -p`. Check if the changes were properly merged.
-* `git push upstream asf-site`
-* `git push upstream master`
-* The site will automatically be published live. This should not take long; if the changes are not showing up, check your browser cache. If changes do not show up and you have no idea why, call someone on `devs` mailing list.
-* Verify the changes on the live site. After this, your job is done, thank you very much for helping to improve the Apache CloudStack website :thumbsup:
+* Add the official repo as the `upstream` remote: `git remote add upstream git@github.com:apache/cloudstack-www.git`
+
+
+**Sync Local with Upstream**  
+```bash
+git checkout master
+git fetch upstream
+git rebase master upstream/master
+```
+
+
+**Make Changes**  
+```bash
+# make source changes, then
+./build.sh
+middleman server [-p <portnumber>]
+# view at: http://localhost:[portnumber]
+# rinse and repeat
+```
+
+
+**Commit Locally**  
+```bash
+git add .
+git commit -am "your commit message"
+git push origin master
+```
+
+
+**Create a PR**  
+* Confirm the changes appear correctly on your Github account.
+* Create a Pull Request against the `https://github.com/apache/cloudstack-www` repo.
+
+
+**COMMITTER: Validate a PR Locally**  
+Note: The following instructions assume the `<contributor>` made their changes on their `master` branch.
+
+```bash
+# validate contributor changes
+cd /tmp
+git clone https://github.com/<contributor>/cloudstack-www.git
+cd cloudstack-www
+git checkout master
+./build.sh
+middleman server [-p <portnumber>]
+# visually validate changes at: http://localhost:[portnumber]
+```
+
+
+**COMMITTER: Merge & Deploy**  
+Merge the PR into `master` using the Github UI.
+
+Once the PR has been merged into `master`, do the following to publish the content.
+```bash
+git fetch upstream
+git checkout master
+git rebase master upstream/master
+./build.sh  # updates the content directory
+middleman server [-p <portnumber>]
+# visually validate changes at: http://localhost:[portnumber]
+git status
+# check if `./build.sh` added files
+# if there are untracked changes
+git add .
+git commit -am "updated PR#### to include compiled content"
+git push upstream master
+# if no untracked files or if you merged them into master
+git checkout asf-site
+git merge master
+git push upstream asf-site
+# validate the site updated at: https://cloudstack.apache.org
+```
