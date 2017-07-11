@@ -41,7 +41,7 @@ NOTE: The content of the `build` directory needs to be copied to the `content` i
 ```bash
 git checkout master
 git fetch upstream
-git rebase master upstream/master
+git pull upstream master
 ```
 
 
@@ -91,7 +91,7 @@ Once the PR has been merged into `master`, do the following to publish the conte
 ```bash
 git fetch upstream
 git checkout master
-git rebase master upstream/master
+git pull upstream master
 ./build.sh  # updates the content directory
 middleman server [-p <portnumber>]
 # visually validate changes at: http://localhost:[portnumber]
