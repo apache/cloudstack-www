@@ -1,10 +1,9 @@
 versions:
-  main: 4.9.2.0
-  branch: 4.9
-  others:
-    - 4.8.1.1
+  main: 4.10.0.0
+  branch: 4.10
   archives:
     - 4.9:
+       - 4.9.2.0
        - 4.9.1.0
        - 4.9.0.1
        - 4.9.0
