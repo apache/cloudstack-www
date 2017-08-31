@@ -1,0 +1,78 @@
+<div class="row">
+
+<div class="col-lg-12">
+
+<div class="page-header">
+
+<h1 id="indicators">Apache CloudStack: deprecated API</h1>
+
+</div>
+
+</div>
+
+</div>
+
+<p>Below are API reference material for older version of Apache CloudStack, provided by major feature version.  Each feature version supports three levels of access, and the available API commands for each level are provided seperately.</p>
+
+<p>If you find problems or see ways in which this API reference can be enhanced
+we would welcome your help, please file a bug in the
+<a href="https://issues.apache.org/jira/browse/CLOUDSTACK">CloudStack bug tracker</a>
+or by submitting a patch.</p>
+
+<h2 id="x">4.6.x</h2>
+
+<ul>
+  <li><a href="api/apidocs-4.6/TOC_Root_Admin.html">Root Admin API</a></li>
+  <li><a href="api/apidocs-4.6/TOC_Domain_Admin.html">Domain Admin API</a></li>
+  <li><a href="api/apidocs-4.6/TOC_User.html">User API</a></li>
+</ul>
+
+<h2 id="x-1">4.5.x</h2>
+
+<ul>
+  <li><a href="api/apidocs-4.5/TOC_Root_Admin.html">Root Admin API</a></li>
+  <li><a href="api/apidocs-4.5/TOC_Domain_Admin.html">Domain Admin API</a></li>
+  <li><a href="api/apidocs-4.5/TOC_User.html">User API</a></li>
+</ul>
+
+<h2 id="x-2">4.4.x</h2>
+
+<ul>
+  <li><a href="api/apidocs-4.4/TOC_Root_Admin.html">Root Admin API</a></li>
+  <li><a href="api/apidocs-4.4/TOC_Domain_Admin.html">Domain Admin API</a></li>
+  <li><a href="api/apidocs-4.4/TOC_User.html">User API</a></li>
+</ul>
+
+<h2 id="x-3">4.3.x</h2>
+
+<ul>
+  <li><a href="api/apidocs-4.3/TOC_Root_Admin.html">Root Admin API</a></li>
+  <li><a href="api/apidocs-4.3/TOC_Domain_Admin.html">Domain Admin API</a></li>
+  <li><a href="api/apidocs-4.3/TOC_User.html">User API</a></li>
+</ul>
+
+<h2 id="x-4">4.2.x</h2>
+
+<ul>
+  <li><a href="api/apidocs-4.2/TOC_Root_Admin.html">Root Admin API</a></li>
+  <li><a href="api/apidocs-4.2/TOC_Domain_Admin.html">Domain Admin API</a></li>
+  <li><a href="api/apidocs-4.2/TOC_User.html">User API</a></li>
+</ul>
+
+<h2 id="x-5">4.1.x</h2>
+
+<ul>
+  <li><a href="api/apidocs-4.1/TOC_Root_Admin.html">Root Admin API</a></li>
+  <li><a href="api/apidocs-4.1/TOC_Domain_Admin.html">Domain Admin API</a></li>
+  <li><a href="api/apidocs-4.1/TOC_User.html">User API</a></li>
+</ul>
+
+<h2 id="x-6">4.0.x</h2>
+
+<ul>
+  <li><a href="api/apidocs-4.0.0/TOC_Root_Admin.html">Root Admin API</a></li>
+  <li><a href="api/apidocs-4.0.0/TOC_Domain_Admin.html">Domain Admin API</a></li>
+  <li><a href="api/apidocs-4.0.0/TOC_User.html">User API</a></li>
+</ul>
+
+<p>Latest API documentation is located in the <a href="api.html">API page</a>.</p>

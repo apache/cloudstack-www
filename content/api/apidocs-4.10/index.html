@@ -1,0 +1,2156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="includes/main.css" type="text/css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<title>CloudStack API Reference</title>
+</head>
+<body>
+<div id="insidetopbg">
+<div id="inside_wrapper">
+<div class="uppermenu_panel">
+<div class="uppermenu_box"></div>
+</div>
+<div id="main_master">
+<div id="inside_header">
+<div class="header_top">
+<a class="cloud_logo" href="http://cloudstack.org"></a>
+<div class="mainemenu_panel"></div>
+</div>
+</div>
+<div id="main_content">
+<div class="inside_apileftpanel">
+<div class="inside_contentpanel" style="width:930px;">
+<h1>Apache CloudStack API Documentation (v4.9.0)</h1>
+<a class="api_backbutton" href="http://cloudstack.apache.org/docs/api/"></a>
+<div class="apiannouncement_box">
+<div class="apiannouncement_contentarea">
+<h3>Using the CloudStack API</h3>
+<p>For information about how the APIs work, and tips on how to use them, see the
+                                    <a href="http://docs.cloudstack.apache.org/en/latest/dev.html">Developer's Guide</a>.</p>
+</div>
+</div>
+<div class="api_leftsections">
+<h3>All APIs</h3>
+<span>Commands available through the developer API URL and the integration API URL.</span>
+<div class="api_legends">
+<p>
+<span class="api_legends_async">(A)</span> implies that the command is asynchronous.</p>
+<p>(*) implies element has a child.</p>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Load Balancer</h5>
+<ul>
+<li>
+<a href="apis/addNetscalerLoadBalancer.html">addNetscalerLoadBalancer (A)</a>
+</li>
+<li>
+<a href="apis/assignCertToLoadBalancer.html">assignCertToLoadBalancer (A)</a>
+</li>
+<li>
+<a href="apis/assignToGlobalLoadBalancerRule.html">assignToGlobalLoadBalancerRule (A)</a>
+</li>
+<li>
+<a href="apis/assignToLoadBalancerRule.html">assignToLoadBalancerRule (A)</a>
+</li>
+<li>
+<a href="apis/configureNetscalerLoadBalancer.html">configureNetscalerLoadBalancer (A)</a>
+</li>
+<li>
+<a href="apis/createGlobalLoadBalancerRule.html">createGlobalLoadBalancerRule (A)</a>
+</li>
+<li>
+<a href="apis/createLBHealthCheckPolicy.html">createLBHealthCheckPolicy (A)</a>
+</li>
+<li>
+<a href="apis/createLBStickinessPolicy.html">createLBStickinessPolicy (A)</a>
+</li>
+<li>
+<a href="apis/createLoadBalancer.html">createLoadBalancer (A)</a>
+</li>
+<li>
+<a href="apis/createLoadBalancerRule.html">createLoadBalancerRule (A)</a>
+</li>
+<li>
+<a href="apis/deleteGlobalLoadBalancerRule.html">deleteGlobalLoadBalancerRule (A)</a>
+</li>
+<li>
+<a href="apis/deleteLBHealthCheckPolicy.html">deleteLBHealthCheckPolicy (A)</a>
+</li>
+<li>
+<a href="apis/deleteLBStickinessPolicy.html">deleteLBStickinessPolicy (A)</a>
+</li>
+<li>
+<a href="apis/deleteLoadBalancer.html">deleteLoadBalancer (A)</a>
+</li>
+<li>
+<a href="apis/deleteLoadBalancerRule.html">deleteLoadBalancerRule (A)</a>
+</li>
+<li>
+<a href="apis/deleteNetscalerLoadBalancer.html">deleteNetscalerLoadBalancer (A)</a>
+</li>
+<li>
+<a href="apis/deleteSslCert.html">deleteSslCert</a>
+</li>
+<li>
+<a href="apis/listGlobalLoadBalancerRules.html">listGlobalLoadBalancerRules</a>
+</li>
+<li>
+<a href="apis/listLBHealthCheckPolicies.html">listLBHealthCheckPolicies</a>
+</li>
+<li>
+<a href="apis/listLBStickinessPolicies.html">listLBStickinessPolicies</a>
+</li>
+<li>
+<a href="apis/listLoadBalancerRuleInstances.html">listLoadBalancerRuleInstances</a>
+</li>
+<li>
+<a href="apis/listLoadBalancerRules.html">listLoadBalancerRules</a>
+</li>
+<li>
+<a href="apis/listLoadBalancers.html">listLoadBalancers</a>
+</li>
+<li>
+<a href="apis/listNetscalerLoadBalancers.html">listNetscalerLoadBalancers</a>
+</li>
+<li>
+<a href="apis/listSslCerts.html">listSslCerts</a>
+</li>
+<li>
+<a href="apis/removeCertFromLoadBalancer.html">removeCertFromLoadBalancer (A)</a>
+</li>
+<li>
+<a href="apis/removeFromGlobalLoadBalancerRule.html">removeFromGlobalLoadBalancerRule (A)</a>
+</li>
+<li>
+<a href="apis/removeFromLoadBalancerRule.html">removeFromLoadBalancerRule (A)</a>
+</li>
+<li>
+<a href="apis/updateGlobalLoadBalancerRule.html">updateGlobalLoadBalancerRule (A)</a>
+</li>
+<li>
+<a href="apis/updateLBHealthCheckPolicy.html">updateLBHealthCheckPolicy (A)</a>
+</li>
+<li>
+<a href="apis/updateLBStickinessPolicy.html">updateLBStickinessPolicy (A)</a>
+</li>
+<li>
+<a href="apis/updateLoadBalancer.html">updateLoadBalancer (A)</a>
+</li>
+<li>
+<a href="apis/updateLoadBalancerRule.html">updateLoadBalancerRule (A)</a>
+</li>
+<li>
+<a href="apis/uploadSslCert.html">uploadSslCert</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Network</h5>
+<ul>
+<li>
+<a href="apis/addNetworkServiceProvider.html">addNetworkServiceProvider (A)</a>
+</li>
+<li>
+<a href="apis/addOpenDaylightController.html">addOpenDaylightController (A)</a>
+</li>
+<li>
+<a href="apis/createNetwork.html">createNetwork</a>
+</li>
+<li>
+<a href="apis/createPhysicalNetwork.html">createPhysicalNetwork (A)</a>
+</li>
+<li>
+<a href="apis/createServiceInstance.html">createServiceInstance (A)</a>
+</li>
+<li>
+<a href="apis/createStorageNetworkIpRange.html">createStorageNetworkIpRange (A)</a>
+</li>
+<li>
+<a href="apis/dedicatePublicIpRange.html">dedicatePublicIpRange</a>
+</li>
+<li>
+<a href="apis/deleteNetwork.html">deleteNetwork (A)</a>
+</li>
+<li>
+<a href="apis/deleteNetworkServiceProvider.html">deleteNetworkServiceProvider (A)</a>
+</li>
+<li>
+<a href="apis/deleteOpenDaylightController.html">deleteOpenDaylightController (A)</a>
+</li>
+<li>
+<a href="apis/deletePhysicalNetwork.html">deletePhysicalNetwork (A)</a>
+</li>
+<li>
+<a href="apis/deleteStorageNetworkIpRange.html">deleteStorageNetworkIpRange (A)</a>
+</li>
+<li>
+<a href="apis/listNetscalerLoadBalancerNetworks.html">listNetscalerLoadBalancerNetworks</a>
+</li>
+<li>
+<a href="apis/listNetworkIsolationMethods.html">listNetworkIsolationMethods</a>
+</li>
+<li>
+<a href="apis/listNetworkServiceProviders.html">listNetworkServiceProviders</a>
+</li>
+<li>
+<a href="apis/listNetworks.html">listNetworks</a>
+</li>
+<li>
+<a href="apis/listNiciraNvpDeviceNetworks.html">listNiciraNvpDeviceNetworks</a>
+</li>
+<li>
+<a href="apis/listOpenDaylightControllers.html">listOpenDaylightControllers</a>
+</li>
+<li>
+<a href="apis/listPaloAltoFirewallNetworks.html">listPaloAltoFirewallNetworks</a>
+</li>
+<li>
+<a href="apis/listPhysicalNetworks.html">listPhysicalNetworks</a>
+</li>
+<li>
+<a href="apis/listSrxFirewallNetworks.html">listSrxFirewallNetworks</a>
+</li>
+<li>
+<a href="apis/listStorageNetworkIpRange.html">listStorageNetworkIpRange</a>
+</li>
+<li>
+<a href="apis/listSupportedNetworkServices.html">listSupportedNetworkServices</a>
+</li>
+<li>
+<a href="apis/releasePublicIpRange.html">releasePublicIpRange</a>
+</li>
+<li>
+<a href="apis/restartNetwork.html">restartNetwork (A)</a>
+</li>
+<li>
+<a href="apis/updateNetwork.html">updateNetwork (A)</a>
+</li>
+<li>
+<a href="apis/updateNetworkServiceProvider.html">updateNetworkServiceProvider (A)</a>
+</li>
+<li>
+<a href="apis/updatePhysicalNetwork.html">updatePhysicalNetwork (A)</a>
+</li>
+<li>
+<a href="apis/updateStorageNetworkIpRange.html">updateStorageNetworkIpRange (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Virtual Machine</h5>
+<ul>
+<li>
+<a href="apis/addNicToVirtualMachine.html">addNicToVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/assignVirtualMachine.html">assignVirtualMachine</a>
+</li>
+<li>
+<a href="apis/changeServiceForVirtualMachine.html">changeServiceForVirtualMachine</a>
+</li>
+<li>
+<a href="apis/cleanVMReservations.html">cleanVMReservations (A)</a>
+</li>
+<li>
+<a href="apis/deployVirtualMachine.html">deployVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/destroyVirtualMachine.html">destroyVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/expungeVirtualMachine.html">expungeVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/getVMPassword.html">getVMPassword</a>
+</li>
+<li>
+<a href="apis/listVirtualMachines.html">listVirtualMachines</a>
+</li>
+<li>
+<a href="apis/migrateVirtualMachine.html">migrateVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/migrateVirtualMachineWithVolume.html">migrateVirtualMachineWithVolume (A)</a>
+</li>
+<li>
+<a href="apis/rebootVirtualMachine.html">rebootVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/recoverVirtualMachine.html">recoverVirtualMachine</a>
+</li>
+<li>
+<a href="apis/removeNicFromVirtualMachine.html">removeNicFromVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/resetPasswordForVirtualMachine.html">resetPasswordForVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/restoreVirtualMachine.html">restoreVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/scaleVirtualMachine.html">scaleVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/startVirtualMachine.html">startVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/stopVirtualMachine.html">stopVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/updateDefaultNicForVirtualMachine.html">updateDefaultNicForVirtualMachine (A)</a>
+</li>
+<li>
+<a href="apis/updateVirtualMachine.html">updateVirtualMachine</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>VPN</h5>
+<ul>
+<li>
+<a href="apis/addVpnUser.html">addVpnUser (A)</a>
+</li>
+<li>
+<a href="apis/createRemoteAccessVpn.html">createRemoteAccessVpn (A)</a>
+</li>
+<li>
+<a href="apis/createVpnConnection.html">createVpnConnection (A)</a>
+</li>
+<li>
+<a href="apis/createVpnCustomerGateway.html">createVpnCustomerGateway (A)</a>
+</li>
+<li>
+<a href="apis/createVpnGateway.html">createVpnGateway (A)</a>
+</li>
+<li>
+<a href="apis/deleteRemoteAccessVpn.html">deleteRemoteAccessVpn (A)</a>
+</li>
+<li>
+<a href="apis/deleteVpnConnection.html">deleteVpnConnection (A)</a>
+</li>
+<li>
+<a href="apis/deleteVpnCustomerGateway.html">deleteVpnCustomerGateway (A)</a>
+</li>
+<li>
+<a href="apis/deleteVpnGateway.html">deleteVpnGateway (A)</a>
+</li>
+<li>
+<a href="apis/listRemoteAccessVpns.html">listRemoteAccessVpns</a>
+</li>
+<li>
+<a href="apis/listVpnConnections.html">listVpnConnections</a>
+</li>
+<li>
+<a href="apis/listVpnCustomerGateways.html">listVpnCustomerGateways</a>
+</li>
+<li>
+<a href="apis/listVpnGateways.html">listVpnGateways</a>
+</li>
+<li>
+<a href="apis/listVpnUsers.html">listVpnUsers</a>
+</li>
+<li>
+<a href="apis/removeVpnUser.html">removeVpnUser (A)</a>
+</li>
+<li>
+<a href="apis/resetVpnConnection.html">resetVpnConnection (A)</a>
+</li>
+<li>
+<a href="apis/updateRemoteAccessVpn.html">updateRemoteAccessVpn (A)</a>
+</li>
+<li>
+<a href="apis/updateVpnConnection.html">updateVpnConnection (A)</a>
+</li>
+<li>
+<a href="apis/updateVpnCustomerGateway.html">updateVpnCustomerGateway (A)</a>
+</li>
+<li>
+<a href="apis/updateVpnGateway.html">updateVpnGateway (A)</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Firewall</h5>
+<ul>
+<li>
+<a href="apis/addPaloAltoFirewall.html">addPaloAltoFirewall (A)</a>
+</li>
+<li>
+<a href="apis/addSrxFirewall.html">addSrxFirewall (A)</a>
+</li>
+<li>
+<a href="apis/configurePaloAltoFirewall.html">configurePaloAltoFirewall (A)</a>
+</li>
+<li>
+<a href="apis/configureSrxFirewall.html">configureSrxFirewall (A)</a>
+</li>
+<li>
+<a href="apis/createEgressFirewallRule.html">createEgressFirewallRule (A)</a>
+</li>
+<li>
+<a href="apis/createFirewallRule.html">createFirewallRule (A)</a>
+</li>
+<li>
+<a href="apis/createPortForwardingRule.html">createPortForwardingRule (A)</a>
+</li>
+<li>
+<a href="apis/deleteEgressFirewallRule.html">deleteEgressFirewallRule (A)</a>
+</li>
+<li>
+<a href="apis/deleteFirewallRule.html">deleteFirewallRule (A)</a>
+</li>
+<li>
+<a href="apis/deletePaloAltoFirewall.html">deletePaloAltoFirewall (A)</a>
+</li>
+<li>
+<a href="apis/deletePortForwardingRule.html">deletePortForwardingRule (A)</a>
+</li>
+<li>
+<a href="apis/deleteSrxFirewall.html">deleteSrxFirewall (A)</a>
+</li>
+<li>
+<a href="apis/listEgressFirewallRules.html">listEgressFirewallRules</a>
+</li>
+<li>
+<a href="apis/listFirewallRules.html">listFirewallRules</a>
+</li>
+<li>
+<a href="apis/listPaloAltoFirewalls.html">listPaloAltoFirewalls</a>
+</li>
+<li>
+<a href="apis/listPortForwardingRules.html">listPortForwardingRules</a>
+</li>
+<li>
+<a href="apis/listSrxFirewalls.html">listSrxFirewalls</a>
+</li>
+<li>
+<a href="apis/updateEgressFirewallRule.html">updateEgressFirewallRule (A)</a>
+</li>
+<li>
+<a href="apis/updateFirewallRule.html">updateFirewallRule (A)</a>
+</li>
+<li>
+<a href="apis/updatePortForwardingRule.html">updatePortForwardingRule (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>AutoScale</h5>
+<ul>
+<li>
+<a href="apis/createAutoScalePolicy.html">createAutoScalePolicy (A)</a>
+</li>
+<li>
+<a href="apis/createAutoScaleVmGroup.html">createAutoScaleVmGroup (A)</a>
+</li>
+<li>
+<a href="apis/createAutoScaleVmProfile.html">createAutoScaleVmProfile (A)</a>
+</li>
+<li>
+<a href="apis/createCondition.html">createCondition (A)</a>
+</li>
+<li>
+<a href="apis/createCounter.html">createCounter (A)</a>
+</li>
+<li>
+<a href="apis/deleteAutoScalePolicy.html">deleteAutoScalePolicy (A)</a>
+</li>
+<li>
+<a href="apis/deleteAutoScaleVmGroup.html">deleteAutoScaleVmGroup (A)</a>
+</li>
+<li>
+<a href="apis/deleteAutoScaleVmProfile.html">deleteAutoScaleVmProfile (A)</a>
+</li>
+<li>
+<a href="apis/deleteCondition.html">deleteCondition (A)</a>
+</li>
+<li>
+<a href="apis/deleteCounter.html">deleteCounter (A)</a>
+</li>
+<li>
+<a href="apis/disableAutoScaleVmGroup.html">disableAutoScaleVmGroup (A)</a>
+</li>
+<li>
+<a href="apis/enableAutoScaleVmGroup.html">enableAutoScaleVmGroup (A)</a>
+</li>
+<li>
+<a href="apis/listAutoScalePolicies.html">listAutoScalePolicies</a>
+</li>
+<li>
+<a href="apis/listAutoScaleVmGroups.html">listAutoScaleVmGroups</a>
+</li>
+<li>
+<a href="apis/listAutoScaleVmProfiles.html">listAutoScaleVmProfiles</a>
+</li>
+<li>
+<a href="apis/listConditions.html">listConditions</a>
+</li>
+<li>
+<a href="apis/listCounters.html">listCounters</a>
+</li>
+<li>
+<a href="apis/updateAutoScalePolicy.html">updateAutoScalePolicy (A)</a>
+</li>
+<li>
+<a href="apis/updateAutoScaleVmGroup.html">updateAutoScaleVmGroup (A)</a>
+</li>
+<li>
+<a href="apis/updateAutoScaleVmProfile.html">updateAutoScaleVmProfile (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Host</h5>
+<ul>
+<li>
+<a href="apis/addBaremetalHost.html">addBaremetalHost</a>
+</li>
+<li>
+<a href="apis/addGloboDnsHost.html">addGloboDnsHost (A)</a>
+</li>
+<li>
+<a href="apis/addHost.html">addHost</a>
+</li>
+<li>
+<a href="apis/addSecondaryStorage.html">addSecondaryStorage</a>
+</li>
+<li>
+<a href="apis/cancelHostMaintenance.html">cancelHostMaintenance (A)</a>
+</li>
+<li>
+<a href="apis/dedicateHost.html">dedicateHost (A)</a>
+</li>
+<li>
+<a href="apis/deleteHost.html">deleteHost</a>
+</li>
+<li>
+<a href="apis/disableOutOfBandManagementForHost.html">disableOutOfBandManagementForHost (A)</a>
+</li>
+<li>
+<a href="apis/enableOutOfBandManagementForHost.html">enableOutOfBandManagementForHost (A)</a>
+</li>
+<li>
+<a href="apis/findHostsForMigration.html">findHostsForMigration</a>
+</li>
+<li>
+<a href="apis/listDedicatedHosts.html">listDedicatedHosts</a>
+</li>
+<li>
+<a href="apis/listHostTags.html">listHostTags</a>
+</li>
+<li>
+<a href="apis/listHosts.html">listHosts</a>
+</li>
+<li>
+<a href="apis/prepareHostForMaintenance.html">prepareHostForMaintenance (A)</a>
+</li>
+<li>
+<a href="apis/reconnectHost.html">reconnectHost (A)</a>
+</li>
+<li>
+<a href="apis/releaseDedicatedHost.html">releaseDedicatedHost (A)</a>
+</li>
+<li>
+<a href="apis/releaseHostReservation.html">releaseHostReservation (A)</a>
+</li>
+<li>
+<a href="apis/updateHost.html">updateHost</a>
+</li>
+<li>
+<a href="apis/updateHostPassword.html">updateHostPassword</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Volume</h5>
+<ul>
+<li>
+<a href="apis/attachVolume.html">attachVolume (A)</a>
+</li>
+<li>
+<a href="apis/createVolume.html">createVolume (A)</a>
+</li>
+<li>
+<a href="apis/createVolumeOnFiler.html">createVolumeOnFiler</a>
+</li>
+<li>
+<a href="apis/deleteVolume.html">deleteVolume</a>
+</li>
+<li>
+<a href="apis/destroyVolumeOnFiler.html">destroyVolumeOnFiler</a>
+</li>
+<li>
+<a href="apis/detachVolume.html">detachVolume (A)</a>
+</li>
+<li>
+<a href="apis/extractVolume.html">extractVolume (A)</a>
+</li>
+<li>
+<a href="apis/getPathForVolume.html">getPathForVolume</a>
+</li>
+<li>
+<a href="apis/getSolidFireVolumeAccessGroupId.html">getSolidFireVolumeAccessGroupId</a>
+</li>
+<li>
+<a href="apis/getSolidFireVolumeSize.html">getSolidFireVolumeSize</a>
+</li>
+<li>
+<a href="apis/getUploadParamsForVolume.html">getUploadParamsForVolume</a>
+</li>
+<li>
+<a href="apis/getVolumeiScsiName.html">getVolumeiScsiName</a>
+</li>
+<li>
+<a href="apis/listVolumes.html">listVolumes</a>
+</li>
+<li>
+<a href="apis/listVolumesOnFiler.html">listVolumesOnFiler</a>
+</li>
+<li>
+<a href="apis/migrateVolume.html">migrateVolume (A)</a>
+</li>
+<li>
+<a href="apis/resizeVolume.html">resizeVolume (A)</a>
+</li>
+<li>
+<a href="apis/updateVolume.html">updateVolume (A)</a>
+</li>
+<li>
+<a href="apis/uploadVolume.html">uploadVolume (A)</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>VPC</h5>
+<ul>
+<li>
+<a href="apis/createPrivateGateway.html">createPrivateGateway (A)</a>
+</li>
+<li>
+<a href="apis/createStaticRoute.html">createStaticRoute (A)</a>
+</li>
+<li>
+<a href="apis/createVPC.html">createVPC (A)</a>
+</li>
+<li>
+<a href="apis/createVPCOffering.html">createVPCOffering (A)</a>
+</li>
+<li>
+<a href="apis/deletePrivateGateway.html">deletePrivateGateway (A)</a>
+</li>
+<li>
+<a href="apis/deleteStaticRoute.html">deleteStaticRoute (A)</a>
+</li>
+<li>
+<a href="apis/deleteVPC.html">deleteVPC (A)</a>
+</li>
+<li>
+<a href="apis/deleteVPCOffering.html">deleteVPCOffering (A)</a>
+</li>
+<li>
+<a href="apis/listPrivateGateways.html">listPrivateGateways</a>
+</li>
+<li>
+<a href="apis/listStaticRoutes.html">listStaticRoutes</a>
+</li>
+<li>
+<a href="apis/listVPCOfferings.html">listVPCOfferings</a>
+</li>
+<li>
+<a href="apis/listVPCs.html">listVPCs</a>
+</li>
+<li>
+<a href="apis/restartVPC.html">restartVPC (A)</a>
+</li>
+<li>
+<a href="apis/updateVPC.html">updateVPC (A)</a>
+</li>
+<li>
+<a href="apis/updateVPCOffering.html">updateVPCOffering (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Template</h5>
+<ul>
+<li>
+<a href="apis/copyTemplate.html">copyTemplate (A)</a>
+</li>
+<li>
+<a href="apis/createTemplate.html">createTemplate (A)</a>
+</li>
+<li>
+<a href="apis/deleteTemplate.html">deleteTemplate (A)</a>
+</li>
+<li>
+<a href="apis/extractTemplate.html">extractTemplate (A)</a>
+</li>
+<li>
+<a href="apis/getUploadParamsForTemplate.html">getUploadParamsForTemplate</a>
+</li>
+<li>
+<a href="apis/listTemplatePermissions.html">listTemplatePermissions</a>
+</li>
+<li>
+<a href="apis/listTemplates.html">listTemplates</a>
+</li>
+<li>
+<a href="apis/prepareTemplate.html">prepareTemplate</a>
+</li>
+<li>
+<a href="apis/quotaEmailTemplateList.html">quotaEmailTemplateList</a>
+</li>
+<li>
+<a href="apis/quotaEmailTemplateUpdate.html">quotaEmailTemplateUpdate</a>
+</li>
+<li>
+<a href="apis/registerTemplate.html">registerTemplate</a>
+</li>
+<li>
+<a href="apis/updateTemplate.html">updateTemplate</a>
+</li>
+<li>
+<a href="apis/updateTemplatePermissions.html">updateTemplatePermissions</a>
+</li>
+<li>
+<a href="apis/upgradeRouterTemplate.html">upgradeRouterTemplate</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Snapshot</h5>
+<ul>
+<li>
+<a href="apis/createSnapshot.html">createSnapshot (A)</a>
+</li>
+<li>
+<a href="apis/createSnapshotFromVMSnapshot.html">createSnapshotFromVMSnapshot (A)</a>
+</li>
+<li>
+<a href="apis/createSnapshotPolicy.html">createSnapshotPolicy</a>
+</li>
+<li>
+<a href="apis/createVMSnapshot.html">createVMSnapshot (A)</a>
+</li>
+<li>
+<a href="apis/deleteSnapshot.html">deleteSnapshot (A)</a>
+</li>
+<li>
+<a href="apis/deleteSnapshotPolicies.html">deleteSnapshotPolicies</a>
+</li>
+<li>
+<a href="apis/deleteVMSnapshot.html">deleteVMSnapshot (A)</a>
+</li>
+<li>
+<a href="apis/listSnapshotPolicies.html">listSnapshotPolicies</a>
+</li>
+<li>
+<a href="apis/listSnapshots.html">listSnapshots</a>
+</li>
+<li>
+<a href="apis/listVMSnapshot.html">listVMSnapshot</a>
+</li>
+<li>
+<a href="apis/revertSnapshot.html">revertSnapshot (A)</a>
+</li>
+<li>
+<a href="apis/revertToVMSnapshot.html">revertToVMSnapshot (A)</a>
+</li>
+<li>
+<a href="apis/updateSnapshotPolicy.html">updateSnapshotPolicy (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Account</h5>
+<ul>
+<li>
+<a href="apis/addAccountToProject.html">addAccountToProject (A)</a>
+</li>
+<li>
+<a href="apis/createAccount.html">createAccount</a>
+</li>
+<li>
+<a href="apis/deleteAccount.html">deleteAccount (A)</a>
+</li>
+<li>
+<a href="apis/deleteAccountFromProject.html">deleteAccountFromProject (A)</a>
+</li>
+<li>
+<a href="apis/disableAccount.html">disableAccount (A)</a>
+</li>
+<li>
+<a href="apis/enableAccount.html">enableAccount</a>
+</li>
+<li>
+<a href="apis/getSolidFireAccountId.html">getSolidFireAccountId</a>
+</li>
+<li>
+<a href="apis/listAccounts.html">listAccounts</a>
+</li>
+<li>
+<a href="apis/listAndSwitchSamlAccount.html">listAndSwitchSamlAccount</a>
+</li>
+<li>
+<a href="apis/listProjectAccounts.html">listProjectAccounts</a>
+</li>
+<li>
+<a href="apis/lockAccount.html">lockAccount</a>
+</li>
+<li>
+<a href="apis/markDefaultZoneForAccount.html">markDefaultZoneForAccount (A)</a>
+</li>
+<li>
+<a href="apis/updateAccount.html">updateAccount</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Zone</h5>
+<ul>
+<li>
+<a href="apis/addVmwareDc.html">addVmwareDc</a>
+</li>
+<li>
+<a href="apis/createZone.html">createZone</a>
+</li>
+<li>
+<a href="apis/dedicateZone.html">dedicateZone (A)</a>
+</li>
+<li>
+<a href="apis/deleteZone.html">deleteZone</a>
+</li>
+<li>
+<a href="apis/disableOutOfBandManagementForZone.html">disableOutOfBandManagementForZone (A)</a>
+</li>
+<li>
+<a href="apis/enableOutOfBandManagementForZone.html">enableOutOfBandManagementForZone (A)</a>
+</li>
+<li>
+<a href="apis/listDedicatedZones.html">listDedicatedZones</a>
+</li>
+<li>
+<a href="apis/listVmwareDcs.html">listVmwareDcs</a>
+</li>
+<li>
+<a href="apis/listZones.html">listZones</a>
+</li>
+<li>
+<a href="apis/releaseDedicatedZone.html">releaseDedicatedZone (A)</a>
+</li>
+<li>
+<a href="apis/removeVmwareDc.html">removeVmwareDc</a>
+</li>
+<li>
+<a href="apis/updateZone.html">updateZone</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Usage</h5>
+<ul>
+<li>
+<a href="apis/addTrafficMonitor.html">addTrafficMonitor</a>
+</li>
+<li>
+<a href="apis/addTrafficType.html">addTrafficType (A)</a>
+</li>
+<li>
+<a href="apis/deleteTrafficMonitor.html">deleteTrafficMonitor</a>
+</li>
+<li>
+<a href="apis/deleteTrafficType.html">deleteTrafficType (A)</a>
+</li>
+<li>
+<a href="apis/generateUsageRecords.html">generateUsageRecords</a>
+</li>
+<li>
+<a href="apis/listTrafficMonitors.html">listTrafficMonitors</a>
+</li>
+<li>
+<a href="apis/listTrafficTypeImplementors.html">listTrafficTypeImplementors</a>
+</li>
+<li>
+<a href="apis/listTrafficTypes.html">listTrafficTypes</a>
+</li>
+<li>
+<a href="apis/listUsageRecords.html">listUsageRecords</a>
+</li>
+<li>
+<a href="apis/listUsageTypes.html">listUsageTypes</a>
+</li>
+<li>
+<a href="apis/removeRawUsageRecords.html">removeRawUsageRecords</a>
+</li>
+<li>
+<a href="apis/updateTrafficType.html">updateTrafficType (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>User</h5>
+<ul>
+<li>
+<a href="apis/createUser.html">createUser</a>
+</li>
+<li>
+<a href="apis/deleteUser.html">deleteUser</a>
+</li>
+<li>
+<a href="apis/disableUser.html">disableUser (A)</a>
+</li>
+<li>
+<a href="apis/enableUser.html">enableUser</a>
+</li>
+<li>
+<a href="apis/getUser.html">getUser</a>
+</li>
+<li>
+<a href="apis/getUserKeys.html">getUserKeys</a>
+</li>
+<li>
+<a href="apis/getVirtualMachineUserData.html">getVirtualMachineUserData</a>
+</li>
+<li>
+<a href="apis/listUsers.html">listUsers</a>
+</li>
+<li>
+<a href="apis/lockUser.html">lockUser</a>
+</li>
+<li>
+<a href="apis/registerUserKeys.html">registerUserKeys</a>
+</li>
+<li>
+<a href="apis/updateUser.html">updateUser</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>LDAP</h5>
+<ul>
+<li>
+<a href="apis/addLdapConfiguration.html">addLdapConfiguration</a>
+</li>
+<li>
+<a href="apis/deleteLdapConfiguration.html">deleteLdapConfiguration</a>
+</li>
+<li>
+<a href="apis/importLdapUsers.html">importLdapUsers</a>
+</li>
+<li>
+<a href="apis/ldapConfig.html">ldapConfig</a>
+</li>
+<li>
+<a href="apis/ldapCreateAccount.html">ldapCreateAccount</a>
+</li>
+<li>
+<a href="apis/ldapRemove.html">ldapRemove</a>
+</li>
+<li>
+<a href="apis/linkDomainToLdap.html">linkDomainToLdap</a>
+</li>
+<li>
+<a href="apis/listLdapConfigurations.html">listLdapConfigurations</a>
+</li>
+<li>
+<a href="apis/listLdapUsers.html">listLdapUsers</a>
+</li>
+<li>
+<a href="apis/searchLdap.html">searchLdap</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>ISO</h5>
+<ul>
+<li>
+<a href="apis/attachIso.html">attachIso (A)</a>
+</li>
+<li>
+<a href="apis/copyIso.html">copyIso (A)</a>
+</li>
+<li>
+<a href="apis/deleteIso.html">deleteIso (A)</a>
+</li>
+<li>
+<a href="apis/detachIso.html">detachIso (A)</a>
+</li>
+<li>
+<a href="apis/extractIso.html">extractIso (A)</a>
+</li>
+<li>
+<a href="apis/listIsoPermissions.html">listIsoPermissions</a>
+</li>
+<li>
+<a href="apis/listIsos.html">listIsos</a>
+</li>
+<li>
+<a href="apis/registerIso.html">registerIso</a>
+</li>
+<li>
+<a href="apis/updateIso.html">updateIso</a>
+</li>
+<li>
+<a href="apis/updateIsoPermissions.html">updateIsoPermissions</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>External Device</h5>
+<ul>
+<li>
+<a href="apis/addCiscoAsa1000vResource.html">addCiscoAsa1000vResource</a>
+</li>
+<li>
+<a href="apis/addCiscoVnmcResource.html">addCiscoVnmcResource</a>
+</li>
+<li>
+<a href="apis/deleteCiscoAsa1000vResource.html">deleteCiscoAsa1000vResource</a>
+</li>
+<li>
+<a href="apis/deleteCiscoNexusVSM.html">deleteCiscoNexusVSM (A)</a>
+</li>
+<li>
+<a href="apis/deleteCiscoVnmcResource.html">deleteCiscoVnmcResource</a>
+</li>
+<li>
+<a href="apis/disableCiscoNexusVSM.html">disableCiscoNexusVSM (A)</a>
+</li>
+<li>
+<a href="apis/enableCiscoNexusVSM.html">enableCiscoNexusVSM (A)</a>
+</li>
+<li>
+<a href="apis/listCiscoAsa1000vResources.html">listCiscoAsa1000vResources</a>
+</li>
+<li>
+<a href="apis/listCiscoNexusVSMs.html">listCiscoNexusVSMs</a>
+</li>
+<li>
+<a href="apis/listCiscoVnmcResources.html">listCiscoVnmcResources</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>VLAN</h5>
+<ul>
+<li>
+<a href="apis/createVlanIpRange.html">createVlanIpRange</a>
+</li>
+<li>
+<a href="apis/dedicateGuestVlanRange.html">dedicateGuestVlanRange</a>
+</li>
+<li>
+<a href="apis/deleteVlanIpRange.html">deleteVlanIpRange</a>
+</li>
+<li>
+<a href="apis/disableNuageUnderlayVlanIpRange.html">disableNuageUnderlayVlanIpRange (A)</a>
+</li>
+<li>
+<a href="apis/enableNuageUnderlayVlanIpRange.html">enableNuageUnderlayVlanIpRange (A)</a>
+</li>
+<li>
+<a href="apis/listDedicatedGuestVlanRanges.html">listDedicatedGuestVlanRanges</a>
+</li>
+<li>
+<a href="apis/listNuageUnderlayVlanIpRanges.html">listNuageUnderlayVlanIpRanges</a>
+</li>
+<li>
+<a href="apis/listVlanIpRanges.html">listVlanIpRanges</a>
+</li>
+<li>
+<a href="apis/releaseDedicatedGuestVlanRange.html">releaseDedicatedGuestVlanRange (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Router</h5>
+<ul>
+<li>
+<a href="apis/changeServiceForRouter.html">changeServiceForRouter</a>
+</li>
+<li>
+<a href="apis/configureVirtualRouterElement.html">configureVirtualRouterElement (A)</a>
+</li>
+<li>
+<a href="apis/createVirtualRouterElement.html">createVirtualRouterElement (A)</a>
+</li>
+<li>
+<a href="apis/destroyRouter.html">destroyRouter (A)</a>
+</li>
+<li>
+<a href="apis/listRouters.html">listRouters</a>
+</li>
+<li>
+<a href="apis/listVirtualRouterElements.html">listVirtualRouterElements</a>
+</li>
+<li>
+<a href="apis/rebootRouter.html">rebootRouter (A)</a>
+</li>
+<li>
+<a href="apis/startRouter.html">startRouter (A)</a>
+</li>
+<li>
+<a href="apis/stopRouter.html">stopRouter (A)</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Project</h5>
+<ul>
+<li>
+<a href="apis/activateProject.html">activateProject (A)</a>
+</li>
+<li>
+<a href="apis/createProject.html">createProject (A)</a>
+</li>
+<li>
+<a href="apis/deleteProject.html">deleteProject (A)</a>
+</li>
+<li>
+<a href="apis/deleteProjectInvitation.html">deleteProjectInvitation (A)</a>
+</li>
+<li>
+<a href="apis/listProjectInvitations.html">listProjectInvitations</a>
+</li>
+<li>
+<a href="apis/listProjects.html">listProjects</a>
+</li>
+<li>
+<a href="apis/suspendProject.html">suspendProject (A)</a>
+</li>
+<li>
+<a href="apis/updateProject.html">updateProject (A)</a>
+</li>
+<li>
+<a href="apis/updateProjectInvitation.html">updateProjectInvitation (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Pool</h5>
+<ul>
+<li>
+<a href="apis/createPool.html">createPool</a>
+</li>
+<li>
+<a href="apis/createStoragePool.html">createStoragePool</a>
+</li>
+<li>
+<a href="apis/deletePool.html">deletePool</a>
+</li>
+<li>
+<a href="apis/deleteStoragePool.html">deleteStoragePool</a>
+</li>
+<li>
+<a href="apis/findStoragePoolsForMigration.html">findStoragePoolsForMigration</a>
+</li>
+<li>
+<a href="apis/listPools.html">listPools</a>
+</li>
+<li>
+<a href="apis/listStoragePools.html">listStoragePools</a>
+</li>
+<li>
+<a href="apis/modifyPool.html">modifyPool</a>
+</li>
+<li>
+<a href="apis/updateStoragePool.html">updateStoragePool</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Network ACL</h5>
+<ul>
+<li>
+<a href="apis/createNetworkACL.html">createNetworkACL (A)</a>
+</li>
+<li>
+<a href="apis/createNetworkACLList.html">createNetworkACLList (A)</a>
+</li>
+<li>
+<a href="apis/deleteNetworkACL.html">deleteNetworkACL (A)</a>
+</li>
+<li>
+<a href="apis/deleteNetworkACLList.html">deleteNetworkACLList (A)</a>
+</li>
+<li>
+<a href="apis/listNetworkACLLists.html">listNetworkACLLists</a>
+</li>
+<li>
+<a href="apis/listNetworkACLs.html">listNetworkACLs</a>
+</li>
+<li>
+<a href="apis/replaceNetworkACLList.html">replaceNetworkACLList (A)</a>
+</li>
+<li>
+<a href="apis/updateNetworkACLItem.html">updateNetworkACLItem (A)</a>
+</li>
+<li>
+<a href="apis/updateNetworkACLList.html">updateNetworkACLList (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Guest OS</h5>
+<ul>
+<li>
+<a href="apis/addGuestOs.html">addGuestOs (A)</a>
+</li>
+<li>
+<a href="apis/addGuestOsMapping.html">addGuestOsMapping (A)</a>
+</li>
+<li>
+<a href="apis/listGuestOsMapping.html">listGuestOsMapping</a>
+</li>
+<li>
+<a href="apis/listOsCategories.html">listOsCategories</a>
+</li>
+<li>
+<a href="apis/listOsTypes.html">listOsTypes</a>
+</li>
+<li>
+<a href="apis/removeGuestOs.html">removeGuestOs (A)</a>
+</li>
+<li>
+<a href="apis/removeGuestOsMapping.html">removeGuestOsMapping (A)</a>
+</li>
+<li>
+<a href="apis/updateGuestOs.html">updateGuestOs (A)</a>
+</li>
+<li>
+<a href="apis/updateGuestOsMapping.html">updateGuestOsMapping (A)</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Cluster</h5>
+<ul>
+<li>
+<a href="apis/addCluster.html">addCluster</a>
+</li>
+<li>
+<a href="apis/dedicateCluster.html">dedicateCluster (A)</a>
+</li>
+<li>
+<a href="apis/deleteCluster.html">deleteCluster</a>
+</li>
+<li>
+<a href="apis/disableOutOfBandManagementForCluster.html">disableOutOfBandManagementForCluster (A)</a>
+</li>
+<li>
+<a href="apis/enableOutOfBandManagementForCluster.html">enableOutOfBandManagementForCluster (A)</a>
+</li>
+<li>
+<a href="apis/listClusters.html">listClusters</a>
+</li>
+<li>
+<a href="apis/listDedicatedClusters.html">listDedicatedClusters</a>
+</li>
+<li>
+<a href="apis/releaseDedicatedCluster.html">releaseDedicatedCluster (A)</a>
+</li>
+<li>
+<a href="apis/updateCluster.html">updateCluster</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Baremetal</h5>
+<ul>
+<li>
+<a href="apis/addBaremetalDhcp.html">addBaremetalDhcp (A)</a>
+</li>
+<li>
+<a href="apis/addBaremetalPxeKickStartServer.html">addBaremetalPxeKickStartServer (A)</a>
+</li>
+<li>
+<a href="apis/addBaremetalPxePingServer.html">addBaremetalPxePingServer (A)</a>
+</li>
+<li>
+<a href="apis/addBaremetalRct.html">addBaremetalRct (A)</a>
+</li>
+<li>
+<a href="apis/deleteBaremetalRct.html">deleteBaremetalRct (A)</a>
+</li>
+<li>
+<a href="apis/listBaremetalDhcp.html">listBaremetalDhcp</a>
+</li>
+<li>
+<a href="apis/listBaremetalPxeServers.html">listBaremetalPxeServers</a>
+</li>
+<li>
+<a href="apis/listBaremetalRct.html">listBaremetalRct</a>
+</li>
+<li>
+<a href="apis/notifyBaremetalProvisionDone.html">notifyBaremetalProvisionDone (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>System VM</h5>
+<ul>
+<li>
+<a href="apis/changeServiceForSystemVm.html">changeServiceForSystemVm</a>
+</li>
+<li>
+<a href="apis/destroySystemVm.html">destroySystemVm (A)</a>
+</li>
+<li>
+<a href="apis/listSystemVms.html">listSystemVms</a>
+</li>
+<li>
+<a href="apis/migrateSystemVm.html">migrateSystemVm (A)</a>
+</li>
+<li>
+<a href="apis/rebootSystemVm.html">rebootSystemVm (A)</a>
+</li>
+<li>
+<a href="apis/scaleSystemVm.html">scaleSystemVm (A)</a>
+</li>
+<li>
+<a href="apis/startSystemVm.html">startSystemVm (A)</a>
+</li>
+<li>
+<a href="apis/stopSystemVm.html">stopSystemVm (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Role</h5>
+<ul>
+<li>
+<a href="apis/createRole.html">createRole</a>
+</li>
+<li>
+<a href="apis/createRolePermission.html">createRolePermission</a>
+</li>
+<li>
+<a href="apis/deleteRole.html">deleteRole</a>
+</li>
+<li>
+<a href="apis/deleteRolePermission.html">deleteRolePermission</a>
+</li>
+<li>
+<a href="apis/listRolePermissions.html">listRolePermissions</a>
+</li>
+<li>
+<a href="apis/listRoles.html">listRoles</a>
+</li>
+<li>
+<a href="apis/updateRole.html">updateRole</a>
+</li>
+<li>
+<a href="apis/updateRolePermission.html">updateRolePermission</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Image Store</h5>
+<ul>
+<li>
+<a href="apis/addImageStore.html">addImageStore</a>
+</li>
+<li>
+<a href="apis/addImageStoreS3.html">addImageStoreS3</a>
+</li>
+<li>
+<a href="apis/createSecondaryStagingStore.html">createSecondaryStagingStore</a>
+</li>
+<li>
+<a href="apis/deleteImageStore.html">deleteImageStore</a>
+</li>
+<li>
+<a href="apis/deleteSecondaryStagingStore.html">deleteSecondaryStagingStore</a>
+</li>
+<li>
+<a href="apis/listImageStores.html">listImageStores</a>
+</li>
+<li>
+<a href="apis/listSecondaryStagingStores.html">listSecondaryStagingStores</a>
+</li>
+<li>
+<a href="apis/updateCloudToUseObjectStore.html">updateCloudToUseObjectStore</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Authentication</h5>
+<ul>
+<li>
+<a href="apis/authorizeSamlSso.html">authorizeSamlSso</a>
+</li>
+<li>
+<a href="apis/getSPMetadata.html">getSPMetadata</a>
+</li>
+<li>
+<a href="apis/listIdps.html">listIdps</a>
+</li>
+<li>
+<a href="apis/listSamlAuthorization.html">listSamlAuthorization</a>
+</li>
+<li>
+<a href="apis/login.html">login</a>
+</li>
+<li>
+<a href="apis/logout.html">logout</a>
+</li>
+<li>
+<a href="apis/samlSlo.html">samlSlo</a>
+</li>
+<li>
+<a href="apis/samlSso.html">samlSso</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Security Group</h5>
+<ul>
+<li>
+<a href="apis/authorizeSecurityGroupEgress.html">authorizeSecurityGroupEgress (A)</a>
+</li>
+<li>
+<a href="apis/authorizeSecurityGroupIngress.html">authorizeSecurityGroupIngress (A)</a>
+</li>
+<li>
+<a href="apis/createSecurityGroup.html">createSecurityGroup</a>
+</li>
+<li>
+<a href="apis/deleteSecurityGroup.html">deleteSecurityGroup</a>
+</li>
+<li>
+<a href="apis/listSecurityGroups.html">listSecurityGroups</a>
+</li>
+<li>
+<a href="apis/revokeSecurityGroupEgress.html">revokeSecurityGroupEgress (A)</a>
+</li>
+<li>
+<a href="apis/revokeSecurityGroupIngress.html">revokeSecurityGroupIngress (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Quota</h5>
+<ul>
+<li>
+<a href="apis/quotaBalance.html">quotaBalance</a>
+</li>
+<li>
+<a href="apis/quotaCredits.html">quotaCredits</a>
+</li>
+<li>
+<a href="apis/quotaIsEnabled.html">quotaIsEnabled</a>
+</li>
+<li>
+<a href="apis/quotaStatement.html">quotaStatement</a>
+</li>
+<li>
+<a href="apis/quotaTariffList.html">quotaTariffList</a>
+</li>
+<li>
+<a href="apis/quotaTariffUpdate.html">quotaTariffUpdate</a>
+</li>
+<li>
+<a href="apis/quotaUpdate.html">quotaUpdate</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Pod</h5>
+<ul>
+<li>
+<a href="apis/createPod.html">createPod</a>
+</li>
+<li>
+<a href="apis/dedicatePod.html">dedicatePod (A)</a>
+</li>
+<li>
+<a href="apis/deletePod.html">deletePod</a>
+</li>
+<li>
+<a href="apis/listDedicatedPods.html">listDedicatedPods</a>
+</li>
+<li>
+<a href="apis/listPods.html">listPods</a>
+</li>
+<li>
+<a href="apis/releaseDedicatedPod.html">releaseDedicatedPod (A)</a>
+</li>
+<li>
+<a href="apis/updatePod.html">updatePod</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Metrics</h5>
+<ul>
+<li>
+<a href="apis/listClustersMetrics.html">listClustersMetrics</a>
+</li>
+<li>
+<a href="apis/listHostsMetrics.html">listHostsMetrics</a>
+</li>
+<li>
+<a href="apis/listInfrastructure.html">listInfrastructure</a>
+</li>
+<li>
+<a href="apis/listStoragePoolsMetrics.html">listStoragePoolsMetrics</a>
+</li>
+<li>
+<a href="apis/listVirtualMachinesMetrics.html">listVirtualMachinesMetrics</a>
+</li>
+<li>
+<a href="apis/listVolumesMetrics.html">listVolumesMetrics</a>
+</li>
+<li>
+<a href="apis/listZonesMetrics.html">listZonesMetrics</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>UCS</h5>
+<ul>
+<li>
+<a href="apis/addUcsManager.html">addUcsManager</a>
+</li>
+<li>
+<a href="apis/associateUcsProfileToBlade.html">associateUcsProfileToBlade (A)</a>
+</li>
+<li>
+<a href="apis/deleteUcsManager.html">deleteUcsManager</a>
+</li>
+<li>
+<a href="apis/listUcsBlades.html">listUcsBlades</a>
+</li>
+<li>
+<a href="apis/listUcsManagers.html">listUcsManagers</a>
+</li>
+<li>
+<a href="apis/listUcsProfiles.html">listUcsProfiles</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Internal LB</h5>
+<ul>
+<li>
+<a href="apis/configureInternalLoadBalancerElement.html">configureInternalLoadBalancerElement (A)</a>
+</li>
+<li>
+<a href="apis/createInternalLoadBalancerElement.html">createInternalLoadBalancerElement (A)</a>
+</li>
+<li>
+<a href="apis/listInternalLoadBalancerElements.html">listInternalLoadBalancerElements</a>
+</li>
+<li>
+<a href="apis/listInternalLoadBalancerVMs.html">listInternalLoadBalancerVMs</a>
+</li>
+<li>
+<a href="apis/startInternalLoadBalancerVM.html">startInternalLoadBalancerVM (A)</a>
+</li>
+<li>
+<a href="apis/stopInternalLoadBalancerVM.html">stopInternalLoadBalancerVM (A)</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Storage</h5>
+<ul>
+<li>
+<a href="apis/associateLun.html">associateLun</a>
+</li>
+<li>
+<a href="apis/createLunOnFiler.html">createLunOnFiler</a>
+</li>
+<li>
+<a href="apis/destroyLunOnFiler.html">destroyLunOnFiler</a>
+</li>
+<li>
+<a href="apis/dissociateLun.html">dissociateLun</a>
+</li>
+<li>
+<a href="apis/listLunsOnFiler.html">listLunsOnFiler</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>SSH</h5>
+<ul>
+<li>
+<a href="apis/createSSHKeyPair.html">createSSHKeyPair</a>
+</li>
+<li>
+<a href="apis/deleteSSHKeyPair.html">deleteSSHKeyPair</a>
+</li>
+<li>
+<a href="apis/listSSHKeyPairs.html">listSSHKeyPairs</a>
+</li>
+<li>
+<a href="apis/registerSSHKeyPair.html">registerSSHKeyPair</a>
+</li>
+<li>
+<a href="apis/resetSSHKeyForVirtualMachine.html">resetSSHKeyForVirtualMachine (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>NAT</h5>
+<ul>
+<li>
+<a href="apis/createIpForwardingRule.html">createIpForwardingRule (A)</a>
+</li>
+<li>
+<a href="apis/deleteIpForwardingRule.html">deleteIpForwardingRule (A)</a>
+</li>
+<li>
+<a href="apis/disableStaticNat.html">disableStaticNat (A)</a>
+</li>
+<li>
+<a href="apis/enableStaticNat.html">enableStaticNat</a>
+</li>
+<li>
+<a href="apis/listIpForwardingRules.html">listIpForwardingRules</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Limit</h5>
+<ul>
+<li>
+<a href="apis/getApiLimit.html">getApiLimit</a>
+</li>
+<li>
+<a href="apis/listResourceLimits.html">listResourceLimits</a>
+</li>
+<li>
+<a href="apis/resetApiLimit.html">resetApiLimit</a>
+</li>
+<li>
+<a href="apis/updateResourceCount.html">updateResourceCount</a>
+</li>
+<li>
+<a href="apis/updateResourceLimit.html">updateResourceLimit</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Domain</h5>
+<ul>
+<li>
+<a href="apis/createDomain.html">createDomain</a>
+</li>
+<li>
+<a href="apis/deleteDomain.html">deleteDomain (A)</a>
+</li>
+<li>
+<a href="apis/listDomainChildren.html">listDomainChildren</a>
+</li>
+<li>
+<a href="apis/listDomains.html">listDomains</a>
+</li>
+<li>
+<a href="apis/updateDomain.html">updateDomain</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Affinity Group</h5>
+<ul>
+<li>
+<a href="apis/createAffinityGroup.html">createAffinityGroup (A)</a>
+</li>
+<li>
+<a href="apis/deleteAffinityGroup.html">deleteAffinityGroup (A)</a>
+</li>
+<li>
+<a href="apis/listAffinityGroupTypes.html">listAffinityGroupTypes</a>
+</li>
+<li>
+<a href="apis/listAffinityGroups.html">listAffinityGroups</a>
+</li>
+<li>
+<a href="apis/updateVMAffinityGroup.html">updateVMAffinityGroup (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>VM Group</h5>
+<ul>
+<li>
+<a href="apis/createInstanceGroup.html">createInstanceGroup</a>
+</li>
+<li>
+<a href="apis/deleteInstanceGroup.html">deleteInstanceGroup</a>
+</li>
+<li>
+<a href="apis/listInstanceGroups.html">listInstanceGroups</a>
+</li>
+<li>
+<a href="apis/updateInstanceGroup.html">updateInstanceGroup</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Service Offering</h5>
+<ul>
+<li>
+<a href="apis/createServiceOffering.html">createServiceOffering</a>
+</li>
+<li>
+<a href="apis/deleteServiceOffering.html">deleteServiceOffering</a>
+</li>
+<li>
+<a href="apis/listServiceOfferings.html">listServiceOfferings</a>
+</li>
+<li>
+<a href="apis/updateServiceOffering.html">updateServiceOffering</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Resource tags</h5>
+<ul>
+<li>
+<a href="apis/createTags.html">createTags (A)</a>
+</li>
+<li>
+<a href="apis/deleteTags.html">deleteTags (A)</a>
+</li>
+<li>
+<a href="apis/listStorageTags.html">listStorageTags</a>
+</li>
+<li>
+<a href="apis/listTags.html">listTags</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Resource metadata</h5>
+<ul>
+<li>
+<a href="apis/addResourceDetail.html">addResourceDetail (A)</a>
+</li>
+<li>
+<a href="apis/getVolumeSnapshotDetails.html">getVolumeSnapshotDetails</a>
+</li>
+<li>
+<a href="apis/listResourceDetails.html">listResourceDetails</a>
+</li>
+<li>
+<a href="apis/removeResourceDetail.html">removeResourceDetail (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Region</h5>
+<ul>
+<li>
+<a href="apis/addRegion.html">addRegion</a>
+</li>
+<li>
+<a href="apis/listRegions.html">listRegions</a>
+</li>
+<li>
+<a href="apis/removeRegion.html">removeRegion</a>
+</li>
+<li>
+<a href="apis/updateRegion.html">updateRegion</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Nuage VSP</h5>
+<ul>
+<li>
+<a href="apis/addNuageVspDevice.html">addNuageVspDevice (A)</a>
+</li>
+<li>
+<a href="apis/deleteNuageVspDevice.html">deleteNuageVspDevice (A)</a>
+</li>
+<li>
+<a href="apis/listNuageVspDevices.html">listNuageVspDevices</a>
+</li>
+<li>
+<a href="apis/updateNuageVspDevice.html">updateNuageVspDevice (A)</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Nic</h5>
+<ul>
+<li>
+<a href="apis/addIpToNic.html">addIpToNic (A)</a>
+</li>
+<li>
+<a href="apis/listNics.html">listNics</a>
+</li>
+<li>
+<a href="apis/removeIpFromNic.html">removeIpFromNic (A)</a>
+</li>
+<li>
+<a href="apis/updateVmNicIp.html">updateVmNicIp (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Network Offering</h5>
+<ul>
+<li>
+<a href="apis/createNetworkOffering.html">createNetworkOffering</a>
+</li>
+<li>
+<a href="apis/deleteNetworkOffering.html">deleteNetworkOffering</a>
+</li>
+<li>
+<a href="apis/listNetworkOfferings.html">listNetworkOfferings</a>
+</li>
+<li>
+<a href="apis/updateNetworkOffering.html">updateNetworkOffering</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Event</h5>
+<ul>
+<li>
+<a href="apis/archiveEvents.html">archiveEvents</a>
+</li>
+<li>
+<a href="apis/deleteEvents.html">deleteEvents</a>
+</li>
+<li>
+<a href="apis/listEventTypes.html">listEventTypes</a>
+</li>
+<li>
+<a href="apis/listEvents.html">listEvents</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Disk Offering</h5>
+<ul>
+<li>
+<a href="apis/createDiskOffering.html">createDiskOffering</a>
+</li>
+<li>
+<a href="apis/deleteDiskOffering.html">deleteDiskOffering</a>
+</li>
+<li>
+<a href="apis/listDiskOfferings.html">listDiskOfferings</a>
+</li>
+<li>
+<a href="apis/updateDiskOffering.html">updateDiskOffering</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Configuration</h5>
+<ul>
+<li>
+<a href="apis/listCapabilities.html">listCapabilities</a>
+</li>
+<li>
+<a href="apis/listConfigurations.html">listConfigurations</a>
+</li>
+<li>
+<a href="apis/listDeploymentPlanners.html">listDeploymentPlanners</a>
+</li>
+<li>
+<a href="apis/updateConfiguration.html">updateConfiguration</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Brocade VCS</h5>
+<ul>
+<li>
+<a href="apis/addBrocadeVcsDevice.html">addBrocadeVcsDevice (A)</a>
+</li>
+<li>
+<a href="apis/deleteBrocadeVcsDevice.html">deleteBrocadeVcsDevice (A)</a>
+</li>
+<li>
+<a href="apis/listBrocadeVcsDeviceNetworks.html">listBrocadeVcsDeviceNetworks</a>
+</li>
+<li>
+<a href="apis/listBrocadeVcsDevices.html">listBrocadeVcsDevices</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Alert</h5>
+<ul>
+<li>
+<a href="apis/archiveAlerts.html">archiveAlerts</a>
+</li>
+<li>
+<a href="apis/deleteAlerts.html">deleteAlerts</a>
+</li>
+<li>
+<a href="apis/generateAlert.html">generateAlert (A)</a>
+</li>
+<li>
+<a href="apis/listAlerts.html">listAlerts</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Address</h5>
+<ul>
+<li>
+<a href="apis/associateIpAddress.html">associateIpAddress (A)</a>
+</li>
+<li>
+<a href="apis/disassociateIpAddress.html">disassociateIpAddress (A)</a>
+</li>
+<li>
+<a href="apis/listPublicIpAddresses.html">listPublicIpAddresses</a>
+</li>
+<li>
+<a href="apis/updateIpAddress.html">updateIpAddress (A)</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Storage Pool</h5>
+<ul>
+<li>
+<a href="apis/cancelStorageMaintenance.html">cancelStorageMaintenance (A)</a>
+</li>
+<li>
+<a href="apis/enableStorageMaintenance.html">enableStorageMaintenance (A)</a>
+</li>
+<li>
+<a href="apis/listStorageProviders.html">listStorageProviders</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Portable IP</h5>
+<ul>
+<li>
+<a href="apis/createPortableIpRange.html">createPortableIpRange (A)</a>
+</li>
+<li>
+<a href="apis/deletePortableIpRange.html">deletePortableIpRange (A)</a>
+</li>
+<li>
+<a href="apis/listPortableIpRanges.html">listPortableIpRanges</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Out-of-band Management</h5>
+<ul>
+<li>
+<a href="apis/changeOutOfBandManagementPassword.html">changeOutOfBandManagementPassword (A)</a>
+</li>
+<li>
+<a href="apis/configureOutOfBandManagement.html">configureOutOfBandManagement</a>
+</li>
+<li>
+<a href="apis/issueOutOfBandManagementPowerAction.html">issueOutOfBandManagementPowerAction (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Nicira NVP</h5>
+<ul>
+<li>
+<a href="apis/addNiciraNvpDevice.html">addNiciraNvpDevice (A)</a>
+</li>
+<li>
+<a href="apis/deleteNiciraNvpDevice.html">deleteNiciraNvpDevice (A)</a>
+</li>
+<li>
+<a href="apis/listNiciraNvpDevices.html">listNiciraNvpDevices</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Network Device</h5>
+<ul>
+<li>
+<a href="apis/addNetworkDevice.html">addNetworkDevice</a>
+</li>
+<li>
+<a href="apis/deleteNetworkDevice.html">deleteNetworkDevice</a>
+</li>
+<li>
+<a href="apis/listNetworkDevice.html">listNetworkDevice</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Hypervisor</h5>
+<ul>
+<li>
+<a href="apis/listHypervisorCapabilities.html">listHypervisorCapabilities</a>
+</li>
+<li>
+<a href="apis/listHypervisors.html">listHypervisors</a>
+</li>
+<li>
+<a href="apis/updateHypervisorCapabilities.html">updateHypervisorCapabilities</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Ext Firewall</h5>
+<ul>
+<li>
+<a href="apis/addExternalFirewall.html">addExternalFirewall</a>
+</li>
+<li>
+<a href="apis/deleteExternalFirewall.html">deleteExternalFirewall</a>
+</li>
+<li>
+<a href="apis/listExternalFirewalls.html">listExternalFirewalls</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>BigSwitch BCF</h5>
+<ul>
+<li>
+<a href="apis/addBigSwitchBcfDevice.html">addBigSwitchBcfDevice (A)</a>
+</li>
+<li>
+<a href="apis/deleteBigSwitchBcfDevice.html">deleteBigSwitchBcfDevice (A)</a>
+</li>
+<li>
+<a href="apis/listBigSwitchBcfDevices.html">listBigSwitchBcfDevices</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>Swift</h5>
+<ul>
+<li>
+<a href="apis/addSwift.html">addSwift</a>
+</li>
+<li>
+<a href="apis/listSwifts.html">listSwifts</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Ovs Element</h5>
+<ul>
+<li>
+<a href="apis/configureOvsElement.html">configureOvsElement (A)</a>
+</li>
+<li>
+<a href="apis/listOvsElements.html">listOvsElements</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Async job</h5>
+<ul>
+<li>
+<a href="apis/listAsyncJobs.html">listAsyncJobs</a>
+</li>
+<li>
+<a href="apis/queryAsyncJobResult.html">queryAsyncJobResult</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5> Stratosphere SSP</h5>
+<ul>
+<li>
+<a href="apis/addStratosphereSsp.html">addStratosphereSsp</a>
+</li>
+<li>
+<a href="apis/deleteStratosphereSsp.html">deleteStratosphereSsp</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="apismallsections">
+<div class="apismallbullet_box">
+<h5>System Capacity</h5>
+<ul>
+<li>
+<a href="apis/listCapacity.html">listCapacity</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Cloud Identifier</h5>
+<ul>
+<li>
+<a href="apis/getCloudIdentifier.html">getCloudIdentifier</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>Certificate</h5>
+<ul>
+<li>
+<a href="apis/uploadCustomCertificate.html">uploadCustomCertificate (A)</a>
+</li>
+</ul>
+</div>
+<div class="apismallbullet_box">
+<h5>API Discovery</h5>
+<ul>
+<li>
+<a href="apis/listApis.html">listApis</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer_mainmaster">
+<p>Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+<br>
+                Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
