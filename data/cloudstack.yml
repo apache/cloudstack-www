@@ -2,7 +2,7 @@ versions:
   main: 4.10.0.0
   branch: 4.10
   others:
-    - 4.8.1.1
+    - 4.9.2.0
   archives:
     - 4.9:
        - 4.9.2.0
