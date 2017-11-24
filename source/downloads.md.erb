@@ -27,17 +27,19 @@ title: Apache CloudStack Downloads
 
 <div class="col-lg-6">
 
-<h2>Latest CloudStack Release</h2>
-
-<h4>Source Release</h4>
+<h2>Latest CloudStack Releases</h2>
+<p>The CloudStack community maintains two release types; the 'main' releases and the LTS (Long Term Support) releases.  Twice a year (at the strart of Q1 and the start of Q3) the then current release of CloudStack is designated an LTS version.  This release would then receive bug and security fixes for a period of two years.</p>
+<p>The main releases receive only critical and above bug fixes for a short period.  The general expectaion is that consumers of the non-LTS releases will upgrade to a new version in order to receive fixes</p>
+<br>
+<h3>Source Releases</h3>
 
 <p>Apache CloudStack's most current release is <%= data.cloudstack.versions.main %>.
 </p>
 
 <p>
     <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/<%= data.cloudstack.versions.main %>/apache-cloudstack-<%= data.cloudstack.versions.main %>-src.tar.bz2">
-        <button type="button" class="btn btn-primary btn-lg">
-            Get the <%= data.cloudstack.versions.main %> Source!
+        <button type="button" class="btn btn-primary btn-md">
+            Get the <%= data.cloudstack.versions.main %> Source
         </button>
     </a>
     <a href="http://www.apache.org/dist/cloudstack/KEYS">
@@ -61,12 +63,15 @@ title: Apache CloudStack Downloads
         </button>
     </a>
 </p>
+<br>
+<p>Apache CloudStack's most current LTS release is <%= data.cloudstack.versions.lts %>.
+</p>
 
 <% data.cloudstack.versions.others.each do |other_version| %>
 <p>
-    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/<%= other_version %>/apache-cloudstack-<%= other_version %>-src.tar.bz2">
+    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/<%= data.cloudstack.versions.lts %>/apache-cloudstack-<%= data.cloudstack.versions.lts %>-src.tar.bz2">
         <button type="button" class="btn btn-primary btn-md">
-            Get the <%= other_version %> Source!
+            Get the <%= other_version %> Source
         </button>
     </a>
     <a href="http://www.apache.org/dist/cloudstack/KEYS">
@@ -74,17 +79,17 @@ title: Apache CloudStack Downloads
             KEYS
         </button>
     </a>
-    <a href="http://www.apache.org/dist/cloudstack/releases/<%= other_version %>/apache-cloudstack-<%=  other_version %>-src.tar.bz2.asc">
+    <a href="http://www.apache.org/dist/cloudstack/releases/<%= data.cloudstack.versions.lts %>/apache-cloudstack-<%= data.cloudstack.versions.lts %>-src.tar.bz2.asc">
         <button type="button" class="btn btn-info btn-xs">
             PGP
         </button>
     </a>
-    <a href="http://www.apache.org/dist/cloudstack/releases/<%= other_version %>/apache-cloudstack-<%=  other_version %>-src.tar.bz2.md5">
+    <a href="http://www.apache.org/dist/cloudstack/releases/<%= data.cloudstack.versions.lts %>/apache-cloudstack-<%= data.cloudstack.versions.lts %>-src.tar.bz2.md5">
         <button type="button" class="btn btn-info btn-xs">
             MD5
         </button>
     </a>
-    <a href="http://www.apache.org/dist/cloudstack/releases/<%= other_version %>1/apache-cloudstack-<%=     other_version %>-src.tar.bz2.sha512">
+    <a href="http://www.apache.org/dist/cloudstack/releases/<%= data.cloudstack.versions.lts %>/apache-cloudstack-<%= data.cloudstack.versions.lts %>-src.tar.bz2.sha512">
         <button type="button" class="btn btn-info btn-xs">
             SHA512
         </button>
@@ -92,27 +97,6 @@ title: Apache CloudStack Downloads
 </p>
 
 <% end %>
-
-
-<h4>Community Packages</h4>
-
-<p>For easier installation or upgrades, the official source code release has been supplemented by community members who have chosen to provide package repositories that also include noredis libraries.</p>
-
-<ul>
-    <li>DEB repository: <a href="http://download.cloudstack.org/ubuntu">http://download.cloudstack.org/ubuntu</a></li>
-    <li>CentOS/RHEL 6 RPM repository: <a href="http://download.cloudstack.org/centos/6/">http://download.cloudstack.org/centos/6/</a></li>
-    <li>CentOS/RHEL 7 RPM repository: <a href="http://download.cloudstack.org/centos/7/">http://download.cloudstack.org/centos/7/</a></li>
-</ul>
-
-<p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/latest/management-server/index.html#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
-
-
-<h4>Third-Party Distributions</h4>
-
-<ul>
-    <li>CloudStack Packages by ShapeBlue: <a href="http://shapeblue.com/packages/">http://shapeblue.com/packages</a></li>
-</ul>
-
 
 </div>
 
@@ -159,7 +143,27 @@ Additionally, you can verify the MD5 or SHA512 signatures on the files.
 </div>
 </div>
 
-<h4>Release Notes for CloudStack <%= data.cloudstack.versions.main %></h4>
+<h2>Packages</h2>
+
+<h4>Community Packages</h4>
+<p>For easier installation or upgrades, the official source code release has been supplemented by community members who have chosen to provide package repositories that also include noredis libraries.</p>
+
+<ul>
+    <li>DEB repository: <a href="http://download.cloudstack.org/ubuntu">http://download.cloudstack.org/ubuntu</a></li>
+    <li>CentOS/RHEL 6 RPM repository: <a href="http://download.cloudstack.org/centos/6/">http://download.cloudstack.org/centos/6/</a></li>
+    <li>CentOS/RHEL 7 RPM repository: <a href="http://download.cloudstack.org/centos/7/">http://download.cloudstack.org/centos/7/</a></li>
+</ul>
+
+<p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/latest/management-server/index.html#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
+<br>
+
+<h4>Packages hosted by 3rd Parties</h4>
+
+<ul>
+    <li>CloudStack Packages by ShapeBlue: <a href="http://shapeblue.com/packages/">http://shapeblue.com/packages</a></li>
+</ul>
+<br>
+<h3>Release Notes for CloudStack <%= data.cloudstack.versions.main %></h3>
 
 <p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/<%= data.cloudstack.versions.branch %>/">Version <%= data.cloudstack.versions.main %> Release Notes</a> document.</p>
 
@@ -190,7 +194,7 @@ Apache CloudStack's CloudMonkey tool is a CLI and shell environment designed for
 CloudMonkey's most current release is <%= data.cloudstack.cloudmonkey.version %>.
 
 <p>
-<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2"><button type="button" class="btn btn-primary btn-lg">Get the <%= data.cloudstack.cloudmonkey.version %> Source!</button></a>
+<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2"><button type="button" class="btn btn-primary btn-md">Get the <%= data.cloudstack.cloudmonkey.version %> Source</button></a>
 
 <a href="http://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
 <a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
