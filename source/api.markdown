@@ -23,6 +23,10 @@ we would welcome your help, please file a bug in the
 [CloudStack bug tracker](https://issues.apache.org/jira/browse/CLOUDSTACK)
 or by submitting a patch.
 
+## 4.11.x
+
+* [All API](api/apidocs-4.11/index.html)
+
 ## 4.10.x
 
 * [All API](api/apidocs-4.10/index.html)
