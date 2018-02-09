@@ -34,7 +34,7 @@ title: Developer Resources for Apache CloudStack
 
 <p>Apache CloudStack has a read-only mirror on <a href="https://github.com/apache/cloudstack" target="_blank">GitHub</a> that is kept in sync with the canonical Git repo maintained by the Apache Software Foundation. Submitting GitHub pull requests is the easiest way to get your contribution upstream. For detailed instructions see the link below:</p>
 
-<br><a href="https://github.com/apache/cloudstack/blob/master/CONTRIBUTING.md" target="_blank">GitHub Contribution Guidelines</a></br>
+<br><a href="https://github.com/apache/cloudstack/blob/master/CONTRIBUTING.md" target="_blank">GitHub Contribution Guidelines</a>
 
 <h3>Submitting a patch through JIRA</h3>
 

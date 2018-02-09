@@ -29,7 +29,6 @@ Active Project Management Committee contains (in alphabetical order of their use
 |akarasulu|Alex Karasulu|
 |alena1108|Alena Prokharchyk|
 |animesh|Animesh|
-|bhaisaab|Rohit Yadav|
 |boris|Boris Schrijver|
 |chipchilders|Chip Childers|
 |chiradeep|Chiradeep Vittal|
@@ -63,6 +62,7 @@ Active Project Management Committee contains (in alphabetical order of their use
 |rafael|Rafael Weingärtner|
 |rajani|Rajani Karuturi|
 |remi|Remi Bergsma|
+|rohit|Rohit Yadav|
 |sebgoa|Sebastien Goasguen|
 |sweller|Simon Weller|
 |swill|Will Stevens|
@@ -94,7 +94,6 @@ Active list of committers (in alphabetical order of their usernames)
 |anthonyxu|Anthony Xu|
 |aprateek|Abhinandan Prateek|
 |bfederle|Brian Federle|
-|bhaisaab|Rohit Yadav|
 |boris|Boris Schrijver|
 |brett|Brett Porter|
 |chipchilders|Chip Childers|
@@ -170,6 +169,7 @@ Active list of committers (in alphabetical order of their usernames)
 |rajeshbattala|Rajesh Battala|
 |remi|Remi Bergsma|
 |resmo|Rene Moser|
+|rohit|Rohit Yadav|
 |sailajamada|Sailaja Mada|
 |saksham|Saksham Srivastava|
 |sangeethah|Sangeetha Hariharan|
