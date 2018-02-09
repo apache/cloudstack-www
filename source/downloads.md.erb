@@ -28,12 +28,11 @@ title: Apache CloudStack Downloads
 <div class="col-lg-6">
 
 <h2>Latest CloudStack Releases</h2>
-<p>The CloudStack community maintains two release types; the 'main' releases and the LTS (Long Term Support) releases.  Twice a year (at the strart of Q1 and the start of Q3) the then current release of CloudStack is designated an LTS version.  This release would then receive bug and security fixes for a period of two years.</p>
-<p>The main releases receive only critical and above bug fixes for a short period.  The general expectaion is that consumers of the non-LTS releases will upgrade to a new version in order to receive fixes</p>
+<p>The CloudStack community maintains two release types; the 'main' releases and the LTS (Long Term Support) releases. The LTS releases receive bug and security fixes for a period of two years (more details here <a href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/LTS"><i>CloudStack Wiki</i></a>). The main releases receive only critical bug fixes for a short period.  The general expectation is that the users of the 'main' will upgrade to a new version in order to receive fixes</p>
 <br>
 <h3>Source Releases</h3>
-
-<p>Apache CloudStack's most current release is <%= data.cloudstack.versions.main %>.
+<p>Currently, the latest release is an LTS release. The next main release will start preparation at the begining of May 2018</p>
+<p>Apache CloudStack's most recent release is <%= data.cloudstack.versions.main %>.
 </p>
 
 <p>
@@ -64,7 +63,7 @@ title: Apache CloudStack Downloads
     </a>
 </p>
 <br>
-<p>Apache CloudStack's most current LTS release is <%= data.cloudstack.versions.lts %>.
+<p>Apache CloudStack's current LTS release is <%= data.cloudstack.versions.lts %>.
 </p>
 
 <% data.cloudstack.versions.others.each do |other_version| %>
@@ -95,6 +94,9 @@ title: Apache CloudStack Downloads
         </button>
     </a>
 </p>
+<br>
+<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/latest/">Installation Guide</a>.<br>
+Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack <%= data.cloudstack.versions.main %> can be found in the upgrade section of the Release Notes (see below).</p>
 
 <% end %>
 
@@ -163,13 +165,16 @@ Additionally, you can verify the MD5 or SHA512 signatures on the files.
     <li>CloudStack Packages by ShapeBlue: <a href="http://shapeblue.com/packages/">http://shapeblue.com/packages</a></li>
 </ul>
 <br>
-<h3>Release Notes for CloudStack <%= data.cloudstack.versions.main %></h3>
+<h3>Release Notes</h3>
+<h4><%= data.cloudstack.versions.main %></h4>
 
-<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/<%= data.cloudstack.versions.branch %>/">Version <%= data.cloudstack.versions.main %> Release Notes</a> document.</p>
+<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/<%= data.cloudstack.versions.branch %>/">Version <%= data.cloudstack.versions.branch %> Release Notes</a> document.</p>
 
-<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/latest/">Installation Guide</a>.</p>
+<h4><%= data.cloudstack.versions.lts %></h4>
 
-<p>Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack <%= data.cloudstack.versions.main%> can be found in the upgrade section of the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/<%= data.cloudstack.versions.branch %>/">Release Notes</a>.</p>
+<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/<%= data.cloudstack.versions.ltsbranch %>/">Version <%= data.cloudstack.versions.ltsbranch %> Release Notes</a> document.</p>
+
+
 
 <a name="cloudmonkey"></a>
 
@@ -191,7 +196,7 @@ Apache CloudStack's CloudMonkey tool is a CLI and shell environment designed for
 
 #### Source Release
 
-CloudMonkey's most current release is <%= data.cloudstack.cloudmonkey.version %>.
+CloudMonkey's current release is <%= data.cloudstack.cloudmonkey.version %>.
 
 <p>
 <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2"><button type="button" class="btn btn-primary btn-md">Get the <%= data.cloudstack.cloudmonkey.version %> Source</button></a>

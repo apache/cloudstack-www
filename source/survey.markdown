@@ -17,6 +17,6 @@ title: Apache CloudStack Survey
 </div>
 
 <iframe height="2000" allowTransparency="true" frameborder="0" scrolling="yes" style="width:100%;border:none"
-  src="//www.formwize.com/run/survey3.cfm?id=7191&embed">
-<a href="//www.formwize.com/run/survey3.cfm?id=7191" title="CloudStack Survey">Fill out my form</a>
+  src="https://www.formwize.com/run/survey3.cfm?idx=505d040e080008&embed">
+<a href="https://www.formwize.com/run/survey3.cfm?idx=505d040e080008" title="CloudStack Survey">Fill out my form</a>
 </iframe>
