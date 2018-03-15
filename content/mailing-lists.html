@@ -25,6 +25,7 @@
     <link href="stylesheets/bootstrap.css" rel="stylesheet" media="screen">
     <link href="stylesheets/font-awesome.css" rel="stylesheet">
     <link href="stylesheets/bootswatch.min.css" rel="stylesheet">
+    <link href="stylesheets/custom.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="icon" href="images/favicon.ico">
@@ -143,24 +144,31 @@
 <p>The project currently has several lists:</p>
 
 <ul>
-  <li><a href="http://mail-archives.apache.org/mod_mbox/cloudstack-announce/">announce@</a>: Project release, security and other announcements. This is a very low volume list.</li>
-  <li><a href="http://mail-archives.apache.org/mod_mbox/cloudstack-users/">users@</a>: This list is for users of CloudStack to seek and provide support. This is a moderately high volume list.</li>
-  <li><a href="http://mail-archives.apache.org/mod_mbox/cloudstack-dev/">dev@</a>: Where discussions about development and the project itself happen. This is a high volume list.</li>
-  <li><a href="http://mail-archives.apache.org/mod_mbox/cloudstack-commits/">commits@</a>: This list is for commits to the CloudStack git repository. It's a high volume list with automated messages, probably of limited interest to anyone who is not actively developing Apache CloudStack.</li>
-  <li><a href="http://mail-archives.apache.org/mod_mbox/cloudstack-issues/">issues@</a>: Notifications from CloudStack's Jira project. This is a high volume list.</li>
-  <li><a href="http://mail-archives.apache.org/mod_mbox/cloudstack-marketing/">marketing@</a>: Discussions about marketing CloudStack.</li>
+  <li><a href="https://lists.apache.org/list.html?announce@cloudstack.apache.org">announce@</a>: Project release, security and other announcements. This is a very low volume list.</li>
+  <li><a href="https://lists.apache.org/list.html?users@cloudstack.apache.org">users@</a>: This list is for users of CloudStack to seek and provide support. This is a moderately high volume list.</li>
+  <li><a href="https://lists.apache.org/list.html?dev@cloudstack.apache.org">dev@</a>: Where discussions about development and the project itself happen. This is a high volume list.</li>
+  <li><a href="https://lists.apache.org/list.html?commits@cloudstack.apache.org">commits@</a>: This list is for commits to the CloudStack git repository. It's a high volume list with automated messages, probably of limited interest to anyone who is not actively developing Apache CloudStack.</li>
+  <li><a href="https://lists.apache.org/list.html?issues@cloudstack.apache.org">issues@</a>: Notifications from CloudStack's Jira project. This is a high volume list.</li>
+  <li><a href="https://lists.apache.org/list.html?marketing@cloudstack.apache.org">marketing@</a>: Discussions about marketing CloudStack.</li>
 </ul>
 
 <p>The preferred language to use on the lists above is English. To support the global nature of the CloudStack user community, we also have the following regionally specific user lists:</p>
 
 <ul>
-  <li><a href="http://mail-archives.apache.org/mod_mbox/cloudstack-users-cn/">users-cn@</a>: Chinese</li>
+  <li><a href="https://lists.apache.org/list.html?users-cn@cloudstack.apache.org">users-cn@</a>: Chinese</li>
 </ul>
 
-<form action="http://markmail.org/search/list:org.apache.incubator.cloudstack-*">
-<strong>Search the CloudStack Mailing Lists on MarkMail</strong>: <input type="text" name="q" size="50" />
-<input type="submit" value="Search" />
-</form>
+<div>
+	<strong>Search the CloudStack Mailing Lists</strong>: <input id="queryStringToSearchOnMailingList" type="text" name="q" size="60" />
+	<a id="searchOnCloudStackMailingLists" class="button" target="_blank" href="#">Search</a>
+</div>
+
+<script>
+	var searchEmailListBaseUrl = "https://lists.apache.org/list.html?users@cloudstack.apache.org:lte=1M&q=";
+	$('#queryStringToSearchOnMailingList').change(function(){
+		$('#searchOnCloudStackMailingLists').attr('href', searchEmailListBaseUrl + $(this).val());
+	});
+</script>
 
 <h2 id="to-subscribe-to-the-mailing-lists">To Subscribe to the Mailing Lists</h2>
 
