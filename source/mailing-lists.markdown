@@ -20,21 +20,28 @@ If you're interested in learning more or participating in the Apache CloudStack 
 
 The project currently has several lists:
 
-- [announce@](http://mail-archives.apache.org/mod_mbox/cloudstack-announce/): Project release, security and other announcements. This is a very low volume list.
-- [users@](http://mail-archives.apache.org/mod_mbox/cloudstack-users/): This list is for users of CloudStack to seek and provide support. This is a moderately high volume list.
-- [dev@](http://mail-archives.apache.org/mod_mbox/cloudstack-dev/): Where discussions about development and the project itself happen. This is a high volume list.
-- [commits@](http://mail-archives.apache.org/mod_mbox/cloudstack-commits/): This list is for commits to the CloudStack git repository. It's a high volume list with automated messages, probably of limited interest to anyone who is not actively developing Apache CloudStack.
-- [issues@](http://mail-archives.apache.org/mod_mbox/cloudstack-issues/): Notifications from CloudStack's Jira project. This is a high volume list.
-- [marketing@](http://mail-archives.apache.org/mod_mbox/cloudstack-marketing/): Discussions about marketing CloudStack.
+- [announce@](https://lists.apache.org/list.html?announce@cloudstack.apache.org): Project release, security and other announcements. This is a very low volume list.
+- [users@](https://lists.apache.org/list.html?users@cloudstack.apache.org): This list is for users of CloudStack to seek and provide support. This is a moderately high volume list.
+- [dev@](https://lists.apache.org/list.html?dev@cloudstack.apache.org): Where discussions about development and the project itself happen. This is a high volume list.
+- [commits@](https://lists.apache.org/list.html?commits@cloudstack.apache.org): This list is for commits to the CloudStack git repository. It's a high volume list with automated messages, probably of limited interest to anyone who is not actively developing Apache CloudStack.
+- [issues@](https://lists.apache.org/list.html?issues@cloudstack.apache.org): Notifications from CloudStack's Jira project. This is a high volume list.
+- [marketing@](https://lists.apache.org/list.html?marketing@cloudstack.apache.org): Discussions about marketing CloudStack.
 
 The preferred language to use on the lists above is English. To support the global nature of the CloudStack user community, we also have the following regionally specific user lists:
 
-- [users-cn@](http://mail-archives.apache.org/mod_mbox/cloudstack-users-cn/): Chinese
+- [users-cn@](https://lists.apache.org/list.html?users-cn@cloudstack.apache.org): Chinese
 
-<form action="http://markmail.org/search/list:org.apache.incubator.cloudstack-*">
-<strong>Search the CloudStack Mailing Lists on MarkMail</strong>: <input type="text" name="q" size="50"/>
-<input type="submit" value="Search"/>
-</form>
+<div>
+	<strong>Search the CloudStack Mailing Lists</strong>: <input id="queryStringToSearchOnMailingList" type="text" name="q" size="60"/>
+	<a id="searchOnCloudStackMailingLists" class="button" target="_blank" href="#" >Search</a>
+</div>
+
+<script>
+	var searchEmailListBaseUrl = "https://lists.apache.org/list.html?users@cloudstack.apache.org:lte=1M&q=";
+	$('#queryStringToSearchOnMailingList').change(function(){
+		$('#searchOnCloudStackMailingLists').attr('href', searchEmailListBaseUrl + $(this).val());
+	});
+</script>
 
 ## To Subscribe to the Mailing Lists
 
