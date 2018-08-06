@@ -32,7 +32,7 @@ If you noticed something wrong  with your entry here (or if you’d like us to r
 * [Appcore](http://www.appcore.com)
 * [AxiomIO](http://axiomio.com)
 * [Ayaline](http://www.ayaline.com)
-* [BIT.Group GmbH](http://www.bautzen-it.de)
+* [Itelligence Global Managed Services GmbH](https://itelligencegroup.com/de/trends/cloud-loesungen/)
 * [BT](http://btcloud.bt.com)
 * [CloudOps](http://www.cloudops.com)
 * [Codero](http://www.codero.com)
