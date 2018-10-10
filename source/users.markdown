@@ -61,6 +61,7 @@ If you noticed something wrong  with your entry here (or if you’d like us to r
 * [Reliable Networks](http://www.reliablenetworks.com)
 * [Redbridge](http://www.redbridge.se)
 * [SafeSwiss Cloud](https://www.safeswisscloud.ch)
+* [HIAG Data AG](https://www.hiagdata.com)
 * [SJC Inc](http://www.sjcloud.cn/index.xhtml)
 * [Telia Latvia](http://www.telia.lv)
 * [Tranquil Hosting](http://www.tqhosting.com)
@@ -83,7 +84,6 @@ If you noticed something wrong  with your entry here (or if you’d like us to r
 * Amdocs
 * Amysta
 * Angani
-* Anolim
 * Apalia
 * Appcara Inc.
 * Appcore
