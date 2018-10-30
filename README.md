@@ -6,7 +6,15 @@ This is built using [middleman](https://middlemanapp.com)
     $ gem install middleman
     $ bundle install
 
-All sources are in the `/source` directory
+All sources are located in the `/source` directory. The build process requires JavaScript engine to be installed. For Ubuntu Linux use:
+
+```bash
+sudo apt-get update
+sudo apt install nodejs
+```
+
+For more details look at: 
+https://github.com/sstephenson/execjs/issues/71
 
 Build the site with:
 
