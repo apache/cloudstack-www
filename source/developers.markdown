@@ -20,27 +20,6 @@ title: Developer Resources for Apache CloudStack
 
 <div class="col-lg-8">
 
-<h2>CloudStack Repositories</h2>
-<p><a href="https://github.com/apache/cloudstack" target="_blank">System Source Code</a>. The main CloudStack-related project, 
-where almost all activities take place.<br />
-Repository Link: <a href="https://github.com/apache/cloudstack" target="_blank">https://github.com/apache/cloudstack</a>
-</p>
-
-<p><a href="https://github.com/apache/cloudstack-cloudmonkey" target="_blank">CloudMonkey CLI utility</a>. CloudMonkey is de-facto standard CloudStack CLI utility which
-supports scripting, automation, searching over data and working with CloudStack from console.<br />
-Repository Link: <a href="https://github.com/apache/cloudstack-cloudmonkey" target="_blank">https://github.com/apache/cloudstack-cloudmonkey</a>
-</p>
-
-<p><a href="https://github.com/apache/cloudstack-www" target="_blank">WebSite Source Code</a>. The project defines the product information, 
-news and updates, displayed at the Apache <a href="http://cloudstack.apache.org/" target="_blank">CloudStack</a> website.<br />
-Repository Link: <a href="https://github.com/apache/cloudstack-www" target="_blank">https://github.com/apache/cloudstack-www</a>
-</p>
-
-<p><a href="https://github.com/apache/cloudstack-documentation" target="_blank">Project Documentation</a>. This project hosts product documentation which
-covers installation, management, plug-ins and other scopes of knowledge, related to the product.<br />
-Repository Link: <a href="https://github.com/apache/cloudstack-documentation" target="_blank">https://github.com/apache/cloudstack-documentation</a>
-</p>
-
 <h2>Contributing as a Non-Committer</h2>
 
 <p>If you're a committer on an Apache project, it means that you can commit directly to the project's repository. For instance, with Apache CloudStack committers are allowed to directly push commits into the git repository.</p>
