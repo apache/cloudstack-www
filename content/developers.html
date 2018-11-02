@@ -173,56 +173,123 @@ For detailed instructions see the link below:<br />
 
 <p>In short, communication is a vital part of making a contribution to an Apache project.</p>
 
-<h3> Getting Started </h3>
+<h3>Getting Started</h3>
 
-<p>First, lets make sure that you've added your name and email to your `~/.gitconfig`:</p>
+<h4>Fork the code</h4>
+
+<p>In your browser, navigate to: <a href="https://github.com/apache/cloudstack">https://github.com/apache/cloudstack</a>.</p>
+
+<p>Fork the repository by clicking on the 'Fork' button on the top right hand side.  The fork will happen and you will be taken to your own
+fork of the repository. Copy the Git repository URL by clicking on the clipboard next to the URL on the right hand side of the page under '<b>HTTPS</b> clone URL'.
+You will paste this URL when doing the following <code>git clone</code> command.</p>
+
+On your computer, follow these steps to setup a local repository for working on ACS:
 
 <pre>
-$ git config --global user.name "Your Name"
-$ git config --global user.email you@domain.com
+$ git clone https://github.com/YOUR_ACCOUNT/cloudstack.git
+$ cd cloudstack
+$ git remote add upstream https://github.com/apache/cloudstack.git
+$ git checkout master
+$ git fetch upstream
+$ git rebase upstream/master
 </pre>
 
-<p>You'll grab the CloudStack source with git:</p>
+<h4>Making Changes</h4>
+
+<p>It is important that you create a new branch to make changes on and that you do not change the 
+<code>master</code> branch (other than to rebase in changes from <code>upstream/master</code>).  In this example I will assume you will be making your changes 
+to a branch called <code>feature_x</code>. This <code>feature_x</code> branch will be created on your local repository and will be pushed to your
+forked repository on GitHub. Once this branch is on your fork you will create a Pull Request for the changes to be added to the ACS project.</p>
+
+<p>It is best practice to create a new branch each time you want to contribute to the project and only track the changes for that pull request in this branch.</p>
 
 <pre>
-$ git clone https://gitbox.apache.org/repos/asf/cloudstack.git
+$ git checkout -b feature_x
+   (make your changes)
+$ git status
+$ git add .
+$ git commit -a -m "descriptive commit message for your changes"
 </pre>
 
-<p>If you already have the source, make sure you're working with the most recent version. Do a `git pull` if you cloned the source more than a few hours ago. (Apache CloudStack development can move pretty fast!)</p>
+<blockquote>The <code>-b</code> specifies that you want to create a new branch called <code>feature_x</code>.  You only specify <code>-b</code> the first time you 
+checkout because you are creating a new branch.  Once the <code>feature_x</code> branch exists, you can later switch to it with only <code>git checkout feature_x</code>.</blockquote>
+
+<h4>Rebase <code>feature_x</code> to include updates from <code>upstream/master</code></h4>
+
+<p>It is important that you maintain an up-to-date <code>master</code> branch in your local repository.  This is done by rebasing in the code 
+changes from <code>upstream/master</code> (the official ACS project repository) into your local repository.  You will want to do this before you start 
+working on a feature as well as right before you submit your changes as a pull request. We recommend you do this process periodically while you work to make 
+sure you are working off the most recent project code.</p>
+
+<p>This process will do the following:</p>
+
+<ol>
+  <li>Checkout your local <code>master</code> branch;</li>
+  <li>Synchronize your local <code>master</code> branch with the <code>upstream/master</code> so you have all the latest changes from the project;</li>
+  <li>Rebase the latest project code into your <code>feature_x</code> branch so it is up-to-date with the upstream code.</li>
+</ol>
 
 <pre>
-$ git checkout -b mybranch
+$ git checkout master
+$ git fetch upstream
+$ git rebase upstream/master
+$ git checkout feature_x
+$ git rebase master
 </pre>
 
-<p>This does two things: One, it creates the branch <em>mybranch</em> and two, it changes your working branch to <em>mybranch</em>. Running `git branch` will show you which branch you're working on, with an asterisk next to the active branch, like so:</p>
+<blockquote>Now your <code>feature_x</code> branch is up-to-date with all the code in <code>upstream/master</code>.</blockquote>
+
+<h4>Make a GitHub pull request to contribute your changes</h4>
+
+<p>When you are happy with your changes and you are ready to contribute them, you will create a Pull Request on GitHub to do so.
+This is done by pushing your local changes to your forked repository (default remote name is <code>origin</code>) and then initiating a pull request on GitHub.</p>
+
+<p>Please include JIRA ID or GitHub ID, detailed information about the bug/feature, what all tests are executed, how the reviewer can test this
+feature etc. Incase of UI PRs, a screenshot is preferred.</p>
+
+<blockquote><b>IMPORTANT:</b>Make sure you have rebased your <code>feature_x</code> branch to include the latest code from <code>upstream/master</code> <b>before</b>
+you do this.</blockquote>
 
 <pre>
-[user@localhost cloudstack]$ git branch
-  master
-  * mybranch
-  </pre>
+$ git push origin master
+$ git push origin feature_x
+</pre>
 
-<p>Make whatever changes you're going to make, be sure to use <code>git add</code> to stage the changes, and then you're going to commit the changes to your working branch:</p>
+<p>Now that the <code>feature_x</code> branch has been pushed to your GitHub repository, you can initiate the pull request.</p>
 
-<pre>git commit -m "Insert a meaningful summary of changes here."</pre>
+<p>To initiate the pull request, do the following:</p>
 
-<p>Finally, you can create a patch and attach it to the JIRA issue that you created for the bug you are fixing.</p>
+<ol>
+<li>In your browser, navigate to your forked repository: <b>https://github.com/YOUR_ACCOUNT/cloudstack</b>;</li>
+<li>Click the new button called '<b>Compare &amp; pull request</b>' that showed up just above the main area in your forked repository;</li>
+<li>Validate the pull request will be into the upstream <code>master</code> and will be from your <code>feature_x</code> branch;</li>
+<li>Enter a detailed description of the work you have done and then click '<b>Send pull request</b>'.</li>
+</ol>
 
-<pre>git format-patch master --stdout &gt; ~/patch-name.patch</pre>
+<p>If you are requested to make modifications to your proposed changes, make the changes locally on your <code>feature_x</code> branch, re-push
+the <code>feature_x</code> branch to your fork. The existing pull request should automatically pick up the change and update accordingly.</p>
 
-<h3>Review</h3>
+<h4>Cleaning up after a successful pull request</h4>
 
-<p>Once you've submitted your pull request, you should receive a response within a few days. If you receive no response within a week, please ping the cloudstack-dev mailing list (dev@cloudstack.apache.org).</p>
+<p>Once the <code>feature_x</code> branch has been committed into the <code>upstream/master</code> branch, your local <code>feature_x</code> branch
+and the <code>origin/feature_x</code> branch are no longer needed. If you want to make additional changes, restart the process with a new branch.</p>
 
-<h3>Screencast</h3>
+<blockquote><b>IMPORTANT:</b>Make sure that your changes are in <code>upstream/master</code>before you delete your <code>feature_x</code>
+and <code>origin/feature_x</code> branches!</blockquote>
 
-<p>If you are new to git you might want to watch this screencast:</p>
+<p>You can delete these deprecated branches with the following:</p>
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/3c5JIW4onGk?list=PLb899uhkHRoZCRE00h_9CRgUSiHEgFDbC" frameborder="0" allowfullscreen=""></iframe>
+<pre>
+$ git checkout master
+$ git branch -D feature_x
+$ git push origin :feature_x
+</pre>
 
 <h3>Further Reading</h3>
 
-<p>You might want to peruse the <a href="http://www.apache.org/foundation/getinvolved.html" target="_blank">Get Involved</a> page on Apache.org, and the <a href="http://commons.apache.org/patches.html" target="_blank">On Contributing Patches</a> doc as well. Note that some of that does not apply to Apache CloudStack, as we're using git rather than Subversion. But do respect the original style of the CloudStack code, and ensure that you're using spaces rather than tabs, and your patches have Unix line endings (LF) rather than Windows-type line endings (CRLF).</p>
+<p>You might want to peruse the <a href="http://www.apache.org/foundation/getinvolved.html" target="_blank">Get Involved</a> page on Apache.org. 
+Please, respect the original style of the CloudStack code, and ensure that you're using spaces rather than tabs, and your code have Unix line 
+endings (LF) rather than Windows-type line endings (CRLF).</p>
 
 </div>
 
@@ -276,6 +343,10 @@ $ git checkout -b mybranch
 
 <pre>
 git clone https://github.com/apache/cloudstack.git
+</pre>
+or 
+<pre>
+git clone https://gitbox.apache.org/repos/asf/cloudstack.git
 </pre>
 
 <p>Similarly, clone the cloudstack-cloudmonkey repository or the other repositories to get access to the most recent source of all CloudStack subprojects.</p>
