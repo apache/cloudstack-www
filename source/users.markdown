@@ -20,13 +20,13 @@ The following organisations are known users of Apache CloudStack (or a commercia
 
 Our users include many major service providers running CloudStack to offer public cloud services, product vendors who incorporate or integrate with Cloudstack in their own products, organisations who have used Cloudstack to build their own private clouds, and systems integrators that offer CloudStack related services.
 
-**Are you using CloudStack ?**
+## How to Add your Company in The List
 
-If you are using CloudStack in your organisation and your company is not listed here, please complete our brief adoption [survey](/survey.html). We’re happy to keep your company name anonymous if you require.
+If you are using CloudStack in your organisation and your company is not listed here, please send a pull request to the GitHub [page](https://github.com/apache/cloudstack-www/blob/master/source/users.markdown).
 
-**Noticed Something wrong ?**
+## How to Request the Entry Removal or Change
 
-If you noticed something wrong  with your entry here (or if you’d like us to remove it), please complete our adoption [survey](/survey.html). We will use the information you give us in this survey to update the contents of this page
+If you noticed something wrong with your entry here (or if you’d like us to remove it), please send a pull request to the GitHub [page](https://github.com/apache/cloudstack-www/blob/master/source/users.markdown) or write your concerns to the mail-list **users@cloudstack.apache.org**.
 
 * [ActOnMagic](http://www.actonmagic.com)
 * [Appcore](http://www.appcore.com)
@@ -55,6 +55,7 @@ If you noticed something wrong  with your entry here (or if you’d like us to r
 * [Melbourne University](http://nectar.org.au)
 * [Miriadis](http://www.miriadis.com)
 * [Neobitti](http://neobitti.fi)
+* [NetPoint](https://netpoint-dc.com/)
 * [Openminds](http://www.openminds.be)
 * [Overweb srl](http://stacksquare.com)
 * [Polcom](http://polcom.com.pl)

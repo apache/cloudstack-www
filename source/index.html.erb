@@ -15,11 +15,6 @@ title: Welcome to CloudStack
           <div class="col-lg-4">
             <img src="images/monkey.png" style="width: 210px; margin-left: 115px;" alt="Cloud friendly">
           </div>
-		  <div class="col-lg-3" style="margin-left: 77%;margin-top: 3.5%;">
-				<a href="https://www.apache.org/events/current-event.html">
-					<img src="https://www.apache.org/events/current-event-234x60.png">
-				</a>
-		  </div>
         </div>
       </div>
     </div>
@@ -96,12 +91,23 @@ Join Us
 		<div class="panel-body">
 
 		<p class="text-warning">Apache CloudStack <%= data.cloudstack.versions.main %> is out!</p>
+		<% if data.cloudstack.versions.main_islts %>
+		<p>This is current CloudStack LTS release.</p>
+		<% else %>
+		<p>This is non-LTS release of CloudStack.</p>
+		<% end %>
 
-		<p>
-		Looking for other versions of Apache CloudStack? You can find our archives on the download page as well.
+		<a href="downloads.html"><button type="button" class="btn btn-success">Download</button></a>
+		<a href="<%= data.cloudstack.versions.main_docs_url %>"><button type="button" class="btn btn-success">Documentation</button></a>
+		
+		<p style="margin-top: 20px;">If you prefer proven stability rather than the newest features, please take a look at the previous LTS release.</p>
+		<p class="text-warning">Previous Apache CloudStack LTS Release is <%= data.cloudstack.versions.lts %>.</p>
+		<a href="downloads.html"><button type="button" class="btn btn-success">Download</button></a>
+		<a href="<%= data.cloudstack.versions.lts_docs_url %>"><button type="button" class="btn btn-success">Documentation</button></a>
+
+		<p style="margin-top: 20px;">
+		Looking for other versions of Apache CloudStack? You can find them in our <a href="archives.html">archieves</a> page as well.
 		</p>
-
-		<a href="downloads.html"><button type="button" class="btn btn-success">Download Now</button></a>
 
 		</div>
 
