@@ -1,10 +1,14 @@
 versions:
-  main: 4.11.1.0
+  main: 4.11.2.0
+  main_islts: LTS
+  main_docs_url: http://docs.cloudstack.apache.org/en/4.11.2.0/
   branch: 4.11
   lts: 4.9.3.1
+  lts_docs_url: http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/4.9/
   ltsbranch: 4.9
   archives:
     - '4.11':
+       - 4.11.2.0
        - 4.11.1.0
        - 4.11.0.0
     - '4.10':
