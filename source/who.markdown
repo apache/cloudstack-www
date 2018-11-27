@@ -25,13 +25,19 @@ Active Project Management Committee contains (in alphabetical order of their use
 {:.table-bordered}
 | Username | Name |
 |----------|------|
+|ahuang|Alex Huang|
 |akarasulu|Alex Karasulu|
 |alena1108|Alena Prokharchyk|
 |animesh|Animesh|
 |bhaisaab|Rohit Yadav|
+|boris|Boris Schrijver|
 |chipchilders|Chip Childers|
 |chiradeep|Chiradeep Vittal|
 |dahn|Daan|
+|duffy|Ian Duffy|
+|edison|Disheng Su|
+|ekho|Wilder Rodrigues|
+|erikw|Erik Weber|
 |giles|Giles Sirett|
 |gochiba|Go Chiba|
 |hogstrom|Matt Richard Hogstrom|
@@ -41,6 +47,7 @@ Active Project Management Committee contains (in alphabetical order of their use
 |jim|Jim Jagielski|
 |jlk|John Kinsella|
 |jzb|Joe Brockmeier|
+|karenv|Karen Vuong|
 |ke4qqq|David Nalley|
 |kluge|Kevin Kluge|
 |milamber|Bruno Demion|
@@ -48,11 +55,16 @@ Active Project Management Committee contains (in alphabetical order of their use
 |mnour|Mohammad Nour El-Din|
 |mrhinkle|Mark R. Hinkle|
 |mtutkowski|Mike Tutkowski|
-|nslater|Noah Slater|
+|nslater|Naomi Slater|
 |nux|Nux|
+|olamy|Olivier Lamy|
+|paul_a|Paul Angus|
 |pdion891|Pierre-Luc Dion|
+|rafael|Rafael Weingärtner|
 |rajani|Rajani Karuturi|
+|remi|Remi Bergsma|
 |sebgoa|Sebastien Goasguen|
+|sweller|Simon Weller|
 |swill|Will Stevens|
 |tsp|Prasanna|
 |widodh|Wido den Hollander|
@@ -83,6 +95,7 @@ Active list of committers (in alphabetical order of their usernames)
 |aprateek|Abhinandan Prateek|
 |bfederle|Brian Federle|
 |bhaisaab|Rohit Yadav|
+|boris|Boris Schrijver|
 |brett|Brett Porter|
 |chipchilders|Chip Childers|
 |chiradeep|Chiradeep Vittal|
@@ -140,8 +153,9 @@ Active list of committers (in alphabetical order of their usernames)
 |muralireddy|Murali Mohan Reddy|
 |nitin|Nitin|
 |noa|Noa Resare|
-|nslater|Noah Slater|
+|nslater|Naomi Slater|
 |nux|Nux|
+|nvazquez|Nicolás Vázquez|
 |olamy|Olivier Lamy|
 |olgasmola|Olga Smola|
 |paul_a|Paul Angus|
@@ -151,6 +165,7 @@ Active list of committers (in alphabetical order of their usernames)
 |pranavs|Pranav Saxena|
 |pyr|Pierre-Yves Ritschard|
 |radhika|Radhika Nair|
+|rafael|Rafael Weingärtner|
 |rajani|Rajani Karuturi|
 |rajeshbattala|Rajesh Battala|
 |remi|Remi Bergsma|
@@ -164,12 +179,15 @@ Active list of committers (in alphabetical order of their usernames)
 |sateesh|Sateesh Chodapuneedi|
 |schhen|Sonny Heng Chhen|
 |sebgoa|Sebastien Goasguen|
+|serg38|Sergey Levitskiy|
 |slriv|Sam Robertson|
 |snuf|Funs Kessen|
 |sowmya|Sowmya Krishnan|
 |sudhap|Sudhap|
 |swamy|Venkata Swamy|
+|sweller|Simon Weller|
 |swill|Will Stevens|
+|syed|Syed Ahmed|
 |talluri|Srikanteswararao Talluri|
 |tsp|Prasanna|
 |tuna|Anh Tu Nguyen|

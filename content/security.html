@@ -65,7 +65,6 @@
                 <li><a tabindex="-1" href="about.html">About</a></li>
                 <li class="divider"></li>
                 <li><a tabindex="-1" href="https://blogs.apache.org/cloudstack/" target="_blank">Blog<span class="glyphicon glyphicon-share-alt pull-right"></span></a></li>
-                <li><a tabindex="-1" href="http://planet.apache.org/cloudstack/" target="_blank">Planet</a></li>
                 <li><a tabindex="-1" href="history.html">History</a></li>
                 <li><a tabindex="-1" href="features.html">Features</a></li>
                 <li><a tabindex="-1" href="cloudstack-faq.html">FAQ</a></li>
@@ -79,7 +78,7 @@
                 <li><a tabindex="-1" href="contribute.html">Get Involved</a></li>
                 <li><a tabindex="-1" href="developers.html">Developers</a></li>
                 <li><a tabindex="-1" href="mailing-lists.html">Mailing Lists</a></li>
-                <li><a tabindex="-1" href="http://lanyrd.com/topics/apache-cloudstack/" target="_blank">Events &amp; Meetups <span class="glyphicon glyphicon-share-alt pull-right"></span></a></li>
+                <li><a tabindex="-1" href="http://cloudstackcollab.org/" target="_blank">Events &amp; Meetups <span class="glyphicon glyphicon-share-alt pull-right"></span></a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -107,7 +106,7 @@
               <ul class="dropdown-menu" aria-labelledby="download">
                 <li><a tabindex="-1" href="downloads.html">CloudStack Releases</a></li>
                 <li><a tabindex="-1" href="downloads.html#cloudmonkey">CloudMonkey</a></li>
-                <li><a tabindex="-1" href="downloads.html#archives">Release Archive</a></li>
+                <li><a tabindex="-1" href="archives.html">Release Archive</a></li>
               </ul>
             </li>
 			<li class="dropdown">
@@ -162,42 +161,43 @@
 <h2 id="procedure-for-responding-to-potential-security-issues">Procedure for Responding to Potential Security Issues</h2>
 
 <ul>
-  <li> Upon receiving notice of a potential security issue, a security team member will create a bug to track the investigation, this bug must be flagged as a security issue. Security flag should mean contents of ticket are not visible to non-security team members
-  <li> Security team investigates the issue to confirm/deny the presence of a vulnerability within CloudStack
-  <li> If the issue is determined not to be a vulnerability the reporter will be notified and the issue will be closed as invalid
-  <li> If issue is confirmed as a CloudStack vulnerability:
-  <ul>
-    <li> Security team notifies the Apache Security team
-    <li> Security team assigns a risk rating to the vulnerability using the Common Vulnerability Scoring System
-    <li> Security team works with reporter to get a chance to investigate and mitigate the issue in a timely manner before public announcement. This should be between 15-30 days, depending on the severity and complexity of the issue
-    <li> Security team works with Apache Security Team to reserve a CVE Identifier for future public release
-    <li> Security team works with appropriate code maintainer(s) to create patch to mitigate the issue
-    <li> Testing is conducted to verify patch mitigates issue and does not cause regression errors
-    <li> Security team creates a vulnerability announcement
-    <li> Patch is committed to trunk and other supported branches that are affected.  The commit should not refer to a particular vulnerability
-    <li> A new CloudStack release or hotfix is prepared and tested, containing the new security patch
-    <li> Distributor coordination is implemented to enable a coordinated announcement
-    <li> Security team posts vulnerability announcement to...
+  <li>Upon receiving notice of a potential security issue, a security team member will create a bug to track the investigation, this bug must be flagged as a security issue. Security flag should mean contents of ticket are not visible to non-security team members</li>
+  <li>Security team investigates the issue to confirm/deny the presence of a vulnerability within CloudStack</li>
+  <li>If the issue is determined not to be a vulnerability the reporter will be notified and the issue will be closed as invalid</li>
+  <li>If issue is confirmed as a CloudStack vulnerability:
     <ul>
-      <li> CloudStack dev list
-      <li> CloudStack users list
-      <li> The Bugtraq mailing list
-    
-    <li> After announcement, CHANGES and NEWS files need to be updated to reflect the vulnerability and fix. This must happen AFTER the announcement.
-    <li> Also after announcement, modify the Jira ticket so that the issue is now publicly viewable.
-  
-  <li> After the vulnerability is addressed, the CloudStack community should review development processes to see how the community can minimize the chance of similar vulnerabilities being introduced in the future.
+      <li>Security team notifies the Apache Security team</li>
+      <li>Security team assigns a risk rating to the vulnerability using the Common Vulnerability Scoring System</li>
+      <li>Security team works with reporter to get a chance to investigate and mitigate the issue in a timely manner before public announcement. This should be between 15-30 days, depending on the severity and complexity of the issue</li>
+      <li>Security team works with Apache Security Team to reserve a CVE Identifier for future public release</li>
+      <li>Security team works with appropriate code maintainer(s) to create patch to mitigate the issue</li>
+      <li>Testing is conducted to verify patch mitigates issue and does not cause regression errors</li>
+      <li>Security team creates a vulnerability announcement</li>
+      <li>Patch is committed to trunk and other supported branches that are affected.  The commit should not refer to a particular vulnerability</li>
+      <li>A new CloudStack release or hotfix is prepared and tested, containing the new security patch</li>
+      <li>Distributor coordination is implemented to enable a coordinated announcement</li>
+      <li>Security team posts vulnerability announcement to...
+        <ul>
+          <li>CloudStack dev list</li>
+          <li>CloudStack users list</li>
+          <li>The Bugtraq mailing list</li>
+        </ul>
+      </li>
+      <li>After announcement, CHANGES and NEWS files need to be updated to reflect the vulnerability and fix. This must happen AFTER the announcement.</li>
+      <li>Also after announcement, modify the Jira ticket so that the issue is now publicly viewable.</li>
+    </ul>
+  </li>
+  <li>After the vulnerability is addressed, the CloudStack community should review development processes to see how the community can minimize the chance of similar vulnerabilities being introduced in the future.</li>
+</ul>
 
+<h2 id="for-further-information">For further information</h2>
 
-## For further information
+<p>Further information about Apache CloudStack's security practices can be found in the <a href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Security">CloudStack Security wiki page</a>.</p>
 
-Further information about Apache CloudStack's security practices can be found in the [CloudStack Security wiki page](https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Security).
-
-</li></li></li></li></li></li></ul></li></li></li></li></li></li></li></li></li></li></li></ul></li></li></li></li></ul>
 
 
             <footer>
-                <p>Copyright © 2015 The Apache Software Foundation, Licensed under the Apache License, Version 2.0. <br/>
+                <p>Copyright © 2017 The Apache Software Foundation, Licensed under the Apache License, Version 2.0. <br/>
                 "Apache", "CloudStack", "Apache CloudStack", the Apache CloudStack logo, the Apache CloudStack Cloud Monkey logo and the Apache feather logos are registered trademarks or trademarks of The Apache Software Foundation.</p>
                 <p><a href="/trademark-guidelines.html">Apache CloudStack Trademark Usage</a> - <a href="/bylaws.html">Apache CloudStack Community ByLaws</a></p>
             </footer>

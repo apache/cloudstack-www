@@ -1,5 +1,5 @@
 ---
-title: Apache CloudStack: Getting Involved
+title: Apache CloudStack Getting Involved
 ---
 
 <div class="row">
