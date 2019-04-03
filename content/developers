@@ -28,8 +28,8 @@
 </ul>
 </p>
 
-<p>Apache CloudStack has a read-only mirror on <a href="https://github.com/apache/cloudstack" target="_blank">GitHub</a> that is kept in sync with the
-canonical Git repo maintained by the Apache Software Foundation. Submitting GitHub pull requests is the easiest way to get your contribution upstream.
+<p>Apache CloudStack has a read-only mirror on <a href="https://github.com/apache/cloudstack" target="_blank">GitHub</a> that is kept in sync with the 
+canonical Git repo maintained by the Apache Software Foundation. Submitting GitHub pull requests is the easiest way to get your contribution upstream. 
 For detailed instructions see the link below:<br />
 <a href="https://github.com/apache/cloudstack/blob/master/CONTRIBUTING.md" target="_blank">GitHub Contribution Guidelines</a></p>
 
@@ -66,8 +66,8 @@ $ git rebase upstream/master
 
 <h4>Making Changes</h4>
 
-<p>It is important that you create a new branch to make changes on and that you do not change the
-<code>master</code> branch (other than to rebase in changes from <code>upstream/master</code>).  In this example I will assume you will be making your changes
+<p>It is important that you create a new branch to make changes on and that you do not change the 
+<code>master</code> branch (other than to rebase in changes from <code>upstream/master</code>).  In this example I will assume you will be making your changes 
 to a branch called <code>feature_x</code>. This <code>feature_x</code> branch will be created on your local repository and will be pushed to your
 forked repository on GitHub. Once this branch is on your fork you will create a Pull Request for the changes to be added to the ACS project.</p>
 
@@ -81,7 +81,7 @@ $ git add .
 $ git commit -a -m "descriptive commit message for your changes"
 </pre>
 
-<blockquote>The <code>-b</code> specifies that you want to create a new branch called <code>feature_x</code>.  You only specify <code>-b</code> the first time you
+<blockquote>The <code>-b</code> specifies that you want to create a new branch called <code>feature_x</code>.  You only specify <code>-b</code> the first time you 
 checkout because you are creating a new branch.  Once the <code>feature_x</code> branch exists, you can later switch to it with only <code>git checkout feature_x</code>.</blockquote>
 
 <h4>Rebase <code>feature_x</code> to include updates from <code>upstream/master</code></h4>
@@ -157,8 +157,8 @@ $ git push origin :feature_x
 
 <h3>Further Reading</h3>
 
-<p>You might want to peruse the <a href="http://www.apache.org/foundation/getinvolved.html" target="_blank">Get Involved</a> page on Apache.org.
-Please, respect the original style of the CloudStack code, and ensure that you're using spaces rather than tabs, and your code have Unix line
+<p>You might want to peruse the <a href="http://www.apache.org/foundation/getinvolved.html" target="_blank">Get Involved</a> page on Apache.org. 
+Please, respect the original style of the CloudStack code, and ensure that you're using spaces rather than tabs, and your code have Unix line 
 endings (LF) rather than Windows-type line endings (CRLF).</p>
 
 </div>
@@ -214,7 +214,7 @@ endings (LF) rather than Windows-type line endings (CRLF).</p>
 <pre>
 git clone https://github.com/apache/cloudstack.git
 </pre>
-or
+or 
 <pre>
 git clone https://gitbox.apache.org/repos/asf/cloudstack.git
 </pre>
