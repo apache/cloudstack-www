@@ -21,7 +21,6 @@ This page includes the Apache CloudStack Project Management Committee (PMC) memb
 ## PMC
 
 Active Project Management Committee contains (in alphabetical order of their usernames):
-
 {:.table-bordered}
 | Username | Name |
 |----------|------|
@@ -32,7 +31,6 @@ Active Project Management Committee contains (in alphabetical order of their use
 |chipchilders|Chip Childers|
 |chiradeep|Chiradeep Vittal|
 |dahn|Daan|
-|edison|Disheng Su|
 |ekho|Wilder Rodrigues|
 |erikw|Erik Weber|
 |giles|Giles Sirett|
@@ -81,57 +79,11 @@ PMC members who are no longer active include:
 
 Active list of committers (in alphabetical order of their usernames)
 
+Active list of committers (in alphabetical order of their usernames):
 {:.table-bordered}
 | Username | Name |
 |----------|------|
-|ahuang|Alex Huang|
-|akarasulu|Alex Karasulu|
-|alena1108|Alena Prokharchyk|
-|animesh|Animesh|
-|boris|Boris Schrijver|
-|chipchilders|Chip Childers|
-|chiradeep|Chiradeep Vittal|
-|dahn|Daan|
-|duffy|Ian Duffy|
-|edison|Disheng Su|
-|ekho|Wilder Rodrigues|
-|erikw|Erik Weber|
-|giles|Giles Sirett|
-|gochiba|Go Chiba|
-|hogstrom|Matt Richard Hogstrom|
-|hugo|Hugo Trippaers|
-|ilya|Ilya Musayev|
-|jburwell|John Burwell|
-|jlk|John Kinsella|
-|jzb|Joe Brockmeier|
-|karenv|Karen Vuong|
-|ke4qqq|David Nalley|
-|kluge|Kevin Kluge|
-|milamber|Bruno Demion|
-|mlsorensen|Marcus Sorensen|
-|mnour|Mohammad Nour El-Din|
-|mrhinkle|Mark R. Hinkle|
-|mtutkowski|Mike Tutkowski|
-|nslater|Naomi Slater|
-|nux|Nux|
-|olamy|Olivier Lamy|
-|paul_a|Paul Angus|
-|pdion891|Pierre-Luc Dion|
-|rafael|Rafael Weingärtner|
-|rajani|Rajani Karuturi|
-|remi|Remi Bergsma|
-|resmo|Rene Moser|
-|rohit|Rohit Yadav|
-|sebgoa|Sebastien Goasguen|
-|sweller|Simon Weller|
-|swill|Will Stevens|
-|syed|Syed Ahmed|
-|tsp|Prasanna|
-|weizhou|Wei Zhou|
-|widodh|Wido den Hollander|
-|willchan|William Chan|
 |ahmad|Ahmad Emneina|
-|ahuang|Alex Huang|
 |akarasulu|Alex Karasulu|
 |alena1108|Alena Prokharchyk|
 |amoghvk|Amogh Vasekar|
@@ -154,8 +106,6 @@ Active list of committers (in alphabetical order of their usernames)
 |devdeep|Devdeep Singh|
 |dkonrad|Dennis Konrad|
 |dsonstebo|Dag Sonstebo|
-|duffy|Ian Duffy|
-|edison|Disheng Su|
 |ekho|Wilder Rodrigues|
 |erikw|Erik Weber|
 |fmaximus|Frank Maximus|
@@ -208,7 +158,6 @@ Active list of committers (in alphabetical order of their usernames)
 |nslater|Naomi Slater|
 |nux|Nux|
 |nvazquez|Nicolás Vázquez|
-|olamy|Olivier Lamy|
 |olgasmola|Olga Smola|
 |paul_a|Paul Angus|
 |pdion891|Pierre-Luc Dion|
@@ -251,7 +200,6 @@ Active list of committers (in alphabetical order of their usernames)
 |willchan|William Chan|
 |yasker|Sheng Yang|
 |ynojima|Yoshikazu Nojima|
-
 
 ## Emeritus Committers
 Committers who are no longer active include:
