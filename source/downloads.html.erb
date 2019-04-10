@@ -161,7 +161,7 @@
 <% end %>
 
 <p>
-    <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/<%= data.cloudstack.versions.main %>/apache-cloudstack-<%= data.cloudstack.versions.main %>-src.tar.bz2">
+    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/<%= data.cloudstack.versions.main %>/apache-cloudstack-<%= data.cloudstack.versions.main %>-src.tar.bz2">
         <button type="button" class="btn btn-primary btn-md">
             Get the <%= data.cloudstack.versions.main %> Source
         </button>
@@ -307,39 +307,23 @@ Additionally, you can verify the MD5 or SHA512 signatures on the files.
 
 <h4 id="source-release">Source Release</h4>
 
-<p>CloudMonkey's current release is 5.3.3.</p>
+<p>CloudMonkey's current release is <%= data.cloudstack.cloudmonkey.version %>.</p>
 
 <p>
-<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-5.3.3/apache-cloudstack-cloudmonkey-5.3.3-src.tar.bz2"><button type="button" class="btn btn-primary btn-md">Get the 5.3.3 Source</button></a>
+<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2"><button type="button" class="btn btn-primary btn-md">Get the <%= data.cloudstack.cloudmonkey.version %> Source</button></a>
 
 <a href="http://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.3/apache-cloudstack-cloudmonkey-5.3.3-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.3/apache-cloudstack-cloudmonkey-5.3.3-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.3/apache-cloudstack-cloudmonkey-5.3.3-src.tar.bz2.sha"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2.sha"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
 
 </p>
 
-<p>Instructions for building and installing from source can be found in the included <a href="https://gitbox.apache.org/repos/asf?p=cloudstack-cloudmonkey.git;a=blob_plain;f=README.md">README.md</a> file.</p>
+<h4 id="github-release">Binary Builds Release</h4>
 
-<h4 id="pypi-package">PyPi Package</h4>
+<p>For easier installation or upgrades, the official source code release has been supplemented by community members who have pushed the python package to the <a href="https://github.com/apache/cloudstack-cloudmonkey/releases">Apache CloudStack CloudMonkey Github release</a> page.</p>
 
-<p>For easier installation or upgrades, the official source code release has been supplemented by community members who have pushed the python package to the <a href="https://pypi.python.org/pypi/cloudmonkey/">Python Package Index</a>.</p>
-
-<p>For installing the package from pypi, use:</p>
-
-<pre><code>$ pip install cloudmonkey
-</code></pre>
-
-<p>To upgrade:</p>
-
-<pre><code>$ pip install --upgrade cloudmonkey
-</code></pre>
-
-<p>Though a clean upgrade is recommended:</p>
-
-<pre><code>$ pip uninstall cloudmonkey
-$ pip install cloudmonkey
-</code></pre>
+<p>For installing, upgrade, usage, please see the project <a href="https://github.com/apache/cloudstack-cloudmonkey/wiki/Getting-Started#installation">wiki</a>.</p>
 
 <p><a name="archives"></a></p>
 
@@ -352,15 +336,8 @@ $ pip install cloudmonkey
 <h2 id="indicators">Archived Releases</h2>
 
 You can find links to all the releases of Apache CloudStack on the <a href="archives.html">archives page</a>.
-</div></div></div>
-
-
-            <footer>
-                <p>Copyright © 2017 The Apache Software Foundation, Licensed under the Apache License, Version 2.0. <br/>
-                "Apache", "CloudStack", "Apache CloudStack", the Apache CloudStack logo, the Apache CloudStack Cloud Monkey logo and the Apache feather logos are registered trademarks or trademarks of The Apache Software Foundation.</p>
-                <p><a href="/trademark-guidelines.html">Apache CloudStack Trademark Usage</a> - <a href="/bylaws.html">Apache CloudStack Community ByLaws</a></p>
-            </footer>
-
+</div></div>
+</div>
         </div>
     </div>
 </div>

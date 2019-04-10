@@ -1,20 +1,134 @@
 <!doctype html>
-<html>
+<html>  
   <head>
-    <meta charset="utf-8">
+    <title>Apache CloudStack: Open Source Cloud Computing</title>
 
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="description" content="CloudStack is open source cloud computing software for creating, managing, and deploying infrastructure cloud services">
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Apache CloudStack Project Membership</title>
+    <meta itemprop="name" content="Apache Cloudstack">
+    <meta itemprop="description" content="CloudStack is open source cloud computing software for creating, managing, and deploying infrastructure cloud services">
+    <meta itemprop="image" content="https://cloudstack.apache.org/images/monkey-144.png">
 
-    <link href="/stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
-    <script src="/javascripts/all.js" type="text/javascript"></script>
+    <meta property="og:title" content="Apache Cloudstack">
+    <meta property="og:description" content="CloudStack is open source cloud computing software for creating, managing, and deploying infrastructure cloud services">
+    <meta property="og:site_name" content="Apache Cloudstack"/>
+    <meta property="og:image" content="https://cloudstack.apache.org/images/monkey-144.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Apache Cloudstack">
+    <meta name="twitter:description" content="CloudStack is open source cloud computing software for creating, managing, and deploying infrastructure cloud services">
+    <meta name="twitter:image:src" content="https://cloudstack.apache.org/images/monkey-144.png">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+
+    <link href="stylesheets/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="stylesheets/font-awesome.css" rel="stylesheet">
+    <link href="stylesheets/bootswatch.min.css" rel="stylesheet">
+    <link href="stylesheets/custom.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
+
+<!-- Commenting out this template stuff until we figure out how to make it work with middleman
+    {% if headers.atom %}
+      <link rel="alternate" href="{{ headers.atom.url }}"
+            type="application/atom+xml" title="{{ headers.atom.title }}" />
+    {% endif %}
+
+    {% if headers.base %}<base href="{{ headers.base }}" />{% endif %}
+-->
+<!--    {% if headers.notice %}{{ headers.notice }}{% endif %} -->
+        <!-- Twitter Bootstrap and jQuery after this line. -->
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script>
+            $('.dropdown-toggle').dropdown();
+            $('.nav-collapse').collapse();
+        </script>
   </head>
-
-  <body class="who">
-    <div class="row">
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand"><img class="" src="images/new-logo-sm.png" style="width: 200px" alt="Apache Cloudstack"></a>
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="about">About <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about">
+                <li><a tabindex="-1" href="about.html">About</a></li>
+                <li class="divider"></li>
+                <li><a tabindex="-1" href="https://blogs.apache.org/cloudstack/" target="_blank">Blog<span class="glyphicon glyphicon-share-alt pull-right"></span></a></li>
+                <li><a tabindex="-1" href="history.html">History</a></li>
+                <li><a tabindex="-1" href="features.html">Features</a></li>
+                <li><a tabindex="-1" href="cloudstack-faq.html">FAQ</a></li>
+                <li><a tabindex="-1" href="who.html">Who We Are</a></li>
+                <li><a tabindex="-1" href="security.html">Security</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="community">Community <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="community">
+                <li><a tabindex="-1" href="contribute.html">Get Involved</a></li>
+                <li><a tabindex="-1" href="developers.html">Developers</a></li>
+                <li><a tabindex="-1" href="mailing-lists.html">Mailing Lists</a></li>
+                <li><a tabindex="-1" href="http://cloudstackcollab.org/" target="_blank">Events &amp; Meetups <span class="glyphicon glyphicon-share-alt pull-right"></span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="users">Users <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="users">
+                <li><a tabindex="-1" href="users.html">Known Users</a></li>
+                <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Case+Studies" target="_blank">Case Studies <span class="glyphicon glyphicon-share-alt pull-right"></span></a></li>
+                <li><a tabindex="-1" href="survey.html">Take Survey</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="docs">Documentation <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="docs">
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org" target="_blank">CloudStack Documentation</span></a></li>
+                <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home" target="_blank">Wiki</a></li>
+                <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Books" target="_blank">Books</a></li>
+                <li><a tabindex="-1" href="api.html">API Documentation</a></li>
+                <li class="divider"></li>
+                <li><a tabindex="-1">Archived Documentation</a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-getting-started" target="_blank">&nbsp;&nbsp;&nbsp;Getting Started Docs</span></a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-installation" target="_blank">&nbsp;&nbsp;&nbsp;Installation Docs</a></li> 
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-administration" target="_blank">&nbsp;&nbsp;&nbsp;Administration Docs</a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-release-notes" target="_blank">&nbsp;&nbsp;&nbsp;Release Notes</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Download <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="download">
+                <li><a tabindex="-1" href="downloads.html">CloudStack Releases</a></li>
+                <li><a tabindex="-1" href="downloads.html#cloudmonkey">CloudMonkey</a></li>
+                <li><a tabindex="-1" href="archives.html">Release Archive</a></li>
+              </ul>
+            </li>
+			<li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="apache">Apache <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="apache">
+				<li><a tabindex="-1" href="http://apache.org">Apache Software Foundation</a></li>
+                <li><a tabindex="-1" href="http://www.apache.org/licenses/">License</a></li>
+                <li><a tabindex="-1" href="http://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+                <li><a tabindex="-1" href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
+              </ul>
+            </li>
+          </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="bs-docs-section">
+            <div class="row">
 
 <div class="col-lg-12">
 
@@ -32,194 +146,51 @@
 
 <h2 id="pmc">PMC</h2>
 
-<p>Active Project Management Committee contains (in alphabetical order of their usernames):</p>
-
-<table class="table-bordered">
-  <thead>
-    <tr>
-      <th>Username</th>
-      <th>Name</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>ahuang</td>
-      <td>Alex Huang</td>
-    </tr>
-    <tr>
-      <td>akarasulu</td>
-      <td>Alex Karasulu</td>
-    </tr>
-    <tr>
-      <td>alena1108</td>
-      <td>Alena Prokharchyk</td>
-    </tr>
-    <tr>
-      <td>animesh</td>
-      <td>Animesh</td>
-    </tr>
-    <tr>
-      <td>bhaisaab</td>
-      <td>Rohit Yadav</td>
-    </tr>
-    <tr>
-      <td>boris</td>
-      <td>Boris Schrijver</td>
-    </tr>
-    <tr>
-      <td>chipchilders</td>
-      <td>Chip Childers</td>
-    </tr>
-    <tr>
-      <td>chiradeep</td>
-      <td>Chiradeep Vittal</td>
-    </tr>
-    <tr>
-      <td>dahn</td>
-      <td>Daan</td>
-    </tr>
-    <tr>
-      <td>duffy</td>
-      <td>Ian Duffy</td>
-    </tr>
-    <tr>
-      <td>edison</td>
-      <td>Disheng Su</td>
-    </tr>
-    <tr>
-      <td>ekho</td>
-      <td>Wilder Rodrigues</td>
-    </tr>
-    <tr>
-      <td>erikw</td>
-      <td>Erik Weber</td>
-    </tr>
-    <tr>
-      <td>giles</td>
-      <td>Giles Sirett</td>
-    </tr>
-    <tr>
-      <td>gochiba</td>
-      <td>Go Chiba</td>
-    </tr>
-    <tr>
-      <td>hogstrom</td>
-      <td>Matt Richard Hogstrom</td>
-    </tr>
-    <tr>
-      <td>hugo</td>
-      <td>Hugo Trippaers</td>
-    </tr>
-    <tr>
-      <td>ilya</td>
-      <td>Ilya Musayev</td>
-    </tr>
-    <tr>
-      <td>jburwell</td>
-      <td>John Burwell</td>
-    </tr>
-    <tr>
-      <td>jim</td>
-      <td>Jim Jagielski</td>
-    </tr>
-    <tr>
-      <td>jlk</td>
-      <td>John Kinsella</td>
-    </tr>
-    <tr>
-      <td>jzb</td>
-      <td>Joe Brockmeier</td>
-    </tr>
-    <tr>
-      <td>karenv</td>
-      <td>Karen Vuong</td>
-    </tr>
-    <tr>
-      <td>ke4qqq</td>
-      <td>David Nalley</td>
-    </tr>
-    <tr>
-      <td>kluge</td>
-      <td>Kevin Kluge</td>
-    </tr>
-    <tr>
-      <td>milamber</td>
-      <td>Bruno Demion</td>
-    </tr>
-    <tr>
-      <td>mlsorensen</td>
-      <td>Marcus Sorensen</td>
-    </tr>
-    <tr>
-      <td>mnour</td>
-      <td>Mohammad Nour El-Din</td>
-    </tr>
-    <tr>
-      <td>mrhinkle</td>
-      <td>Mark R. Hinkle</td>
-    </tr>
-    <tr>
-      <td>mtutkowski</td>
-      <td>Mike Tutkowski</td>
-    </tr>
-    <tr>
-      <td>nslater</td>
-      <td>Naomi Slater</td>
-    </tr>
-    <tr>
-      <td>nux</td>
-      <td>Nux</td>
-    </tr>
-    <tr>
-      <td>olamy</td>
-      <td>Olivier Lamy</td>
-    </tr>
-    <tr>
-      <td>paul_a</td>
-      <td>Paul Angus</td>
-    </tr>
-    <tr>
-      <td>pdion891</td>
-      <td>Pierre-Luc Dion</td>
-    </tr>
-    <tr>
-      <td>rafael</td>
-      <td>Rafael Weingärtner</td>
-    </tr>
-    <tr>
-      <td>rajani</td>
-      <td>Rajani Karuturi</td>
-    </tr>
-    <tr>
-      <td>remi</td>
-      <td>Remi Bergsma</td>
-    </tr>
-    <tr>
-      <td>sebgoa</td>
-      <td>Sebastien Goasguen</td>
-    </tr>
-    <tr>
-      <td>sweller</td>
-      <td>Simon Weller</td>
-    </tr>
-    <tr>
-      <td>swill</td>
-      <td>Will Stevens</td>
-    </tr>
-    <tr>
-      <td>tsp</td>
-      <td>Prasanna</td>
-    </tr>
-    <tr>
-      <td>widodh</td>
-      <td>Wido den Hollander</td>
-    </tr>
-    <tr>
-      <td>willchan</td>
-      <td>William Chan</td>
-    </tr>
-  </tbody>
-</table>
+<p class="table-bordered">Active Project Management Committee contains (in alphabetical order of their usernames):</p>
+<p>| Username | Name |
+|———-|——|
+|akarasulu|Alex Karasulu|
+|alena1108|Alena Prokharchyk|
+|animesh|Animesh|
+|boris|Boris Schrijver|
+|chipchilders|Chip Childers|
+|chiradeep|Chiradeep Vittal|
+|dahn|Daan|
+|ekho|Wilder Rodrigues|
+|erikw|Erik Weber|
+|giles|Giles Sirett|
+|gochiba|Go Chiba|
+|hogstrom|Matt Richard Hogstrom|
+|hugo|Hugo Trippaers|
+|ilya|Ilya Musayev|
+|jburwell|John Burwell|
+|jlk|John Kinsella|
+|jzb|Joe Brockmeier|
+|karenv|Karen Vuong|
+|ke4qqq|David Nalley|
+|kluge|Kevin Kluge|
+|milamber|Bruno Demion|
+|mlsorensen|Marcus Sorensen|
+|mnour|Mohammad Nour El-Din|
+|mrhinkle|Mark R. Hinkle|
+|mtutkowski|Mike Tutkowski|
+|nslater|Naomi Slater|
+|nux|Nux|
+|paul_a|Paul Angus|
+|pdion891|Pierre-Luc Dion|
+|rafael|Rafael Weingärtner|
+|rajani|Rajani Karuturi|
+|remi|Remi Bergsma|
+|resmo|Rene Moser|
+|rohit|Rohit Yadav|
+|sebgoa|Sebastien Goasguen|
+|sweller|Simon Weller|
+|swill|Will Stevens|
+|syed|Syed Ahmed|
+|tsp|Prasanna|
+|weizhou|Wei Zhou|
+|widodh|Wido den Hollander|
+|willchan|William Chan|</p>
 
 <h2 id="emeritus-pmc-members">Emeritus PMC Members</h2>
 <p>PMC members who are no longer active include:</p>
@@ -235,467 +206,139 @@
 
 <p>Active list of committers (in alphabetical order of their usernames)</p>
 
-<table class="table-bordered">
-  <thead>
-    <tr>
-      <th>Username</th>
-      <th>Name</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>ahmad</td>
-      <td>Ahmad Emneina</td>
-    </tr>
-    <tr>
-      <td>ahuang</td>
-      <td>Alex Huang</td>
-    </tr>
-    <tr>
-      <td>akarasulu</td>
-      <td>Alex Karasulu</td>
-    </tr>
-    <tr>
-      <td>alena1108</td>
-      <td>Alena Prokharchyk</td>
-    </tr>
-    <tr>
-      <td>amoghvk</td>
-      <td>Amogh Vasekar</td>
-    </tr>
-    <tr>
-      <td>animesh</td>
-      <td>Animesh</td>
-    </tr>
-    <tr>
-      <td>anthonyxu</td>
-      <td>Anthony Xu</td>
-    </tr>
-    <tr>
-      <td>aprateek</td>
-      <td>Abhinandan Prateek</td>
-    </tr>
-    <tr>
-      <td>bfederle</td>
-      <td>Brian Federle</td>
-    </tr>
-    <tr>
-      <td>bhaisaab</td>
-      <td>Rohit Yadav</td>
-    </tr>
-    <tr>
-      <td>boris</td>
-      <td>Boris Schrijver</td>
-    </tr>
-    <tr>
-      <td>brett</td>
-      <td>Brett Porter</td>
-    </tr>
-    <tr>
-      <td>chipchilders</td>
-      <td>Chip Childers</td>
-    </tr>
-    <tr>
-      <td>chiradeep</td>
-      <td>Chiradeep Vittal</td>
-    </tr>
-    <tr>
-      <td>claytonweise</td>
-      <td>Clayton Weise</td>
-    </tr>
-    <tr>
-      <td>csuich2</td>
-      <td>Chris Suich</td>
-    </tr>
-    <tr>
-      <td>dahn</td>
-      <td>Daan</td>
-    </tr>
-    <tr>
-      <td>darren</td>
-      <td>Darren Shepherd</td>
-    </tr>
-    <tr>
-      <td>dcahill</td>
-      <td>Dave Cahill</td>
-    </tr>
-    <tr>
-      <td>demetriust</td>
-      <td>Demetrius Tsitrelis</td>
-    </tr>
-    <tr>
-      <td>devdeep</td>
-      <td>Devdeep Singh</td>
-    </tr>
-    <tr>
-      <td>duffy</td>
-      <td>Ian Duffy</td>
-    </tr>
-    <tr>
-      <td>edison</td>
-      <td>Disheng Su</td>
-    </tr>
-    <tr>
-      <td>ekho</td>
-      <td>Wilder Rodrigues</td>
-    </tr>
-    <tr>
-      <td>erikw</td>
-      <td>Erik Weber</td>
-    </tr>
-    <tr>
-      <td>frankzhang</td>
-      <td>Xin Zhang</td>
-    </tr>
-    <tr>
-      <td>gaurav</td>
-      <td>Gaurav Nandkumar Aradhye</td>
-    </tr>
-    <tr>
-      <td>gavinlee</td>
-      <td>Gavin Lee</td>
-    </tr>
-    <tr>
-      <td>giles</td>
-      <td>Giles Sirett</td>
-    </tr>
-    <tr>
-      <td>girish</td>
-      <td>Girish Prabhakar Shilamkar</td>
-    </tr>
-    <tr>
-      <td>gochiba</td>
-      <td>Go Chiba</td>
-    </tr>
-    <tr>
-      <td>haeena</td>
-      <td>Toshiaki Hatano</td>
-    </tr>
-    <tr>
-      <td>harikrishna</td>
-      <td>Harikrishna Patnala</td>
-    </tr>
-    <tr>
-      <td>higster</td>
-      <td>Geoff Higginbottom</td>
-    </tr>
-    <tr>
-      <td>hogstrom</td>
-      <td>Matt Richard Hogstrom</td>
-    </tr>
-    <tr>
-      <td>hugo</td>
-      <td>Hugo Trippaers</td>
-    </tr>
-    <tr>
-      <td>ilya</td>
-      <td>Ilya Musayev</td>
-    </tr>
-    <tr>
-      <td>isaacchiang</td>
-      <td>Isaac Chiang</td>
-    </tr>
-    <tr>
-      <td>jayapal</td>
-      <td>Jayapal</td>
-    </tr>
-    <tr>
-      <td>jbausewein</td>
-      <td>Jason Bausewein</td>
-    </tr>
-    <tr>
-      <td>jburwell</td>
-      <td>John Burwell</td>
-    </tr>
-    <tr>
-      <td>jessicawang</td>
-      <td>Jessica Wang</td>
-    </tr>
-    <tr>
-      <td>jim</td>
-      <td>Jim Jagielski</td>
-    </tr>
-    <tr>
-      <td>jlk</td>
-      <td>John Kinsella</td>
-    </tr>
-    <tr>
-      <td>jtomechak</td>
-      <td>Jessica Tomechak</td>
-    </tr>
-    <tr>
-      <td>jzb</td>
-      <td>Joe Brockmeier</td>
-    </tr>
-    <tr>
-      <td>karenv</td>
-      <td>Karen Vuong</td>
-    </tr>
-    <tr>
-      <td>kawai</td>
-      <td>Hiroaki Kawai</td>
-    </tr>
-    <tr>
-      <td>kdamage</td>
-      <td>Kelcey Damage</td>
-    </tr>
-    <tr>
-      <td>ke4qqq</td>
-      <td>David Nalley</td>
-    </tr>
-    <tr>
-      <td>kelveny</td>
-      <td>Kelven Yang</td>
-    </tr>
-    <tr>
-      <td>kirk</td>
-      <td>Kirk Kosinski</td>
-    </tr>
-    <tr>
-      <td>kishan</td>
-      <td>Kishan</td>
-    </tr>
-    <tr>
-      <td>kluge</td>
-      <td>Kevin Kluge</td>
-    </tr>
-    <tr>
-      <td>kocka</td>
-      <td>Laszlo Hornyak</td>
-    </tr>
-    <tr>
-      <td>koushik</td>
-      <td>Koushik Das</td>
-    </tr>
-    <tr>
-      <td>likithas</td>
-      <td>Likitha Shetty</td>
-    </tr>
-    <tr>
-      <td>mchen</td>
-      <td>Min Chen</td>
-    </tr>
-    <tr>
-      <td>mice</td>
-      <td>Mice Xia</td>
-    </tr>
-    <tr>
-      <td>milamber</td>
-      <td>Bruno Demion</td>
-    </tr>
-    <tr>
-      <td>mlsorensen</td>
-      <td>Marcus Sorensen</td>
-    </tr>
-    <tr>
-      <td>mnour</td>
-      <td>Mohammad Nour El-Din</td>
-    </tr>
-    <tr>
-      <td>mrhinkle</td>
-      <td>Mark R. Hinkle</td>
-    </tr>
-    <tr>
-      <td>msinhore</td>
-      <td>Marco Sinhoreli</td>
-    </tr>
-    <tr>
-      <td>mtutkowski</td>
-      <td>Mike Tutkowski</td>
-    </tr>
-    <tr>
-      <td>muralireddy</td>
-      <td>Murali Mohan Reddy</td>
-    </tr>
-    <tr>
-      <td>nitin</td>
-      <td>Nitin</td>
-    </tr>
-    <tr>
-      <td>noa</td>
-      <td>Noa Resare</td>
-    </tr>
-    <tr>
-      <td>nslater</td>
-      <td>Naomi Slater</td>
-    </tr>
-    <tr>
-      <td>nux</td>
-      <td>Nux</td>
-    </tr>
-    <tr>
-      <td>nvazquez</td>
-      <td>Nicolás Vázquez</td>
-    </tr>
-    <tr>
-      <td>olamy</td>
-      <td>Olivier Lamy</td>
-    </tr>
-    <tr>
-      <td>olgasmola</td>
-      <td>Olga Smola</td>
-    </tr>
-    <tr>
-      <td>paul_a</td>
-      <td>Paul Angus</td>
-    </tr>
-    <tr>
-      <td>pdion891</td>
-      <td>Pierre-Luc Dion</td>
-    </tr>
-    <tr>
-      <td>pnguyen</td>
-      <td>Phong Nguyen</td>
-    </tr>
-    <tr>
-      <td>prachidamle</td>
-      <td>Prachi Damle</td>
-    </tr>
-    <tr>
-      <td>pranavs</td>
-      <td>Pranav Saxena</td>
-    </tr>
-    <tr>
-      <td>pyr</td>
-      <td>Pierre-Yves Ritschard</td>
-    </tr>
-    <tr>
-      <td>radhika</td>
-      <td>Radhika Nair</td>
-    </tr>
-    <tr>
-      <td>rafael</td>
-      <td>Rafael Weingärtner</td>
-    </tr>
-    <tr>
-      <td>rajani</td>
-      <td>Rajani Karuturi</td>
-    </tr>
-    <tr>
-      <td>rajeshbattala</td>
-      <td>Rajesh Battala</td>
-    </tr>
-    <tr>
-      <td>remi</td>
-      <td>Remi Bergsma</td>
-    </tr>
-    <tr>
-      <td>resmo</td>
-      <td>Rene Moser</td>
-    </tr>
-    <tr>
-      <td>sailajamada</td>
-      <td>Sailaja Mada</td>
-    </tr>
-    <tr>
-      <td>saksham</td>
-      <td>Saksham Srivastava</td>
-    </tr>
-    <tr>
-      <td>sangeethah</td>
-      <td>Sangeetha Hariharan</td>
-    </tr>
-    <tr>
-      <td>sanjaytripathi</td>
-      <td>Sanjay Tripathi</td>
-    </tr>
-    <tr>
-      <td>sanjeev</td>
-      <td>Sanjeev Neelarapu</td>
-    </tr>
-    <tr>
-      <td>santhoshedukulla</td>
-      <td>Santhosh</td>
-    </tr>
-    <tr>
-      <td>sateesh</td>
-      <td>Sateesh Chodapuneedi</td>
-    </tr>
-    <tr>
-      <td>schhen</td>
-      <td>Sonny Heng Chhen</td>
-    </tr>
-    <tr>
-      <td>sebgoa</td>
-      <td>Sebastien Goasguen</td>
-    </tr>
-    <tr>
-      <td>serg38</td>
-      <td>Sergey Levitskiy</td>
-    </tr>
-    <tr>
-      <td>slriv</td>
-      <td>Sam Robertson</td>
-    </tr>
-    <tr>
-      <td>snuf</td>
-      <td>Funs Kessen</td>
-    </tr>
-    <tr>
-      <td>sowmya</td>
-      <td>Sowmya Krishnan</td>
-    </tr>
-    <tr>
-      <td>sudhap</td>
-      <td>Sudhap</td>
-    </tr>
-    <tr>
-      <td>swamy</td>
-      <td>Venkata Swamy</td>
-    </tr>
-    <tr>
-      <td>sweller</td>
-      <td>Simon Weller</td>
-    </tr>
-    <tr>
-      <td>swill</td>
-      <td>Will Stevens</td>
-    </tr>
-    <tr>
-      <td>syed</td>
-      <td>Syed Ahmed</td>
-    </tr>
-    <tr>
-      <td>talluri</td>
-      <td>Srikanteswararao Talluri</td>
-    </tr>
-    <tr>
-      <td>tsp</td>
-      <td>Prasanna</td>
-    </tr>
-    <tr>
-      <td>tuna</td>
-      <td>Anh Tu Nguyen</td>
-    </tr>
-    <tr>
-      <td>vijayendrabvs</td>
-      <td>Vijayendra Bhamidipati</td>
-    </tr>
-    <tr>
-      <td>weizhou</td>
-      <td>Wei Zhou</td>
-    </tr>
-    <tr>
-      <td>widodh</td>
-      <td>Wido den Hollander</td>
-    </tr>
-    <tr>
-      <td>willchan</td>
-      <td>William Chan</td>
-    </tr>
-    <tr>
-      <td>yasker</td>
-      <td>Sheng Yang</td>
-    </tr>
-    <tr>
-      <td>ynojima</td>
-      <td>Yoshikazu Nojima</td>
-    </tr>
-  </tbody>
-</table>
+<p class="table-bordered">Active list of committers (in alphabetical order of their usernames):</p>
+<p>| Username | Name |
+|———-|——|
+|ahmad|Ahmad Emneina|
+|akarasulu|Alex Karasulu|
+|alena1108|Alena Prokharchyk|
+|amoghvk|Amogh Vasekar|
+|andrijapanic|Andrija Panic|
+|animesh|Animesh|
+|anthonyxu|Anthony Xu|
+|aprateek|Abhinandan Prateek|
+|bfederle|Brian Federle|
+|boris|Boris Schrijver|
+|brett|Brett Porter|
+|bstoyanov|Boris Stoyanov|
+|chipchilders|Chip Childers|
+|chiradeep|Chiradeep Vittal|
+|claytonweise|Clayton Weise|
+|csuich2|Chris Suich|
+|dahn|Daan|
+|darren|Darren Shepherd|
+|dcahill|Dave Cahill|
+|demetriust|Demetrius Tsitrelis|
+|devdeep|Devdeep Singh|
+|dkonrad|Dennis Konrad|
+|dsonstebo|Dag Sonstebo|
+|ekho|Wilder Rodrigues|
+|erikw|Erik Weber|
+|fmaximus|Frank Maximus|
+|frankzhang|Xin Zhang|
+|gabriel|Gabriel Beims Bräscher|
+|gaurav|Gaurav Nandkumar Aradhye|
+|gavinlee|Gavin Lee|
+|giles|Giles Sirett|
+|girish|Girish Prabhakar Shilamkar|
+|gochiba|Go Chiba|
+|haeena|Toshiaki Hatano|
+|harikrishna|Harikrishna Patnala|
+|higster|Geoff Higginbottom|
+|hogstrom|Matt Richard Hogstrom|
+|hugo|Hugo Trippaers|
+|ilya|Ilya Musayev|
+|isaacchiang|Isaac Chiang|
+|jayapal|Jayapal|
+|jbausewein|Jason Bausewein|
+|jburwell|John Burwell|
+|jessicawang|Jessica Wang|
+|jim|Jim Jagielski|
+|jlk|John Kinsella|
+|jtomechak|Jessica Tomechak|
+|jzb|Joe Brockmeier|
+|karenv|Karen Vuong|
+|kawai|Hiroaki Kawai|
+|kdamage|Kelcey Damage|
+|ke4qqq|David Nalley|
+|kelveny|Kelven Yang|
+|kirk|Kirk Kosinski|
+|kishan|Kishan|
+|kluge|Kevin Kluge|
+|kocka|Laszlo Hornyak|
+|koushik|Koushik Das|
+|likithas|Likitha Shetty|
+|marcaurele|Marc-Aurèle Brothier|
+|mchen|Min Chen|
+|mice|Mice Xia|
+|milamber|Bruno Demion|
+|mlsorensen|Marcus Sorensen|
+|mnour|Mohammad Nour El-Din|
+|mrhinkle|Mark R. Hinkle|
+|msinhore|Marco Sinhoreli|
+|mtutkowski|Mike Tutkowski|
+|muralireddy|Murali Mohan Reddy|
+|nathanejohnson|Nathan Johnson|
+|nitin|Nitin|
+|noa|Noa Resare|
+|nslater|Naomi Slater|
+|nux|Nux|
+|nvazquez|Nicolás Vázquez|
+|olgasmola|Olga Smola|
+|paul_a|Paul Angus|
+|pdion891|Pierre-Luc Dion|
+|pnguyen|Phong Nguyen|
+|prachidamle|Prachi Damle|
+|pranavs|Pranav Saxena|
+|pyr|Pierre-Yves Ritschard|
+|radhika|Radhika Nair|
+|rafael|Rafael Weingärtner|
+|rajani|Rajani Karuturi|
+|rajeshbattala|Rajesh Battala|
+|remi|Remi Bergsma|
+|resmo|Rene Moser|
+|rohit|Rohit Yadav|
+|sailajamada|Sailaja Mada|
+|saksham|Saksham Srivastava|
+|sangeethah|Sangeetha Hariharan|
+|sanjaytripathi|Sanjay Tripathi|
+|sanjeev|Sanjeev Neelarapu|
+|santhoshedukulla|Santhosh|
+|sateesh|Sateesh Chodapuneedi|
+|schhen|Sonny Heng Chhen|
+|sebgoa|Sebastien Goasguen|
+|serg38|Sergey Levitskiy|
+|slriv|Sam Robertson|
+|snuf|Funs Kessen|
+|sowmya|Sowmya Krishnan|
+|sudhap|Sudhap|
+|svogel|Sven Vogel|
+|swamy|Venkata Swamy|
+|sweller|Simon Weller|
+|swill|Will Stevens|
+|syed|Syed Ahmed|
+|talluri|Srikanteswararao Talluri|
+|tsp|Prasanna|
+|tuna|Anh Tu Nguyen|
+|vijayendrabvs|Vijayendra Bhamidipati|
+|weizhou|Wei Zhou|
+|widodh|Wido den Hollander|
+|willchan|William Chan|
+|yasker|Sheng Yang|
+|ynojima|Yoshikazu Nojima|</p>
 
 <h2 id="emeritus-committers">Emeritus Committers</h2>
 <p>Committers who are no longer active include:</p>
 
+
+            <footer>
+                <p>Copyright © 2017 The Apache Software Foundation, Licensed under the Apache License, Version 2.0. <br/>
+                "Apache", "CloudStack", "Apache CloudStack", the Apache CloudStack logo, the Apache CloudStack Cloud Monkey logo and the Apache feather logos are registered trademarks or trademarks of The Apache Software Foundation.</p>
+                <p><a href="/trademark-guidelines.html">Apache CloudStack Trademark Usage</a> - <a href="/bylaws.html">Apache CloudStack Community ByLaws</a></p>
+            </footer>
+
+        </div>
+    </div>
+</div>
   </body>
 </html>
