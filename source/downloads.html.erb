@@ -307,19 +307,17 @@ Additionally, you can verify the MD5 or SHA512 signatures on the files.
 
 <h4 id="source-release">Source Release</h4>
 
-<p>CloudMonkey's current release is 6.0.0.</p>
+<p>CloudMonkey's current release is <%= data.cloudstack.cloudmonkey.version %>.</p>
 
 <p>
-<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-6.0.0/apache-cloudstack-cloudmonkey-6.0.0-src.tar.bz2"><button type="button" class="btn btn-primary btn-md">Get the 6.0.0 Source</button></a>
+<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2"><button type="button" class="btn btn-primary btn-md">Get the <%= data.cloudstack.cloudmonkey.version %> Source</button></a>
 
 <a href="http://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-6.0.0/apache-cloudstack-cloudmonkey-6.0.0-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-6.0.0/apache-cloudstack-cloudmonkey-6.0.0-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-6.0.0/apache-cloudstack-cloudmonkey-6.0.0-src.tar.bz2.sha"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2.sha"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
 
 </p>
-
-<p>Instructions for building and installing from source can be found in the included <a href="https://gitbox.apache.org/repos/asf?p=cloudstack-cloudmonkey.git;a=blob_plain;f=README.md">README.md</a> file.</p>
 
 <h4 id="github-release">Binary Builds Release</h4>
 
@@ -338,5 +336,10 @@ Additionally, you can verify the MD5 or SHA512 signatures on the files.
 <h2 id="indicators">Archived Releases</h2>
 
 You can find links to all the releases of Apache CloudStack on the <a href="archives.html">archives page</a>.
-</div></div></div>
-
+</div></div>
+</div>
+        </div>
+    </div>
+</div>
+  </body>
+</html>

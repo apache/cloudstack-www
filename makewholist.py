@@ -24,6 +24,7 @@ Can be used at command line by running: python makewholist.py"""
 import json
 import sys
 import urllib
+import argparse
 
 GROUPS_URL = "https://projects.apache.org/json/foundation/groups.json"
 NAMES_URL = "https://projects.apache.org/json/foundation/people_name.json"
@@ -31,6 +32,8 @@ NAMES_URL = "https://projects.apache.org/json/foundation/people_name.json"
 names = {}   # Placeholder for names parsed in getNames()
 groups = {}  # Placeholder for groups parsed in getCommittersAndPMC()
 
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 def getCommittersAndPMC():
     """Get Committer and PMC info from ASF"""
@@ -52,7 +55,7 @@ def getNames():
         print "Error during names JSON download or parsing: %s" % ex.message
 
 
-def printWhoList():
+def printWhoList(emeritus_members=''):
     if len(names) == 0 or len(groups) == 0:
         print "Names or groups not initialized, aborting"
         sys.exit(1)
@@ -60,21 +63,35 @@ def printWhoList():
     print ("Active Project Management Committee contains "
            "(in alphabetical order of their usernames):")
 
+    print "{:.table-bordered}"
     print "| Username | Name |"
     print "|----------|------|"
     for pmc in groups['cloudstack-pmc']:
-        print "|%s|%s|" % (pmc, names[pmc])
+        if pmc not in emeritus_members.split(','):
+            print "|%s|%s|" % (pmc, names[pmc])
+
     print ""
     print ""
     print ("Active list of committers "
            "(in alphabetical order of their usernames):")
+
+    print "{:.table-bordered}"
     print "| Username | Name |"
     print "|----------|------|"
     for committer in groups['cloudstack']:
-        print "|%s|%s|" % (committer, names[committer])
+        if committer not in emeritus_members.split(','):
+            print "|%s|%s|" % (committer, names[committer])
 
 
 if __name__ == "__main__":
+    # construct the argument parse and parse the arguments
+    ap = argparse.ArgumentParser()
+    ap.add_argument("-e", "--emeritusMembers", required=False, help="Emeritus PMCs and committers usernames (comma separated values).", default='')
+
+    args = vars(ap.parse_args())
+ 
+    emeritus_members = args["emeritusMembers"]
+
     getNames()
     getCommittersAndPMC()
-    printWhoList()
+    printWhoList(emeritus_members)

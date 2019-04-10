@@ -86,9 +86,15 @@ checkout because you are creating a new branch.  Once the <code>feature_x</code>
 
 <h4>Rebase <code>feature_x</code> to include updates from <code>upstream/master</code></h4>
 
+<<<<<<< HEAD
 <p>It is important that you maintain an up-to-date <code>master</code> branch in your local repository.  This is done by rebasing in the code
 changes from <code>upstream/master</code> (the official ACS project repository) into your local repository.  You will want to do this before you start
 working on a feature as well as right before you submit your changes as a pull request. We recommend you do this process periodically while you work to make
+=======
+<p>It is important that you maintain an up-to-date <code>master</code> branch in your local repository.  This is done by rebasing in the code 
+changes from <code>upstream/master</code> (the official ACS project repository) into your local repository.  You will want to do this before you start 
+working on a feature as well as right before you submit your changes as a pull request. We recommend you do this process periodically while you work to make 
+>>>>>>> master
 sure you are working off the most recent project code.</p>
 
 <p>This process will do the following:</p>

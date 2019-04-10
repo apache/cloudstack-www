@@ -21,11 +21,9 @@ This page includes the Apache CloudStack Project Management Committee (PMC) memb
 ## PMC
 
 Active Project Management Committee contains (in alphabetical order of their usernames):
-
 {:.table-bordered}
 | Username | Name |
 |----------|------|
-|ahuang|Alex Huang|
 |akarasulu|Alex Karasulu|
 |alena1108|Alena Prokharchyk|
 |animesh|Animesh|
@@ -33,8 +31,6 @@ Active Project Management Committee contains (in alphabetical order of their use
 |chipchilders|Chip Childers|
 |chiradeep|Chiradeep Vittal|
 |dahn|Daan|
-|duffy|Ian Duffy|
-|edison|Disheng Su|
 |ekho|Wilder Rodrigues|
 |erikw|Erik Weber|
 |giles|Giles Sirett|
@@ -43,7 +39,6 @@ Active Project Management Committee contains (in alphabetical order of their use
 |hugo|Hugo Trippaers|
 |ilya|Ilya Musayev|
 |jburwell|John Burwell|
-|jim|Jim Jagielski|
 |jlk|John Kinsella|
 |jzb|Joe Brockmeier|
 |karenv|Karen Vuong|
@@ -56,17 +51,19 @@ Active Project Management Committee contains (in alphabetical order of their use
 |mtutkowski|Mike Tutkowski|
 |nslater|Naomi Slater|
 |nux|Nux|
-|olamy|Olivier Lamy|
 |paul_a|Paul Angus|
 |pdion891|Pierre-Luc Dion|
 |rafael|Rafael Weingärtner|
 |rajani|Rajani Karuturi|
 |remi|Remi Bergsma|
+|resmo|Rene Moser|
 |rohit|Rohit Yadav|
 |sebgoa|Sebastien Goasguen|
 |sweller|Simon Weller|
 |swill|Will Stevens|
+|syed|Syed Ahmed|
 |tsp|Prasanna|
+|weizhou|Wei Zhou|
 |widodh|Wido den Hollander|
 |willchan|William Chan|
 
@@ -82,20 +79,22 @@ PMC members who are no longer active include:
 
 Active list of committers (in alphabetical order of their usernames)
 
+Active list of committers (in alphabetical order of their usernames):
 {:.table-bordered}
 | Username | Name |
 |----------|------|
 |ahmad|Ahmad Emneina|
-|ahuang|Alex Huang|
 |akarasulu|Alex Karasulu|
 |alena1108|Alena Prokharchyk|
 |amoghvk|Amogh Vasekar|
+|andrijapanic|Andrija Panic|
 |animesh|Animesh|
 |anthonyxu|Anthony Xu|
 |aprateek|Abhinandan Prateek|
 |bfederle|Brian Federle|
 |boris|Boris Schrijver|
 |brett|Brett Porter|
+|bstoyanov|Boris Stoyanov|
 |chipchilders|Chip Childers|
 |chiradeep|Chiradeep Vittal|
 |claytonweise|Clayton Weise|
@@ -105,11 +104,13 @@ Active list of committers (in alphabetical order of their usernames)
 |dcahill|Dave Cahill|
 |demetriust|Demetrius Tsitrelis|
 |devdeep|Devdeep Singh|
-|duffy|Ian Duffy|
-|edison|Disheng Su|
+|dkonrad|Dennis Konrad|
+|dsonstebo|Dag Sonstebo|
 |ekho|Wilder Rodrigues|
 |erikw|Erik Weber|
+|fmaximus|Frank Maximus|
 |frankzhang|Xin Zhang|
+|gabriel|Gabriel Beims Bräscher|
 |gaurav|Gaurav Nandkumar Aradhye|
 |gavinlee|Gavin Lee|
 |giles|Giles Sirett|
@@ -141,6 +142,7 @@ Active list of committers (in alphabetical order of their usernames)
 |kocka|Laszlo Hornyak|
 |koushik|Koushik Das|
 |likithas|Likitha Shetty|
+|marcaurele|Marc-Aurèle Brothier|
 |mchen|Min Chen|
 |mice|Mice Xia|
 |milamber|Bruno Demion|
@@ -150,12 +152,12 @@ Active list of committers (in alphabetical order of their usernames)
 |msinhore|Marco Sinhoreli|
 |mtutkowski|Mike Tutkowski|
 |muralireddy|Murali Mohan Reddy|
+|nathanejohnson|Nathan Johnson|
 |nitin|Nitin|
 |noa|Noa Resare|
 |nslater|Naomi Slater|
 |nux|Nux|
 |nvazquez|Nicolás Vázquez|
-|olamy|Olivier Lamy|
 |olgasmola|Olga Smola|
 |paul_a|Paul Angus|
 |pdion891|Pierre-Luc Dion|
@@ -184,6 +186,7 @@ Active list of committers (in alphabetical order of their usernames)
 |snuf|Funs Kessen|
 |sowmya|Sowmya Krishnan|
 |sudhap|Sudhap|
+|svogel|Sven Vogel|
 |swamy|Venkata Swamy|
 |sweller|Simon Weller|
 |swill|Will Stevens|
