@@ -16,6 +16,6 @@
 # specific language governing permissions and limitations
 # under the License.
 
-middleman build
+bundle exec middleman build
 cp -r ./build/* ./content
 git add ./content/\*
