@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>  
   <head>
     <title>Apache CloudStack: Open Source Cloud Computing</title>
@@ -29,15 +29,7 @@
 
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="icon" href="images/favicon.ico">
-
-<!-- Commenting out this template stuff until we figure out how to make it work with middleman
-    {% if headers.atom %}
-      <link rel="alternate" href="{{ headers.atom.url }}"
-            type="application/atom+xml" title="{{ headers.atom.title }}" />
-    {% endif %}
-
-    {% if headers.base %}<base href="{{ headers.base }}" />{% endif %}
--->
+    
 <!--    {% if headers.notice %}{{ headers.notice }}{% endif %} -->
         <!-- Twitter Bootstrap and jQuery after this line. -->
         <script src="https://code.jquery.com/jquery-latest.js"></script>
@@ -146,53 +138,189 @@
 
 <h2 id="pmc">PMC</h2>
 
-<p class="table-bordered">Active Project Management Committee contains (in alphabetical order of their usernames):</p>
-<p>| Username | Name |
-|———-|——|
-|akarasulu|Alex Karasulu|
-|alena1108|Alena Prokharchyk|
-|animesh|Animesh|
-|boris|Boris Schrijver|
-|chipchilders|Chip Childers|
-|chiradeep|Chiradeep Vittal|
-|dahn|Daan|
-|ekho|Wilder Rodrigues|
-|erikw|Erik Weber|
-|giles|Giles Sirett|
-|gochiba|Go Chiba|
-|hogstrom|Matt Richard Hogstrom|
-|hugo|Hugo Trippaers|
-|ilya|Ilya Musayev|
-|jburwell|John Burwell|
-|jlk|John Kinsella|
-|jzb|Joe Brockmeier|
-|karenv|Karen Vuong|
-|ke4qqq|David Nalley|
-|kluge|Kevin Kluge|
-|milamber|Bruno Demion|
-|mlsorensen|Marcus Sorensen|
-|mnour|Mohammad Nour El-Din|
-|mrhinkle|Mark R. Hinkle|
-|mtutkowski|Mike Tutkowski|
-|nslater|Naomi Slater|
-|nux|Nux|
-|paul_a|Paul Angus|
-|pdion891|Pierre-Luc Dion|
-|rafael|Rafael Weingärtner|
-|rajani|Rajani Karuturi|
-|remi|Remi Bergsma|
-|resmo|Rene Moser|
-|rohit|Rohit Yadav|
-|sebgoa|Sebastien Goasguen|
-|sweller|Simon Weller|
-|swill|Will Stevens|
-|syed|Syed Ahmed|
-|tsp|Prasanna|
-|weizhou|Wei Zhou|
-|widodh|Wido den Hollander|
-|willchan|William Chan|</p>
+<p>Active Project Management Committee contains (in alphabetical order of their usernames):</p>
+
+<table class="table-bordered">
+  <thead>
+    <tr>
+      <th>Username</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>akarasulu</td>
+      <td>Alex Karasulu</td>
+    </tr>
+    <tr>
+      <td>alena1108</td>
+      <td>Alena Prokharchyk</td>
+    </tr>
+    <tr>
+      <td>animesh</td>
+      <td>Animesh</td>
+    </tr>
+    <tr>
+      <td>boris</td>
+      <td>Boris Schrijver</td>
+    </tr>
+    <tr>
+      <td>chipchilders</td>
+      <td>Chip Childers</td>
+    </tr>
+    <tr>
+      <td>chiradeep</td>
+      <td>Chiradeep Vittal</td>
+    </tr>
+    <tr>
+      <td>dahn</td>
+      <td>Daan</td>
+    </tr>
+    <tr>
+      <td>ekho</td>
+      <td>Wilder Rodrigues</td>
+    </tr>
+    <tr>
+      <td>erikw</td>
+      <td>Erik Weber</td>
+    </tr>
+    <tr>
+      <td>giles</td>
+      <td>Giles Sirett</td>
+    </tr>
+    <tr>
+      <td>gochiba</td>
+      <td>Go Chiba</td>
+    </tr>
+    <tr>
+      <td>hogstrom</td>
+      <td>Matt Richard Hogstrom</td>
+    </tr>
+    <tr>
+      <td>hugo</td>
+      <td>Hugo Trippaers</td>
+    </tr>
+    <tr>
+      <td>ilya</td>
+      <td>Ilya Musayev</td>
+    </tr>
+    <tr>
+      <td>jburwell</td>
+      <td>John Burwell</td>
+    </tr>
+    <tr>
+      <td>jlk</td>
+      <td>John Kinsella</td>
+    </tr>
+    <tr>
+      <td>jzb</td>
+      <td>Joe Brockmeier</td>
+    </tr>
+    <tr>
+      <td>karenv</td>
+      <td>Karen Vuong</td>
+    </tr>
+    <tr>
+      <td>ke4qqq</td>
+      <td>David Nalley</td>
+    </tr>
+    <tr>
+      <td>kluge</td>
+      <td>Kevin Kluge</td>
+    </tr>
+    <tr>
+      <td>milamber</td>
+      <td>Bruno Demion</td>
+    </tr>
+    <tr>
+      <td>mlsorensen</td>
+      <td>Marcus Sorensen</td>
+    </tr>
+    <tr>
+      <td>mnour</td>
+      <td>Mohammad Nour El-Din</td>
+    </tr>
+    <tr>
+      <td>mrhinkle</td>
+      <td>Mark R. Hinkle</td>
+    </tr>
+    <tr>
+      <td>mtutkowski</td>
+      <td>Mike Tutkowski</td>
+    </tr>
+    <tr>
+      <td>nslater</td>
+      <td>Naomi Slater</td>
+    </tr>
+    <tr>
+      <td>nux</td>
+      <td>Nux</td>
+    </tr>
+    <tr>
+      <td>paul_a</td>
+      <td>Paul Angus</td>
+    </tr>
+    <tr>
+      <td>pdion891</td>
+      <td>Pierre-Luc Dion</td>
+    </tr>
+    <tr>
+      <td>rafael</td>
+      <td>Rafael Weingärtner</td>
+    </tr>
+    <tr>
+      <td>rajani</td>
+      <td>Rajani Karuturi</td>
+    </tr>
+    <tr>
+      <td>remi</td>
+      <td>Remi Bergsma</td>
+    </tr>
+    <tr>
+      <td>resmo</td>
+      <td>Rene Moser</td>
+    </tr>
+    <tr>
+      <td>rohit</td>
+      <td>Rohit Yadav</td>
+    </tr>
+    <tr>
+      <td>sebgoa</td>
+      <td>Sebastien Goasguen</td>
+    </tr>
+    <tr>
+      <td>sweller</td>
+      <td>Simon Weller</td>
+    </tr>
+    <tr>
+      <td>swill</td>
+      <td>Will Stevens</td>
+    </tr>
+    <tr>
+      <td>syed</td>
+      <td>Syed Ahmed</td>
+    </tr>
+    <tr>
+      <td>tsp</td>
+      <td>Prasanna</td>
+    </tr>
+    <tr>
+      <td>weizhou</td>
+      <td>Wei Zhou</td>
+    </tr>
+    <tr>
+      <td>widodh</td>
+      <td>Wido den Hollander</td>
+    </tr>
+    <tr>
+      <td>willchan</td>
+      <td>William Chan</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="emeritus-pmc-members">Emeritus PMC Members</h2>
+
 <p>PMC members who are no longer active include:</p>
 
 <ul>
@@ -204,130 +332,489 @@
 
 <h2 id="committers">Committers</h2>
 
-<p>Active list of committers (in alphabetical order of their usernames)</p>
+<p>Active list of committers (in alphabetical order of their usernames):</p>
 
-<p class="table-bordered">Active list of committers (in alphabetical order of their usernames):</p>
-<p>| Username | Name |
-|———-|——|
-|ahmad|Ahmad Emneina|
-|akarasulu|Alex Karasulu|
-|alena1108|Alena Prokharchyk|
-|amoghvk|Amogh Vasekar|
-|andrijapanic|Andrija Panic|
-|animesh|Animesh|
-|anthonyxu|Anthony Xu|
-|aprateek|Abhinandan Prateek|
-|bfederle|Brian Federle|
-|boris|Boris Schrijver|
-|brett|Brett Porter|
-|bstoyanov|Boris Stoyanov|
-|chipchilders|Chip Childers|
-|chiradeep|Chiradeep Vittal|
-|claytonweise|Clayton Weise|
-|csuich2|Chris Suich|
-|dahn|Daan|
-|darren|Darren Shepherd|
-|dcahill|Dave Cahill|
-|demetriust|Demetrius Tsitrelis|
-|devdeep|Devdeep Singh|
-|dkonrad|Dennis Konrad|
-|dsonstebo|Dag Sonstebo|
-|ekho|Wilder Rodrigues|
-|erikw|Erik Weber|
-|fmaximus|Frank Maximus|
-|frankzhang|Xin Zhang|
-|gabriel|Gabriel Beims Bräscher|
-|gaurav|Gaurav Nandkumar Aradhye|
-|gavinlee|Gavin Lee|
-|giles|Giles Sirett|
-|girish|Girish Prabhakar Shilamkar|
-|gochiba|Go Chiba|
-|haeena|Toshiaki Hatano|
-|harikrishna|Harikrishna Patnala|
-|higster|Geoff Higginbottom|
-|hogstrom|Matt Richard Hogstrom|
-|hugo|Hugo Trippaers|
-|ilya|Ilya Musayev|
-|isaacchiang|Isaac Chiang|
-|jayapal|Jayapal|
-|jbausewein|Jason Bausewein|
-|jburwell|John Burwell|
-|jessicawang|Jessica Wang|
-|jim|Jim Jagielski|
-|jlk|John Kinsella|
-|jtomechak|Jessica Tomechak|
-|jzb|Joe Brockmeier|
-|karenv|Karen Vuong|
-|kawai|Hiroaki Kawai|
-|kdamage|Kelcey Damage|
-|ke4qqq|David Nalley|
-|kelveny|Kelven Yang|
-|kirk|Kirk Kosinski|
-|kishan|Kishan|
-|kluge|Kevin Kluge|
-|kocka|Laszlo Hornyak|
-|koushik|Koushik Das|
-|likithas|Likitha Shetty|
-|marcaurele|Marc-Aurèle Brothier|
-|mchen|Min Chen|
-|mice|Mice Xia|
-|milamber|Bruno Demion|
-|mlsorensen|Marcus Sorensen|
-|mnour|Mohammad Nour El-Din|
-|mrhinkle|Mark R. Hinkle|
-|msinhore|Marco Sinhoreli|
-|mtutkowski|Mike Tutkowski|
-|muralireddy|Murali Mohan Reddy|
-|nathanejohnson|Nathan Johnson|
-|nitin|Nitin|
-|noa|Noa Resare|
-|nslater|Naomi Slater|
-|nux|Nux|
-|nvazquez|Nicolás Vázquez|
-|olgasmola|Olga Smola|
-|paul_a|Paul Angus|
-|pdion891|Pierre-Luc Dion|
-|pnguyen|Phong Nguyen|
-|prachidamle|Prachi Damle|
-|pranavs|Pranav Saxena|
-|pyr|Pierre-Yves Ritschard|
-|radhika|Radhika Nair|
-|rafael|Rafael Weingärtner|
-|rajani|Rajani Karuturi|
-|rajeshbattala|Rajesh Battala|
-|remi|Remi Bergsma|
-|resmo|Rene Moser|
-|rohit|Rohit Yadav|
-|sailajamada|Sailaja Mada|
-|saksham|Saksham Srivastava|
-|sangeethah|Sangeetha Hariharan|
-|sanjaytripathi|Sanjay Tripathi|
-|sanjeev|Sanjeev Neelarapu|
-|santhoshedukulla|Santhosh|
-|sateesh|Sateesh Chodapuneedi|
-|schhen|Sonny Heng Chhen|
-|sebgoa|Sebastien Goasguen|
-|serg38|Sergey Levitskiy|
-|slriv|Sam Robertson|
-|snuf|Funs Kessen|
-|sowmya|Sowmya Krishnan|
-|sudhap|Sudhap|
-|svogel|Sven Vogel|
-|swamy|Venkata Swamy|
-|sweller|Simon Weller|
-|swill|Will Stevens|
-|syed|Syed Ahmed|
-|talluri|Srikanteswararao Talluri|
-|tsp|Prasanna|
-|tuna|Anh Tu Nguyen|
-|vijayendrabvs|Vijayendra Bhamidipati|
-|weizhou|Wei Zhou|
-|widodh|Wido den Hollander|
-|willchan|William Chan|
-|yasker|Sheng Yang|
-|ynojima|Yoshikazu Nojima|</p>
+<table class="table-bordered">
+  <thead>
+    <tr>
+      <th>Username</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ahmad</td>
+      <td>Ahmad Emneina</td>
+    </tr>
+    <tr>
+      <td>akarasulu</td>
+      <td>Alex Karasulu</td>
+    </tr>
+    <tr>
+      <td>alena1108</td>
+      <td>Alena Prokharchyk</td>
+    </tr>
+    <tr>
+      <td>amoghvk</td>
+      <td>Amogh Vasekar</td>
+    </tr>
+    <tr>
+      <td>andrijapanic</td>
+      <td>Andrija Panic</td>
+    </tr>
+    <tr>
+      <td>animesh</td>
+      <td>Animesh</td>
+    </tr>
+    <tr>
+      <td>anthonyxu</td>
+      <td>Anthony Xu</td>
+    </tr>
+    <tr>
+      <td>aprateek</td>
+      <td>Abhinandan Prateek</td>
+    </tr>
+    <tr>
+      <td>bfederle</td>
+      <td>Brian Federle</td>
+    </tr>
+    <tr>
+      <td>boris</td>
+      <td>Boris Schrijver</td>
+    </tr>
+    <tr>
+      <td>brett</td>
+      <td>Brett Porter</td>
+    </tr>
+    <tr>
+      <td>bstoyanov</td>
+      <td>Boris Stoyanov</td>
+    </tr>
+    <tr>
+      <td>chipchilders</td>
+      <td>Chip Childers</td>
+    </tr>
+    <tr>
+      <td>chiradeep</td>
+      <td>Chiradeep Vittal</td>
+    </tr>
+    <tr>
+      <td>claytonweise</td>
+      <td>Clayton Weise</td>
+    </tr>
+    <tr>
+      <td>csuich2</td>
+      <td>Chris Suich</td>
+    </tr>
+    <tr>
+      <td>dahn</td>
+      <td>Daan</td>
+    </tr>
+    <tr>
+      <td>darren</td>
+      <td>Darren Shepherd</td>
+    </tr>
+    <tr>
+      <td>dcahill</td>
+      <td>Dave Cahill</td>
+    </tr>
+    <tr>
+      <td>demetriust</td>
+      <td>Demetrius Tsitrelis</td>
+    </tr>
+    <tr>
+      <td>devdeep</td>
+      <td>Devdeep Singh</td>
+    </tr>
+    <tr>
+      <td>dkonrad</td>
+      <td>Dennis Konrad</td>
+    </tr>
+    <tr>
+      <td>dsonstebo</td>
+      <td>Dag Sonstebo</td>
+    </tr>
+    <tr>
+      <td>ekho</td>
+      <td>Wilder Rodrigues</td>
+    </tr>
+    <tr>
+      <td>erikw</td>
+      <td>Erik Weber</td>
+    </tr>
+    <tr>
+      <td>fmaximus</td>
+      <td>Frank Maximus</td>
+    </tr>
+    <tr>
+      <td>frankzhang</td>
+      <td>Xin Zhang</td>
+    </tr>
+    <tr>
+      <td>gabriel</td>
+      <td>Gabriel Beims Bräscher</td>
+    </tr>
+    <tr>
+      <td>gaurav</td>
+      <td>Gaurav Nandkumar Aradhye</td>
+    </tr>
+    <tr>
+      <td>gavinlee</td>
+      <td>Gavin Lee</td>
+    </tr>
+    <tr>
+      <td>giles</td>
+      <td>Giles Sirett</td>
+    </tr>
+    <tr>
+      <td>girish</td>
+      <td>Girish Prabhakar Shilamkar</td>
+    </tr>
+    <tr>
+      <td>gochiba</td>
+      <td>Go Chiba</td>
+    </tr>
+    <tr>
+      <td>haeena</td>
+      <td>Toshiaki Hatano</td>
+    </tr>
+    <tr>
+      <td>harikrishna</td>
+      <td>Harikrishna Patnala</td>
+    </tr>
+    <tr>
+      <td>higster</td>
+      <td>Geoff Higginbottom</td>
+    </tr>
+    <tr>
+      <td>hogstrom</td>
+      <td>Matt Richard Hogstrom</td>
+    </tr>
+    <tr>
+      <td>hugo</td>
+      <td>Hugo Trippaers</td>
+    </tr>
+    <tr>
+      <td>ilya</td>
+      <td>Ilya Musayev</td>
+    </tr>
+    <tr>
+      <td>isaacchiang</td>
+      <td>Isaac Chiang</td>
+    </tr>
+    <tr>
+      <td>jayapal</td>
+      <td>Jayapal</td>
+    </tr>
+    <tr>
+      <td>jbausewein</td>
+      <td>Jason Bausewein</td>
+    </tr>
+    <tr>
+      <td>jburwell</td>
+      <td>John Burwell</td>
+    </tr>
+    <tr>
+      <td>jessicawang</td>
+      <td>Jessica Wang</td>
+    </tr>
+    <tr>
+      <td>jim</td>
+      <td>Jim Jagielski</td>
+    </tr>
+    <tr>
+      <td>jlk</td>
+      <td>John Kinsella</td>
+    </tr>
+    <tr>
+      <td>jtomechak</td>
+      <td>Jessica Tomechak</td>
+    </tr>
+    <tr>
+      <td>jzb</td>
+      <td>Joe Brockmeier</td>
+    </tr>
+    <tr>
+      <td>karenv</td>
+      <td>Karen Vuong</td>
+    </tr>
+    <tr>
+      <td>kawai</td>
+      <td>Hiroaki Kawai</td>
+    </tr>
+    <tr>
+      <td>kdamage</td>
+      <td>Kelcey Damage</td>
+    </tr>
+    <tr>
+      <td>ke4qqq</td>
+      <td>David Nalley</td>
+    </tr>
+    <tr>
+      <td>kelveny</td>
+      <td>Kelven Yang</td>
+    </tr>
+    <tr>
+      <td>kirk</td>
+      <td>Kirk Kosinski</td>
+    </tr>
+    <tr>
+      <td>kishan</td>
+      <td>Kishan</td>
+    </tr>
+    <tr>
+      <td>kluge</td>
+      <td>Kevin Kluge</td>
+    </tr>
+    <tr>
+      <td>kocka</td>
+      <td>Laszlo Hornyak</td>
+    </tr>
+    <tr>
+      <td>koushik</td>
+      <td>Koushik Das</td>
+    </tr>
+    <tr>
+      <td>likithas</td>
+      <td>Likitha Shetty</td>
+    </tr>
+    <tr>
+      <td>marcaurele</td>
+      <td>Marc-Aurèle Brothier</td>
+    </tr>
+    <tr>
+      <td>mchen</td>
+      <td>Min Chen</td>
+    </tr>
+    <tr>
+      <td>mice</td>
+      <td>Mice Xia</td>
+    </tr>
+    <tr>
+      <td>milamber</td>
+      <td>Bruno Demion</td>
+    </tr>
+    <tr>
+      <td>mlsorensen</td>
+      <td>Marcus Sorensen</td>
+    </tr>
+    <tr>
+      <td>mnour</td>
+      <td>Mohammad Nour El-Din</td>
+    </tr>
+    <tr>
+      <td>mrhinkle</td>
+      <td>Mark R. Hinkle</td>
+    </tr>
+    <tr>
+      <td>msinhore</td>
+      <td>Marco Sinhoreli</td>
+    </tr>
+    <tr>
+      <td>mtutkowski</td>
+      <td>Mike Tutkowski</td>
+    </tr>
+    <tr>
+      <td>muralireddy</td>
+      <td>Murali Mohan Reddy</td>
+    </tr>
+    <tr>
+      <td>nathanejohnson</td>
+      <td>Nathan Johnson</td>
+    </tr>
+    <tr>
+      <td>nitin</td>
+      <td>Nitin</td>
+    </tr>
+    <tr>
+      <td>noa</td>
+      <td>Noa Resare</td>
+    </tr>
+    <tr>
+      <td>nslater</td>
+      <td>Naomi Slater</td>
+    </tr>
+    <tr>
+      <td>nux</td>
+      <td>Nux</td>
+    </tr>
+    <tr>
+      <td>nvazquez</td>
+      <td>Nicolás Vázquez</td>
+    </tr>
+    <tr>
+      <td>olgasmola</td>
+      <td>Olga Smola</td>
+    </tr>
+    <tr>
+      <td>paul_a</td>
+      <td>Paul Angus</td>
+    </tr>
+    <tr>
+      <td>pdion891</td>
+      <td>Pierre-Luc Dion</td>
+    </tr>
+    <tr>
+      <td>pnguyen</td>
+      <td>Phong Nguyen</td>
+    </tr>
+    <tr>
+      <td>prachidamle</td>
+      <td>Prachi Damle</td>
+    </tr>
+    <tr>
+      <td>pranavs</td>
+      <td>Pranav Saxena</td>
+    </tr>
+    <tr>
+      <td>pyr</td>
+      <td>Pierre-Yves Ritschard</td>
+    </tr>
+    <tr>
+      <td>radhika</td>
+      <td>Radhika Nair</td>
+    </tr>
+    <tr>
+      <td>rafael</td>
+      <td>Rafael Weingärtner</td>
+    </tr>
+    <tr>
+      <td>rajani</td>
+      <td>Rajani Karuturi</td>
+    </tr>
+    <tr>
+      <td>rajeshbattala</td>
+      <td>Rajesh Battala</td>
+    </tr>
+    <tr>
+      <td>remi</td>
+      <td>Remi Bergsma</td>
+    </tr>
+    <tr>
+      <td>resmo</td>
+      <td>Rene Moser</td>
+    </tr>
+    <tr>
+      <td>rohit</td>
+      <td>Rohit Yadav</td>
+    </tr>
+    <tr>
+      <td>sailajamada</td>
+      <td>Sailaja Mada</td>
+    </tr>
+    <tr>
+      <td>saksham</td>
+      <td>Saksham Srivastava</td>
+    </tr>
+    <tr>
+      <td>sangeethah</td>
+      <td>Sangeetha Hariharan</td>
+    </tr>
+    <tr>
+      <td>sanjaytripathi</td>
+      <td>Sanjay Tripathi</td>
+    </tr>
+    <tr>
+      <td>sanjeev</td>
+      <td>Sanjeev Neelarapu</td>
+    </tr>
+    <tr>
+      <td>santhoshedukulla</td>
+      <td>Santhosh</td>
+    </tr>
+    <tr>
+      <td>sateesh</td>
+      <td>Sateesh Chodapuneedi</td>
+    </tr>
+    <tr>
+      <td>schhen</td>
+      <td>Sonny Heng Chhen</td>
+    </tr>
+    <tr>
+      <td>sebgoa</td>
+      <td>Sebastien Goasguen</td>
+    </tr>
+    <tr>
+      <td>serg38</td>
+      <td>Sergey Levitskiy</td>
+    </tr>
+    <tr>
+      <td>slriv</td>
+      <td>Sam Robertson</td>
+    </tr>
+    <tr>
+      <td>snuf</td>
+      <td>Funs Kessen</td>
+    </tr>
+    <tr>
+      <td>sowmya</td>
+      <td>Sowmya Krishnan</td>
+    </tr>
+    <tr>
+      <td>sudhap</td>
+      <td>Sudhap</td>
+    </tr>
+    <tr>
+      <td>svogel</td>
+      <td>Sven Vogel</td>
+    </tr>
+    <tr>
+      <td>swamy</td>
+      <td>Venkata Swamy</td>
+    </tr>
+    <tr>
+      <td>sweller</td>
+      <td>Simon Weller</td>
+    </tr>
+    <tr>
+      <td>swill</td>
+      <td>Will Stevens</td>
+    </tr>
+    <tr>
+      <td>syed</td>
+      <td>Syed Ahmed</td>
+    </tr>
+    <tr>
+      <td>talluri</td>
+      <td>Srikanteswararao Talluri</td>
+    </tr>
+    <tr>
+      <td>tsp</td>
+      <td>Prasanna</td>
+    </tr>
+    <tr>
+      <td>tuna</td>
+      <td>Anh Tu Nguyen</td>
+    </tr>
+    <tr>
+      <td>vijayendrabvs</td>
+      <td>Vijayendra Bhamidipati</td>
+    </tr>
+    <tr>
+      <td>weizhou</td>
+      <td>Wei Zhou</td>
+    </tr>
+    <tr>
+      <td>widodh</td>
+      <td>Wido den Hollander</td>
+    </tr>
+    <tr>
+      <td>willchan</td>
+      <td>William Chan</td>
+    </tr>
+    <tr>
+      <td>yasker</td>
+      <td>Sheng Yang</td>
+    </tr>
+    <tr>
+      <td>ynojima</td>
+      <td>Yoshikazu Nojima</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="emeritus-committers">Emeritus Committers</h2>
+
 <p>Committers who are no longer active include:</p>
 
 
