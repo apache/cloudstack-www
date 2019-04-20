@@ -21,7 +21,10 @@ This page includes the Apache CloudStack Project Management Committee (PMC) memb
 ## PMC
 
 Active Project Management Committee contains (in alphabetical order of their usernames):
+
 {:.table-bordered}
+
+
 | Username | Name |
 |----------|------|
 |akarasulu|Alex Karasulu|
@@ -66,21 +69,27 @@ Active Project Management Committee contains (in alphabetical order of their use
 |weizhou|Wei Zhou|
 |widodh|Wido den Hollander|
 |willchan|William Chan|
+  
+  
 
 ## Emeritus PMC Members
+
 PMC members who are no longer active include:
 
 + Alex Huang (ahuang)
 + Disheng Su (edison)
 + Ian Duffy (duffy)
 + Olivier Lamy (olamy)
-
+  
+  
+  
 ## Committers
 
-Active list of committers (in alphabetical order of their usernames)
-
 Active list of committers (in alphabetical order of their usernames):
+
 {:.table-bordered}
+
+
 | Username | Name |
 |----------|------|
 |ahmad|Ahmad Emneina|
@@ -200,6 +209,9 @@ Active list of committers (in alphabetical order of their usernames):
 |willchan|William Chan|
 |yasker|Sheng Yang|
 |ynojima|Yoshikazu Nojima|
-
+  
+  
+  
 ## Emeritus Committers
+
 Committers who are no longer active include:
