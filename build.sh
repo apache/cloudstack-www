@@ -16,6 +16,7 @@
 # specific language governing permissions and limitations
 # under the License.
 
+rm -rf ./content
 bundle exec middleman build
-cp -r ./build/* ./content
-git add ./content/\*
+mv ./build ./content
+git add --all ./content/\*
