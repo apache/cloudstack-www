@@ -23,7 +23,11 @@ Build the site with:
 To serve it locally:
 
     $ middleman server
-	
+
+# Important Update Information
+
+A few sections have been updated to be (more) dynamic.  The 'events' listed on the website are pulled from the CSV file in ./data/acs-events.csv .  The CSV that the website uses is the current raw file which is held in the Github master branch. Updates to this file are immediately 'visible' on the website.  There is no need to 'build' the website for the changes to become live. The format of the CSV is self explanatory, there is a heading row, please do not delete it, the processing on the web page assumes that it is there.  The 'latest announcements' section is pulled from the last 3 CloudStack blogs from the Apache Web site.
+
 # Building
 To build the HTML files, you just need to execute the `build.sh`. The script will automatically generate the HTML files and then copy them to the `content` folder in preparation for being published via the `asf-site` branch.  Keep reading for detailed instructions.
 
