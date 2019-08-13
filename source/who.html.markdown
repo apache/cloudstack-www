@@ -30,7 +30,9 @@ Active Project Management Committee contains (in alphabetical order of their use
 |akarasulu|Alex Karasulu|
 |alena1108|Alena Prokharchyk|
 |animesh|Animesh|
+|andrijapanic|Andrija Panic|
 |boris|Boris Schrijver|
+|bstoyanov|Boris Stoyanov|
 |chipchilders|Chip Childers|
 |chiradeep|Chiradeep Vittal|
 |dahn|Daan|
@@ -38,6 +40,7 @@ Active Project Management Committee contains (in alphabetical order of their use
 |erikw|Erik Weber|
 |giles|Giles Sirett|
 |gochiba|Go Chiba|
+|gabriel|Gabriel Beims Bräscher|
 |hogstrom|Matt Richard Hogstrom|
 |hugo|Hugo Trippaers|
 |ilya|Ilya Musayev|
@@ -54,6 +57,7 @@ Active Project Management Committee contains (in alphabetical order of their use
 |mtutkowski|Mike Tutkowski|
 |nslater|Naomi Slater|
 |nux|Nux|
+|nathanejohnson|Nathan Johnson|
 |paul_a|Paul Angus|
 |pdion891|Pierre-Luc Dion|
 |rafael|Rafael Weingärtner|
@@ -65,6 +69,7 @@ Active Project Management Committee contains (in alphabetical order of their use
 |sweller|Simon Weller|
 |swill|Will Stevens|
 |syed|Syed Ahmed|
+|svogel|Sven Vogel|
 |tsp|Prasanna|
 |weizhou|Wei Zhou|
 |widodh|Wido den Hollander|
