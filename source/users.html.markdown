@@ -22,11 +22,11 @@ Our users include many major service providers running CloudStack to offer publi
 
 ## How to Add your Company in The List
 
-If you are using CloudStack in your organisation and your company is not listed here, please send a pull request to the GitHub [page](https://github.com/apache/cloudstack-www/blob/master/source/users.markdown).
+If you are using CloudStack in your organisation and your company is not listed here, please send a pull request to the GitHub [page](https://github.com/apache/cloudstack-www/blob/master/source/users.html.markdown).
 
 ## How to Request the Entry Removal or Change
 
-If you noticed something wrong with your entry here (or if you’d like us to remove it), please send a pull request to the GitHub [page](https://github.com/apache/cloudstack-www/blob/master/source/users.markdown) or write your concerns to the mail-list **users@cloudstack.apache.org**.
+If you noticed something wrong with your entry here (or if you’d like us to remove it), please send a pull request to the GitHub [page](https://github.com/apache/cloudstack-www/blob/master/source/users.html.markdown) or write your concerns to the mail-list **users@cloudstack.apache.org**.
 
 * [ActOnMagic](http://www.actonmagic.com)
 * [Appcore](http://www.appcore.com)
@@ -64,6 +64,7 @@ If you noticed something wrong with your entry here (or if you’d like us to re
 * [SafeSwiss Cloud](https://www.safeswisscloud.ch)
 * [HIAG Data AG](https://www.hiagdata.com)
 * [SJC Inc](http://www.sjcloud.cn/index.xhtml)
+* [Server24](https://www.server24.eu)
 * [Telia Latvia](http://www.telia.lv)
 * [Tranquil Hosting](http://www.tqhosting.com)
 * [Treestle BV](http://www.liquidns.com)
