@@ -43,6 +43,7 @@ If you noticed something wrong with your entry here (or if you’d like us to re
 * [Delimiter Corp](https://www.delimiter.com/)
 * [En La Nube](http://www.enlanube.com.co)
 * [EVRY](https://www.evry.com)
+* [EWERK Group](https://ewerk.com)
 * [Exaserve](http://www.exaserve.com)
 * [FiberCloud](http://www.fibercloud.com)
 * [FortaCloud](http://www.fortacloud.co)
