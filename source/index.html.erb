@@ -119,10 +119,12 @@ title: Welcome to CloudStack
         <% end %>
         <a href="downloads.html"><button type="button" class="btn btn-success">Download</button></a>
         <a href="<%= data.cloudstack.versions.main_docs_url %>"><button type="button" class="btn btn-success">Documentation</button></a>
+        <% if data.cloudstack.versions.main_islts == false %>
         <p style="margin-top: 20px;">If you prefer proven stability rather than the newest features, please take a look at the previous LTS release.</p>
         <p class="text-warning">Previous Apache CloudStack LTS Release is <%= data.cloudstack.versions.lts %>.</p>
         <a href="downloads.html"><button type="button" class="btn btn-success">Download</button></a>
         <a href="<%= data.cloudstack.versions.lts_docs_url %>"><button type="button" class="btn btn-success">Documentation</button></a>
+        <% end %>
         <p style="margin-top: 20px;">
         Looking for other versions of Apache CloudStack? You can find them in our <a href="archives.html">archives</a> page as well.
         </p>
