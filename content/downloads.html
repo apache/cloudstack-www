@@ -120,151 +120,7 @@
     </div>
     <div class="container">
         <div class="bs-docs-section">
-            <!doctype html>
-<html>  
-  <head>
-    <title>Apache CloudStack: Open Source Cloud Computing</title>
-
-    <meta name="description" content="CloudStack is open source cloud computing software for creating, managing, and deploying infrastructure cloud services">
-
-    <meta itemprop="name" content="Apache Cloudstack">
-    <meta itemprop="description" content="CloudStack is open source cloud computing software for creating, managing, and deploying infrastructure cloud services">
-    <meta itemprop="image" content="https://cloudstack.apache.org/images/monkey-144.png">
-
-    <meta property="og:title" content="Apache Cloudstack">
-    <meta property="og:description" content="CloudStack is open source cloud computing software for creating, managing, and deploying infrastructure cloud services">
-    <meta property="og:site_name" content="Apache Cloudstack"/>
-    <meta property="og:image" content="https://cloudstack.apache.org/images/monkey-144.png">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Apache Cloudstack">
-    <meta name="twitter:description" content="CloudStack is open source cloud computing software for creating, managing, and deploying infrastructure cloud services">
-    <meta name="twitter:image:src" content="https://cloudstack.apache.org/images/monkey-144.png">
-
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
-
-    <link href="stylesheets/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="stylesheets/font-awesome.css" rel="stylesheet">
-    <link href="stylesheets/bootswatch.min.css" rel="stylesheet">
-    <link href="stylesheets/custom.css" rel="stylesheet">
-
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="icon" href="images/favicon.ico">
-
-<!-- Commenting out this template stuff until we figure out how to make it work with middleman
-    {% if headers.atom %}
-      <link rel="alternate" href="{{ headers.atom.url }}"
-            type="application/atom+xml" title="{{ headers.atom.title }}" />
-    {% endif %}
-
-    {% if headers.base %}<base href="{{ headers.base }}" />{% endif %}
--->
-<!--    {% if headers.notice %}{{ headers.notice }}{% endif %} -->
-        <!-- Twitter Bootstrap and jQuery after this line. -->
-        <script src="https://code.jquery.com/jquery-latest.js"></script>
-        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-        <script>
-            $('.dropdown-toggle').dropdown();
-            $('.nav-collapse').collapse();
-        </script>
-  </head>
-  <body>
-    <div class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="index.html" class="navbar-brand"><img class="" src="images/new-logo-sm.png" style="width: 200px" alt="Apache Cloudstack"></a>
-                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-main">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse" id="navbar-main">
-                <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="about">About <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="about">
-                <li><a tabindex="-1" href="about.html">About</a></li>
-                <li class="divider"></li>
-                <li><a tabindex="-1" href="https://blogs.apache.org/cloudstack/" target="_blank">Blog<span class="glyphicon glyphicon-share-alt pull-right"></span></a></li>
-                <li><a tabindex="-1" href="history.html">History</a></li>
-                <li><a tabindex="-1" href="features.html">Features</a></li>
-                <li><a tabindex="-1" href="cloudstack-faq.html">FAQ</a></li>
-                <li><a tabindex="-1" href="who.html">Who We Are</a></li>
-                <li><a tabindex="-1" href="security.html">Security</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="community">Community <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="community">
-                <li><a tabindex="-1" href="contribute.html">Get Involved</a></li>
-                <li><a tabindex="-1" href="developers.html">Developers</a></li>
-                <li><a tabindex="-1" href="mailing-lists.html">Mailing Lists</a></li>
-                <li><a tabindex="-1" href="http://cloudstackcollab.org/" target="_blank">Events &amp; Meetups <span class="glyphicon glyphicon-share-alt pull-right"></span></a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="users">Users <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="users">
-                <li><a tabindex="-1" href="users.html">Known Users</a></li>
-                <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Case+Studies" target="_blank">Case Studies <span class="glyphicon glyphicon-share-alt pull-right"></span></a></li>
-                <li><a tabindex="-1" href="survey.html">Take Survey</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="docs">Documentation <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="docs">
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org" target="_blank">CloudStack Documentation</span></a></li>
-                <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home" target="_blank">Wiki</a></li>
-                <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Books" target="_blank">Books</a></li>
-                <li><a tabindex="-1" href="api.html">API Documentation</a></li>
-                <li class="divider"></li>
-                <li><a tabindex="-1">Archived Documentation</a></li>
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-getting-started" target="_blank">&nbsp;&nbsp;&nbsp;Getting Started Docs</span></a></li>
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-installation" target="_blank">&nbsp;&nbsp;&nbsp;Installation Docs</a></li> 
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-administration" target="_blank">&nbsp;&nbsp;&nbsp;Administration Docs</a></li>
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-release-notes" target="_blank">&nbsp;&nbsp;&nbsp;Release Notes</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Download <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="download">
-                <li><a tabindex="-1" href="downloads.html">CloudStack Releases</a></li>
-                <li><a tabindex="-1" href="downloads.html#cloudmonkey">CloudMonkey</a></li>
-                <li><a tabindex="-1" href="archives.html">Release Archive</a></li>
-              </ul>
-            </li>
-			<li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="apache">Apache <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="apache">
-				<li><a tabindex="-1" href="http://apache.org">Apache Software Foundation</a></li>
-                <li><a tabindex="-1" href="http://www.apache.org/licenses/">License</a></li>
-                <li><a tabindex="-1" href="http://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
-                <li><a tabindex="-1" href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
-              </ul>
-            </li>
-          </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="bs-docs-section">
-            <div class="row">
-
-<div class="col-lg-12">
-
-<div class="page-header">
-
-<h1 id="indicators">Apache CloudStack: Downloads</h1>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="bs-example">
+            <div class="bs-example">
 
 <div class="row">
 
@@ -274,14 +130,14 @@
 <p>The CloudStack community maintains two types of releases; the main releases and the LTS (Long Term Support) releases. The LTS releases receive bug and security fixes for a period of two years (for more details <a href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/LTS"><i>click here</i></a>). The main releases receive only critical bug fixes for a short period. The general expectation is that the users of the 'main' will upgrade to a new version in order to receive fixes.</p>
 
 <h3>Source Releases</h3>
-<p>Apache CloudStack's most recent release is 4.12.0.0.
+<p>Apache CloudStack's most recent release is 4.13.0.0.
 </p>
-<p>This is non-LTS release of CloudStack.</p>
+<p>This is current CloudStack LTS release.</p>
 
 <p>
-    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.12.0.0/apache-cloudstack-4.12.0.0-src.tar.bz2">
+    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.13.0.0/apache-cloudstack-4.13.0.0-src.tar.bz2">
         <button type="button" class="btn btn-primary btn-md">
-            Get the 4.12.0.0 Source
+            Get the 4.13.0.0 Source
         </button>
     </a>
     <a href="http://www.apache.org/dist/cloudstack/KEYS">
@@ -289,59 +145,26 @@
             KEYS
         </button>
     </a>
-    <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/4.12.0.0/apache-cloudstack-4.12.0.0-src.tar.bz2.asc">
+    <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/4.13.0.0/apache-cloudstack-4.13.0.0-src.tar.bz2.asc">
         <button type="button" class="btn btn-info btn-xs">
             PGP
         </button>
     </a>
-    <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/4.12.0.0/apache-cloudstack-4.12.0.0-src.tar.bz2.md5">
+    <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/4.13.0.0/apache-cloudstack-4.13.0.0-src.tar.bz2.md5">
         <button type="button" class="btn btn-info btn-xs">
             MD5
         </button>
     </a>
-    <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/4.12.0.0/apache-cloudstack-4.12.0.0-src.tar.bz2.sha512">
+    <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/4.13.0.0/apache-cloudstack-4.13.0.0-src.tar.bz2.sha512">
         <button type="button" class="btn btn-info btn-xs">
             SHA512
         </button>
     </a>
 </p>
 
-<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/en/4.12.0.0/releasenotes/">version 4.12.0.0 Release Notes</a> website.</p><br />
+<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/en/4.13.0.0/releasenotes/">version 4.13.0.0 Release Notes</a> website.</p><br />
 
-<p>Apache CloudStack's previous LTS release was 4.11.3.0.
-</p>
-
-<p>
-    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.11.3.0/apache-cloudstack-4.11.3.0-src.tar.bz2">
-        <button type="button" class="btn btn-primary btn-md">
-            Get the 4.11.3.0 Source
-        </button>
-    </a>
-    <a href="http://www.apache.org/dist/cloudstack/KEYS">
-        <button type="button" class="btn btn-info btn-xs">
-            KEYS
-        </button>
-    </a>
-    <a href="http://www.apache.org/dist/cloudstack/releases/4.11.3.0/apache-cloudstack-4.11.3.0-src.tar.bz2.asc">
-        <button type="button" class="btn btn-info btn-xs">
-            PGP
-        </button>
-    </a>
-    <a href="http://www.apache.org/dist/cloudstack/releases/4.11.3.0/apache-cloudstack-4.11.3.0-src.tar.bz2.md5">
-        <button type="button" class="btn btn-info btn-xs">
-            MD5
-        </button>
-    </a>
-    <a href="http://www.apache.org/dist/cloudstack/releases/4.11.3.0/apache-cloudstack-4.11.3.0-src.tar.bz2.sha512">
-        <button type="button" class="btn btn-info btn-xs">
-            SHA512
-        </button>
-    </a>
-</p>
-
-<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.11.3.0/">version 4.11.3.0 Release Notes</a> website.</p>
-
-<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/en/4.12.0.0/installguide/">Installation Guide</a>. Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.12.0.0 can be found in the upgrade section of the Release Notes (see above).</p>
+<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/en/4.13.0.0/installguide/">Installation Guide</a>. Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.13.0.0 can be found in the upgrade section of the Release Notes (see above).</p>
 
 </div>
 
@@ -456,11 +279,11 @@ Additionally, you can verify the MD5 or SHA512 signatures on the files.
 You can find links to all the releases of Apache CloudStack on the <a href="archives.html">archives page</a>.
 </div></div>
 </div>
-        </div>
-    </div>
-</div>
-  </body>
-</html>
+<pre><code>    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<p>&lt;/div&gt;</p>
+
 
 
             <footer>
