@@ -19,18 +19,18 @@ title: Apache CloudStack Project Bylaws
 
 # 1 Introduction
 
- - 1.1
+- 1.1
   This document defines the bylaws under which the Apache CloudStack project
 operates. It defines the roles and responsibilities of the project, who may
 vote, how voting works, how conflicts are resolved and specifies the rules for
 specific project actions.
 
- - 1.2. CloudStack is a project of the Apache Software Foundation. The foundation
+- 1.2. CloudStack is a project of the Apache Software Foundation. The foundation
 holds the trademark on the name "CloudStack" and copyright on Apache code
 including the code in the CloudStack codebase. The foundation FAQ explains the
 operation and background of the foundation.
 
- - 1.3. CloudStack operates under a set of principles known collectively as the
+- 1.3. CloudStack operates under a set of principles known collectively as the
 "Apache Way". Those principles are: Transparency, consensus, non-affiliation,
 respect for fellow developers, and meritocracy, in no specific order.
 
@@ -41,14 +41,14 @@ associated rights and
 responsibilities. These roles govern what tasks an individual may perform
 within the project. The roles are defined in the following sections:
 
- - 2.1. Users.
+- 2.1. Users.
 The most important participants in the project are people who use our software.
 Users can contribute to the Apache projects by providing feedback to developers
 in the form of bug reports and feature suggestions. As well, users can
 participate in the Apache community by helping other users on mailing lists and
 user support forums. Users who participate in the project through any mechanism
 are considered to be Contributors.
- - 2.2. Contributors
+- 2.2. Contributors
   Contributors are all of the volunteers who are contributing time, code,
 documentation, or resources to the CloudStack Project. Contributions are not
 just code, but can be any combination of documentation, testing, user support,
@@ -60,24 +60,24 @@ project and community.
 invited to become a Committer by the PMC. The invitation will be at the
 discretion of a supporting PMC member.
 
- - 2.3. Committers
+- 2.3. Committers
   The project's Committers are responsible for the project's technical
 management. Committers have access to all project source control repositories.
 Committers may cast binding votes on any technical discussion regarding the
 project (or any sub-project).
 
-    - 2.3.1. Committer access is by invitation only and must be approved by a lazy
+  - 2.3.1. Committer access is by invitation only and must be approved by a lazy
 consensus of the active PMC members.
 
-    - 2.3.2. All Apache Committers are required to have a signed Individual
+  - 2.3.2. All Apache Committers are required to have a signed Individual
 Contributor License Agreement (ICLA) on file with the Apache Software
 Foundation. There is a Committer FAQ which provides more details on the
 requirements for Committers at Apache.
 
-    - 2.3.3. A Committer who makes a sustained contribution to the project may be
+  - 2.3.3. A Committer who makes a sustained contribution to the project may be
 invited by the PMC to become a member of the PMC, after approval of the PMC.
 
- - 2.4. Project Management Committee
+- 2.4. Project Management Committee
 
   The Project Management Committee (PMC) for Apache CloudStack is responsible to
 the board and the ASF for the management and oversight of the Apache CloudStack
@@ -125,7 +125,7 @@ discussion, confirming that consensus via a vote to recommend a new chair using
 a lazy 2/3 majority voting method. In the case that consensus is not achieved,
 the PMC will vote for a chair using Single 
 
-  Transferable Vote (STV) voting. Due
+      Transferable Vote (STV) voting. Due
 to the fact that the discussions are about specific individuals, this vote
 would be held on the cloudstack-private mailing list. The decision must be
 ratified by the Apache board.
@@ -142,7 +142,7 @@ types of decision require which type of approval.
 
 - 3.1. Voting
 
- - 3.1.1. Decisions regarding the project are made by votes on the primary project
+  - 3.1.1. Decisions regarding the project are made by votes on the primary project
 development mailing list (dev@cloudstack.apache.org). Where necessary, PMC
 voting may take place on the private CloudStack PMC mailing list. Votes are
 clearly indicated by subject line starting with \[VOTE\]. Votes may contain
@@ -182,7 +182,7 @@ sent when the commit is made.
 
 - 3.2. Approvals
 
- There are three types of approvals that can be sought. Section 3.4 describes
+    There are three types of approvals that can be sought. Section 3.4 describes
 actions and types of approvals needed for each action.
 
   - 3.2.1. Lazy Consensus - Lazy consensus requires 3 binding \+1 votes and no
@@ -208,137 +208,137 @@ veto is valid.
 veto to withdraw their veto. If a veto is not withdrawn, any action that has
 been vetoed must be reversed in a timely manner.
 
-  - 3.4. Actions
+- 3.4. Actions
 
- This section describes the various actions which are undertaken within the
+  This section describes the various actions which are undertaken within the
 project, the roles that have the right to start a vote on the action, the
 corresponding approval required for that action and those who have binding
 votes over the action.
 
   - 3.4.1. Technical Decisions 
 
-  A technical decision is any decision that involves changes to the source code
+    - A technical decision is any decision that involves changes to the source code
 that we distribute in our official releases.
 
-  Technical decisions should normally be made by the entire community using
+    - Technical decisions should normally be made by the entire community using
 discussion-lead consensus gathering, and not through formal voting.
 
-  Technical decisions must be made on the project development mailing list.
+    - Technical decisions must be made on the project development mailing list.
 
-  During the consensus gathering process, technical decisions may be vetoed by
+    - During the consensus gathering process, technical decisions may be vetoed by
 any Committer with a valid reason.
 
- If a formal vote is started for a technical decision, the vote will be held as
+    - If a formal vote is started for a technical decision, the vote will be held as
 a lazy consensus of active committers.
 
- Any user, contributor, committer, or PMC member can initiate a technical
+    - Any user, contributor, committer, or PMC member can initiate a technical
 decision making process.
 
   - 3.4.2. Non-Technical Decisions
 
- A non-technical decisions is any decision that does not involve changes to the
+    - A non-technical decisions is any decision that does not involve changes to the
 source code that we distribute in our official releases (excluding questions of 
 trademark usage).
 
- Non-technical decisions should normally be made by the entire community using
+    - Non-technical decisions should normally be made by the entire community using
 discussion-lead consensus-building, and not through formal voting.
 
- Non-technical decisions can be made on whichever project mailing list is most
+    - Non-technical decisions can be made on whichever project mailing list is most
 appropriate.
 
- Non-technical decisions cannot be vetoed, but if there is strong opposition
+    - Non-technical decisions cannot be vetoed, but if there is strong opposition
 a formal vote can be used to resolve the dispute.
 
- If a formal vote is started for a non-technical decision, the vote will be held
+    - If a formal vote is started for a non-technical decision, the vote will be held
 as a lazy 2/3 majority of active committers.
 
- Any user, contributor, committer, or PMC member can initiate a non-technical
+    - Any user, contributor, committer, or PMC member can initiate a non-technical
 decision making process.
 
   - 3.4.3. Release Plan
 
-  Defines the timetable and work items for a release. The plan also nominates a
+    - Defines the timetable and work items for a release. The plan also nominates a
 Release Manager.
 
- A lazy majority of active committers is required for approval.
+     - A lazy majority of active committers is required for approval.
 
- Any active committer or PMC member may call a vote. The vote must occur on the
+     - Any active committer or PMC member may call a vote. The vote must occur on the
 project development mailing list.
 
   - 3.4.4. Product Release
 
- When a release of one of the project's products is ready, a vote is required to
+    - When a release of one of the project's products is ready, a vote is required to
 accept the release as an official release of the project.
 
- Lazy Majority of active PMC members is required for approval.
+    - Lazy Majority of active PMC members is required for approval.
 
- Any active committer or PMC member may call a vote. The vote must occur on the
+    - Any active committer or PMC member may call a vote. The vote must occur on the
 project development mailing list.
 
   - 3.4.5. Adoption of New Codebase
 
- When the codebase for an existing, released product is to be replaced with an
+    - When the codebase for an existing, released product is to be replaced with an
 alternative codebase. If such a vote fails to gain approval, the existing code
 base will continue.
 
- This also covers the creation of new sub-projects within the project.
+    - This also covers the creation of new sub-projects within the project.
 
- Lazy 2/3 majority of active PMC members.
+    - Lazy 2/3 majority of active PMC members.
 
- Any active committer or PMC member may call a vote. The vote must occur on the
+    - Any active committer or PMC member may call a vote. The vote must occur on the
 project development mailing list.
 
   - 3.4.6. New Committer
 
- When a new committer is proposed for the project.
+    - When a new committer is proposed for the project.
 
- Lazy consensus of active PMC members.
-
- Any active PMC member may call a vote. The vote must occur on the PMC private
+    - Lazy consensus of active PMC members.
+ 
+    - Any active PMC member may call a vote. The vote must occur on the PMC private
 mailing list.
 
   - 3.4.7. New PMC Member
 
- When a committer is proposed for the PMC.
+    - When a committer is proposed for the PMC.
 
- Lazy consensus of active PMC members.
+    - Lazy consensus of active PMC members.
 
- Any active PMC member may call a vote. The vote must occur on the PMC private
+    - Any active PMC member may call a vote. The vote must occur on the PMC private
 mailing list.
 
   - 3.4.8. Committer Removal
 
- When removal of commit privileges is sought. Note: Such actions will also be
+    - When removal of commit privileges is sought. Note: Such actions will also be
 referred to the ASF board by the PMC chair
 
- Lazy 2/3 majority of active PMC members (excluding the committer in question if
+    - Lazy 2/3 majority of active PMC members (excluding the committer in question if
 a member of the PMC).
 
- Any active PMC member may call a vote. The vote must occur on the PMC private
+    - Any active PMC member may call a vote. The vote must occur on the PMC private
 mailing list.
 
   - 3.4.9. PMC Member Removal
 
- When removal of a PMC member is sought. Note: Such actions will also be
+    - When removal of a PMC member is sought. Note: Such actions will also be
 referred to the ASF board by the PMC chair.
 
- Lazy 2/3 majority of active PMC members (excluding the member in question)
+    - Lazy 2/3 majority of active PMC members (excluding the member in question)
 
- Any active PMC member may call a vote. The vote must occur on the PMC private
+    - Any active PMC member may call a vote. The vote must occur on the PMC private
 mailing list.
 
   - 3.4.10. Modifying Bylaws
 
- Modifying this document.
+    - Modifying this document.
 
- Lazy majority of active PMC members
+    - Lazy majority of active PMC members
 
- Any active committer or PMC member may call a vote. The vote must occur on the
+    - Any active committer or PMC member may call a vote. The vote must occur on the
 project development mailing list.
 
   - 3.4.11. Trademark Usage Approvals
 
- Our project maintains a formal Trademark Usage Guidelines document, which
+    Our project maintains a formal Trademark Usage Guidelines document, which
 serves as a additive reference to the Apache Software Foundation's trademark
 policies. The Apache CloudStack PMC has had approval authority delegated to it
 for requests from third parties to use our trademarks. It is the PMC's
@@ -346,36 +346,36 @@ responsibility to provide these approvals, and to ensure that any requests
 are in compliance with both the project and the foundation's trademark
 usage policies.
 
- The CloudStack Trademark Guidelines specify how a requestor is expected to
+    The CloudStack Trademark Guidelines specify how a requestor is expected to
 request permission for usage of the trademarks.
 
-  The process of approval will typically be as follows:
+    The process of approval will typically be as follows:
     * A request is made that includes the required information for the PMC to make a decision.
 
     * A PMC member reviews the request and provides an initial acknowledgement response to the requester.
 
     * If no PMC member raises a concern after 72 hours, the requester can assume approval.
 
- - In situations where a concern is raised, the PMC member is expected inform the
+   - In situations where a concern is raised, the PMC member is expected inform the
 requster that there is some discussion that needs to be had prior to approval
 from the PMC.  This notice serves to end the assumed approval after 72 hours.
 
- After raising a concern, the PMC member in question is required to forward the
+     After raising a concern, the PMC member in question is required to forward the
 concern to private@cloudstack.apache.org, explaining the issue that they have
 with the request.  The use of private@cloudstack.apache.org for discussing the
 request is to allow the PMC to deliberate without confusing the requester, and
 to ensure that a formal approval or denial is clear at the end of the
 discusion.
 
- The PMC will then attempt to achieve consensus on how the request for approval
+     The PMC will then attempt to achieve consensus on how the request for approval
 will be answered.  The requester may be asked for more information to help the
 PMC make a decision, may be asked to make a change to the proposal in order to
 gain approval, or may have their request be denied.
 
- If consensus is not achieved within the PMC by discussion, then a formal VOTE
+     If consensus is not achieved within the PMC by discussion, then a formal VOTE
 can be called as a Lazy 2/3 majority of voting PMC members.
 
- Votes related to trademark usage approvals may be performed on the
+     Votes related to trademark usage approvals may be performed on the
 private@cloudstack.apache.org mailing list.
 
 - 3.5. Voting Timeframes
