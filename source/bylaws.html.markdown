@@ -123,9 +123,7 @@ be an active PMC member.
 chair expires, the PMC will attempt to reach consensus on a new chair through
 discussion, confirming that consensus via a vote to recommend a new chair using
 a lazy 2/3 majority voting method. In the case that consensus is not achieved,
-the PMC will vote for a chair using Single 
-
-      Transferable Vote (STV) voting. Due
+the PMC will vote for a chair using Single Transferable Vote (STV) voting. Due
 to the fact that the discussions are about specific individuals, this vote
 would be held on the cloudstack-private mailing list. The decision must be
 ratified by the Apache board.
