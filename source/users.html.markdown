@@ -210,7 +210,6 @@ If you noticed something wrong with your entry here (or if you’d like us to re
 * RedBridge
 * RightScale, Inc.
 * Royal Melbourne Institute of Technology (RMIT)
-* Safe Swiss Cloud
 * SAP
 * Scalr
 * Schuberg Philis
