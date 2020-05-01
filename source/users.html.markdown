@@ -48,6 +48,7 @@ If you noticed something wrong with your entry here (or if you’d like us to re
 * [FiberCloud](http://www.fibercloud.com)
 * [FortaCloud](http://www.fortacloud.co)
 * [Heinlein Support GmbH](http://www.heinlein-support.de)
+* [Hypergrid SRL](https://www.hypergrid.it)
 * [Imperial College](http://www.imperial.ac.uk/computing)
 * [InhouseIT](http://www.inhouseit.com)
 * [INRIA](http://inria.fr)
@@ -210,7 +211,6 @@ If you noticed something wrong with your entry here (or if you’d like us to re
 * RedBridge
 * RightScale, Inc.
 * Royal Melbourne Institute of Technology (RMIT)
-* Safe Swiss Cloud
 * SAP
 * Scalr
 * Schuberg Philis
