@@ -16,12 +16,16 @@ title: Apache CloudStack API Documentation
 
 </div>
 
-Below are API reference material for Apache CloudStack, provided by major feature version.  Each feature version supports three levels of access, and the available API commands for each level are provided seperately.
+Below are API reference material for Apache CloudStack, provided by major feature version.  Each feature version supports three levels of access.
 
 If you find problems or see ways in which this API reference can be enhanced
 we would welcome your help, please file a bug in the
-[CloudStack bug tracker](https://issues.apache.org/jira/browse/CLOUDSTACK)
+[CloudStack GitHub repo](https://github.com/apache/cloudstack)
 or by submitting a patch.
+
+## 4.14.x
+
+* [All API](api/apidocs-4.14/index.html)
 
 ## 4.13.x
 
