@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_master">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.14.1.0-SNAPSHOT Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>moveNetworkAclItem</h1>
+                                        <p>Move an ACL rule to a position bettwen two other ACL rules of the same ACL network list</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;"><strong>The ID of the network ACL rule that is being moved to a new position.</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>aclconsistencyhash</i></td><td style="width:500px;"><i>Md5 hash used to check the consistency of the ACL rule list before applying the ACL rule move. This check is useful to manage concurrency problems that may happen when multiple users are editing the same ACL rule listing. The parameter is not required. Therefore, if the user does not send it, he/she is assuming the risk of moving ACL rules without checking the consistency of the access control list before executing the move. We use MD5 hash function on a String that is composed of all UUIDs of the ACL rules in concatenated in their respective order (order defined via 'number' field).</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>customid</i></td><td style="width:500px;"><i>an optional field, in case you want to set a custom id to the resource. Allowed to Root Admins only</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>nextaclruleid</i></td><td style="width:500px;"><i>The ID of the rule that is right after the new position where the rule being moved is going to be placed. This value can be 'NULL' if the rule is being moved to the last position of the network ACL list.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>previousaclruleid</i></td><td style="width:500px;"><i>The ID of the first rule that is right before the new position where the rule being moved is going to be placed. This value can be 'NULL' if the rule is being moved to the first position of the network ACL list.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">the ID of the ACL Item</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>aclid</strong></td><td style="width:500px;">the ID of the ACL this item belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>action</strong></td><td style="width:500px;">Action of ACL Item. Allow/Deny</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cidrlist</strong></td><td style="width:500px;">the cidr list to forward traffic from</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>endport</strong></td><td style="width:500px;">the ending port of ACL's port range</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>fordisplay</strong></td><td style="width:500px;">is rule for display to the regular user</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>icmpcode</strong></td><td style="width:500px;">error code for this icmp message</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>icmptype</strong></td><td style="width:500px;">type of the icmp message being sent</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>number</strong></td><td style="width:500px;">Number of the ACL Item</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>protocol</strong></td><td style="width:500px;">the protocol of the ACL</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>reason</strong></td><td style="width:500px;">an explanation on why this ACL rule is being applied</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>startport</strong></td><td style="width:500px;">the starting port of ACL's port range</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>state</strong></td><td style="width:500px;">the state of the rule</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>traffictype</strong></td><td style="width:500px;">the traffic type for the ACL</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>tags(*)</strong></td><td style="width:500px;">the list of resource tags associated with the network ACLs</td>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>account</strong></td><td style="width:500px;">the account associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>customer</strong></td><td style="width:500px;">customer associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domain</strong></td><td style="width:500px;">the domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domainid</strong></td><td style="width:500px;">the ID of the domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>key</strong></td><td style="width:500px;">tag key name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>project</strong></td><td style="width:500px;">the project name where tag belongs to</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>projectid</strong></td><td style="width:500px;">the project id the tag belongs to</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>resourceid</strong></td><td style="width:500px;">id of the resource</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>resourcetype</strong></td><td style="width:500px;">resource type</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>value</strong></td><td style="width:500px;">tag value</td>
+                                            </tr>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script type="text/javascript" src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_mainmaster">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
