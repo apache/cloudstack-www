@@ -67,6 +67,7 @@ If you noticed something wrong with your entry here (or if you’d like us to re
 * [HIAG Data AG](https://www.hiagdata.com)
 * [SJC Inc](http://www.sjcloud.cn/index.xhtml)
 * [Server24](https://www.server24.eu)
+* [Serverion](http://www.serverion.com)
 * [Telia Latvia](http://www.telia.lv)
 * [Tranquil Hosting](http://www.tqhosting.com)
 * [Treestle BV](http://www.liquidns.com)
