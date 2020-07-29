@@ -67,8 +67,9 @@ versions:
     - 4.6:
       - 4.6.0
 cloudmonkey:
-  version: 6.0.0
+  version: 6.1.0
   archives:
+    - 6.1.0
     - 6.0.0
     - 5.3.3
     - 5.3.2
