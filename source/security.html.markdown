@@ -28,37 +28,7 @@ Upon notification, the ASF security team will work with the CloudStack PMC throu
 
 ## Procedure for Responding to Potential Security Issues
 
-Overall, this procedure follows the Apache Security Team's procedures documented [here](http://www.apache.org/security/committers.html).
-
-<ul>
-  <li>Upon receiving notice of a potential security issue, a security team member will create a bug to track the investigation, this bug must be flagged as a security issue. Security flag should mean contents of ticket are not visible to non-security team members</li>
-  <li>ACS PMC investigates the issue to confirm/deny the presence of a vulnerability within CloudStack</li>
-  <li>If the issue is determined not to be a vulnerability the reporter will be notified and the issue will be closed as invalid</li>
-  <li>If issue is confirmed as a CloudStack vulnerability:
-    <ul>
-      <li>ACS PMC confirms with the Apache Security Team</li>
-      <li>ACS PMC assigns a risk rating to the vulnerability using the Common Vulnerability Scoring System</li>
-      <li>ACS PMC team works with reporter to get a chance to investigate and mitigate the issue in a timely manner before public announcement. This should be between 15-30 days, depending on the severity and complexity of the issue</li>
-      <li>ACS PMC works with Apache Security Team to reserve a CVE Identifier for future public release</li>
-      <li>ACS PMC works with appropriate code maintainer(s) to create patch to mitigate the issue</li>
-      <li>Testing is conducted to verify patch mitigates issue and does not cause regression errors</li>
-      <li>ACS PMC creates a vulnerability announcement</li>
-      <li>Patch is committed to trunk and other supported branches that are affected.  The commit should not refer to a particular vulnerability</li>
-      <li>A new CloudStack release or hotfix is prepared and tested, containing the new security patch</li>
-      <li>Distributor coordination is implemented to enable a coordinated announcement</li>
-      <li>Security team posts vulnerability announcement to...
-        <ul>
-          <li>CloudStack dev list</li>
-          <li>CloudStack users list</li>
-          <li>The Bugtraq mailing list</li>
-        </ul>
-      </li>
-      <li>After announcement, CHANGES and NEWS files need to be updated to reflect the vulnerability and fix. This must happen AFTER the announcement.</li>
-      <li>Also after announcement, modify the Jira ticket so that the issue is now publicly viewable.</li>
-    </ul>
-  </li>
-  <li>After the vulnerability is addressed, the CloudStack community should review development processes to see how the community can minimize the chance of similar vulnerabilities being introduced in the future.</li>
-</ul>
+We're follow the Apache Security Team's procedures documented [here](http://www.apache.org/security/committers.html).
 
 ## For further information
 
