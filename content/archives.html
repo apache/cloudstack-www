@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>  
   <head>
     <title>Apache CloudStack: Open Source Cloud Computing</title>
@@ -29,7 +29,15 @@
 
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="icon" href="images/favicon.ico">
-    
+
+<!-- Commenting out this template stuff until we figure out how to make it work with middleman
+    {% if headers.atom %}
+      <link rel="alternate" href="{{ headers.atom.url }}"
+            type="application/atom+xml" title="{{ headers.atom.title }}" />
+    {% endif %}
+
+    {% if headers.base %}<base href="{{ headers.base }}" />{% endif %}
+-->
 <!--    {% if headers.notice %}{{ headers.notice }}{% endif %} -->
         <!-- Twitter Bootstrap and jQuery after this line. -->
         <script src="https://code.jquery.com/jquery-latest.js"></script>
@@ -60,7 +68,7 @@
                 <li><a tabindex="-1" href="https://blogs.apache.org/cloudstack/" target="_blank">Blog<span class="glyphicon glyphicon-share-alt pull-right"></span></a></li>
                 <li><a tabindex="-1" href="history.html">History</a></li>
                 <li><a tabindex="-1" href="features.html">Features</a></li>
-                <li><a tabindex="-1" href="bylaws.html">Community Bylaws</a></li>
+                <li><a tabindex="-1" href="cloudstack-faq.html">FAQ</a></li>
                 <li><a tabindex="-1" href="who.html">Who We Are</a></li>
                 <li><a tabindex="-1" href="security.html">Security</a></li>
               </ul>
@@ -85,16 +93,13 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="docs">Documentation <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="docs">
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org" target="_blank">CloudStack Documentation</span></a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org" target="_blank">Getting Started Docs</span></a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/cloudstack-installation" target="_blank">Installation Docs</a></li> 
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/cloudstack-administration" target="_blank">Administration Docs</a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes" target="_blank">Release Notes</a></li>
                 <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home" target="_blank">Wiki</a></li>
                 <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Books" target="_blank">Books</a></li>
                 <li><a tabindex="-1" href="api.html">API Documentation</a></li>
-                <li class="divider"></li>
-                <li><a tabindex="-1">Archived Documentation</a></li>
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-getting-started" target="_blank">&nbsp;&nbsp;&nbsp;Getting Started Docs</span></a></li>
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-installation" target="_blank">&nbsp;&nbsp;&nbsp;Installation Docs</a></li> 
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-administration" target="_blank">&nbsp;&nbsp;&nbsp;Administration Docs</a></li>
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-release-notes" target="_blank">&nbsp;&nbsp;&nbsp;Release Notes</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -123,26 +128,8 @@
             <h2 id="indicators">Archived Releases</h2>
 
 <ul>
-  <li>4.14
-    <ul>
-      <li><a href="http://archive.apache.org/dist/cloudstack/releases/4.14.0.0/apache-cloudstack-4.14.0.0-src.tar.bz2">apache-cloudstack-4.14.0.0.src.tar.bz2</a> [ <a href="http://archive.apache.org/dist/cloudstack/releases/4.14.0.0/apache-cloudstack-4.14.0.0-src.tar.bz2.asc">PGP</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.14.0.0/apache-cloudstack-4.14.0.0-src.tar.bz2.md5">MD5</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.14.0.0/apache-cloudstack-4.14.0.0-src.tar.bz2.sha">SHA512</a> ]</li>
-    </ul>
-  </li>
-  <li>4.13
-    <ul>
-      <li><a href="http://archive.apache.org/dist/cloudstack/releases/4.13.0.0/apache-cloudstack-4.13.0.0-src.tar.bz2">apache-cloudstack-4.13.0.0.src.tar.bz2</a> [ <a href="http://archive.apache.org/dist/cloudstack/releases/4.13.0.0/apache-cloudstack-4.13.0.0-src.tar.bz2.asc">PGP</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.13.0.0/apache-cloudstack-4.13.0.0-src.tar.bz2.md5">MD5</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.13.0.0/apache-cloudstack-4.13.0.0-src.tar.bz2.sha">SHA512</a> ]</li>
-    </ul>
-  </li>
-  <li>4.12
-    <ul>
-      <li><a href="http://archive.apache.org/dist/cloudstack/releases/4.12.0.0/apache-cloudstack-4.12.0.0-src.tar.bz2">apache-cloudstack-4.12.0.0.src.tar.bz2</a> [ <a href="http://archive.apache.org/dist/cloudstack/releases/4.12.0.0/apache-cloudstack-4.12.0.0-src.tar.bz2.asc">PGP</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.12.0.0/apache-cloudstack-4.12.0.0-src.tar.bz2.md5">MD5</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.12.0.0/apache-cloudstack-4.12.0.0-src.tar.bz2.sha">SHA512</a> ]</li>
-    </ul>
-  </li>
   <li>4.11
     <ul>
-      <li><a href="http://archive.apache.org/dist/cloudstack/releases/4.11.3.0/apache-cloudstack-4.11.3.0-src.tar.bz2">apache-cloudstack-4.11.3.0.src.tar.bz2</a> [ <a href="http://archive.apache.org/dist/cloudstack/releases/4.11.3.0/apache-cloudstack-4.11.3.0-src.tar.bz2.asc">PGP</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.11.3.0/apache-cloudstack-4.11.3.0-src.tar.bz2.md5">MD5</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.11.3.0/apache-cloudstack-4.11.3.0-src.tar.bz2.sha">SHA512</a> ]</li>
-      <li><a href="http://archive.apache.org/dist/cloudstack/releases/4.11.2.0/apache-cloudstack-4.11.2.0-src.tar.bz2">apache-cloudstack-4.11.2.0.src.tar.bz2</a> [ <a href="http://archive.apache.org/dist/cloudstack/releases/4.11.2.0/apache-cloudstack-4.11.2.0-src.tar.bz2.asc">PGP</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.11.2.0/apache-cloudstack-4.11.2.0-src.tar.bz2.md5">MD5</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.11.2.0/apache-cloudstack-4.11.2.0-src.tar.bz2.sha">SHA512</a> ]</li>
-      <li><a href="http://archive.apache.org/dist/cloudstack/releases/4.11.1.0/apache-cloudstack-4.11.1.0-src.tar.bz2">apache-cloudstack-4.11.1.0.src.tar.bz2</a> [ <a href="http://archive.apache.org/dist/cloudstack/releases/4.11.1.0/apache-cloudstack-4.11.1.0-src.tar.bz2.asc">PGP</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.11.1.0/apache-cloudstack-4.11.1.0-src.tar.bz2.md5">MD5</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.11.1.0/apache-cloudstack-4.11.1.0-src.tar.bz2.sha">SHA512</a> ]</li>
       <li><a href="http://archive.apache.org/dist/cloudstack/releases/4.11.0.0/apache-cloudstack-4.11.0.0-src.tar.bz2">apache-cloudstack-4.11.0.0.src.tar.bz2</a> [ <a href="http://archive.apache.org/dist/cloudstack/releases/4.11.0.0/apache-cloudstack-4.11.0.0-src.tar.bz2.asc">PGP</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.11.0.0/apache-cloudstack-4.11.0.0-src.tar.bz2.md5">MD5</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.11.0.0/apache-cloudstack-4.11.0.0-src.tar.bz2.sha">SHA512</a> ]</li>
     </ul>
   </li>
@@ -153,7 +140,6 @@
   </li>
   <li>4.9
     <ul>
-      <li><a href="http://archive.apache.org/dist/cloudstack/releases/4.9.3.1/apache-cloudstack-4.9.3.1-src.tar.bz2">apache-cloudstack-4.9.3.1.src.tar.bz2</a> [ <a href="http://archive.apache.org/dist/cloudstack/releases/4.9.3.1/apache-cloudstack-4.9.3.1-src.tar.bz2.asc">PGP</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.9.3.1/apache-cloudstack-4.9.3.1-src.tar.bz2.md5">MD5</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.9.3.1/apache-cloudstack-4.9.3.1-src.tar.bz2.sha">SHA512</a> ]</li>
       <li><a href="http://archive.apache.org/dist/cloudstack/releases/4.9.3.0/apache-cloudstack-4.9.3.0-src.tar.bz2">apache-cloudstack-4.9.3.0.src.tar.bz2</a> [ <a href="http://archive.apache.org/dist/cloudstack/releases/4.9.3.0/apache-cloudstack-4.9.3.0-src.tar.bz2.asc">PGP</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.9.3.0/apache-cloudstack-4.9.3.0-src.tar.bz2.md5">MD5</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.9.3.0/apache-cloudstack-4.9.3.0-src.tar.bz2.sha">SHA512</a> ]</li>
       <li><a href="http://archive.apache.org/dist/cloudstack/releases/4.9.2.0/apache-cloudstack-4.9.2.0-src.tar.bz2">apache-cloudstack-4.9.2.0.src.tar.bz2</a> [ <a href="http://archive.apache.org/dist/cloudstack/releases/4.9.2.0/apache-cloudstack-4.9.2.0-src.tar.bz2.asc">PGP</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.9.2.0/apache-cloudstack-4.9.2.0-src.tar.bz2.md5">MD5</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.9.2.0/apache-cloudstack-4.9.2.0-src.tar.bz2.sha">SHA512</a> ]</li>
       <li><a href="http://archive.apache.org/dist/cloudstack/releases/4.9.1.0/apache-cloudstack-4.9.1.0-src.tar.bz2">apache-cloudstack-4.9.1.0.src.tar.bz2</a> [ <a href="http://archive.apache.org/dist/cloudstack/releases/4.9.1.0/apache-cloudstack-4.9.1.0-src.tar.bz2.asc">PGP</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.9.1.0/apache-cloudstack-4.9.1.0-src.tar.bz2.md5">MD5</a> ][ <a href="http://archive.apache.org/dist/cloudstack/releases/4.9.1.0/apache-cloudstack-4.9.1.0-src.tar.bz2.sha">SHA512</a> ]</li>
@@ -228,9 +214,6 @@
 <h3>CloudMonkey release archives</h3>
 
 <ul>
-  <li><a href="http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-6.1.0/">apache-cloudstack-cloudmonkey-6.1.0</a></li>
-  <li><a href="http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-6.0.0/">apache-cloudstack-cloudmonkey-6.0.0</a></li>
-  <li><a href="http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.3/">apache-cloudstack-cloudmonkey-5.3.3</a></li>
   <li><a href="http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.2/">apache-cloudstack-cloudmonkey-5.3.2</a></li>
   <li><a href="http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.1/">apache-cloudstack-cloudmonkey-5.3.1</a></li>
   <li><a href="http://archive.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.0/">apache-cloudstack-cloudmonkey-5.3.0</a></li>
@@ -250,7 +233,7 @@
 
 
             <footer>
-                <p>Copyright © 2020 The Apache Software Foundation, Licensed under the Apache License, Version 2.0. <br/>
+                <p>Copyright © 2017 The Apache Software Foundation, Licensed under the Apache License, Version 2.0. <br/>
                 "Apache", "CloudStack", "Apache CloudStack", the Apache CloudStack logo, the Apache CloudStack Cloud Monkey logo and the Apache feather logos are registered trademarks or trademarks of The Apache Software Foundation.</p>
                 <p><a href="/trademark-guidelines.html">Apache CloudStack Trademark Usage</a> - <a href="/bylaws.html">Apache CloudStack Community ByLaws</a></p>
             </footer>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>  
   <head>
     <title>Apache CloudStack: Open Source Cloud Computing</title>
@@ -29,7 +29,15 @@
 
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="icon" href="images/favicon.ico">
-    
+
+<!-- Commenting out this template stuff until we figure out how to make it work with middleman
+    {% if headers.atom %}
+      <link rel="alternate" href="{{ headers.atom.url }}"
+            type="application/atom+xml" title="{{ headers.atom.title }}" />
+    {% endif %}
+
+    {% if headers.base %}<base href="{{ headers.base }}" />{% endif %}
+-->
 <!--    {% if headers.notice %}{{ headers.notice }}{% endif %} -->
         <!-- Twitter Bootstrap and jQuery after this line. -->
         <script src="https://code.jquery.com/jquery-latest.js"></script>
@@ -60,7 +68,7 @@
                 <li><a tabindex="-1" href="https://blogs.apache.org/cloudstack/" target="_blank">Blog<span class="glyphicon glyphicon-share-alt pull-right"></span></a></li>
                 <li><a tabindex="-1" href="history.html">History</a></li>
                 <li><a tabindex="-1" href="features.html">Features</a></li>
-                <li><a tabindex="-1" href="bylaws.html">Community Bylaws</a></li>
+                <li><a tabindex="-1" href="cloudstack-faq.html">FAQ</a></li>
                 <li><a tabindex="-1" href="who.html">Who We Are</a></li>
                 <li><a tabindex="-1" href="security.html">Security</a></li>
               </ul>
@@ -85,16 +93,13 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="docs">Documentation <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="docs">
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org" target="_blank">CloudStack Documentation</span></a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org" target="_blank">Getting Started Docs</span></a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/cloudstack-installation" target="_blank">Installation Docs</a></li> 
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/cloudstack-administration" target="_blank">Administration Docs</a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes" target="_blank">Release Notes</a></li>
                 <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home" target="_blank">Wiki</a></li>
                 <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Books" target="_blank">Books</a></li>
                 <li><a tabindex="-1" href="api.html">API Documentation</a></li>
-                <li class="divider"></li>
-                <li><a tabindex="-1">Archived Documentation</a></li>
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-getting-started" target="_blank">&nbsp;&nbsp;&nbsp;Getting Started Docs</span></a></li>
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-installation" target="_blank">&nbsp;&nbsp;&nbsp;Installation Docs</a></li> 
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-administration" target="_blank">&nbsp;&nbsp;&nbsp;Administration Docs</a></li>
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-release-notes" target="_blank">&nbsp;&nbsp;&nbsp;Release Notes</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -120,24 +125,37 @@
     </div>
     <div class="container">
         <div class="bs-docs-section">
-            <div class="bs-example">
+            <div class="row">
+
+<div class="col-lg-12">
+
+<div class="page-header">
+
+<h1 id="indicators">Apache CloudStack: Downloads</h1>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="bs-example">
 
 <div class="row">
 
 <div class="col-lg-6">
 
 <h2>Latest CloudStack Releases</h2>
-<p>The CloudStack community maintains two types of releases; the main releases and the LTS (Long Term Support) releases. The LTS releases receive bug and security fixes for a period of two years (for more details <a href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/LTS"><i>click here</i></a>). The main releases receive only critical bug fixes for a short period. The general expectation is that the users of the main version will upgrade to a new version in order to receive fixes.</p>
+<p>The CloudStack community maintains two types of releases; the main releases and the LTS (Long Term Support) releases. The LTS releases receive bug and security fixes for a period of two years (for more details <a href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/LTS"><i>click here</i></a>). The main releases receive only critical bug fixes for a short period. The general expectation is that the users of the 'main' will upgrade to a new version in order to receive fixes.</p>
 
 <h3>Source Releases</h3>
-<p>Apache CloudStack's most recent release is 4.14.0.0.
+<p>Apache CloudStack's most recent release is 4.11.0.0 and is an LTS release.
 </p>
-<p>This is current CloudStack LTS release.</p>
 
 <p>
-    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.14.0.0/apache-cloudstack-4.14.0.0-src.tar.bz2">
+    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.11.0.0/apache-cloudstack-4.11.0.0-src.tar.bz2">
         <button type="button" class="btn btn-primary btn-md">
-            Get the 4.14.0.0 Source
+            Get the 4.11.0.0 Source
         </button>
     </a>
     <a href="http://www.apache.org/dist/cloudstack/KEYS">
@@ -145,26 +163,59 @@
             KEYS
         </button>
     </a>
-    <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/4.14.0.0/apache-cloudstack-4.14.0.0-src.tar.bz2.asc">
+    <a href="http://www.apache.org/dist/cloudstack/releases/4.11.0.0/apache-cloudstack-4.11.0.0-src.tar.bz2.asc">
         <button type="button" class="btn btn-info btn-xs">
             PGP
         </button>
     </a>
-    <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/4.14.0.0/apache-cloudstack-4.14.0.0-src.tar.bz2.md5">
+    <a href="http://www.apache.org/dist/cloudstack/releases/4.11.0.0/apache-cloudstack-4.11.0.0-src.tar.bz2.md5">
         <button type="button" class="btn btn-info btn-xs">
             MD5
         </button>
     </a>
-    <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/4.14.0.0/apache-cloudstack-4.14.0.0-src.tar.bz2.sha512">
+    <a href="http://www.apache.org/dist/cloudstack/releases/4.11.0.0/apache-cloudstack-4.11.0.0-src.tar.bz2.sha512">
         <button type="button" class="btn btn-info btn-xs">
             SHA512
         </button>
     </a>
 </p>
 
-<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/en/4.14.0.0/releasenotes/">version 4.14.0.0 Release Notes</a> website.</p><br />
+<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.11.0.0/">version 4.11.0.0 Release Notes</a> website.</p><br />
 
-<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/en/4.14.0.0/installguide/">Installation Guide</a>. Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.14.0.0 can be found in the upgrade section of the Release Notes (see above).</p>
+<p>Apache CloudStack's previous LTS release was 4.9.3.0.
+</p>
+
+<p>
+    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.9.3.0/apache-cloudstack-4.9.3.0-src.tar.bz2">
+        <button type="button" class="btn btn-primary btn-md">
+            Get the 4.9.3.0 Source
+        </button>
+    </a>
+    <a href="http://www.apache.org/dist/cloudstack/KEYS">
+        <button type="button" class="btn btn-info btn-xs">
+            KEYS
+        </button>
+    </a>
+    <a href="http://www.apache.org/dist/cloudstack/releases/4.9.3.0/apache-cloudstack-4.9.3.0-src.tar.bz2.asc">
+        <button type="button" class="btn btn-info btn-xs">
+            PGP
+        </button>
+    </a>
+    <a href="http://www.apache.org/dist/cloudstack/releases/4.9.3.0/apache-cloudstack-4.9.3.0-src.tar.bz2.md5">
+        <button type="button" class="btn btn-info btn-xs">
+            MD5
+        </button>
+    </a>
+    <a href="http://www.apache.org/dist/cloudstack/releases/4.9.3.0/apache-cloudstack-4.9.3.0-src.tar.bz2.sha512">
+        <button type="button" class="btn btn-info btn-xs">
+            SHA512
+        </button>
+    </a>
+</p>
+
+<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes/en/4.9.3.0/">version 4.9.3.0 Release Notes</a> website.</p>
+
+<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/latest/">Installation Guide</a>. Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.11.0.0 can be found in the upgrade section of the Release Notes (see above).</p>
 
 </div>
 
@@ -218,11 +269,11 @@ Additionally, you can verify the MD5 or SHA512 signatures on the files.
 
 <ul>
     <li>DEB repository: <a href="http://download.cloudstack.org/ubuntu">http://download.cloudstack.org/ubuntu</a></li>
-    <li>CentOS/RHEL 6 RPM repository (only available for 4.13 and older): <a href="http://download.cloudstack.org/centos/6/">http://download.cloudstack.org/centos/6/</a></li>
+    <li>CentOS/RHEL 6 RPM repository: <a href="http://download.cloudstack.org/centos/6/">http://download.cloudstack.org/centos/6/</a></li>
     <li>CentOS/RHEL 7 RPM repository: <a href="http://download.cloudstack.org/centos/7/">http://download.cloudstack.org/centos/7/</a></li>
 </ul>
 
-<p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/en/latest/installguide/management-server/#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
+<p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/projects/cloudstack-installation/en/latest/management-server/index.html#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
 
 <h4>Packages hosted by 3rd Parties</h4>
 
@@ -248,23 +299,39 @@ Additionally, you can verify the MD5 or SHA512 signatures on the files.
 
 <h4 id="source-release">Source Release</h4>
 
-<p>CloudMonkey's current release is 6.1.0.</p>
+<p>CloudMonkey's current release is 5.3.3.</p>
 
 <p>
-<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-6.1.0/apache-cloudstack-cloudmonkey-6.1.0-src.tar.bz2"><button type="button" class="btn btn-primary btn-md">Get the 6.1.0 Source</button></a>
+<a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-5.3.3/apache-cloudstack-cloudmonkey-5.3.3-src.tar.bz2"><button type="button" class="btn btn-primary btn-md">Get the 5.3.3 Source</button></a>
 
 <a href="http://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-6.1.0/apache-cloudstack-cloudmonkey-6.1.0-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-6.1.0/apache-cloudstack-cloudmonkey-6.1.0-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
-<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-6.1.0/apache-cloudstack-cloudmonkey-6.1.0-src.tar.bz2.sha"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.3/apache-cloudstack-cloudmonkey-5.3.3-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.3/apache-cloudstack-cloudmonkey-5.3.3-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
+<a href="http://www.apache.org/dist/cloudstack/releases/cloudmonkey-5.3.3/apache-cloudstack-cloudmonkey-5.3.3-src.tar.bz2.sha"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
 
 </p>
 
-<h4 id="github-release">Binary Builds Release</h4>
+<p>Instructions for building and installing from source can be found in the included <a href="https://gitbox.apache.org/repos/asf?p=cloudstack-cloudmonkey.git;a=blob_plain;f=README.md">README.md</a> file.</p>
 
-<p>For easier installation or upgrades, the official source code release has been supplemented by community members who have pushed the binary to the <a href="https://github.com/apache/cloudstack-cloudmonkey/releases">Apache CloudStack CloudMonkey Github release</a> page.</p>
+<h4 id="pypi-package">PyPi Package</h4>
 
-<p>For installing, upgrade, usage, please see the documentation at <a href="https://github.com/apache/cloudstack-cloudmonkey/wiki/Getting-Started#installation">wiki</a>.</p>
+<p>For easier installation or upgrades, the official source code release has been supplemented by community members who have pushed the python package to the <a href="https://pypi.python.org/pypi/cloudmonkey/">Python Package Index</a>.</p>
+
+<p>For installing the package from pypi, use:</p>
+
+<pre><code>$ pip install cloudmonkey
+</code></pre>
+
+<p>To upgrade:</p>
+
+<pre><code>$ pip install --upgrade cloudmonkey
+</code></pre>
+
+<p>Though a clean upgrade is recommended:</p>
+
+<pre><code>$ pip uninstall cloudmonkey
+$ pip install cloudmonkey
+</code></pre>
 
 <p><a name="archives"></a></p>
 
@@ -277,12 +344,11 @@ Additionally, you can verify the MD5 or SHA512 signatures on the files.
 <h2 id="indicators">Archived Releases</h2>
 
 You can find links to all the releases of Apache CloudStack on the <a href="archives.html">archives page</a>.
-</div></div>
-</div>
+</div></div></div>
 
 
             <footer>
-                <p>Copyright © 2020 The Apache Software Foundation, Licensed under the Apache License, Version 2.0. <br/>
+                <p>Copyright © 2017 The Apache Software Foundation, Licensed under the Apache License, Version 2.0. <br/>
                 "Apache", "CloudStack", "Apache CloudStack", the Apache CloudStack logo, the Apache CloudStack Cloud Monkey logo and the Apache feather logos are registered trademarks or trademarks of The Apache Software Foundation.</p>
                 <p><a href="/trademark-guidelines.html">Apache CloudStack Trademark Usage</a> - <a href="/bylaws.html">Apache CloudStack Community ByLaws</a></p>
             </footer>
