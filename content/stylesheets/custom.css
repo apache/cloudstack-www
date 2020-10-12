@@ -15,6 +15,7 @@
 * limitations under the License.
 */
 
+
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
@@ -22,71 +23,4 @@ a.button {
 
     text-decoration: none;
     color: initial;
-}
-
-.ul {
-  padding-inline-start: 4px;
-}
-
-.feedEkList { 
-  padding:4px 6px;
-  color:#3E3E3E;
-  margin-left: 4px;
-  margin-bottom: 0px;
-}
-
-.feedEkList li {
-  border-bottom:1px;
-  padding:4px 0px 4px;
-}
-
-.feedEkList li:last-child {
-  border-bottom:none;
-}
-
-.feedEkList ul {
-  margin-bottom: 0;
-}
-
-
-
-/*
-UNUSED BUT LEFT IN FOR REFERENCE
-.itemTitle a{font-weight:bold; color:#4EBAFF !important; text-decoration:none }
-.itemTitle a:hover{ text-decoration:underline }
-.itemDate{font-size:11px;color:#AAAAAA;}
-*/
-
-blockquote.twitter-tweet {
-  display: inline-block;
-  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
-  font-size: 9px;
-  font-weight: bold;
-  line-height: 12px;
-  border-color: #eee #ddd #bbb;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  margin: 10px 5px;
-  padding: 0 16px 16px 16px;
-  max-width: 468px;
-}
-
-blockquote.twitter-tweet p {
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 16px;
-}
-
-blockquote.twitter-tweet a {	
-  color: inherit;
-  font-weight: normal;
-  text-decoration: none;
-  outline: 0 none;
-}
-
-blockquote.twitter-tweet a:hover,
-blockquote.twitter-tweet a:focus {
-  text-decoration: underline;
 }
