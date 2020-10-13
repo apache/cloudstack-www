@@ -116,6 +116,8 @@ git push upstream master
 # if no untracked files or if you merged them into master
 git checkout asf-site
 git merge master
+# run `middleman server [-p <portnumber>]` again and
+# validate the site updated at your `http://localhost:<portnumber>`
 git push upstream asf-site
 # validate the site updated at: https://cloudstack.apache.org
 ```
