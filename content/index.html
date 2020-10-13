@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>  
   <head>
     <title>Apache CloudStack: Open Source Cloud Computing</title>
@@ -29,15 +29,7 @@
 
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="icon" href="images/favicon.ico">
-
-<!-- Commenting out this template stuff until we figure out how to make it work with middleman
-    {% if headers.atom %}
-      <link rel="alternate" href="{{ headers.atom.url }}"
-            type="application/atom+xml" title="{{ headers.atom.title }}" />
-    {% endif %}
-
-    {% if headers.base %}<base href="{{ headers.base }}" />{% endif %}
--->
+    
 <!--    {% if headers.notice %}{{ headers.notice }}{% endif %} -->
         <!-- Twitter Bootstrap and jQuery after this line. -->
         <script src="https://code.jquery.com/jquery-latest.js"></script>
@@ -68,7 +60,7 @@
                 <li><a tabindex="-1" href="https://blogs.apache.org/cloudstack/" target="_blank">Blog<span class="glyphicon glyphicon-share-alt pull-right"></span></a></li>
                 <li><a tabindex="-1" href="history.html">History</a></li>
                 <li><a tabindex="-1" href="features.html">Features</a></li>
-                <li><a tabindex="-1" href="cloudstack-faq.html">FAQ</a></li>
+                <li><a tabindex="-1" href="bylaws.html">Community Bylaws</a></li>
                 <li><a tabindex="-1" href="who.html">Who We Are</a></li>
                 <li><a tabindex="-1" href="security.html">Security</a></li>
               </ul>
@@ -93,13 +85,16 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="docs">Documentation <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="docs">
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org" target="_blank">Getting Started Docs</span></a></li>
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/cloudstack-installation" target="_blank">Installation Docs</a></li> 
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/cloudstack-administration" target="_blank">Administration Docs</a></li>
-                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/cloudstack-release-notes" target="_blank">Release Notes</a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org" target="_blank">CloudStack Documentation</span></a></li>
                 <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home" target="_blank">Wiki</a></li>
                 <li><a tabindex="-1" href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Books" target="_blank">Books</a></li>
                 <li><a tabindex="-1" href="api.html">API Documentation</a></li>
+                <li class="divider"></li>
+                <li><a tabindex="-1">Archived Documentation</a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-getting-started" target="_blank">&nbsp;&nbsp;&nbsp;Getting Started Docs</span></a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-installation" target="_blank">&nbsp;&nbsp;&nbsp;Installation Docs</a></li> 
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-administration" target="_blank">&nbsp;&nbsp;&nbsp;Administration Docs</a></li>
+                <li><a tabindex="-1" href="http://docs.cloudstack.apache.org/projects/archived-cloudstack-release-notes" target="_blank">&nbsp;&nbsp;&nbsp;Release Notes</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -130,17 +125,13 @@
     <div class="bs-example">
       <div class="jumbotron">
         <div class="row">
-          <div class="col-lg-8">
-            <h1>Apache CloudStack&#8482;</h1>
-            
+          <div class="col-lg-8" style="margin-top:22px;">
+            <h1 style="margin-top:28px;">Apache CloudStack&#8482;</h1>
             <p>Open Source Cloud Computing&#8482;</p>
-
           </div>
 
           <div class="col-lg-4">
-
-            <img src="images/monkey.png" style="width: 210px;" alt="">
-
+            <img src="images/monkey.png" style="width: 210px; margin-left: 115px;" alt="Cloud friendly">
           </div>
         </div>
       </div>
@@ -150,255 +141,185 @@
 
 <div class="row">
   <div class="col-lg-6">
+
     <div class="panel panel-default">
       <div class="panel-heading">
-
-      Latest Announcement
-
-      <a href="https://blogs.apache.org/cloudstack/feed/entries/atom"><img src="/images/feed-icon-14x14.png" class="pull-right" alt=""></a>
-
-      </div>
-
-      <div id="headline" class="panel-body">
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-
         About CloudStack
-
       </div>
-
       <div class="panel-body">
-
-<p>
-Apache CloudStack is open source software designed to deploy and manage large networks of virtual machines, as a highly available, highly scalable Infrastructure as a Service (IaaS) cloud computing platform. CloudStack is used by a number of service providers to offer public cloud services, and by many companies to provide an on-premises (private) cloud offering, or as part of a hybrid cloud solution.
-</p>
-
-<p>
-CloudStack is a turnkey solution that includes the entire "stack" of features most organizations want with an IaaS cloud: compute orchestration, Network-as-a-Service, user and account management, a full and open native API, resource accounting, and a first-class User Interface (UI).
-</p>
-
-<p>
-CloudStack currently supports the most popular hypervisors: VMware, KVM, Citrix XenServer, Xen Cloud Platform (XCP), Oracle VM server and Microsoft Hyper-V.
-</p>
-
-<p>
-Users can manage their cloud with an easy to use Web interface, command line tools, and/or a full-featured RESTful API. In addition, CloudStack provides an API that's compatible with AWS EC2 and S3 for organizations that wish to deploy hybrid clouds.
-</p>
-
-<a href="about.html"><button type="button" class="btn btn-info">Learn More</button></a>
-
+        <p>Apache CloudStack is open source software designed to deploy and manage large networks of virtual machines, as a highly available, highly scalable Infrastructure as a Service (IaaS) cloud computing platform. CloudStack is used by a number of service providers to offer public cloud services, and by many companies to provide an on-premises (private) cloud offering, or as part of a hybrid cloud solution.</p>
+        <p>CloudStack is a turnkey solution that includes the entire "stack" of features most organizations want with an IaaS cloud: compute orchestration, Network-as-a-Service, user and account management, a full and open native API, resource accounting, and a first-class User Interface (UI).</p>
+        <p>CloudStack currently supports the most popular hypervisors: VMware, KVM, Citrix XenServer, Xen Cloud Platform (XCP), Oracle VM server and Microsoft Hyper-V.</p>
+        <p>Users can manage their cloud with an easy to use Web interface, command line tools, and/or a full-featured RESTful API. In addition, CloudStack provides an API that's compatible with AWS EC2 and S3 for organizations that wish to deploy hybrid clouds.</p>
+        <a href="about.html"><button type="button" class="btn btn-info">Learn More</button></a>
       </div>
-
     </div>
+
 
     <div class="panel panel-default">
       <div class="panel-heading">
-
-Join Us
-
+        Latest Announcements
+        <a href="https://blogs.apache.org/cloudstack/feed/entries/atom"><img src="images/feed-icon-14x14.png" class="pull-right" alt=""></a>
       </div>
-
-	<div class="panel-body">
-
-	<p>
-	Learn more about getting involved with Apache CloudStack on the <a href="contribute.html">Contributing to Apache CloudStack</a> page, or go straight to our <a href="developers.html">Developer Resources</a> page.
-	</p>
-	</div>
-
-</div>
-</div>
-
-<div class="col-lg-6">
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			Get CloudStack
-		</div>
-		<div class="panel-body">
-
-		<p class="text-warning">Apache CloudStack 4.11.0.0 is out!</p>
-
-		<p>
-		Looking for other versions of Apache CloudStack? You can find our archives on the download page as well.
-		</p>
-
-		<a href="downloads.html"><button type="button" class="btn btn-success">Download Now</button></a>
-
-		</div>
-
-	</div>
-
-	<div class="panel panel-default">
-		<div class="panel-heading">
-		CloudStack Events
-		</div>
-
-		<div class="panel-body" id="events">
-
-			<h4>Upcoming CloudStack Events</h4>
-<p>
-    There's always plenty of Cloudstack Events happening in different parts of
-    the world. These range from Meetups, User Groups to
-    <a href="http://cloudstackcollab.org/">
-        CloudStack Collaboration Conference
-    </a>
-    events. Each event will feature a lot of opportunities to learn,
-    collaborate and engage with the CloudStack community. The CloudStack
-    Collaboration Conferences are valuable for both developers and users, and
-    are a great way to get involved with the community.
-</p>
-<ul type="disc">
-    <li>
-        <a
-            href="https://www.meetup.com/german-CloudStack-user-group/"
-            target="_blank"
-        >
-            CloudStack European User Group
-        </a>
-        , Frankfurt, 28<sup>th</sup> February
-    </li>
-    <li>
-        <a
-            href="https://www.eventbrite.co.uk/e/cloudstack-european-user-group-ceph-day-tickets-42670526694"
-        >
-            Cloudstack and Ceph day
-        </a>
-        , London, 19<sup>th</sup> April
-    </li>
-    <li>
-        <a href="https://apachecon.com/">Apache EU Roadshow,</a>
-        Berlin, 13-14 June
-    </li>
-    <li>
-        <a href="http://cloudstackcollab.org/">
-            CloudStack Collaboration Conference
-        </a>
-        , Montreal, 24<sup>th</sup>-29<sup>th</sup> September
-    </li>
-</ul>
-<p>
-    View videos from previous CloudStack Collaboration Conferences:
-</p>
-<ul type="disc">
-    <li>
-        <a
-            href="https://www.youtube.com/playlist?list=PLCfLScXpEyAS4YkJpeqDriP7JcU82Tx2r"
-            target="_blank">
-            CloudStack Collaboration Conference June 2016 in Montreal
-        </a>
-    </li>
-    <li>
-        <a
-            href="https://www.youtube.com/playlist?list=PLGeM09tlguZSeNyOyQKJHNX4pxgK-yoTA"
-            target="_blank">
-            CloudStack Collaboration Conference Europe 2015 in Dublin
-        </a>
-    </li>
-</ul>
+      <div class="panel-body">
+        <div id="atom-cloudstack" style="margin-left: 4px;"></div>
+      </div>
+    </div>
 
 
-		</div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        CloudStack Events
+      </div>
+      <div class="panel-body" id="events">
+        <h4>Upcoming CloudStack Events</h4>
+        <p>There's always plenty of Cloudstack Events happening in different parts of the world. These range from Meetups, User Groups to <a href="http://cloudstackcollab.org/">CloudStack Collaboration Conference</a>
+        events. Each event will feature a lot of opportunities to learn,
+        collaborate and engage with the CloudStack community. The CloudStack
+        Collaboration Conferences are valuable for both developers and users, and
+        are a great way to get involved with the community.</p>
+        <ul type="disc" style="padding-inline-start: 15px">
+          <div id="csv-events"></div> 
+        </ul>
+        <p> View videos from previous CloudStack Collaboration Conferences:</p>
+        <ul type="disc" style="padding-inline-start: 15px">
+            <li>
+                <a
+                    href="https://www.youtube.com/playlist?list=PLU2OcwpQkYCwcPxZMKX2BFoKE0Z7g1ENH"
+                    target="_blank">
+                    CloudStack Collaboration Conference June 2018 in Montreal
+                </a>
+            </li>  
+            <li>
+                <a
+                    href="https://www.youtube.com/playlist?list=PLCfLScXpEyAS4YkJpeqDriP7JcU82Tx2r"
+                    target="_blank">
+                    CloudStack Collaboration Conference June 2016 in Montreal
+                </a>
+            </li>
+            <li>
+                <a
+                    href="https://www.youtube.com/playlist?list=PLGeM09tlguZSeNyOyQKJHNX4pxgK-yoTA"
+                    target="_blank">
+                    CloudStack Collaboration Conference Europe 2015 in Dublin
+                </a>
+            </li>
+        </ul>
+      </div>
+    </div>
 
-	</div>
 
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			What are people saying?
-		</div>
-		<div class="panel-body">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        Join Us
+      </div>
+      <div class="panel-body">
+	<p>Learn more about getting involved with Apache CloudStack on the <a href="contribute.html">Contributing to Apache CloudStack</a> page, or go straight to our <a href="developers.html">Developer Resources</a> page.</p>
+      </div>
+    </div>
+    
+    
+  </div>
+  
+  <div class="col-lg-6">
 
-			<a class="twitter-timeline" href="https://twitter.com/search?q=cloudstack" data-widget-id="383337162126544896" data-chrome="nofooter transparent noheader noborders noscrollbar">Tweets about "CloudStack"</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-		</div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        Get CloudStack
+      </div>
+      <div class="panel-body">
+        <p class="text-warning">Apache CloudStack 4.14.0.0 is out!</p>
+          <p>This is current CloudStack LTS release.</p>
+        <a href="downloads.html"><button type="button" class="btn btn-success">Download</button></a>
+        <a href="http://docs.cloudstack.apache.org/en/4.14.0.0/"><button type="button" class="btn btn-success">Documentation</button></a>
+        <p style="margin-top: 20px;">
+        Looking for other versions of Apache CloudStack? You can find them in our <a href="archives.html">archives</a> page as well.
+        </p>
+      </div>
+    </div>
 
-	</div>
 
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        What are people saying?
+      </div>
+      <div class="panel-body">
+        <div class="tw">
+          <a class="twitter-timeline" data-height="1000" data-theme="light" href="https://twitter.com/CloudStack?ref_src=twsrc%5Etfw">Tweets by CloudStack</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascripts/FeedEk.min.js"></script>
 
-<script>
-var maxEntries = 3; // if 0 then there will be no limit
+<script type="text/javascript">
+  $(function () {
+    $('#atom-cloudstack').FeedEk({
+      FeedUrl: 'https://blogs.apache.org/cloudstack/feed/entries/atom',
+      ShowDesc: false,
+      MaxCount: 3,
+      DateFormat: 'D',
+      DateFormatLang: 'en'
+    });
+  });
+</script>
 
-function slug(str){
- return str.replace(/\s/g,'-').replace(/[^a-zA-Z0-9\-]/g,'').toLowerCase();
+<script type="text/javascript">
+  $(document).ready(function() {
+    $.ajax({
+      type: "GET",
+      // github controlled datasource
+      url: "https://raw.githubusercontent.com/apache/cloudstack-www/master/data/acs-events.csv",
+      dataType: "text",
+      success: function(data) {processData(data);}
+    });
+  });
+  
+ function processData(data) {
+      var lines = data.split(/\r\n|\n/);
+
+      //Set up the data arrays
+
+      var event_title = [];
+      var event_link = [];
+      var event_location = [];
+      var event_date = [];
+
+      var headings = lines[0].split(','); // Splice up the first row to get the headings - not used after atm
+
+      for (var j=1; j<lines.length; j++) {
+      var values = lines[j].split(','); // Split up the comma seperated values
+         // read in event details as arrays 
+         event_title.push(values[0]); 
+         event_link.push(values[1]);
+         event_location.push(values[2]);
+         event_date.push(values[3]);
+      }
+// alert(lines);
+
+    var div = document.getElementById("csv-events");
+    var html = "";
+    for (var i=0;i<lines.length;i++) {
+      if (typeof event_location[i] !== "undefined") {
+        html += '<li> <a href=\"' + event_link[i] + '\" target=\"_blank\">' + event_title[i] + "</a> , " + event_location[i] + ", " + event_date[i] + "</li>";
+      }
+    }
+    
+    // write html to page
+    div.innerHTML = html;
 }
-/**
- * This function appends rss feed items to divs with the same slug
- * Name is the title of the feed, when slugged i use it as a div id
- * File is the rss feed
- */
-function newFeed(id, file) {
- $.getJSON("//query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%3D%22"+encodeURIComponent(file)+"%22&format=json&callback=?", function(d) {
-  var count = 0;
-  $(d.query.results.feed.entry).each(function() {
-    if(maxEntries == 0 || maxEntries>count){
-     var title = this.title.content;
-     var content = this.content.content;
-     var pubDate = new Date(this.published);
-     // Format however you want, I only went for link and title
-     var anItem = "<h4>"+title+"</h4><p>"+pubDate+"</p>"+content+"<hr />";
-     $("#"+id).append(anItem);
-     if (count==0)
-      $("#headline").append("<p>"+title+"<br/><a href='#news'>Read more here.</a></p>");
-     count++;
-    }
-   });
- });
-};
+	
 </script>
 
-<p><a name='news'></a><br /> </p><p> </p>
-
-<div class="panel panel-default">
-	<div class="panel-heading">
-		Project Announcements
-	</div>
-	<div class="panel-body">
-		<div id="feed">
-		</div>
-
-	</div>
-
-</div>
-
-<script>
-newFeed("feed", "https://blogs.apache.org/cloudstack/feed/entries/atom");
-</script>
-
-<script>
-var maxEvents = 3; // if 0 then there will be no limit
-
-/**
- * This function appends rss feed items to divs with the same slug
- * Name is the title of the feed, when slugged i use it as a div id
- * File is the rss feed
- */
-function newEventList(id, file) {
- $.getJSON("//query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%3D%22"+encodeURIComponent(file)+"%22&format=json&callback=?", function(d) {
-  var count = 0;
-  $(d.query.results.feed.entry).each(function() {
-    if(maxEvents == 0 || maxEvents>count){
-     var title = this.title;
-     var link = this.link.href;
-     var anItem = "<p><a href='"+link+"' target='_blank'>"+title+"</a></p>";
-     $("#"+id).append(anItem);
-     count++;
-    }
-   });
-   $("#events").append("<p><small>For more events, take a look at the <a href='http://lanyrd.com/topics/apache-cloudstack/' target='_blank'>Apache CloudStack topic page</a> on Lanyrd.</small></p>");
- });
-};
-
-newEventList("events", "http://lanyrd.com/topics/apache-cloudstack/feed/");
-
-</script>
 
 
             <footer>
-                <p>Copyright © 2017 The Apache Software Foundation, Licensed under the Apache License, Version 2.0. <br/>
+                <p>Copyright © 2020 The Apache Software Foundation, Licensed under the Apache License, Version 2.0. <br/>
                 "Apache", "CloudStack", "Apache CloudStack", the Apache CloudStack logo, the Apache CloudStack Cloud Monkey logo and the Apache feather logos are registered trademarks or trademarks of The Apache Software Foundation.</p>
                 <p><a href="/trademark-guidelines.html">Apache CloudStack Trademark Usage</a> - <a href="/bylaws.html">Apache CloudStack Community ByLaws</a></p>
             </footer>
