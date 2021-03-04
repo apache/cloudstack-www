@@ -36,11 +36,6 @@ title: Apache CloudStack: Downloads
             PGP
         </button>
     </a>
-    <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/<%= data.cloudstack.versions.main %>/apache-cloudstack-<%= data.cloudstack.versions.main %>-src.tar.bz2.md5">
-        <button type="button" class="btn btn-info btn-xs">
-            MD5
-        </button>
-    </a>
     <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/<%= data.cloudstack.versions.main %>/apache-cloudstack-<%= data.cloudstack.versions.main %>-src.tar.bz2.sha512">
         <button type="button" class="btn btn-info btn-xs">
             SHA512
@@ -61,7 +56,7 @@ title: Apache CloudStack: Downloads
             Get the <%= data.cloudstack.versions.lts %> Source
         </button>
     </a>
-    <a href="https://www.apache.org/dist/cloudstack/KEYS">
+    <a href="https://downloads.apache.org/cloudstack/KEYS">
         <button type="button" class="btn btn-info btn-xs">
             KEYS
         </button>
@@ -69,11 +64,6 @@ title: Apache CloudStack: Downloads
     <a href="http://www.apache.org/dist/cloudstack/releases/<%= data.cloudstack.versions.lts %>/apache-cloudstack-<%= data.cloudstack.versions.lts %>-src.tar.bz2.asc">
         <button type="button" class="btn btn-info btn-xs">
             PGP
-        </button>
-    </a>
-    <a href="http://www.apache.org/dist/cloudstack/releases/<%= data.cloudstack.versions.lts %>/apache-cloudstack-<%= data.cloudstack.versions.lts %>-src.tar.bz2.md5">
-        <button type="button" class="btn btn-info btn-xs">
-            MD5
         </button>
     </a>
     <a href="http://www.apache.org/dist/cloudstack/releases/<%= data.cloudstack.versions.lts %>/apache-cloudstack-<%= data.cloudstack.versions.lts %>-src.tar.bz2.sha512">
@@ -104,11 +94,6 @@ title: Apache CloudStack: Downloads
             PGP
         </button>
     </a>
-    <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/4.14.1.0/apache-cloudstack-4.14.1.0-src.tar.bz2.md5">
-        <button type="button" class="btn btn-info btn-xs">
-            MD5
-        </button>
-    </a>
     <a href="https://dist.apache.org/repos/dist/release/cloudstack/releases/4.14.1.0/apache-cloudstack-4.14.1.0-src.tar.bz2.sha512">
         <button type="button" class="btn btn-info btn-xs">
             SHA512
@@ -134,9 +119,9 @@ title: Apache CloudStack: Downloads
 <div class="panel-body">
 
 <p>
-It's essential that you verify the integrity of the downloaded files using the PGP or MD5 signatures.
+It's essential that you verify the integrity of the downloaded files using the PGP or SHA512 signatures.
 The PGP signatures can be verified using PGP or GPG. First download the
-<a href="https://dist.apache.org/repos/dist/release/cloudstack/KEYS">KEYS</a> as well as the asc
+<a href="https://downloads.apache.org/cloudstack/KEYS">KEYS</a> as well as the asc
 signature file for the relevant distribution. Make sure you get these files from the
 main distribution directory, rather than from a mirror. Then verify the signatures using:
 </p>
@@ -155,7 +140,7 @@ main distribution directory, rather than from a mirror. Then verify the signatur
     % gpg --verify apache-cloudstack-X.X.X-src.tar.bz2.asc
 </pre>
 <p>
-Additionally, you can verify the MD5 or SHA512 signatures on the files.
+Additionally, you can verify the SHA512 signatures on the files.
 </p>
 
 </div>
@@ -207,10 +192,9 @@ Additionally, you can verify the MD5 or SHA512 signatures on the files.
 <p>
 <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2"><button type="button" class="btn btn-primary btn-md">Get the <%= data.cloudstack.cloudmonkey.version %> Source</button></a>
 
-<a href="https://www.apache.org/dist/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
+<a href="https://downloads.apache.org/cloudstack/KEYS"><button type="button" class="btn btn-info btn-xs">KEYS</button></a>
 <a href="https://www.apache.org/dist/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2.asc"><button type="button" class="btn btn-info btn-xs">PGP</button></a>
-<a href="https://www.apache.org/dist/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2.md5"><button type="button" class="btn btn-info btn-xs">MD5</button></a>
-<a href="https://www.apache.org/dist/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2.sha512"><button type="button" class="btn btn-info btn-xs">SHA</button></a>
+<a href="https://www.apache.org/dist/cloudstack/releases/cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>/apache-cloudstack-cloudmonkey-<%= data.cloudstack.cloudmonkey.version %>-src.tar.bz2.sha512"><button type="button" class="btn btn-info btn-xs">SHA512</button></a>
 
 </p>
 
