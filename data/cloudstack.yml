@@ -4,6 +4,8 @@ versions:
   main_docs_url: http://docs.cloudstack.apache.org/en/4.15.0.0/
   branch: 4.15
   lts: 4.15.0.0
+  branch: 4.14
+  lts: 4.14.1.0
   lts_docs_url: http://docs.cloudstack.apache.org/en/latest/installguide/index.html
   ltsbranch: 4.15
   archives:
