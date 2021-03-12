@@ -137,12 +137,15 @@ main distribution directory, rather than from a mirror. Then verify the signatur
 <p>or</p>
 <pre>
     % gpg --import KEYS
-    % gpg --verify apache-cloudstack-X.X.X-src.tar.bz2.asc
+    % gpg --verify apache-cloudstack-X.X.X-src.tar.bz2.asc apache-cloudstack-X.X.X-src.tar.bz2
 </pre>
+<p>Please see <a href="https://www.apache.org/info/verification.html#CheckingSignatures">CheckingSignatures</a> for a more extensive explanation of the pgp verification.</p>
 <p>
-Additionally, you can verify the SHA512 signatures on the files.
+Additionally, you can verify the SHA512 signatures on the files, by performing
 </p>
-
+<pre>
+    % sha512sum --check apache-cloudstack-X.X.X-src.tar.bz2.sha512
+</pre>
 </div>
 </div>
 </div>
