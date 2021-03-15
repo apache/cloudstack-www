@@ -22,7 +22,7 @@ Note that you **do not have to be a developer** in order to contribute to Apache
 
 Developers, of course, are also welcome. See the [Developer Resources](/developers.html) page!
 
-If you just want to report a bug, that's easily done in our [Jira bug tracking tool](https://issues.apache.org/jira/browse/CLOUDSTACK).
+If you just want to report a bug, that's easily done in our [github project issues list](https://github.com/apache/cloudstack/issues). Go there and click [new issue](https://github.com/apache/cloudstack/issues/new/choose).
 
 ## Where To Ask For Help
 
