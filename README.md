@@ -1,7 +1,7 @@
 Source of Apache CloudStack Web site
 ====================================
 
-This is built using [middleman](https://middlemanapp.com)
+This is built using [middleman](https://middlemanapp.com).
 
     $ gem install middleman
     $ bundle install
@@ -14,7 +14,7 @@ sudo apt install nodejs
 ```
 
 For more details look at: 
-https://github.com/sstephenson/execjs/issues/71
+[https://github.com/sstephenson/execjs/issues/71](https://github.com/sstephenson/execjs/issues/71)
 
 Build the site with:
 
