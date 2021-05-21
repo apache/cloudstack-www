@@ -26,8 +26,4 @@ If you just want to report a bug, that's easily done in our [github project issu
 
 ## Where To Ask For Help
 
-Need some help getting started? Feel free to ask on the [mailing list](/mailing-lists.html) or find us on one of the following IRC channels on irc.freenode.net:
-
-* \#cloudstack - General Apache CloudStack conversation and end user support 
-* \#cloudstack-dev - Development discussions 
-* \#cloudstack-meeting - Weekly and ad-hoc meeting room for the Apache CloudStack community
+Need some help getting started? Feel free to ask on the [mailing list](/mailing-lists.html).
