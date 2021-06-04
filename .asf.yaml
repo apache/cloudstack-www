@@ -1,7 +1,7 @@
 # Staging and publishing profile for yourproject-website.git:
 staging:
   profile: ~
-  whoami:  master
+  whoami:  main
  
  
 publish:
