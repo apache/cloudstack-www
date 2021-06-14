@@ -35,7 +35,7 @@ title: Developer Resources for Apache CloudStack
 <p>Apache CloudStack has a read-only mirror on <a href="https://github.com/apache/cloudstack" target="_blank">GitHub</a> that is kept in sync with the 
 canonical Git repo maintained by the Apache Software Foundation. Submitting GitHub pull requests is the easiest way to get your contribution upstream. 
 For detailed instructions see the link below:<br />
-<a href="https://github.com/apache/cloudstack/blob/master/CONTRIBUTING.md" target="_blank">GitHub Contribution Guidelines</a></p>
+<a href="https://github.com/apache/cloudstack/blob/main/CONTRIBUTING.md" target="_blank">GitHub Contribution Guidelines</a></p>
 
 <h3>Submitting a patch</h3>
 
@@ -63,15 +63,15 @@ On your computer, follow these steps to setup a local repository for working on 
 $ git clone https://github.com/YOUR_ACCOUNT/cloudstack.git
 $ cd cloudstack
 $ git remote add upstream https://github.com/apache/cloudstack.git
-$ git checkout master
+$ git checkout main
 $ git fetch upstream
-$ git rebase upstream/master
+$ git rebase upstream/main
 </pre>
 
 <h4>Making Changes</h4>
 
 <p>It is important that you create a new branch to make changes on and that you do not change the 
-<code>master</code> branch (other than to rebase in changes from <code>upstream/master</code>).  In this example I will assume you will be making your changes 
+<code>main</code> branch (other than to rebase in changes from <code>upstream/main</code>).  In this example I will assume you will be making your changes 
 to a branch called <code>feature_x</code>. This <code>feature_x</code> branch will be created on your local repository and will be pushed to your
 forked repository on GitHub. Once this branch is on your fork you will create a Pull Request for the changes to be added to the ACS project.</p>
 
@@ -88,30 +88,30 @@ $ git commit -a -m "descriptive commit message for your changes"
 <blockquote>The <code>-b</code> specifies that you want to create a new branch called <code>feature_x</code>.  You only specify <code>-b</code> the first time you 
 checkout because you are creating a new branch.  Once the <code>feature_x</code> branch exists, you can later switch to it with only <code>git checkout feature_x</code>.</blockquote>
 
-<h4>Rebase <code>feature_x</code> to include updates from <code>upstream/master</code></h4>
+<h4>Rebase <code>feature_x</code> to include updates from <code>upstream/main</code></h4>
 
-<p>It is important that you maintain an up-to-date <code>master</code> branch in your local repository.  This is done by rebasing in the code 
-changes from <code>upstream/master</code> (the official ACS project repository) into your local repository.  You will want to do this before you start 
+<p>It is important that you maintain an up-to-date <code>main</code> branch in your local repository.  This is done by rebasing in the code 
+changes from <code>upstream/main</code> (the official ACS project repository) into your local repository.  You will want to do this before you start 
 working on a feature as well as right before you submit your changes as a pull request. We recommend you do this process periodically while you work to make 
 sure you are working off the most recent project code.</p>
 
 <p>This process will do the following:</p>
 
 <ol>
-  <li>Checkout your local <code>master</code> branch;</li>
-  <li>Synchronize your local <code>master</code> branch with the <code>upstream/master</code> so you have all the latest changes from the project;</li>
+  <li>Checkout your local <code>main</code> branch;</li>
+  <li>Synchronize your local <code>main</code> branch with the <code>upstream/main</code> so you have all the latest changes from the project;</li>
   <li>Rebase the latest project code into your <code>feature_x</code> branch so it is up-to-date with the upstream code.</li>
 </ol>
 
 <pre>
-$ git checkout master
+$ git checkout main
 $ git fetch upstream
-$ git rebase upstream/master
+$ git rebase upstream/main
 $ git checkout feature_x
-$ git rebase master
+$ git rebase main
 </pre>
 
-<blockquote>Now your <code>feature_x</code> branch is up-to-date with all the code in <code>upstream/master</code>.</blockquote>
+<blockquote>Now your <code>feature_x</code> branch is up-to-date with all the code in <code>upstream/main</code>.</blockquote>
 
 <h4>Make a GitHub pull request to contribute your changes</h4>
 
@@ -121,11 +121,11 @@ This is done by pushing your local changes to your forked repository (default re
 <p>Please include JIRA ID or GitHub ID, detailed information about the bug/feature, what all tests are executed, how the reviewer can test this
 feature etc. Incase of UI PRs, a screenshot is preferred.</p>
 
-<blockquote><b>IMPORTANT:</b>Make sure you have rebased your <code>feature_x</code> branch to include the latest code from <code>upstream/master</code> <b>before</b>
+<blockquote><b>IMPORTANT:</b>Make sure you have rebased your <code>feature_x</code> branch to include the latest code from <code>upstream/main</code> <b>before</b>
 you do this.</blockquote>
 
 <pre>
-$ git push origin master
+$ git push origin main
 $ git push origin feature_x
 </pre>
 
@@ -136,7 +136,7 @@ $ git push origin feature_x
 <ol>
 <li>In your browser, navigate to your forked repository: <b>https://github.com/YOUR_ACCOUNT/cloudstack</b>;</li>
 <li>Click the new button called '<b>Compare & pull request</b>' that showed up just above the main area in your forked repository;</li>
-<li>Validate the pull request will be into the upstream <code>master</code> and will be from your <code>feature_x</code> branch;</li>
+<li>Validate the pull request will be into the upstream <code>main</code> and will be from your <code>feature_x</code> branch;</li>
 <li>Enter a detailed description of the work you have done and then click '<b>Send pull request</b>'.</li>
 </ol>
 
@@ -145,16 +145,16 @@ the <code>feature_x</code> branch to your fork. The existing pull request should
 
 <h4>Cleaning up after a successful pull request</h4>
 
-<p>Once the <code>feature_x</code> branch has been committed into the <code>upstream/master</code> branch, your local <code>feature_x</code> branch
+<p>Once the <code>feature_x</code> branch has been committed into the <code>upstream/main</code> branch, your local <code>feature_x</code> branch
 and the <code>origin/feature_x</code> branch are no longer needed. If you want to make additional changes, restart the process with a new branch.</p>
 
-<blockquote><b>IMPORTANT:</b>Make sure that your changes are in <code>upstream/master</code>before you delete your <code>feature_x</code>
+<blockquote><b>IMPORTANT:</b>Make sure that your changes are in <code>upstream/main</code>before you delete your <code>feature_x</code>
 and <code>origin/feature_x</code> branches!</blockquote>
 
 <p>You can delete these deprecated branches with the following:</p>
 
 <pre>
-$ git checkout master
+$ git checkout main
 $ git branch -D feature_x
 $ git push origin :feature_x
 </pre>
@@ -176,7 +176,7 @@ endings (LF) rather than Windows-type line endings (CRLF).</p>
 
 <a href="https://github.com/apache/cloudstack/" class="list-group-item" target="_blank">Public repository (on github)</a>
 
-<a hread="https://github.com/apache/cloudstack/blob/master/CONTRIBUTING.md" class="list-group-item" target="_blank">Contribution Guidelines</a>
+<a hread="https://github.com/apache/cloudstack/blob/main/CONTRIBUTING.md" class="list-group-item" target="_blank">Contribution Guidelines</a>
 
 <a href="https://builds.apache.org/view/A-D/view/Cloudstack/" class="list-group-item" target="_blank">ASF Jenkins</a>
 
