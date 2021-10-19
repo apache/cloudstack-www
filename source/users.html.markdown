@@ -75,6 +75,7 @@ If you noticed something wrong with your entry here (or if you’d like us to re
 * [University of Cologne](http://rrzk.uni-koeln.de/)
 * [UPCnet](http://www.upcnet.es)
 * [VDI Space, Inc](http://www.vdispace.com)
+* [Web et solutions](https://www.webetsolutions.com/)
 * [wirenc.com](http://www.wirenc.com)
 * [Youngsoft Inc](http://youngsoft.com)
 * [Zeromachine](http://zeromachine.net)
