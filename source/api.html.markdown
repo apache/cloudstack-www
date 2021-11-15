@@ -23,33 +23,37 @@ we would welcome your help, please file a bug in the
 [CloudStack GitHub repo](https://github.com/apache/cloudstack)
 or by submitting a patch.
 
+## 4.16.x
+
+* [All APIs](api/apidocs-4.16/index.html)
+
 ## 4.15.x
 
-* [All API](api/apidocs-4.15/index.html)
+* [All APIs](api/apidocs-4.15/index.html)
 
 ## 4.14.x
 
-* [All API](api/apidocs-4.14/index.html)
+* [All APIs](api/apidocs-4.14/index.html)
 
 ## 4.13.x
 
-* [All API](api/apidocs-4.13/index.html)
+* [All APIs](api/apidocs-4.13/index.html)
 
 ## 4.12.x
 
-* [All API](api/apidocs-4.12/index.html)
+* [All APIs](api/apidocs-4.12/index.html)
 
 ## 4.11.x
 
-* [All API](api/apidocs-4.11/index.html)
+* [All APIs](api/apidocs-4.11/index.html)
 
 ## 4.10.x
 
-* [All API](api/apidocs-4.10/index.html)
+* [All APIs](api/apidocs-4.10/index.html)
 
 ## 4.9.x
 
-* [All API](api/apidocs-4.9/index.html)
+* [All APIs](api/apidocs-4.9/index.html)
 
 ## 4.8.x
 
