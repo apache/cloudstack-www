@@ -77,11 +77,11 @@ title: Apache CloudStack: Downloads
 <% end %>
 <p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/en/<%= data.cloudstack.versions.main %>/installguide/">Installation Guide</a>. Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack <%= data.cloudstack.versions.main %> can be found in the upgrade section of the Release Notes (see above).</p><br/>
 
-<p>The latest CloudStack LTS maintenance release is 4.14.1.0 as part of the LTS 4.14.x releases.</p>
+<p>The latest CloudStack LTS maintenance release is 4.15.2.0 as part of the LTS 4.15.x releases.</p>
 <p>
-    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.14.1.0/apache-cloudstack-4.14.1.0-src.tar.bz2">
+    <a href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.15.2.0/apache-cloudstack-4.15.2.0-src.tar.bz2">
         <button type="button" class="btn btn-primary btn-md">
-            Get the 4.14.1.0 Source
+            Get the 4.15.2.0 Source
         </button>
     </a>
     <a href="https://downloads.apache.org/cloudstack/KEYS">
@@ -89,20 +89,20 @@ title: Apache CloudStack: Downloads
             KEYS
         </button>
     </a>
-    <a href="https://downloads.apache.org/cloudstack/releases/4.14.1.0/apache-cloudstack-4.14.1.0-src.tar.bz2.asc">
+    <a href="https://downloads.apache.org/cloudstack/releases/4.15.2.0/apache-cloudstack-4.15.2.0-src.tar.bz2.asc">
         <button type="button" class="btn btn-info btn-xs">
             PGP
         </button>
     </a>
-    <a href="https://downloads.apache.org/cloudstack/releases/4.14.1.0/apache-cloudstack-4.14.1.0-src.tar.bz2.sha512">
+    <a href="https://downloads.apache.org/cloudstack/releases/4.15.2.0/apache-cloudstack-4.15.2.0-src.tar.bz2.sha512">
         <button type="button" class="btn btn-info btn-xs">
             SHA512
         </button>
     </a>
 </p>
 
-<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/en/4.14.1.0/releasenotes/">version 4.14.1.0 Release Notes</a> website.</p><br />
-<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/en/4.14.1.0/installguide/">Installation Guide</a>. Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.14.1.0 can be found in the upgrade section of the Release Notes (see above).</p>
+<p>Full release notes can be found in the <a href="http://docs.cloudstack.apache.org/en/4.15.2.0/releasenotes/">version 4.15.2.0 Release Notes</a> website.</p><br />
+<p>Instructions for building from source and installing Apache CloudStack can be found in the <a href="http://docs.cloudstack.apache.org/en/4.15.2.0/installguide/">Installation Guide</a>. Instructions for building from source and upgrading from a previous version of CloudStack to Apache CloudStack 4.15.2.0 can be found in the upgrade section of the Release Notes (see above).</p>
 
 </div>
 
@@ -158,15 +158,17 @@ Additionally, you can verify the SHA512 signatures on the files, by performing
 <p>For easier installation or upgrades, the official source code release has been supplemented by community members who have chosen to provide package repositories that also include noredis libraries.</p>
 
 <ul>
-    <li>CentOS/RHEL 7 RPM repository: <a href="http://download.cloudstack.org/centos/7/">http://download.cloudstack.org/centos/7/</a></li>
-    <li>CentOS/RHEL 8 RPM repository: <a href="http://download.cloudstack.org/centos/8/">http://download.cloudstack.org/centos/8/</a></li>
     <li>DEB repository: <a href="http://download.cloudstack.org/ubuntu">http://download.cloudstack.org/ubuntu</a></li>
+    <li>CentOS/RHEL 8 RPM repository: <a href="http://download.cloudstack.org/centos/8/">http://download.cloudstack.org/centos/8/</a></li>
+    <li>CentOS/RHEL 7 RPM repository: <a href="http://download.cloudstack.org/centos/7/">http://download.cloudstack.org/centos/7/</a></li>
+    <li>openSUSE/SUSE 15 RPM repository: <a href="http://download.cloudstack.org/suse/15/">http://download.cloudstack.org/suse/15/</a></li>
+    <li>(Experimental) ARM64 Ubuntu/DEB repository: <a href="http://download.cloudstack.org/arm64/">http://download.cloudstack.org/arm64/</a></li>
     <li>Old CentOS/RHEL 6 RPM repository (for 4.13 and older releases): <a href="http://download.cloudstack.org/centos/6/">http://download.cloudstack.org/centos/6/</a></li>
 </ul>
 
 <p>Instructions for using these community provided repositories can be found in the <a href="http://docs.cloudstack.apache.org/en/latest/installguide/management-server/#configure-package-repository">Configure Package Repository</a> section of the Installation Guide.</p>
 
-<h4>Packages hosted by 3rd Parties</h4>
+<h4>Noredist Packages Hosted by 3rd Parties</h4>
 
 <ul>
     <li>CloudStack (noredist) packages by ShapeBlue: <a href="http://shapeblue.com/packages/">http://shapeblue.com/packages</a></li>
