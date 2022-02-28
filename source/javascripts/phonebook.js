@@ -453,7 +453,7 @@ function showProject(obj, prj) {
       var cl
       var clExists = false // Does the unix group exist?
       try {
-         cl = ldapgroups[prj].roster.slice()
+         cl = ldapprojects[prj].members.slice()
          clExists = true
       } catch (err) { // Allow for missing Unix group
          cl = []
@@ -580,9 +580,9 @@ function showJsonRoster(obj, type, json, name, attr, checkUnix) {
       for (var i in cl) {
          var uid = cl[i]
          cl[i] = "<tr><td onmouseover='hoverCommitter(this, \"" + uid + "\");' onmouseout='hoverCommitter(this, null);'><kbd>" + hiliteMember(uid) + "</kbd></td><td>" + getCommitterName(uid) + "</td>"
-         if (checkUnix) { // check against Unix group
-            if (ldapgroups[name]) { // make sure group exists!
-               if (ldapgroups[name].roster.indexOf(uid) > -1) {
+         if (checkUnix) { // check against Unix project
+            if (ldapprojects[name]) { // make sure project exists!
+               if (ldapprojects[name].members.indexOf(uid) > -1) {
                   cl[i] += "<td>&nbsp;</td>"
                } else {
                   cl[i] += "<td> N.B. not found in corresponding Unix group</td>"
@@ -618,7 +618,7 @@ function showPodlingRoster(obj, name) {
 // Show an LDAP Unix group
 
 function showGroup(obj, name) {
-   showJsonRoster(obj, 'group', ldapgroups, name)
+   showJsonRoster(obj, 'group', ldapprojects, name, 'members', true)
 }
 
 // Show an LDAP Commiteee group
@@ -698,7 +698,7 @@ function showPMC(pmc) {
 function showUNIX(unix) {
    var obj = document.getElementById('phonebook')
    var id = 'group_' + unix
-   if (unix in ldapgroups) {
+   if (unix in ldapprojects) {
       obj.innerHTML = "<div id='" + id + "' class='group'><h3 onclick=\"showGroup(this.parentNode, '" + unix + "');\">" + unix + " (LDAP unix group)</h3></div>"
       showGroup(document.getElementById(id), unix)
    } else {
