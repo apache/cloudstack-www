@@ -23,6 +23,10 @@ we would welcome your help, please file a bug in the
 [CloudStack GitHub repo](https://github.com/apache/cloudstack)
 or by submitting a patch.
 
+## 4.17.x
+
+* [All APIs](api/apidocs-4.17/index.html)
+
 ## 4.16.x
 
 * [All APIs](api/apidocs-4.16/index.html)
