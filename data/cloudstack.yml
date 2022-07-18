@@ -1,15 +1,17 @@
 versions:
-  main: 4.17.0.0
+  main: 4.17.0.1
   main_islts: yes
   main_docs_url: https://docs.cloudstack.apache.org/en/4.17.0.0/
   branch: 4.17
-  lts: 4.17.0.0
+  lts: 4.17.0.1
   lts_docs_url: https://docs.cloudstack.apache.org/en/latest/installguide/index.html
   ltsbranch: 4.17
   archives:
     - '4.17':
+       - 4.17.0.1
        - 4.17.0.0
     - '4.16':
+       - 4.16.1.1
        - 4.16.1.0
        - 4.16.0.0
     - '4.15':
