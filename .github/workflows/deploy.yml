@@ -15,34 +15,29 @@
 #  specific language governing permissions and limitations
 #  under the License.
 
-github:
-  description: "Apache CloudStack Website"
-  homepage: https://cloudstack.apache.org/
-  features:
-    issues: false
-    projects: false
-    wiki: false
-  labels:
-    - cloudstack
-  enabled_merge_buttons:
-    squash:  true
-    merge:   false
-    rebase:  false
-  protected_branches:
-    main: {}
+name: Pages
 
-notifications:
-  commits:      commits@cloudstack.apache.org
-  issues:       issues@cloudstack.apache.org
-  pullrequests: issues@cloudstack.apache.org
-  jobs:         builds@cloudstack.apache.org
+on:
+  push:
+    branches:
+      - main
+  pull_request:
 
-# Staging and publishing profile for yourproject-website.git:
-staging:
-  profile: ~
-  whoami: docusaurus-staging
-  outputdir: build
-
-publish:
-  whoami:  asf-site
-  outputdir: content
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: yarn
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
+      - uses: peaceiris/actions-gh-pages@v3
+        if: github.event_name != 'pull_request'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: docusaurus-staging # TODO: change this to deploy branch 'asf-site'
+          force_orphan: true
