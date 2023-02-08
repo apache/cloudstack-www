@@ -1,17 +1,11 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+ivet:
+  name: Ivet Petrova
+  title: Ivet Petrova
+  url: https://github.com/blueorangutan
+  image_url: https://github.com/blueorangutan.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+rohit:
+  name: Rohit Yadav
+  title: Rohit Yadav
+  url: https://github.com/rohityadavcloud
+  image_url: https://github.com/rohityadavcloud.png
