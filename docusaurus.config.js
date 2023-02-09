@@ -9,7 +9,7 @@ const config = {
   title: 'Apache CloudStack',
   tagline: 'Apache CloudStack is an opensource Infrastructure as a Service (IaaS) cloud computing platform',
   url: 'https://cloudstack.apache.org',
-  baseUrl: '/build/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
