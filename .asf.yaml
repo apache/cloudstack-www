@@ -42,6 +42,7 @@ staging:
   profile: ~
   whoami: docusaurus-staging
   outputdir: build
+  hostname: beautiful-pastelito-4eb422.netlify.app
 
 publish:
   whoami:  asf-site
