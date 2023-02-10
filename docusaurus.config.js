@@ -32,6 +32,7 @@ const config = {
         routeBasePath: 'download',
       },
     ],
+    ['docusaurus-plugin-sass', {}],
   ],
 
   presets: [
@@ -48,7 +49,11 @@ const config = {
           editUrl: 'https://github.com/apache/cloudstack-www/tree/main/',
         },
         blog: {
-          showReadingTime: true,
+          blogTitle: 'Blog',
+          blogDescription: 'Apache CloudStack Blog',
+          showReadingTime: false,
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 0,
           editUrl: 'https://github.com/apache/cloudstack-www/tree/main/blog',
         },
         theme: {
@@ -95,6 +100,14 @@ const config = {
             ],
           },
         ],
+      },
+      announcementBar: {
+        id: 'support_us',
+        content:
+        'Fancy annoucement bar, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
       },
       footer: {
         style: 'dark',
