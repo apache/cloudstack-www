@@ -33,11 +33,7 @@ const tags = [
   {
     label: 'Community',
     url: '/blog/tags/community/',
-  },
-  {
-    label: 'Vulnerabilities',
-    url: '/blog/tags/vulnerabilities/',
-  },
+  }
 ];
 
 const BlogSidebar: FC<Props> = (props) => {
