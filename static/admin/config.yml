@@ -42,9 +42,9 @@ collections:
     - { name: title, label: Title, widget: string }
     - { name: sidebar_label, label: Label, widget: string }
     - { name: body, label: Body, widget: markdown }
-- name: landing
-  label: "Landing Page"
-  folder: ./
+- name: page
+  label: "Page"
+  folder: src/pages
   identifier_field: title
   extension: md
   widget: "list"

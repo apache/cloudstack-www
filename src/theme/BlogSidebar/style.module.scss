@@ -29,6 +29,8 @@
   padding: 0.25rem 1rem;
   transition: color 0.3s ease-in-out;
   font-family: apple-system, system-ui, sans-serif;
+  margin-left: 100%;
+  margin-top: -30px;
   border-bottom: 1px solid #e8e8ed;
 
   html[data-theme="dark"] & {

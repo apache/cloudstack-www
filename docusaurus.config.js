@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Apache CloudStack',
-  tagline: 'Apache CloudStack is an opensource Infrastructure as a Service (IaaS) cloud computing platform',
+  tagline: 'Open Source Cloud Computing™',
   url: 'https://cloudstack.apache.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -67,10 +67,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Apache CloudStack',
+        title: 'Apache CloudStack™',
         logo: {
           alt: 'apache-cloudstack',
-          src: 'img/logo.svg',
+          src: 'img/cloudstack.png',
         },
         items: [
           {type: 'doc', docId: 'getting-started', position: 'right', label: 'Docs'},

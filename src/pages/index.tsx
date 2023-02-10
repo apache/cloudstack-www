@@ -12,20 +12,22 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+        <img src="img/logo.svg" width="20%" />
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/getting-started">
-            Quick start
+            to="Download">
+            Download
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="https://github.com/apache/incubator-kvrocks">
-            GitHub
+            to="http://docs.cloudstack.apache.org/">
+            Documentation
           </Link>
         </div>
+        <p className="hero__subtitle">Apache CloudStack is an opensource Infrastructure as a Service (IaaS) cloud computing platform</p>
       </div>
     </header>
   );
