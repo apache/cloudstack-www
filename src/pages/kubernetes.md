@@ -1,12 +1,12 @@
 ---
 title: kubernetes
-sidebar_label: kubernetes, landing page
 ---
-T﻿esting new Landing Page for kubernetes page.
+
+Testing new Landing Page for kubernetes page.
 
 ## Kubernetes
 
-L﻿orem ipsum Lore impsum
+Lorem ipsum Lore impsum
 
 ![](/img/capc.png)
 
