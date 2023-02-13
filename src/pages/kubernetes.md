@@ -8,7 +8,9 @@ T﻿esting new Landing Page for kubernetes page.
 
 L﻿orem ipsum Lore impsum
 
-### Architecture 
+![](/img/capc.png)
+
+### Architecture
 
 The Kubernetes Service plugin adds Kubernetes integration to CloudStack. The plugin is disabled by default and an admin can enable it using a Global Setting. It enables users to run containerized services using Kubernetes clusters.
 
@@ -18,16 +20,12 @@ Deployments of Kubernetes on OpenStack have two networking CNI/plugin options fo
 
 L﻿orem ipsum.
 
-
-
 `l﻿aksjdlkfajskdf code block;`\
 `-﻿ Yaml`\
 `-﻿ container`\
-` ﻿ name: 1234`
+`name: 1234`
 
 a﻿sdfasf. Loreim ipsum testing.
-
-
 
 > S﻿ome Quote.
 
