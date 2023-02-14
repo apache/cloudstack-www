@@ -1,0 +1,126 @@
+---
+layout: post
+title: Apache CloudStack Year in Review - 2022
+date: '2022-12-30T12:17:05+00:00'
+permalink: year-in-review-2022
+---
+<a href="https://blogs.apache.org/cloudstack/mediaresource/a0b79998-d965-4a92-af6b-ce9cdb841c32"><img src="https://blogs.apache.org/cloudstack/mediaresource/a0b79998-d965-4a92-af6b-ce9cdb841c32" alt="Year in review.png" width="750" height="393"/></a>
+
+<p><span style="font-size:12pt"><span style="color:black">2022 was a hugely successful year for the Apache CloudStack community. We collaborated on a successful major release &ndash; Apache CloudStack 4.17 bringing a bunch of new capabilities and improvements, as well as created multiple new CloudStack integrations. As well as this, the community created two minor releases as part of the LTS programme. </span></span></p>
+
+<p><span style="font-size:12pt"><span style="color:black">The community also held two successful conferences, one of which being the first in-person CloudStack Collaboration Conference since the pandemic. The new &lsquo;Year in Review&rsquo; blogs series encourages us to reflect on the community&rsquo;s achievements, and thus lets us brainstorm the ways we will further develop Apache CloudStack in all facets in the new year. Find out what we managed to achieve together and what is coming in 2023 in this recap article! </span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:12pt"><a href="https://blogs.apache.org/cloudstack/entry/what-s-new-in-apache1" style="color:#0563c1; text-decoration:underline"><strong><span style="font-size:18.0pt">Apache CloudStack 4.17 Release</span></strong></a></span></p>
+
+<p><span style="font-size:12pt"><span style="color:black">The year saw the newest major release - Apache CloudStack 4.17, which brought a number of new and exciting features being introduced, including: </span></span></p>
+
+<ul>
+	<li><span style="font-size:12pt"><span style="background-color:white"><strong><span style="color:black">Zero Downtime Upgrades for Virtual Routers</span></strong></span></span></li>
+</ul>
+
+<p><span style="font-size:12pt"><span style="background-color:white"><span style="color:black">With this new feature, the virtual router does not have to go through the process of complete removal and instantiating a new one involving shutdown, resource release, system VM template copy from secondary storage to primary, starting and VR configuration</span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="background-color:white"><span style="color:black">Previously when a new release of Apache CloudStack was deployed, the operations team had to organize maintenance windows to allow the redeployment of every virtual router. Now an in-place upgrade of CloudStack virtual routers can be performed with zero downtime.</span></span></span></p>
+
+<ul>
+	<li><span style="font-size:12pt"><span style="background-color:white"><strong><span style="color:black">VR Live Patching</span></strong></span></span></li>
+</ul>
+
+<p><span style="font-size:12pt"><span style="background-color:white"><span style="color:black">Underpinning zero downtime upgrades is the new feature VR live patching. This feature can also be used independently of upgrades and allow CloudStack admins to apply software updates to Virtual Routers on the fly. Previously all Apache CloudStack scripts to manage the Virtual Router were stored in an ISO image and mounted during the first boot and then copied to the Virtual Router. Now the update is performed dynamically , as long as the base OS remains constant , users to not need to recreate the Virtual Router.</span></span></span></p>
+
+<ul>
+	<li><span style="font-size:12pt"><strong><span style="background-color:white"><span style="color:black">IPv6 support for Isolated and VPC Networks</span></span></strong></span></li>
+</ul>
+
+<p><span style="font-size:12pt"><span style="background-color:white"><span style="color:black">IPv6 is considered a natural evolution of any system that intends to be present in computing environments in the future. The RIPE NCC, which assigns IP addresses in 76 countries to ISPs and other organizations, got its final allocation of IPv4 addresses from the Internet Assigned Numbers Authority (IANA) in 2012.</span></span></span><br />
+<span style="font-size:12pt"><span style="color:black"><span style="background-color:white">Apache CloudStack already supported IPv6 for Shared Networks; now IPv6 is also supported for Isolated Networks and VPC. Users can deploy IPv6 networks where routing is currently static, allowing users to use subnets of IPv6 networks directly in CloudStack instances.</span><br />
+<span style="background-color:white">In this context, unlike IPv4 that relies on NAT to deliver network services to users, the Virtual Router behaves like a real router, routing IPv6 packets and allowing users to configure firewall.</span></span></span></p>
+
+<ul>
+	<li><span style="font-size:12pt"><strong><span style="background-color:white"><span style="color:black">Self-service Network Improvements</span></span></strong></span></li>
+</ul>
+
+<p><span style="font-size:12pt"><span style="color:black">Previously, the creation of Shared Networks and Private Gateways was an admin- only feature. When a user needed a Shared Network or Private Gateway, they would have to make a service request to the Service Provider or infrastructure operations team. Only after that, users could configure and use their respective resources.</span></span></p>
+
+<p><span style="font-size:12pt"><span style="color:black">With Apache CloudStack 4.17, users can self-serve the creation of these resources through the UI or API with no involvement of the admin.</span></span></p>
+
+<p><strong><span style="font-size:12pt"><span style="color:black">To learn more about the remaining features introduced in the 4.17 release, read the </span><a href="https://blogs.apache.org/cloudstack/entry/what-s-new-in-apache1" style="color:#0563c1; text-decoration:underline"><span style="color:black">release blog.</span></a></span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:12pt"><u><span style="font-size:18.0pt"><span style="color:black">New CloudStack Integrations</span></span></u></span></strong></p>
+
+<p><span style="font-size:12pt"><span style="color:black">The community has collaborated on a new blog series named &lsquo;CloudStack Integrations&rsquo;, introducing a range of technologies with which CloudStack is integrated with and can become part of your technology stack. You will be able to learn more about different software solutions, which can be combined with CloudStack and dive deep into specialized Technical Solution Briefs presenting the integrations.</span></span></p>
+
+<ul>
+	<li><span style="font-size:12pt"><strong>Kubernetes CAPI Provider &ndash; CloudStack Integration</strong></span></li>
+</ul>
+
+<p><span style="font-size:12pt"><span style="color:black">The Kubernetes Cluster API (CAPI) provider for Apache CloudStack allows Kubernetes users to build and manage resources on Apache CloudStack. The Cluster API brings declarative, Kubernetes-style APIs to cluster creation, configuration and management. The API itself is shared across multiple cloud providers allowing for true Apache CloudStack hybrid deployments of Kubernetes. It is built atop the lessons learned from previous cluster managers such as kops and kubicorn.</span></span></p>
+
+<p><span style="font-size:12pt"><span style="color:black">If users want to launch a Kubernetes cluster on Apache Cloudstack, they can check out the </span><a href="https://cluster-api-cloudstack.sigs.k8s.io/getting-started.html" style="color:#0563c1; text-decoration:underline">Getting Started Guide</a><span style="color:black"> to create your first Kubernetes cluster on Apache CloudStack using Cluster API.</span></span></p>
+
+<p><span style="font-size:12pt"><span style="color:black">Watch the session below from the CloudStack European User Group this year, featuring Peter Motykowski from AWS discuss more about the newly developed provider, its capabilities and how you can benefit from it!</span></span></p>
+
+<p><a href="https://www.youtube.com/watch?v=WuXdsDjPq9E" rel="noopener noreferrer" target="_blank"><img src="https://blogs.apache.org/cloudstack/mediaresource/ce27ebce-d019-41d6-b105-c2827751a678" alt="kubernetes CAPI.png" width="750" height="393 /></a>
+
+	<ul>
+	<li><span style="font-size:12pt"><a href="https://storpool.com/" style="color:#0563c1; text-decoration:underline"><strong>StorPool Storage</strong></a><strong><span style="color:black"> &ndash; CloudStack Integration</span></strong></span></li>
+</ul>
+
+<p><span style="font-size:12pt"><span style="color:black">StorPool Storage volume management is integrated now with Apache CloudStack to allow seamless use of the capabilities of the StorPool Storage system through the CloudStack GUI, CLI, and API interfaces. With the integration, the features available in StorPool get inherited by each cloud deployed with StorPool Storage - enabling cloned provisioning, instant snapshots, thin provisioning, and backup, disaster recovery, and Quality of Service (QoS) policies per virtual disk or virtual machine (VM). Thanks to the way StorPool works, VM provisioning is nearly instantaneous, and data placement policies and other settings can be changed in-flight to address changes in user requirements. </span><a href="https://blogs.apache.org/cloudstack/mediaresource/5e069f87-a428-4f07-92ac-a8bf8d0d114b?api=v2" style="color:#0563c1; text-decoration:underline">Click here</a><span style="color:black"> to download the solution brief. </span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:12pt"><a href="https://blogs.apache.org/cloudstack/entry/cloudstack-collaboration-conference-2022-roundup" style="color:#0563c1; text-decoration:underline"><strong><span style="font-size:18.0pt">CloudStack Collaboration Conference</span></strong></a></span></p>
+
+<p><span style="font-size:12pt"><span style="color:black">The community re-joined in-person for the first time since the pandemic, at the CloudStack Collaboration Conference in Sofia last month.&nbsp; The hybrid event hosted over 370 participants and 48 speakers from 32 countries! The conference broke its record for the most in-person attendees. In total, there were 38 sessions from leading CloudStack experts, users and skilful engineers from the open-source world. These sessions included: technical talks, user stories, new features and integrations presentations and more. You can watch back the sessions or retrieve the slides on the </span><a href="https://blogs.apache.org/cloudstack/entry/cloudstack-collaboration-conference-2022-roundup" style="color:#0563c1; text-decoration:underline">event roundup blog.</a><span style="color:black"> Do keep in mind the sessions are still being released, so make sure you subscribe to the </span><a href="https://www.youtube.com/@ApacheCloudStack/featured" style="color:#0563c1; text-decoration:underline">Apache CloudStack YouTube channel</a><span style="color:black"> and turn on bell notifications.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:12pt"><a href="https://blogs.apache.org/cloudstack/entry/cloudstack-european-user-group-virtual" style="color:#0563c1; text-decoration:underline"><strong><span style="font-size:18.0pt">CloudStack European User Group</span></strong></a></span></p>
+
+<p><span style="font-size:12pt"><span style="color:black">Taking place on April 7th, 2022, The CloudStack European User Group was a virtual get together for the European CloudStack Community, hosting 260+ attendees from 25 countries. The event hosted a total of 10 sessions, all of which you can watch back on the </span><a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlYfut3ZIOrvN--_YuSPIerQ" style="color:#0563c1; text-decoration:underline">Apache CloudStack YouTube channel</a><span style="color:black">. Just like CCC, it was great to see new CloudStack committers and users, showing the growth of the global community.&nbsp; </span></span></p>
+
+<p>&nbsp;</p>
+
+<p><u><span style="font-size:12pt"><strong><span style="font-size:18.0pt"><span style="color:black">Looking to the Future - Apache CloudStack 4.18 Release</span></span></strong></span></u></p>
+
+<p><span style="font-size:12pt">The community is looking forward to the upcoming 4.18 release, expected in late January 2023. Some exciting features you will be able to find in the new release are: </span></p>
+
+<ul>
+	<li><span style="font-size:12pt"><span style="color:black"><strong>Edge computing (4.18)&nbsp;</strong></span></span></li>
+</ul>
+
+<p><span style="font-size:12pt"><span style="color:black">Edge computing is a distributed computing paradigm that brings computation and data storage closer to the data source and end consumer. The presence of computing capabilities at the edge of the network reduces response times for applications while reducing connectivity costs.&nbsp;</span></span></p>
+
+<p><span style="font-size:12pt"><span style="color:black">This new feature will enable</span><span style="color:black"> operators to leverage CloudStack in deploying light-weight Zones in edge locations. Compared to the traditional CloudStack zones, a dehydrated zone results in resource savings on the boards - solving problems related to latency at low cost in regions poorly served by the internet network.</span></span></p>
+
+<ul>
+	<li><span style="font-size:12pt"><span style="color:black"><strong>Tungsten SDN Fabric (4.18)</strong></span></span></li>
+</ul>
+
+<p><span style="font-size:12pt"><span style="color:black">Tungsten Fabric is an open-source SDN project that solves tooling complexity with the simplicity of only one networking and security tool. It is maintained by The Linux Foundation and is designed to support any cloud anywhere.&nbsp; </span></span></p>
+
+<p><span style="font-size:12pt"><span style="color:black">From 4.18, Apache CloudStack users can leverage Tungsten Fabric as a Network Provider in Isolated and VPC Networks, adding this widely adopted SDN fabric to fill feature gaps in CloudStack, enhancing security and capabilities.</span></span></p>
+
+<ul>
+	<li><span style="font-size:12pt"><span style="color:black"><strong>Autoscaling (4.18)</strong></span></span></li>
+</ul>
+
+<p><span style="font-size:12pt"><span style="color:black">This feature is an Apache CloudStack native solution, different from other approaches that created vendor lock-in of closed source products. From Apache CloudStack 4.18, cloud users can configure Autoscale VM Groups to dynamically scale up and down the number of Instances when the defined trigger conditions are met. </span></span></p>
+
+<p><span style="font-size:12pt"><span style="color:black">&hellip; and a lot more new capabilities, which will enable cloud operators to achieve more and manage easier their virtualisation. </span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:12pt"><strong><u><span style="font-size:18.0pt"><span style="color:black">At the end of the year&hellip;</span></span></u></strong></span></p>
+
+<p><span style="font-size:12pt">It was great to see another year of expansion of the Apache CloudStack community. We are happy to see new companies around the world adopting the technology and becoming involved in the community, whether it is through collaborations, development or keeping active on the mailing lists. In order for an open-source project to develop and be successful, people need to give back to the project &ndash; something that the Apache CloudStack community does extremely well. We are very grateful to the community&rsquo;s efforts and progression in the technology, so kudos to all involved!&nbsp; </span></p>
+
+<p><span style="font-size:12pt">New use cases are being shared, such as <a href="https://www.arsat.com.ar/" style="color:#0563c1; text-decoration:underline">ARSAT</a> covering their use cases regarding cloud services in Argentinian government entities and also sharing their mid-term roadmap strategy to include the private sector in Arsat&acute;s client portfolio. Another thing worth reflecting on is how companies who have been adopting Apache CloudStack long-term have managed to build reliable solutions and are using the technology continuously without looking for alternatives. The reason being because CloudStack is constantly expanding its supported integrations and technologies landscape, plus the amazing pace of development and new features released. Last but not least, we also see more vendors interested in both adopting CloudStack or building new solutions on top of it like <a href="https://www.apiculus.io/" style="color:#0563c1; text-decoration:underline">Apiculus</a> and <a href="https://www.stackbill.com/" style="color:#0563c1; text-decoration:underline">StackBill</a> for example. </span></p>
+
+<p><span style="font-size:12pt">We would like to say a big thank you to everyone involved in the project and look forward to collaborating at the CloudStack European User Group in May!</span></p>
+

