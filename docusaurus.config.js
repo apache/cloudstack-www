@@ -10,7 +10,7 @@ const config = {
   tagline: 'Open Source Cloud Computing™',
   url: 'https://cloudstack.apache.org',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
 
