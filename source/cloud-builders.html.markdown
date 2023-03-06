@@ -86,7 +86,7 @@ title: Cloud Builders
             <!-- <img src="images/CloudStack_CloudFest_Servers.png" style="width: 700px; position:absolute; right: 0;" alt="CloudFest Servers"> -->
             <h1 style="margin-top:28px;">Apache CloudStack - A Turnkey<br>Solution for Cloud Builders</h1>
             <p>Decrease total cost of ownership,<br>eliminate vendor lock-in and operational<br>overhead</p>         
-            <a href="#"><button type="button" class="btn btn-success">Download</button></a>
+            <a href="/downloads.html"><button type="button" class="btn btn-success">Download</button></a>
           </div>
         </div>
       </div>
@@ -165,7 +165,7 @@ title: Cloud Builders
       <img src="images/cs-front-page.png" width="100%" alt="">
       <div class="text-10">
         <p class="text-two">Apache CloudStack at a Glance</p>
-        <a href="#"><button type="button" class="btn btn-success">Download</button></a>
+        <a href="https://cwiki.apache.org/confluence/download/attachments/240885390/ACS-Overview-Web-03-2023.pdf?api=v2"><button type="button" class="btn btn-success">Download</button></a>
       </div>
     </div>
   </div>
@@ -175,7 +175,7 @@ title: Cloud Builders
       <img src="images/cs-front-page.png" width="100%" alt="">
       <div class="text-10">
         <p class="text-two">Apache CloudStack Proof of Concept Guide</p>
-        <a href="#"><button type="button" class="btn btn-success">Download</button></a>
+        <a href="https://cwiki.apache.org/confluence/download/attachments/240885394/Apache%20CloudStack%20PoC%20Guide%20Step-by-Step%20Guide%20Installation%20and%20Use%20Cases_Clean.pdf?api=v2"><button type="button" class="btn btn-success">Download</button></a>
       </div>
     </div>
   </div>
@@ -188,7 +188,7 @@ title: Cloud Builders
       <img src="images/cs-front-page.png" width="100%" alt="">
       <div class="text-10">
         <p class="text-three">Delivering Public Cloud Services with CloudStack</p>
-        <a href="#"><button type="button" class="btn btn-sm btn-success">Download</button></a>
+        <a href="https://cwiki.apache.org/confluence/download/attachments/240885399/SolutionBrief-Delivering%20Public%20Cloud%20Services%20with%20Apache%20CloudStack.pdf?api=v2"><button type="button" class="btn btn-sm btn-success">Download</button></a>
       </div>
     </div>
   </div>
