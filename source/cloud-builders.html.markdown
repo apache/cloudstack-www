@@ -102,7 +102,7 @@ title: Cloud Builders
 
 <div class="row">
   <div class="col-lg-8">    
-    <p>Apache CloudStack is a virtualization management platform that provides a cloud orchestration layer,
+    <p>Apache CloudStack is a highly scalable IaaS cloud computing platform that provides a cloud orchestration layer,
       automating the creation, provisioning and configuration of IaaS components. It turns existing virtual
       infrastructure into a cloud-based Infrastructure as a Service (IaaS) platform. Because CloudStack
       leverages existing infrastructure, the costs and time for the organization to build a multi-tenant IaaS
@@ -170,8 +170,9 @@ title: Cloud Builders
       <div style="height: 20px; background-color: #2c3e50; border-radius: 10px 10px 0 0;"></div>
       <img src="images/Apache-CloudStack-at-a-glance.jpg" width="100%" alt="">
       <div class="text-10">
-        <p class="text-two">Apache CloudStack at a Glance</p>
-        <a href="https://cwiki.apache.org/confluence/download/attachments/240885390/ACS-Overview-Web-03-2023.pdf?api=v2"><button type="button" class="btn btn-success">Download</button></a>
+        <p class="text-two"><b>Apache CloudStack at a Glance</b></p>
+        <p class="text-two">Learn more about Apache CloudStack and the capabilities it provides for IaaS builders</p>
+        <a href="https://blogs.apache.org/cloudstack/mediaresource/ea033a7f-6854-4211-99c9-71575b7216bc"><button type="button" class="btn btn-success">Download</button></a>
       </div>
     </div>
   </div>
@@ -180,7 +181,8 @@ title: Cloud Builders
       <div style="height: 20px; background-color: #2c3e50; border-radius: 10px 10px 0 0;"></div>
       <img src="images/step-by-step-guide.jpg" width="100%" alt="">
       <div class="text-10">
-        <p class="text-two">Apache CloudStack Proof of Concept Guide</p>
+        <p class="text-two"><b>Apache CloudStack Proof of Concept Guide</b></p>
+        <p class="text-two">This PoC guide gives you all the guidance you need to perform a successful Proof of Concept of Apache CloudStack</p>
         <a href="https://cwiki.apache.org/confluence/download/attachments/240885394/Apache%20CloudStack%20PoC%20Guide%20Step-by-Step%20Guide%20Installation%20and%20Use%20Cases_Clean.pdf?api=v2"><button type="button" class="btn btn-success">Download</button></a>
       </div>
     </div>
@@ -193,8 +195,9 @@ title: Cloud Builders
       <div class="title">Solution Brief</div>
       <img src="images/ACS-solution-brief.jpg" width="100%" alt="">
       <div class="text-10">
-        <p class="text-three">Delivering Public Cloud Services with CloudStack</p>
-        <a href="https://cwiki.apache.org/confluence/download/attachments/240885399/SolutionBrief-Delivering%20Public%20Cloud%20Services%20with%20Apache%20CloudStack.pdf?api=v2"><button type="button" class="btn btn-sm btn-success">Download</button></a>
+        <p class="text-three"><b>Delivering Public Cloud Services with CloudStack</b></p>
+        <p class="text-three">Discover how to use CloudStack to provision public cloud services and improve your profitability</p>
+        <a href="https://blogs.apache.org/cloudstack/mediaresource/9aa03eed-1a2c-4b40-a434-23a2b266b194"><button type="button" class="btn btn-sm btn-success">Download</button></a>
       </div>
     </div>
   </div>
@@ -203,8 +206,9 @@ title: Cloud Builders
       <div class="title">Case Study</div>
       <img src="images/Ikoula-case-study.jpg" width="100%" alt="">
       <div class="text-10">
-        <p class="text-three">Case Study Title 1</p>
-        <a href="#"><button type="button" class="btn btn-sm btn-success">Download</button></a>
+        <p class="text-three"><b>IKOULA - The cloud leader and innovator in France</b></p>
+        <p class="text-three">IKOULA Simplifies the Management of Large-Scale Cloud Infrastructure with CloudStack and XCP-ng</p>
+        <a href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Case-Study_IKOULA_2021-11_EN.pdf?version=1&modificationDate=1638874264049&api=v2"><button type="button" class="btn btn-sm btn-success">Download</button></a>
       </div>
     </div>
   </div>
@@ -213,8 +217,9 @@ title: Cloud Builders
       <div class="title">Case Study</div>
       <img src="images/your-online-case-study.jpg" width="100%" alt="">
       <div class="text-10">
-        <p class="text-three">Case Study Title 2</p>
-        <a href="#"><button type="button" class="btn btn-sm btn-success">Download</button></a>
+        <p class="text-three"><b>Your.Online -  a leading European online services platform</b></p>
+        <p class="text-three">Future-Proof Open-Source Platform Hosting Millions of Websites for Your.Online Powered by CloudStack, KVM and Ceph</p>
+        <a href="https://blogs.apache.org/cloudstack/mediaresource/d9f0bb38-580a-411c-9318-b1a11143e881"><button type="button" class="btn btn-sm btn-success">Download</button></a>
       </div>
     </div>
   </div>
