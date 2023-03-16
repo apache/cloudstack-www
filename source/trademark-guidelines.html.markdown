@@ -130,7 +130,7 @@ The following is required:
 * The design (mock-up) must be shared with the CloudStack PMC via [press@cloudstack.apache.org](mailto:press@cloudstack.apache.org).
 * Requests for approval will be acknowledged by a member of the PMC and approved automatically if no issues are raised 72 hours after acknowledgement.
 * Permission may be granted for requests that are intended to promote the Apache CloudStack project.
-* Permission will likely *not* be granted for requests that are indented to, or percieved to by the PMC, reflect negatively on Apache CloudStack.
+* Permission will likely *not* be granted for requests that are indented to, or perceived to by the PMC, reflect negatively on Apache CloudStack.
 * Approval may be contingent on specific requested changed in how the mark(s) are applied.
 
 ## Websites

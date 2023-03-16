@@ -35,6 +35,6 @@ In short, organizations can use Apache CloudStack to deploy a full-featured publ
 
 # People of Apache CloudStack
 
-Apache projects are managed by a [Project Management Committee](http://www.apache.org/dev/pmc.html#what-is-a-pmc) (PMC), and much of the work is done by the project's [committers](http://www.apache.org/dev/committers.html). Note that committer status is *not* limited to developers, but is conferred to individuals who have made sustained contributions of high quality, and have shown a committment to mentoring other contributors and following [The Apache Way](http://theapacheway.com).
+Apache projects are managed by a [Project Management Committee](http://www.apache.org/dev/pmc.html#what-is-a-pmc) (PMC), and much of the work is done by the project's [committers](http://www.apache.org/dev/committers.html). Note that committer status is *not* limited to developers, but is conferred to individuals who have made sustained contributions of high quality, and have shown a commitment to mentoring other contributors and following [The Apache Way](http://theapacheway.com).
 
 The current Vice President of Apache CloudStack and chair of the PMC is Sebastien Goasguen, a full list of PMC members and contributors is available on the page *[Who We Are](/who.html)*.

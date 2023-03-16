@@ -363,7 +363,7 @@ concern to private@cloudstack.apache.org, explaining the issue that they have
 with the request.  The use of private@cloudstack.apache.org for discussing the
 request is to allow the PMC to deliberate without confusing the requester, and
 to ensure that a formal approval or denial is clear at the end of the
-discusion.
+discussion.
 
      The PMC will then attempt to achieve consensus on how the request for approval
 will be answered.  The requester may be asked for more information to help the
