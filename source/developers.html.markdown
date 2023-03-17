@@ -119,7 +119,7 @@ $ git rebase main
 This is done by pushing your local changes to your forked repository (default remote name is <code>origin</code>) and then initiating a pull request on GitHub.</p>
 
 <p>Please include JIRA ID or GitHub ID, detailed information about the bug/feature, what all tests are executed, how the reviewer can test this
-feature etc. Incase of UI PRs, a screenshot is preferred.</p>
+feature etc. In case of UI PRs, a screenshot is preferred.</p>
 
 <blockquote><b>IMPORTANT:</b>Make sure you have rebased your <code>feature_x</code> branch to include the latest code from <code>upstream/main</code> <b>before</b>
 you do this.</blockquote>

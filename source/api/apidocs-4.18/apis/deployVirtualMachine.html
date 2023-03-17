@@ -1,0 +1,726 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.18.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>deployVirtualMachine</h1>
+                                        <p>Creates and automatically starts a virtual machine based on a service offering, disk offering, and template.</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>serviceofferingid</strong></td><td style="width:500px;"><strong>the ID of the service offering for the virtual machine</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>templateid</strong></td><td style="width:500px;"><strong>the ID of the template for the virtual machine</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zoneid</strong></td><td style="width:500px;"><strong>availability zone for the virtual machine</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>account</i></td><td style="width:500px;"><i>an optional account for the virtual machine. Must be used with domainId.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>affinitygroupids</i></td><td style="width:500px;"><i>comma separated list of affinity groups id that are going to be applied to the virtual machine. Mutually exclusive with affinitygroupnames parameter</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>affinitygroupnames</i></td><td style="width:500px;"><i>comma separated list of affinity groups names that are going to be applied to the virtual machine.Mutually exclusive with affinitygroupids parameter</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>bootintosetup</i></td><td style="width:500px;"><i>Boot into hardware setup or not (ignored if startVm = false, only valid for vmware)</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>bootmode</i></td><td style="width:500px;"><i>Boot Mode [Legacy] or [Secure] Applicable when Boot Type Selected is UEFI, otherwise Legacy only for BIOS. Not applicable with VMware if the template is marked as deploy-as-is, as we honour what is defined in the template.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>boottype</i></td><td style="width:500px;"><i>Guest VM Boot option either custom[UEFI] or default boot [BIOS]. Not applicable with VMware if the template is marked as deploy-as-is, as we honour what is defined in the template.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>clusterid</i></td><td style="width:500px;"><i>destination Cluster ID to deploy the VM to - parameter available for root admin only</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>copyimagetags</i></td><td style="width:500px;"><i>if true the image tags (if any) will be copied to the VM, default value is false</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>customid</i></td><td style="width:500px;"><i>an optional field, in case you want to set a custom id to the resource. Allowed to Root Admins only</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>datadiskofferinglist</i></td><td style="width:500px;"><i>datadisk template to disk-offering mapping; an optional parameter used to create additional data disks from datadisk templates; can't be specified with diskOfferingId parameter</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>deploymentplanner</i></td><td style="width:500px;"><i>Deployment planner to use for vm allocation. Available to ROOT admin only</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>details</i></td><td style="width:500px;"><i>used to specify the custom parameters. 'extraconfig' is not allowed to be passed in details</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>dhcpoptionsnetworklist</i></td><td style="width:500px;"><i>DHCP options which are passed to the VM on start up Example: dhcpoptionsnetworklist[0].dhcp:114=url&amp;dhcpoptionsetworklist[0].networkid=networkid&amp;dhcpoptionsetworklist[0].dhcp:66=www.test.com</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>diskofferingid</i></td><td style="width:500px;"><i>the ID of the disk offering for the virtual machine. If the template is of ISO format, the diskOfferingId is for the root disk volume. Otherwise this parameter is used to indicate the offering for the data disk volume. If the templateId parameter passed is from a Template object, the diskOfferingId refers to a DATA Disk Volume created. If the templateId parameter passed is from an ISO object, the diskOfferingId refers to a ROOT Disk Volume created.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>displayname</i></td><td style="width:500px;"><i>an optional user generated name for the virtual machine</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>displayvm</i></td><td style="width:500px;"><i>an optional field, whether to the display the vm to the end user or not.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>domainid</i></td><td style="width:500px;"><i>an optional domainId for the virtual machine. If the account parameter is used, domainId must also be used.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>dynamicscalingenabled</i></td><td style="width:500px;"><i>true if virtual machine needs to be dynamically scalable</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>extraconfig</i></td><td style="width:500px;"><i>an optional URL encoded string that can be passed to the virtual machine upon successful deployment</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>group</i></td><td style="width:500px;"><i>an optional group for the virtual machine</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>hostid</i></td><td style="width:500px;"><i>destination Host ID to deploy the VM to - parameter available for root admin only</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>hypervisor</i></td><td style="width:500px;"><i>the hypervisor on which to deploy the virtual machine. The parameter is required and respected only when hypervisor info is not set on the ISO/Template passed to the call</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>iodriverpolicy</i></td><td style="width:500px;"><i>Controls specific policies on IO</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>iothreadsenabled</i></td><td style="width:500px;"><i>IOThreads are dedicated event loop threads for supported disk devices to perform block I/O requests in order to improve scalability especially on an SMP host/guest with many LUNs.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>ip6address</i></td><td style="width:500px;"><i>the ipv6 address for default vm's network</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>ipaddress</i></td><td style="width:500px;"><i>the ip address for default vm's network</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>iptonetworklist</i></td><td style="width:500px;"><i>ip to network mapping. Can't be specified with networkIds parameter. Example: iptonetworklist[0].ip=10.10.10.11&amp;iptonetworklist[0].ipv6=fc00:1234:5678::abcd&amp;iptonetworklist[0].networkid=uuid&amp;iptonetworklist[0].mac=aa:bb:cc:dd:ee::ff - requests to use ip 10.10.10.11 in network id=uuid</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>keyboard</i></td><td style="width:500px;"><i>an optional keyboard device type for the virtual machine. valid value can be one of de,de-ch,es,fi,fr,fr-be,fr-ch,is,it,jp,nl-be,no,pt,uk,us</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>keypair</i></td><td style="width:500px;"><i>name of the ssh key pair used to login to the virtual machine</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>keypairs</i></td><td style="width:500px;"><i>names of the ssh key pairs used to login to the virtual machine</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>macaddress</i></td><td style="width:500px;"><i>the mac address for default vm's network</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>name</i></td><td style="width:500px;"><i>host name for the virtual machine</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>networkids</i></td><td style="width:500px;"><i>list of network ids used by virtual machine. Can't be specified with ipToNetworkList parameter</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>nicnetworklist</i></td><td style="width:500px;"><i>VMware only: used to specify network mapping of a vApp VMware template registered "as-is". Example nicnetworklist[0].ip=Nic-101&amp;nicnetworklist[0].network=uuid</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>overridediskofferingid</i></td><td style="width:500px;"><i>the ID of the disk offering for the virtual machine to be used for root volume instead of the disk offering mapped in service offering.In case of virtual machine deploying from ISO, then the diskofferingid specified for root volume is ignored and uses this override disk offering id</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>podid</i></td><td style="width:500px;"><i>destination Pod ID to deploy the VM to - parameter available for root admin only</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>projectid</i></td><td style="width:500px;"><i>Deploy vm for the project</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>properties</i></td><td style="width:500px;"><i>used to specify the vApp properties.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>rootdisksize</i></td><td style="width:500px;"><i>Optional field to resize root disk on deploy. Value is in GB. Only applies to template-based deployments. Analogous to details[0].rootdisksize, which takes precedence over this parameter if both are provided</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>securitygroupids</i></td><td style="width:500px;"><i>comma separated list of security groups id that going to be applied to the virtual machine. Should be passed only when vm is created from a zone with Basic Network support. Mutually exclusive with securitygroupnames parameter</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>securitygroupnames</i></td><td style="width:500px;"><i>comma separated list of security groups names that going to be applied to the virtual machine. Should be passed only when vm is created from a zone with Basic Network support. Mutually exclusive with securitygroupids parameter</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>size</i></td><td style="width:500px;"><i>the arbitrary size for the DATADISK volume. Mutually exclusive with diskOfferingId</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>startvm</i></td><td style="width:500px;"><i>true if start vm after creating; defaulted to true if not specified</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>userdata</i></td><td style="width:500px;"><i>an optional binary data that can be sent to the virtual machine upon a successful deployment. This binary data must be base64 encoded before adding it to the request. Using HTTP GET (via querystring), you can send up to 4KB of data after base64 encoding. Using HTTP POST(via POST body), you can send up to 1MB of data after base64 encoding.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>userdatadetails</i></td><td style="width:500px;"><i>used to specify the parameters values for the variables in userdata.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>userdataid</i></td><td style="width:500px;"><i>the ID of the Userdata</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">the ID of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>account</strong></td><td style="width:500px;">the account associated with the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>autoscalevmgroupid</strong></td><td style="width:500px;">ID of AutoScale VM group</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>autoscalevmgroupname</strong></td><td style="width:500px;">Name of AutoScale VM group</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>backupofferingid</strong></td><td style="width:500px;">the ID of the backup offering of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>backupofferingname</strong></td><td style="width:500px;">the name of the backup offering of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>bootmode</strong></td><td style="width:500px;">Guest vm Boot Mode</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>boottype</strong></td><td style="width:500px;">Guest vm Boot Type</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cpunumber</strong></td><td style="width:500px;">the number of vCPUs this virtual machine is using</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cpuspeed</strong></td><td style="width:500px;">the speed of each vCPU</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cpuused</strong></td><td style="width:500px;">the amount of the vm's CPU currently used</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>created</strong></td><td style="width:500px;">the date when this virtual machine was created</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>details</strong></td><td style="width:500px;">Vm details in key/value pairs.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskioread</strong></td><td style="width:500px;">the read (IO) of disk on the VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskiowrite</strong></td><td style="width:500px;">the write (IO) of disk on the VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskkbsread</strong></td><td style="width:500px;">the VM's disk read in KiB</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskkbswrite</strong></td><td style="width:500px;">the VM's disk write in KiB</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskofferingid</strong></td><td style="width:500px;">the ID of the disk offering of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskofferingname</strong></td><td style="width:500px;">the name of the disk offering of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>displayname</strong></td><td style="width:500px;">user generated name. The name of the virtual machine is returned if no displayname exists.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>displayvm</strong></td><td style="width:500px;">an optional field whether to the display the vm to the end user or not.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domain</strong></td><td style="width:500px;">the name of the domain in which the virtual machine exists</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainid</strong></td><td style="width:500px;">the ID of the domain in which the virtual machine exists</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>forvirtualnetwork</strong></td><td style="width:500px;">the virtual network for the service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>group</strong></td><td style="width:500px;">the group name of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>groupid</strong></td><td style="width:500px;">the group ID of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>guestosid</strong></td><td style="width:500px;">Os type ID of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>haenable</strong></td><td style="width:500px;">true if high-availability is enabled, false otherwise</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hostcontrolstate</strong></td><td style="width:500px;">the control state of the host for the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hostid</strong></td><td style="width:500px;">the ID of the host for the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hostname</strong></td><td style="width:500px;">the name of the host for the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hypervisor</strong></td><td style="width:500px;">the hypervisor on which the template runs</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>icon</strong></td><td style="width:500px;">Base64 string representation of the resource icon</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>instancename</strong></td><td style="width:500px;">instance name of the user vm; this parameter is returned to the ROOT admin only</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>isdynamicallyscalable</strong></td><td style="width:500px;">true if vm contains XS/VMWare tools inorder to support dynamic scaling of VM cpu/memory.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>isodisplaytext</strong></td><td style="width:500px;">an alternate display text of the ISO attached to the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>isoid</strong></td><td style="width:500px;">the ID of the ISO attached to the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>isoname</strong></td><td style="width:500px;">the name of the ISO attached to the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>keypairs</strong></td><td style="width:500px;">ssh key-pairs</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>lastupdated</strong></td><td style="width:500px;">the date when this virtual machine was updated last time</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>memory</strong></td><td style="width:500px;">the memory allocated for the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>memoryintfreekbs</strong></td><td style="width:500px;">the internal memory (KiB) that's free in VM or zero if it can not be calculated</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>memorykbs</strong></td><td style="width:500px;">the memory used by the VM in KiB</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>memorytargetkbs</strong></td><td style="width:500px;">the target memory in VM (KiB)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;">the name of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkkbsread</strong></td><td style="width:500px;">the incoming network traffic on the VM in KiB</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkkbswrite</strong></td><td style="width:500px;">the outgoing network traffic on the host in KiB</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>osdisplayname</strong></td><td style="width:500px;">OS name of the vm</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ostypeid</strong></td><td style="width:500px;">OS type id of the vm</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>password</strong></td><td style="width:500px;">the password (if exists) of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>passwordenabled</strong></td><td style="width:500px;">true if the password rest feature is enabled, false otherwise</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>pooltype</strong></td><td style="width:500px;">the pool type of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>project</strong></td><td style="width:500px;">the project name of the vm</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>projectid</strong></td><td style="width:500px;">the project id of the vm</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>publicip</strong></td><td style="width:500px;">public IP address id associated with vm via Static nat rule</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>publicipid</strong></td><td style="width:500px;">public IP address id associated with vm via Static nat rule</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>readonlydetails</strong></td><td style="width:500px;">List of read-only Vm details as comma separated string.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>receivedbytes</strong></td><td style="width:500px;">the total number of network traffic bytes received</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>rootdeviceid</strong></td><td style="width:500px;">device ID of the root volume</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>rootdevicetype</strong></td><td style="width:500px;">device type of the root volume</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>sentbytes</strong></td><td style="width:500px;">the total number of network traffic bytes sent</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>serviceofferingid</strong></td><td style="width:500px;">the ID of the service offering of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>serviceofferingname</strong></td><td style="width:500px;">the name of the service offering of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>servicestate</strong></td><td style="width:500px;">State of the Service from LB rule</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>state</strong></td><td style="width:500px;">the state of the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>templatedisplaytext</strong></td><td style="width:500px;"> an alternate display text of the template for the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>templateid</strong></td><td style="width:500px;">the ID of the template for the virtual machine. A -1 is returned if the virtual machine was created from an ISO file.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>templatename</strong></td><td style="width:500px;">the name of the template for the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>userdata</strong></td><td style="width:500px;">Base64 string containing the user data</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>userdatadetails</strong></td><td style="width:500px;">list of variables and values for the variables declared in userdata</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>userdataid</strong></td><td style="width:500px;">the id of userdata used for the VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>userdataname</strong></td><td style="width:500px;">the name of userdata used for the VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>userdatapolicy</strong></td><td style="width:500px;">the userdata override policy with the userdata provided while deploying VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>userid</strong></td><td style="width:500px;">the user's ID who deployed the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>username</strong></td><td style="width:500px;">the user's name who deployed the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vgpu</strong></td><td style="width:500px;">the vGPU type used by the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zoneid</strong></td><td style="width:500px;">the ID of the availablility zone for the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zonename</strong></td><td style="width:500px;">the name of the availability zone for the virtual machine</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>affinitygroup(*)</strong></td><td style="width:500px;">list of affinity groups associated with the virtual machine</td>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>id</strong></td><td style="width:500px;">the ID of the affinity group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>account</strong></td><td style="width:500px;">the account owning the affinity group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>description</strong></td><td style="width:500px;">the description of the affinity group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domain</strong></td><td style="width:500px;">the domain name of the affinity group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domainid</strong></td><td style="width:500px;">the domain ID of the affinity group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>name</strong></td><td style="width:500px;">the name of the affinity group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>project</strong></td><td style="width:500px;">the project name of the affinity group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>projectid</strong></td><td style="width:500px;">the project ID of the affinity group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>type</strong></td><td style="width:500px;">the type of the affinity group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>virtualmachineIds</strong></td><td style="width:500px;">virtual machine IDs associated with this affinity group</td>
+                                            </tr>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>nic(*)</strong></td><td style="width:500px;">the list of nics associated with vm</td>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>id</strong></td><td style="width:500px;">the ID of the nic</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>adaptertype</strong></td><td style="width:500px;">Type of adapter if available</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>broadcasturi</strong></td><td style="width:500px;">the broadcast uri of the nic</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>deviceid</strong></td><td style="width:500px;">device id for the network when plugged into the virtual machine</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>extradhcpoption</strong></td><td style="width:500px;">the extra dhcp options on the nic</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>gateway</strong></td><td style="width:500px;">the gateway of the nic</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>ip6address</strong></td><td style="width:500px;">the IPv6 address of network</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>ip6cidr</strong></td><td style="width:500px;">the cidr of IPv6 network</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>ip6gateway</strong></td><td style="width:500px;">the gateway of IPv6 network</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>ipaddress</strong></td><td style="width:500px;">the ip address of the nic</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>ipaddresses</strong></td><td style="width:500px;">IP addresses associated with NIC found for unmanaged VM</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>isdefault</strong></td><td style="width:500px;">true if nic is default, false otherwise</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>isolatedpvlan</strong></td><td style="width:500px;">the isolated private VLAN if available</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>isolatedpvlantype</strong></td><td style="width:500px;">the isolated private VLAN type if available</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>isolationuri</strong></td><td style="width:500px;">the isolation uri of the nic</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>macaddress</strong></td><td style="width:500px;">true if nic is default, false otherwise</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>mtu</strong></td><td style="width:500px;">MTU configured on the NIC</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>netmask</strong></td><td style="width:500px;">the netmask of the nic</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>networkid</strong></td><td style="width:500px;">the ID of the corresponding network</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>networkname</strong></td><td style="width:500px;">the name of the corresponding network</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>nsxlogicalswitch</strong></td><td style="width:500px;">Id of the NSX Logical Switch (if NSX based), null otherwise</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>nsxlogicalswitchport</strong></td><td style="width:500px;">Id of the NSX Logical Switch Port (if NSX based), null otherwise</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>secondaryip</strong></td><td style="width:500px;">the Secondary ipv4 addr of nic</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>traffictype</strong></td><td style="width:500px;">the traffic type of the nic</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>type</strong></td><td style="width:500px;">the type of the nic</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>virtualmachineid</strong></td><td style="width:500px;">Id of the vm to which the nic belongs</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>vlanid</strong></td><td style="width:500px;">ID of the VLAN/VNI if available</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>vpcid</strong></td><td style="width:500px;">Id of the vpc to which the nic belongs</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>vpcname</strong></td><td style="width:500px;">name of the vpc to which the nic belongs</td>
+                                            </tr>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>securitygroup(*)</strong></td><td style="width:500px;">list of security groups associated with the virtual machine</td>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>id</strong></td><td style="width:500px;">the ID of the security group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>account</strong></td><td style="width:500px;">the account owning the security group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>description</strong></td><td style="width:500px;">the description of the security group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domain</strong></td><td style="width:500px;">the domain name of the security group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domainid</strong></td><td style="width:500px;">the domain ID of the security group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>name</strong></td><td style="width:500px;">the name of the security group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>project</strong></td><td style="width:500px;">the project name of the group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>projectid</strong></td><td style="width:500px;">the project id of the group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>virtualmachinecount</strong></td><td style="width:500px;">the number of virtualmachines associated with this securitygroup</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>virtualmachineids</strong></td><td style="width:500px;">the list of virtualmachine ids associated with this securitygroup</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>egressrule(*)</strong></td><td style="width:500px;">the list of egress rules associated with the security group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">account</td><td style="width:500px;">account owning the security group rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">cidr</td><td style="width:500px;">the CIDR notation for the base IP address of the security group rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">endport</td><td style="width:500px;">the ending IP of the security group rule </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">icmpcode</td><td style="width:500px;">the code for the ICMP message response</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">icmptype</td><td style="width:500px;">the type of the ICMP message response</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">protocol</td><td style="width:500px;">the protocol of the security group rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">ruleid</td><td style="width:500px;">the id of the security group rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">securitygroupname</td><td style="width:500px;">security group name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">startport</td><td style="width:500px;">the starting IP of the security group rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">tags(*)</td><td style="width:500px;">the list of resource tags associated with the rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>ingressrule(*)</strong></td><td style="width:500px;">the list of ingress rules associated with the security group</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">account</td><td style="width:500px;">account owning the security group rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">cidr</td><td style="width:500px;">the CIDR notation for the base IP address of the security group rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">endport</td><td style="width:500px;">the ending IP of the security group rule </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">icmpcode</td><td style="width:500px;">the code for the ICMP message response</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">icmptype</td><td style="width:500px;">the type of the ICMP message response</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">protocol</td><td style="width:500px;">the protocol of the security group rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">ruleid</td><td style="width:500px;">the id of the security group rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">securitygroupname</td><td style="width:500px;">security group name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">startport</td><td style="width:500px;">the starting IP of the security group rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">tags(*)</td><td style="width:500px;">the list of resource tags associated with the rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>tags(*)</strong></td><td style="width:500px;">the list of resource tags associated with the rule</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">account</td><td style="width:500px;">the account associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">customer</td><td style="width:500px;">customer associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">domain</td><td style="width:500px;">the domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">domainid</td><td style="width:500px;">the ID of the domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">key</td><td style="width:500px;">tag key name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">project</td><td style="width:500px;">the project name where tag belongs to</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">projectid</td><td style="width:500px;">the project id the tag belongs to</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">resourceid</td><td style="width:500px;">id of the resource</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">resourcetype</td><td style="width:500px;">resource type</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">value</td><td style="width:500px;">tag value</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>jobid</strong></td><td style="width:500px;">the ID of the latest async job acting on this object</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>jobstatus</strong></td><td style="width:500px;">the current status of the latest async job acting on this object</td>
+                                            </tr>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>jobid</strong></td><td style="width:500px;">the ID of the latest async job acting on this object</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>jobstatus</strong></td><td style="width:500px;">the current status of the latest async job acting on this object</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script type="text/javascript" src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
