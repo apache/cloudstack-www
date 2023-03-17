@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.18.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>quotaTariffCreate</h1>
+                                        <p>Creates a quota tariff for a resource.</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;"><strong>Quota tariff's name</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>usagetype</strong></td><td style="width:500px;"><strong>Integer value for the usage type of the resource.</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>value</strong></td><td style="width:500px;"><strong>The quota tariff value of the resource as per the default unit.</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>activationrule</i></td><td style="width:500px;"><i>Quota tariff's activation rule. It can receive a JS script that results in either a boolean or a numeric value: if it results in a boolean value, the tariff value will be applied according to the result; if it results in a numeric value, the numeric value will be applied; if the result is neither a boolean nor a numeric value, the tariff will not be applied. If the rule is not informed, the tariff value will be applied.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>description</i></td><td style="width:500px;"><i>Quota tariff's description.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>enddate</i></td><td style="width:500px;"><i>The end date of the quota tariff. Use yyyy-MM-dd as the date format, e.g. endDate=2009-06-03.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>startdate</i></td><td style="width:500px;"><i>The effective start date on/after which the quota tariff is effective. Use yyyy-MM-dd as the date format, e.g. startDate=2009-06-03. Inform null to use the current date.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>activationRule</strong></td><td style="width:500px;">activation rule of the quota tariff</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>currency</strong></td><td style="width:500px;">currency</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>description</strong></td><td style="width:500px;">description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>effectiveDate</strong></td><td style="width:500px;">the start date of the quota tariff</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>endDate</strong></td><td style="width:500px;">the end date of the quota tariff</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;">name</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>removed</strong></td><td style="width:500px;">when the quota tariff was removed</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>tariffValue</strong></td><td style="width:500px;">tariffValue</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>usageDiscriminator</strong></td><td style="width:500px;">usageDiscriminator</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>usageName</strong></td><td style="width:500px;">usageName</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>usageType</strong></td><td style="width:500px;">usageType</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>usageTypeDescription</strong></td><td style="width:500px;">usage type description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>usageUnit</strong></td><td style="width:500px;">usageUnit</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>uuid</strong></td><td style="width:500px;">uuid</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script type="text/javascript" src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

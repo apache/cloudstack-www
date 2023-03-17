@@ -35,7 +35,7 @@ notifications:
   commits:      commits@cloudstack.apache.org
   issues:       issues@cloudstack.apache.org
   pullrequests: issues@cloudstack.apache.org
-  jobs:         builds@cloudstack.apache.org
+  jobs:         commits@cloudstack.apache.org
 
 # Staging and publishing profile for yourproject-website.git:
 staging:
