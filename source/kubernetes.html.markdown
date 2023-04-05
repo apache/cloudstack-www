@@ -32,6 +32,20 @@ title: Kubernetes
     background-color: #ecf0f1; 
     border-radius: 10px;
 }
+.title {
+    background-color: #ecf0f1;
+    border-radius: 5px 5px 0 0;
+  } 
+.img-holder-three {           
+    border-radius: 5px;
+    border: 1px solid #ecf0f1;
+}
+.title {
+    padding: 5px 10px;
+}
+.btn {
+    padding: 2px 10px;
+}
 .text-10 {
     padding: 10px;
 }
@@ -119,7 +133,7 @@ title: Kubernetes
     <h2 class="text-center">Explore the Kubernetes Cluster API Provider<br>for Apache CloudStack</h2>
   </div>
   <div class="col-md-6 col-6">
-    <iframe width="100%" height="315" src="https://www.youtube.com/watch?v=NcfVkVT48Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/NcfVkVT48Kk" title="Bootstrapping K8S Cluster using CAPC - Apache CloudStack - Kubernetes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
   <div class="col-md-6 col-6" style="padding-top: 50px;">
     <p>The Kubernetes Cluster API (CAPI) provider for Apache CloudStack allows Ku-
@@ -146,8 +160,8 @@ title: Kubernetes
             vious cluster managers such as kops and kubicorn.</p>
           <a href="https://cluster-api-cloudstack.sigs.k8s.io/getting-started.html"><button type="button" class="btn btn-success" style="margin-top: 20px;">Read more</button></a>
         </div>
-        <div class="col-md-5 px-5">
-            <img src="images/Kubernetes_logo.svg" style="width:200px;float:right" alt="Kubernetes logo" />
+        <div class="col-md-5 px-5" style="text-align:center">
+            <img src="images/Kubernetes_logo.svg" style="width:300px" alt="Kubernetes logo" />
         </div>     
       </div>
     </div>
