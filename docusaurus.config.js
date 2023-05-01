@@ -75,6 +75,9 @@ const config = {
         items: [
           {type: 'doc', docId: 'getting-started', position: 'right', label: 'Docs'},
           {to: '/download', label: 'Download', position: 'right'},
+
+          {type: 'doc', docId: 'community', position: 'right', label: 'Community', docsPluginId: 'community'},
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
             label: 'Documentation',
             position: 'right',
@@ -97,15 +100,17 @@ const config = {
               }
             ]
           },
-          {type: 'doc', docId: 'community', position: 'right', label: 'Community', docsPluginId: 'community'},
-          {to: '/blog', label: 'Blog', position: 'right'},
           {
-            label: 'Users',
+            label: 'Use Cases',
             position: 'right',
             items: [
               {
-                label: 'Known Users',
-                href: '/users'
+                label: 'Cloud Builders',
+                href: '/cloud-builders'
+              },
+              {
+                label: 'Kubernetes',
+                href: '/kubernetes'
               },
               {
                 label: 'Case Studies',
@@ -117,6 +122,7 @@ const config = {
               }
             ]
           },
+          {to: '/users', label: 'Users', position: 'right'},
           {
             href: 'https://github.com/apache/cloudstack',
             position: 'right',
@@ -143,7 +149,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-        'Are you using Apache CloudStack? Please fill <a target="_blank" rel="noopener noreferrer" href="/survey">this survey</a>',
+        'Are you using Apache CloudStack? Please <a target="_blank" rel="noopener noreferrer" href="/survey">take this survey</a>.',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,

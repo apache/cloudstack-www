@@ -10,24 +10,29 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <img src="img/logo.svg" width="20%" />
-        <h1 className="hero__title">{siteConfig.title}</h1>
+    <header className={clsx('hero', styles.heroBanner)}>
+      <div class="container">
+        <h1 className="hero__title">{siteConfig.title}™</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+
+        <p>Apache CloudStack is open source software designed to deploy and manage large networks of virtual machines, as a highly available, highly scalable Infrastructure as a Service (IaaS) cloud computing platform. CloudStack is used by a number of service providers to offer public cloud services, and by many companies to provide an on-premises (private) cloud offering, or as part of a hybrid cloud solution. <a href="/about">Learn More</a>.
+        </p>
+
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="Download">
+            className="button button--primary button--lg"
+            to="download">
             Download
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="http://docs.cloudstack.apache.org/">
+            to="https://docs.cloudstack.apache.org">
             Documentation
           </Link>
         </div>
-        <p className="hero__subtitle">Apache CloudStack is an opensource Infrastructure as a Service (IaaS) cloud computing platform</p>
+      </div>
+      <div className="container">
+        <img src="img/logo.svg" />
       </div>
     </header>
   );
