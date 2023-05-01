@@ -50,10 +50,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Apache CloudStack™',
+        title: '',
         logo: {
           alt: 'apache-cloudstack',
-          src: 'img/cloudstack.png',
+          src: 'img/banner.svg',
         },
         items: [
           {

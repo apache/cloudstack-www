@@ -15,8 +15,8 @@ function HomepageHeader() {
         <img src="img/banner.svg" />
       </div>
       <div class="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">Opensource IaaS cloud computing platform <a class="button button--secondary" href="/about">Learn More</a>
+        <h1 className="hero__title">{siteConfig.title}™</h1>
+        <p className="hero__subtitle">Designed to deploy and manage large networks of virtual machines, as a highly available, highly scalable IaaS cloud computing platform <a class="button button--secondary" href="/about">Learn More</a>
         </p>
         <div className={styles.buttons}>
           <Link
