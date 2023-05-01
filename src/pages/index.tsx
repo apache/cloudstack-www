@@ -11,9 +11,6 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner)}>
-      <div className="container">
-        <img src="img/banner.svg" />
-      </div>
       <div class="container">
         <h1 className="hero__title">{siteConfig.title}™</h1>
         <p className="hero__subtitle">Designed to deploy and manage large networks of virtual machines, as a highly available, highly scalable IaaS cloud computing platform <a class="button button--secondary" href="/about">Learn More</a>
@@ -30,6 +27,9 @@ function HomepageHeader() {
             Documentation
           </Link>
         </div>
+      </div>
+      <div className="container">
+        <img src="img/banner.svg" />
       </div>
     </header>
   );
