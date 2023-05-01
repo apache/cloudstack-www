@@ -93,13 +93,30 @@ const config = {
               },
               {
                 label: 'API Documentation',
-                href: '/api'
+                href: '/api/'
               }
             ]
           },
           {type: 'doc', docId: 'community', position: 'right', label: 'Community', docsPluginId: 'community'},
           {to: '/blog', label: 'Blog', position: 'right'},
-          {to: '/users', label: 'Users', position: 'right'},
+          {
+            label: 'Users',
+            position: 'right',
+            items: [
+              {
+                label: 'Known Users',
+                href: '/users'
+              },
+              {
+                label: 'Case Studies',
+                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/Case+Studies'
+              },
+              {
+                label: 'Take Survey',
+                href: '/survey'
+              }
+            ]
+          },
           {
             href: 'https://github.com/apache/cloudstack',
             position: 'right',
@@ -126,7 +143,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-        'Fancy annoucement bar, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+        'Are you using Apache CloudStack? Please fill <a target="_blank" rel="noopener noreferrer" href="/survey">this survey</a>',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,

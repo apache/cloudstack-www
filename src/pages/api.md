@@ -14,40 +14,40 @@ request](https://github.com/apache/cloudstack-www).
 
 # 4.18.x
 
-[All APIs](apidocs-4.18/)
+<a href="/api/apidocs-4.18/" target="_blank">All APIs</a>
 
 # 4.17.x
 
-[All APIs](apidocs-4.17/)
+<a href="/api/apidocs-4.17/" target="_blank">All APIs</a>
 
 # 4.16.x
 
-[All APIs](apidocs-4.16/)
+<a href="/api/apidocs-4.16/" target="_blank">All APIs</a>
 
 # 4.15.x
 
-[All APIs](apidocs-4.15/)
+<a href="/api/apidocs-4.15/" target="_blank">All APIs</a>
 
 # 4.14.x
 
-[All APIs](apidocs-4.14/)
+<a href="/api/apidocs-4.14/" target="_blank">All APIs</a>
 
 # 4.13.x
 
-[All APIs](apidocs-4.13/)
+<a href="/api/apidocs-4.13/" target="_blank">All APIs</a>
 
 # 4.12.x
 
-[All APIs](apidocs-4.12/)
+<a href="/api/apidocs-4.12/" target="_blank">All APIs</a>
 
 # 4.11.x
 
-[All APIs](apidocs-4.11/)
+<a href="/api/apidocs-4.11/" target="_blank">All APIs</a>
 
 # 4.10.x
 
-[All APIs](apidocs-4.10/)
+<a href="/api/apidocs-4.10/" target="_blank">All APIs</a>
 
 # 4.9.x
 
-[All APIs](apidocs-4.9/)
+<a href="/api/apidocs-4.9/" target="_blank">All APIs</a>
