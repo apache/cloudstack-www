@@ -1,5 +1,6 @@
 ---
 title: Apache CloudStack API Documentation
+slug: api
 ---
 
 # Apache CloudStack API Documentation
@@ -51,3 +52,5 @@ request](https://github.com/apache/cloudstack-www).
 # 4.9.x
 
 <a href="/api/apidocs-4.9/" target="_blank">All APIs</a>
+
+O﻿ther older releases
