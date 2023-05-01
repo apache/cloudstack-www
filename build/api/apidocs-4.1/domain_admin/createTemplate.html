@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../includes/main.css" type="text/css">
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+<title>Apache CloudStack | The Power Behind Your Cloud</title>
+</head>
+<body>
+<div id="insidetopbg">
+<div id="inside_wrapper">
+<div class="uppermenu_panel">
+<div class="uppermenu_box"></div>
+</div>
+<div id="main_master">
+<div id="inside_header">
+<div class="header_top">
+<a class="cloud_logo" href="http://cloudstack.org"></a>
+<div class="mainemenu_panel"></div>
+</div>
+</div>
+<div id="main_content">
+<div class="inside_apileftpanel">
+<div class="inside_contentpanel" style="width:930px;">
+<div class="api_titlebox">
+<div class="api_titlebox_left">
+<span>
+									Apache CloudStack v4.1.0 Domain Admin API Reference
+								</span>
+<p></p>
+<h1>createTemplate</h1>
+<p>Creates a template of a virtual machine. The virtual machine must be in a STOPPED state. A template created from this command is automatically designated as a private template visible to the account that created it.</p>
+</div>
+<div class="api_titlebox_right">
+<a class="api_backbutton" href="../TOC_Domain_Admin.html"></a>
+</div>
+</div>
+<div class="api_tablepanel">
+<h2>Request parameters</h2>
+<table class="apitable">
+<tr class="hed">
+<td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>displaytext</strong></td><td style="width:500px;"><strong>the display text of the template. This is usually used for display purposes.</strong></td><td style="width:180px;"><strong>true</strong></td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>name</strong></td><td style="width:500px;"><strong>the name of the template</strong></td><td style="width:180px;"><strong>true</strong></td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>ostypeid</strong></td><td style="width:500px;"><strong>the ID of the OS Type that best represents the OS of this template.</strong></td><td style="width:180px;"><strong>true</strong></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>bits</i></td><td style="width:500px;"><i>32 or 64 bit</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>details</i></td><td style="width:500px;"><i>Template details in key/value pairs.</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>isfeatured</i></td><td style="width:500px;"><i>true if this template is a featured template, false otherwise</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>ispublic</i></td><td style="width:500px;"><i>true if this template is a public template, false otherwise</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>passwordenabled</i></td><td style="width:500px;"><i>true if the template supports the password reset feature; default is false</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>requireshvm</i></td><td style="width:500px;"><i>true if the template requres HVM, false otherwise</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>snapshotid</i></td><td style="width:500px;"><i>the ID of the snapshot the template is being created from. Either this parameter, or volumeId has to be passed in</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>templatetag</i></td><td style="width:500px;"><i>the tag for this template.</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>url</i></td><td style="width:500px;"><i>Optional, only for baremetal hypervisor. The directory name where template stored on CIFS server</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>virtualmachineid</i></td><td style="width:500px;"><i>Optional, VM ID. If this presents, it is going to create a baremetal template for VM this ID refers to. This is only for VM whose hypervisor type is BareMetal</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+<tr>
+<td style="width:200px;"><i>volumeid</i></td><td style="width:500px;"><i>the ID of the disk volume the template is being created from. Either this parameter, or snapshotId has to be passed in</i></td><td style="width:180px;"><i>false</i></td>
+</tr>
+</table>
+</div>
+<div class="api_tablepanel">
+<h2>Response Tags</h2>
+<table class="apitable">
+<tr class="hed">
+<td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>id</strong></td><td style="width:500px;">the ID of the storage pool</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>clusterid</strong></td><td style="width:500px;">the ID of the cluster for the storage pool</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>clustername</strong></td><td style="width:500px;">the name of the cluster for the storage pool</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>created</strong></td><td style="width:500px;">the date and time the storage pool was created</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>disksizeallocated</strong></td><td style="width:500px;">the host's currently allocated disk size</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>disksizetotal</strong></td><td style="width:500px;">the total disk size of the storage pool</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>disksizeused</strong></td><td style="width:500px;">the host's currently used disk size</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>ipaddress</strong></td><td style="width:500px;">the IP address of the storage pool</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>name</strong></td><td style="width:500px;">the name of the storage pool</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>path</strong></td><td style="width:500px;">the storage pool path</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>podid</strong></td><td style="width:500px;">the Pod ID of the storage pool</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>podname</strong></td><td style="width:500px;">the Pod name of the storage pool</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>state</strong></td><td style="width:500px;">the state of the storage pool</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>tags</strong></td><td style="width:500px;">the tags for the storage pool</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>type</strong></td><td style="width:500px;">the storage pool type</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>zoneid</strong></td><td style="width:500px;">the Zone ID of the storage pool</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>zonename</strong></td><td style="width:500px;">the Zone name of the storage pool</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>jobid</strong></td><td style="width:500px;">the ID of the latest async job acting on this object</td>
+</tr>
+<tr>
+<td style="width:200px;"><strong>jobstatus</strong></td><td style="width:500px;">the current status of the latest async job acting on this object</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer_mainmaster">
+<p>Copyright &copy; 2012 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+<br>
+                Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
