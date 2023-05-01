@@ -16,7 +16,7 @@ title: Apache CloudStack deprecated API Documentation
 
 </div>
 
-Below are API reference material for older version of Apache CloudStack, provided by major feature version.  Each feature version supports three levels of access, and the available API commands for each level are provided seperately.
+Below are API reference material for older version of Apache CloudStack, provided by major feature version.  Each feature version supports three levels of access, and the available API commands for each level are provided separately.
 
 If you find problems or see ways in which this API reference can be enhanced
 we would welcome your help, please file a bug in the
