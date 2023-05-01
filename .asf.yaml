@@ -37,7 +37,7 @@ notifications:
   pullrequests: issues@cloudstack.apache.org
   jobs:         commits@cloudstack.apache.org
 
-# Staging and publishing profile for yourproject-website.git:
+# Staging and publishing profile, published at https://cloudstack.staged.apache.org/
 staging:
   profile: ~
   whoami: docusaurus-staging
