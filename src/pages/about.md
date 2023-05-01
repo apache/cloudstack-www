@@ -22,8 +22,7 @@ Network-as-a-Service, user and account management, a full and open native API,
 resource accounting, and a first-class User Interface (UI).
 
 CloudStack currently supports the most popular hypervisors: KVM, VMware, Citrix
-XenServer/Hypervisor, Xen Cloud Platform (XCP), Oracle VM server and Microsoft
-Hyper-V.
+XenServer/Hypervisor, XCP-ng, Oracle VM server and Microsoft Hyper-V.
 
 Users can manage their cloud with an easy to use Web interface, command line
 tools, and/or a full-featured RESTful API. In addition, CloudStack provides an
