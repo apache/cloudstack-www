@@ -75,6 +75,28 @@ const config = {
         items: [
           {type: 'doc', docId: 'getting-started', position: 'right', label: 'Docs'},
           {to: '/download', label: 'Download', position: 'right'},
+          {
+            label: 'Documentation',
+            position: 'right',
+            items: [
+              {
+                label: 'CloudStack Documentation',
+                href: 'https://docs.cloudstack.apache.org'
+              },
+              {
+                label: 'Wiki',
+                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home'
+              },
+              {
+                label: 'Books',
+                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Books'
+              },
+              {
+                label: 'API Documentation',
+                href: '/api'
+              }
+            ]
+          },
           {type: 'doc', docId: 'community', position: 'right', label: 'Community', docsPluginId: 'community'},
           {to: '/blog', label: 'Blog', position: 'right'},
           {to: '/users', label: 'Users', position: 'right'},
