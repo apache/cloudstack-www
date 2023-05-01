@@ -12,15 +12,19 @@ releases receive only critical bug fixes for a short period. The general
 expectation is that the users of the main version will upgrade to a new version
 in order to receive fixes.
 
+Looking for other versions of Apache CloudStack? You can find them in our
+[archives](/archives) page and under [Github
+releases](https://github.com/apache/cloudstack/releases).
+
 ### Source Releases
 
 Apache CloudStack's most recent release is `4.18.0.0`. This is current
 CloudStack LTS release.
 
 <a class="button button--primary button--lg" href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.18.0.0/apache-cloudstack-4.18.0.0-src.tar.bz2">Get the 4.18.0.0 Source</a>
-<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/KEYS">KEYS</a>
-<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/releases/4.18.0.0/apache-cloudstack-4.18.0.0-src.tar.bz2.asc">PGP</a>
-<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/releases/4.18.0.0/apache-cloudstack-4.18.0.0-src.tar.bz2.sha512">SHA512</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/KEYS">KEYS</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/releases/4.18.0.0/apache-cloudstack-4.18.0.0-src.tar.bz2.asc">PGP</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/releases/4.18.0.0/apache-cloudstack-4.18.0.0-src.tar.bz2.sha512">SHA512</a>
 
 Full release notes can be found in the version [4.18.0.0 Release
 Notes](https://docs.cloudstack.apache.org/en/4.18.0.0/releasenotes/) website.
@@ -36,9 +40,9 @@ The latest CloudStack LTS maintenance release is `4.17.2.0` as part of the LTS
 4.17.x releases.
 
 <a class="button button--primary button--lg" href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.17.2.0/apache-cloudstack-4.17.2.0-src.tar.bz2">Get the 4.17.2.0 Source</a>
-<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/KEYS">KEYS</a>
-<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/releases/4.17.2.0/apache-cloudstack-4.17.2.0-src.tar.bz2.asc">PGP</a>
-<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/releases/4.17.2.0/apache-cloudstack-4.17.2.0-src.tar.bz2.sha512">SHA512</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/KEYS">KEYS</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/releases/4.17.2.0/apache-cloudstack-4.17.2.0-src.tar.bz2.asc">PGP</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/releases/4.17.2.0/apache-cloudstack-4.17.2.0-src.tar.bz2.sha512">SHA512</a>
 
 Full release notes can be found in the version [4.17.2.0 Release
 Notes](https://docs.cloudstack.apache.org/en/4.17.2.0/releasenotes/) website.
@@ -71,22 +75,24 @@ section of the Installation Guide.
 
 ### 3rd Party Packages Repositories
 
-Apache CloudStack (noredist) packages by [ShapeBlue](https://www.shapeblue.com/):<br/>
-https://shapeblue.com/packages
+Apache CloudStack (noredist) packages by [ShapeBlue](https://www.shapeblue.com/): https://shapeblue.com/packages
 
 ## CloudMonkey Releases
 
 Apache CloudStack's CloudMonkey tool is a CLI and shell environment designed for
-interacting with CloudStack-based clouds.
+interacting with CloudStack-based clouds. For installing, upgrade, usage, please
+see the [documentation
+wiki](https://github.com/apache/cloudstack-cloudmonkey/wiki/Getting-Started#installation).
 
 ### Source Release
 
-CloudMonkey's current release is `6.2.0`.
+CloudMonkey's current release is `v6.2.0`.
 
 <a class="button button--primary button--lg" href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-6.2.0/apache-cloudstack-cloudmonkey-6.2.0-src.tar.bz2">Get the 6.2.0 Source</a>
-<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/KEYS">KEYS</a>
-<a class="button button--secondary button--small" href="https://www.apache.org/dist/cloudstack/releases/cloudmonkey-6.2.0/apache-cloudstack-cloudmonkey-6.2.0-src.tar.bz2.asc">PGP</a>
-<a class="button button--secondary button--small" href="https://www.apache.org/dist/cloudstack/releases/cloudmonkey-6.2.0/apache-cloudstack-cloudmonkey-6.2.0-src.tar.bz2.sha512">SHA512</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/KEYS">KEYS</a>
+<a class="button button--secondary button--sm" href="https://www.apache.org/dist/cloudstack/releases/cloudmonkey-6.2.0/apache-cloudstack-cloudmonkey-6.2.0-src.tar.bz2.asc">PGP</a>
+<a class="button button--secondary button--sm" href="https://www.apache.org/dist/cloudstack/releases/cloudmonkey-6.2.0/apache-cloudstack-cloudmonkey-6.2.0-src.tar.bz2.sha512">SHA512</a><br/>
+<br/>
 
 ### Binary Builds Release
 
@@ -95,14 +101,73 @@ supplemented by community members who have pushed the binary to the [Apache
 CloudStack CloudMonkey Github release
 page](https://github.com/apache/cloudstack-cloudmonkey/releases).
 
-For installing, upgrade, usage, please see the [documentation
-wiki](https://github.com/apache/cloudstack-cloudmonkey/wiki/Getting-Started#installation).
+## CloudStack Go-SDK
+
+The CloudStack Go-SDK provides CloudStack API client and binding enabling Go
+programs to interact with CloudStack in a simple and uniform way. The CloudStack
+Go-SDK is widely used by several projects such as the [CloudStack Terraform
+Provider](https://github.com/apache/cloudstack-terraform-provider), the
+[CloudStack Kubernetes
+Provider](https://github.com/apache/cloudstack-kubernetes-provider), and CAPC -
+the [Kubernetes Cluster API Provider for Apache
+CloudStack](https://cluster-api-cloudstack.sigs.k8s.io/).
+
+The community-maintained releases are published directly as the project Github
+releases for every CloudStack major release: https://github.com/apache/cloudstack-go/releases
+
+## CloudStack Terraform Provider Release
+
+The [CloudStack Terraform
+Provider](https://github.com/apache/cloudstack-terraform-provider) allows
+Terraform users to manage and use CloudStack. The [documentation is available
+here](https://registry.terraform.io/providers/cloudstack/cloudstack/latest/docs).
+
+### Source Release
+
+The current release is `v0.4.0`.
+
+<a class="button button--primary button--lg" href="https://www.apache.org/dyn/closer.lua/cloudstack/releases/terraform-provider-0.4.0/apache-cloudstack-terraform-provider-0.4.0-src.tar.bz2">Get the v0.4.0 Source</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/KEYS">KEYS</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/releases/terraform-provider-0.4.0/apache-cloudstack-terraform-provider-0.4.0-src.tar.bz2.asc">PGP</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/releases/terraform-provider-0.4.0/apache-cloudstack-terraform-provider-0.4.0-src.tar.bz2.sha512">SHA512</a><br/>
+<br/>
+
+### Using Terraform Registry
+
+Users can use the CloudStack Terraform provider directly using the registry:
+https://registry.terraform.io/providers/cloudstack/cloudstack
+
+Binaries are also available at project releases page:
+https://github.com/apache/cloudstack-terraform-provider
+
+## CloudStack Kubernetes Provider Release
+
+The [CloudStack Kubernetes
+Provider](https://github.com/apache/cloudstack-kubernetes-provider) allows
+Kubernetes users to facilitate Kubernetes deployments on Cloudstack.
+[Documentation is available
+here](https://docs.cloudstack.apache.org/en/latest/plugins/cloudstack-kubernetes-provider.html).
+
+### Source Release
+
+The current release is `v1.0.0`.
+
+<a class="button button--primary button--lg" href="https://www.apache.org/dyn/closer.lua/cloudstack/releases/kubernetes-provider-v1.0.0/apache-cloudstack-kubernetes-provider-v1.0.0-src.tar.bz2">Get the v1.0.0 Source</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/KEYS">KEYS</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/releases/kubernetes-provider-v1.0.0/apache-cloudstack-kubernetes-provider-v1.0.0-src.tar.bz2.asc">PGP</a>
+<a class="button button--secondary button--sm" href="https://downloads.apache.org/cloudstack/releases/kubernetes-provider-v1.0.0/apache-cloudstack-kubernetes-provider-v1.0.0-src.tar.bz2.sha512">SHA512</a><br/>
+<br/>
+
+### Docker Release
+
+The CloudStack Kubernetes Provider is published as a docker image and available
+for users at: https://hub.docker.com/r/apache/cloudstack-kubernetes-provider
 
 ## Verifying Downloads
 
 It's essential that you verify the integrity of the downloaded files using the
 PGP or SHA512 signatures. The PGP signatures can be verified using PGP or GPG.
-First download the [KEYS](https://downloads.apache.org/cloudstack/KEYS) as well
+First download the [`KEYS`](https://downloads.apache.org/cloudstack/KEYS) as well
 as the asc signature file for the relevant distribution. Make sure you get these
 files from the main distribution directory, rather than from a mirror. Then
 verify the signatures using:
@@ -135,9 +200,4 @@ Additionally, you can verify the SHA512 signatures on the files, by performing:
 ```
 $ sha512sum --check apache-cloudstack-X.X.X-src.tar.bz2.sha512
 ```
-
-## Archived Releases
-
-You can find links to all the releases of Apache CloudStack on the [archives
-page](/archives).
 

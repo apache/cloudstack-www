@@ -8,28 +8,31 @@ const FeatureList = [
     Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        CloudStack was designed from the ground up to be easily installed and
+        used to get your IaaS cloud infrastructure up and running. It has a
+        great UI, CLI, API/SDKs and tooling.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Turnkey and Robust',
     Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        CloudStack is turnkey, robust, durable and battle tested. It comes with tons of
+        features that just work out of the box. It's easy to install, manage,
+        operate and upgrade CloudStack environments of any size.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Highly Available and Scalable',
     Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        CloudStack is highly available and massively scalable. Some of the
+        world's largest organisations use it and have built very large scale
+        IaaS cloud environments using it.
       </>
     ),
   },

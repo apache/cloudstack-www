@@ -11,13 +11,13 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner)}>
+      <div className="container">
+        <img src="img/banner.svg" />
+      </div>
       <div class="container">
-        <h1 className="hero__title">{siteConfig.title}™</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-
-        <p>Apache CloudStack is open source software designed to deploy and manage large networks of virtual machines, as a highly available, highly scalable Infrastructure as a Service (IaaS) cloud computing platform. CloudStack is used by a number of service providers to offer public cloud services, and by many companies to provide an on-premises (private) cloud offering, or as part of a hybrid cloud solution. <a href="/about">Learn More</a>.
+        <h1 className="hero__title">{siteConfig.title}</h1>
+        <p className="hero__subtitle">An easy to use, robust, turnkey, highly available and scalable infrastructure-as-a-service (IaaS) opensource cloud computing platform <a class="button button--secondary" href="/about">Learn More</a>
         </p>
-
         <div className={styles.buttons}>
           <Link
             className="button button--primary button--lg"
@@ -31,9 +31,6 @@ function HomepageHeader() {
           </Link>
         </div>
       </div>
-      <div className="container">
-        <img src="img/logo.svg" />
-      </div>
     </header>
   );
 }
@@ -43,7 +40,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Apache Kvrocks is a distributed key value NoSQL database that uses RocksDB as storage engine and is compatible with Redis protocol.">
+      description="Apache CloudStack is an opensource infrastructure-as-a-service cloud computing platform that is easy to use, turnkey, highly available and highly scalable.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

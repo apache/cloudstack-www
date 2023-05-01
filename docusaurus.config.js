@@ -15,15 +15,6 @@ const config = {
   favicon: 'img/favicon.ico',
 
   plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'community',
-        path: 'community',
-        routeBasePath: 'community',
-        sidebarPath: require.resolve('./sidebarsCommunity.js'),
-      },
-    ],
     ['docusaurus-plugin-sass', {}],
   ],
 
@@ -96,7 +87,7 @@ const config = {
             ]
           },
           {to: '/blog', label: 'Blog', position: 'right'},
-          {type: 'doc', docId: 'community', position: 'right', label: 'Community', docsPluginId: 'community'},
+          //{type: 'doc', docId: 'community', position: 'right', label: 'Community', docsPluginId: 'community'},
           //{type: 'doc', docId: 'getting-started', position: 'right', label: 'Docs'},
           {
             label: 'Download',
@@ -107,8 +98,28 @@ const config = {
                 href: '/download#latest-cloudstack-releases'
               },
               {
-                label: 'CloudMonkey',
+                label: 'CloudMonkey CLI',
                 href: '/download#cloudmonkey-releases'
+              },
+              {
+                label: 'CloudStack Go-SDK',
+                href: '/download#cloudstack-go-sdk',
+              },
+              {
+                label: 'CloudStack Terraform Provider',
+                href: '/download#cloudstack-terraform-provider-release'
+              },
+              {
+                label: 'CloudStack Kubernetes Provider',
+                href: '/download#cloudstack-kubernetes-provider-release'
+              },
+              {
+                label: 'CAPI Provider CloudStack (Community)',
+                href: 'https://cluster-api-cloudstack.sigs.k8s.io/'
+              },
+              {
+                label: 'CloudStack Ansible Collection (Community)',
+                href: 'https://docs.ansible.com/ansible/latest/collections/ngine_io/cloudstack'
               },
               {
                 label: 'Release Archive',
