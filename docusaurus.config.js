@@ -24,14 +24,6 @@ const config = {
         sidebarPath: require.resolve('./sidebarsCommunity.js'),
       },
     ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'download',
-        path: 'download',
-        routeBasePath: 'download',
-      },
-    ],
     ['docusaurus-plugin-sass', {}],
   ],
 
@@ -73,11 +65,57 @@ const config = {
           src: 'img/cloudstack.png',
         },
         items: [
-          {type: 'doc', docId: 'getting-started', position: 'right', label: 'Docs'},
-          {to: '/download', label: 'Download', position: 'right'},
-
-          {type: 'doc', docId: 'community', position: 'right', label: 'Community', docsPluginId: 'community'},
+          {
+            label: 'About',
+            position: 'right',
+            items: [
+              {
+                label: 'About',
+                href: '/about'
+              },
+              {
+                label: 'History',
+                href: '/history'
+              },
+              {
+                label: 'Features',
+                href: '/features'
+              },
+              {
+                label: 'Community Bylaws',
+                href: '/bylaws'
+              },
+              {
+                label: 'Who We Are',
+                href: '/who'
+              },
+              {
+                label: 'Security',
+                href: '/security'
+              }
+            ]
+          },
           {to: '/blog', label: 'Blog', position: 'right'},
+          {type: 'doc', docId: 'community', position: 'right', label: 'Community', docsPluginId: 'community'},
+          //{type: 'doc', docId: 'getting-started', position: 'right', label: 'Docs'},
+          {
+            label: 'Download',
+            position: 'right',
+            items: [
+              {
+                label: 'CloudStack',
+                href: '/download#latest-cloudstack-releases'
+              },
+              {
+                label: 'CloudMonkey',
+                href: '/download#cloudmonkey-releases'
+              },
+              {
+                label: 'Release Archive',
+                href: '/archives'
+              }
+            ]
+          },
           {
             label: 'Documentation',
             position: 'right',

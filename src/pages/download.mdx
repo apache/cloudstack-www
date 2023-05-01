@@ -1,0 +1,143 @@
+---
+title: Apache CloudStack Downloads
+---
+
+## Latest CloudStack Releases
+
+The CloudStack community maintains two types of releases; the main releases and
+the LTS (Long Term Support) releases. The LTS releases receive bug and security
+fixes for a period of 18 months after the main release (for more details [click
+here](https://cwiki.apache.org/confluence/display/CLOUDSTACK/LTS)). The main
+releases receive only critical bug fixes for a short period. The general
+expectation is that the users of the main version will upgrade to a new version
+in order to receive fixes.
+
+### Source Releases
+
+Apache CloudStack's most recent release is `4.18.0.0`. This is current
+CloudStack LTS release.
+
+<a class="button button--primary button--lg" href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.18.0.0/apache-cloudstack-4.18.0.0-src.tar.bz2">Get the 4.18.0.0 Source</a>
+<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/KEYS">KEYS</a>
+<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/releases/4.18.0.0/apache-cloudstack-4.18.0.0-src.tar.bz2.asc">PGP</a>
+<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/releases/4.18.0.0/apache-cloudstack-4.18.0.0-src.tar.bz2.sha512">SHA512</a>
+
+Full release notes can be found in the version [4.18.0.0 Release
+Notes](https://docs.cloudstack.apache.org/en/4.18.0.0/releasenotes/) website.
+
+Instructions for building from source and installing Apache CloudStack can be
+found in the [Installation
+Guide](https://docs.cloudstack.apache.org/en/4.18.0.0/installguide/).
+Instructions for building from source and upgrading from a previous version of
+CloudStack to Apache CloudStack 4.18.0.0 can be found in the upgrade section of
+the Release Notes (see above).
+
+The latest CloudStack LTS maintenance release is `4.17.2.0` as part of the LTS
+4.17.x releases.
+
+<a class="button button--primary button--lg" href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/4.17.2.0/apache-cloudstack-4.17.2.0-src.tar.bz2">Get the 4.17.2.0 Source</a>
+<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/KEYS">KEYS</a>
+<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/releases/4.17.2.0/apache-cloudstack-4.17.2.0-src.tar.bz2.asc">PGP</a>
+<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/releases/4.17.2.0/apache-cloudstack-4.17.2.0-src.tar.bz2.sha512">SHA512</a>
+
+Full release notes can be found in the version [4.17.2.0 Release
+Notes](https://docs.cloudstack.apache.org/en/4.17.2.0/releasenotes/) website.
+
+Instructions for building from source and installing Apache CloudStack can be
+found in the [Installation
+Guide](https://docs.cloudstack.apache.org/en/4.17.2.0/installguide/).
+Instructions for building from source and upgrading from a previous version of
+CloudStack to Apache CloudStack 4.17.2.0 can be found in the upgrade section of
+the Release Notes (see above).
+
+### Community Packages Repositories
+
+For easier installation or upgrades, the official source code release has been
+supplemented by community members who have chosen to provide package
+repositories that also include noredist libraries.
+
+- EL9 RPM repository: http://download.cloudstack.org/el/9/
+- EL8 RPM repository: http://download.cloudstack.org/el/8/
+- EL7 RPM repository: http://download.cloudstack.org/el/7/
+- SUSE/openSUSE 15 RPM repository: http://download.cloudstack.org/suse/15/
+- Ubuntu DEB repository: http://download.cloudstack.org/ubuntu
+- Experimental ARM64 Ubuntu/DEB repository: http://download.cloudstack.org/arm64/
+- Old CentOS/RHEL 6 RPM repository (for 4.13 and older releases): http://download.cloudstack.org/centos/6/
+
+Instructions for using these community provided repositories can be found in the
+[Configure Package
+Repository](http://docs.cloudstack.apache.org/en/latest/installguide/management-server/#configure-package-repository)
+section of the Installation Guide.
+
+### 3rd Party Packages Repositories
+
+Apache CloudStack (noredist) packages by [ShapeBlue](https://www.shapeblue.com/):<br/>
+https://shapeblue.com/packages
+
+## CloudMonkey Releases
+
+Apache CloudStack's CloudMonkey tool is a CLI and shell environment designed for
+interacting with CloudStack-based clouds.
+
+### Source Release
+
+CloudMonkey's current release is `6.2.0`.
+
+<a class="button button--primary button--lg" href="http://www.apache.org/dyn/closer.lua/cloudstack/releases/cloudmonkey-6.2.0/apache-cloudstack-cloudmonkey-6.2.0-src.tar.bz2">Get the 6.2.0 Source</a>
+<a class="button button--secondary button--small" href="https://downloads.apache.org/cloudstack/KEYS">KEYS</a>
+<a class="button button--secondary button--small" href="https://www.apache.org/dist/cloudstack/releases/cloudmonkey-6.2.0/apache-cloudstack-cloudmonkey-6.2.0-src.tar.bz2.asc">PGP</a>
+<a class="button button--secondary button--small" href="https://www.apache.org/dist/cloudstack/releases/cloudmonkey-6.2.0/apache-cloudstack-cloudmonkey-6.2.0-src.tar.bz2.sha512">SHA512</a>
+
+### Binary Builds Release
+
+For easier installation or upgrades, the official source code release has been
+supplemented by community members who have pushed the binary to the [Apache
+CloudStack CloudMonkey Github release
+page](https://github.com/apache/cloudstack-cloudmonkey/releases).
+
+For installing, upgrade, usage, please see the [documentation
+wiki](https://github.com/apache/cloudstack-cloudmonkey/wiki/Getting-Started#installation).
+
+## Verifying Downloads
+
+It's essential that you verify the integrity of the downloaded files using the
+PGP or SHA512 signatures. The PGP signatures can be verified using PGP or GPG.
+First download the [KEYS](https://downloads.apache.org/cloudstack/KEYS) as well
+as the asc signature file for the relevant distribution. Make sure you get these
+files from the main distribution directory, rather than from a mirror. Then
+verify the signatures using:
+
+```
+$ gpg --import KEYS
+$ gpg --verify apache-cloudstack-X.X.X-src.tar.bz2.asc apache-cloudstack-X.X.X-src.tar.bz2
+```
+
+or,
+
+```
+$ pgp -ka KEYS
+$ pgp apache-cloudstack-X.X.X-src.tar.bz2.asc
+```
+
+or,
+
+```
+$ pgpk -a KEYS
+$ pgpv apache-cloudstack-X.X.X-src.tar.bz2.asc
+```
+
+Please see
+[CheckingSignatures](https://www.apache.org/info/verification.html#CheckingSignatures)
+for a more extensive explanation of the pgp verification.
+
+Additionally, you can verify the SHA512 signatures on the files, by performing:
+
+```
+$ sha512sum --check apache-cloudstack-X.X.X-src.tar.bz2.sha512
+```
+
+## Archived Releases
+
+You can find links to all the releases of Apache CloudStack on the [archives
+page](/archives).
+
