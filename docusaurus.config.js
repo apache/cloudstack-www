@@ -202,7 +202,7 @@ const config = {
           Copyright © ${new Date().getFullYear()} The Apache Software Foundation, Licensed under the Apache License, Version 2.0.
           "Apache", "CloudStack", "Apache CloudStack", the Apache CloudStack logo, the Apache CloudStack Cloud Monkey logo and the Apache feather logos are registered trademarks or trademarks of The Apache Software Foundation.
 
-          <br/><a href="https://cloudstack.apache.org/trademark-guidelines.html">Apache CloudStack Trademark Usage</a> - <a href="https://cloudstack.apache.org/bylaws.html">Apache CloudStack Community ByLaws</a>
+          <br/><a href="/trademark-guidelines">Apache CloudStack Trademark Usage</a> - <a href="/bylaws">Apache CloudStack Community ByLaws</a>
           </span></div></div>`,
       },
       prism: {
