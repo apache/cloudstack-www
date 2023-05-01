@@ -16,7 +16,7 @@ function HomepageHeader() {
       </div>
       <div class="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">An easy to use, robust, turnkey, highly available and scalable infrastructure-as-a-service (IaaS) opensource cloud computing platform <a class="button button--secondary" href="/about">Learn More</a>
+        <p className="hero__subtitle">Opensource IaaS cloud computing platform <a class="button button--secondary" href="/about">Learn More</a>
         </p>
         <div className={styles.buttons}>
           <Link

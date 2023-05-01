@@ -5,18 +5,19 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/logo.svg').default,
+    Svg: require('@site/static/img/features/easy.svg').default,
     description: (
       <>
         CloudStack was designed from the ground up to be easily installed and
-        used to get your IaaS cloud infrastructure up and running. It has a
-        great UI, CLI, API/SDKs and tooling.
+        used to get your infrastructure-as-a-service (IaaS) cloud environment
+        up and running. It has a modern and rich UI, CLI, API/SDKs and several
+        tooling options and integrations.
       </>
     ),
   },
   {
     title: 'Turnkey and Robust',
-    Svg: require('@site/static/img/logo.svg').default,
+    Svg: require('@site/static/img/features/robust.svg').default,
     description: (
       <>
         CloudStack is turnkey, robust, durable and battle tested. It comes with tons of
@@ -27,7 +28,7 @@ const FeatureList = [
   },
   {
     title: 'Highly Available and Scalable',
-    Svg: require('@site/static/img/logo.svg').default,
+    Svg: require('@site/static/img/features/available.svg').default,
     description: (
       <>
         CloudStack is highly available and massively scalable. Some of the
@@ -36,6 +37,45 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: 'End-to-End Encryption and Privacy',
+    Svg: require('@site/static/img/features/security.svg').default,
+    description: (
+      <>
+        CloudStack offers out of the box end-to-end encryption and privacy
+        features with security features enabled for both data at rest and in
+        motion as well as access thanks to its in-built certificate
+        authority and multi-factor authentication frameworks.
+      </>
+    ),
+  },
+  {
+    title: 'Hypervisor and Storage Agnostic',
+    Svg: require('@site/static/img/features/infra.svg').default,
+    description: (
+      <>
+        CloudStack is hypervisor and storage agnostic, having support for
+        several hypervisors such as KVM, VMware, Citrix XenServer/Hypervisor,
+        XCP-ng, Hyper-V and OVM3, as well as supporting several advanced storage
+        options such as Local storage, NFS, Ceph/RBD, Dell/EMC Powerflex,
+        Storpool, Linstor, Solidfire, Datera etc.
+      </>
+    ),
+  },
+  {
+    title: 'Community and Ecosystem',
+    Svg: require('@site/static/img/features/community.svg').default,
+    description: (
+      <>
+        CloudStack has a welcoming and healthy opensource community and a
+        trusted ecosystem of users, companies, organisations and institutions
+        that ensure the project remains thriving and community-driven.
+        CloudStack has a track record and history of being used by over a
+        decade.
+      </>
+    ),
+  },
+
 ];
 
 function Feature({Svg, title, description}) {

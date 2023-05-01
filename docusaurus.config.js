@@ -87,8 +87,35 @@ const config = {
             ]
           },
           {to: '/blog', label: 'Blog', position: 'right'},
-          //{type: 'doc', docId: 'community', position: 'right', label: 'Community', docsPluginId: 'community'},
           //{type: 'doc', docId: 'getting-started', position: 'right', label: 'Docs'},
+          //{type: 'doc', docId: 'community', position: 'right', label: 'Community', docsPluginId: 'community'},
+          {
+            label: 'Community',
+            position: 'right',
+            items: [
+              {
+                label: 'Get Involved',
+                href: '/contribute'
+              },
+              {
+                label: 'Join Mailing Lists',
+                href: '/mailing-lists'
+              },
+              {
+                label: 'Developer Resources',
+                href: '/developers'
+              },
+              {
+                label: 'Events and Meetups',
+                href: '/events'
+              },
+              {
+                label: 'CloudStack Collab Conference',
+                href: 'https://www.cloudstackcollab.org/'
+              }
+
+            ]
+          },
           {
             label: 'Download',
             position: 'right',
@@ -122,6 +149,10 @@ const config = {
                 href: 'https://docs.ansible.com/ansible/latest/collections/ngine_io/cloudstack'
               },
               {
+                label: 'MBX (Community)',
+                href: 'https://github.com/shapeblue/mbx'
+              },
+              {
                 label: 'Release Archive',
                 href: '/archives'
               }
@@ -136,16 +167,16 @@ const config = {
                 href: 'https://docs.cloudstack.apache.org'
               },
               {
-                label: 'Wiki',
+                label: 'API Documentation',
+                href: '/api/'
+              },
+              {
+                label: 'Project Wiki',
                 href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home'
               },
               {
-                label: 'Books',
+                label: 'CloudStack Books',
                 href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Books'
-              },
-              {
-                label: 'API Documentation',
-                href: '/api/'
               }
             ]
           },
@@ -210,33 +241,81 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Getting started',
-                to: '/docs/getting-started',
+                label: 'QIG: Quick Install Guide',
+                href: 'https://docs.cloudstack.apache.org/en/latest/quickinstallationguide/qig.html'
               },
               {
-                label: 'Supported commands',
-                to: '/docs/supported-commands',
+                label: 'Install Guide',
+                href: 'https://docs.cloudstack.apache.org/en/latest/installguide'
               },
+              {
+                label: 'Admin/Usage Guide',
+                href: 'https://docs.cloudstack.apache.org/en/latest/adminguide/'
+              },
+              {
+                label: 'Release Notes',
+                href: 'https://docs.cloudstack.apache.org/en/latest/releasenotes/'
+              },
+              {
+                label: 'API Documentation',
+                to: '/api'
+              },
+              {
+                label: 'Project Wiki',
+                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home'
+              }
             ],
           },
           {
             title: 'Community',
             items: [
               {
+                label: 'Mailing Lists',
+                to: '/mailing-lists'
+              },
+              {
                 label: 'Slack',
-                href: 'https://join.slack.com/t/cloudstackcommunity/shared_invite/zt-p5928e3r-OUAK8SUgC8GOceGM6dAz6w',
+                href: 'https://join.slack.com/t/apachecloudstack/shared_invite/zt-1u8qwbivp-u16HRI~LWioLmF1G2D3Iyg',
               },
               {
                 label: 'Issue Tracker',
                 href: 'https://github.com/apache/cloudstack/issues',
               },
+              {
+                label: 'Events and Meetups',
+                to: '/events',
+              },
+              {
+                label: 'CloudStack Collab Conference',
+                href: 'https://www.cloudstackcollab.org/',
+              }
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Source Repo',
+                label: 'Twitter',
+                href: 'https://twitter.com/CloudStack'
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/@ApacheCloudStack'
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/apachecloudstack/'
+              },
+              {
+                label: 'CloudStack LinkedIn User Group',
+                href: 'https://www.linkedin.com/groups/3144859/'
+              },
+              {
+                label: 'CSEUG',
+                href: 'https://www.linkedin.com/groups/4294158/'
+              },
+              {
+                label: 'Project Github Repo',
                 href: 'https://github.com/apache/cloudstack',
               },
               {
