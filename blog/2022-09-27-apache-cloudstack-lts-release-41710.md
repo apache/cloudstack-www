@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apache CloudStack LTS Maintenance Release 4.17.1.0
-
+tags: [release]
 slug: apache-cloudstack-lts-release-41710
 ---
 <a href="/img/imported/9b8e1bba-c05d-4376-85b7-d524d3aff383"><img src="/img/imported/9b8e1bba-c05d-4376-85b7-d524d3aff383" width="100%" /></a>

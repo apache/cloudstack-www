@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Apache CloudStack LTS Maintenance Release 4.17.2.0
-
+authors: [rohit]
+tags: [release]
 slug: apache-cloudstack-lts-release-41720
 ---
 <a href="/img/imported/73240143-71f2-48f9-b80e-650df203613d"><img src="/img/imported/73240143-71f2-48f9-b80e-650df203613d" width="100%" /></a>
 
-<b># Apache CloudStack LTS Maintenance Release 4.17.2.0</b>
+## Apache CloudStack LTS Maintenance Release 4.17.2.0
 
 The Apache CloudStack project is pleased to announce the release of CloudStack 4.17.2.0.
 
@@ -19,7 +20,7 @@ Apache CloudStack is an integrated Infrastructure-as-a-Service (IaaS) software p
 ore information about Apache CloudStack can be found at:
 <a href="https://cloudstack.apache.org/">https://cloudstack.apache.org</a>
 
-<b># Documentation</b>
+### Documentation
 
 What's new in  CloudStack 4.17.2.0:
 <a href="https://docs.cloudstack.apache.org/en/4.17.2.0/releasenotes/about.html">https://docs.cloudstack.apache.org/en/4.17.2.0/releasenotes/about.html</a>
@@ -31,7 +32,7 @@ be found at:
 The official installation, administration, and API documentation for each of the releases are available on our documentation page:
 <a href="https://docs.cloudstack.apache.org/">https://docs.cloudstack.apache.org/</a>
 
-<b># Downloads</b>
+### Downloads
 
 The official source code for the 4.17.2.0 release can be downloaded from our downloads page:
 <a href="https://cloudstack.apache.org/downloads.html">https://cloudstack.apache.org/downloads.html</a>

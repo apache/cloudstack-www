@@ -35,8 +35,8 @@ const config = {
           blogTitle: 'Blog',
           blogDescription: 'Apache CloudStack Blog',
           showReadingTime: false,
-          blogSidebarTitle: 'All posts',
-          blogSidebarCount: 0,
+          blogSidebarTitle: 'Recent Posts',
+          blogSidebarCount: 10,
           editUrl: 'https://github.com/apache/cloudstack-www/tree/main/blog',
         },
         theme: {
@@ -207,7 +207,29 @@ const config = {
               }
             ]
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
+          {
+            label: 'Blog',
+            position: 'right',
+            items: [
+              {
+                label: 'All Posts',
+                href: '/blog'
+              },
+              {
+                label: 'Releases',
+                href: '/blog/tags/release'
+              },
+              {
+                label: 'Case Studies',
+                href: '/blog/tags/case-studies'
+              },
+
+              {
+                label: 'All Categories',
+                href: '/blog/tags'
+              },
+            ]
+          },
           {
             href: 'https://github.com/apache/cloudstack',
             position: 'right',

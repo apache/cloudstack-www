@@ -4,8 +4,13 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
+
+import Events from './events.mdx';
 
 import styles from './index.module.css';
+
+const recentPosts = require("../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json");
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -17,7 +22,7 @@ function HomepageHeader() {
           Open Source IaaS Cloud Computing Platform
         </p>
         <p>
-          Apache CloudStack 4.18.0.0 is out! This is current CloudStack LTS release.
+          Apache CloudStack 4.18.0.0 is out! This is the current CloudStack LTS release.
         </p>
         <div className={styles.buttons}>
           <Link
@@ -38,7 +43,7 @@ function HomepageHeader() {
         </p>
       </div>
       <div className="container">
-        <img src="img/banner.svg" />
+        <img src="img/banner.svg" width="80%" />
       </div>
     </header>
   );
@@ -54,10 +59,13 @@ export default function Home(): JSX.Element {
       <main>
         <div className="container hero">
           <div className="row">
-            <div className="col col--6">
+            <div className="col col--5">
+              <br/>
+              <br/>
+              <br/>
               <img src="img/dashboard.png" />
             </div>
-            <div className="col col--6">
+            <div className="col col--7">
               <h3>About CloudStack</h3>
 
               Apache CloudStack is open source software designed to deploy and manage large
@@ -79,12 +87,61 @@ export default function Home(): JSX.Element {
               Users can manage their cloud with an easy to use Web interface, command line
               tools, and/or a full-featured RESTful API. In addition, CloudStack provides an
               API that's compatible with AWS EC2 and S3 for organizations that wish to deploy
-              hybrid clouds. &nbsp;
+              hybrid clouds. &nbsp;<br/>
               <Link
                 className="button button--secondary"
                 to="about">
                 Learn More
               </Link>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col col--6">
+              <div>
+                <h2>Latest Announcements and Blogs</h2>
+                <ul>
+                  {recentPosts.items.slice(0, 5).map((item, index) => (
+                    <li key={index}>
+                      <a href={`${item.permalink}`}>{item.title}</a>{" "}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <Events/>
+            </div>
+            <div className="col col--6">
+              <TwitterTimelineEmbed
+                sourceType="profile"
+                screenName="CloudStack"
+                options={{height: 1000}}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="container hero">
+          <div className="row">
+            <div className="col col--6">
+              <h2>Join Us</h2>
+              <p>
+              Learn more about getting involved with Apache CloudStack on the
+              <a href="/contribute"> Contributing to Apache CloudStack</a> page,
+              or go straight to our <a href="/developers">Developer Resources</a> page.
+              </p>
+            </div>
+            <div className="col col--6">
+              <h2>Take the Apache CloudStack User Survey!</h2>
+              <p>
+              Participate in the Apache CloudStack User Survey and help us build
+              the Annual State of CloudStack Report. This survey will take you less than 5
+              minutes to fill in. Your input is vital for the CloudStack Community!<br/>
+              <Link
+                className="button button--info"
+                to="survey">
+                Take the Survey
+              </Link>
+              </p>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apache CloudStack and Tungsten Fabric SDN - Solution Brief
-
+tags: [case-studies]
 slug: apache-cloudstack-and-tungsten-fabric
 ---
 <a href="/img/imported/b2495a18-898c-44c0-bbe4-5b227bad1565"><img src="/img/imported/b2495a18-898c-44c0-bbe4-5b227bad1565" alt="Tungsten-Fabric-Banner.png" width="750" height="393" /></a>
