@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CloudStack European User Group - May 4th, 2023
-
+authors: [jamie]
 slug: cloudstack-european-user-group-may
 ---
 <a href="/img/imported/4a13eac1-472a-49ae-ba58-51d6b46b63d2"><img src="/img/imported/4a13eac1-472a-49ae-ba58-51d6b46b63d2" alt="CSEUG 23 Banner.png" width="750" height="393" /></a>
