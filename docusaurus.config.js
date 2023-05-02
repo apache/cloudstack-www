@@ -139,6 +139,20 @@ const config = {
             ]
           },
           {
+            label: 'Use Cases',
+            position: 'right',
+            items: [
+              {
+                label: 'Cloud Builders',
+                href: '/cloud-builders'
+              },
+              {
+                label: 'Kubernetes',
+                href: '/kubernetes'
+              }
+            ]
+          },
+          {
             label: 'Users',
             position: 'right',
             items: [
@@ -153,20 +167,6 @@ const config = {
               {
                 label: 'Take Survey',
                 href: '/survey'
-              }
-            ]
-          },
-          {
-            label: 'Use Cases',
-            position: 'right',
-            items: [
-              {
-                label: 'Cloud Builders',
-                href: '/cloud-builders'
-              },
-              {
-                label: 'Kubernetes',
-                href: '/kubernetes'
               }
             ]
           },

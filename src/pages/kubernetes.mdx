@@ -1,0 +1,109 @@
+import LearnMore from './learn-more.mdx';
+
+<div class="container">
+  <div class="row footer">
+    <div class="col col--8">
+      <h2>Kubernetes on CloudStack in Production</h2>
+      <p class="hero__subtitle"><a>Reduces operational overhead and infrastrucrture costs</a></p>
+      <Link
+        className="button button--primary"
+        href="https://qa.cloudstack.cloud/simulator/">
+        Download
+      </Link>
+    </div>
+    <div class="col col--4">
+      <img src="/img/k8s/capc-logo.png" />
+    </div>
+  </div>
+  <br/>
+
+  <div class="row">
+    <div class="col col--8">
+      <p>Apache CloudStack is an open-source IaaS platform that is used to build public or private cloud environments. CloudStack allows you to easily deploy Kubernetes clusters into your own infrastructure without worrying about the underlying infrastructure and removing the coupling to specific virtualization platforms. It also allows easy deployment of Kubernetes as a Service (KaaS) offerings.</p>
+      <p>Host your Kubernetes clusters on it to simplify your work and ensure consistent and predictable behavior of your applications, no matter the underlying infrastructure.</p>
+      <p>CloudStack provides a Kubernetes Cluster API Provider and also the CloudStack Kubernetes Service - giving a choice of integration techniques.</p>
+      <p>CloudStack is in widespread production usage at many of the world’s largest organizations including many Fortune 500 companies. It includes the entire “stack” of features you need: compute orchestration, Network-as-a-Service, user and account management, a complete and open native API, resource accounting, and a first-class User Interface.</p>
+    </div>
+    <div className="hero col col--4">
+      <img src="/img/k8s/capc-servers.png" />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col col--2" />
+    <div class="col col--8 text-center">
+    <h2>Explore the Kubernetes Cluster API Provider for Apache CloudStack</h2>
+    </div>
+    <div class="col col--2" />
+    <div class="col col--2" />
+    <div class="col col--8">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/NcfVkVT48Kk" title="Bootstrapping K8S Cluster using CAPC - Apache CloudStack - Kubernetes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col col--2" />
+    <div class="col col--12">
+      <p>The Kubernetes Cluster API (CAPI) provider for Apache CloudStack allows Ku- bernetes users to build and manage resources on Apache CloudStack. The pro- vider is available under the Apache 2 open-source license and is managed by the Cloud Native Computing Foundation (CNCF). The Cluster API brings declara- tive, Kubernetes-style APIs to cluster creation, configuration and management. The API itself is shared across multiple cloud providers allowing for true Apache CloudStack hybrid deployments of Kubernetes. It is built atop the lessons learned from previous cluster managers such as kops and kubicorn.</p>
+    </div>
+  </div>
+  <br/>
+
+  <div class="row footer footer--dark">
+    <div class="col col--8">
+      <h2>Launching a Kubernetes cluster on Apache CloudStack</h2>
+      <p>If users want to launch a Kubernetes cluster on Apache Cloudstack, they can check out the Getting Started Guide to create your first Kubernetes cluster on Apache CloudStack using Cluster API.</p>
+      <p>CloudStack hybrid deployments of Kubernetes. It is built atop the lessons learned from pre- vious cluster managers such as kops and kubicorn.</p>
+      <Link
+        className="button button--primary"
+        href="https://cluster-api-cloudstack.sigs.k8s.io/getting-started.html">
+        Read More
+      </Link>
+    </div>
+    <div class="col col--4">
+      <img src="/img/k8s/k8s-logo.svg" />
+    </div>
+  </div>
+  <br/>
+
+  <div class="row">
+    <div class="col col--2" />
+    <div class="col col--8 text-center">
+    <h2>Explore the CloudStack Kubernetes Service</h2>
+    </div>
+    <div class="col col--2" />
+    <div class="col col--6">
+      <img src="/img/k8s/acs-ui.jpg"/>
+    </div>
+    <div class="col col--6">
+      <p>The CloudStack Kubernetes Service (CKS) gives Cloud Service Providers a Container as a Service (CaaS) offering within their existing IaaS environments, with no disruption to user experience or business process.</p>
+      <p>The CloudStack Kubernetes Service is developed as a plug-in to Apache CloudStack. It gives users the ability to create Kubernetes clusters within an existing multi-tenant environment provided by CloudStack. The user experience is seamless: users can now manage container clusters and deploy & manage cloud-native applications all in the same user-interface they use to manage their existing compute, network and storage.</p>
+    </div>
+  </div>
+  <br/>
+
+  <div class="row">
+    <div class="col col--2" />
+    <div class="col col--8 text-center">
+    <h1>Use Cases</h1>
+    </div>
+    <div class="col col--2" />
+    <div class="col col--4">
+      <h2 class="text-center">Self-Healing</h2><br/>
+      <img src="/img/k8s/self-healing.png"/>
+      <p>The ClusterAPI provides self-healing when a Kubernetes node fails, spawning new Instances of the pod on a new node, as native Kubernetes does not have the ability to provision new infrastructure when this occurs. Since ClusterAPI manages infrastructure and Kubernetes at the same time, it can throw more resources onto CloudStack when a failure occurs.</p>
+      <p>The MachineHealthCheck controller is used to monitor and certify the health of the control plane of the work nodes, guaranteeing the integrity of the services. When a node fails, or resources are insufficient, or the services are unavailable, a new node is provisioned and added to the cluster. In this case, Kubernetes will reschedule the podes from failed nodes.</p>
+    </div>
+    <div class="col col--4">
+      <h2 class="text-center">Multiple Cluster Management</h2>
+      <img src="/img/k8s/multiple-clusters-management.png"/>
+      <p>When Kubernetes cluster expansion is considered, ClusterAPI provides support for a range of different providers, including Apache CloudStack. This ClusterAPI capability is important for companies that use heterogeneous providers from different service providers.</p>
+      <p>The ClusterAPI abstracts away the different deployment mechanisms that are offered by various providers and infrastructure vendors, allowing operators to fully standardize the entire deployment, regardless of vendor or datacenter or edge. As a result, operators have more control over the entire application environment in a standardized approach to cluster lifecycle management, enabling reuse of existing components across multiple clusters, thus reducing rework.</p>
+    </div>
+    <div class="col col--4">
+      <h2 class="text-center">Scaling</h2><br/>
+      <img src="/img/k8s/scaling.png"/>
+      <p>Application workload is often unpredictable, and to scale up and down Kubernetes clusters, the ClusterAPI facilitates scaling when workloads change. The main task of the ClusterAPI is to ensure that there is enough capacity to meet the current demand for access to the application, also guaranteeing redundancy so that, if a control plane fails, another can attend.</p>
+      <p>With the Kubeadm Control Plane provider (KCP), the operator can declaratively expand the Kubernetes control plane, thus managing availability and ensuring that the control nodes are organized, minimizing failures during the cluster lifecycle.</p>
+      <p>For worker nodes, just specify the number of nodes; the clusterAPI will provision the new CloudStack Instances and add them to the cluster. When using the Cluster Autoscaler, the number of worker nodes is automatically adjusted to the number of pods needed, thus meeting the access demand. Metrics can refer to application workload or average CPU usage for cluster tuning.</p>
+    </div>
+  </div>
+</div>
+<LearnMore/>
