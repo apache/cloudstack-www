@@ -104,7 +104,6 @@ export default function Home(): JSX.Element {
             </div>
           </div>
         </div>
-        <HomepageFeatures />
       </main>
     </Layout>
   );
