@@ -148,10 +148,6 @@ const config = {
                 href: 'https://docs.ansible.com/ansible/latest/collections/ngine_io/cloudstack'
               },
               {
-                label: 'MBX (Community)',
-                href: 'https://github.com/shapeblue/mbx'
-              },
-              {
                 label: 'Release Archive',
                 href: '/archives'
               }

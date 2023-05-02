@@ -222,7 +222,8 @@ endings (LF) rather than Windows-type line endings (CRLF).</p>
 
 - <a href="https://issues.apache.org/jira/browse/CLOUDSTACK" class="list-group-item" target="_blank">Obsolete Jira issue tracker</a>
 
-- [ShapeBlue Hackerbook - opensource CloudStack Developer training course](https://github.com/shapeblue/hackerbook)
+- [Hackerbook - opensource CloudStack Developer training course](https://github.com/shapeblue/hackerbook)
+- [mbx - build and run appliance based CloudStack env for development and QA](https://github.com/shapeblue/mbx)
 
 ### CloudStack Git Repositories
 
