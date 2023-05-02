@@ -222,7 +222,8 @@ endings (LF) rather than Windows-type line endings (CRLF).</p>
 
 - <a href="https://issues.apache.org/jira/browse/CLOUDSTACK" class="list-group-item" target="_blank">Obsolete Jira issue tracker</a>
 
-- [Hackerbook - opensource CloudStack Developer training course](https://github.com/shapeblue/hackerbook)
+- <a href="https://github.com/shapeblue/hackerbook" target="_blank">Hackerbook - opensource CloudStack Developer training course</a>
+
 - [mbx - build and run appliance based CloudStack env for development and QA](https://github.com/shapeblue/mbx)
 
 ### CloudStack Git Repositories
@@ -247,6 +248,4 @@ git clone https://github.com/apache/cloudstack.git
 Similarly, clone the cloudstack-cloudmonkey repository or the other repositories
 to get access to the most recent source of all CloudStack subprojects.
 
-For projects related to Apache CloudStack but not under ASF governance, see the
-<a href="https://github.com/cloudstack-extras" target="_blank">CloudStack-extras
-repositories on GitHub</a>.
+For projects related to Apache CloudStack but not under ASF governance, see the <a href="https://github.com/cloudstack-extras" target="_blank">CloudStack-extras repositories on GitHub</a>.

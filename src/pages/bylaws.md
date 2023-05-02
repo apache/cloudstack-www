@@ -4,7 +4,7 @@ title: Apache CloudStack Project Bylaws
 
 # Apache CloudStack Project Bylaws
 
-## 1. Introduction
+<h2>1. Introduction</h2>
 
 - 1.1
   This document defines the bylaws under which the Apache CloudStack project
@@ -21,7 +21,7 @@ operation and background of the foundation.
 "Apache Way". Those principles are: Transparency, consensus, non-affiliation,
 respect for fellow developers, and meritocracy, in no specific order.
 
-## 2. Roles and Responsibilities
+<h2>2. Roles and Responsibilities</h2>
 
    Apache projects define a set of roles with 
 associated rights and
@@ -118,7 +118,7 @@ term is to allow for a rotation of the role amongst the PMC members.  This
 intention does not prohibit the PMC from selecting the same chair to serve
 consecutive terms.
 
-## 3. Decision Making
+<h2>3. Decision Making</h2>
 
 This section defines how voting is performed, the types of approvals, and which
 types of decision require which type of approval.
