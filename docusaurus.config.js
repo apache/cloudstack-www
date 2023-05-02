@@ -86,7 +86,6 @@ const config = {
               }
             ]
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
           //{type: 'doc', docId: 'getting-started', position: 'right', label: 'Docs'},
           //{type: 'doc', docId: 'community', position: 'right', label: 'Community', docsPluginId: 'community'},
           {
@@ -203,6 +202,7 @@ const config = {
             ]
           },
           {to: '/users', label: 'Users', position: 'right'},
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/apache/cloudstack',
             position: 'right',
