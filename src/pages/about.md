@@ -10,18 +10,19 @@ Apache CloudStack is a top-level project of the Apache Software Foundation
 (ASF). The project develops open source software for deploying public and
 private Infrastructure-as-a-Service (IaaS) clouds.
 
-It is designed to deploy and manage large networks of virtual machines, as a
-highly available, highly scalable Infrastructure as a Service (IaaS) cloud
-computing platform. CloudStack is used by a number of service providers to offer
-public cloud services, and by many companies to provide an on-premises (private)
-cloud offering, or as part of a hybrid cloud solution.
+Apache CloudStack is open source software designed to deploy and manage large
+networks of virtual machines, as a highly available, highly scalable
+Infrastructure as a Service (IaaS) cloud computing platform. CloudStack is used
+by a number of service providers to offer public cloud services, and by many
+companies to provide an on-premises (private) cloud offering, or as part of a
+hybrid cloud solution.
 
 CloudStack is a turnkey solution that includes the entire "stack" of features
 most organizations want with an IaaS cloud: compute orchestration,
 Network-as-a-Service, user and account management, a full and open native API,
 resource accounting, and a first-class User Interface (UI).
 
-CloudStack currently supports the most popular hypervisors: KVM, VMware, Citrix
+CloudStack currently supports the most popular hypervisors: VMware, KVM, Citrix
 XenServer/Hypervisor, XCP-ng, Oracle VM server and Microsoft Hyper-V.
 
 Users can manage their cloud with an easy to use Web interface, command line
