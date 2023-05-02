@@ -53,7 +53,7 @@ const config = {
         title: '',
         logo: {
           alt: 'apache-cloudstack',
-          src: 'img/banner.svg',
+          src: 'img/tagline.jpg',
         },
         items: [
           {
