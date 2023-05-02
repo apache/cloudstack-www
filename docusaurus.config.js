@@ -340,6 +340,10 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['properties'],
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+      },
     }),
 
     themes: [
