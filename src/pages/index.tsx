@@ -78,7 +78,6 @@ export default function Home(): JSX.Element {
       title={`${siteConfig.title}`}
       description="Apache CloudStack is an opensource infrastructure-as-a-service cloud computing platform that is easy to use, turnkey, highly available and highly scalable.">
       <HomepageHeader />
-      <UsersHeader />
       <main>
         <div className="container">
           <div className="row">
