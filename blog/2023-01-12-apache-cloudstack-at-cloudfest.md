@@ -2,6 +2,7 @@
 layout: post
 title: Meet Apache CloudStack at CloudFest 2023
 authors: [ivet]
+tags: [news]
 slug: apache-cloudstack-at-cloudfest
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meet the Community - Slavka Peleva
-
+tags: [community]
 slug: meet-the-community-slavka-peleva
 ---
 <a href="/img/imported/3c28586e-9ec1-4584-869b-2f8e7f3a2aa7"><img src="/img/imported/3c28586e-9ec1-4584-869b-2f8e7f3a2aa7" alt="Meet-CS-Community-SLAVKA.png" width="750" height="393" /></a>

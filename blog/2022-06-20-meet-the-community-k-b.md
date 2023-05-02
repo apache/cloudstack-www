@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Meet the Community - K B Shiv Kumar '
-
+tags: [community]
 slug: meet-the-community-k-b
 ---
 <a href="/img/imported/c0ca3334-ec0f-4dc4-80a3-b97372f44973"><img src="/img/imported/c0ca3334-ec0f-4dc4-80a3-b97372f44973" alt="Screenshot 2022-06-21 at 10.35.49.png" width="750" height="393" /></a>

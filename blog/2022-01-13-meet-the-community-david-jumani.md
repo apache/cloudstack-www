@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meet the Community - David Jumani
-
+tags: [community]
 slug: meet-the-community-david-jumani
 ---
 <p><a href="/img/imported/1033b38c-1717-4707-9098-fdc208260857"><img src="/img/imported/1033b38c-1717-4707-9098-fdc208260857" alt="Meet-CS-Community-David-Jumani.png" width="750" /></a></p>

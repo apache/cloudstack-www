@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meet the Community &ndash; Gabriel Brascher &ndash; VP of Apache CloudStack
-
+tags: [community]
 slug: meet-the-community-gabriel-brascher
 ---
 Gabriel Beims Bräscher is the new VP of Apache CloudStack since March 2021. He started his journey with CloudStack when he was still a student in the university, became fast a contributor, PMC member and now he is VP of the project.

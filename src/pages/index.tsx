@@ -16,34 +16,39 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner, styles.heroBg)}>
-      <div class="container">
-        <h3 className="hero__title">Apache CloudStack™</h3>
-        <p className="hero__subtitle">
-          Open Source IaaS Cloud Computing Platform
-        </p>
-        <p>
-          Apache CloudStack 4.18.0.0 is out! This is the current CloudStack LTS release.
-        </p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--primary button--lg"
-            to="download">
-            Download
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="https://docs.cloudstack.apache.org">
-            Documentation
-          </Link>
+      <div className={clsx('container', styles.heroBg)}>
+        <div className="row">
+          <div className="col col--6">
+            <h3 className="hero__title">Apache CloudStack™</h3>
+            <p className="hero__subtitle">
+              Open Source IaaS Cloud Computing Platform
+            </p>
+            <p>
+              Apache CloudStack 4.18.0.0 is out!<br/>
+              This is the latest CloudStack LTS release.
+            </p>
+            <div className={styles.buttons}>
+              <Link
+                className="button button--primary button--lg"
+                to="download">
+                Download
+              </Link>
+              <Link
+                className="button button--secondary button--lg"
+                to="https://docs.cloudstack.apache.org">
+                Documentation
+              </Link>
+            </div>
+            <br/>
+            <p>
+              Looking for other versions of Apache CloudStack? You can find them in
+              our <a href="/archives">archives</a> page as well.
+            </p>
+          </div>
+          <div className="col col--6 row">
+            <img src="img/banner.svg" width="100%" />
+          </div>
         </div>
-        <br/>
-        <p>
-          Looking for other versions of Apache CloudStack? You can find them in
-          our <a href="/archives">archives</a> page as well.
-        </p>
-      </div>
-      <div className="container">
-        <img src="img/banner.svg" width="80%" />
       </div>
     </header>
   );
@@ -59,14 +64,27 @@ export default function Home(): JSX.Element {
       <main>
         <div className="container hero">
           <div className="row">
-            <div className="col col--5">
-              <br/>
-              <br/>
-              <br/>
+            <div className="col col--6">
               <img src="img/dashboard.png" />
+              <Link
+                className="button button--info"
+                href="https://qa.cloudstack.cloud/simulator/">
+                Try CloudStack Simulator Demo
+              </Link>
+              <div class="hero"/>
+              <div class="row">
+                <h2>Latest Announcements and Blogs</h2>
+                <ul>
+                  {recentPosts.items.slice(0, 5).map((item, index) => (
+                    <li key={index}>
+                      <a href={`${item.permalink}`}>{item.title}</a>{" "}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
-            <div className="col col--7">
-              <h3>About CloudStack</h3>
+            <div className="col col--6">
+              <h2>About CloudStack</h2>
 
               Apache CloudStack is open source software designed to deploy and manage large
               networks of virtual machines, as a highly available, highly scalable
@@ -87,7 +105,7 @@ export default function Home(): JSX.Element {
               Users can manage their cloud with an easy to use Web interface, command line
               tools, and/or a full-featured RESTful API. In addition, CloudStack provides an
               API that's compatible with AWS EC2 and S3 for organizations that wish to deploy
-              hybrid clouds. &nbsp;<br/>
+              hybrid clouds.<br/><br/>
               <Link
                 className="button button--secondary"
                 to="about">
@@ -99,23 +117,13 @@ export default function Home(): JSX.Element {
         <div className="container">
           <div className="row">
             <div className="col col--6">
-              <div>
-                <h2>Latest Announcements and Blogs</h2>
-                <ul>
-                  {recentPosts.items.slice(0, 5).map((item, index) => (
-                    <li key={index}>
-                      <a href={`${item.permalink}`}>{item.title}</a>{" "}
-                    </li>
-                  ))}
-                </ul>
-              </div>
               <Events/>
             </div>
             <div className="col col--6">
               <TwitterTimelineEmbed
                 sourceType="profile"
                 screenName="CloudStack"
-                options={{height: 1000}}
+                options={{height: 900}}
               />
             </div>
           </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meet the Community - Nicolas Vazquez
-
+tags: [community]
 slug: meet-the-community-nicolas-vazquez
 ---
 <a href="/img/imported/dfd89976-747e-4737-b71b-198c8f53e31a"><img src="/img/imported/dfd89976-747e-4737-b71b-198c8f53e31a" alt="Meet-CS-Community-Nicolas.png" width="750" height="393"/></a>

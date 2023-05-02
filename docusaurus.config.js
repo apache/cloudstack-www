@@ -216,18 +216,21 @@ const config = {
                 href: '/blog'
               },
               {
-                label: 'Releases',
-                href: '/blog/tags/release'
+                label: 'News',
+                href: '/blog/tags/news'
               },
               {
-                label: 'Case Studies',
+                label: 'Announcements',
+                href: '/blog/tags/announcement'
+              },
+              {
+                label: 'Case Studies & Integrations',
                 href: '/blog/tags/case-studies'
               },
-
               {
-                label: 'All Categories',
-                href: '/blog/tags'
-              },
+                label: 'Meet the Community',
+                href: '/blog/tags/community'
+              }
             ]
           },
           {
@@ -252,14 +255,6 @@ const config = {
             ],
           },
         ],
-      },
-      announcementBar: {
-        id: 'support_us',
-        content:
-        'Are you using Apache CloudStack? Please <a target="_blank" rel="noopener noreferrer" href="/survey">take this survey</a>.',
-        backgroundColor: '#fafbfc',
-        textColor: '#091E42',
-        isCloseable: false,
       },
       footer: {
         style: 'dark',

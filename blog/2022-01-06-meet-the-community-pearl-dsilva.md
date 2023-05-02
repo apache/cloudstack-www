@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meet the Community - Pearl Dsilva
-
+tags: [community]
 slug: meet-the-community-pearl-dsilva
 ---
 <a href="/img/imported/2620f89b-add0-4f09-a8bf-ef477dbdfc94"><img src="/img/imported/2620f89b-add0-4f09-a8bf-ef477dbdfc94" width="100%" alt="Meet-CS-Pearl.png" /></a>
