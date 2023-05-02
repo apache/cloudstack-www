@@ -1,11 +1,17 @@
 ivet:
   name: Ivet Petrova
-  title: Ivet Petrova
+  title: PMC Member
   url: https://twitter.com/Ivet_H_Petrova
   image_url: https://pbs.twimg.com/profile_images/1331984193392435200/djCqv-vM_400x400.jpg
 
+jamie:
+  name: Jamie Pell
+  title: Contributor
+  url: https://twitter.com/jamiepell12
+  image_url: https://pbs.twimg.com/profile_images/1516339908079726596/4XQEkW5S_400x400.jpg
+
 rohit:
   name: Rohit Yadav
-  title: Rohit Yadav
+  title: PMC Member
   url: https://github.com/rohityadavcloud
   image_url: https://github.com/rohityadavcloud.png
