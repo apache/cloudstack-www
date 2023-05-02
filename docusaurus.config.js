@@ -116,6 +116,60 @@ const config = {
             ]
           },
           {
+            label: 'Users',
+            position: 'right',
+            items: [
+              {
+                label: 'Known Users',
+                href: '/users'
+              },
+              {
+                label: 'Case Studies',
+                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/Case+Studies'
+              },
+              {
+                label: 'Take Survey',
+                href: '/survey'
+              }
+            ]
+          },
+          {
+            label: 'Use Cases',
+            position: 'right',
+            items: [
+              {
+                label: 'Cloud Builders',
+                href: '/cloud-builders'
+              },
+              {
+                label: 'Kubernetes',
+                href: '/kubernetes'
+              }
+            ]
+          },
+          {
+            label: 'Documentation',
+            position: 'right',
+            items: [
+              {
+                label: 'CloudStack Documentation',
+                href: 'https://docs.cloudstack.apache.org'
+              },
+              {
+                label: 'Project Wiki',
+                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home'
+              },
+              {
+                label: 'CloudStack Books',
+                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Books'
+              },
+              {
+                label: 'API Documentation',
+                href: '/api/'
+              }
+            ]
+          },
+          {
             label: 'Download',
             position: 'right',
             items: [
@@ -153,51 +207,6 @@ const config = {
               }
             ]
           },
-          {
-            label: 'Documentation',
-            position: 'right',
-            items: [
-              {
-                label: 'CloudStack Documentation',
-                href: 'https://docs.cloudstack.apache.org'
-              },
-              {
-                label: 'API Documentation',
-                href: '/api/'
-              },
-              {
-                label: 'Project Wiki',
-                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home'
-              },
-              {
-                label: 'CloudStack Books',
-                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Books'
-              }
-            ]
-          },
-          {
-            label: 'Use Cases',
-            position: 'right',
-            items: [
-              {
-                label: 'Cloud Builders',
-                href: '/cloud-builders'
-              },
-              {
-                label: 'Kubernetes',
-                href: '/kubernetes'
-              },
-              {
-                label: 'Case Studies',
-                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/Case+Studies'
-              },
-              {
-                label: 'Take Survey',
-                href: '/survey'
-              }
-            ]
-          },
-          {to: '/users', label: 'Users', position: 'right'},
           {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/apache/cloudstack',

@@ -12,9 +12,12 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner, styles.heroBg)}>
       <div class="container">
-        <h3 className="hero__title">Flexible, easy-to-use and powerful open-souce cloud management platform</h3>
+        <h3 className="hero__title">Apache CloudStack™</h3>
         <p className="hero__subtitle">
-          Apache CloudStack is used by a number of cloud providers, telecoms, MSPs and enterprises around the world! &nbsp;
+          Open Source IaaS Cloud Computing Platform
+        </p>
+        <p>
+          Apache CloudStack 4.18.0.0 is out! This is current CloudStack LTS release.
         </p>
         <div className={styles.buttons}>
           <Link
@@ -28,44 +31,14 @@ function HomepageHeader() {
             Documentation
           </Link>
         </div>
+        <br/>
+        <p>
+          Looking for other versions of Apache CloudStack? You can find them in
+          our <a href="/archives">archives</a> page as well.
+        </p>
       </div>
       <div className="container">
         <img src="img/banner.svg" />
-      </div>
-    </header>
-  );
-}
-
-function UsersHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('', styles.heroBanner, styles.heroUsers)}>
-      <div class="container">
-        <p className="hero__subtitle">
-          Apache CloudStack Powers the Clouds of Global Leaders
-        </p>
-        <a href="/users">
-        <div className="row">
-          <div className="col col--2">
-            <img src="users/arsat.png" height="60px" />
-          </div>
-          <div className="col col--2">
-            <img src="users/bt.jpg" height="50px" />
-          </div>
-          <div className="col col--2">
-            <img src="users/ntt.png" height="50px" />
-          </div>
-          <div className="col col--2">
-            <img src="users/apple.png" height="50px" />
-          </div>
-          <div className="col col--2">
-            <img src="users/dimsi.png" height="50px" />
-          </div>
-          <div className="col col--2">
-            <img src="users/gtt.png" height="40px" />
-          </div>
-        </div>
-        </a>
       </div>
     </header>
   );
@@ -79,23 +52,34 @@ export default function Home(): JSX.Element {
       description="Apache CloudStack is an opensource infrastructure-as-a-service cloud computing platform that is easy to use, turnkey, highly available and highly scalable.">
       <HomepageHeader />
       <main>
-        <div className="container">
+        <div className="container hero">
           <div className="row">
             <div className="col col--6">
               <img src="img/dashboard.png" />
             </div>
             <div className="col col--6">
-              <h3>Enjoy the flexibility and freedom to use open-source technology for your cloud</h3>
-              Apache CloudStack is open source software designed to deploy and
-              manage large networks of virtual machines, as a highly available, highly
-              scalable Infrastructure as a Service (IaaS) cloud computing platform. CloudStack
-              is used by a number of service providers to offer public cloud services, and by
-              many companies to provide an on-premises (private) cloud offering, or as part of
-              a hybrid cloud solution.<br/><br/>
+              <h3>About CloudStack</h3>
+
+              Apache CloudStack is open source software designed to deploy and manage large
+              networks of virtual machines, as a highly available, highly scalable
+              Infrastructure as a Service (IaaS) cloud computing platform. CloudStack is used
+              by a number of service providers to offer public cloud services, and by many
+              companies to provide an on-premises (private) cloud offering, or as part of a
+              hybrid cloud solution.
+              <br/><br/>
+
               CloudStack is a turnkey solution that includes the entire "stack" of features
-              most organiza- tions want with an IaaS cloud: compute orchestration,
+              most organizations want with an IaaS cloud: compute orchestration,
               Network-as-a-Service, user and account management, a full and open native API,
-              resource accounting, and a first-class User Interface (UI). &nbsp;
+              resource accounting, and a first-class User Interface (UI).
+              CloudStack currently supports the most popular hypervisors: VMware, KVM, Citrix
+              XenServer/Hypervisor, XCP-ng, Oracle VM server and Microsoft Hyper-V.
+              <br/><br/>
+
+              Users can manage their cloud with an easy to use Web interface, command line
+              tools, and/or a full-featured RESTful API. In addition, CloudStack provides an
+              API that's compatible with AWS EC2 and S3 for organizations that wish to deploy
+              hybrid clouds. &nbsp;
               <Link
                 className="button button--secondary"
                 to="about">
