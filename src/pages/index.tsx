@@ -21,7 +21,7 @@ function HomepageHeader() {
           <div className="col col--6">
             <h3 className="hero__title">Apache CloudStack™</h3>
             <p className="hero__subtitle">
-              Open Source IaaS Cloud Computing Platform
+              Open Source Cloud Computing™ Platform
             </p>
             <p>
               Apache CloudStack 4.18.0.0 is out!<br/>
