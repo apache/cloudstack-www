@@ -19,7 +19,7 @@ github:
   description: "Apache CloudStack Website"
   homepage: https://cloudstack.apache.org/
   features:
-    issues: false
+    issues: true
     projects: false
     wiki: false
   labels:
@@ -30,6 +30,10 @@ github:
     rebase:  false
   protected_branches:
     main: {}
+  collaborators:
+    - acs-robot
+    - IvetPM
+    - jamiepell10
 
 notifications:
   commits:      commits@cloudstack.apache.org
