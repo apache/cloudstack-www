@@ -1,15 +1,16 @@
 import LearnMore from './learn-more.mdx';
 
 <div class="container">
-  <div class="row footer">
+  <div class="row footer blocks">
     <div class="col col--8">
       <h2>Kubernetes on CloudStack in Production</h2>
       <p class="hero__subtitle"><a>Reduces operational overhead and infrastrucrture costs</a></p>
-      <Link
-        className="button button--primary"
-        href="https://qa.cloudstack.cloud/simulator/">
-        Download
-      </Link>
+      <a class="button button--primary" href="/download">
+        Download CloudStack
+      </a>&nbsp;
+      <a class="button button--secondary" href="https://cluster-api-cloudstack.sigs.k8s.io/">
+        Get CloudStack CAPI Provider
+      </a>
     </div>
     <div class="col col--4">
       <img src="/img/k8s/capc-logo.png" />
@@ -44,9 +45,8 @@ import LearnMore from './learn-more.mdx';
       <p>The Kubernetes Cluster API (CAPI) provider for Apache CloudStack allows Ku- bernetes users to build and manage resources on Apache CloudStack. The pro- vider is available under the Apache 2 open-source license and is managed by the Cloud Native Computing Foundation (CNCF). The Cluster API brings declara- tive, Kubernetes-style APIs to cluster creation, configuration and management. The API itself is shared across multiple cloud providers allowing for true Apache CloudStack hybrid deployments of Kubernetes. It is built atop the lessons learned from previous cluster managers such as kops and kubicorn.</p>
     </div>
   </div>
-  <br/>
 
-  <div class="row footer footer--dark">
+  <div class="row footer footer--dark blocks">
     <div class="col col--8">
       <h2>Launching a Kubernetes cluster on Apache CloudStack</h2>
       <p>If users want to launch a Kubernetes cluster on Apache Cloudstack, they can check out the Getting Started Guide to create your first Kubernetes cluster on Apache CloudStack using Cluster API.</p>

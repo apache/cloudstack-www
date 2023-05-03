@@ -5,8 +5,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
-
 import Events from './events.mdx';
+import LearnMore from './learn-more.mdx';
 
 import styles from './index.module.css';
 
@@ -153,6 +153,8 @@ export default function Home(): JSX.Element {
             </div>
           </div>
         </div>
+        <LearnMore/>
+        <br/>
       </main>
     </Layout>
   );
