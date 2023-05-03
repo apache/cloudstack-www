@@ -124,18 +124,6 @@ const config = {
                 label: 'Collab Conference',
                 href: 'https://www.cloudstackcollab.org/'
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/CloudStack'
-              },
-              {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/@ApacheCloudStack'
-              },
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/apachecloudstack/posts/'
-              },
             ]
           },
           {
