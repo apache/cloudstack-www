@@ -44,7 +44,7 @@ notifications:
 # Staging and publishing profile for yourproject-website.git:
 staging:
   profile: ~
-  whoami: docusaurus-staging
+  whoami: staging-site
   outputdir: build
   hostname: beautiful-pastelito-4eb422.netlify.app
 
