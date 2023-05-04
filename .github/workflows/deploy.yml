@@ -35,9 +35,9 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn build
       - uses: peaceiris/actions-gh-pages@v3
-        if: github.event_name != 'pull_request'
+        #if: github.event_name != 'pull_request'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          publish_branch: docusaurus-staging # TODO: change this to deploy branch 'asf-site'
+          publish_branch: staging-site # TODO: change this to deploy branch 'asf-site'
           force_orphan: true
