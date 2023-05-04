@@ -41,12 +41,10 @@ notifications:
   pullrequests: issues@cloudstack.apache.org
   jobs:         commits@cloudstack.apache.org
 
-# Staging and publishing profile for yourproject-website.git:
+# Staging and publishing profile for cloudstack-www.git:
 staging:
   profile: ~
   whoami: staging-site
-  outputdir: build
-  hostname: beautiful-pastelito-4eb422.netlify.app
 
 publish:
   whoami:  asf-site
