@@ -37,7 +37,7 @@ const config = {
           showReadingTime: false,
           blogSidebarTitle: 'Recent Posts',
           blogSidebarCount: 10,
-          editUrl: 'https://github.com/apache/cloudstack-www/tree/main/blog',
+          editUrl: 'https://github.com/apache/cloudstack-www/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
