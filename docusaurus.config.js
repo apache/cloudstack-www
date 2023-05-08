@@ -221,28 +221,7 @@ const config = {
           {
             label: 'Blog',
             position: 'right',
-            items: [
-              {
-                label: 'All Posts',
-                href: '/blog'
-              },
-              {
-                label: 'News',
-                href: '/blog/tags/news'
-              },
-              {
-                label: 'Announcements',
-                href: '/blog/tags/announcement'
-              },
-              {
-                label: 'Case Studies & Integrations',
-                href: '/blog/tags/case-studies'
-              },
-              {
-                label: 'Meet the Community',
-                href: '/blog/tags/community'
-              }
-            ]
+            href: '/blog'
           },
           {
             href: 'https://github.com/apache/cloudstack',
