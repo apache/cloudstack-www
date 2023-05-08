@@ -47,6 +47,9 @@ function HomepageHeader() {
               our <a href="/archives">archives</a> page as well.
             </p>
           </div>
+          <div className="col col--5">
+            <img src="/img/logo.svg" width="100%" />
+          </div>
         </div>
       </div>
     </header>
