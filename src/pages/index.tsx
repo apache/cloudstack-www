@@ -16,8 +16,10 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner, styles.heroBg)}>
-      <div className={clsx('container', styles.heroBg)}>
+      <div className={clsx('container')}>
         <div className="row">
+          <div className="col col--1">
+          </div>
           <div className="col col--6">
             <h3 className="hero__title">Apache CloudStack™</h3>
             <p className="hero__subtitle">
@@ -44,9 +46,6 @@ function HomepageHeader() {
               Looking for other versions of Apache CloudStack? You can find them in
               our <a href="/archives">archives</a> page as well.
             </p>
-          </div>
-          <div className="col col--6 row">
-            <img src="img/banner.svg" width="100%" />
           </div>
         </div>
       </div>

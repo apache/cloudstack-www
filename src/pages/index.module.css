@@ -11,7 +11,10 @@
 }
 
 .heroBg {
-  background: #f6fbfd;
+  background: #fff; /**#f6fbfd;**/
+  background-image: url("/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @media screen and (max-width: 996px) {
