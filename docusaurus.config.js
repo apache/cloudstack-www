@@ -183,40 +183,7 @@ const config = {
           {
             label: 'Download',
             position: 'right',
-            items: [
-              {
-                label: 'CloudStack',
-                href: '/download#latest-cloudstack-releases'
-              },
-              {
-                label: 'CloudMonkey CLI',
-                href: '/download#cloudmonkey-releases'
-              },
-              {
-                label: 'CloudStack Go-SDK',
-                href: '/download#cloudstack-go-sdk',
-              },
-              {
-                label: 'CloudStack Terraform Provider',
-                href: '/download#cloudstack-terraform-provider-release'
-              },
-              {
-                label: 'CloudStack Kubernetes Provider',
-                href: '/download#cloudstack-kubernetes-provider-release'
-              },
-              {
-                label: 'CAPI Provider CloudStack (Community)',
-                href: 'https://cluster-api-cloudstack.sigs.k8s.io/'
-              },
-              {
-                label: 'CloudStack Ansible Collection (Community)',
-                href: 'https://docs.ansible.com/ansible/latest/collections/ngine_io/cloudstack'
-              },
-              {
-                label: 'Release Archive',
-                href: '/archives'
-              }
-            ]
+            href: '/download'
           },
           {
             label: 'Blog',
