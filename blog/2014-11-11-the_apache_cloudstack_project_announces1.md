@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Apache CloudStack Project Announces Apache™ CloudMonkey™ v5.3.0
-
+tags: [announcement]
 slug: the_apache_cloudstack_project_announces1
 ---
 <em><h2>Command Line Interface Tool Simplifies Apache CloudStack Configuration and Management</h2></em>

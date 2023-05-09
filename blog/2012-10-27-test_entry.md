@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CloudStack Collaboration Conference Schedule
-
+tags: [news]
 slug: test_entry
 ---
 <p>The CloudStack Collaboration Conference schedule is now up! You can find it at:</p>

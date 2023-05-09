@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CloudStack and the "Ghost" glibc vulnerability
-
+tags: [announcement]
 slug: cloudstack_and_the_ghost_glibc
 ---
 <b>UPDATE: mitigation instructions have been improved (don't update openswan) and we forgot to mention rebooting.</b><br/>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CVE-2014-0031] CloudStack ListNetworkACL API discloses ACLs for other users"
-
+tags: [announcement]
 slug: cve_2014_0031_cloudstack_listnetworkacl
 ---
 <p>

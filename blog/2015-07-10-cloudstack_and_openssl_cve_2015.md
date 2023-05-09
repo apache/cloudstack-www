@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CloudStack and OpenSSL CVE-2015-1793
-
+tags: [announcement]
 slug: cloudstack_and_openssl_cve_2015
 ---
 <b>Updated July 11th, 2015:</b>

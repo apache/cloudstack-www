@@ -1,7 +1,8 @@
 ---
 layout: post
 title: CloudStack European User Group Virtual - April 7th, 2022
-
+tags: [news]
+authors: [ivet]
 slug: cloudstack-european-user-group-virtual
 ---
 <a href="/img/imported/3c8af793-da2a-41bf-be44-9ab1c5b4185c"><img src="/img/imported/3c8af793-da2a-41bf-be44-9ab1c5b4185c" alt="CSEUG-Reg-2.jpg" width="750" height="393"/></a>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apache CloudStack 4.0.2 Released
-
+tags: [announcement]
 slug: apache_cloudstack_4_0_2
 ---
 <p>The Apache CloudStack project is pleased to announce the 4.0.2 release

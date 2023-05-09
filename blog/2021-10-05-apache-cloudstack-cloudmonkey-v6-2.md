@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apache CloudStack CloudMonkey v6.2.0 Release
-
+tags: [announcement]
 slug: apache-cloudstack-cloudmonkey-v6-2
 ---
 # Apache CloudStack CloudMonkey v6.2.0 Release

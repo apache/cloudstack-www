@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "[CVE-2013-6398] CloudStack Virtual Router stop/start modifies firewall rules
-  allowing additional access"
-
+title: "[CVE-2013-6398] CloudStack Virtual Router stop/start modifies firewall rules allowing additional access"
+tags: [announcement]
 slug: cve_2013_6398_cloudstack_virtual
 ---
 <p>

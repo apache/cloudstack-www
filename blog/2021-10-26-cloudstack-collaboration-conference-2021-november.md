@@ -1,7 +1,8 @@
 ---
 layout: post
 title: CloudStack Collaboration Conference 2021- November 8-12, 2021
-
+tags: [news]
+authors: [ivet]
 slug: cloudstack-collaboration-conference-2021-november
 ---
 <a href="/img/imported/289e3dd4-ebc0-481d-9054-4957209d85aa">

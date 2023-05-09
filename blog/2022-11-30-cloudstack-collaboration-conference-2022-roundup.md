@@ -1,7 +1,8 @@
 ---
 layout: post
 title: CloudStack Collaboration Conference 2022 Roundup
-
+tags: [news]
+authors: [ivet]
 slug: cloudstack-collaboration-conference-2022-roundup
 ---
 <a href="/img/imported/f434e02a-eb78-481e-bc5c-070ceeb6acba"><img src="/img/imported/f434e02a-eb78-481e-bc5c-070ceeb6acba" alt="banner.png" width="750" height="393" /></a>

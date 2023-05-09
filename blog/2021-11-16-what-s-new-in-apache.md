@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What’s new in Apache CloudStack 4.16 - A Deep Dive
-
+tags: [news]
 slug: what-s-new-in-apache
 ---
 <a href="/img/imported/9c07a866-c997-4b88-b17c-29203c8219c8"><img src="/img/imported/9c07a866-c997-4b88-b17c-29203c8219c8" width="100%" alt="ACS-416.jpg" /></a>

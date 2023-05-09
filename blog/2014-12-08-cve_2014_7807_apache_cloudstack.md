@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CVE-2014-7807] Apache CloudStack unauthenticated LDAP binds"
-
+tags: [announcement]
 slug: cve_2014_7807_apache_cloudstack
 ---
 <p>CVE-2014-7807: Apache CloudStack unauthenticated LDAP binds</p>

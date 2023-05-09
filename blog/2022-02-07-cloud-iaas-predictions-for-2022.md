@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Cloud IaaS Predictions for 2022 from the Apache CloudStack Community
-
+tags: [news]
+authors: [ivet]
 slug: cloud-iaas-predictions-for-2022
 ---
 <p>&nbsp;</p><a href="/img/imported/b735d3a3-b098-4c3c-87b5-5ed88a12bf65"><img src="/img/imported/b735d3a3-b098-4c3c-87b5-5ed88a12bf65" alt="CloudStack_Blog-Post_Cloud-IaaS-Predictions 2022_1200x628px.jpg" alt="Cloud/IaaS Predictions" width="750" height="393" /></a>

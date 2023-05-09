@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apache CloudStack 4.6 is released
-
+tags: [announcement]
 slug: apache_cloudstack_4_6_is
 ---
 <p>The Apache Software Foundation (ASF), the all-volunteer developers, stewards, and incubators of more than 350 Open Source projects and initiatives, announced today the availability of Apache™ CloudStack™ v4.6, the turnkey Open Source cloud computing software platform used for creating private-, public-, and hybrid cloud environments.</p>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing the CloudStack Collaboration Conference - Europe
-
+tags: [news]
 slug: announcing_the_cloudstack_collaboration_conference
 ---
 <p>With two very successful events in the United Stated we know it is time to bring this conference to Europe. This time we’re gathering the community in The Netherlands. More specific, right in the center of Amsterdam in one of its historical landmarks, the Beurs van Berlage.</p>

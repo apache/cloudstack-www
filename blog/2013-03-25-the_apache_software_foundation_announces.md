@@ -1,8 +1,7 @@
 ---
 layout: post
-title: The Apache Software Foundation Announces Apache CloudStack Has Become A Top-Level
-  Project
-
+title: The Apache Software Foundation Announces Apache CloudStack Has Become A Top-Level Project
+tags: [news]
 slug: the_apache_software_foundation_announces
 ---
 <p><strong><em>Mature, open source turn-key platform for delivering scalable, full-featured Infrastructure-as-a-Service (IaaS) clouds.</em></strong></p>
