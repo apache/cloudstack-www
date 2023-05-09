@@ -17,7 +17,7 @@ Today we will introduce you to <a href="https://tungsten.io/">Tungsten.</a>
 <p>Tungsten Fabric (TF) comprises components like controller and vRouter; plus additional components for analytics and third-party integration. In this Solution Brief, TF integrates with CloudStack as an SDN plugin to enable rich networking capabilities and lifecycle management of VMs and containers where TF components or control functions are deployed.</p>
 <p>The deployment and life-cycle management of Tungsten Fabric can be done with tools like Ansible. After Tungsten Fabric and CloudStack are installed, we need to create a zone with the TF isolation method, and then, when we create a network or a vm in CloudStack, TF plugin will call the TF Controller API to create the resources.</p>
 
-<a href="/img/imported/d1ccefda-ebb0-4208-9835-57d1aed4922b"><b>DOWNLOAD THE SOLUTION BRIEF</b></a><br/><br/>
+<a class="button button--primary button--lg" target="_blank" href="/files/acs-tungsten-fabric-sdn.pdf"><b>DOWNLOAD THE SOLUTION BRIEF</b></a><br/><br/>
 
 <strong>Key Outcomes for Users</strong>
 

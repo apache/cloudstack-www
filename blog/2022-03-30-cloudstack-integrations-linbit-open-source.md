@@ -12,11 +12,8 @@ slug: cloudstack-integrations-linbit-open-source
 <h2><br />CloudStack and LINBIT Integration</h2>
 <p>Combining Apache Cloudstack with LINBIT SDS creates a perfect environment for Cloud Providers, Hosting Companies, Finance Industries, ISPs and many more. LINBIT SDS provides organizations the performance, simplicity, and flexibility they need from storage infrastructures. In addition, LINBIT SDS' deep integration to Apache CloudStack offers scalability, data protection, and flexibility.</p>
 <p>Along with the extensive management and scalability capabilities, the stack gives you the ultimate Open-Source solution while providing the lowest TCO, compared to any other proprietary solution.</p>
-<p>&nbsp;</p>
-<a href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Solution-Brief_LinBit_2022.pdf?api=v2" ><b>DOWNLOAD THE SOLUTION BRIEF</b></a>
-<br/>
+<a class="button button--primary button--lg" href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Solution-Brief_LinBit_2022.pdf?api=v2" ><b>DOWNLOAD THE SOLUTION BRIEF</b></a>
 <h2>About LINBIT</h2>
 <p>LINBIT is the company behind the open-source storage software <a href="https://linbit.com/drbd/" target="_blank">DRBD</a> and <a href="https://linbit.com/linstor/" target="_blank">LINSTOR</a>. Since 2001, the company has been recognized in the public sphere primarily for its distributed replicated storage system for the Linux platform DRBD, which was officially integrated into the Linux Kernel in 2010 by Linus Torvalds.<br />LINBIT&rsquo;s roots are deeply embedded in the open-source community, and its software and solutions are utilized by established organizations and businesses worldwide. They trust LINBIT because of the high performance and reliability they offer. This belief in open-source solutions and delivery of exceptional software products to established corporate environments is where LINBIT has carved its niche in the global storage market.</p>
 <br/>
-<a href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Solution-Brief_LinBit_2022.pdf?api=v2" ><b>DOWNLOAD THE SOLUTION BRIEF</b></a>
-<br/>
+<a class="button button--primary button--lg" href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Solution-Brief_LinBit_2022.pdf?api=v2" ><b>DOWNLOAD THE SOLUTION BRIEF</b></a>

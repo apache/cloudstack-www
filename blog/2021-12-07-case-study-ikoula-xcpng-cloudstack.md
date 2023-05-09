@@ -8,10 +8,10 @@ slug: case-study-ikoula-xcpng-cloudstack
 
 The French specialist in web hosting, dedicated servers, and cloud computing IKOULA announced a joint case study with the leading open-source cloud management software CloudStack. For the management of their cloud environment, IKOULA decided to choose the open-source way by combining the power of CloudStack with the simplicity of the open-source hypervisor XCP-ng. Тhe turnkey combination was carefully selected following the long-term company strategy to guarantee a constant product evolution, reliability, and simplicity for their customers. As a result, IKOULA is now among the most innovative cloud and managed services providers in Europe, with an extensive portfolio of cloud solutions. Moreover, a large number of customers use their CloudStack-orchestrated infrastructure to deploy memory-oriented and storage-oriented VMs or Kubernetes clusters.
 
-<a class="button button--primary" href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Case-Study_IKOULA_2021-11_EN.pdf?version=1&modificationDate=1638874264049&api=v2"><b>DOWNLOAD THE CASE STUDY (ENGLISH)</b></a>
+<a class="button button--primary button--lg" href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Case-Study_IKOULA_2021-11_EN.pdf?version=1&modificationDate=1638874264049&api=v2"><b>DOWNLOAD THE CASE STUDY (ENGLISH)</b></a>
 <br/>
 <br/>
-<a class="button button--primary" href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Case-Study_IKOULA_2021-11_FR.pdf?version=1&modificationDate=1638874279575&api=v2"><b>DOWNLOAD THE CASE STUDY (FRENCH)</b></a>
+<a class="button button--primary button--lg" href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Case-Study_IKOULA_2021-11_FR.pdf?version=1&modificationDate=1638874279575&api=v2"><b>DOWNLOAD THE CASE STUDY (FRENCH)</b></a>
 
 The cloud and hosting market is one of the most competitive in the tech industry. Companies need to constantly innovate, be creative, offer exceptional service quality and support while keeping a competitive price. Choosing an open-source technology stack is a strategic decision taken by IKOULA. They eliminate all vendor lock-ins and ensure the company has full control over their infrastructure by being open-source. Other significant benefits are the easy management of extensive infrastructure, guaranteed reliability, and seamless scalability.
  
@@ -22,10 +22,10 @@ CloudStack and XCP-ng also give a financial advantage to IKOULA, which is extrem
 At this stage, IKOULA manages a large CloudStack environment with 100+ hosts in 8 different zones and 6600+ customers using it. They can make live updates and upgrades of the system without any service interruptions for the end-users. Among the most valuable CloudStack features for them are the multi-tenancy of the solution, its scalability and the power to easily manage hundreds of hosts and thousands of VMs.
 
 <br/>
-<a class="button button--primary" href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Case-Study_IKOULA_2021-11_EN.pdf?version=1&modificationDate=1638874264049&api=v2"><b>DOWNLOAD THE CASE STUDY (ENGLISH)</b></a>
+<a class="button button--primary button--lg" href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Case-Study_IKOULA_2021-11_EN.pdf?version=1&modificationDate=1638874264049&api=v2"><b>DOWNLOAD THE CASE STUDY (ENGLISH)</b></a>
 <br/>
 <br/>
-<a class="button button--primary" href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Case-Study_IKOULA_2021-11_FR.pdf?version=1&modificationDate=1638874279575&api=v2"><b>DOWNLOAD THE CASE STUDY (FRENCH)</b></a>
+<a class="button button--primary button--lg" href="https://cwiki.apache.org/confluence/download/attachments/30757703/CloudStack_Case-Study_IKOULA_2021-11_FR.pdf?version=1&modificationDate=1638874279575&api=v2"><b>DOWNLOAD THE CASE STUDY (FRENCH)</b></a>
 <br/>
 <br/>
 
