@@ -1,5 +1,14 @@
 # Contributing to Apache CloudStack Website
 
+Non-technical contributors can refer to the visual guide here:
+
+https://github.com/apache/cloudstack-www/blob/main/src/pages/website-guide.md
+
+For adding blog posts, the following template can be copied and renamed in the
+format as <date>-blog-name, see examples in the blog directory:
+
+https://github.com/apache/cloudstack-www/tree/main/blog/.blog-template
+
 ## Step by Step
 
 * Fork this repository to your Github account: `<your_github_user>`. To do that,

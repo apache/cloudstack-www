@@ -12,8 +12,9 @@ This is a website and blog guide which can be used as a reference which is
 written in markdown. Markdown allows to fix html, the above is an example of how
 to add an image which may exist within the blog folder directory.
 
-Please co-related with the source at:
+Please co-relate with the source of this page at:
 
+https://github.com/apache/cloudstack-www/blob/main/src/pages/website-guide.md
 
 For basic Markdown syntax reference, please refer:
 https://www.markdownguide.org/basic-syntax/
