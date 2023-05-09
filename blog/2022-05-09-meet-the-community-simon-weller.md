@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Meet the Community - Simon Weller &ndash; VP of Apache CloudStack
+title: Meet the Community - Simon Weller - VP of Apache CloudStack
 tags: [community]
 slug: meet-the-community-simon-weller
 ---

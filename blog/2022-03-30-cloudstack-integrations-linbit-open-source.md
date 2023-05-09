@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'CloudStack Integrations: LINBIT &ndash; Open-source SDS Solution'
-
+title: 'CloudStack Integrations: LINBIT - Open-source SDS Solution'
+tags: [case-studies]
 slug: cloudstack-integrations-linbit-open-source
 ---
 <a href="/img/imported/de3ef6b5-77a9-4747-a71c-8638a435addf"><img src="/img/imported/de3ef6b5-77a9-4747-a71c-8638a435addf" alt="CS-LINBIT.jpg" width="750" height="393" /></a>

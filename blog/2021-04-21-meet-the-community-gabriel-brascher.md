@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Meet the Community &ndash; Gabriel Brascher &ndash; VP of Apache CloudStack
+title: Meet the Community - Gabriel Brascher - VP of Apache CloudStack
 tags: [community]
 slug: meet-the-community-gabriel-brascher
 ---

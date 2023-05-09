@@ -6,7 +6,7 @@ slug: apache_cloudstack_weekly_news_22
 ---
 <p><a href="/img/imported/ab378739-3c34-48ea-9495-2c49e23e58d6"><img src="/img/imported/ab378739-3c34-48ea-9495-2c49e23e58d6?t=true" alt="square-cloudmonkey.png" align="left" hspace="5" vspace="5"></img></a>This time around, we have two release VOTEs in progress, which means that 4.1.0 is just about out the door. The CloudStack Collaboration Conference 2013 <a href="http://markmail.org/message/uqj2nazm6dcpg7h7" class="external-link" rel="nofollow">has been announced for June 23rd through 25th</a>. You'll also want to check in on the discussions about the length of the release cycle, Chip Childers and David Nalley appearing on FLOSS Weekly, and much more. </p>
 
-<p>A lot has happened since the last issue of the CloudStack Weekly News, and not just because the community's been busy &ndash; we missed getting last week's issue out. Sorry about that! If you'd like to see consistent weekly delivery, check the end of the newsletter to see how you can help.</p>
+<p>A lot has happened since the last issue of the CloudStack Weekly News, and not just because the community's been busy - we missed getting last week's issue out. Sorry about that! If you'd like to see consistent weekly delivery, check the end of the newsletter to see how you can help.</p>
 
 <h3><a name="ApacheCloudStackWeeklyNews-22April2013-MajorDiscussions"></a>Major Discussions</h3>
 
@@ -50,7 +50,7 @@ slug: apache_cloudstack_weekly_news_22
 
 <p>After a couple of false starts, it looks like the third time is the charm for the 4.0.2 release. Joe Brockmeier <a href="http://markmail.org/message/nfe2lyxj4mjsmxdb" class="external-link" rel="nofollow">started the third voting round on Saturday 20 April</a>, and it has quite a few +1 (binding) votes so far. Unless -1'ed by Tuesday morning, it will be ready for release. </p>
 
-<p>Chip has also <a href="http://markmail.org/thread/vfcje3fs5ilvm47c" class="external-link" rel="nofollow">started the first vote</a> for 4.1.0, which will be open for 72 hours &ndash; assuming no show-stopping defects are found, and it garners at least 3 +1 PMC votes. Note that <b>everyone</b> in the CloudStack community is encouraged to test out the release candidate and cast a vote, regardless of whether the vote is "binding" or not. More testing is always better, and an informed -1 from a non-PMC member isn't going to be ignored when deciding whether to release or not. </p>
+<p>Chip has also <a href="http://markmail.org/thread/vfcje3fs5ilvm47c" class="external-link" rel="nofollow">started the first vote</a> for 4.1.0, which will be open for 72 hours - assuming no show-stopping defects are found, and it garners at least 3 +1 PMC votes. Note that <b>everyone</b> in the CloudStack community is encouraged to test out the release candidate and cast a vote, regardless of whether the vote is "binding" or not. More testing is always better, and an informed -1 from a non-PMC member isn't going to be ignored when deciding whether to release or not. </p>
 
 <h5><a name="ApacheCloudStackWeeklyNews-22April2013-DomainAdminLimitations"></a>Domain Admin Limitations</h5>
 

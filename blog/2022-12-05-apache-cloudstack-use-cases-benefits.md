@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apache CloudStack Use Cases, Benefits and its Projected Future
-
+tags: [community]
 slug: apache-cloudstack-use-cases-benefits
 ---
 <a href="/img/imported/b038e94b-74d3-4391-b2cf-5db68820cd66"><img src="/img/imported/b038e94b-74d3-4391-b2cf-5db68820cd66" alt="05:12:22 banner.png" width="750" height="393"/></a>
@@ -13,7 +13,7 @@ slug: apache-cloudstack-use-cases-benefits
 <p><strong>3)&nbsp;&nbsp; What is the future of the CloudStack project according to you?</strong></p>
 <p>We interviewed different members of the community to demonstrate and share the array of capabilities Apache CloudStack has to offer. Reading through the blog will introduce you to some of the known companies in the community, and what exactly their service offerings are. In this article you will also find out how Apache CloudStack stands out amongst other cloud orchestration platforms, for reasons such as: its ease of implementation, reliability, cost-effectiveness, it&rsquo;s open-source approach and more!</p>
 <p>&nbsp;</p>
-<p><span ><strong>Sven Vogel, Senior Manager R&amp;D &ndash; Cloud and Infrastructure, </strong><a href="https://www.ewerk.com/startseite"><strong>EWERK</strong></a></span></p>
+<p><span ><strong>Sven Vogel, Senior Manager R&amp;D - Cloud and Infrastructure, </strong><a href="https://www.ewerk.com/startseite"><strong>EWERK</strong></a></span></p>
 <p><strong>Sven is the senior R&amp;D manager for Cloud &amp; Infrastructure at EWERK Group. Sven is a German IT-Specialist with 15+ year&rsquo;s experience in IT and a member of the Apache Software Foundation.</strong></p>
 <p><strong>EWERK supports European companies in the field of system-relevant infrastructures. So far, they have supported over 500 companies who have put their trust into IT projects and consulting expertise.</strong></p>
 <ul>
@@ -71,7 +71,7 @@ slug: apache-cloudstack-use-cases-benefits
 <ul>
 <li><strong>What is the primary benefit of using CloudStack against other virtualization management platforms?</strong></li>
 </ul>
-<p>&ldquo;Against other IaaS orchestration platforms, CloudStack has got two key advantages: A) Ease of deployment - whereas a lot of other platforms are incredibly complex to deploy. B) Reliability &ndash; CloudStack has been around for over a decade, it&rsquo;s very stable, it&rsquo;s very well-known, it&rsquo;s in production use at many of the world&rsquo;s largest organisations.&rdquo;</p>
+<p>&ldquo;Against other IaaS orchestration platforms, CloudStack has got two key advantages: A) Ease of deployment - whereas a lot of other platforms are incredibly complex to deploy. B) Reliability - CloudStack has been around for over a decade, it&rsquo;s very stable, it&rsquo;s very well-known, it&rsquo;s in production use at many of the world&rsquo;s largest organisations.&rdquo;</p>
 <ul>
 <li><strong>What is the future of the CloudStack project according to you?&nbsp;</strong></li>
 </ul>

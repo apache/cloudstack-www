@@ -6,7 +6,7 @@ title: The Apache Software Foundation Announces Apache CloudStack Has Become A T
 slug: the_apache_software_foundation_announces
 ---
 <p><strong><em>Mature, open source turn-key platform for delivering scalable, full-featured Infrastructure-as-a-Service (IaaS) clouds.</em></strong></p>
-<p>Forest Hill, MD &ndash; 25 March 2013</p>
+<p>Forest Hill, MD - 25 March 2013</p>
 <p>The Apache Software Foundation (ASF), the all-volunteer developers, stewards, and incubators of nearly 150 open source projects and initiatives, announced today that Apache CloudStack has graduated from the Apache Incubator to become a Top-Level Project (TLP), signifying that the project's community and products have been well-governed under the ASF's meritocratic process and principles.</p>
 
 <p>"When CloudStack first became an Apache Incubator project, it was a well-established cloud management platform, so its codebase was already mature," said Chip Childers, Vice President of Apache CloudStack. "Our work in the Incubator has focused on growing a really strong community around the code and establishing the governance practices expected of a top-level project within the Apache Software Foundation."</p>
