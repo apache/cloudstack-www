@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Apache Software Foundation Announces Apache® CloudStack® v4.13
-
+tags: [announcement]
 slug: the-apache-software-foundation-announces
 ---
 ature Open Source Enterprise Cloud platform powers billions of dollars in transactions for the world's largest Cloud providers.

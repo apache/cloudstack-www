@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apache CloudStack 4.0.0-incubating Released
-
+tags: [announcement]
 slug: apache_cloudstack_4_0_0
 ---
 <p>The Apache CloudStack project is pleased to announce the 4.0.0-incubating release of the CloudStack Infrastructure-as-a-Service (IaaS) cloud orchestration platform. This is the first release from within the Apache Incubator, the entry path into the Apache Software Foundation (ASF).</p>

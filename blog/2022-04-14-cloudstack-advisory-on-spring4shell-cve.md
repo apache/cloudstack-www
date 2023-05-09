@@ -1,7 +1,8 @@
 ---
 layout: post
 title: CloudStack Advisory on Spring4Shell (CVE-2022-22965&nbsp;and&nbsp;CVE-2022-22963)
-
+tags: [announcement]
+authors: [ivet]
 slug: cloudstack-advisory-on-spring4shell-cve
 ---
 

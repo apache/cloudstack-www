@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dnsmasq Vulnerabilities Advisory for CloudStack
-
+tags: [announcement]
 slug: dnsmasq-vulnerabilities-advisory-for-cloudstack
 ---
 <p>Recently, a number of security flaws were recently found in the DNSMasq tool. This tool is used by many systems to provide DNS and DHCP services, including by the CloudStack System VMs.</p>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apache CloudStack 4.1.0 Released
-
+tags: [announcement]
 slug: apache_cloudstack_4_1_0
 ---
 <p><a href="/img/imported/ab378739-3c34-48ea-9495-2c49e23e58d6"><img src="/img/imported/ab378739-3c34-48ea-9495-2c49e23e58d6?t=true" alt="square-cloudmonkey.png" align="left" vspace="5" hspace="5"></img></a> The Apache CloudStack project is pleased to announce the 4.1.0 release of the CloudStack Infrastructure-as-a-Service (IaaS) cloud orchestration platform. This is the first major release from Apache CloudStack since its graduation from the Apache Incubator on March 20th. </p>

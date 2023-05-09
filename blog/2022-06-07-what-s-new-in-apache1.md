@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What's New in Apache CloudStack 4.17
-
+tags: [announcement]
 slug: what-s-new-in-apache1
 ---
 <p>Apache CloudStack 4.17 is the latest release of the cloud management platform from the Apache Software Foundation and is a result of months of work from the development community. Apache CloudStack 4.17 is an LTS (Long Term Support) release so will be maintained for a period of 18 months after release.</p>

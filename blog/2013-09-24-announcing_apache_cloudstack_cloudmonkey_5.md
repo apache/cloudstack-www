@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing Apache CloudStack CloudMonkey 5.0.0!
-
+tags: [announcement]
 slug: announcing_apache_cloudstack_cloudmonkey_5
 ---
 <p>The Apache CloudStack project is pleased to announce the immediate availability

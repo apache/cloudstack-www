@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Apache CloudStack LTS Maintenance Release 4.15.2.0
-
+tags: [announcement]
+authors: [rohit]
 slug: apache-cloudstack-lts-maintenance-release2
 ---
 # Apache CloudStack LTS Maintenance Release 4.15.2.0

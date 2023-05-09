@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing Apache CloudStack 4.2.0
-
+tags: [announcement]
 slug: announcing_apache_cloudstack_4_2
 ---
 <p>The <a href="http://cloudstack.apache.org">Apache CloudStack</a> project is excited to announce the 4.2 feature release of the CloudStack cloud orchestration platform. This is the next feature release of the 4.x line which first released on November 6, 2012 with the 4.1 release on June 5. This is the second major release from Apache CloudStack since its graduation from the Apache Incubator on March 20th.</p>

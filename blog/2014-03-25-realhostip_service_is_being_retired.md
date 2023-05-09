@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Realhostip Service is Being Retired
-
+tags: [announcement]
 slug: realhostip_service_is_being_retired
 ---
 <p>Recently the Apache CloudStack PMC was informed that the realhostip.com Dynamic DNS service that CloudStack currently uses as part of the console proxy will be disbanded this summer.  The realhostip service will be <b>shut down June 30th, 2014, meaning users have approximately 3 months to mitigate this</b>.</p>

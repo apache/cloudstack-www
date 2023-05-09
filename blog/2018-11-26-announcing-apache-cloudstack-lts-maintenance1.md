@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing Apache CloudStack LTS Maintenance Release 4.11.2.0
-
+tags: [announcement]
 slug: announcing-apache-cloudstack-lts-maintenance1
 ---
 Announcing Apache CloudStack LTS Maintenance Release 4.11.2.0

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What's coming in CloudMonkey v6.0.0
-
+tags: [announcement]
 slug: what-s-coming-in-cloudmonkey
 ---
 <b># Background</b>

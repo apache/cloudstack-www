@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing Apache CloudStack LTS Maintenance Release 4.11.1.0
-
+tags: [announcement]
 slug: announcing-apache-cloudstack-lts-maintenance
 ---
 The Apache CloudStack project is pleased to announce the release of CloudStack 4.11.1.0 as part of its LTS 4.11.x releases. The CloudStack 4.11.1.0 release contains more than 130 fixes since the CloudStack 4.11.0.0 release. CloudStack LTS branches are supported for 20 months and will receive updates for the first 14 months. For the final six months only security updates are provided.

@@ -2,6 +2,7 @@
 layout: post
 title: Apache CloudStack 4.17.0.0 LTS Release
 tags: [announcement]
+authors: [ivet]
 slug: apache-cloudstack-4-17-release
 ---
 <p>*The Apache Software Foundation Announces Apache**&reg;** CloudStack**&reg;** v4.17*<br />

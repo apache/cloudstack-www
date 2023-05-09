@@ -1,7 +1,8 @@
 ---
 layout: post
 title: CloudStack Collaboration Conference 2022 - November 14-16
-
+tags: [announcement]
+authors: [ivet]
 slug: cloudstack-collaboration-conference-2022-november1
 ---
 <a href="/img/imported/415395c2-3808-4d68-8e70-396c71acfeed"><img src="/img/imported/415395c2-3808-4d68-8e70-396c71acfeed" alt="CCC.png" width="750" height="393" /></a>

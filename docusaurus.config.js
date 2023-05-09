@@ -183,7 +183,7 @@ const config = {
           {
             label: 'Download',
             position: 'right',
-            href: '/download'
+            href: '/downloads'
           },
           {
             label: 'Blog',

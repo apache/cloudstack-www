@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing Apache CloudStack 4.3.0
-
+tags: [announcement]
 slug: announcing_apache_cloudstack_4_3
 ---
 <p>Flexible, scalable, Open Source Infrastructure as a Service (IaaS) used by organizations such as Zynga, Datapipe, and ISWest, among others, for creating, managing, and deploying public, private, and hybrid Cloud Computing environments</p>

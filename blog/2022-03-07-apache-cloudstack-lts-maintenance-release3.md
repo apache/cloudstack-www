@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Apache CloudStack LTS Maintenance Release 4.16.1.0
-
+tags: [announcement]
+authors: [ivet]
 slug: apache-cloudstack-lts-maintenance-release3
 ---
 <a href="/img/imported/24029aa4-71d0-42df-880d-a6eb10610b80"><img src="/img/imported/24029aa4-71d0-42df-880d-a6eb10610b80" alt="cs-4161.jpg" width="750" height="393" /></a>

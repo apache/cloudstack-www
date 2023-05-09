@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing Apache™ CloudStack™ v4.4.1
-
+tags: [announcement]
 slug: announcing_apache_cloudstack_v4_4
 ---
 <em><h2>Mature, easy-to-deploy Open Source Cloud computing software platform boasts improved efficiency and performance.</h2></em>

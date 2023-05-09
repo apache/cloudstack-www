@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing Apache CloudStack 4.2.1
-
+tags: [announcement]
 slug: announcing_apache_cloudstack_4_21
 ---
 <p>The Apache CloudStack project is pleased to announce the 4.2.1 release of the CloudStack cloud orchestration platform. This is a minor release of the 4.2.0 branch which released on Oct 1, 2013. The 4.2.1 release contains more than 150 bug fixes. As a bug fix release, no new features are included in 4.2.1.</p>

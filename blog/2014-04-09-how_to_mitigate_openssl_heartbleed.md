@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Mitigate OpenSSL HeartBleed Vulnerability in Apache CloudStack
+tags: [announcement]
 slug: how_to_mitigate_openssl_heartbleed
 ---
 

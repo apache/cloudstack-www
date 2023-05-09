@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Apache Software Foundation Announces Apache® CloudStack® v4.15
-
+tags: [announcement]
+authors: [rohit]
 slug: the-apache-software-foundation-announces2
 ---
 The Apache CloudStack Project Releases Apache® CloudStack® v4.15

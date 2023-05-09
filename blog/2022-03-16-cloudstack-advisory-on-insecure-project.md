@@ -1,7 +1,8 @@
 ---
 layout: post
 title: CloudStack Advisory on Insecure Project Invitation Token (CVE-2022-26779)
-
+tags: [announcement]
+authors: [daan]
 slug: cloudstack-advisory-on-insecure-project
 ---
 <p>Apache CloudStack prior to 4.16.1.0 used insecure random number generation for project invitation tokens. If a project invite is created based only on an email address, a random token is generated. An attacker with knowledge of the project ID and the fact that the invite is sent, could generate time deterministic tokens and brute force attempt to use them prior to the legitimate receiver accepting the invite.</p>

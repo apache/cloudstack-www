@@ -32,7 +32,7 @@ function HomepageHeader() {
             <div className={styles.buttons}>
               <Link
                 className="button button--primary button--lg"
-                to="download">
+                to="downloads">
                 Download
               </Link>
               <Link

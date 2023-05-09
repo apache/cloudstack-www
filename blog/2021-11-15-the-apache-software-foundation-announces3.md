@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Apache Software Foundation Announces Apache® CloudStack® v4.16
-
+tags: [announcement]
 slug: the-apache-software-foundation-announces3
 ---
 <b>The Apache Software Foundation Announces Apache® CloudStack® v4.16</b>

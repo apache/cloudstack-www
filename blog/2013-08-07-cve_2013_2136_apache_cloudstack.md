@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[CVE-2013-2136] Apache CloudStack Cross-site scripting (XSS) vulnerabiliity"
-
+tags: [announcement]
 slug: cve_2013_2136_apache_cloudstack
 ---
 <p>
