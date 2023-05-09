@@ -3,7 +3,7 @@ layout: post
 title: Meet Rohit Yadav - the new VP of Apache CloudStack
 tags: [community]
 authors: [ivet]
-slug: meet-rohit-yadav-the-new-vp
+slug: meet-rohit-yadav-the-new
 ---
 
 ![Rohit Yadav](header.jpg "Rohit Yadav - the new VP of Apache CloudStack")
