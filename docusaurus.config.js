@@ -25,10 +25,9 @@ const config = {
       ({
         docs: {
           path: 'docs',
-          routeBasePath: "/docs",
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-          sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: "/website-guide",
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: false,
           editUrl: 'https://github.com/apache/cloudstack-www/tree/main/',
         },
         blog: {
@@ -265,7 +264,7 @@ const config = {
         require.resolve("@easyops-cn/docusaurus-search-local"),
         {
           hashed: true,
-          indexDocs: true,
+          indexDocs: false,
           indexPages: true,
           language: ["en"],
         }

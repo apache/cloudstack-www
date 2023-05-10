@@ -1,19 +1,12 @@
 ---
-layout: post
-title: Lorem Ipsum
-tags: [news]
-authors: [ivet]
-slug: fix-this-slug-for-post-url
+title: Website Dev Guide
 ---
-
-![](/img/banner.svg "Header Image")
 
 This is a website and blog guide which can be used as a reference which is
 written in markdown. Markdown allows to fix html, the above is an example of how
 to add an image which may exist within the blog folder directory.
 
 Please co-relate with the source of this page at:
-
 https://github.com/apache/cloudstack-www/blob/main/src/pages/website-guide.md
 
 For basic Markdown syntax reference, please refer:
@@ -21,15 +14,6 @@ https://www.markdownguide.org/basic-syntax/
 
 Refer to the following for Docusauras supported markdown features:
 https://docusaurus.io/docs/2.3.1/markdown-features
-
-<h2>Images</h2>
-
-We can specify the path related to the `static/` directory paths, all files
-in static folder are available from the root of the website such as:
-
-![](/img/banner.svg "Example image title")
-
-Further reference: https://docusaurus.io/docs/2.3.1/markdown-features/assets
 
 ## Working with the Website, Pages and Blogs
 
@@ -80,28 +64,81 @@ truncate -->` in your blog post (the index.md file):
 
 ## Contributing Changes using Github
 
-TODO: add images
-
 Once you've the boilerplate changes done, the steps are:
 
-1. Create a Github branch or just edit directly on the `main` branch.
+1. If you're a committer, you can edit directly the `main` branch or create a
+Github branch (optionally in your personally fork) by heading to the
+[branches](https://github.com/apache/cloudstack-www/branches) page:
 
-2. Upload a new page (.md or .mdx) or blog folder in the right directories and
-commit your changes.
+![](new-branch.png)
 
-3. If you've created your own branch, raise a pull request and wait for the
-automation to build the page for you to check. And merge the PR with other
-committer's help (or yourself) once you're satisfied.
+2. You may edit any existing page in the `src/pages` directory or an existing
+blog in the `blog` directory, or add new content. If you do this in
+apache/cloudstack-www repository's `main` branch then creating a pull request
+isn't required.
 
-## Misc
+3. To add a new page or create a new blog you can also upload files, for example to
+add a blog we can use the `.blog-template`, edit the `index.md` and add any
+assets (such as images and pdfs) in a new directory on our computer (say
+`2023-05-10-test-blog`):
 
-<h1>Table of Contents</h1>
+![](new-blog-dir.png)
 
-If you don't want table of contents on right-side of a page, then don't use the
-markdown syntax for h2, h3, h4... instead use the html such this section's
-header won't show up on the page's table of contents on the right side.
+4. Next, you can drag/drop or select this entire folder in the `blog` directory
+of your newly created Github branch
+(https://github.com/apache/cloudstack-www/tree/new-blog-post/blog):
+
+![](blog-dir.png)
+
+And, click the commit button to upload the blog post:
+
+![](github-commit-blog.png)
+
+5. Next, open a pull request to get your PR merged (this isn't required if
+you directly make changes in the `main` branch). To do this, you go to the
+branches list and click on the "New pull request" button that's in front of your
+branch:
+
+![](new-pr.png)
+
+Next, create the pull request:
+
+![](open-pr.png)
+
+6. If you've opened a PR, a Github bot will notify you once it has built the
+staging website for you to review your changes:
+
+![](github-bot.png)
+
+Your changes will be made live on the project website once a committer (or
+yourself, if you're one) will merge the pull request: (pro-tip - try to always
+delete your branch after merging)
+
+![](pr-merged.png)
+
+If you're making changes directly on the `main` branch your changes will be made
+live in a few minutes, for you to verify:
+
+![](test-blog.png)
+
+**That's it!**
+
+## ToC on blog and website page
+
+If you don't want table of contents show up on right-side of a page/blog, then
+don't use the markdown syntax for h2 (##), h3 (###) etc. instead use the html
+`<h2>`, `<h3>` etc. which will not show the ToC on a page/blog.
 
 Further reference: https://docusaurus.io/docs/2.3.1/markdown-features/toc
+
+## Images
+
+We can specify the path related to the `static/` directory paths, all files
+in static folder are available from the root of the website such as:
+
+![](nandcmk.gif "Example image title")
+
+Further reference: https://docusaurus.io/docs/2.3.1/markdown-features/assets
 
 ## Buttons
 
@@ -158,7 +195,7 @@ Some **content** with _Markdown_ `syntax`. Check [this `link`](#).
 
 :::
 
-## Misc Examples
+## Other Examples
 
 > This is a quote
 >
