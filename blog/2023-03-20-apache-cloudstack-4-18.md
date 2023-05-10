@@ -12,7 +12,9 @@ The Apache Software Foundation Announces Apache® CloudStack® v4.18.
 Apache CloudStack 4.18.0.0 is a 4.18 LTS release with 300+ new features,
 improvements, and bug fixes since 4.17, including 19 major new features. Some of
 the highlights include:
+
 <!-- truncate -->
+
 - Edge Zones
 
 - Autoscaling

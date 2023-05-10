@@ -8,6 +8,8 @@ slug: what-s-new-in-apache
 
 Apache CloudStack 4.16 is the latest release of the cloud management platform from the Apache Software Foundation and is a result of months of work from the development community. 4.16 is an LTS (Long Term Support) release so will be maintained for a period of 18 months after release. 
 
+<!-- truncate -->
+
 As always, the release contains a myriad of small improvements and bug fixes but here we focus on the major new functionality of the release. 
 
 <h2>New CloudStack Integrations</h2>

@@ -13,6 +13,8 @@ thought. With the right technology stack, companies can quickly and easily
 deploy a flexible and stable IaaS offering to support any business requirements,
 as proIO discovered.
 
+<!-- truncate -->
+
 [proIO](https://www.proio.com/) was founded in Frankfurt, Germany, nearly 20 years ago, as Swen Brüseke
 explains. “We wanted to create a company based on holistic IT concepts,
 providing support and advice from system design and creation through to smooth

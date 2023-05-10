@@ -10,6 +10,8 @@ slug: apache-cloudstack-lts-maintenance-release3
 The Apache CloudStack project is pleased to announce the release of CloudStack 4.16.1.0.
 The CloudStack 4.16.1.0 release is a maintenance release as part of its 4.16.x LTS branch and contains more than 150 fixes and improvements since the CloudStack 4.16.0.0 release. Some of the highlights include:
 
+<!-- truncate -->
+
 - System VM Template improvements
 - CKS enhancements
 - Support for VMware 7.0u2, 7.0u3

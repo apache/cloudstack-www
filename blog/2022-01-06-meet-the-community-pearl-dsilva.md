@@ -10,6 +10,8 @@ The Apache CloudStack Community is an ever-growing and rapidly-developed communi
 
 Meet <a href="https://github.com/Pearl1594">Pearl Dsilva</a> – one of the CloudStack Committers. Learn more about her!
 
+<!-- truncate -->
+
 <b>Introduce yourself with a few words?</b>
 
 Hi, I'm Pearl Dsilva, with about 5 years of experience in Telecommunications and Cloud Computing. I'm based in Bangalore, India, and currently work at ShapeBlue. I have done my Bachelor's Degree in Engineering in E&C. Since then, my career has been mainly in Telecommunications and Cloud management.

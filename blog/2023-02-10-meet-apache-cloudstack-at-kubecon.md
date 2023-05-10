@@ -9,6 +9,8 @@ slug: meet-apache-cloudstack-at-kubecon
 
 <strong>On 18-21<sup>st</sup> April, in Amsterdam, Netherlands will take place one of the largest flagship cloud conferences globally - </strong><a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/"><strong>KubeCon + Cloud NativeCon.</strong></a>
 
+<!-- truncate -->
+
 We are excited to share that Apache CloudStack will be a silver sponsor at the event, and that community members will be representing the technology and community on the global stage. Attendees will be able to come to the Apache CloudStack booth and learn more about the capabilities and use cases of CloudStack as a turnkey solution for cloud management. This will help further propel the awareness of Apache CloudStack, across an audience of leading cloud providers, MSPs and telcos.
 
 <a class="button button--primary" href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/register/"><b>REGISTER NOW</b></a>

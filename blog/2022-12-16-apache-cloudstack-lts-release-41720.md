@@ -13,6 +13,8 @@ The Apache CloudStack project is pleased to announce the release of CloudStack 4
 
 The CloudStack 4.17.2.0 release is a maintenance release as part of its 4.17.x  LTS branch and contains more than 20 fixes since the CloudStack 4.17.1.0 release.
 
+<!-- truncate -->
+
 CloudStack LTS branches are supported for 18 months and will receive updates for the first 12 months and only security updates in the last 6 months.
 
 Apache CloudStack is an integrated Infrastructure-as-a-Service (IaaS) software platform that allows users to build feature-rich public and private cloud environments. CloudStack includes an intuitive user interface and rich API for managing the compute, networking, software, and storage resources. The project became an Apache top-level project in March, 2013.

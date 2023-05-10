@@ -7,11 +7,13 @@ slug: the-apache-software-foundation-announces2
 ---
 The Apache CloudStack Project Releases Apache® CloudStack® v4.15
 
-ature Open Source Enterprise Cloud platform powers billions of dollars in transactions for the world's largest Cloud providers, Fortune 5 multinationals, educational institutions, and more.
+Mature Open Source Enterprise Cloud platform powers billions of dollars in transactions for the world's largest Cloud providers, Fortune 5 multinationals, educational institutions, and more.
 
 Wilmington, DE —19 January 2021— The Apache CloudStack Project announced today v4.15 of Apache® CloudStack®, the mature, turnkey Open Source enterprise Cloud orchestration platform.
 
 Apache CloudStack is the proven, highly scalable IaaS platform of choice to rapidly and easily create private, public, and hybrid Cloud environments: it "just works".
+
+<!-- truncate -->
 
 Apache CloudStack powers mission-critical clouds for the world’s largest users and service providers, including Alcatel-Lucent, Apple, Autodesk, Bell Canada, BT, China Telecom, Dell, Disney, Fujitsu, Huawei, INRIA, Juniper Networks, Korea Telecom, Leaseweb, Melbourne University, Nokia, NTT, Orange, SAP, Schuberg Philis, Taiwan Mobile, Tata, TrendMicro, Verizon, WebMD, and countless others.
 

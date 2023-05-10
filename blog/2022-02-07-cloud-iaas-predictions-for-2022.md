@@ -7,6 +7,9 @@ slug: cloud-iaas-predictions-for-2022
 ---
 <p>&nbsp;</p><a href="/img/imported/b735d3a3-b098-4c3c-87b5-5ed88a12bf65"><img src="/img/imported/b735d3a3-b098-4c3c-87b5-5ed88a12bf65" alt="CloudStack_Blog-Post_Cloud-IaaS-Predictions 2022_1200x628px.jpg" alt="Cloud/IaaS Predictions" width="750" height="393" /></a>
 <p><strong>It's the beginning of the new year, and here the Apache CloudStack community shares its predictions about the state of open-source technology and the future of Cloud/IaaS.</strong> While some well-established trends (such as the migration to hybrid cloud environments and containerization) will continue in 2022, the potential for disruption caused by the ongoing pandemic will drive IT to accelerated change and improvement.</p>
+
+<!-- truncate -->
+
 <p>The Cloud/IaaS market is constantly evolving, and the ability to run workloads on Kubernetes, both on-premise and on public cloud infrastructure is vital to ensure business agility. Container-based cloud-native applications promise to deliver computing power independent of the cloud provider or hardware platform and is the biggest trend registered widely by users and the market, as there are changes in cultural and technological paradigms.</p>
 <p>In terms of cloud management systems used to orchestrate Cloud/IaaS environments, the main goal for companies in 2022 is decreasing operational effort and thus costs. Providers will be looking for platforms that can increase their competitiveness and deliver predictable results while eliminating licensing and vendor lock-in.</p>
 <p>Apache CloudStack follows the technology wave and responds to the user demand for innovation and improvement. As part of this strategy, it is integrating Kubernetes and extending IPv6 support in the latest versions. Huge progress has been made in the installation and upgrade processes, making Apache CloudStack even easier to maintain and operate.</p>

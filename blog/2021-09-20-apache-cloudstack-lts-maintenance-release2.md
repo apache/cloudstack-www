@@ -13,6 +13,8 @@ The CloudStack 4.15.2.0 release is a maintenance release as part of its
 4.15.x  LTS branch and contains more than 75 fixes and improvements since
 the CloudStack 4.15.0.0 release.
 
+<!-- truncate -->
+
 CloudStack LTS branches are supported for 18 months and will receive
 updates for the first 12 months and only security updates in the last 6
 months.

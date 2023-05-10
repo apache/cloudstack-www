@@ -6,9 +6,11 @@ slug: the-apache-software-foundation-announces1
 ---
 The Apache Software Foundation Announces Apache® CloudStack® v 4.14
 
-ature Open Source Enterprise Cloud platform powers billions of dollars in transactions for the world's largest Cloud providers, Fortune 5 multinationals, educational institutions, and more. 
+ature Open Source Enterprise Cloud platform powers billions of dollars in transactions for the world's largest Cloud providers, Fortune 5 multinationals, educational institutions, and more.
 
 Wakefield, MA —NN May 2020— The Apache Software Foundation (ASF), the all-volunteer developers, stewards, and incubators of more than 350 Open Source projects and initiatives, announced today Apache® CloudStack® 4.14, the latest version of the mature, turnkey enterprise Cloud orchestration platform.
+
+<!-- truncate -->
 
 Apache CloudStack includes the entire "stack" of features in an IaaS cloud: compute orchestration, Network-as-a-Service, user and account management, full and open native API, resource accounting, and a first-class user interface.
 

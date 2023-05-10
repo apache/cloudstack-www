@@ -15,6 +15,8 @@ customers to reach their full online potential. The group serves over 1 million
 customers and generates €175m in revenue with its eight brands and 600
 employees.
 
+<!-- truncate -->
+
 Your.Online needed to build a centralized IaaS cloud platform for four of their
 brands - Versio, Yourhosting, Savvii and Axarnet. The four companies ran on
 different infrastructure platforms using technologies like VMware, RHEV, Xen

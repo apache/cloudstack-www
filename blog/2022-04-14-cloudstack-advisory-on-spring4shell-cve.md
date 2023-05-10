@@ -8,6 +8,8 @@ slug: cloudstack-advisory-on-spring4shell-cve
 
 At the beginning of April 2022, vulnerabilities in the Spring Framework for Java were publicly revealed. Many companies noticed active exploitation of the Spring4Shell vulnerability assigned as CVE-2022-22965. This vulnerability allows hackers to execute the Mirai botnet malware. The exploit allows threat actors to download the Mirai sample to the `/tmp` folder and execute them after changing its execute permission using `chmod`.
 
+<!-- truncate -->
+
 Currently, there are two vulnerabilities that allow malicious actors to achieve remote code execution (RCE) for Spring Framework - <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22965" target="_blank" rel="noopener">CVE-2022-22965</a>, <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22963" target="_blank" rel="noopener">CVE-2022-22963</a>.
 
 The origin appears to be tracked to VMware products and spring-framework has published new releases <a href="https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement#am-i-impacted" target="_blank" rel="noopener">v5.3.18 and v5.2.20</a> as mitigation.

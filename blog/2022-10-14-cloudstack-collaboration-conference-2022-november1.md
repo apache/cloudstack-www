@@ -9,6 +9,8 @@ slug: cloudstack-collaboration-conference-2022-november1
 
 The global Apache CloudStack community is hosting its major annual event - CloudStack Collaboration Conference, running from November 14th to November 16th 2022. The conference will be taking place in Sofia, Bulgaria. However, the conference is hybrid, allowing speakers and attendees to join virtually.
 
+<!-- truncate -->
+
 The hybrid event is aimed at developers, operators and users to discuss and evolve the open-source software project, its functionality and real-world operability. This event will introduce you to the CloudStack family, community leaders, project members and contributors.
 
 CloudStack Collaboration Conference is free to attend and open to anybody who wants to learn more about one of the most powerful Apache Software Foundation projects. The registration can be accessed here - <a href="https://events.hubilo.com/cloudstack-collaboration-conference-2022/register">https://events.hubilo.com/cloudstack-collaboration-conference-2022/register</a>.

@@ -8,9 +8,10 @@ slug: meet-the-community-david-jumani
 
 The Apache CloudStack Community is an ever-growing and rapidly-developed community of people all around the globe committed to open-source technology. We are a welcoming society for new contributors and people keen on technology. This blog series will present you with recent CloudStack Committers and PMC members. Learn more about our tech society!
 
-eet David Jumani - a Software Engineer and a Committer to the Apache CloudStack Project. David studied Computer Science and Engineering, and after graduation, he worked at some of the biggest virtualization and networking companies (such as VMware, Cisco and General Electric) developing cloud and on-premise applications, such as an incident co-relation engine (from which relationships can be drawn from monitoring events). He is based in India, was a national rugby player, dislikes coffee and enjoys trekking and going on long rides.
+Meet David Jumani - a Software Engineer and a Committer to the Apache CloudStack Project. David studied Computer Science and Engineering, and after graduation, he worked at some of the biggest virtualization and networking companies (such as VMware, Cisco and General Electric) developing cloud and on-premise applications, such as an incident co-relation engine (from which relationships can be drawn from monitoring events). He is based in India, was a national rugby player, dislikes coffee and enjoys trekking and going on long rides.
 
-&nbsp;
+<!-- truncate -->
+
 <b>Introduce yourself with a few words?</b>
 
 Tall, smart, handsome. Love sports, adventures and am ready to take up any challenge that comes my way. Enjoy deconstructing problems, automating tasks, optimizing solutions and making life just a bit better today than it was yesterday!

@@ -4,7 +4,10 @@ title: Announcing Apache CloudStack® 4.12.0.0
 tags: [announcement]
 slug: announcing-apache-cloudstack-4-12
 ---
-<p>The Apache<sup>®</sup> CloudStack<sup>®</sup> project is pleased to announce the release of the CloudStack 4.12.0.0. The CloudStack version 4.12.0.0 is a 4.12 non-LTS release, adding multiple features for those who want to access a fresh CloudStack prior to the next LTS. The release 4.12.0.0 combines 12 months of work and adds +200 commits, with multiple new features and fixes.</p> 
+<p>The Apache<sup>®</sup> CloudStack<sup>®</sup> project is pleased to announce the release of the CloudStack 4.12.0.0. The CloudStack version 4.12.0.0 is a 4.12 non-LTS release, adding multiple features for those who want to access a fresh CloudStack prior to the next LTS. The release 4.12.0.0 combines 12 months of work and adds +200 commits, with multiple new features and fixes.</p>
+
+<!-- truncate -->
+
   <p>Apache CloudStack is an integrated Infrastructure-as-a-Service (IaaS) software platform that allows users to build feature-rich public and private cloud environments. CloudStack includes an intuitive user interface and rich API for managing the compute, networking, software, and storage resources. The project became an Apache top level project in March, 2013.</p> 
   <p>More information about Apache CloudStack can be found at&nbsp;<a href="http://cloudstack.apache.org/">http://cloudstack.apache.org/</a><br /><strong></strong></p> 
   <p> </p> 

@@ -9,7 +9,9 @@ slug: meet-the-community-slavka-peleva
 <p>The Apache CloudStack Community is an ever-growing and rapidly-developed community of people all around the globe committed to open-source technology. We are a welcoming society for new contributors and people keen on technology. This blog series will present you with recent CloudStack Committers and PMC members. Learn more about our tech society!
 </p>
 <p>Meet Slavka Peleva from StorPool Storage. Slavka is a software developer and has been announced as a CloudStack Commiter at the end of 2021. She is part of the CloudStack community for the last 3 years and is excited to work on new features and capabilities to improve the open-source cloud management solution.</p>
-<p>&nbsp;</p>
+
+<!-- truncate -->
+
 <p><strong>Introduce yourself with a few words?</strong><br />Hi, I am Slavka Peleva and I work at StorPool Storage as a software developer. I have a Bachelor's Degree in Automation, information and control systems. I am a mother of a teenage boy. I love to read fantasy books, snowboarding in winters and rollerblading in summers.</p>
 <p><strong>Tell us your story in one Tweet.</strong><br />I have always loved puzzles and brain teasers. For me, programming is an art. I have a passion for debugging and digging into the code.</p>
 <p><br /><strong>When did you start your CloudStack journey?</strong><br />In the middle of 2019 I have started to work at StorPool Storage. Then I did my first steps into CloudStack and it was my first open-source project. Since then I learned a lot and I met interesting people.</p>

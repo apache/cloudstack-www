@@ -12,6 +12,8 @@ In the <strong>new blog series named CloudStack Integrations</strong>, we presen
 
 Today we will introduce you to <a href="https://tungsten.io/">Tungsten.</a>
 
+<!-- truncate -->
+
 <h1>Tungsten Fabric's Integration with Apache CloudStack</h1>
 
 <p>Tungsten Fabric (TF) comprises components like controller and vRouter; plus additional components for analytics and third-party integration. In this Solution Brief, TF integrates with CloudStack as an SDN plugin to enable rich networking capabilities and lifecycle management of VMs and containers where TF components or control functions are deployed.</p>

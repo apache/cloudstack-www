@@ -6,6 +6,9 @@ slug: meet-the-community-simon-weller
 ---
 <a href="/img/imported/3cc5849c-9512-4afd-a4f6-d22038d97990"><img src="/img/imported/3cc5849c-9512-4afd-a4f6-d22038d97990" alt="Screenshot 2022-05-09 at 11.26.23.png" width="750" height="393" /></a>
 <p>Simon Weller is the new VP of Apache CloudStack announced in late March 2022. Simon has been an Apache CloudStack PMC member for the last few years. He has a strong technology background in multiple competencies, including networking and systems. In addition to it, he has a significant business development background with both start-ups and established organizations and is a highly experienced strategic thinker and relationship builder.</p>
+
+<!-- truncate -->
+
 <p>Currently, Simon Weller is the Vice President Of Technology of Education Networks of America. He is responsible for the technology initiatives at ENA across the Systems, R&amp;D, Internal Systems and Data Architecture and Business Intelligence teams. Simon is also heavily involved in product development and business development.</p>
 <p>Ivet Petrova, Marketing Director at ShapeBlue interviewed Simon as part of the Meet the Community Series. You can watch this <a href="https://www.youtube.com/watch?v=_sVYGehxsn0&amp;t=332s">here</a>. Below, you can find some of the key point&rsquo;s Simon laid out in the video.</p>
 <p><strong>Тhe </strong><strong>Evolution of Apache CloudStack: </strong><strong>Continue the community vision and drive forward</strong></p>

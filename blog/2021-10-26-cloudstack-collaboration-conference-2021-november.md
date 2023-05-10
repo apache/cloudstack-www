@@ -12,6 +12,8 @@ slug: cloudstack-collaboration-conference-2021-november
 
 For a 9th year in a row, the global Apache CloudStack community is organising its major event - CloudStack Collaboration Conference, running from November 8 to November 12. Due to the pandemic, the event will happen entirely virtually. With this move, the Apache CloudStack community will enable even more members and people interested in the technology to learn more about it, its latest capabilities and integrations.
 
+<!-- truncate -->
+
 Тhe 2021 edition of the CloudStack Collaboration Conference comes as a 5-day event, starting on November 8th with a day of a hackathon. The next 4 days come with a mixture of exciting technical talks, presentations of new features and CloudStack capabilities and new integrations.
 
 For the technical audience, the event will offer 5 different workshops, which will provide an in-depth overview of the CloudStack power for people new to the technology. A separate track focused on user and success stories is expected to be among the most interesting things at the event. CloudStack Collaboration Conference attendees will get the chance to listen for the CloudStack implementation in companies like NTT Data, CloudOps, EWERK, Cloud.ca.

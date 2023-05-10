@@ -6,6 +6,9 @@ slug: two_late_announced_security_advisories
 ---
 <p>Today I sent out two CloudStack-related security advisories: CVE-2015-3251 (related to VM credential exposure) and CVE-2015-3252 (related to VNC authentication). Details about these issues can be found on the CloudStack user and dev mailing lists, as well as on the Full Disclosure and BUGTRAQ security mailing lists.
 </p>
+
+<!-- truncate -->
+
 <p>While these vulnerabilities are of moderate and low severity (respectively), the reason for this post is because the advisories were announced approximately 5 months after the first release of the patches in 4.5.2. This is personally embarrassing, unacceptable, and in a more severe case could be downright dangerous.</p>
 <H2>What happened?</H2>
 <p>The CloudStack security team worked through the related vulnerabilities through the summer of 2015. We had advisory drafts, patches, and mitigations all ready well before the release. Far enough ahead, actually, that we forgot about the release and weren't paying attention to the release (at least I wasn't - I know others were), and didn't send out the advisories at the appropriate time. Part of this is due to me having become an unofficial lead/spokesperson for the security team; In the past there has been at least one occasion when others released advisories when I was not available, but usually I'm coordinating issues and publishing announcements.</p>

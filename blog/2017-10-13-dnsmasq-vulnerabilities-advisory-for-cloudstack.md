@@ -8,6 +8,8 @@ slug: dnsmasq-vulnerabilities-advisory-for-cloudstack
 
 <p>According to Google’s investigation into the software, out of seven issues, three — CVE-2017-14491, CVE-2017-14492, and CVE-2017-14493 — are remote code execution flaws caused by heap buffer overflow and stack buffer overflow errors through DHCP and DNS vectors.</p>
 
+<!-- truncate -->
+
 <p>Another issue, CVE-2017-14494, can be exploited to bypass the Address space layout randomization (ASLR) memory protection function, leading to information leaks.</p>
 
 <p>In addition, three more bugs, CVE-2017-14495, CVE-2017-14496, and CVE-2017-13704, can lead to denial-of-service (DoS) attacks caused by invalid boundary checks, bug collision, and a coding issue.</p>

@@ -12,6 +12,8 @@ slug: apache-cloudstack-at-cloudfest
 
 We are excited to announce that for the first year, Apache CloudStack will be exhibiting at the world&rsquo;s largest cloud industry event. As an exhibitor, we will showcase the power of one of the leading open-source IaaS management solutions. People from leading cloud providers, MSPs and telcos will have the chance to discover more about the capabilities and use cases of CloudStack as a turnkey solution for cloud management.
 
+<!-- truncate -->
+
 CloudFest is the largest and most important cloud event of the year. Gathering more than <strong>7,000 attendees</strong>, it&rsquo;s an excellent place for networking, idea generation, reaching out to your partners and prospects, and attending some exciting sessions.
 
 <h2><strong>The Benefits of Apache CloudStack for Cloud Builders</strong></h2>

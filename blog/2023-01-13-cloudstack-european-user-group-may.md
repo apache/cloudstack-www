@@ -9,6 +9,8 @@ slug: cloudstack-european-user-group-may
 
 <strong>Apache CloudStack is thrilled to share that the spring edition of CloudStack European User Group 2023 is now official! The event will be taking place in London, United Kingdom, with the exact location to be announced very soon.</strong>
 
+<!-- truncate -->
+
 <p><strong>Take a minute to register now and save your place. Come join us and meet developers, users and committers.</strong></p>
 
 <a class="button button--primary" href="https://www.eventbrite.com/e/cloudstack-european-user-group-2023-tickets-513821653397"><b>REGISTER NOW</b></a>

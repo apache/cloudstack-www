@@ -11,6 +11,8 @@ easy-to-use platform. The released 4.16.0.0 LTS adds new features,
 enhancements, and bug fixes that will help tech-savy companies stay up
 to date." said Gabriel Brascher, Vice President of Apache CloudStack.
 
+<!-- truncate -->
+
 "I'm pleased to see another innovative release of Apache CloudStack
 from the community. CloudStack continues to evolve both in terms of
 functionality, integrations and also ease of management and stability.

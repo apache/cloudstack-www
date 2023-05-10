@@ -11,6 +11,8 @@ CloudStack 4.14.1.0 as part of its LTS 4.14.x releases. The CloudStack
 4.14.1.0 release is a maintenance release and contains more than
 100 fixes and improvements since the CloudStack 4.14.0.0 release.
 
+<!-- truncate -->
+
 CloudStack LTS branches are supported for 18 months and will receive
 updates for the first 12 months and only security updates in its last 6 months.
 

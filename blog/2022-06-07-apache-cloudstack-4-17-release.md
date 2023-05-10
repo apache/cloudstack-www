@@ -5,9 +5,11 @@ tags: [announcement]
 authors: [ivet]
 slug: apache-cloudstack-4-17-release
 ---
-<p>*The Apache Software Foundation Announces Apache**&reg;** CloudStack**&reg;** v4.17*<br />
+*The Apache Software Foundation Announces Apache**&reg;** CloudStack**&reg;** v4.17*<br />
 
-Apache CloudStack 4.17.0.0 is a 4.17 LTS release with 383 new features, improvements and bug fixes since 4.16, including 16 major new features. Some of the highlights include:<br /><br />
+Apache CloudStack 4.17.0.0 is a 4.17 LTS release with 383 new features, improvements and bug fixes since 4.16, including 16 major new features. Some of the highlights include:
+
+<!-- truncate -->
 
 - IPv6 with Static Routing<br />
 - Zero Downtime Upgrades<br />
@@ -19,9 +21,10 @@ Apache CloudStack 4.17.0.0 is a 4.17 LTS release with 383 new features, improvem
 - Attach and detach features to UI for ROOT disks<br />
 - Enable CloudStack to use multiple LOCAL storage pools<br />
 - Multiple SSH Keys support<br />
-- Reserve and release Public IPs<br />
-<br />
-<strong># Documentation</strong><br />
+- Reserve and release Public IPs
+
+<h2>Documentation</h2>
+
 The full list of new features can be found in the project release<br />
 notes at&nbsp;<a href="http://docs.cloudstack.apache.org/en/4.17.0.0/releasenotes/changes.html" rel="noopener noreferrer" target="_blank">http://docs.cloudstack.apache.org/en/4.17.0.0/releasenotes/changes.html</a><br />
 
@@ -45,4 +48,4 @@ Apache CloudStack download page, and can be found at:<br />
 <a href="https://download.cloudstack.org/centos/7/" rel="noopener noreferrer" target="_blank">https://download.cloudstack.org/centos/7/</a><br />
 <a href="https://download.cloudstack.org/centos/8/" rel="noopener noreferrer" target="_blank">https://download.cloudstack.org/centos/8/</a><br />
 <a href="https://download.cloudstack.org/suse/15" rel="noopener noreferrer" target="_blank">https://download.cloudstack.org/suse/15</a><br />
-<a href="https://www.shapeblue.com/packages/" rel="noopener noreferrer" target="_blank">https://www.shapeblue.com/packages/</a></p>
+<a href="https://www.shapeblue.com/packages/" rel="noopener noreferrer" target="_blank">https://www.shapeblue.com/packages/</a>

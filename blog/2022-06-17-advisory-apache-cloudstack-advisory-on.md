@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "[ADVISORY] Apache CloudStack Advisory on KVM Shared Mount Point issues on
-  version 4.17.0.0"
-
+title: "[ADVISORY] Apache CloudStack Advisory on KVM Shared Mount Point issues on version 4.17.0.0"
+tags: [announcement]
 slug: advisory-apache-cloudstack-advisory-on
 ---
 <p>On 14th June 2022, a new issue affecting only KVM users using Shared Mount Point storage was reported [1]. This issue affects the creation and the usage of existing Shared Mount Point storage pools on Apache CloudStack 4.17.0.0.<br />

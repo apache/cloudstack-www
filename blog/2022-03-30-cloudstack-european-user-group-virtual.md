@@ -7,6 +7,9 @@ slug: cloudstack-european-user-group-virtual
 ---
 <a href="/img/imported/3c8af793-da2a-41bf-be44-9ab1c5b4185c"><img src="/img/imported/3c8af793-da2a-41bf-be44-9ab1c5b4185c" alt="CSEUG-Reg-2.jpg" width="750" height="393"/></a>
 <p>Apache CloudStack is thrilled to share the word of the upcoming&nbsp;<a href="https://events.hubilo.com/cloudstack-european-user-group/register"><strong>CloudStack European User Group Virtual Conference</strong></a>&nbsp;- the virtual get together for the&nbsp;<strong>European CloudStack Community</strong>. The event is taking place on&nbsp;<strong>7th April 2022</strong>, where you will be able to meet the leading CloudStack experts, users and skilful engineers from the open-source world.&nbsp;</p>
+
+<!-- truncate -->
+
 <p>Join technical talks, user stories, new features, integrations presentations and more!</p>
 <p>Become part of the CSEUG Virtual on April 7<sup>th</sup>, 2022!</p>
 <p><a href="https://events.hubilo.com/cloudstack-european-user-group/register" target="_blank"><strong>REGISTER NOW</strong></a></p>

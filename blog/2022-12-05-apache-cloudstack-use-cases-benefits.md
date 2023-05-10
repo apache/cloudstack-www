@@ -8,6 +8,9 @@ slug: apache-cloudstack-use-cases-benefits
 
 <p>Apache CloudStack is a leading open-source virtualisation platform used by many global organisations. The fact that the solution is hypervisor-agnostic allows different types of enterprises to use CloudStack as a cloud orchestration no matter the rest of their tech stack.</p>
 <p>We decided to get in touch with a few community members and ask for their perspectives on the project. In this article, CloudStack users from organisations that adopted the open-source software give their answers to the following questions:&nbsp;</p>
+
+<!-- truncate -->
+
 <p><strong>1)&nbsp;&nbsp; Describe what your use case is with CloudStack?</strong></p>
 <p><strong>2)&nbsp;&nbsp; What is the primary benefit of using CloudStack against other virtualization management platforms?</strong></p>
 <p><strong>3)&nbsp;&nbsp; What is the future of the CloudStack project according to you?</strong></p>

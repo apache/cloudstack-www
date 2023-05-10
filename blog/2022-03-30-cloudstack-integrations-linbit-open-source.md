@@ -7,6 +7,9 @@ slug: cloudstack-integrations-linbit-open-source
 <a href="/img/imported/de3ef6b5-77a9-4747-a71c-8638a435addf"><img src="/img/imported/de3ef6b5-77a9-4747-a71c-8638a435addf" alt="CS-LINBIT.jpg" width="750" height="393" /></a>
 
 <p>CloudStack is a multi-hypervisor, multi-tenant, high-availability cloud management platform that delivers the flexibility and freedom of open-source technology and the power of an enterprise-grade virtualization management platform. <br />In the <strong>new blog series named CloudStack Integrations</strong>, we will present a range of technologies with which CloudStack is integrated and can become part of your technology stack. You will be able to<strong> learn more about different software solutions, which can be combined with CloudStack</strong> and dive deep into specialized <strong>Technical Solution Briefs</strong> presenting the integrations. <br />Today we will meet you with <a href="https://linbit.com/" target="_blank">LINBIT</a>.</p>
+
+<!-- truncate -->
+
 <h2>The Data Management Challenge</h2>
 <p>Organizations face challenges in improving structured and unstructured data access while reducing the costs to store it. Open-Source SDS and Cloud Orchestrator solutions take these challenges by separating data services from hardware and creating a new era for data access. By using software-defined storage solutions, companies can benefit from improved reliability and agility, exceptional storage performance and eliminated vendor lock-in. </p>
 <h2><br />CloudStack and LINBIT Integration</h2>

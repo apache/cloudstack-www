@@ -8,6 +8,9 @@ slug: meet-the-community-k-b
 
 <p><strong>Introduce yourself with a few words</strong></p>
 <p>I am K B Shiv Kumar and am the Co-Founder and CTO at IndiQus. I am based out of Delhi, India and am passionate about travelling and dig going on driving holidays with my friends and family. I love listening to music and ABBA has been my all-time favourite band since childhood.</p>
+
+<!-- truncate -->
+
 <p><strong>Tell us your story in one Tweet?</strong></p>
 <p>As a commerce graduate, moving to an IT career accidentally was probably the best thing that happened to me. I subsequently completed my masters in software engineering and worked as a developer with different ISPs where my interest in infrastructure programming was kindled.</p>
 <p><strong>When did you start your CloudStack journey?</strong></p>

@@ -8,7 +8,9 @@ Gabriel Beims Bräscher is the new VP of Apache CloudStack since March 2021. He 
 
 Gabriel is a quite interesting person – born and living in Brazil, but working for a Dutch company, he seems to be an international person. On the technology side, he is an experienced Java developer and has a deep knowledge in a range of other technology. On the personal side, Gabriel is excited to help CloudStack grow as a community and spread the knowledge for it as much a possible.
 
-eet Gabriel – the new VP of Apache CloudStack. A person, who is friendly, open-minded and ready to help everyone in the community!
+<!-- truncate -->
+
+Meet Gabriel – the new VP of Apache CloudStack. A person, who is friendly, open-minded and ready to help everyone in the community!
 
 <a href="/img/imported/6d6dbf9f-d964-496f-82af-a4c764e5f865"><img src="/img/imported/6d6dbf9f-d964-496f-82af-a4c764e5f865?t=true" alt="Gabriel-VPACS.jpg" /></a>
 

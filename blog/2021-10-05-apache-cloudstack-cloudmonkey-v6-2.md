@@ -8,6 +8,8 @@ slug: apache-cloudstack-cloudmonkey-v6-2
 
 Apache CloudStack, proven as one of the most scalable, free, and open source cloud computing operating system for large scale private, public, and hybrid clouds, today announced the availability of the latest release of Apache CloudMonkey v6.2.0, the latest version of the turnkey enterprise Cloud orchestration platform's command line interface tool.
 
+<!-- truncate -->
+
 Apache CloudMonkey v6.2.0 is the latest maintenance release since the previous v6.1.0 release in July 2020. CloudMonkey v6.2.0 can be used both as an interactive shell and as a command-line tool that simplifies CloudStack configuration and management.
 
 The release includes the following changes:

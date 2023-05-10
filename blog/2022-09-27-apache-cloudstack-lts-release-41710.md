@@ -9,6 +9,8 @@ slug: apache-cloudstack-lts-release-41710
 The Apache CloudStack project is pleased to announce the release of CloudStack 4.17.1.0.
 The CloudStack 4.17.1.0 release is a maintenance release as part of its 4.17.x LTS branch and contains more than 150 fixes and improvements since the CloudStack 4.17.0.0 release.
 
+<!-- truncate -->
+
 Highlights include:
 
 - Support for Ubuntu 22.04 LTS as a management server and KVM host
