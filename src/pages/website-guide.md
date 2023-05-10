@@ -31,14 +31,69 @@ in static folder are available from the root of the website such as:
 
 Further reference: https://docusaurus.io/docs/2.3.1/markdown-features/assets
 
-To add read-more we can add a `<!-- truncate -->` in the post, such as after
-this sentence.
+## Working with the Website, Pages and Blogs
 
+### Website
+
+Most of the website configuration such as theme, name, logos, menubar, footer
+etc are configurable using the `docusaurus.config.js` that you can edit here:
+
+https://github.com/apache/cloudstack-www/blob/main/docusaurus.config.js
+
+### Pages
+
+The various standalone pages are in this directory:
+
+https://github.com/apache/cloudstack-www/tree/main/src/pages
+
+Here you can use them as examples, on how to create MD or MDX file that build
+as webpages. You can look at 'learn-more.md' as a reusable page that can be
+included in other pages such as the homepage index.tsx, cloud-builders.mdx etc.
+
+### Blog
+
+To create a new blog, create a directory with naming convention
+`YYYY-MM-DD-slug-url`. In this directory you can put in an `index.md` and other
+assets such as images, pdfs etc. The .blog-template boilerplate can be used from
+here:
+
+https://github.com/apache/cloudstack-www/tree/main/blog/.blog-template
+
+Use the provided index.md to specify attribute of your blog such as title, tags
+(categories), authors and the slug (the permalink).
+
+Having all your blog content and assets in a blog directory makes it easier to
+work with Github's editor and allows you to visually contribute changes.
+
+You may further read https://docusaurus.io/docs/blog for advance changes and
+refer to the misc section on this page for various components that you case use.
+
+A common use-case is to have a header file and a way to limit how much of the
+post shows up on the blog roll. For this, to add read-more we can add a `<!--
+truncate -->` in your blog post (the index.md file):
+
+```
+...blog content...
 <!-- truncate -->
+...blog content...
+```
 
-## Working with Blogs
+## Contributing Changes using Github
 
-Read https://docusaurus.io/docs/blog
+TODO: add images
+
+Once you've the boilerplate changes done, the steps are:
+
+1. Create a Github branch or just edit directly on the `main` branch.
+
+2. Upload a new page (.md or .mdx) or blog folder in the right directories and
+commit your changes.
+
+3. If you've created your own branch, raise a pull request and wait for the
+automation to build the page for you to check. And merge the PR with other
+committer's help (or yourself) once you're satisfied.
+
+## Misc
 
 <h1>Table of Contents</h1>
 
