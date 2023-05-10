@@ -25,6 +25,7 @@ on:
 
 jobs:
   deploy:
+    if: github.repository_owner == 'apache'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -39,7 +40,19 @@ jobs:
           export WWW_COMMIT=`git rev-parse HEAD`
 
       - uses: peaceiris/actions-gh-pages@v3
-        #if: github.event_name != 'pull_request'
+        if: github.event_name == 'pull_request'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: staging-site
+          publish_dir: ./build
+          destination_dir: ./
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Automated CloudStack https://cloudstack.staged.apache.org staging website deployment with cloudstack-www branch ${{ github.event.inputs.branch }}@${{ env.WWW_COMMIT }}'
+          #force_orphan: true
+
+      - uses: peaceiris/actions-gh-pages@v3
+        if: github.event_name != 'pull_request'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: staging-site # TODO: change this to deploy branch 'asf-site'
@@ -47,5 +60,5 @@ jobs:
           destination_dir: ./
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: 'Automated website deployment with cloudstack-www branch ${{ github.event.inputs.branch }}@${{ env.WWW_COMMIT }}'
+          commit_message: 'Automated CloudStack website deployment with cloudstack-www branch ${{ github.event.inputs.branch }}@${{ env.WWW_COMMIT }}'
           #force_orphan: true
