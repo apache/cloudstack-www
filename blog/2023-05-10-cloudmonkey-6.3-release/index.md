@@ -3,7 +3,7 @@ layout: post
 title: Apache CloudStack CloudMonkey 6.3.0 Release
 tags: [announcement]
 authors: [bobby]
-slug: cloudstack-6.3-release
+slug: cloudmonkey-6.3-release
 ---
 
 ![](/img/banner.svg "CloudMonkey Image")
