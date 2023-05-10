@@ -2,11 +2,16 @@
 title: Website Dev Guide
 ---
 
-This is a website and blog guide which can be used as a reference which is
-written in markdown. Markdown allows to fix html, the above is an example of how
-to add an image which may exist within the blog folder directory.
+This is a website and blog development guide which can be used as a reference to
+allow technical and non-technical contributors to work with the website for
+adding/editing pages and blog posts.
 
-Please co-relate with the source of this page at:
+Most of the pages and blog posts are written in Markdown, which is like a text
+file usually ending with `.md` extension. These .md files are used by Docusaruas
+(the static-site website framework) to generate html-based website so we don't
+have to write html by manually.
+
+You may co-relate with the source of this (markdown) page at:
 https://github.com/apache/cloudstack-www/blob/main/src/pages/website-guide.md
 
 For basic Markdown syntax reference, please refer:
