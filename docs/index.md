@@ -136,7 +136,13 @@ Further reference: https://docusaurus.io/docs/2.3.1/markdown-features/toc
 We can specify the path related to the `static/` directory paths, all files
 in static folder are available from the root of the website such as:
 
-![](nandcmk.gif "Example image title")
+```
+![](/img/banner.svg "Example image title")
+```
+
+Which results in:
+
+![](/img/banner.svg "Example image title")
 
 Further reference: https://docusaurus.io/docs/2.3.1/markdown-features/assets
 
