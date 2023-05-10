@@ -37,7 +37,7 @@ of new features and bug fixes, please refer to the release notes.
 # Downloads and Documentation
 
 The official source code for CloudMonkey v6.3.0 can be downloaded from:
-https://cloudstack.apache.org/downloads.html.
+https://cloudstack.apache.org/downloads.html
 
 CloudMonkey's usage details are documented at
 https://github.com/apache/cloudstack-cloudmonkey/wiki

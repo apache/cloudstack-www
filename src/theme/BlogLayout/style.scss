@@ -29,14 +29,15 @@
 }
 
 .sidebarItemLink:hover {
+  color: var(--ifm-color-primary-lightest) !important;
   text-decoration: none;
   padding: 2px 2px 2px 10px;
 }
 
 .sidebarItemLinkActive {
-  color: var(--ifm-color-primary) !important;
-  background-color: var(--ifm-color-secondary);
-  border-radius: 5px;
+  color: #fff;
+  background-color: var(--ifm-color-primary);
+  border-radius: 8px;
   padding: 2px 2px 2px 10px;
 }
 

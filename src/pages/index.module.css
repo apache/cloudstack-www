@@ -12,7 +12,7 @@
 
 .heroBg {
   background: #fff; /**#f6fbfd;**/
-  background-image: url("/img/banner.jpg");
+  background-image: url("/img/header.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }

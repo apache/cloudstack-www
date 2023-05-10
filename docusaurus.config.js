@@ -220,12 +220,32 @@ const config = {
             src: 'img/banner.svg',
             href: 'https://cloudstack.apache.org/'
         },
-        copyright: `<div style="text-align: left;">
+        copyright: `
+          <div style="opacity: 0.5">
+          <a href="mailto:dev-subscribe@cloudstack.apache.org" target="_blank">
+            <img src="/img/social/mail.svg" title="Join Dev Mailing List" height="32px" />
+          </a>
+          <a href="https://join.slack.com/t/apachecloudstack/shared_invite/zt-1u8qwbivp-u16HRI~LWioLmF1G2D3Iyg" target="_blank">
+            <img src="/img/social/slack.svg" title="Join Slack" height="32px" />
+          </a>
+          <a href="https://github.com/apache/cloudstack" target="_blank">
+            <img src="/img/social/github.svg" title="Github" height="32px" />
+          </a>
+          <a href="https://twitter.com/CloudStack" target="_blank">
+            <img src="/img/social/twitter.svg" title="Twitter" height="32px" />
+          </a>
+          <a href="https://www.youtube.com/@ApacheCloudStack" target="_blank">
+            <img src="/img/social/youtube.svg" title="YouTube" height="32px" />
+          </a>
+          <a href="https://www.linkedin.com/company/apachecloudstack/posts/" target="_blank">
+            <img src="/img/social/linkedin.svg" title="LinkedIn" height="32px" />
+          </a>
+          </div>
+          <div style="text-align: left;">
           <div style="border-top: 1px solid #ccc;min-height: 60px;line-height: 20px;text-align: center;font-family: Avenir-Medium,serif;font-size: 14px;color: #999;display: flex;align-items: center;">
           <span>
           Copyright © ${new Date().getFullYear()} The Apache Software Foundation, Licensed under the Apache License, Version 2.0.
           "Apache", "CloudStack", "Apache CloudStack", the Apache CloudStack logo, the Apache CloudStack Cloud Monkey logo and the Apache feather logos are registered trademarks or trademarks of The Apache Software Foundation.
-
           <br/><a href="/trademark-guidelines">Apache CloudStack Trademark Usage</a> - <a href="/bylaws">Apache CloudStack Community ByLaws</a> - <a href="https://github.com/apache/cloudstack-www">Website Source Code</a>
           </span></div></div>`,
       },
