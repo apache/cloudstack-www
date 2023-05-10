@@ -23,7 +23,7 @@ function HomepageHeader() {
           <div className="col col--6">
             <h3 className="hero__title">Apache CloudStack™</h3>
             <p className="hero__subtitle">
-              Flexible, Easy-to-use and Powerful Open Source IaaS Cloud Computing Platform
+              Easy-to-use, Reliable, Scalable and Powerful IaaS Open Source Cloud Computing Platform
             </p>
             <br/>
             <p className="hero__subtitle">
