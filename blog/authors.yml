@@ -1,14 +1,14 @@
 ivet:
   name: Ivet Petrova
   title: PMC Member
-  url: https://twitter.com/Ivet_H_Petrova
-  image_url: https://pbs.twimg.com/profile_images/1331984193392435200/djCqv-vM_400x400.jpg
+  url: https://github.com/IvetPM
+  image_url: https://github.com/IvetPM.png
 
 jamie:
   name: Jamie Pell
   title: Community Contributor
-  url: https://twitter.com/jamiepell12
-  image_url: https://pbs.twimg.com/profile_images/1516339908079726596/4XQEkW5S_400x400.jpg
+  url: https://github.com/jamiepell10
+  image_url: https://github.com/jamiepell10.png
 
 rohit:
   name: Rohit Yadav
@@ -22,3 +22,8 @@ daan:
   url: https://github.com/DaanHoogland
   image_url: https://github.com/DaanHoogland.png
 
+bobby:
+  name: Boris Stoyanov (Bobby)
+  title: PMC Member
+  url: https://github.com/borisstoyanov
+  image_url: https://github.com/borisstoyanov.png
