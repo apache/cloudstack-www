@@ -59,8 +59,9 @@ cloud-init is the standard for provisioning Virtual Machines in almost all cloud
 <strong>Wido den Hollander:</strong>
 Wido den Hollander has been a part of the CloudStack community since 2012. Ever since he has contributed various parts of code like Ceph/RBD, IPv6, KVM and many other parts.
 &nbsp;
-
-<strong><span ><a href="https://www.slideshare.net/ShapeBlue/new-networking-capabilities-in-acs-and-how-to-leverage-them-for-vnf-deployments/ShapeBlue/new-networking-capabilities-in-acs-and-how-to-leverage-them-for-vnf-deployments" target="_blank" rel="noopener">New Networking Capabilities In ACS And How To Leverage Them For VNF Deployment</a>s - Alexandre Mattioli</span></strong>
+<br/>
+<br/>
+<strong><span ><a href="https://www.slideshare.net/ShapeBlue/new-networking-capabilities-in-acs-and-how-to-leverage-them-for-vnf-deployments/ShapeBlue/new-networking-capabilities-in-acs-and-how-to-leverage-them-for-vnf-deployments" target="_blank" rel="noopener">New Networking Capabilities In ACS And How To Leverage Them For VNF Deployments</a> - Alexandre Mattioli</span></strong>
 
 Several new networking capabilities such as IPv6 support, fully routed Virtual Router, user-driven shared networks and others have been added to CloudStack since its 4.17 release. In this talk, Alex looks at how to use these new capabilities together in order to seamlessly enable the deployment of Virtual Network Functions via ACS.
 
@@ -70,6 +71,7 @@ Several new networking capabilities such as IPv6 support, fully routed Virtual R
 <div><strong>About Alexandre Mattioli:</strong></div>
 <div>Alexandre Mattioli is a highly experienced Infrastructure Architect who has been working with Apache Cloudstack since 2015, he has designed, built and operated one of the largest ACS clouds in existence and led a team to design and productise many diverse solutions on top of ACS. He's currently a Cloud Architect at ShapeBlue.</div>
 &nbsp;
+<br/>
 <div><span ><strong><a title="Automated CloudStack Deployment" href="https://www.slideshare.net/ShapeBlue/automated-cloudstack-deployment" target="_blank" rel="noopener">Automated CloudStack Deployment</a> - Kaloyan Kotlarski</strong></span></div>
 <div>Dev and test environments require the frequent and repeatable deployment of the CloudStack setup. This can be time-consuming and prone to errors. In this presentation, Kaloyan shows how StorPool uses Ansible for automatic deployment and setting up complete CloudStack clouds.</div>
 
@@ -80,7 +82,7 @@ Several new networking capabilities such as IPv6 support, fully routed Virtual R
 <div><strong>About Kaloyan Kotlarski:</strong></div>
 <div>Kaloyan Kotlarski is a system administrator in StorPools' support team. He's been in the company for two years. He's responsible for building CI/CD automation and helping clients integrate StorPool Storage in their cloud deployments.</div>
 
-
+<br/>
 <div><strong><span ><a href="https://www.slideshare.net/ShapeBlue/stackbill-workshop" target="_blank" rel="noopener">StackBill Workshop</a> - Amal Ranjith</span></strong></div>
 <div>
 
