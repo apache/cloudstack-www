@@ -12,9 +12,9 @@
 
 .heroBg {
   background: #fff; /**#f6fbfd;**/
-  background-image: url("/img/header.jpg");
+  background-image: url("/img/header.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
 }
 
 @media screen and (max-width: 996px) {

@@ -15,7 +15,7 @@ const recentPosts = require("../../.docusaurus/docusaurus-plugin-content-blog/de
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero', styles.heroBanner, styles.heroBg)}>
+    <header className={clsx('hero', styles.heroBg)}>
       <div className={clsx('container')}>
         <div className="row">
           <div className="col col--1">
@@ -23,34 +23,31 @@ function HomepageHeader() {
           <div className="col col--6">
             <h3 className="hero__title">Apache CloudStack™</h3>
             <p className="hero__subtitle">
-              Open Source Cloud Computing™ Platform
+              Flexible, Easy-to-use and Powerful Open Source IaaS Cloud Computing Platform
             </p>
-            <p>
-              Apache CloudStack 4.18.0.0 is out!<br/>
-              This is the latest CloudStack LTS release.
+            <br/>
+            <p className="hero__subtitle">
+              Apache CloudStack 4.18.0.0 LTS is out!
             </p>
-            <div className={styles.buttons}>
+            <div>
               <Link
                 className="button button--primary button--lg"
                 to="downloads">
                 Download
               </Link>
+              &nbsp;&nbsp;
               <Link
                 className="button button--secondary button--lg"
                 to="https://docs.cloudstack.apache.org">
                 Documentation
               </Link>
             </div>
-            <br/>
-            <p>
-              Looking for other versions of Apache CloudStack? You can find them in
-              our <a href="/archives">archives</a> page as well.
-            </p>
           </div>
-          <div className="col col--5">
+          <div className="col col--5 row">
             <img src="/img/logo.svg" width="100%" />
           </div>
         </div>
+        <br/>
       </div>
     </header>
   );
@@ -86,7 +83,7 @@ export default function Home(): JSX.Element {
               </div>
             </div>
             <div className="col col--6">
-              <h2>About CloudStack</h2>
+              <h2>About CloudStack™</h2>
 
               Apache CloudStack is open source software designed to deploy and manage large
               networks of virtual machines, as a highly available, highly scalable
