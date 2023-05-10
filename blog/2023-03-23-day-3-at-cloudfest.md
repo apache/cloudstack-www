@@ -12,6 +12,7 @@ exhibiting at the conference has been nothing short of fantastic. Community
 members representing the technology have had the chance to meet many like-minded
 people and showcase the power of the leading open-source IaaS management
 solutions.
+<!-- truncate -->
 
 <h2>Why Choose Apache CloudStack If You Are A Cloud Builder</h2>
 

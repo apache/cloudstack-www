@@ -11,8 +11,9 @@ slug: cloudstack-european-user-group-may
 
 <p><strong>Take a minute to register now and save your place. Come join us and meet developers, users and committers.</strong></p>
 
-<a href="https://www.eventbrite.com/e/cloudstack-european-user-group-2023-tickets-513821653397"><b>REGISTER NOW</b></a>
-
+<a class="button button--primary" href="https://www.eventbrite.com/e/cloudstack-european-user-group-2023-tickets-513821653397"><b>REGISTER NOW</b></a>
+<br/>
+<br/>
 <strong>Why Join the CSEUG</strong>
 
 CloudStack European User Group is a get-together for the European CloudStack Community. CSEUG is a 1-day technical event, where you will be able to meet the leading CloudStack experts, users and skilful engineers from the open-source world. You can expect technical talks, user stories, new features and integrations presentations and more.

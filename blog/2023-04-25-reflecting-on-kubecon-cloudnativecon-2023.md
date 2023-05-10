@@ -18,6 +18,8 @@ pitfalls, hacks, learnings, and key takeaways from
 [our journey to develop CAPC](https://www.youtube.com/watch?v=AR8JXotMir8&t=44s) –
 the CAPI Provider for Apache CloudStack.
 
+<!-- truncate -->
+
 <h3>The CloudStack Booth</h3>
 
 <img src="/img/imported/7346597f-2b13-44c7-aa67-95eb337145c9" />

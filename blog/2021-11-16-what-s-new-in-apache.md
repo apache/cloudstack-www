@@ -50,7 +50,7 @@ The previous release saw a new, improved user interface experience for Apache Cl
 
 It is now possible to select multiple objects (i.e. Instances, volumes, etc) and perform actions against that bulk selection. For example, if you wish to restart 10 instances or lock 5 accounts, these types of actions can easily be done with a single click.  
 
-<a href="/img/imported/7dd821bd-4237-4ac8-88d9-657f97e01429"><img src="/img/imported/7dd821bd-4237-4ac8-88d9-657f97e01429" width="50%" alt="416-zone_card_view.png" /></a>
+<a href="/img/imported/7dd821bd-4237-4ac8-88d9-657f97e01429"><img src="/img/imported/7dd821bd-4237-4ac8-88d9-657f97e01429" alt="416-zone_card_view.png" /></a>
 
 The UI has become much more visual with the addition of configurable icons for most types of resources. For example, zones can now be represented by geographical flags or instances by their OS type. Users can even upload a profile picture of themselves. 
 
@@ -62,7 +62,7 @@ A full audit log of comments is maintained, including the date stamp and the use
 
 There is also a new “Comments” section under the main menu, allowing users to see all of their comments across all objects and types.  
 
-<a href="/img/imported/e40e8bff-146e-445c-ace9-f48130b1f977"><img src="/img/imported/e40e8bff-146e-445c-ace9-f48130b1f977" width="50%" alt="416-comments.png" /></a>
+<a href="/img/imported/e40e8bff-146e-445c-ace9-f48130b1f977"><img src="/img/imported/e40e8bff-146e-445c-ace9-f48130b1f977" alt="416-comments.png" /></a>
 
 The final UI improvement is a big time saver. Users can now submit any form by pressing CTRL Enter.
 

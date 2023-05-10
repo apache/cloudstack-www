@@ -10,7 +10,7 @@ slug: day-2-at-cloudfest
 Today marks the second day of [CloudFest](https://www.cloudfest.com/), the #1 internet infrastructure event in
 the world. As you may know, Apache CloudStack is an exhibitor at the conference,
 with a number of community members representing the technology and community.
-
+<!-- truncate -->
 <h2>Come and Meet Apache CloudStack</h2>
 
 For attendees who are currently at the conference, we invite you to come and speak to us. Apache CloudStack’s booth is G19. Come and introduce yourself and discover the benefits of using an open-source technology for building a private cloud or delivering public cloud services. We are also keen to discuss Apache CloudStack with new potential users and technologies which would like to integrate with us.

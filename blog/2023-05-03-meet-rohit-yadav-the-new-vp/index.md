@@ -19,6 +19,8 @@ In this interview, you will be able to learn more about Rohit Yadav and see his
 perspective on the VP's role and how he can contribute to the Apache CloudStack
 project evolution.
 
+<!-- truncate -->
+
 **Why do you believe in open-source, where and how did it all start?**
 
 During my university days, I got introduced to open-source as a way of

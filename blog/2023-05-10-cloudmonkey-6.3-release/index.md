@@ -12,6 +12,8 @@ We are pleased to announce the release of Apache CloudStack CloudMonkey v6.3.0,
 the latest version of the popular command-line interface tool for managing
 Apache CloudStack environments.
 
+<!-- truncate -->
+
 CloudMonkey 6.3.0 comes packed with several new features, enhancements, and bug
 fixes to make it even more robust and reliable. Some of the key highlights of
 this release include:

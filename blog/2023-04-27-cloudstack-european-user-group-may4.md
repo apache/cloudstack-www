@@ -17,6 +17,7 @@ Become part of the CSEUG on May 4th, 2023!
 
 <a class="button button--primary" href="https://www.eventbrite.co.uk/e/cloudstack-european-user-group-2023-tickets-513821653397" >REGISTER FOR FREE</a>
 
+<!-- truncate -->
 
 <h4>Agenda:</h4>
 
