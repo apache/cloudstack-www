@@ -76,6 +76,8 @@ export default function Home(): JSX.Element {
               Column4
             </div>
           </div>
+        </div>
+        <div className="container hero">
           <div className="row">
             <div className="col col--6">
               <img src="img/dashboard.png" />
