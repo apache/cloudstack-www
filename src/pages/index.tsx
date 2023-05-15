@@ -63,6 +63,20 @@ export default function Home(): JSX.Element {
       <main>
         <div className="container hero">
           <div className="row">
+            <div className="col col--3">
+              Column1
+            </div>
+            <div className="col col--3">
+              Column2
+            </div>
+            <div className="col col--3">
+              Column3
+            </div>
+            <div className="col col--3">
+              Column4
+            </div>
+          </div>
+          <div className="row">
             <div className="col col--6">
               <img src="img/dashboard.png" />
               <Link
