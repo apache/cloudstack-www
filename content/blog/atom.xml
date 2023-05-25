@@ -2,11 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2023-05-10T00:00:00.000Z</updated>
+    <updated>2023-05-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[CSEUG 2023 Roundup]]></title>
+        <id>https://cloudstack.apache.org/blog/cseug-2023-roundup</id>
+        <link href="https://cloudstack.apache.org/blog/cseug-2023-roundup"/>
+        <updated>2023-05-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CloudStack European User Group 2023 took place on the 4th May. The event,]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/banner-585db8f7a51b64dd337af187112709e2.png" title="Banner" width="2246" height="1164" class="img_ev3q"></p><p>CloudStack European User Group 2023 took place on the 4th May. The event,
+organised by Apache CloudStack community members was held in <a href="https://www.google.com/maps/place/Cifas/@51.5252771,-0.1280909,15z/data=!4m2!3m1!1s0x0:0x67144bffc4ed0340?sa=X&amp;gl=us&amp;ved=2ahUKEwjw2q689-z-AhWJfMAKHfmoDZoQ_BJ6BAhfEAg" target="_blank" rel="noopener noreferrer">Cifas,
+London</a>.</p><p>For those who were not able to attend in-person, the event was <a href="https://www.youtube.com/watch?v=pt8bBsZN5Xk" target="_blank" rel="noopener noreferrer">live-streamed on
+Apache CloudStack’s YouTube channel</a>.</p><p>The Apache CloudStack community is grateful to the events sponsors for
+supporting the event and helping make it a reality –
+<a href="https://www.shapeblue.com/" target="_blank" rel="noopener noreferrer">ShapeBlue</a>, <a href="https://your.online/" target="_blank" rel="noopener noreferrer">Your.Online</a> and
+<a href="https://storpool.com/" target="_blank" rel="noopener noreferrer">StorPool</a>.</p><p>This blog shares the session recordings and descriptions for those who were not
+able to attend.</p><h1>Sessions</h1><p><a href="https://www.youtube.com/watch?v=K6AZrM85q9I&amp;list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd&amp;index=3" target="_blank" rel="noopener noreferrer"><strong>Welcome, Giles Sirett</strong><img loading="lazy" src="/assets/images/welcome-60f9a0450e669c75a30b1971ec8b620b.png" width="1173" height="644" class="img_ev3q"></a>
+<strong>Session description:</strong>
+Giles Sirett, CEO of ShapeBlue and Chairman of CSEUG, gives an outline of what
+everyone could expect for the day.</p><p><a href="https://www.youtube.com/watch?v=BthKUzK2KvE&amp;list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd&amp;index=4" target="_blank" rel="noopener noreferrer"><strong>What’s new in CloudStack 4.18, Giles Sirett</strong><img loading="lazy" src="/assets/images/whats-new-270a36e75a2f3ec76b02a40451511729.png" width="1193" height="657" class="img_ev3q"></a>
+<strong>Session description:</strong>
+In this session, Giles Sirett gives an overview of some of the most exciting
+features and integrations introduced in Apache CloudStack 4.18. Some of these
+features include edge zones, SDN integration (Tungsten Fabric), autoscaling,
+managed user data and more.</p><p><a href="https://www.youtube.com/watch?v=pukEbV70iTc&amp;list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd&amp;index=5" target="_blank" rel="noopener noreferrer"><strong>CloudStack Monitoring, Lucian Burlacu, ShapeBlue</strong><img loading="lazy" src="/assets/images/monitoring-9acce1e3a453b9e8745fd929290d8d66.png" width="1194" height="659" class="img_ev3q"></a>
+<strong>Session description:</strong>
+In this session, Lucian Burlacu from ShapeBlue, gives an introduction to
+monitoring CloudStack, from the hardware up to the stack.</p><p><a href="https://www.youtube.com/watch?v=0yMs7Jkw4g4&amp;list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd&amp;index=6" target="_blank" rel="noopener noreferrer"><strong>News about LINBIT SDS &amp; CloudStack, Rene Peinthor, LINBIT</strong><img loading="lazy" src="/assets/images/linbit-3110349fd63d94270116bdf8f000f68f.png" width="1199" height="657" class="img_ev3q"></a>
+<strong>Session description:</strong>
+In this session, Rene Peinthor from LINBIT, shares the recent updates to the
+LINSTOR driver. He also shows the results of combining CloudStack &amp; XCP-ng with
+LINBIT's storage stack.</p><p><a href="https://www.youtube.com/watch?v=LLwmjV19_WU&amp;list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd&amp;index=7" target="_blank" rel="noopener noreferrer"><strong>Re-using old hardware, thus saving money and the environment, Wido den Hollander, Your.Online</strong><img loading="lazy" src="/assets/images/re-using-old-hardware-afabe253855d7794b6649205383bfca8.png" width="1194" height="661" class="img_ev3q"></a>
+<strong>Session description:</strong>
+Watch the session to learn from Wido Den Hollander - tips and tricks to make use
+of older hardware for a longer time in your CloudStack environment.</p><p><a href="https://www.youtube.com/watch?v=9kZ0tJlh60Y&amp;list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd&amp;index=8" target="_blank" rel="noopener noreferrer"><strong>Tungsten Fabric SDN for Core and Edge Zones in ACS, Alexandre Mattioli, ShapeBlue</strong><img loading="lazy" src="/assets/images/tungsten-fabric-0d3453f2d51ec0242f1806d8f86aa706.png" width="1200" height="659" class="img_ev3q"></a>
+<strong>Session description:</strong>
+In this session, Alexandre Mattioli from ShapeBlue shares how Tungsten Fabric
+allows for richer network topologies in CloudStack without the need for
+commercial solutions.</p><p><a href="https://www.youtube.com/watch?v=B_vFqHIDREs&amp;list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd&amp;index=9" target="_blank" rel="noopener noreferrer"><strong>A proposal - make changes in Apache CloudStack faster and low risk with vendor CI systems, Boyan Krosnov, Niki Tenev, StorPool</strong><img loading="lazy" src="/assets/images/a-proposal-storpool-ad1d6d4cfd344ec33b2ffc46c76d6901.png" width="1206" height="660" class="img_ev3q"></a>
+<strong>Session description:</strong>
+In this session, Boyan Krosnov and Niki Tenev from StorPool share other
+community's approaches to vendor CI systems, thus sparking the conversation on
+the future of the Apache CloudStack community's approach.</p><p><a href="https://www.youtube.com/watch?v=NvIhxSh8L0M&amp;list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd&amp;index=10" target="_blank" rel="noopener noreferrer"><strong>Dimsi and Backroll : What’s new/next release, Pierre Charton, Pierre de La Ville and Ousmane, Dimsi</strong><img loading="lazy" src="/assets/images/dimsi-backroll-3ac79e9641cde3a650b248963a28ddc7.png" width="1197" height="658" class="img_ev3q"></a>
+<strong>Session description:</strong>
+In this session, team members from DIMSI, share DIMSI's backroll (KVM guest
+agent backup) project news and CloudStack plugin release.</p>]]></content>
+        <author>
+            <name>Jamie Pell</name>
+            <uri>https://github.com/jamiepell10</uri>
+        </author>
+        <category label="news" term="news"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache CloudStack CloudMonkey 6.3.0 Release]]></title>
         <id>https://cloudstack.apache.org/blog/cloudmonkey-6.3-release</id>
@@ -17,8 +66,8 @@
 the latest version of the popular command-line interface tool for managing
 Apache CloudStack environments.</p><p>CloudMonkey 6.3.0 comes packed with several new features, enhancements, and bug
 fixes to make it even more robust and reliable. Some of the key highlights of
-this release include:</p><ul><li>Add support for ARM64 Darwin/OSX build in Makefile</li><li>Autocompletion on storage pool related APIs</li><li>Enable profile information passing through commandline</li><li>Profile caching improvements and bugfixes</li><li>Fix: reuse cmk's CLI params to call piped cmd</li><li>Maintenance changes - github actions/travis migration, dependencies upgrades,</li><li>Various bug fixes</li><li>Fixes handling of invalid timeout value</li><li>Fixes csv output</li></ul><p>CloudMonkey v6.3.0 is <a href="/downloads">available for download</a> now from the Apache
-CloudStack website. For more information on the release, including a full list
+this release include:</p><ul><li>Add support for ARM64 Darwin/OSX build in Makefile</li><li>Autocompletion on storage pool related APIs</li><li>Enable profile information passing through commandline</li><li>Profile caching improvements and bugfixes</li><li>Fix: reuse cmk's CLI params to call piped cmd</li><li>Maintenance changes - github actions/travis migration, dependencies upgrades,</li><li>Various bug fixes</li><li>Fixes handling of invalid timeout value</li><li>Fixes csv output</li></ul><p>CloudMonkey v6.3.0 is <a href="https://cloudstack.apache.org/downloads.html" target="_blank" rel="noopener noreferrer">available for download</a>
+now from the Apache CloudStack website. For more information on the release, including a full list
 of new features and bug fixes, please refer to the release notes.</p><a href="https://github.com/apache/cloudstack-cloudmonkey/releases/tag/6.3.0" target="_blank" rel="noopener noreferrer" class="button button--primary">Download CloudMonkey v6.3.0</a><br><br><h1>Downloads and Documentation</h1><p>The official source code for CloudMonkey v6.3.0 can be downloaded from:
 <a href="https://cloudstack.apache.org/downloads.html" target="_blank" rel="noopener noreferrer">https://cloudstack.apache.org/downloads.html</a></p><p>CloudMonkey's usage details are documented at
 <a href="https://github.com/apache/cloudstack-cloudmonkey/wiki" target="_blank" rel="noopener noreferrer">https://github.com/apache/cloudstack-cloudmonkey/wiki</a></p><p>We encourage all CloudStack users to upgrade to CloudMonkey 6.3.0 to take
