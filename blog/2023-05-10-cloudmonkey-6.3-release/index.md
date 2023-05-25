@@ -28,8 +28,8 @@ this release include:
 - Fixes handling of invalid timeout value
 - Fixes csv output
 
-CloudMonkey v6.3.0 is [available for download](/downloads) now from the Apache
-CloudStack website. For more information on the release, including a full list
+CloudMonkey v6.3.0 is [available for download](https://cloudstack.apache.org/downloads.html)
+now from the Apache CloudStack website. For more information on the release, including a full list
 of new features and bug fixes, please refer to the release notes.
 
 <a class="button button--primary" href="https://github.com/apache/cloudstack-cloudmonkey/releases/tag/6.3.0" target="_blank">Download CloudMonkey v6.3.0</a>
