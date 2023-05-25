@@ -53,140 +53,15 @@ const config = {
         logo: {
           alt: 'apache-cloudstack',
           src: 'img/navlogo.png',
+          href: 'https://cloudstack.apache.org/'
         },
         items: [
           {
-            label: 'About',
-            position: 'right',
-            items: [
-              {
-                label: 'About',
-                href: '/about'
-              },
-              {
-                label: 'History',
-                href: '/history'
-              },
-              {
-                label: 'Features',
-                href: '/features'
-              },
-              {
-                label: 'Who We Are',
-                href: '/who'
-              },
-              {
-                label: 'Community Bylaws',
-                href: '/bylaws'
-              },
-              {
-                label: 'Trademark Guidelines',
-                href: '/trademark-guidelines'
-              },
-              {
-                label: 'Security',
-                href: '/security'
-              }
-            ]
-          },
-          //{type: 'doc', docId: 'getting-started', position: 'right', label: 'Docs'},
-          //{type: 'doc', docId: 'community', position: 'right', label: 'Community', docsPluginId: 'community'},
-          {
-            label: 'Community',
-            position: 'right',
-            items: [
-              {
-                label: 'Get Involved',
-                href: '/contribute'
-              },
-              {
-                label: 'Developer Resources',
-                href: '/developers'
-              },
-              {
-                label: 'Join Mailing Lists',
-                href: '/mailing-lists'
-              },
-              {
-                label: 'Issues Tracker',
-                href: 'https://github.com/apache/cloudstack/issues'
-              },
-              {
-                label: 'Community Slack',
-                href: 'https://join.slack.com/t/apachecloudstack/shared_invite/zt-1u8qwbivp-u16HRI~LWioLmF1G2D3Iyg',
-              },
-              {
-                label: 'Events and Meetups',
-                href: '/events'
-              },
-              {
-                label: 'Collab Conference',
-                href: 'https://www.cloudstackcollab.org/'
-              },
-            ]
-          },
-          {
-            label: 'Use Cases',
-            position: 'right',
-            items: [
-              {
-                label: 'Cloud Builders',
-                href: '/cloud-builders'
-              },
-              {
-                label: 'Kubernetes',
-                href: '/kubernetes'
-              }
-            ]
-          },
-          {
-            label: 'Users',
-            position: 'right',
-            items: [
-              {
-                label: 'Known Users',
-                href: '/users'
-              },
-              {
-                label: 'Case Studies',
-                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/Case+Studies'
-              },
-              {
-                label: 'Take Survey',
-                href: '/survey'
-              }
-            ]
-          },
-          {
-            label: 'Documentation',
-            position: 'right',
-            items: [
-              {
-                label: 'CloudStack Documentation',
-                href: 'https://docs.cloudstack.apache.org'
-              },
-              {
-                label: 'Project Wiki',
-                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/Home'
-              },
-              {
-                label: 'CloudStack Books',
-                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Books'
-              },
-              {
-                label: 'API Documentation',
-                href: '/api/'
-              }
-            ]
-          },
-          {
-            label: 'Download',
-            position: 'right',
-            href: '/downloads'
+            label: 'Home',
+            href: 'https://cloudstack.apache.org/'
           },
           {
             label: 'Blog',
-            position: 'right',
             href: '/blog'
           },
           {
@@ -245,7 +120,7 @@ const config = {
           <span>
           Copyright © ${new Date().getFullYear()} The Apache Software Foundation, Licensed under the Apache License, Version 2.0.
           "Apache", "CloudStack", "Apache CloudStack", the Apache CloudStack logo, the Apache CloudStack Cloud Monkey logo and the Apache feather logos are registered trademarks or trademarks of The Apache Software Foundation.
-          <br/><a href="/trademark-guidelines">Apache CloudStack Trademark Usage</a> - <a href="/bylaws">Apache CloudStack Community ByLaws</a> - <a href="https://github.com/apache/cloudstack-www">Website Source Code</a>
+          <br/><a href="/trademark-guidelines.html">Apache CloudStack Trademark Usage</a> - <a href="/bylaws.html">Apache CloudStack Community ByLaws</a> - <a href="https://github.com/apache/cloudstack-www">Website Source Code</a>
           </span></div></div>`,
       },
       prism: {
