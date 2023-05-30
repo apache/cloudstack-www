@@ -4,10 +4,42 @@
         <title>Apache CloudStack Blog</title>
         <link>https://cloudstack.apache.org/blog</link>
         <description>Apache CloudStack Blog</description>
-        <lastBuildDate>Wed, 24 May 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 May 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apiculus – Cloud Management Suite for Service Providers]]></title>
+            <link>https://cloudstack.apache.org/blog/apiculus</link>
+            <guid>https://cloudstack.apache.org/blog/apiculus</guid>
+            <pubDate>Tue, 30 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Apiculus is a fully integrated and re-brandable]]></description>
+            <content:encoded><![CDATA[<p><a href="https://www.apiculus.io/" target="_blank" rel="noopener noreferrer">Apiculus</a> is a fully integrated and re-brandable
+public cloud management software for ISPs, data centres and telcos that combines
+cloud monetisation, customer lifecycle and infrastructure management into a
+single pane of glass. Apiculus is an all-in-one technology platform that
+combines infrastructure management, cloud service management, customer lifecycle
+management, and an integrated solution for the cloud providers in the Edge market.</p><p>Apiculus is developed by <a href="https://www.indiqus.com/" target="_blank" rel="noopener noreferrer">IndiQus Technologies</a>, an
+India-based cloud solutions company that has set up and managed over 25 public,
+private and hybrid clouds globally.</p><p><img loading="lazy" src="/assets/images/apiculus-c8b7d70cb6984a7bf662836a5b5b3386.png" title="Apiculus" width="924" height="506" class="img_ev3q"></p><h1>Apiculus with Apache CloudStack</h1><p>Apiculus adds a layer of powerful customer lifecycle management features to
+Apache CloudStack, providing a self-service CMP (cloud management platform),
+marketplace, monetization, monitoring, and support systems. By building on top
+of the existing orchestration capabilities of Apache CloudStack, Apiculus
+introduces a business layer that enhances the platform's capabilities.</p><a class="button button--primary" target="_blank" href="/files/apiculus-case-study-2023.pdf">DOWNLOAD THE CASE STUDY</a><br><br><p><img loading="lazy" src="/assets/images/kshitish-49c3403d820a0addb7c8a05aeb195d9f.png" title="Kshitish" width="200" height="200" class="img_ev3q"></p><blockquote><p>“Our aim is to position the combination of CloudStack and Apiculus as a robust
+cloud solution in 100+ countries and 300+ Enterprises in the next 3 years, and
+establish the combination as the go-to choice for operating private and public
+clouds.”</p><p>-<a href="https://www.linkedin.com/in/kshitishpurohit/" target="_blank" rel="noopener noreferrer">Kshitish Purohit</a>, Chief Product Officer, Apiculus</p></blockquote><h1>Apiculus Features</h1><p>Apiculus empowers service providers to establish a marketplace featuring a range
+of value-added services such as PaaS, IaaS, SaaS, and multi-cloud offerings.</p><p>With Apiculus, service providers can offer an extensive selection of
+cloud-native and IaaS services through a PaaS, IaaS, SaaS, and multi-cloud ready
+marketplace, enabling them to capture a larger share of their customers'
+spending.</p><p>Apiculus also provides support for multiple regions and currencies, making it
+easy to handle global and local billing requirements.</p><p>Service providers can define and create custom catalogues featuring integrated
+or billing-only services with various targeting options for customer accounts.</p><p>Additionally, Apiculus makes it easy to streamline customer acquisition by
+enabling service providers to create cash vouchers, site discounts, and various
+structured trial benefits. This helps businesses attract and retain customers
+while optimizing their marketing efforts.</p><a class="button button--primary" target="_blank" href="/files/apiculus-case-study-2023.pdf">DOWNLOAD THE CASE STUDY</a>]]></content:encoded>
+            <category>case-studies</category>
+        </item>
         <item>
             <title><![CDATA[CSEUG 2023 Roundup]]></title>
             <link>https://cloudstack.apache.org/blog/cseug-2023-roundup</link>
