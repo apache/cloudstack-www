@@ -5,7 +5,7 @@ tags: [announcement]
 authors: [ivet]
 slug: apache-cloudstack-terraform-provider-v0
 ---
-<a href="/img/imported/02633cc4-0d22-4bde-966e-4e3efec8f357"><img src="/img/imported/02633cc4-0d22-4bde-966e-4e3efec8f357" alt="cloudstack-terraform.jpg" width="750" height="393" /></a>
+<a href="/blog/apache-cloudstack-terraform-provider-v0"><img src="/img/imported/02633cc4-0d22-4bde-966e-4e3efec8f357" alt="cloudstack-terraform.jpg" width="750" height="393" /></a>
 <p>Apache CloudStack is proven to be one of the most scalable, free and open-source cloud computing operating systems for large-scale private, public, and hybrid clouds. Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage resources in many cloud services.</p>
 
 <!-- truncate -->

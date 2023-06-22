@@ -5,7 +5,7 @@ tags: [news]
 authors: [ivet]
 slug: cloud-iaas-predictions-for-2022
 ---
-<p>&nbsp;</p><a href="/img/imported/b735d3a3-b098-4c3c-87b5-5ed88a12bf65"><img src="/img/imported/b735d3a3-b098-4c3c-87b5-5ed88a12bf65" alt="CloudStack_Blog-Post_Cloud-IaaS-Predictions 2022_1200x628px.jpg" alt="Cloud/IaaS Predictions" width="750" height="393" /></a>
+<a href="/blog/cloud-iaas-predictions-for-2022"><img src="/img/imported/b735d3a3-b098-4c3c-87b5-5ed88a12bf65" alt="CloudStack_Blog-Post_Cloud-IaaS-Predictions 2022_1200x628px.jpg" alt="Cloud/IaaS Predictions" width="750" height="393" /></a>
 <p><strong>It's the beginning of the new year, and here the Apache CloudStack community shares its predictions about the state of open-source technology and the future of Cloud/IaaS.</strong> While some well-established trends (such as the migration to hybrid cloud environments and containerization) will continue in 2022, the potential for disruption caused by the ongoing pandemic will drive IT to accelerated change and improvement.</p>
 
 <!-- truncate -->

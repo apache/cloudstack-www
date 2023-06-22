@@ -5,7 +5,7 @@ tags: [news]
 authors: [ivet]
 slug: cloudstack-collaboration-conference-2021-november
 ---
-<a href="/img/imported/289e3dd4-ebc0-481d-9054-4957209d85aa">
+<a href="/blog/cloudstack-collaboration-conference-2021-november">
   <img width="100%" src="/img/imported/289e3dd4-ebc0-481d-9054-4957209d85aa" alt="CCC-Announcement.jpg" />
 </a>
 <b>The Place to Meet the Most Vibrant Open-source Community</b>

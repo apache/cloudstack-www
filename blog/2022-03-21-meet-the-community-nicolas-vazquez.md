@@ -4,7 +4,7 @@ title: Meet the Community - Nicolas Vazquez
 tags: [community]
 slug: meet-the-community-nicolas-vazquez
 ---
-<a href="/img/imported/dfd89976-747e-4737-b71b-198c8f53e31a"><img src="/img/imported/dfd89976-747e-4737-b71b-198c8f53e31a" alt="Meet-CS-Community-Nicolas.png" width="750" height="393"/></a>
+<a href="/blog/meet-the-community-nicolas-vazquez"><img src="/img/imported/dfd89976-747e-4737-b71b-198c8f53e31a" alt="Meet-CS-Community-Nicolas.png" width="750" height="393"/></a>
 
 <p>The Apache CloudStack Community is an ever-growing and rapidly-developed community of people all around the globe committed to open-source technology. We are a welcoming society for new contributors and people keen on technology. This blog series will present you with recent CloudStack Committers and PMC members. Learn more about our tech society!</p>
 <p>Meet Nicolas Vazquez! He is a Senior Software Engineer at ShapeBlue and is a PMC member of the Apache CloudStack project. He spends his time designing and implementing features in&nbsp; CloudStack and can be seen acting as a release manager also.</p>

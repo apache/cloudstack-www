@@ -4,7 +4,7 @@ title: Meet the Community - David Jumani
 tags: [community]
 slug: meet-the-community-david-jumani
 ---
-<p><a href="/img/imported/1033b38c-1717-4707-9098-fdc208260857"><img src="/img/imported/1033b38c-1717-4707-9098-fdc208260857" alt="Meet-CS-Community-David-Jumani.png" width="750" /></a></p>
+<p><a href="/blog/meet-the-community-david-jumani"><img src="/img/imported/1033b38c-1717-4707-9098-fdc208260857" alt="Meet-CS-Community-David-Jumani.png" width="750" /></a></p>
 
 The Apache CloudStack Community is an ever-growing and rapidly-developed community of people all around the globe committed to open-source technology. We are a welcoming society for new contributors and people keen on technology. This blog series will present you with recent CloudStack Committers and PMC members. Learn more about our tech society!
 

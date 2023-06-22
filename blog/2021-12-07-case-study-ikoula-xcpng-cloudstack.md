@@ -4,7 +4,7 @@ title: IKOULA Simplifies the Management of Large-Scale Cloud Infrastructure with
 tags: [case-studies]
 slug: case-study-ikoula-xcpng-cloudstack
 ---
-<a href="/img/imported/00e58d80-9b92-4974-9b5e-d06150ea0868"><img src="/img/imported/00e58d80-9b92-4974-9b5e-d06150ea0868" width="100%" alt="ikoula-xcpng-case-study-1200-628.png" /></a>
+<a href="/blog/case-study-ikoula-xcpng-cloudstack"><img src="/img/imported/00e58d80-9b92-4974-9b5e-d06150ea0868" width="100%" alt="ikoula-xcpng-case-study-1200-628.png" /></a>
 
 The French specialist in web hosting, dedicated servers, and cloud computing IKOULA announced a joint case study with the leading open-source cloud management software CloudStack. For the management of their cloud environment, IKOULA decided to choose the open-source way by combining the power of CloudStack with the simplicity of the open-source hypervisor XCP-ng. Тhe turnkey combination was carefully selected following the long-term company strategy to guarantee a constant product evolution, reliability, and simplicity for their customers. As a result, IKOULA is now among the most innovative cloud and managed services providers in Europe, with an extensive portfolio of cloud solutions. Moreover, a large number of customers use their CloudStack-orchestrated infrastructure to deploy memory-oriented and storage-oriented VMs or Kubernetes clusters.
 

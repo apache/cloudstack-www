@@ -4,7 +4,7 @@ title: Meet the Community - Pearl Dsilva
 tags: [community]
 slug: meet-the-community-pearl-dsilva
 ---
-<a href="/img/imported/2620f89b-add0-4f09-a8bf-ef477dbdfc94"><img src="/img/imported/2620f89b-add0-4f09-a8bf-ef477dbdfc94" width="100%" alt="Meet-CS-Pearl.png" /></a>
+<a href="/blog/meet-the-community-pearl-dsilva"><img src="/img/imported/2620f89b-add0-4f09-a8bf-ef477dbdfc94" width="100%" alt="Meet-CS-Pearl.png" /></a>
 
 The Apache CloudStack Community is an ever-growing and rapidly-developed community of people all around the globe committed to open-source technology. We are a welcoming society for new contributors and people keen on technology. This blog series will present you with recent CloudStack Committers and PMC members. Learn more about our tech society!
 

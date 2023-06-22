@@ -5,7 +5,7 @@ tags: [announcement]
 authors: [ivet]
 slug: apache-cloudstack-lts-maintenance-release3
 ---
-<a href="/img/imported/24029aa4-71d0-42df-880d-a6eb10610b80"><img src="/img/imported/24029aa4-71d0-42df-880d-a6eb10610b80" alt="cs-4161.jpg" width="750" height="393" /></a>
+<a href="/blog/apache-cloudstack-lts-maintenance-release3"><img src="/img/imported/24029aa4-71d0-42df-880d-a6eb10610b80" alt="cs-4161.jpg" width="750" height="393" /></a>
 
 The Apache CloudStack project is pleased to announce the release of CloudStack 4.16.1.0.
 The CloudStack 4.16.1.0 release is a maintenance release as part of its 4.16.x LTS branch and contains more than 150 fixes and improvements since the CloudStack 4.16.0.0 release. Some of the highlights include:
