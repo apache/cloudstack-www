@@ -5,7 +5,8 @@ authors: [ivet]
 tags: [news]
 slug: cloudstack-european-user-group-may1
 ---
-<img src="/img/imported/59255fe4-a752-4813-bb46-61a1089ace99" width= "750" height = "393" />
+
+<a href="/blog/cloudstack-european-user-group-may1"><img src="/img/imported/59255fe4-a752-4813-bb46-61a1089ace99" width= "750" height = "393" /></a>
 
 The **European CloudStack Community** is counting down the days until CloudStack
 European User Group 2023. The event will be taking place in London, in the

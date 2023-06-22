@@ -5,7 +5,7 @@ tags: [news]
 authors: [ivet]
 slug: cloudstack-collaboration-conference-2022-roundup
 ---
-<a href="/img/imported/f434e02a-eb78-481e-bc5c-070ceeb6acba"><img src="/img/imported/f434e02a-eb78-481e-bc5c-070ceeb6acba" alt="banner.png" width="750" height="393" /></a>
+<a href="/blog/cloudstack-collaboration-conference-2022-roundup"><img src="/img/imported/f434e02a-eb78-481e-bc5c-070ceeb6acba" alt="banner.png" width="750" height="393" /></a>
 <br/>
 CloudStack Collaboration Conference 2022 took place on 14th-16th November. The event, which is organised by a team of volunteers from the Apache CloudStack Community, was held in the Capital Fort Business centre in Sofia, Bulgaria.
 

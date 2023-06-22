@@ -4,7 +4,7 @@ title: Meet the Community - Simon Weller - VP of Apache CloudStack
 tags: [community]
 slug: meet-the-community-simon-weller
 ---
-<a href="/img/imported/3cc5849c-9512-4afd-a4f6-d22038d97990"><img src="/img/imported/3cc5849c-9512-4afd-a4f6-d22038d97990" alt="Screenshot 2022-05-09 at 11.26.23.png" width="750" height="393" /></a>
+<a href="/blog/meet-the-community-simon-weller"><img src="/img/imported/3cc5849c-9512-4afd-a4f6-d22038d97990" alt="Screenshot 2022-05-09 at 11.26.23.png" width="750" height="393" /></a>
 <p>Simon Weller is the new VP of Apache CloudStack announced in late March 2022. Simon has been an Apache CloudStack PMC member for the last few years. He has a strong technology background in multiple competencies, including networking and systems. In addition to it, he has a significant business development background with both start-ups and established organizations and is a highly experienced strategic thinker and relationship builder.</p>
 
 <!-- truncate -->

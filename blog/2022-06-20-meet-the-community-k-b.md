@@ -4,7 +4,7 @@ title: 'Meet the Community - K B Shiv Kumar '
 tags: [community]
 slug: meet-the-community-k-b
 ---
-<a href="/img/imported/c0ca3334-ec0f-4dc4-80a3-b97372f44973"><img src="/img/imported/c0ca3334-ec0f-4dc4-80a3-b97372f44973" alt="Screenshot 2022-06-21 at 10.35.49.png" width="750" height="393" /></a>
+<a href="/blog/meet-the-community-k-b"><img src="/img/imported/c0ca3334-ec0f-4dc4-80a3-b97372f44973" alt="Screenshot 2022-06-21 at 10.35.49.png" width="750" height="393" /></a>
 
 <p><strong>Introduce yourself with a few words</strong></p>
 <p>I am K B Shiv Kumar and am the Co-Founder and CTO at IndiQus. I am based out of Delhi, India and am passionate about travelling and dig going on driving holidays with my friends and family. I love listening to music and ABBA has been my all-time favourite band since childhood.</p>

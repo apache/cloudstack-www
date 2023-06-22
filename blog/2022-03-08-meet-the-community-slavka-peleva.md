@@ -4,7 +4,7 @@ title: Meet the Community - Slavka Peleva
 tags: [community]
 slug: meet-the-community-slavka-peleva
 ---
-<a href="/img/imported/3c28586e-9ec1-4584-869b-2f8e7f3a2aa7"><img src="/img/imported/3c28586e-9ec1-4584-869b-2f8e7f3a2aa7" alt="Meet-CS-Community-SLAVKA.png" width="750" height="393" /></a>
+<a href="/blog/meet-the-community-slavka-peleva"><img src="/img/imported/3c28586e-9ec1-4584-869b-2f8e7f3a2aa7" alt="Meet-CS-Community-SLAVKA.png" width="750" height="393" /></a>
 
 <p>The Apache CloudStack Community is an ever-growing and rapidly-developed community of people all around the globe committed to open-source technology. We are a welcoming society for new contributors and people keen on technology. This blog series will present you with recent CloudStack Committers and PMC members. Learn more about our tech society!
 </p>

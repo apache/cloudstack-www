@@ -5,7 +5,7 @@ authors: [ivet]
 tags: [announcement]
 slug: apache-cloudstack-4-18-0
 ---
-<a href="/img/imported/6f7aa770-3f15-45d0-b27a-c3666a659caf"><img src="/img/imported/6f7aa770-3f15-45d0-b27a-c3666a659caf" width="100%" /></a>
+<a href="/blog/apache-cloudstack-4-18-0"><img src="/img/imported/6f7aa770-3f15-45d0-b27a-c3666a659caf" width="100%" /></a>
 
 The Apache Software Foundation Announces Apache® CloudStack® v4.18.
 

@@ -6,7 +6,7 @@ authors: [ivet]
 slug: meet-rohit-yadav-the-new
 ---
 
-![Rohit Yadav](header.jpg "Rohit Yadav - the new VP of Apache CloudStack")
+[![Rohit Yadav](header.jpg "Rohit Yadav - the new VP of Apache CloudStack")](/blog/meet-rohit-yadav-the-new)
 
 The CloudStack Community is happy to announce Rohit Yadav as the new VP of the
 Apache CloudStack Project and PMC chair. After a year of success in which Simon

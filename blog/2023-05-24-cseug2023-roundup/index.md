@@ -6,7 +6,7 @@ authors: [jamie]
 slug: cseug-2023-roundup
 ---
 
-![](banner.png "Banner")
+[![](banner.png "Banner")](/blog/cseug-2023-roundup)
 
 CloudStack European User Group 2023 took place on the 4th May. The event,
 organised by Apache CloudStack community members was held in [Cifas,

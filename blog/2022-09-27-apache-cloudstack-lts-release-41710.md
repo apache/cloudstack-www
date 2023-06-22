@@ -4,7 +4,7 @@ title: Apache CloudStack LTS Maintenance Release 4.17.1.0
 tags: [announcement]
 slug: apache-cloudstack-lts-release-41710
 ---
-<a href="/img/imported/9b8e1bba-c05d-4376-85b7-d524d3aff383"><img src="/img/imported/9b8e1bba-c05d-4376-85b7-d524d3aff383" width="100%" /></a>
+<a href="/blog/apache-cloudstack-lts-release-41710"><img src="/img/imported/9b8e1bba-c05d-4376-85b7-d524d3aff383" width="100%" /></a>
 
 The Apache CloudStack project is pleased to announce the release of CloudStack 4.17.1.0.
 The CloudStack 4.17.1.0 release is a maintenance release as part of its 4.17.x LTS branch and contains more than 150 fixes and improvements since the CloudStack 4.17.0.0 release.

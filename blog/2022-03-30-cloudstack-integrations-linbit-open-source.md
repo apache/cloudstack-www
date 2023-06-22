@@ -4,7 +4,7 @@ title: 'CloudStack Integrations: LINBIT - Open-source SDS Solution'
 tags: [case-studies]
 slug: cloudstack-integrations-linbit-open-source
 ---
-<a href="/img/imported/de3ef6b5-77a9-4747-a71c-8638a435addf"><img src="/img/imported/de3ef6b5-77a9-4747-a71c-8638a435addf" alt="CS-LINBIT.jpg" width="750" height="393" /></a>
+<a href="/blog/cloudstack-integrations-linbit-open-source"><img src="/img/imported/de3ef6b5-77a9-4747-a71c-8638a435addf" alt="CS-LINBIT.jpg" width="750" height="393" /></a>
 
 <p>CloudStack is a multi-hypervisor, multi-tenant, high-availability cloud management platform that delivers the flexibility and freedom of open-source technology and the power of an enterprise-grade virtualization management platform. <br />In the <strong>new blog series named CloudStack Integrations</strong>, we will present a range of technologies with which CloudStack is integrated and can become part of your technology stack. You will be able to<strong> learn more about different software solutions, which can be combined with CloudStack</strong> and dive deep into specialized <strong>Technical Solution Briefs</strong> presenting the integrations. <br />Today we will meet you with <a href="https://linbit.com/" target="_blank">LINBIT</a>.</p>
 

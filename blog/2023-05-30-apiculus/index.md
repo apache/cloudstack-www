@@ -6,6 +6,8 @@ authors: [jamie]
 slug: apiculus
 ---
 
+[![](apiculus-banner.png "Apiculus")](/blog/apiculus)
+
 [Apiculus](https://www.apiculus.io/) is a fully integrated and re-brandable
 public cloud management software for ISPs, data centres and telcos that combines
 cloud monetisation, customer lifecycle and infrastructure management into a

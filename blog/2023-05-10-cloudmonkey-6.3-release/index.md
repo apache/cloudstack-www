@@ -6,7 +6,7 @@ authors: [bobby]
 slug: cloudmonkey-6.3-release
 ---
 
-![](/img/banner.svg "CloudMonkey Image")
+[![](/img/banner.svg "CloudMonkey Image")](/blog/cloudmonkey-6.3-release)
 
 We are pleased to announce the release of Apache CloudStack CloudMonkey v6.3.0,
 the latest version of the popular command-line interface tool for managing

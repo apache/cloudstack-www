@@ -5,7 +5,7 @@ authors: [ivet]
 tags: [news]
 slug: day-2-at-cloudfest
 ---
-<a href="/img/imported/487d1056-5072-4756-bd2e-3d863a8000d0"><img src="/img/imported/487d1056-5072-4756-bd2e-3d863a8000d0" width= "750" height = "393" /></a>
+<a href="/blog/day-2-at-cloudfest"><img src="/img/imported/487d1056-5072-4756-bd2e-3d863a8000d0" width= "750" height = "393" /></a>
 
 Today marks the second day of [CloudFest](https://www.cloudfest.com/), the #1 internet infrastructure event in
 the world. As you may know, Apache CloudStack is an exhibitor at the conference,

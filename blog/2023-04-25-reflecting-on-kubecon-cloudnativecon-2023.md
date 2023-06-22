@@ -5,7 +5,8 @@ authors: [ivet]
 tags: [news]
 slug: reflecting-on-kubecon-cloudnativecon-2023
 ---
-<img src="/img/imported/e729f7ae-ebe1-474a-91f6-27c6a581b995" width= "750" height = "393" />
+
+<a href="/blog/reflecting-on-kubecon-cloudnativecon-2023"><img src="/img/imported/e729f7ae-ebe1-474a-91f6-27c6a581b995" width= "750" height = "393" /></a>
 
 For the first year, the Apache CloudStack Community has participated at KubeCon + CloudNativeCon- the [Cloud Native Computing Foundation](https://www.cncf.io/?_gl=1*x7ihno*_ga*MjA1MDg5MzgzMS4xNjc5OTAwNzUy*_ga_VWZ4V8CGRF*MTY4MjQwNDA5NC4xMS4wLjE2ODI0MDQwOTQuMC4wLjA.)’s flagship conference,
 which gathers adopters and technologists from leading open source and cloud

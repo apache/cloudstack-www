@@ -6,7 +6,7 @@ tags: [news]
 slug: apache-cloudstack-at-cloudfest
 ---
 
-<a href="/img/imported/715a438b-12ac-45f4-b127-a795dab5da75"><img src="/img/imported/715a438b-12ac-45f4-b127-a795dab5da75" alt="banner.png" width="750" height="393" /></a>
+<a href="/blog/apache-cloudstack-at-cloudfest"><img src="/img/imported/715a438b-12ac-45f4-b127-a795dab5da75" alt="banner.png" width="750" height="393" /></a>
 
 <strong>On March 20-24, 2023, in Europa-Park, Germany will take place the #1 internet infrastructure event in the world, connecting the global cloud computing industry - CloudFest! Meet the Apache CloudStack Community at booth G19.</strong>
 

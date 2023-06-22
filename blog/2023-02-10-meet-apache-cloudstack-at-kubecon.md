@@ -5,7 +5,7 @@ authors: [ivet]
 tags: [news]
 slug: meet-apache-cloudstack-at-kubecon
 ---
-<a href="/img/imported/fe5aa3f1-cd92-4cfa-a092-a595d3b9ffd4"><img src="/img/imported/fe5aa3f1-cd92-4cfa-a092-a595d3b9ffd4" alt="ACS-Kubecon.jpg" width= "750" height = "393" /></a>
+<a href="/blog/meet-apache-cloudstack-at-kubecon"><img src="/img/imported/fe5aa3f1-cd92-4cfa-a092-a595d3b9ffd4" alt="ACS-Kubecon.jpg" width= "750" height = "393" /></a>
 
 <strong>On 18-21<sup>st</sup> April, in Amsterdam, Netherlands will take place one of the largest flagship cloud conferences globally - </strong><a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/"><strong>KubeCon + Cloud NativeCon.</strong></a>
 

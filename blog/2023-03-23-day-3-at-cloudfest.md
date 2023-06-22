@@ -5,7 +5,7 @@ authors: [ivet]
 tags: [news]
 slug: day-3-at-cloudfest
 ---
-<a href="/img/imported/c199e71b-acd8-4caa-a08a-a36522ffa125"><img src="/img/imported/c199e71b-acd8-4caa-a08a-a36522ffa125" width= "750" height = "393" /></a>
+<a href="/blog/day-3-at-cloudfest"><img src="/img/imported/c199e71b-acd8-4caa-a08a-a36522ffa125" width= "750" height = "393" /></a>
 
 It is day 3 at [CloudFest](https://www.cloudfest.com/). Apache CloudStack
 exhibiting at the conference has been nothing short of fantastic. Community

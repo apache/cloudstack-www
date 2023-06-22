@@ -4,7 +4,7 @@ title: Apache CloudStack and Tungsten Fabric SDN - Solution Brief
 tags: [case-studies]
 slug: apache-cloudstack-and-tungsten-fabric
 ---
-<a href="/img/imported/b2495a18-898c-44c0-bbe4-5b227bad1565"><img src="/img/imported/b2495a18-898c-44c0-bbe4-5b227bad1565" alt="Tungsten-Fabric-Banner.png" width="750" height="393" /></a>
+<a href="/blog/apache-cloudstack-and-tungsten-fabric"><img src="/img/imported/b2495a18-898c-44c0-bbe4-5b227bad1565" alt="Tungsten-Fabric-Banner.png" width="750" height="393" /></a>
 
 CloudStack is a multi-hypervisor, multi-tenant, high-availability cloud management platform that delivers the flexibility and freedom of open-source technology and the power of an enterprise-grade virtualization management platform.
 

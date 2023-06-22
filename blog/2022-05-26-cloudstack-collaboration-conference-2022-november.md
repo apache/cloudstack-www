@@ -5,7 +5,7 @@ tags: [announcement]
 authors: [ivet]
 slug: cloudstack-collaboration-conference-2022-november
 ---
-<a href="/img/imported/c8eec338-5d20-4e46-80d3-376294e441f0"><img src="/img/imported/c8eec338-5d20-4e46-80d3-376294e441f0" alt="Screenshot 2022-05-26 at 15.49.12.png" width="750" height="393" /></a>
+<a href="/blog/cloudstack-collaboration-conference-2022-november"><img src="/img/imported/c8eec338-5d20-4e46-80d3-376294e441f0" alt="Screenshot 2022-05-26 at 15.49.12.png" width="750" height="393" /></a>
 <p>For the 10<sup>th</sup> consecutive year, the Apache CloudStack community is organising its major event - CloudStack Collaboration Conference, running from 14<sup>th</sup> to 16<sup>th</sup> November 2022. The event will be a hybrid event, giving attendees and speakers the option to join in Sofia, Bulgaria (Exact location TBD) or remotely from their computers. By doing so, the conference will allow more people from the Apache CloudStack community and people interested in the technology, to learn more about it and its latest capabilities and integrations.</p>
 
 <!-- truncate -->

@@ -6,7 +6,7 @@ tags: [case-studies]
 slug: becoming-a-profitable
 ---
 
-<a href="/img/imported/af41609f-8555-4238-8989-6159bc577516"><img src="/img/imported/af41609f-8555-4238-8989-6159bc577516" alt="banner.png" width="750" height="393" /></a>
+<a href="/blog/becoming-a-profitable"><img src="/img/imported/af41609f-8555-4238-8989-6159bc577516" alt="banner.png" width="750" height="393" /></a>
 
 Delivering cloud solutions need not be as complex and costly as some would have
 thought. With the right technology stack, companies can quickly and easily

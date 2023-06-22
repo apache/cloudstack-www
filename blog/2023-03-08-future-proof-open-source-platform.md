@@ -6,7 +6,7 @@ tags: [case-studies]
 slug: future-proof-open-source-platform
 ---
 
-<a href="/img/imported/4d7d7c8f-3951-4d15-9340-b1360357d6f7"><img src="/img/imported/4d7d7c8f-3951-4d15-9340-b1360357d6f7" alt="banner.png" width="750" height="393" /></a>
+<a href="/blog/future-proof-open-source-platform"><img src="/img/imported/4d7d7c8f-3951-4d15-9340-b1360357d6f7" alt="banner.png" width="750" height="393" /></a>
 
 [Your.Online](https://your.online/) is a team of pioneers from all over the
 world united by the passion for helping businesses succeed online. Their teams

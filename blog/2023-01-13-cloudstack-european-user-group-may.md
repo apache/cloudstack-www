@@ -5,7 +5,7 @@ authors: [jamie]
 tags: [news]
 slug: cloudstack-european-user-group-may
 ---
-<a href="/img/imported/4a13eac1-472a-49ae-ba58-51d6b46b63d2"><img src="/img/imported/4a13eac1-472a-49ae-ba58-51d6b46b63d2" alt="CSEUG 23 Banner.png" width="750" height="393" /></a>
+<a href="/blog/cloudstack-european-user-group-may"><img src="/img/imported/4a13eac1-472a-49ae-ba58-51d6b46b63d2" alt="CSEUG 23 Banner.png" width="750" height="393" /></a>
 
 <strong>Apache CloudStack is thrilled to share that the spring edition of CloudStack European User Group 2023 is now official! The event will be taking place in London, United Kingdom, with the exact location to be announced very soon.</strong>
 
