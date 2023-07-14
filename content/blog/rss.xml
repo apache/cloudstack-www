@@ -4,10 +4,45 @@
         <title>Apache CloudStack Blog</title>
         <link>https://cloudstack.apache.org/blog</link>
         <description>Apache CloudStack Blog</description>
-        <lastBuildDate>Thu, 22 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Jul 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apache CloudStack and Terraform Solution Brief]]></title>
+            <link>https://cloudstack.apache.org/blog/terraform-solution-brief</link>
+            <guid>https://cloudstack.apache.org/blog/terraform-solution-brief</guid>
+            <pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[IT solution providers need to satisfy the demand for the delivery of diverse]]></description>
+            <content:encoded><![CDATA[<p><a href="/blog/terraform-solution-brief"><img loading="lazy" src="/assets/images/banner-f764b7dbd111c1ab9f0570cd7366ae0f.png" title="CSC" width="904" height="472" class="img_ev3q"></a></p><p>IT solution providers need to satisfy the demand for the delivery of diverse
+services in the short-term. Time-to-market when offering IT solutions, IaaS or
+just provisioning infrastructure is a key factor for the company’s
+competitiveness. This requires companies to utilize tools capable of providing
+the agility to deliver new features, scalability, and infrastructure anywhere
+almost instantly.</p><p><a href="https://www.terraform.io/" target="_blank" rel="noopener noreferrer">Terraform</a> is an open-source infrastructure-as-code
+tool created by Hashicorp and Licensed through the Apache 2 License. By using
+Terraform, end users can easily create complex infrastructures anywhere, since
+Terraform has a huge list of providers supported, including Apache CloudStack.</p><p>HashiCorp Terraform helps organizations improve productivity, reduce risk, and
+increase business velocity as they integrate cloud into their IT environments.
+According to them, it improves IT Ops productivity up to 75%.</p><h1>Apache CloudStack and Terraform Integration</h1><p>Terraform relies on a set of plugins known as Providers in order to provision or
+manage resources and cloud services. As part of the integration of Terraform and
+Apache CloudStack, Terraform requires a specific CloudStack provider, which acts
+as a transition layer between Terraform and Apache CloudStack. This provider was
+written to provision and manage resources such as virtual machines, networks,
+templates, volumes etc., using the CloudStack APIs.</p><p>There are two main working components here:</p><ul><li>Terraform Core</li><li>CloudStack's Provider</li></ul><p><img loading="lazy" src="/assets/images/terraform-1a484db84988e35f418015b5b39328df.png" title="CloudStack Terraform Integration" width="1384" height="406" class="img_ev3q"></p><a class="button button--primary" target="_blank" href="/files/terraform-solution-brief 2023.pdf">DOWNLOAD THE SOLUTION BRIEF</a><br><br><p><img loading="lazy" src="/assets/images/tamara-686196c4467fd39f89fec80c14519d0d.png" title="Tamara" width="128" height="164" class="img_ev3q"></p><blockquote><p>“CloudStack and Terraform bring scalability and flexibility. The immediate
+benefit out of them is that you can have tested and proven blueprints and roll
+out environments quickly. Terraform is perfect for quickly creating Test/Dev
+environments.</p><p>In distributed teams, collaboration is extremely important. Infrastructure as
+code is a huge boost, helping teams to collaborate on code.”</p><p>-<a href="https://www.linkedin.com/in/muryshkin/" target="_blank" rel="noopener noreferrer">Tamara Muryshkin</a>, Enterprise Service Manager at Fraunhofer-Gesellschaft</p></blockquote><h1><a href="https://www.terraform.io/" target="_blank" rel="noopener noreferrer">About Terraform</a></h1><p>Terraform is an <strong>open-source infrastructure as code software tool</strong> that provides a
+consistent CLI workflow to <strong>manage hundreds of cloud services</strong>. Terraform codifies
+cloud APIs into declarative configuration files.</p><p>Terraform allows infrastructure to be expressed as code in a simple,
+human-readable language called HCL (HashiCorp Configuration Language). It reads
+configuration files and provides an execution plan of changes, which can be
+reviewed for safety and then applied and provisioned. <strong>Extensible providers allow
+Terraform to manage a broad range of resources, including IaaS, PaaS, SaaS, and
+hardware services.</strong></p><a class="button button--primary" target="_blank" href="/files/terraform-solution-brief 2023.pdf">DOWNLOAD THE SOLUTION BRIEF</a><br>]]></content:encoded>
+            <category>case-studies</category>
+        </item>
         <item>
             <title><![CDATA[Bringing Digital Services to 1.3 Billion People with Apache CloudStack]]></title>
             <link>https://cloudstack.apache.org/blog/bringing-digital-services-to-billions-with-apache-cloudstack</link>
