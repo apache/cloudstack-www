@@ -9,9 +9,8 @@ slug: cloudstack-india-user-group-meetup-2023
 [![](banner.jpg "CloudStack India User Group Meetup 2023")](/blog/cloudstack-india-user-group-meetup-2023)
 
 This year, the Indian CloudStack community will be hosting a User Group at
-**WeWork, Bangalore**, taking place on **August 18th 2023**. The WeWork location
-will be announced shortly, so keep an eye out on this blog page if you would
-like to attend!
+[**Room 6G, WeWork Galaxy, Bangalore**](https://goo.gl/maps/4EHfgrFTwXhLzZJ79),
+taking place on **August 18th 2023**.
 
 If you are an existing Apache CloudStack User or want to know more about the
 technology, join us for the user group, which will host exciting tech talks,
