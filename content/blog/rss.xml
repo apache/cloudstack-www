@@ -4,10 +4,45 @@
         <title>Apache CloudStack Blog</title>
         <link>https://cloudstack.apache.org/blog</link>
         <description>Apache CloudStack Blog</description>
-        <lastBuildDate>Mon, 17 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Jul 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[CloudStack Collaboration Conference 2023]]></title>
+            <link>https://cloudstack.apache.org/blog/cloudstack-collaboration-conference-2023</link>
+            <guid>https://cloudstack.apache.org/blog/cloudstack-collaboration-conference-2023</guid>
+            <pubDate>Mon, 24 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[On November 23-24th 2023, the annual [CloudStack Collaboration]]></description>
+            <content:encoded><![CDATA[<p><a href="/blog/cloudstack-collaboration-conference-2023"><img loading="lazy" src="/assets/images/banner-b32cefdda62d7e406fe7beac44db131b.png" title="CloudStack Collaboration Conference 2023" width="904" height="472" class="img_ev3q"></a></p><p>On November 23-24th 2023, the annual <a href="https://www.cloudstackcollab.org/" target="_blank" rel="noopener noreferrer">CloudStack Collaboration
+Conference</a> will be taking place in the
+<a href="https://www.ihg.com/voco/hotels/gb/en/clichy/parpc/hoteldetail" target="_blank" rel="noopener noreferrer">VOCO Paris, Porte de
+Clichy</a>. Once
+again, this year’s CCC will be a hybrid event, seeing the global CloudStack
+community joining on site and virtually from around the world. <a href="https://events.hubilo.com/cloudstack-collaboration-conference-2023/register" target="_blank" rel="noopener noreferrer">Registration is
+currently
+open</a>,
+with free entry to anybody adopting or interested in the open-source technology.</p><a href="https://events.hubilo.com/cloudstack-collaboration-conference-2023/register" target="_blank" rel="noopener noreferrer" class="button button--primary button--lg">REGISTER</a><br><br><h1>What to Expect</h1><p>For those new to the new community, CCC is a hybrid event aimed at developers,
+operators and users to discuss and evolve the open-source software project, its
+functionality and real-world operability. This event will introduce you to the
+CloudStack family, community leaders, project members and contributors. To get
+an idea of previous sessions held, feel free to read last’s year event <a href="https://cloudstack.apache.org/blog/cloudstack-collaboration-conference-2022-roundup" target="_blank" rel="noopener noreferrer">roundup
+blog</a>.</p><h1>Call for Speakers</h1><p>The event team is currently accepting session proposals, providing you the
+opportunity to host your own session on the global stage. If you have a story
+about CloudStack, building cloud infrastructure, developing CloudStack features
+or integration, security, scalability, multi-cloud, <a href="https://docs.google.com/forms/d/e/1FAIpQLSdaFH8I_fubiImp6mOXpAPL82UfjpCgisu3WAQBMtY-geqWyA/viewform" target="_blank" rel="noopener noreferrer">submit your talk now!</a></p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdaFH8I_fubiImp6mOXpAPL82UfjpCgisu3WAQBMtY-geqWyA/viewform" target="_blank" rel="noopener noreferrer" class="button button--primary button--lg">SUBMIT A TALK</a><br><br><h1>Sponsorship Opportunity</h1><p>The CloudStack Collaboration Conference stands as the premier global event for
+CloudStack and open-source cloud enthusiasts. This powerful platform is adopted
+by major telecoms, enterprises, and Fortune 100 companies worldwide. Embrace the
+opportunity to sponsor the conference, granting you access to connect and
+network with top-tier senior staff and C-level executives from these esteemed
+organizations. By becoming a sponsor, you gain the advantage of engaging with
+numerous developers, cloud architects, and technical leaders. Moreover,
+partnering with the CloudStack Collaboration Conference offers your brand
+enhanced visibility within one of the most dynamic and vibrant open-source
+communities across the globe.</p><a href="https://www.cloudstackcollab.org/wp-content/uploads/2023/02/Sponsorship-Prospectus-CCC-2023.pdf" target="_blank" rel="noopener noreferrer" class="button button--primary button--lg">Download the SponsorshipProspectus</a><br><br><p>If you have any questions, or would like to sponsor the conference, email the
+event team:  <a href="mailto:info@cloudstackcollab.org" target="_blank" rel="noopener noreferrer">info@cloudstackcollab.org</a></p><p>Event sponsors to date:</p><p><img loading="lazy" src="/assets/images/sponsors-8b4626db65d7896f54b057b0a7d9e474.png" width="848" height="152" class="img_ev3q"></p>]]></content:encoded>
+            <category>news</category>
+        </item>
         <item>
             <title><![CDATA[CloudStack India User Group 2023]]></title>
             <link>https://cloudstack.apache.org/blog/cloudstack-india-user-group-meetup-2023</link>
