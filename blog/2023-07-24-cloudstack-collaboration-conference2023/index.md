@@ -57,7 +57,7 @@ partnering with the CloudStack Collaboration Conference offers your brand
 enhanced visibility within one of the most dynamic and vibrant open-source
 communities across the globe.
 
-<a class="button button--primary button--lg" href="https://www.cloudstackcollab.org/wp-content/uploads/2023/02/Sponsorship-Prospectus-CCC-2023.pdf" target="_blank">Download the SponsorshipProspectus</a>
+<a class="button button--primary button--lg" href="https://www.cloudstackcollab.org/wp-content/uploads/2023/02/Sponsorship-Prospectus-CCC-2023.pdf" target="_blank">Download the Sponsorship Prospectus</a>
 <br/>
 <br/>
 
