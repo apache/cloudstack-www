@@ -344,7 +344,7 @@ responsibility to provide these approvals, and to ensure that any requests
 are in compliance with both the project and the foundation's trademark
 usage policies.
 
-    The CloudStack Trademark Guidelines specify how a requestor is expected to
+    The CloudStack Trademark Guidelines specify how a requester is expected to
 request permission for usage of the trademarks.
 
     The process of approval will typically be as follows:

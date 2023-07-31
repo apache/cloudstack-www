@@ -26,13 +26,13 @@ To serve it locally:
 
 # Important Update Information
 
-A few sections have been updated to be (more) dynamic.  The 'events' listed on the website are pulled from the CSV file in ./data/acs-events.csv .  The CSV that the website uses is the current raw file which is held in the Github main branch. Updates to this file are immediately 'visible' on the website.  There is no need to 'build' the website for the changes to become live. The format of the CSV is self explanatory, there is a heading row, please do not delete it, the processing on the web page assumes that it is there.  The 'latest announcements' section is pulled from the last 3 CloudStack blogs from the Apache Web site.
+A few sections have been updated to be (more) dynamic.  The 'events' listed on the website are pulled from the CSV file in ./data/acs-events.csv .  The CSV that the website uses is the current raw file which is held in the GitHub main branch. Updates to this file are immediately 'visible' on the website.  There is no need to 'build' the website for the changes to become live. The format of the CSV is self explanatory, there is a heading row, please do not delete it, the processing on the web page assumes that it is there.  The 'latest announcements' section is pulled from the last 3 CloudStack blogs from the Apache Web site.
 
 # Building
 To build the HTML files, you just need to execute the `build.sh`. The script will automatically generate the HTML files and then copy them to the `content` folder in preparation for being published via the `asf-site` branch.  Keep reading for detailed instructions.
 
 # Committing
-Use Github PRs to make changes to the live site. **No one should commit directly to the repositories without opening a PR and waiting for the proper review**.  
+Use GitHub PRs to make changes to the live site. **No one should commit directly to the repositories without opening a PR and waiting for the proper review**.  
 Once the review process has been completed and the appropriate changes have been made to the PR, it is time to **commit** the changes.  Merging the PR into `main` will not publish the changes to the live website, the following steps are required to make the live site reflect the status of the `main` branch.
 
 **IMPORTANT:** In order to publish changes to the live site, you must commit into the `asf-site` branch.  It is very important that the `main` branch stays synchronized with the the `asf-site` branch.
@@ -42,9 +42,9 @@ The ASF maintains an integration which automatically publishes the content of th
 NOTE: The content of the `build` directory needs to be copied to the `content` in the `asf-site` branch for the site to be served properly; If you use the `build.sh` script, this step is already taken care of.
 
 ## Step by Step
-* Fork this repository to your Github account: `<your_github_user>`. To do that, navigate to `https://github.com/apache/cloudstack-www` and click `fork` in the top right corner of the page.
+* Fork this repository to your GitHub account: `<your_github_user>`. To do that, navigate to `https://github.com/apache/cloudstack-www` and click `fork` in the top right corner of the page.
 * Then, clone your fork to your local workstation: `git clone git@github.com:<your_github_user>/cloudstack-www.git`
-* Cloning this way will make your Github fork the `origin` remote.
+* Cloning this way will make your GitHub fork the `origin` remote.
 * `cd cloudstack-www`
 * Add the official repo as the `upstream` remote: `git remote add upstream git@github.com:apache/cloudstack-www.git`
 
@@ -76,7 +76,7 @@ git push origin main
 
 
 **Create a PR**  
-* Confirm the changes appear correctly on your Github account.
+* Confirm the changes appear correctly on your GitHub account.
 * Create a Pull Request against `main` on the `https://github.com/apache/cloudstack-www` repository.
 
 ---
@@ -97,7 +97,7 @@ middleman server [-p <portnumber>]
 
 
 **COMMITTER: Merge & Deploy**  
-Merge the PR into `main` using the Github UI.
+Merge the PR into `main` using the GitHub UI.
 
 Once the PR has been merged into `main`, do the following to publish the content.
 ```bash
