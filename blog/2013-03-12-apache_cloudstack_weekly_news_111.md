@@ -45,7 +45,7 @@ inefficient for certain primary storage types, for example if you end up creatin
 
 <p>Alex Huang <a href="http://markmail.org/message/kvtkfjaswopqkd7m" class="external-link" rel="nofollow">proposed</a> building a BVT system to "ensure that checkins do not break the <a href="/confluence/pages/createpage.action?spaceKey=CLOUDSTACK&amp;title=master&amp;linkCreation=true&amp;fromPageId=30756122" class="createlink">master</a> branch." </p>
 
-<p>After a fair amont of discussion, Chip Childers <a href="http://markmail.org/message/2tavrqatlyyrwmp6" class="external-link" rel="nofollow">responded, saying that the first step to getting Gerrit</a> is "for us to agree to using it and to be able to clearly articulate <b>why</b>.  Without being able to explain our issue, we'll be questioned about jumping to a tool-based solution by the infra team."</p>
+<p>After a fair amount of discussion, Chip Childers <a href="http://markmail.org/message/2tavrqatlyyrwmp6" class="external-link" rel="nofollow">responded, saying that the first step to getting Gerrit</a> is "for us to agree to using it and to be able to clearly articulate <b>why</b>.  Without being able to explain our issue, we'll be questioned about jumping to a tool-based solution by the infra team."</p>
 
 <p>The entire discussion is worth a read for anyone involved in day-to-day CloudStack development. (Indeed, one hopes that <b>all</b> developers have paid close attention to this thread, not only the handful of active voices who have jumped into the discussion.)</p>
 
