@@ -60,6 +60,6 @@ community, and gain recognition in the cloud computing industry.
 - 2:00 PM – 2:50 PM: Deploying Kubernetes Clusters on Apache CloudStack, Kiran Chavala, Vishesh Jindal
 - 3:00 PM – 3:30 PM: CloudStack Object Storage Framework & Demo, Kishan Kavala
 - 3:30 PM – 4:00 PM: CloudStack Managed User-data & Demo, Harikrishna Patnala
-- 4.10 PM – 4.30 PM: Mitigating Common CloudStack Instance Deployment Failures, Jithin Raju
-- 4:30 PM – 5:00 PM: Running CloudStack Homelab, Rohit Yadav
+- 4.10 PM – 4.35 PM: Deploying CloudStack with Ceph, Ravichandran P, AssistanZ Networks
+- 4:35 PM – 5:00 PM: Mitigating Common CloudStack Instance Deployment Failures, Jithin Raju
 - 5:00 PM – 5:30 PM: Farewell to community and Networking
