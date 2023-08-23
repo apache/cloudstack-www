@@ -26,7 +26,8 @@ https://photos.google.com/share/AF1QipMf5oiut3pZr8vB3kk_LiCzLgjglxJxkUYmaHoMPHrI
 
 (The session recording is not available)
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/e5gbS0sSfzB5wj" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe> <div> <strong> <a href="https://www.slideshare.net/ShapeBlue/welcome-and-state-of-apache-cloudstack-community-rohit-yadav" title="Welcome and State of Apache CloudStack Community" target="_blank">Welcome and State of Apache CloudStack Community</a> </strong></div>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/e5gbS0sSfzB5wj" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe><br/>
+<strong> <a href="https://www.slideshare.net/ShapeBlue/welcome-and-state-of-apache-cloudstack-community-rohit-yadav" title="Welcome and State of Apache CloudStack Community" target="_blank">Open in SlideShare</a> </strong>
 
 **Session Description:**
 VP of Apache CloudStack welcomes the CloudStack India User Group meetup attendees in Bangalore and walks through the current state of the Apache CloudStack community, composition of committers and PMC members, release activities, contributor trends on mailing lists and GitHub, and update on community initiatives and upcoming events.
@@ -41,8 +42,8 @@ the ever-growing Engineering Team.
 
 [![](whats-new-4.19.png "What's New in ACS 4.19")](https://www.youtube.com/watch?v=TdFFW0dL9io)
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/q10q4hkRSULcD" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
-<strong> <a href="https://www.slideshare.net/ShapeBlue/whats-coming-in-cloudstack-419" title="What's Coming in CloudStack 4.19" target="_blank">What's Coming in CloudStack 4.19</a></strong>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/q10q4hkRSULcD" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe><br/>
+<strong> <a href="https://www.slideshare.net/ShapeBlue/whats-coming-in-cloudstack-419" title="What's Coming in CloudStack 4.19" target="_blank">Open in SlideShare</a></strong>
 
 **Session Description:**
 An early overview of the upcoming new and exciting features and improvements in
@@ -62,8 +63,8 @@ Engineer at ShapeBlue.
 
 [![](k8s-talk.png)](https://www.youtube.com/watch?v=y2D4kpFASK8)
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/wkQ5R4NGml0wVC" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
-<strong> <a href="https://www.slideshare.net/ShapeBlue/deploying-kubernetes-clusters-on-apache-cloudstack" title="Deploying Kubernetes Clusters on Apache CloudStack" target="_blank">Deploying Kubernetes Clusters on Apache CloudStack</a> </strong>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/wkQ5R4NGml0wVC" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe><br/>
+<strong> <a href="https://www.slideshare.net/ShapeBlue/deploying-kubernetes-clusters-on-apache-cloudstack" title="Deploying Kubernetes Clusters on Apache CloudStack" target="_blank">Open in SlideShare</a> </strong>
 
 **Session Description:**
 
@@ -91,8 +92,8 @@ worked extensively on them.
 
 [![](object-storage.png)](https://www.youtube.com/watch?v=d9kpIJAu8Yo)
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/46zMXIcvGFdH8X" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
-<strong> <a href="https://www.slideshare.net/ShapeBlue/cloudstack-object-storage-framework-demo" title="CloudStack Object Storage Framework & Demo" target="_blank">CloudStack Object Storage Framework & Demo</a> </strong>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/46zMXIcvGFdH8X" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe><br/>
+<strong> <a href="https://www.slideshare.net/ShapeBlue/cloudstack-object-storage-framework-demo" title="CloudStack Object Storage Framework & Demo" target="_blank">Open in SlideShare</a> </strong>
 
 **Session Description:**
 In this session, Kishan introduces Object Storage and its use cases. He also
@@ -108,8 +109,8 @@ CloudStack project and works as a software architect at ShapeBlue.
 
 (The session recording is not available)
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/Ln76YBl687IEq6" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
-<strong> <a href="https://www.slideshare.net/ShapeBlue/cloudstack-managed-userdata-demo" title="CloudStack Managed User-data & Demo" target="_blank">CloudStack Managed User-data & Demo</a></strong>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/Ln76YBl687IEq6" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe><br/>
+<strong> <a href="https://www.slideshare.net/ShapeBlue/cloudstack-managed-userdata-demo" title="CloudStack Managed User-data & Demo" target="_blank">Open in SlideShare</a></strong>
 
 **Session Description:**
 When launching a new Instance on Apache CloudStack, users can set a UserData
@@ -131,8 +132,8 @@ working on CloudStack since 2012 and is a committer to the project.
 
 [![](ceph-talk.png)](https://www.youtube.com/watch?v=4ka_JAibdlc)
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/tawlrOJg0jCSCL" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
-<strong> <a href="https://www.slideshare.net/ShapeBlue/deploying-cloudstack-with-ceph" title="Deploying CloudStack with Ceph" target="_blank">Deploying CloudStack with Ceph</a> </strong>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/tawlrOJg0jCSCL" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe><br/>
+<strong> <a href="https://www.slideshare.net/ShapeBlue/deploying-cloudstack-with-ceph" title="Deploying CloudStack with Ceph" target="_blank">Open in SlideShare</a> </strong>
 
 **Session Description:**
 In this session, Ravi Described some use cases about harmonizing Ceph storage
@@ -151,8 +152,8 @@ CloudStack consulting, Storage solutions and Stackbill CMP product.
 
 [![](vm-failure-talk.png)](https://www.youtube.com/watch?v=t7uVwaqZzyY)
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/9LvAIhGjhIe2xX" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
-<strong> <a href="https://www.slideshare.net/ShapeBlue/mitigating-common-cloudstack-instance-deployment-failures" title="Mitigating Common CloudStack Instance Deployment Failures" target="_blank">Mitigating Common CloudStack Instance Deployment Failures</a> </strong>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/9LvAIhGjhIe2xX" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe><br/>
+<strong> <a href="https://www.slideshare.net/ShapeBlue/mitigating-common-cloudstack-instance-deployment-failures" title="Mitigating Common CloudStack Instance Deployment Failures" target="_blank">Open in SlideShare</a> </strong>
 
 **Session Description:**
 A discussion on the common failures when using CloudStack taking instance
