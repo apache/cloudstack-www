@@ -27,7 +27,7 @@ function HomepageHeader() {
             </p>
             <br/>
             <p className="hero__subtitle">
-              Apache CloudStack 4.18.0.0 LTS is out!
+              Apache CloudStack 4.18.1.0 LTS is out!
             </p>
             <div>
               <Link
