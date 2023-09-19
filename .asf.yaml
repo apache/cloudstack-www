@@ -19,7 +19,7 @@ github:
   description: "Apache CloudStack Website"
   homepage: https://cloudstack.apache.org/
   features:
-    issues: false
+    issues: true
     projects: false
     wiki: false
   labels:
@@ -30,6 +30,10 @@ github:
     rebase:  false
   protected_branches:
     main: {}
+  collaborators:
+    - acs-robot
+    - IvetPM
+    - jamiepell10
 
 notifications:
   commits:      commits@cloudstack.apache.org
@@ -37,12 +41,10 @@ notifications:
   pullrequests: issues@cloudstack.apache.org
   jobs:         commits@cloudstack.apache.org
 
-# Staging and publishing profile for yourproject-website.git:
+# Staging and publishing profile for cloudstack-www.git:
 staging:
   profile: ~
-  whoami: docusaurus-staging
-  outputdir: build
-  hostname: beautiful-pastelito-4eb422.netlify.app
+  whoami: staging-site
 
 publish:
   whoami:  asf-site

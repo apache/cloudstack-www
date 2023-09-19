@@ -52,6 +52,7 @@ If you noticed something wrong with your entry here (or if you’d like us to re
 * [Imperial College](http://www.imperial.ac.uk/computing)
 * [InhouseIT](http://www.inhouseit.com)
 * [INRIA](http://inria.fr)
+* [KTH](http://kth.se)
 * [Kumo](http://kumo.com.co)
 * [M5 Hosting Inc](http://m5cloud.com)
 * [Melbourne University](http://nectar.org.au)
