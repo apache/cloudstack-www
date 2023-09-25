@@ -2,11 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2023-09-18T00:00:00.000Z</updated>
+    <updated>2023-09-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Google Summer of Code 2023 Review]]></title>
+        <id>https://cloudstack.apache.org/blog/gsoc-2023</id>
+        <link href="https://cloudstack.apache.org/blog/gsoc-2023"/>
+        <updated>2023-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In the ever-evolving landscape of open-source software development, fostering]]></summary>
+        <content type="html"><![CDATA[<p><a href="/blog/gsoc-2023"><img loading="lazy" src="/assets/images/banner-a9ada434623c0c0f625ef3f67c69ebf6.png" title="Google Summer of Code 2023 Review" width="1384" height="721" class="img_ev3q"></a></p><p>In the ever-evolving landscape of open-source software development, fostering
+the growth of young talents and innovators is essential. One remarkable program
+that stands at the forefront of this mission is the <a href="https://summerofcode.withgoogle.com/" target="_blank" rel="noopener noreferrer">Google Summer of Code
+(GSoC)</a>. For years, GSoC has been an
+invaluable platform for students to collaborate with prominent open-source
+organizations, and Apache CloudStack is proud to be a part of this
+transformative journey.</p><p>As an open-source Infrastructure-as-a-Service (IaaS) platform, Apache CloudStack
+has consistently provided a robust, scalable, and reliable solution for building
+and managing cloud environments. With a global community of developers and
+contributors, CloudStack has had an ongoing commitment to the GSoC programme and
+its students in the last years. We believe that young talents should be led in
+their open-source journey and projects shall be willing to help them learn and
+develop new skills and knowledge.</p><h1>A Word From this Year’s Participant and Mentor</h1><p><img loading="lazy" src="/assets/images/ayush-99b8c81091fd2c374e8abe2028e7ab5d.png" title="Ayush" width="97" height="128" class="img_ev3q"></p><blockquote><p>“Working on the Apache CloudStack project gave me the opportunity to understand
+how cloud computing infrastructure as a service works, the usage of nested
+virtualization and all other technical aspects involved.</p><p>The community has been really welcoming and supportive, and I’m excited to be a
+part of this community.”</p><p>-<!-- -->&nbsp;<a href="https://www.linkedin.com/in/itsayushpandey/" target="_blank" rel="noopener noreferrer">Ayush Pandey</a>, GSoC 2023 Student</p></blockquote><p><img loading="lazy" src="/assets/images/nicolas-e4954d436f405557c37e007ccbf404c6.png" title="Nicolas" width="128" height="129" class="img_ev3q"></p><blockquote><p>“I am very excited to be coordinating the CloudStack projects for the Google
+Summer of Code 2023 and mentoring Ayush on his project. I think GSOC is a great
+experience as an introduction to open-source projects and meeting its community,
+and from the mentor side it’s a great opportunity to meet and support talented
+people.”</p><p>-<!-- -->&nbsp;<a href="https://www.linkedin.com/in/nvazquezuy/" target="_blank" rel="noopener noreferrer">Nicolas Vazquez</a>, GSoC 2023 Mentor</p></blockquote><h1>The Impact of GSoC on Open-source Technologies</h1><p>In 2023, the Google Summer of Code (GSoC) program made a resounding impact on
+the world of open-source software development. With an impressive participation
+of 966 new contributors from across the globe, GSoC facilitated their engagement
+in 12+ week projects, collaborating with 168 open-source organizations. This
+global initiative united mentors and contributors hailing from over 75
+countries, creating a dynamic ecosystem of innovation and learning.</p><p>For nearly two decades, GSoC has thrived on the collective enthusiasm of
+open-source communities and the dedication of 19,000+ volunteer mentors, each
+spending between 50 to 150 hours guiding over 20,000 contributors since 2005. In
+2023, this tradition continued with 168 mentoring organizations and a staggering
+1,950 mentors supporting the program.</p><h1>A Preview of the Work Completed by GSoC Students</h1><p>This year, Ayush worked on adding implementation of import/export instances to
+the KVM hypervisor. The unmanaging instance feature is only available for the
+VMWare hypervisor in the latest version of CloudStack. This summer, Ayush worked
+on extending it to the KVM hypervisor. Click here to learn more about his
+project -  <a href="https://summerofcode.withgoogle.com/programs/2023/projects/f0gpheQM" target="_blank" rel="noopener noreferrer">https://summerofcode.withgoogle.com/programs/2023/projects/f0gpheQM</a></p><p>You can also see the CloudStack community submission to Github here -
+<a href="https://github.com/apache/cloudstack/pull/7712" target="_blank" rel="noopener noreferrer">https://github.com/apache/cloudstack/pull/7712</a></p><p>In last year’s CloudStack Collaboration Conference, a previous GSoC mentor, Daan
+Hoogland, held a talk, where he reviewed the involvement of CloudStack in GSoC,
+and looked at some of the work done by the GSoC students.</p><p><a href="https://www.youtube.com/watch?v=tDDoxFwhIvw" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/daan-7e887a846b8c75426ffe0031451493e1.png" title="Daan on GSoC" width="1384" height="650" class="img_ev3q"></a></p>]]></content>
+        <author>
+            <name>Jamie Pell</name>
+            <uri>https://github.com/jamiepell10</uri>
+        </author>
+        <category label="news" term="news"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache CloudStack 4.18.1.0 Release]]></title>
         <id>https://cloudstack.apache.org/blog/cloudstack-4.18.1-release</id>
