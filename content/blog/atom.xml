@@ -2,11 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2023-09-25T00:00:00.000Z</updated>
+    <updated>2023-10-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[CloudStack Collaboration Conference Agenda is Now Live!]]></title>
+        <id>https://cloudstack.apache.org/blog/ccc2023-agenda-revealed</id>
+        <link href="https://cloudstack.apache.org/blog/ccc2023-agenda-revealed"/>
+        <updated>2023-10-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Are you ready for the most anticipated Apache CloudStack event of the year? The]]></summary>
+        <content type="html"><![CDATA[<p><a href="/blog/ccc2023-agenda-revealed"><img loading="lazy" src="/assets/images/banner-260090facd03442114e960512a16ac3b.jpg" title="CCC 2023 Agenda Revealed" width="1200" height="628" class="img_ev3q"></a></p><p>Are you ready for the most anticipated Apache CloudStack event of the year? The
+CloudStack Collaboration Conference is back, and this time it's happening in
+Paris on November 23-24.</p><p>The wait is finally over, as the conference agenda has just been released,
+giving attendees the chance to plan their schedules and make the most of this
+extraordinary gathering of cloud enthusiasts, developers, and industry leaders.</p><h1>A Glimpse into the Agenda</h1><p>The <a href="https://www.cloudstackcollab.org/#schedule" target="_blank" rel="noopener noreferrer">recently released agenda</a>
+offers a tantalizing glimpse into what attendees can expect over the two days of
+the conference. With a diverse range of sessions and workshops, there's a wealth
+of knowledge to be gained and connections to be made. Here are some highlights
+from the agenda:</p><p><strong>State of the Union, <a href="https://www.linkedin.com/in/rohityadavcloud/" target="_blank" rel="noopener noreferrer">Rohit Yadav</a></strong></p><div class="row"><div class="col col--3"><p><img loading="lazy" src="/assets/images/rohit-df1c80f03df8fe310d0772769b58cb31.png" title="Rohit Yadav&quot; class=&quot;blog-image" width="211" height="199" class="img_ev3q"></p></div><div class="col col--9">In this session, Rohit will reflect on the last year of project collaboration, developments in CloudStack and community activity. He will set out how he sees the project developing over the next few years.</div></div><p><strong>Keynote Talk: Open Source is Not Dead, <a href="https://www.linkedin.com/in/charlesschulz/" target="_blank" rel="noopener noreferrer">Charles Schulz</a></strong></p><div class="row"><div class="col col--3"><p><img loading="lazy" src="/assets/images/charles-6bc2f1354f97e31a49781cb0b505e163.png" title="Charles Schulz" width="218" height="212" class="img_ev3q"></p></div><div class="col col--9">Successful open source companies change their business models and then the open source license they were distributing their software on. More and more it feels like Open Source is just a marketing buzzword designed to lure customers to a particular solution. On the regulatory front, the EU is implementing the CRA and handling software as it were trucks manufacturing. Is there any hope left for Open Source? Has it failed in delivering its premise?<p>Fear not. Open Source's not dead. It has already won and it will prevail again.</p></div></div><p><strong>What’s New in CloudStack and What Will Come in 4.19, <a href="https://www.linkedin.com/in/shwstppr/" target="_blank" rel="noopener noreferrer">Abhishek Kumar</a></strong></p><div class="row"><div class="col col--3"><p><img loading="lazy" src="/assets/images/abhishek-0dd4859719d2fed1f0ed60df0bfbcf18.png" title="Abhishek Kumar" width="290" height="254" class="img_ev3q"></p></div><div class="col col--9">Abhishek will give a brief introduction to the new and exciting features in the upcoming Apache CloudStack 4.19 release.</div></div><p><strong>How to Re-use Old Hardware with CloudStack. Saving Money and the Environment, <a href="https://www.linkedin.com/in/widodh/" target="_blank" rel="noopener noreferrer">Wido den Hollander</a></strong></p><div class="row"><div class="col col--3"><p><img loading="lazy" src="/assets/images/wido-d6fd4c34c7a4a9e1eddb716dccee654a.png" title="Wido" width="264" height="254" class="img_ev3q"></p></div><div class="col col--9">Wido will share how using older hardware for a longer time can save money and the environment by not producing new hardware.</div></div><p><strong>Migrating VMware Infra to KVM Using CloudStack, <a href="https://www.linkedin.com/in/nvazquezuy/" target="_blank" rel="noopener noreferrer">Nicolas Vazquez</a></strong></p><div class="row"><div class="col col--3"><p><img loading="lazy" src="/assets/images/nicolas-bbdb611050a26ec3e2d93abe1aa68d53.png" title="Nicolas" width="262" height="264" class="img_ev3q"></p></div><div class="col col--9">In this session, Nicolas will present a new feature, targeted for CloudStack 4.19, which allows administrators to migrate Instances from a VMware environment (external or connected to CloudStack) and import them into a KVM CloudStack-managed environment.</div></div><p>The CloudStack Collaboration Conference is a wholly community-driven event
+orchestrated by volunteers and dedicated enthusiasts from within the community.
+We extend our gratitude to the sponsors of the CloudStack Collaboration
+Conference – <a href="https://www.shapeblue.com/" target="_blank" rel="noopener noreferrer">ShapeBlue</a>,
+<a href="https://storpool.com/" target="_blank" rel="noopener noreferrer">StorPool</a>, <a href="https://linbit.com/" target="_blank" rel="noopener noreferrer">LINBIT</a>,
+<a href="https://cloud.dimsi.io/#/" target="_blank" rel="noopener noreferrer">DIMSI</a>, <a href="https://www.vates.fr/" target="_blank" rel="noopener noreferrer">Vates</a>,
+<a href="https://mitteldeutsche-it.de/" target="_blank" rel="noopener noreferrer">mitteldeutsche IT</a>,
+<a href="https://www.leaseweb.com/" target="_blank" rel="noopener noreferrer">Leaseweb</a>, <a href="https://www.proio.com/" target="_blank" rel="noopener noreferrer">proIO</a>,
+<a href="https://your.online/" target="_blank" rel="noopener noreferrer">Your.Online</a> and <a href="https://www.stackconsole.io/" target="_blank" rel="noopener noreferrer">Stack
+Console</a> – for their help in bringing this event
+to the worldwide community.</p>]]></content>
+        <author>
+            <name>Ivet Petrova</name>
+            <uri>https://github.com/IvetPM</uri>
+        </author>
+        <category label="news" term="news"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Google Summer of Code 2023 Review]]></title>
         <id>https://cloudstack.apache.org/blog/gsoc-2023</id>
