@@ -22,9 +22,9 @@ over 350 attendees from 30+ countries, with 47 speakers holding sessions and
 workshops.
 
 The Apache CloudStack community would like to express their gratitude to the
-sponsors of the conference, whose support made the event a reality – ShapeBlue,
-StorPool, LINBIT, DIMSI, Vates, mitteldeutsche IT, Leaseweb, proIO and
-Your.Online.
+sponsors of the conference, whose support made the event a reality – [ShapeBlue](https://www.shapeblue.com/),
+[StorPool](https://storpool.com/), [LINBIT](https://linbit.com/), [DIMSI](https://cloud.dimsi.io/#/), [Vates](https://vates.tech/), [mitteldeutsche IT](https://mitteldeutsche-it.de/), [Leaseweb](https://www.leaseweb.com/), [proIO](https://www.proio.com/) and
+[Your.Online](https://your.online/).
 
 The blog provides a summary of the event, currently featuring the session
 slides. You can expect the session recordings to be uploaded on the [Apache
