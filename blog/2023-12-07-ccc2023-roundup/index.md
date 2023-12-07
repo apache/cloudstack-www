@@ -265,46 +265,6 @@ The session consists of a combination of presentations and live demonstrations. 
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/dp1tvpjta0Ehur?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### DRBD Deep Dive, Philipp Reisner
-
-LINSTOR/DRBD became a primary storage option for Apache CloudStack nearly two
-years ago. In this session, Philipp shares insights about the internals of DRBD,
-the data-path part of the data-storage solution.
-
-Knowing about DRBD’s meta-data, the activity log, and the bitmap will enable you
-to make more educated decisions when it comes to selecting the right hardware
-for your next ApacheCloudStack+LINSTOR+DRBD deployment. When your servers have
-different storage tiers, what are the advantages and trade-offs regarding
-putting data and meta-data on different tiers?
-
-Recently, DRBD got a new transport, load-balancing TCP, that joins the existing
-TCP transport, and the RDMA transport received important updates. Looking beyond
-DRBD, what is important to know when selecting the RAID level and data
-alignment? Philipp concludes the session with comments regarding LVM compared to
-ZFS.
-
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/E9cbsIaqiLwtpz?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
-
-### Setting Up Your First CloudStack Environment with Beginners Challenges, MD Rasel
-
-Are you eager to embark on your journey into the world of cloud computing with
-Apache CloudStack but don’t know where to start? This informative session is
-designed especially for beginners. MD Rasel guides you through the essential
-steps of setting up your very first CloudStack environment, from initial
-installation to basic configuration.
-
-This session aims to equip newcomers to Apache CloudStack with the fundamental
-knowledge and practical skills required to establish their own cloud
-infrastructure. MR Rasel addresses common challenges that beginners often
-encounter during the setup process and provide valuable insights on how to
-overcome them.
-
-The session consists of a combination of presentations and live demonstrations.
-Attendees had the opportunity to follow along with the setup process in real
-time and ask questions.
-
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/dp1tvpjta0Ehur?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
-
 ### Transitioning from VMware vCloud to Apache CloudStack: A Path to Profitability and Competitiveness, Marco Sinhoreli
 
 In this session, Marco explores the potential of migrating from VMware vCloud to
