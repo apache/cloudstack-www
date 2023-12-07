@@ -215,13 +215,13 @@ the environment by not producing new hardware.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/wIknV9DWEOPPXG?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
-### Hypervisor Agnostic DRS in CloudStack - Brief overview & demo, Vishesh Jindal
+### Hypervisor Agnostic DRS in CloudStack - Brief overview & demo, [Vishesh Jindal](https://www.linkedin.com/in/vishesh92)
 
 Vishesh has been working on the feature hypervisor-agnostic DRS in Cloudstack. He briefly overviews the implementation and discusses the algorithms currently available and how they can improve resource allocation and workload balancing in virtualized environments. Additionally, Vishesh showcases a live demo of hypervisor agnostic DRS in action, highlighting its capabilities and effectiveness.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/GxMdQm0x29aIwl?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
-### Building a Software Makerspace with CloudStack to Drive Innovation by Improving Learning and Research Abilities at Universities, Jonas Willén, Pierre Le Fèvre, Emil Karlsson
+### Building a Software Makerspace with CloudStack to Drive Innovation by Improving Learning and Research Abilities at Universities, [Jonas Willén](https://www.linkedin.com/in/jonas-will%C3%A9n-6a745a56), [Pierre Le Fèvre](https://www.linkedin.com/in/pierrelefevre), [Emil Karlsson](https://www.linkedin.com/in/e-karlsson)
 
 A makerspace today is focused on turning ideas into physical prototypes by
 providing resources in terms of tools and infrastructure. In a university, a
@@ -245,7 +245,7 @@ implement their own software makerspace and its benefits.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/ghw7Vj1Kvco7t?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### DRBD Deep Dive, Philipp Reisner
+### DRBD Deep Dive, [Philipp Reisner](https://www.linkedin.com/in/philipp-reisner)
 
 LINSTOR/DRBD became a primary storage option for Apache CloudStack nearly two years ago. In this session, Philipp shares insights about the internals of DRBD, the data-path part of the data-storage solution.
 
@@ -255,7 +255,7 @@ Recently, DRBD got a new transport, load-balancing TCP, that joins the existing 
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/E9cbsIaqiLwtpz?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### Setting Up Your First CloudStack Environment with Beginners Challenges, MD Rasel
+### Setting Up Your First CloudStack Environment with Beginners Challenges, [MD Rasel](https://www.linkedin.com/in/mdrasel0)
 
 Are you eager to embark on your journey into the world of cloud computing with Apache CloudStack but don’t know where to start? This informative session is designed especially for beginners. MD Rasel guides you through the essential steps of setting up your very first CloudStack environment, from initial installation to basic configuration.
 
@@ -265,7 +265,7 @@ The session consists of a combination of presentations and live demonstrations. 
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/dp1tvpjta0Ehur?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### Transitioning from VMware vCloud to Apache CloudStack: A Path to Profitability and Competitiveness, Marco Sinhoreli
+### Transitioning from VMware vCloud to Apache CloudStack: A Path to Profitability and Competitiveness, [Marco Sinhoreli](https://www.linkedin.com/in/msinhore)
 
 In this session, Marco explores the potential of migrating from VMware vCloud to
 Apache CloudStack with KVM. VMware vCloud Suite is a robust cloud infrastructure
@@ -282,7 +282,7 @@ in planning and executing this transition effectively.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/l4d4JDv6nhe9K2?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### CloudStack and GitOps at Enterprise Scale, Alex Dometrius, Rene Glover
+### CloudStack and GitOps at Enterprise Scale, [Alex Dometrius](https://www.linkedin.com/in/alexdometrius), [Rene Glover](https://www.linkedin.com/in/rene-glover)
 
 The AT&T team recently embarked on a journey with CloudStack and has since
 deployed a solution which encompasses multiple data-centers. This talk focuses
@@ -292,7 +292,7 @@ within a GitOps model.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/7vtRbqok6FEeUV" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### 2FA and OAuth2 in CloudStack, Andrija Panić
+### 2FA and OAuth2 in CloudStack, [Andrija Panić](https://www.linkedin.com/in/andrijapanic)
 
 This talk is about authentication and authorization – Two-Factor Authentication
 (2FA) and OAuth2 explaining their critical roles in enhancing security and user
@@ -307,7 +307,7 @@ fits in CloudStack.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/1GwD0PDHEPecvl?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### Centralized Logging Feature in CloudStack using ELK and Grafana, Kiran Chavala
+### Centralized Logging Feature in CloudStack using ELK and Grafana, [Kiran Chavala](https://www.linkedin.com/in/kiran-chavala-1bb6a97)
 
 In this session, Kiran demonstrates how to centralize all the CloudStack-related
 logs in one place using Elastic Search and generate beautiful dashboards in
@@ -316,7 +316,7 @@ CloudStack and quickly helps to resolve the issue.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/yalVUMOq5J3b30?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### DRaaS using Snapshot copy and destination selection (DRaaS), Alexandre Mattioli
+### DRaaS using Snapshot copy and destination selection (DRaaS), [Alexandre Mattioli](https://www.linkedin.com/in/alexandremattiolibastos)
 
 Apache CloudStack 4.19 introduces the capability for end-users to copy their
 root disk or volume snapshots to one (or more) ACS Zones without operator
@@ -326,7 +326,7 @@ provide low-cost and robust DRaaS to their customers.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/Cvm7rz3ZGuJBMR?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### Use Existing Assets to Build a Powerful In-house Cloud Solution, Magali Pervan, Joffrey Luangsaysana, Grégoire Lamodière
+### Use Existing Assets to Build a Powerful In-house Cloud Solution, [Magali Pervan](https://www.linkedin.com/in/magali-pervan), [Joffrey Luangsaysana](https://www.linkedin.com/in/jluang), [Grégoire Lamodière](https://www.linkedin.com/in/gr%C3%A9goire-lamodi%C3%A8re-04171210)
 
 How to minimize the impact when it’s time to implement a cloud solution for
 automating internal workloads and delivering efficient solutions? Magali,
@@ -336,7 +336,7 @@ Financial objectives.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/2QOHFP4MHSSlnK?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### CloudStack Managed User Data and Demo, Harikrishna Patnala
+### CloudStack Managed User Data and Demo, [Harikrishna Patnala](https://www.linkedin.com/in/harikrishnapatnala)
 
 We know existing Userdata support in CloudStack enables users to inject custom
 scripts or data into virtual machines during provisioning, facilitating
@@ -347,7 +347,7 @@ CloudStack resource - followed by a demo.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/IaWWuPofZoFYXs?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### Project Sustainability and Vendor Contributions in an Apache Governance Model – Panel, Ivet Petrova, Dahn Hoogland and Alex Ivanov
+### Project Sustainability and Vendor Contributions in an Apache Governance Model – Panel, [Ivet Petrova](https://www.linkedin.com/in/ivpetrova), [Daan Hoogland](https://www.linkedin.com/in/dhoogland) and [Alex Ivanov](https://www.linkedin.com/in/alex-p-ivanov)
 
 This Panel discusses the Apache CloudStack project sustainability and vendor
 contributions in an Apache Governance Model. The participants present the
@@ -372,7 +372,7 @@ PCIe controllers, a hardware accelerator based on MPPA architecture.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/toAUvWJuD5HvnH?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### CloudStack Object Storage - An Introduction, Vladimir Petrov
+### CloudStack Object Storage - An Introduction, [Vladimir Petrov](https://www.linkedin.com/in/vladimir)
 
 CloudStack 4.19 introduces a new framework for object storage. In this talk,
 Vladi explains what has driven this development, the architecture chosen and
@@ -380,7 +380,7 @@ current integration points with Object store providers.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/2g3H0XORXa8Byk?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### Confidence in CloudStack, Aron Wagner, Nathan Gleason
+### Confidence in CloudStack, [Aron Wagner](https://www.linkedin.com/in/aronwagne), [Nathan Gleason](https://www.linkedin.com/in/nathangleason)
 
 In an ever-growing landscape of thousands of virtualization and cloud native
 projects it can be hard to understand what projects reliably just work.
@@ -389,7 +389,7 @@ Fortunately for the growing community at CloudStack that is precisely what we
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/1hKnRYpnYOxYuz?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### Declarative Kubernetes Cluster Deployment with Cloudstack and Cluster API, Ozhan Karaman
+### Declarative Kubernetes Cluster Deployment with Cloudstack and Cluster API, [Ozhan Karaman](https://www.linkedin.com/in/ozhan-karaman)
 
 Are you currently managing Kubernetes clusters in the cloud and considering a
 transition to on-premises infrastructure using Cloudstack? This session is an
@@ -402,13 +402,13 @@ Cloudstack Infrastructure.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/gCBMWODsKqeLIC?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### Extending KVM Host HA for Non-NFS Storage, Alex Ivanov
+### Extending KVM Host HA for Non-NFS Storage, [Alex Ivanov](https://www.linkedin.com/in/alex-p-ivanov)
 
 The current KVM Host HA feature depends on the existence of an NFS primary storage to detect which nodes are online, even if other types of primary storage are used. StorPool extends the HA feature to allow other methods to be used for this. The new implementation adds support for using StorPool Storage for HA heartbeats, removing the need for NFS primary storage. The solution developed by StorPool allows new storage vendors and protocols to be added easily.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/NtAYLfN0M09uDg?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### Live Demo Showcase: Unveiling Dell PowerFlex’s IaaS Capabilities with Apache CloudStack, Chidambara Shashikiran, Florian Coulombel
+### Live Demo Showcase: Unveiling Dell PowerFlex’s IaaS Capabilities with Apache CloudStack, [Florian Coulombel](https://www.linkedin.com/in/fcoulombel)
 
 Dell PowerFlex is the latest storage platform to offer advanced integration with
 Apache CloudStack. Powerflex, a software-defined platform, has built a
@@ -424,7 +424,7 @@ Management & Monitoring.
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/sIcZSOX4lCHcv?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### Import Export Virtual Machine for KVM Hypervisor, Ayush Pandey
+### Import Export Virtual Machine for KVM Hypervisor, [Ayush Pandey](https://www.linkedin.com/in/itsayushpandey)
 
 Ayush talks about his contribution as a GSoC Contributor, for implementing the
 Import-Export Instances feature for the KVM Hypervisor.
