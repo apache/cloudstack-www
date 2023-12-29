@@ -88,40 +88,43 @@ const config = {
         ],
       },
       footer: {
-        style: 'light',
+        style: 'dark',
         logo: {
             alt: 'Apache CloudStack logo',
-            src: 'img/banner.svg',
+            src: 'img/ACS_logo_slogan.svg',
             href: 'https://cloudstack.apache.org/'
         },
         copyright: `
-          <div style="opacity: 0.5">
-          <a href="mailto:dev-subscribe@cloudstack.apache.org" target="_blank">
-            <img src="/img/social/mail.svg" title="Join Dev Mailing List" height="32px" />
-          </a>
-          <a href="https://join.slack.com/t/apachecloudstack/shared_invite/zt-1u8qwbivp-u16HRI~LWioLmF1G2D3Iyg" target="_blank">
-            <img src="/img/social/slack.svg" title="Join Slack" height="32px" />
-          </a>
-          <a href="https://github.com/apache/cloudstack" target="_blank">
-            <img src="/img/social/github.svg" title="Github" height="32px" />
-          </a>
-          <a href="https://twitter.com/CloudStack" target="_blank">
-            <img src="/img/social/twitter.svg" title="Twitter" height="32px" />
-          </a>
-          <a href="https://www.youtube.com/@ApacheCloudStack" target="_blank">
-            <img src="/img/social/youtube.svg" title="YouTube" height="32px" />
-          </a>
-          <a href="https://www.linkedin.com/company/apachecloudstack/posts/" target="_blank">
-            <img src="/img/social/linkedin.svg" title="LinkedIn" height="32px" />
-          </a>
-          </div>
-          <div style="text-align: left;">
-          <div style="border-top: 1px solid #ccc;min-height: 60px;line-height: 20px;text-align: center;font-family: Avenir-Medium,serif;font-size: 14px;color: #999;display: flex;align-items: center;">
-          <span>
-          Copyright © ${new Date().getFullYear()} The Apache Software Foundation, Licensed under the Apache License, Version 2.0.
-          "Apache", "CloudStack", "Apache CloudStack", the Apache CloudStack logo, the Apache CloudStack Cloud Monkey logo and the Apache feather logos are registered trademarks or trademarks of The Apache Software Foundation.
-          <br/><a href="/trademark-guidelines.html">Apache CloudStack Trademark Usage</a> - <a href="/bylaws.html">Apache CloudStack Community ByLaws</a> - <a href="https://github.com/apache/cloudstack-www">Website Source Code</a>
-          </span></div></div>`,
+            <div class="social">
+                <a href="mailto:dev-subscribe@cloudstack.apache.org">
+		  <img src="img/mail_mini_icon.svg" alt=""/>
+		</a>
+                <a href="https://join.slack.com/t/apachecloudstack/shared_invite/zt-1u8qwbivp-u16HRI~LWioLmF1G2D3Iyg">
+		  <img src="img/slack_mini_icon.svg" alt=""/>
+		</a>
+                <a href="https://github.com/apache/cloudstack">
+		  <img src="img/git_mini_icon.svg" alt=""/>
+		</a>
+                <a href="https://twitter.com/CloudStack">
+		  <img src="img/twitter_X_mini_icon.svg" alt=""/>
+		</a>
+                <a href="https://www.youtube.com/@ApacheCloudStack">
+		  <img src="img/youtube_mini_icon.svg" alt=""/>
+		</a>
+                <a href="https://www.linkedin.com/company/apachecloudstack/posts/">
+		  <img src="img/linkedin_icon.svg" alt=""/>
+		</a>
+            </div>
+            <div class="footer-bottom">Copyright © 2023 The Apache
+Software Foundation, Licensed under the Apache License, Version 2.0.
+“Apache”, “CloudStack”, “Apache CloudStack”, the Apache CloudStack logo,
+ the Apache CloudStack Cloud Monkey logo and the Apache feather logos
+are registered trademarks or trademarks of The Apache Software
+Foundation.
+            <p class="footer-blue">Apache CloudStack Trademark Usage - Apache CloudStack Community ByLaws - Website Source Code</p></div>
+            </div>
+          <br/>
+          `,
       },
       prism: {
         theme: lightCodeTheme,
