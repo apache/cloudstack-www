@@ -272,7 +272,17 @@ Foundation.
           language: ["en"],
         }
       ],
-    ]
+    ],
+
+    scripts: [
+        // String format.
+        'https://docusaurus.io/script.js',
+        // Object format.
+        {
+            src: 'scripts/bootstrap.bundle.min.js',
+            async: true,
+        },
+    ],
 };
 
 module.exports = config;
