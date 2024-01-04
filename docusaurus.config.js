@@ -272,7 +272,14 @@ Foundation.
           language: ["en"],
         }
       ],
-    ]
+    ],
+
+    scripts: [
+        {
+            src: 'scripts/bootstrap.bundle.min.js',
+            async: true,
+        },
+    ],
 };
 
 module.exports = config;
