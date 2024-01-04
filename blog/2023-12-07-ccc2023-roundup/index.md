@@ -26,10 +26,7 @@ sponsors of the conference, whose support made the event a reality – [ShapeBlu
 [StorPool](https://storpool.com/), [LINBIT](https://linbit.com/), [DIMSI](https://cloud.dimsi.io/#/), [Vates](https://vates.tech/), [mitteldeutsche IT](https://mitteldeutsche-it.de/), [Leaseweb](https://www.leaseweb.com/), [proIO](https://www.proio.com/) and
 [Your.Online](https://your.online/).
 
-The blog provides a summary of the event, currently featuring the session
-slides. You can expect the session recordings to be uploaded on the [Apache
-CloudStack YouTube channel](https://www.youtube.com/@ApacheCloudStack), as well
-as on this blog, in the coming weeks.
+This blog provides a summary of the event, featuring the session slides and recordings.
 
 <a class="button button--primary button--lg" href="https://photos.app.goo.gl/9Ke53cngVzTCS2wE7" target="_blank">View Photo Gallery</a><br/>
 
@@ -46,6 +43,8 @@ year of the project’s collaboration, developments in CloudStack and community
 activity. He sets out how he sees the project developing over the next few
 years.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/cCNCmJxxEPA?si=4gDlygRMvxFkKtpf9&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/hH2CO8kHcQaCQo?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
 ### What’s New in CloudStack 4.19, [Abhishek Kumar](https://www.linkedin.com/in/shwstppr/)
@@ -57,6 +56,8 @@ of the marquee, new feature of the release – Object storage framework, KVM
 ingestion, Hypervisor agnostic simple DRS, CAPC aware CKS, OAuth2, DRaaS with
 Multi zone disaster recovery, etc and a summary of improvements added since the
 previous major LTS release of the CloudStack, ie, 4.18.0.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/2TOM0oI80fU?si=I4k8FQJ_XGp4gDDK9&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/CeiT7H0R6N62rM?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
@@ -70,6 +71,8 @@ handling software as it were trucks manufacturing. Is there any hope left for
 Open Source? Has it failed in delivering its premise? Fear not. Open Source’s
 not dead. It has already won and it will prevail again.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/sEWBox97qG4?si=cJ7ZVRnaSBK5l9k9&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/8AqGBCIdZV8jFe?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
 ### Why and How CloudStack at weSystems, [Stephan Bienek](https://www.linkedin.com/in/stephan-bienek-66aa69206/)
@@ -78,6 +81,8 @@ Why? What? How? During the session, Stephan shares what made weSystems choose
 CloudStack as their main platform, which they base most of their managed
 services on. In addition, he talks about which services they provide based on
 CloudStack and how they integrated and use CloudStack today.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/UyjxheK1Dp0?si=Pemo-3Zy8wja4Glr&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/yezSoxOEeGFX8c?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
@@ -88,16 +93,24 @@ Swen shows how proIO utilize Cloudstack to provide customers with managed
 hosting solutions and versatile public and private cloud solutions, mainly based
 on open-source software.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/zZV8689HiUk?si=6HYye9qr_jV3mXSP&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/cTLrJgXbrFKyrj" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
+
 ### Panel Discussion: Apache CloudStack Question Time, Giles Sirett, Wido den Hollander, Stephan Bienek, Swen Brüseke
 
 Panel group – taking a range of submitted questions from the audience (across
 any subject).
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/Bx0zECFsyPg?si=3Ww-yWC3McoMNNyQ&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### KVM Security Groups Under the Hood, [Wido den Hollander](https://www.linkedin.com/in/widodh/)
 
 They are just a few clicks in the UI or a single API call, but how do security groups work at KVM hypervisor level? How do they filter traffic and what else do they do in addition to firewalling? What Anti-Spoofing policies are implemented by the security groups?
 
 In this talk, Wido dives into the specifics of the security groups on the KVM hypervisor for both IPv4 and IPv6.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/NU1b7x2HO_E?si=G5QPOffq9Gcz6qX1&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/jpvFeSSAGBIoq0?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
@@ -116,6 +129,8 @@ and secure your infra against emerging threats. Join us on a journey to discover
 how CloudStack can be your trusted ally in the quest for a more secure and
 private cloud environment.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/1xeDKARcZQI?si=fBjXXoOqdWN7qgSB&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/yFdoBH1au7v1gl?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
 ### Migrating VMware Infra to KVM Using CloudStack, [Nicolas Vazquez](https://www.linkedin.com/in/nvazquezuy/)
@@ -124,6 +139,8 @@ In this session, Nicolas presents a new feature, targeted for CloudStack 4.19,
 which allows administrators to migrate Instances from a VMware environment
 (external or connected to CloudStack) and import them into a KVM
 CloudStack-managed environment.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/B-hoNG_PPQk?si=uf0b8L-J6f4kG-Cn&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/2rNDwbqdxlZ3YW?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
@@ -139,6 +156,8 @@ about making deep copies of templates vs using snapshots, about using
 LINSTOR/DRBD on XCP-ng hypervisors under Apache CloudStack, and (if finished by
 November) about VM-snapshots on LINSTOR/DRBD.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/_5voWyJOZlg?si=BunHIxkl3xgWk_E0&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/JulMCxkdkq002m?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
 ### Zero to Cloud Hero: Crafting a Private Cloud from Scratch with XCP-ng, Xen Orchestra and CloudStack, [Olivier Lambert](https://www.linkedin.com/in/olivier-lambert-22316b26/)
@@ -151,6 +170,8 @@ your cloud setup process and unlock the potential of a private cloud
 infrastructure that’s both efficient and easy to manage. Watch to discover how
 to transform bare metal into a cloud powerhouse in mere minutes.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/btRZMpfsg4E?si=mrz7xTQaXL41J62g&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/JSyhBTmluzWpSV?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 ### VNF Integration and Support in CloudStack, [Wei Zhou](https://www.linkedin.com/in/wei-zhou-3635b633/)
@@ -160,6 +181,8 @@ and quickly perform a light-touch integration of networking appliances with ACS,
 allowing for operators to offer a broader range of networking services while
 empowering end-users to effortlessly deploy their own virtualized network
 functions.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/JZTT9OlqtDs?si=16FEtwBr3iMaMV90&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/s3DBuNWRn9HnOe?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
@@ -179,6 +202,8 @@ with the integration of VMWare NSX 4, thus enabling operators to make informed
 decisions regarding the right SDN platform for their CloudStack deployment. They
 also look into what it takes to create a new network provider in CloudStack.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/f7ao-vv7Ahk?si=OfeLhVMWfk0daXmt&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/24zqzqc3nH7QtT?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
 ### Backroll, News and Demo, [Pierre Charton](https://www.linkedin.com/in/pierre-charton-068b6748/), [Matthias Dhellin](https://www.linkedin.com/in/matthias-dhellin-217068298/), [Ousmane Diarra](https://www.linkedin.com/in/odiarra1/)
@@ -186,6 +211,8 @@ also look into what it takes to create a new network provider in CloudStack.
 Pierre, Matthias, and Ousmane demonstrate the new Backroll version, with a new
 and easy installation process. They also give a demo of the new features of the
 project and its integration with CloudStack, providing an all-in-one solution.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/yh-purfnMGg?si=bFugsXhrmew02Xui&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/apYEI9VvvPULUe?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
@@ -195,6 +222,8 @@ One of the main shortcomings of CloudStack compared to VMware is the lack of bui
 
 The workshop allows an open discussion about the practical aspects of implementing a DR service, the difficulties of building such solutions and how to address them.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/JOveVuzpnFo?si=eTwNgu5eh96gmifr&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/Daittf77mUHGFb?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
 ### Mitigating Common CloudStack Instance Deployment Failures, [Jithin Raju](https://www.linkedin.com/in/rajujith/)
@@ -202,6 +231,8 @@ The workshop allows an open discussion about the practical aspects of implementi
 A discussion on the common failures when using CloudStack taking instance
 deployment as an example. The session includes 15 specific failure scenarios,
 their causes, and possible mitigation steps.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/G_W_wK8Urmo?si=MZiOgA3xvgK0kofU&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/uG9TbWhwII4lz?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
@@ -213,11 +244,15 @@ CloudStack allows you to use older hardware for a longer time in your cloud
 environment. By using older hardware for a longer time you can save money and
 the environment by not producing new hardware. 
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/KAJCkC00tzQ?si=56v3sWaRj93XfF2m&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/wIknV9DWEOPPXG?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
 ### Hypervisor Agnostic DRS in CloudStack - Brief overview & demo, [Vishesh Jindal](https://www.linkedin.com/in/vishesh92)
 
 Vishesh has been working on the feature hypervisor-agnostic DRS in Cloudstack. He briefly overviews the implementation and discusses the algorithms currently available and how they can improve resource allocation and workload balancing in virtualized environments. Additionally, Vishesh showcases a live demo of hypervisor agnostic DRS in action, highlighting its capabilities and effectiveness.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/nSwpHgRUVoI?si=i0m2QSrQ1XO7Flfn&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/GxMdQm0x29aIwl?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
@@ -243,6 +278,8 @@ They also present the final design and the current implementation of the cloud
 using Apache CloudStack. Finally, they discuss how other universities could
 implement their own software makerspace and its benefits.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/QYT1HA6krU4?si=2OD0flTkxgZvRV9x&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/ghw7Vj1Kvco7t?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
 ### DRBD Deep Dive, [Philipp Reisner](https://www.linkedin.com/in/philipp-reisner)
@@ -253,6 +290,8 @@ Knowing about DRBD’s meta-data, the activity log, and the bitmap will enable y
 
 Recently, DRBD got a new transport, load-balancing TCP, that joins the existing TCP transport, and the RDMA transport received important updates. Looking beyond DRBD, what is important to know when selecting the RAID level and data alignment? Philipp concludes the session with comments regarding LVM compared to ZFS.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/NG74BPK7oYQ?si=0B3tHBOK-DHPJKN9&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/E9cbsIaqiLwtpz?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
 ### Setting Up Your First CloudStack Environment with Beginners Challenges, [MD Rasel](https://www.linkedin.com/in/mdrasel0)
@@ -262,6 +301,8 @@ Are you eager to embark on your journey into the world of cloud computing with A
 This session aims to equip newcomers to Apache CloudStack with the fundamental knowledge and practical skills required to establish their own cloud infrastructure. MR Rasel addresses common challenges that beginners often encounter during the setup process and provide valuable insights on how to overcome them.
 
 The session consists of a combination of presentations and live demonstrations. Attendees had the opportunity to follow along with the setup process in real time and ask questions.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/vZfHfoYEMdY?si=IQ6w1EH6gcHPtwGQ&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/dp1tvpjta0Ehur?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
@@ -280,6 +321,8 @@ from VMware vCloud can reduce ownership costs, increase profitability, and
 enhance competitiveness. He also covers the practical steps and considerations
 in planning and executing this transition effectively.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/yZMjGUwU_yY?si=K66whqgepnCvZ0g0&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/l4d4JDv6nhe9K2?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
 ### CloudStack and GitOps at Enterprise Scale, [Alex Dometrius](https://www.linkedin.com/in/alexdometrius), [Rene Glover](https://www.linkedin.com/in/rene-glover)
@@ -289,6 +332,8 @@ deployed a solution which encompasses multiple data-centers. This talk focuses
 on how they are using open source tools like CloudStack, FreeIPA, and Metal as a
 Service (MaaS) to support KVM-based VM provisioning at an enterprise scale
 within a GitOps model.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/Bc1a8YHdEq4?si=qhKphND6qi0B2Lo5&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/7vtRbqok6FEeUV" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
@@ -305,6 +350,8 @@ OAuth2, the industry-standard authorization framework, simplifies the process of
 granting access to resources. Andrija discusses how this can be used and how it
 fits in CloudStack.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/62TovtIQW9s?si=YL2kfSjy6Fx9xr6G&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/1GwD0PDHEPecvl?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
 ### Centralized Logging Feature in CloudStack using ELK and Grafana, [Kiran Chavala](https://www.linkedin.com/in/kiran-chavala-1bb6a97)
@@ -313,6 +360,8 @@ In this session, Kiran demonstrates how to centralize all the CloudStack-related
 logs in one place using Elastic Search and generate beautiful dashboards in
 Grafana. This session simplifies the troubleshooting process involved with
 CloudStack and quickly helps to resolve the issue.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/p8Qugu9stpI?si=hT18taTw6HPlCBYz&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/yalVUMOq5J3b30?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
@@ -324,6 +373,8 @@ intervention. In this talk, Alex shows how this simple yet powerful new feature
 enables for end-users to control where their data resides and for operators to
 provide low-cost and robust DRaaS to their customers.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/fVgKUM-mWMA?si=gc46OYlqcZbd68Oe&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/Cvm7rz3ZGuJBMR?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
 ### Use Existing Assets to Build a Powerful In-house Cloud Solution, [Magali Pervan](https://www.linkedin.com/in/magali-pervan), [Joffrey Luangsaysana](https://www.linkedin.com/in/jluang), [Grégoire Lamodière](https://www.linkedin.com/in/gr%C3%A9goire-lamodi%C3%A8re-04171210)
@@ -333,6 +384,8 @@ automating internal workloads and delivering efficient solutions? Magali,
 Joffrey, and Grégoire present a case study of a successful hardware reuse
 project, including key metrics: Business objectives, Performance objectives and
 Financial objectives.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/32djHek0_3Q?si=Rs1YQ12NBYuDW5S8&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/2QOHFP4MHSSlnK?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
@@ -345,6 +398,8 @@ delivering the extended support of userdata with “Managed UserData” which
 enables users to register and manage their own UserData script(s) as a
 CloudStack resource - followed by a demo.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/T0A5bg0Emho?si=SkpBlOYviC5AKivS&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/IaWWuPofZoFYXs?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
 ### Project Sustainability and Vendor Contributions in an Apache Governance Model – Panel, [Ivet Petrova](https://www.linkedin.com/in/ivpetrova), [Daan Hoogland](https://www.linkedin.com/in/dhoogland) and [Alex Ivanov](https://www.linkedin.com/in/alex-p-ivanov)
@@ -354,6 +409,8 @@ contributions in an Apache Governance Model. The participants present the
 different points of view from the development perspective, vendor contributions
 and PMCs. Panellists share their perspectives on how to help the project grow,
 increase its visibility and ensure its longevity and healthy development.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/L9ruZKpSYoU?si=YvIf0X87GM0szqfU&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Enabling DPU Hardware Accelerators in XCP-ng Cloud Platform Environment, Andrei Semenov
 
@@ -370,6 +427,8 @@ processors named Data Processing Units (DPU). More precisely, Vates work on
 offloading Xen hypervisor of storage emulation by relying on Kalray K200 DPU
 PCIe controllers, a hardware accelerator based on MPPA architecture.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/hZQ2_f4FC6o?si=P7rsd8zjrN24i8JL&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/toAUvWJuD5HvnH?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
 ### CloudStack Object Storage - An Introduction, [Vladimir Petrov](https://www.linkedin.com/in/vladimir)
@@ -377,6 +436,8 @@ PCIe controllers, a hardware accelerator based on MPPA architecture.
 CloudStack 4.19 introduces a new framework for object storage. In this talk,
 Vladi explains what has driven this development, the architecture chosen and
 current integration points with Object store providers.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/ldBwDAh6DqE?si=axGOKCR-4DRIlhgO&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/2g3H0XORXa8Byk?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
@@ -386,6 +447,8 @@ In an ever-growing landscape of thousands of virtualization and cloud native
 projects it can be hard to understand what projects reliably just work.
 Fortunately for the growing community at CloudStack that is precisely what we
 (American Cloud) found.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/V_bF_2K0lQk?si=kxek5nT4vWBp81CM&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/1hKnRYpnYOxYuz?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
@@ -400,11 +463,15 @@ Gitlab CI, ArgoCD, Cluster API, and Cluster Autoscaler to create a seamless
 on-premises deployment strategy adaptable to diverse requirements over
 Cloudstack Infrastructure.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/W88X8W3hl6U?si=2J4yPYdjthOfdlqJ&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/gCBMWODsKqeLIC?hostedIn=slideshare&amp;page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
 ### Extending KVM Host HA for Non-NFS Storage, [Alex Ivanov](https://www.linkedin.com/in/alex-p-ivanov)
 
 The current KVM Host HA feature depends on the existence of an NFS primary storage to detect which nodes are online, even if other types of primary storage are used. StorPool extends the HA feature to allow other methods to be used for this. The new implementation adds support for using StorPool Storage for HA heartbeats, removing the need for NFS primary storage. The solution developed by StorPool allows new storage vendors and protocols to be added easily.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/Ar0_I9JZXSI?si=r-FsDzku1QcaNt4f&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/NtAYLfN0M09uDg?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
@@ -422,12 +489,16 @@ Some of the key features showcased are: Infrastructure Provisioning and
 Configuration, VM operations & lifecycle management and Infrastructure
 Management & Monitoring.
 
+<iframe width="640" height="315" src="https://www.youtube.com/embed/jQrVb49RihA?si=9bw-S4l1LKTChv5a&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/sIcZSOX4lCHcv?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
 ### Import Export Virtual Machine for KVM Hypervisor, [Ayush Pandey](https://www.linkedin.com/in/itsayushpandey)
 
 Ayush talks about his contribution as a GSoC Contributor, for implementing the
 Import-Export Instances feature for the KVM Hypervisor.
+
+<iframe width="640" height="315" src="https://www.youtube.com/embed/ZKKMW4aAprY?si=rGTJeyU51SlGaJdz&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/fUIK05TiJtVJ5f?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
