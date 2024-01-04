@@ -54,6 +54,7 @@ If you noticed something wrong with your entry here (or if you’d like us to re
 * [INRIA](http://inria.fr)
 * [KTH](http://kth.se)
 * [Kumo](http://kumo.com.co)
+* [Leapswitch Networks](https://leapswitch.com)
 * [M5 Hosting Inc](http://m5cloud.com)
 * [Melbourne University](http://nectar.org.au)
 * [Miriadis](http://www.miriadis.com)
