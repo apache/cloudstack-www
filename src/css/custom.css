@@ -422,6 +422,9 @@ iframe {
 .nav-integrations {
 	display: block;
 }
+.nav-integrations .nav-item {
+    width: 100%;
+}
 .integrations .tab-content {
 	background: transparent;
 	box-shadow: none;
