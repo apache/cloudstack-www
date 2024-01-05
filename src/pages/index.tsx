@@ -25,9 +25,9 @@ designed to deploy and manage large networks of virtual machines, as a
 highly available, highly scalable Infrastructure as a Service (IaaS)
 cloud computing platform.</p>
                     <div class="center-buttons">
-                        <a href="#" class="btn btn-light btn-size">Download</a>
+                        <a href="downloads" class="btn btn-light btn-size">Download</a>
 			&nbsp;
-                        <a href="#" class="btn btn-outline-light btn-size">Documentation</a>
+                        <a href="https://docs.cloudstack.apache.org/en/4.18.1.0/" class="btn btn-outline-light btn-size">Documentation</a>
                         <p class="small mt-3">Apache CloudStack 4.18.0.0 is out!</p>
                     </div>
                 </div>
