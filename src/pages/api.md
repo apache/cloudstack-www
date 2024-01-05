@@ -11,7 +11,7 @@ feature version.
 If you find problems or see ways in which this API reference can be enhanced we
 would welcome your help, please file an issue in the CloudStack [GitHub
 repo](https://github.com/apache/cloudstack) or by submitting a [pull
-request](https://github.com/apache/cloudstack-www).
+request](https://github.com/apache/cloudstack-www/pulls/new) for this site.
 
 # 4.18.x
 
