@@ -50,7 +50,9 @@ This procedure is obsolete as soon as the site is migrated to docusaurus complet
 
 1. Build the docusaruas branch locally:
 ```
-   cp docusaurus.config.js.blog docusaurus.config.js
+   # checkout the right branch:
+   git checkout old-style-blogs
+   yarn clear
    yarn install
    yarn build
 ```
