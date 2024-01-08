@@ -57,5 +57,5 @@ This procedure is obsolete as soon as the site is migrated to docusaurus complet
 2. Then move the `build` directory to some other place, like `mv build ..`
 3. `git checkout -- .` and then checkout `git checkout asf-site` branch
 4. `cd content/` to manually copy artifacts from `../build/` path.
-5. Generally I copy the assets, blog, img and files directory in the content directory from `../../build/`
+5. Generally I copy the `assets`, `blog`, `img` and `files` directory in the content directory from `../../build/`
 6. git add <files> and commit/push to asf-site branch
