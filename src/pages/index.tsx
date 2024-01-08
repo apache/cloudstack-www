@@ -25,10 +25,10 @@ designed to deploy and manage large networks of virtual machines, as a
 highly available, highly scalable Infrastructure as a Service (IaaS)
 cloud computing platform.</p>
                     <div class="center-buttons">
-                        <a href="#" class="btn btn-light btn-size">Download</a>
+                        <a href="downloads" class="btn btn-light btn-size">Download</a>
 			&nbsp;
-                        <a href="#" class="btn btn-outline-light btn-size">Documentation</a>
-                        <p class="small mt-3">Apache CloudStack 4.18.0.0 is out!</p>
+                        <a href="https://docs.cloudstack.apache.org/en/4.18.1.0/" class="btn btn-outline-light btn-size">Documentation</a>
+                        <p class="small mt-3">Apache CloudStack 4.18.1.0 is out!</p>
                     </div>
                 </div>
                 <div class="col-lg-7"><img src="img/CloudStack_monkey_cloud.png" class="img-fluid" alt=""/></div>
@@ -99,7 +99,7 @@ deploy hybrid clouds.</p>
                             <img src="img/Cloud_Solution_icon.svg" alt=""/>
                             <p class="card-title mb-3">Cloud Solution Provider</p>
                             <p class="card-text">Apache CloudStack seamlessly integrates with your existing infrastructure, <strong>significantly reducing the costs and time required</strong> to build a multi-tenant IaaS platform.</p>
-                            <a href="" class="btn btn-outline-secondary btn-card">Learn More</a>
+                            <a href="cloud-builders" class="btn btn-outline-secondary btn-card">Learn More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -107,7 +107,7 @@ deploy hybrid clouds.</p>
                             <img src="img/MSPs_icon.svg" alt=""/>
                             <p class="card-title mb-3">MSPs</p>
                             <p class="card-text"><strong>Ensure simplicity, scalability and avoid vendor lock-in with CloudStack.</strong> Provision IaaS with ease and manage all your cloud environments from a single plane.</p>
-                            <a href="" class="btn btn-outline-secondary btn-card">Learn More</a>
+                            <a href="we-systems-case-study" class="btn btn-outline-secondary btn-card">Discover a Success Story</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -115,7 +115,6 @@ deploy hybrid clouds.</p>
                             <img src="img/Telcos_icon.svg" alt=""/>
                             <p class="card-title mb-3">Telcos</p>
                             <p class="card-text">Deliver cutting-edge cloud-based services, including <strong>virtual network functions, infrastructure as a service, and advanced edge computing</strong> capabilities with Edge zones.</p>
-                            <a href="" class="btn btn-outline-secondary btn-card">Learn More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -123,7 +122,6 @@ deploy hybrid clouds.</p>
                             <img src="img/enterprises_icon.svg" alt=""/>
                             <p class="card-title mb-3">Enterprises</p>
                             <p class="card-text"><strong>Align your IT infrastructure with your specific business requirements</strong> and security concerns, driving efficiency and optimizing resource utilization.</p>
-                            <a href="" class="btn btn-outline-secondary btn-card">Learn More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -131,7 +129,6 @@ deploy hybrid clouds.</p>
                             <img src="img/continuous_integration_icon.svg" alt=""/>
                             <p class="card-title mb-3">CI/CD</p>
                             <p class="card-text">Phasellus in maximus mauris. Aliquam a porttitor mi, eget ultricies sem. <strong>In imperdiet, sapien in posuere egestas, metus odio</strong> porttitor dolor, sit amet lobortis magna risus in lacus.</p>
-                            <a href="" class="btn btn-outline-secondary btn-card">Learn More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -139,7 +136,6 @@ deploy hybrid clouds.</p>
                             <img src="img/edge_icon.svg" alt=""/>
                             <p class="card-title mb-3">Edge Computing</p>
                             <p class="card-text">Manage both traditional Cloud (Core Zones) and Edge Zones from a single, unified platform. <strong>Unlock new opportunities for growth and innovation.</strong></p>
-                            <a href="" class="btn btn-outline-secondary btn-card">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -182,9 +178,9 @@ agnostic, supporting VMware, KVM, XenServer and Xen Cloud Platform. This
                     <div class="col-lg-5">
                         <h2 class="section-title mb-4 margin-second">Latest Release</h2>
                         <div class="center-buttons">
-                            <p class="px18">Apache CloudStack 4.18.0.0 is out!<br/>This is the latest LTS release.</p>
-                            <a href="#" class="btn btn-primary btn-size">Download</a>
-                            <a href="#" class="btn btn-outline-secondary btn-size">Documentation</a>
+                            <p class="px18">Apache CloudStack 4.18.1.0 is out!<br/>This is the latest LTS release.</p>
+                            <a href="downloads" class="btn btn-primary btn-size">Download</a>
+                            <a href="https://docs.cloudstack.apache.org/en/4.18.1.0/" class="btn btn-outline-secondary btn-size">Documentation</a>
                         </div>
                     </div>
                     <div class="col-lg-7"><img src="img/CloudStack_release_illustration.png" class="img-fluid img-release" alt=""/></div>
@@ -234,31 +230,27 @@ and are a great way to get involved with the community.</p>
                     <div class="row">
                         <div class="col-lg-9 pt-3 px-4">
                             <img src="img/event_img3.png" alt="" class="events-img"/>
-                            <p class="title mt-2">Meet Apache CloudStack at CloudFest 2023</p>
-                            <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Europa-Park Germany</p>
-                            <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>March 21-23 2023</p>
+                            <p class="title mt-2">CloudStack Collaboration Conference 2023</p>
+                            <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Paris, France</p>
+                            <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>November 2023</p>
                         </div>
                         <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                            <a href="#" class="btn btn-outline-secondary me-3">Read More</a>
-                            <a href="#" class="btn btn-primary">Watch</a>
+                            <a href="ccc2023-roundup" class="btn btn-outline-secondary me-3">Read More</a>
+                            <a href="https://www.youtube.com/watch?v=q0cxJS_sC2c&list=PLnIKk7GjgFlZsBJestxnL-xF5DxgewxYh" class="btn btn-primary">Watch</a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-9 pt-3 px-4">
                             <img src="img/event_img4.png" alt="" class="events-img"/>
-                            <p class="title mt-2">CloudStack European User Group (vCSEUG)</p>
-                            <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Virtual Event</p>
-                            <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>7th April 2022</p>
+                            <p class="title mt-2">CloudStack European User Group 2023</p>
+                            <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>London, United koingdom</p>
+                            <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>May 2023</p>
                         </div>
                         <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                            <a href="#" class="btn btn-outline-secondary me-3">Read More</a>
-                            <a href="#" class="btn btn-primary">Watch</a>
+                            <a href="cseug-2023-roundup" class="btn btn-outline-secondary me-3">Read More</a>
+                            <a href="https://www.youtube.com/watch?v=K6AZrM85q9I&list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd" class="btn btn-primary">Watch</a>
                         </div>
                     </div>
-                </div>
-
-                <div class="text-center load-more">
-                    <a href="#" class="btn btn-outline-secondary">Load More</a>
                 </div>
 
             </div>
@@ -270,9 +262,11 @@ and are a great way to get involved with the community.</p>
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="section-title">Join Our Community</div>
-                            <p class="px18 my-4">Learn more about
-getting involved with Apache CloudStack on the Contributing to Apache
-CloudStack page, or go straight to our Developer Resources page.</p>
+                            <p class="px18 my-4">
+Learn more about getting involved with Apache CloudStack on the
+Contributing to Apache CloudStack page, or go straight to our
+Developer Resources page.
+                            </p>
                         </div>
                     </div>
                     <div class="row">
@@ -281,8 +275,11 @@ CloudStack page, or go straight to our Developer Resources page.</p>
                                 <img src="img/git_logo.svg" alt=""/>
                                 <p class="blue-title">DEVELOPER RESOURCES</p>
                                 <p class="join-title">Contribe to Apache CloudStack</p>
-                                <p class="text">Interested in helping out with Apache CloudStack? Great! We welcome participation from anybody willing to work The Apache Way.</p>
-                                <a href="" class="btn btn-primary">Learn More</a>
+                                <p class="text">
+Interested in helping out with Apache CloudStack? Great! We welcome
+participation from anybody willing to work The Apache Way.
+                                </p>
+                                <a href="https://github.com/apache/cloudstack" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -290,9 +287,10 @@ CloudStack page, or go straight to our Developer Resources page.</p>
                                 <img src="img/slack_logo.svg" alt=""/>
                                 <p class="blue-title">JOIN US ON SLACK</p>
                                 <p class="join-title">Getting Involved</p>
-                                <p class="text">We need folks to help
-with documentation, translation, promotion, and having someone with
-snazzy Web design skills would not be a bad thing!</p>
+                                <p class="text">
+We need folks to help with documentation, translation, promotion, and
+having someone with snazzy Web design skills would not be a bad thing!
+                                </p>
                                 <a href="" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
@@ -301,9 +299,11 @@ snazzy Web design skills would not be a bad thing!</p>
                                 <img src="img/blog_icon.svg" alt=""/>
                                 <p class="blue-title">CONTRIBUTE CONTENT</p>
                                 <p class="join-title">Blog</p>
-                                <p class="text">Want to share your
-success story? Or you are working on a new feature? Contribute your
-content to our blog or join the Meet the Community Video Series.</p>
+                                <p class="text">
+Want to share your success story? Or you are working on a new feature?
+Contribute your content to our blog or join the Meet the Community
+Video Series.
+                                </p>
                                 <a href="" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
@@ -312,8 +312,10 @@ content to our blog or join the Meet the Community Video Series.</p>
                                 <img src="img/mailing_list_icon.svg" alt=""/>
                                 <p class="blue-title">WHERE TO ASK FOR HELP</p>
                                 <p class="join-title">Mailing List</p>
-                                <p class="text">Need some help getting started? Feel free to ask on the Mailing List.</p>
-                                <a href="" class="btn btn-primary">Learn More</a>
+                                <p class="text">
+Need some help getting started? Feel free to ask on the Mailing List.
+                                </p>
+                                <a href="mailing-lists" class="btn btn-primary">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -324,10 +326,12 @@ content to our blog or join the Meet the Community Video Series.</p>
                     <div class="row">
                         <div class="col-lg-6">
                             <h2 class="section-title mb-4 margin-thirth">Take the Apache CloudStack User Servey</h2>
-                            <p class="px18 mb-5">Participate in the
-Apache CloudStack User Survey and help us build the Annual State of
-CloudStack Report. This survey will take you less than 5 minutes to
-complete. Your input is vital for the CloudStack Community!</p>
+                            <p class="px18 mb-5">
+Participate in the Apache CloudStack User Survey and help us build the
+Annual State of CloudStack Report. This survey will take you less than
+5 minutes to complete. Your input is vital for the CloudStack
+Community!
+                            </p>
                             <div class="center-buttons"><a href="/survey" class="btn btn-outline-secondary btn-size">Learn More</a></div>
                         </div>
                         <div class="col-lg-6 text-center"><img src="img/CloudStack_survey.png" class="img-fluid mt-5"/></div>
