@@ -9,6 +9,70 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[CloudStack and GitOps at Enterprise Scale – The Success of AT&T]]></title>
+            <link>https://cloudstack.apache.org/blog/cloudstack-and-gitops-at-scale</link>
+            <guid>https://cloudstack.apache.org/blog/cloudstack-and-gitops-at-scale</guid>
+            <pubDate>Mon, 08 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[AT&T is a provider of telecommunications, media, and technology]]></description>
+            <content:encoded><![CDATA[<p><a href="/blog/cloudstack-and-gitops-at-scale"><img loading="lazy" src="/assets/images/banner-9480f9285440863dfe7769e74c41ba98.jpg" title="CSC" width="1200" height="629" class="img_ev3q"></a></p><h1>CloudStack and GitOps at Enterprise Scale – The Success of ATt&amp;T</h1><p>AT&amp;T is a provider of telecommunications, media, and technology
+services. The company offers wireless communications, data/broadband
+and internet services, local and long-distance telephone services,
+telecommunications equipment, managed networking, and wholesale
+services. AT&amp;T is a 125+ year old telecommunications company based in
+Dallas, Texas. Their main purpose is to create connection – a
+connection to friends, family, work, commerce, education, health,
+entertainment and more by using advanced technology and delivering
+services globally.</p><p>During the annual CloudStack Collaboration Conference 2023, Alex
+Dometrius, Associate Director - Technology at AT&amp;T, presented the talk
+CloudStack and GitOps at Enterprise Scale, where he outlined their
+journey with Apache CloudStack and the architecture they used to
+managed their CloudStack-based platform using GitOps.</p><p>In the spirit of continuous improvement, Alex’s team looked for an
+opportunity to improve on how they do infrastructure provisioning
+within the enterprise ultimately leading to deployment of CloudStack.</p><p>After reviewing a few different cloud management platforms, AT&amp;T
+decided to deploy CloudStack as a centrally-managed and
+centrally-supported IaaS platform, because if its multi-tenancy,
+allowing the application teams withing the business to maintain their
+own-dedicated environments. Other reasons to choose CloudStack were
+the CloudStack Terraform Provider and Native APIs, over-provisioning
+capabilities and ability to manage the CloudStack-based platform using
+GitOps.</p><p>In their talk during the CloudStack Collaboration Conference, Alex
+Dometrius shares more about the issued solved and the success with
+CloudStack. As a follow up of their talk at the event, we asked a few
+questions to the AT&amp;T team, to understand more about their choice of
+technology and learn for their experience of managing infrastructure
+at a large-scale and enterprise level.</p><iframe width="100%" height="480p" src="https://www.youtube.com/embed/Bc1a8YHdEq4?si=V7QZM660_YS9pjKp" title="YouTube video player" frameborder="0" allow="accelerometer;
+autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture; web-share"></iframe><div class="text-center">Alex Dometrius, Associate Director - Technology at AT&amp;T, presents at CloudStack Collaboration Conference 2023.</div><strong>Why AT&amp;T chose open-source technologies?</strong><p>Our team has a long history of consuming and contributing to
+open-source projects and we strive to use open-source technology
+wherever possible. At risk of stating the cliché benefits of using
+open-source software, there are several reasons why we lean towards
+open-source solutions. Cost of entry is generally lower when deploying
+open-source which allows us to deliver solutions to the business much
+faster. These costs can also remain lower if there is an active
+user/contributor community like what we found with CloudStack.</p><strong>During your talk, you mentioned running PoCs of CloudStack and other technologies. What do you recommended to be tested during a PoC?</strong><p>Why you chose CloudStack?&nbsp;  Each use case is different obviously. The
+scale of the implementation, how users will interact with the
+platform, how migration from present state to future state can be
+carried out when deploying a new cloud platform are all items we took
+into consideration. As mentioned, CloudStack checked several of the
+requirements we had: multi-tenancy capabilities, support for
+infrastructure as code, project quota controls, an active open-source
+community, etc.</p><strong>How does CloudStack fit with the other technologies AT&amp;T uses internally?</strong><p>CloudStack’s ability to support VMWare was another reason we chose to
+deploy it. We have an existing VMWare footprint and we chose
+CloudStack as a mechanism to help continue to support VMWare workloads
+while also moving to a KVM-focused VM platform. For our team, it was
+less about how CloudStack fit into our existing technology stack, as
+this stack has a lot of legacy, home-grown tools, and more about the
+capabilities CloudStack will provide as an enabler for us to move to a
+more modern private cloud platform.</p><strong>Do you run your datacenter ipv4 or ipv4/ipv6 or ipv6 only?</strong><p>Both ipv4 and ipv6. </p><strong>Why don’t you push back your container image cloudstack mgmt to the community? Do you have plans to contribute to the community?</strong><p>We have already begun contributing back to the community as mentioned
+with our <a href="https://github.com/apache/cloudstack/pull/7889" target="_blank" rel="noopener noreferrer">PR for fiber channel multi-path for
+KVM</a>. We will look at
+what makes sense to contribute regarding the cloudstack management
+container.</p><strong>What workloads are managed by CloudStack?</strong><p>Our expectation is essentially all workloads in the enterprise
+can/could be managed with CloudStack. Web applications, Kubernetes
+clusters, databases, etc.</p><br><br><h2 class="anchor anchorWithStickyNavbar_LWe7" id="more-about-att-httpswwwattcom">More about AT&amp;T: <a href="https://www.att.com/" target="_blank" rel="noopener noreferrer">https://www.att.com/</a><a href="#more-about-att-httpswwwattcom" class="hash-link" aria-label="Direct link to more-about-att-httpswwwattcom" title="Direct link to more-about-att-httpswwwattcom">​</a></h2>]]></content:encoded>
+            <category>case-studies</category>
+        </item>
+        <item>
             <title><![CDATA[CloudStack India User Group 2024]]></title>
             <link>https://cloudstack.apache.org/blog/india-user-group-2024</link>
             <guid>https://cloudstack.apache.org/blog/india-user-group-2024</guid>
