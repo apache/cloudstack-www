@@ -292,7 +292,7 @@ In this talk, Vladi looks at the new Volume encryption option (due in CloudStack
 
 <strong>About the speakers:</strong>
 
-Slavka Peleva is a software developer at StorPool Storage and has been a passionate CloudStack Commiter since 2021. She is part of the CloudStack community and is excited to work on new features and capabilities to improve the open-source cloud management solution. At StorPool Slavka is responsible for the product integration with Cloudstack and is working on its native implementation in the technology. With her dedication and efforts in creating the StorPool’s plugin for CloudStack, companies can build reliable and speedy storage that is powered by the two technologies.
+Slavka Peleva is a software developer at StorPool Storage and has been a passionate CloudStack Committer since 2021. She is part of the CloudStack community and is excited to work on new features and capabilities to improve the open-source cloud management solution. At StorPool Slavka is responsible for the product integration with Cloudstack and is working on its native implementation in the technology. With her dedication and efforts in creating the StorPool’s plugin for CloudStack, companies can build reliable and speedy storage that is powered by the two technologies.
 
 Venko Moyankov is the Solutions Lead at StorPool Storage, a fully managed data storage solution that transforms commodity hardware into a shared, powerful, highly available, and reliable storage system. He has experience with managing large virtualizations, working in telcos, designing and supporting the infrastructure of large enterprises. In the last year his focus has been in helping companies globally to build the best storage solution according to their needs and projects.
 
@@ -339,7 +339,7 @@ Pierre is in charge of Backroll integration inside Cloudstack. Pierre has a prov
 
 <strong>About Daan Hoogland:</strong>
 
-Daan Hoogland has been a software developer in about all roles available in the field, starting in 1991. Provisioning has been a recurring theme in his carreer. Functional design, Programming, Testing and also Functional Management and Operations, have been his main responsibilities over the years. At present He works as a software engineer at Shapeblue Ltd. and as a Technical Official at World Triathlon and the NTB (Dutch triathlon organisation) and is a Pilates - and Triathlon trainer.
+Daan Hoogland has been a software developer in about all roles available in the field, starting in 1991. Provisioning has been a recurring theme in his career. Functional design, Programming, Testing and also Functional Management and Operations, have been his main responsibilities over the years. At present He works as a software engineer at Shapeblue Ltd. and as a Technical Official at World Triathlon and the NTB (Dutch triathlon organisation) and is a Pilates - and Triathlon trainer.
 
 &nbsp;
 
