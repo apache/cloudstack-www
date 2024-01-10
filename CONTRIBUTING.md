@@ -15,12 +15,12 @@ https://github.com/apache/cloudstack-www/tree/main/blog/.blog-template
 
 ## Step by Step
 
-* Fork this repository to your Github account: `<your_github_user>`. To do that,
+* Fork this repository to your GitHub account: `<your_github_user>`. To do that,
 navigate to `https://github.com/apache/cloudstack-www` and click `fork` in the
 top right corner of the page.
 * Then, clone your fork to your local workstation: `git clone
 git@github.com:<your_github_user>/cloudstack-www.git`
-* Cloning this way will make your Github fork the `origin` remote.
+* Cloning this way will make your GitHub fork the `origin` remote.
 * `cd cloudstack-www`
 * Add the official repo as the `upstream` remote: `git remote add upstream
 git@github.com:apache/cloudstack-www.git`
@@ -44,7 +44,7 @@ git push origin main
 ```
 
 **Create a PR**
-* Confirm the changes appear correctly on your Github account.
+* Confirm the changes appear correctly on your GitHub account.
 * Create a Pull Request against `main` on the `https://github.com/apache/cloudstack-www` repository.
 
 **COMMITTER: Validate a PR Locally**
@@ -64,5 +64,5 @@ yarn build
 
 **COMMITTER: Merge & Deploy**
 
-Once a PR is merged into `main` branch using Github UI, the changes are made live
-by a Github Actions based automation workflow.
+Once a PR is merged into `main` branch using GitHub UI, the changes are made live
+by a GitHub Actions based automation workflow.

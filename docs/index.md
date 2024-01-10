@@ -52,7 +52,7 @@ Use the provided index.md to specify attribute of your blog such as title, tags
 (categories), authors and the slug (the permalink).
 
 Having all your blog content and assets in a blog directory makes it easier to
-work with Github's editor and allows you to visually contribute changes.
+work with GitHub's editor and allows you to visually contribute changes.
 
 You may further read https://docusaurus.io/docs/blog for advance changes and
 refer to the misc section on this page for various components that you case use.
@@ -67,12 +67,12 @@ truncate -->` in your blog post (the index.md file):
 ...blog content...
 ```
 
-## Contributing Changes using Github
+## Contributing Changes using GitHub
 
 Once you've the boilerplate changes done, the steps are:
 
 1. If you're a committer, you can edit directly the `main` branch or create a
-Github branch (optionally in your personally fork) by heading to the
+GitHub branch (optionally in your personally fork) by heading to the
 [branches](https://github.com/apache/cloudstack-www/branches) page:
 
 ![](new-branch.png)
@@ -90,7 +90,7 @@ assets (such as images and pdfs) in a new directory on our computer (say
 ![](new-blog-dir.png)
 
 4. Next, you can drag/drop or select this entire folder in the `blog` directory
-of your newly created Github branch
+of your newly created GitHub branch
 (https://github.com/apache/cloudstack-www/tree/new-blog-post/blog):
 
 ![](blog-dir.png)
@@ -110,7 +110,7 @@ Next, create the pull request:
 
 ![](open-pr.png)
 
-6. If you've opened a PR, a Github bot will notify you once it has built the
+6. If you've opened a PR, a GitHub bot will notify you once it has built the
 staging website for you to review your changes:
 
 ![](github-bot.png)

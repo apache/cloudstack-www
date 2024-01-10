@@ -29,7 +29,7 @@ setting cloudmonkey configuration
 The official source code for CloudMonkey v6.2.0 can be downloaded from
 https://cloudstack.apache.org/downloads.html
 
-The community-maintained builds are available at the project's Github release page at
+The community-maintained builds are available at the project's GitHub release page at
 https://github.com/apache/cloudstack-cloudmonkey/releases/tag/6.2.0
 
 CloudMonkey's usage details are documented at
