@@ -228,7 +228,7 @@ const config = {
                 <a href="mailto:dev-subscribe@cloudstack.apache.org">
 		  <img src="img/mail_mini_icon.svg" alt=""/>
 		</a>
-                <a href="https://join.slack.com/t/apachecloudstack/shared_invite/zt-1u8qwbivp-u16HRI~LWioLmF1G2D3Iyg">
+                <a href="https://join.slack.com/t/apachecloudstack/shared_invite/zt-2aegc22z7-tPCxpptfcebTBtd59qcZSQ">
 		  <img src="img/slack_mini_icon.svg" alt=""/>
 		</a>
                 <a href="https://github.com/apache/cloudstack">
