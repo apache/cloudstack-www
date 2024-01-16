@@ -322,7 +322,7 @@ to Apache page, or go straight to our Developer Resources page.
 Interested in helping out with Apache CloudStack? Great! We welcome
 participation from anybody willing to work The Apache Way.
                     </p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="https://github.com/apache/cloudstack" class="btn btn-primary">Learn More</a>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -334,7 +334,7 @@ participation from anybody willing to work The Apache Way.
 We need folks to help with documentation, translation, promotion, and
 having someone with snazzy Web design skills would not be a bad thing!
                     </p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="https://join.slack.com/t/apachecloudstack/shared_invite/zt-2aegc22z7-tPCxpptfcebTBtd59qcZSQ" class="btn btn-primary">Learn More</a>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -347,7 +347,7 @@ Want to share your success story? Or you are working on a new feature?
 Contribute your content to our blog or join the Meet the Community
 Video Series.
                     </p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="blog" class="btn btn-primary">Learn More</a>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -356,7 +356,7 @@ Video Series.
                     <p class="blue-title">WHERE TO ASK FOR HELP</p>
                     <p class="join-title">Mailing List</p>
                     <p class="text">Need some help getting started? Feel free to ask on the Mailing List.</p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="mailing-lists" class="btn btn-primary">Learn More</a>
                   </div>
                 </div>
               </div>
