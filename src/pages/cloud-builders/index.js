@@ -13,7 +13,7 @@ function CloudBuildersHeader() {
                     <h1>Apache CloudStack– <strong>A Turnkey Solution for Cloud Builders</strong></h1>
                     <p class="px18 my-4 text-center text-lg-start">Decrease total cost of ownership, eliminate vendor lock-in and operational overhead</p>
                     <div class="center-buttons">
-                        <a href="#" class="btn btn-primary btn-size mb-5">Download</a>
+                        <a href="downloads" class="btn btn-primary btn-size mb-5">Download</a>
                     </div>
                 </div>
                 <div class="col-lg-7"><img src="img/CloudStack_cloud_builderfs_illustration.png" class="img-fluid" alt=""/></div>
