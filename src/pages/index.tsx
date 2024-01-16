@@ -108,7 +108,7 @@ Apache CloudStack seamlessly integrates with your existing
 infrastructure, <strong>significantly reducing the costs and time
 required</strong> to build a multi-tenant IaaS platform.
                   </p>
-                  <a href="" class="btn btn-outline-secondary btn-card">Learn More</a>
+                  <a href="https://cloudstack.apache.org/cloud-builders.html" class="btn btn-outline-secondary btn-card">Learn More</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
@@ -120,7 +120,7 @@ required</strong> to build a multi-tenant IaaS platform.
 CloudStack.</strong> Provision IaaS with ease and manage all your
 cloud environments from a single plane.
                   </p>
-                  <a href="" class="btn btn-outline-secondary btn-card">Learn More</a>
+                  <a href="https://cloudstack.apache.org/blog/we-systems-case-study" class="btn btn-outline-secondary btn-card">Discover a Success Story</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
@@ -132,7 +132,6 @@ Deliver cutting-edge cloud-based services, including <strong>virtual
 network functions, infrastructure as a service, and advanced edge
 computing</strong> capabilities with Edge zones.
 		  </p>
-                  <a href="" class="btn btn-outline-secondary btn-card">Learn More</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
@@ -144,7 +143,6 @@ computing</strong> capabilities with Edge zones.
 requirements</strong> and security concerns, driving efficiency and
 optimizing resource utilization.
 		  </p>
-                  <a href="" class="btn btn-outline-secondary btn-card">Learn More</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
@@ -156,7 +154,6 @@ Phasellus in maximus mauris. Aliquam a porttitor mi, eget ultricies
 sem. <strong>In imperdiet, sapien in posuere egestas, metus
 odio</strong> porttitor dolor, sit amet lobortis magna risus in lacus.
 		  </p>
-                  <a href="" class="btn btn-outline-secondary btn-card">Learn More</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
@@ -168,7 +165,6 @@ Manage both traditional Cloud (Core Zones) and Edge Zones from a
 single, unified platform. <strong>Unlock new opportunities for growth
 and innovation.</strong>
 		  </p>
-                  <a href="" class="btn btn-outline-secondary btn-card">Learn More</a>
                 </div>
               </div>
             </div>
@@ -294,7 +290,7 @@ involved with the community.
             </div>
 
             <div class="text-center load-more">
-              <a href="#" class="btn btn-outline-secondary">Load More</a>
+              <a href="blog/tags/news" class="btn btn-outline-secondary">Load More</a>
             </div>
 
           </div>
