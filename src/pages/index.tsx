@@ -217,6 +217,7 @@ specific infrastructure.
                 <div class="center-buttons">
                   <p class="px18">Apache CloudStack 4.18.0.0 is out!<br/>This is the latest LTS release.</p>
                   <a href="#" class="btn btn-primary btn-size">Download</a>
+                  &nbsp;
                   <a href="#" class="btn btn-outline-secondary btn-size">Documentation</a>
                 </div>
               </div>
