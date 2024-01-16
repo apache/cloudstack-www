@@ -269,26 +269,26 @@ involved with the community.
               <div class="hc-header">Past Events:</div>
               <div class="row">
                 <div class="col-lg-9 pt-3 px-4">
-                  <img src="img/event_img3.png" alt="" class="events-img"/>
-                  <p class="title mt-2">Meet Apache CloudStack at CloudFest 2023</p>
-                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Europa-Park Germany</p>
-                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>March 21-23 2023</p>
+                  <img src="img/event_img2.png" alt="" class="events-img"/>
+                  <p class="title mt-2">CloudStack Collaboration Conference 2023 Event Roundup</p>
+                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Paris, Île-de-France, France</p>
+                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>November 23-24 2023</p>
                 </div>
                 <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="#" class="btn btn-outline-secondary me-3">Read More</a>
-                  <a href="#" class="btn btn-primary">Watch</a>
+                  <a href="https://cloudstack.apache.org/blog/ccc2023-roundup" class="btn btn-outline-secondary me-3">Read More</a>
+                  <a href="https://www.youtube.com/watch?v=q0cxJS_sC2c&list=PLnIKk7GjgFlZsBJestxnL-xF5DxgewxYh" class="btn btn-primary">Watch</a>
                 </div>
               </div>
               <div class="row">
                 <div class="col-lg-9 pt-3 px-4">
                   <img src="img/event_img4.png" alt="" class="events-img"/>
-                  <p class="title mt-2">CloudStack European User Group (vCSEUG)</p>
+                  <p class="title mt-2">CloudStack European User Group 2023</p>
                   <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Virtual Event</p>
                   <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>7th April 2022</p>
                 </div>
                 <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="#" class="btn btn-outline-secondary me-3">Read More</a>
-                  <a href="#" class="btn btn-primary">Watch</a>
+                  <a href="https://cloudstack.apache.org/blog/cseug-2023-roundup" class="btn btn-outline-secondary me-3">Read More</a>
+                  <a href="https://www.youtube.com/watch?v=K6AZrM85q9I&list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd" class="btn btn-primary">Watch</a>
                 </div>
               </div>
             </div>
