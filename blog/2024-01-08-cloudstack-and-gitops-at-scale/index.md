@@ -27,6 +27,8 @@ CloudStack and GitOps at Enterprise Scale, where he outlined their
 journey with Apache CloudStack and the architecture they used to
 managed their CloudStack-based platform using GitOps.
 
+<!-- truncate -->
+
 In the spirit of continuous improvement, Alex’s team looked for an
 opportunity to improve on how they do infrastructure provisioning
 within the enterprise ultimately leading to deployment of CloudStack.

@@ -26,6 +26,8 @@ The Call for Presentations is open! When proposing a talk, you can choose to pre
 <a class="button button--primary button--lg" href="https://docs.google.com/forms/d/1jqEGPG6Xf2MwR5_u0RKySkNOti-pzxvDYQBYkCAV6o0" target="_blank">Submit a Talk</a>
 <br/>
 
+<!-- truncate -->
+
 ## Agenda
 
 As the user group is still accepting session proposals, the agenda is still to be confirmed. Make sure to come back to this blog in February to see the full schedule and to find out who will be presenting! 
