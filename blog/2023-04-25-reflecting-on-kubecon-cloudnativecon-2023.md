@@ -2,7 +2,7 @@
 layout: post
 title: Reflecting on KubeCon + CloudNativeCon 2023
 authors: [ivet]
-tags: [news]
+tags: [news, roundup]
 slug: reflecting-on-kubecon-cloudnativecon-2023
 ---
 

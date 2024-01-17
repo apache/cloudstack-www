@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CloudStack Collaboration Conference 2023 Event Roundup
-tags: [news]
+tags: [news, roundup]
 authors: [jamie]
 slug: ccc2023-roundup
 ---

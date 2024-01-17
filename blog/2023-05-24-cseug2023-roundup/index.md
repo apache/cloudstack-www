@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSEUG 2023 Roundup
-tags: [news]
+tags: [news, roundup]
 authors: [jamie]
 slug: cseug-2023-roundup
 ---

@@ -290,7 +290,7 @@ involved with the community.
             </div>
 
             <div class="text-center load-more">
-              <a href="blog/tags/news" class="btn btn-outline-secondary">Load More</a>
+              <a href="blog/tags/roundup" class="btn btn-outline-secondary">See all Past Events</a>
             </div>
 
           </div>

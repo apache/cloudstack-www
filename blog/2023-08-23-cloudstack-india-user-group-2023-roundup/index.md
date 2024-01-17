@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CloudStack India User Group 2023 Roundup
-tags: [news]
+tags: [news, roundup]
 authors: [jamie]
 slug: cloudstack-india-user-group-2023-roundup
 ---

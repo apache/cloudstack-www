@@ -50,6 +50,15 @@ export default function BlogLayout(props) {
                 <li className={'sidebarItem'}>
                   <Link
                     isNavLink
+                    href="/blog/tags/roundup"
+                    className={'sidebarItemLink'}
+                    activeClassName={'sidebarItemLinkActive'}>
+                    Past Events
+                  </Link>
+                </li>
+                <li className={'sidebarItem'}>
+                  <Link
+                    isNavLink
                     href="/blog/tags/case-studies"
                     className={'sidebarItemLink'}
                     activeClassName={'sidebarItemLinkActive'}>
