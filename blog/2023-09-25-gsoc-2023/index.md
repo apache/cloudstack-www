@@ -72,7 +72,7 @@ VMWare hypervisor in the latest version of CloudStack. This summer, Ayush worked
 on extending it to the KVM hypervisor. Click here to learn more about his
 project -  https://summerofcode.withgoogle.com/programs/2023/projects/f0gpheQM
 
-You can also see the CloudStack community submission to Github here -
+You can also see the CloudStack community submission to GitHub here -
 https://github.com/apache/cloudstack/pull/7712
 
 In last year’s CloudStack Collaboration Conference, a previous GSoC mentor, Daan
