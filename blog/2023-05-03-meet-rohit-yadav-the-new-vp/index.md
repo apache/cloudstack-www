@@ -125,7 +125,7 @@ Still, we have a fair idea of our user base based on the community-maintained
 and contributed [list of users](https://cloudstack.apache.org/users.html) on our
 project website. Also, based on activities and representation by such users and
 their organisations in the community by their participation on the mailing
-lists, around releases, issue reporting and code contributions on Github,
+lists, around releases, issue reporting and code contributions on GitHub,
 attendance and participation in project meetups and conferences, and other
 forums such as blogs, videos, websites, press releases, social media etc. These
 enterprises, organisations and users include some of the world’s largest Fortune
@@ -151,7 +151,7 @@ around in the community for a long time, a decade or more now. This demonstrates
 the reliability, durability and stability the project offers to the users
 community and the trust of the users community who are continuing to use and
 support CloudStack over the years. We’re seeing CloudStack adoption growing
-steadily from users participation on mailing lists, Github, meetups and
+steadily from users participation on mailing lists, GitHub, meetups and
 conferences and release adoption. Per the hype curve, we’re in the plateau of
 productivity so this isn’t surprising.
 

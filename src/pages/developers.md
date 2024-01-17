@@ -15,8 +15,8 @@ accepts <a href="https://github.com/apache/cloudstack"
 target="_blank">GitHub</a> pull requests. If you are new to Git and GitHub,
 check these two links:
 
-- [Github in 15 minutes](https://try.github.io/levels/1/challenges/1)
-- [Creating Github Pull Request](https://help.github.com/articles/creating-a-pull-request/)
+- [GitHub in 15 minutes](https://try.github.io/levels/1/challenges/1)
+- [Creating GitHub Pull Request](https://help.github.com/articles/creating-a-pull-request/)
 
 The Apache CloudStack repository is on <a
 href="https://github.com/apache/cloudstack" target="_blank">GitHub</a> that is
@@ -26,12 +26,12 @@ contribution upstream.
 
 For detailed instructions see the link below: <a
 href="https://github.com/apache/cloudstack/blob/main/CONTRIBUTING.md"
-target="_blank">CloudStack Github Contribution Guidelines</a>.
+target="_blank">CloudStack GitHub Contribution Guidelines</a>.
 
 ### Submitting a patch
 
 While we encourage you to submit your contribution through GitHub pull requests,
-you can also attach a patch in a Github issue/ticket. For the purpose of these
+you can also attach a patch in a GitHub issue/ticket. For the purpose of these
 instructions, we'll assume that you already have a system with <a
 href="http://git-scm.com/" target="_blank">Git</a> and have found a bug to fix
 or have a feature that you'd like to submit, and you're willing to contribute

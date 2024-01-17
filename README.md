@@ -12,7 +12,7 @@ For contributing changes such as adding/editing blogs, please see the:
 ## Prerequisite
 
 Apache CloudStack website is powered by [Docusaurus 2](https://docusaurus.io/).
-Please install nodejs v16 or later and yarn.
+Please install Node.js v16 or later and yarn.
 
 ## Local Development
 
@@ -40,7 +40,7 @@ $ yarn build
 ```
 
 This command generates static content into the `build` directory and can be
-served using any static contents hosting service. We've Github Actions based
+served using any static contents hosting service. We've GitHub Actions based
 automation that can publish changes merged to 'main' branch being automatically
 published to the 'asf-site'.
 
