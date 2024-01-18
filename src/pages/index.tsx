@@ -132,6 +132,7 @@ Deliver cutting-edge cloud-based services, including <strong>virtual
 network functions, infrastructure as a service, and advanced edge
 computing</strong> capabilities with Edge zones.
 		  </p>
+                  <a href="" class="btn btn-card">&nbsp;</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
