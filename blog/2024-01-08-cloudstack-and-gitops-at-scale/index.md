@@ -36,7 +36,7 @@ within the enterprise ultimately leading to deployment of CloudStack.
 After reviewing a few different cloud management platforms, AT&T
 decided to deploy CloudStack as a centrally-managed and
 centrally-supported IaaS platform, because if its multi-tenancy,
-allowing the application teams withing the business to maintain their
+allowing the application teams within the business to maintain their
 own-dedicated environments. Other reasons to choose CloudStack were
 the CloudStack Terraform Provider and Native APIs, over-provisioning
 capabilities and ability to manage the CloudStack-based platform using

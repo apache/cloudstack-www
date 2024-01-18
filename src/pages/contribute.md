@@ -18,7 +18,7 @@ started](/mailing-lists)!
 Developers, of course, are also welcome. See the [Developer
 Resources](/developers) page!
 
-If you just want to report a bug, that's easily done in our [github project
+If you just want to report a bug, that's easily done in our [GitHub project
 issues list](https://github.com/apache/cloudstack/issues). Go there and click
 [new issue](https://github.com/apache/cloudstack/issues/new/choose).
 
