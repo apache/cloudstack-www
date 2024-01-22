@@ -8,10 +8,10 @@ adding/editing pages and blog posts.
 
 Most of the pages and blog posts are written in Markdown, which is like a text
 file usually ending with `.md` extension. These .md files are used by Docusaruas
-(the static-site website framework) to generate html-based website so we don't
-have to write html by manually.
+(the static-site website framework) to generate HTML-based website so we don't
+have to write HTML by manually.
 
-You may co-relate with the source of this (markdown) page at:
+You may co-relate with the source of this (Markdown) page at:
 https://github.com/apache/cloudstack-www/blob/main/src/pages/website-guide.md
 
 For basic Markdown syntax reference, please refer:
@@ -131,7 +131,7 @@ live in a few minutes, for you to verify:
 ## ToC on blog and website page
 
 If you don't want table of contents show up on right-side of a page/blog, then
-don't use the markdown syntax for h2 (##), h3 (###) etc. instead use the html
+don't use the Markdown syntax for h2 (##), h3 (###) etc. instead use the HTML
 `<h2>`, `<h3>` etc. which will not show the ToC on a page/blog.
 
 Further reference: https://docusaurus.io/docs/2.3.1/markdown-features/toc
