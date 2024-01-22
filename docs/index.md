@@ -7,7 +7,7 @@ allow technical and non-technical contributors to work with the website for
 adding/editing pages and blog posts.
 
 Most of the pages and blog posts are written in Markdown, which is like a text
-file usually ending with `.md` extension. These .md files are used by Docusaruas
+file usually ending with `.md` extension. These .md files are used by Docusaurus
 (the static-site website framework) to generate HTML-based website so we don't
 have to write HTML by manually.
 
@@ -17,7 +17,7 @@ https://github.com/apache/cloudstack-www/blob/main/src/pages/website-guide.md
 For basic Markdown syntax reference, please refer:
 https://www.markdownguide.org/basic-syntax/
 
-Refer to the following for Docusauras supported markdown features:
+Refer to the following for Docusaurus supported markdown features:
 https://docusaurus.io/docs/2.3.1/markdown-features
 
 ## Working with the Website, Pages and Blogs

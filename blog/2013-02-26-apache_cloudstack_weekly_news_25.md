@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Apache Cloudstack Weekly News - 25 February 2013
+title: Apache CloudStack Weekly News - 25 February 2013
 
 slug: apache_cloudstack_weekly_news_25
 ---

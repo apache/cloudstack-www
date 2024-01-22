@@ -14,7 +14,7 @@ slug: apache_cloudstack_weekly_news_28
 
 <h5><a name="ApacheCloudStackWeeklyNews-28January2013-Countingdowntofeaturefreezefor4.1.0incubating"></a>Counting down to feature freeze for 4.1.0-incubating</h5>
 
-<p>Reminder on 21st January that there were <a href="http://markmail.org/message/jldbgu3g3e6iqqan" class="external-link" rel="nofollow"><b>10 days left to feature freeze</b></a> on Apache Cloudstack 4.1.0-incubating. Status at the time of the reminder:</p>
+<p>Reminder on 21st January that there were <a href="http://markmail.org/message/jldbgu3g3e6iqqan" class="external-link" rel="nofollow"><b>10 days left to feature freeze</b></a> on Apache CloudStack 4.1.0-incubating. Status at the time of the reminder:</p>
 
 <blockquote>
 <p>Out of 95 total proposed features / improvements, their status is:</p>

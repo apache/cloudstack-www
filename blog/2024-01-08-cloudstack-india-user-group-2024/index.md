@@ -6,7 +6,7 @@ authors: [jamie]
 slug: india-user-group-2024
 ---
 
-[![](banner.jpg "Cloudstack India User group 2024")](/blog/india-user-group-2024)
+[![](banner.jpg "CloudStack India User group 2024")](/blog/india-user-group-2024)
 
 On <strong>23rd February</strong>, the 2024 edition of the CloudStack India User Group will be taking place in Hyderabad. The event will be taking place at: <strong>Q-Hub 5th floor, Road No 36 & 37, Jubilee Hills, Telangana, 500033</strong>.
 

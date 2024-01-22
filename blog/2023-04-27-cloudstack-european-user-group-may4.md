@@ -65,7 +65,7 @@ and other events.
 
 **Lucian Burlacu**
 
-Lucian is a long-time sysadmin and Apache Cloustack user and contributor. He has
+Lucian is a long-time sysadmin and Apache CloudStack user and contributor. He has
 a background in hosting, virtualisation and datacentre operations, but is now
 working full time on CloudStack.
 
@@ -85,7 +85,7 @@ code like Ceph/RBD, IPv6, KVM and many other parts.
 **Alexandre Mattioli**
 
 Alexandre Mattioli is a highly experienced Infrastructure Architect who has been
-working with Apache Cloudstack since 2015, he has designed, built and operated
+working with Apache CloudStack since 2015, he has designed, built and operated
 one of the largest ACS clouds in existence and led a team to design and
 productise many diverse solutions on top of ACS. He's currently a Cloud
 Architect at ShapeBlue.

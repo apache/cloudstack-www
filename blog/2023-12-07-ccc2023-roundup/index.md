@@ -89,7 +89,7 @@ CloudStack and how they integrated and use CloudStack today.
 
 ### How We Use CloudStack to Provide Managed Hosting, [Swen Brüseke](https://www.linkedin.com/in/swen-br%C3%BCseke-391912193/)
 
-Swen shows how proIO utilize Cloudstack to provide customers with managed
+Swen shows how proIO utilize CloudStack to provide customers with managed
 hosting solutions and versatile public and private cloud solutions, mainly based
 on open-source software.
 
@@ -250,7 +250,7 @@ the environment by not producing new hardware.
 
 ### Hypervisor Agnostic DRS in CloudStack - Brief overview & demo, [Vishesh Jindal](https://www.linkedin.com/in/vishesh92)
 
-Vishesh has been working on the feature hypervisor-agnostic DRS in Cloudstack. He briefly overviews the implementation and discusses the algorithms currently available and how they can improve resource allocation and workload balancing in virtualized environments. Additionally, Vishesh showcases a live demo of hypervisor agnostic DRS in action, highlighting its capabilities and effectiveness.
+Vishesh has been working on the feature hypervisor-agnostic DRS in CloudStack. He briefly overviews the implementation and discusses the algorithms currently available and how they can improve resource allocation and workload balancing in virtualized environments. Additionally, Vishesh showcases a live demo of hypervisor agnostic DRS in action, highlighting its capabilities and effectiveness.
 
 <iframe width="640" height="315" src="https://www.youtube.com/embed/nSwpHgRUVoI?si=i0m2QSrQ1XO7Flfn&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -452,16 +452,16 @@ Fortunately for the growing community at CloudStack that is precisely what we
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/1hKnRYpnYOxYuz?hostedIn=slideshare&page=upload" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-### Declarative Kubernetes Cluster Deployment with Cloudstack and Cluster API, [Ozhan Karaman](https://www.linkedin.com/in/ozhan-karaman)
+### Declarative Kubernetes Cluster Deployment with CloudStack and Cluster API, [Ozhan Karaman](https://www.linkedin.com/in/ozhan-karaman)
 
 Are you currently managing Kubernetes clusters in the cloud and considering a
-transition to on-premises infrastructure using Cloudstack? This session is an
+transition to on-premises infrastructure using CloudStack? This session is an
 exciting demonstration of how you can deploy Kubernetes clusters in a
-declarative manner, leveraging the capabilities of Cloudstack and Cluster API.
+declarative manner, leveraging the capabilities of CloudStack and Cluster API.
 In this demo, Ozhan showcases a comprehensive solution that combines Packer,
 Gitlab CI, ArgoCD, Cluster API, and Cluster Autoscaler to create a seamless
 on-premises deployment strategy adaptable to diverse requirements over
-Cloudstack Infrastructure.
+CloudStack Infrastructure.
 
 <iframe width="640" height="315" src="https://www.youtube.com/embed/W88X8W3hl6U?si=2J4yPYdjthOfdlqJ&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

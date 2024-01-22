@@ -69,7 +69,7 @@ Several new networking capabilities such as IPv6 support, fully routed Virtual R
 
 <iframe  src="https://www.slideshare.net/slideshow/embed_code/key/LwuMIgKz1pqpi" width="854" height="712" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 <div><strong>About Alexandre Mattioli:</strong></div>
-<div>Alexandre Mattioli is a highly experienced Infrastructure Architect who has been working with Apache Cloudstack since 2015, he has designed, built and operated one of the largest ACS clouds in existence and led a team to design and productise many diverse solutions on top of ACS. He's currently a Cloud Architect at ShapeBlue.</div>
+<div>Alexandre Mattioli is a highly experienced Infrastructure Architect who has been working with Apache CloudStack since 2015, he has designed, built and operated one of the largest ACS clouds in existence and led a team to design and productise many diverse solutions on top of ACS. He's currently a Cloud Architect at ShapeBlue.</div>
 &nbsp;
 <br/>
 <div><span ><strong><a title="Automated CloudStack Deployment" href="https://www.slideshare.net/ShapeBlue/automated-cloudstack-deployment" target="_blank" rel="noopener">Automated CloudStack Deployment</a> - Kaloyan Kotlarski</strong></span></div>
@@ -86,7 +86,7 @@ Several new networking capabilities such as IPv6 support, fully routed Virtual R
 <div><strong><span ><a href="https://www.slideshare.net/ShapeBlue/stackbill-workshop" target="_blank" rel="noopener">StackBill Workshop</a> - Amal Ranjith</span></strong></div>
 <div>
 
-StackBill is a complete self-service intuitive Cloud Management Portal with extensive features leveraging Apache CloudStack® with state of the art tools and years of expertise. Stackbill helps datacenter and cloud providers to build their own public cloud business powered by Apache Cloudstack.
+StackBill is a complete self-service intuitive Cloud Management Portal with extensive features leveraging Apache CloudStack® with state of the art tools and years of expertise. Stackbill helps datacenter and cloud providers to build their own public cloud business powered by Apache CloudStack.
 
 In this workshop session, Amal Ranjith talks about how StackBill offers a great solution for cloud service providers with simplified user experience and packed with 3'rd party plugins to provide users with a live demo.
 
@@ -120,7 +120,7 @@ In this talk, Wei looks at the new VM autoscaling functionality in CloudStack (d
 
 <iframe  src="https://www.slideshare.net/slideshow/embed_code/key/4wtJuAZmWs30lG" width="854" height="712" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 <div ><strong>About Lucian Burlacu:</strong></div>
-<div>Lucian is a long-time sysadmin and Apache Cloustack user and contributor. He has a background in hosting, virtualisation and datacentre operations, but is now working full time on Cloudstack.</div>
+<div>Lucian is a long-time sysadmin and Apache Cloustack user and contributor. He has a background in hosting, virtualisation and datacentre operations, but is now working full time on CloudStack.</div>
 
 <div><span ><strong><a title="Edge Zones In CloudStack" href="https://www.slideshare.net/ShapeBlue/edge-zones-in-cloudstack" target="_blank" rel="noopener">Edge Zones In CloudStack </a>- Abhishek Kumar</strong></span></div>
 <div>Edge computing has been gaining popularity as it defines a model that brings compute and storage closer to where they are consumed by the end-user. By being closer to the end-user a better experience can be provided with a reduction in overall latency, lower bandwidth requirements, lower TCO, more flexible hardware/software model, while also ensuring security and reliability. In this talk, Abhishek discusses aligning Apache CloudStack with this evolving cloud computing model and supporting Edge Zones, which can be also looked upon as lightweight zones, with minimal resources.</div>
@@ -226,7 +226,7 @@ Nicolas Vazquez is a Senior Software Engineer at ShapeBlue and is a PMC member o
 
 <span ><strong><a title="Providing Microsoft Azure Functions And Microsoft Dataverse Resources With CloudStack" href="https://www.slideshare.net/ShapeBlue/providing-microsoft-azure-functions-and-microsoft-dataverse-resources-with-cloudstack" target="_blank" rel="noopener">Providing Microsoft Azure Functions And Microsoft Dataverse Resources With CloudStack</a> - Quentin Roccia, Christophe Gondouin, Pierre Charton</strong></span>
 
-any business projects (CRM, ERP, etc) are using proprietary cloud solutions that may be available outside these major clouds. Christophe, Pierre and Quentin will demonstrate the possibilities to use Apache Cloudstack when working on the Microsoft Azure and Microsoft Dataverse world, providing the same features on an open-source cloud solution.
+any business projects (CRM, ERP, etc) are using proprietary cloud solutions that may be available outside these major clouds. Christophe, Pierre and Quentin will demonstrate the possibilities to use Apache CloudStack when working on the Microsoft Azure and Microsoft Dataverse world, providing the same features on an open-source cloud solution.
 
 
 <a href="https://www.youtube.com/watch?v=ta4bQ1-DUw0&list=PLnIKk7GjgFlYcKNbhYSgWGbJ8nJ0g496V&index=17&t=6s" rel="noopener noreferrer" target="_blank"><img src="/img/imported/dd59ea36-159c-4cc5-9641-a8ee200151de" alt="Screenshot 2023-01-10 at 11.22.11.png" width="750" height="393" /></a>
@@ -237,9 +237,9 @@ any business projects (CRM, ERP, etc) are using proprietary cloud solutions that
 
 Christophe Senior code and platform architect, DIMSI partner, Christophe is helping all technical teams to choose best patterns and implementations to deliver fast, reliable and clean software solutions When not trashing and re-coding software developed by our team, you may find him playing with his 2 children, drinking beers with his friends or on his computer watching Series
 
-Pierre Senior back-end developer, Pierre is in charge of Backroll integration inside Cloudstack. Pierre has a proven track record of successful c# and Java projects. When not playing with his keyboard, Pierre is surfing, WingFoiling or bodyboarding on the Brittany coast.
+Pierre Senior back-end developer, Pierre is in charge of Backroll integration inside CloudStack. Pierre has a proven track record of successful c# and Java projects. When not playing with his keyboard, Pierre is surfing, WingFoiling or bodyboarding on the Brittany coast.
 
-Quentin Senior DevOps engineer &amp; Cloud enabler, DIMSI partner Quentin is in charge of DIMSI custom developments on Apache Cloudstack deployment : customer portal, backup solution. On a daily basis, he helps our customers and our developers to use and embrace Devops methodology, by building CI/CD pipelines (GitLab, Azure Devops), dockerizing apps and automate things as much as possible... When not DevOps'ing, Quentin loves to binge watch series and movies, play with his cat "Boogie" and is a crazy fan of street food.
+Quentin Senior DevOps engineer &amp; Cloud enabler, DIMSI partner Quentin is in charge of DIMSI custom developments on Apache CloudStack deployment : customer portal, backup solution. On a daily basis, he helps our customers and our developers to use and embrace Devops methodology, by building CI/CD pipelines (GitLab, Azure Devops), dockerizing apps and automate things as much as possible... When not DevOps'ing, Quentin loves to binge watch series and movies, play with his cat "Boogie" and is a crazy fan of street food.
 
 &nbsp;
 
@@ -292,7 +292,7 @@ In this talk, Vladi looks at the new Volume encryption option (due in CloudStack
 
 <strong>About the speakers:</strong>
 
-Slavka Peleva is a software developer at StorPool Storage and has been a passionate CloudStack Committer since 2021. She is part of the CloudStack community and is excited to work on new features and capabilities to improve the open-source cloud management solution. At StorPool Slavka is responsible for the product integration with Cloudstack and is working on its native implementation in the technology. With her dedication and efforts in creating the StorPool’s plugin for CloudStack, companies can build reliable and speedy storage that is powered by the two technologies.
+Slavka Peleva is a software developer at StorPool Storage and has been a passionate CloudStack Committer since 2021. She is part of the CloudStack community and is excited to work on new features and capabilities to improve the open-source cloud management solution. At StorPool Slavka is responsible for the product integration with CloudStack and is working on its native implementation in the technology. With her dedication and efforts in creating the StorPool’s plugin for CloudStack, companies can build reliable and speedy storage that is powered by the two technologies.
 
 Venko Moyankov is the Solutions Lead at StorPool Storage, a fully managed data storage solution that transforms commodity hardware into a shared, powerful, highly available, and reliable storage system. He has experience with managing large virtualizations, working in telcos, designing and supporting the infrastructure of large enterprises. In the last year his focus has been in helping companies globally to build the best storage solution according to their needs and projects.
 
@@ -302,19 +302,19 @@ Alex Ivanov is the Product Lead at StorPool Storage and is responsible for the p
 
 <span ><strong><a title="Backroll: Production Grade KVM Backup Solution Integrated in CloudStack" href="https://www.slideshare.net/ShapeBlue/backroll-production-grade-kvm-backup-solution-integrated-in-cloudstack" target="_blank" rel="noopener">Backroll: Production Grade KVM Backup Solution Integrated in CloudStack</a> - Grégoire Lamodière, Quentin Roccia, Pierre Charton</strong></span>
 
-Backroll is not only a production-grade KVM backup solution. It is also being integrated inside Apache Cloudstack using the Backup and restore framework. Pierre and Quentin show how it works, the feature list, and how the integration has been made.
+Backroll is not only a production-grade KVM backup solution. It is also being integrated inside Apache CloudStack using the Backup and restore framework. Pierre and Quentin show how it works, the feature list, and how the integration has been made.
 
 <a href="https://www.youtube.com/watch?v=SuHy8vtj7mw&list=PLnIKk7GjgFlYcKNbhYSgWGbJ8nJ0g496V&index=21" rel="noopener noreferrer" target="_blank"><img src="/img/imported/181660e1-d093-4892-909a-e29a780ac602" alt="Screenshot 2023-01-10 at 11.37.42.png" width="750" height="393" /></a>
 
 <iframe  src="https://www.slideshare.net/slideshow/embed_code/key/2ewme3mjI4KyL5" width="854" height="712" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark"  class="mce_SELRES_start">﻿</span> </iframe>
 <div><strong>About the speakers:</strong></div>
-<div>Grégoire is a software architect who spends most of his time designing infrastructure applications and CRM systems, on-premise or multi-cloud based. He’s been using Apache Cloudstack for many years, and likes to keep knowledge and data outside black-boxes Father of 4 children, you can meet him in Southern Brittany, sailing Hobbie Cat or supporting Lorient football club at Moustoir stadium.</div>
+<div>Grégoire is a software architect who spends most of his time designing infrastructure applications and CRM systems, on-premise or multi-cloud based. He’s been using Apache CloudStack for many years, and likes to keep knowledge and data outside black-boxes Father of 4 children, you can meet him in Southern Brittany, sailing Hobbie Cat or supporting Lorient football club at Moustoir stadium.</div>
 
 <div>
 
-Quentin is in charge of DIMSI custom developments on Apache Cloudstack deployment : customer portal, backup solution. On a daily basis, he helps our customers and our developers to use and embrace Devops methodology, by building CI/CD pipelines (GitLab, Azure Devops), dockerizing apps and automate things as much as possible... When not DevOps'ing, Quentin loves to binge watch series and movies, play with his cat "Boogie" and is a crazy fan of street food.
+Quentin is in charge of DIMSI custom developments on Apache CloudStack deployment : customer portal, backup solution. On a daily basis, he helps our customers and our developers to use and embrace Devops methodology, by building CI/CD pipelines (GitLab, Azure Devops), dockerizing apps and automate things as much as possible... When not DevOps'ing, Quentin loves to binge watch series and movies, play with his cat "Boogie" and is a crazy fan of street food.
 
-Pierre is in charge of Backroll integration inside Cloudstack. Pierre has a proven track record of successful c# and Java projects. When not playing with his keyboard, Pierre is surfing, WingFoiling or bodyboarding on Brittany coast.
+Pierre is in charge of Backroll integration inside CloudStack. Pierre has a proven track record of successful c# and Java projects. When not playing with his keyboard, Pierre is surfing, WingFoiling or bodyboarding on Brittany coast.
 
 </div>
 
@@ -432,7 +432,7 @@ Kshitish is the Co-Founder and Chief Product Officer at IndiQus. Kshitish has ov
 
 <span ><strong><a title="UI Test Cases With CloudStack" href="https://www.slideshare.net/ShapeBlue/ui-test-cases-with-cloudstack" target="_blank" rel="noopener">UI Test Cases With CloudStack</a> - Magali Pervan, Navid Abdoul</strong></span>
 
-Each Cloudstack update is a critical process to prevent production issues. At DIMSI, we aim to reduce downtimes and regressions as much as possible for our end users. We are now implementing automated UI Tests to cover all main use cases whenever a new release is published. Navid and Magali give an overview of how it is being done, and the next steps, including potential integration inside the code project.
+Each CloudStack update is a critical process to prevent production issues. At DIMSI, we aim to reduce downtimes and regressions as much as possible for our end users. We are now implementing automated UI Tests to cover all main use cases whenever a new release is published. Navid and Magali give an overview of how it is being done, and the next steps, including potential integration inside the code project.
 
 <a href="https://www.youtube.com/watch?v=0IckKZK7_YA&list=PLnIKk7GjgFlYcKNbhYSgWGbJ8nJ0g496V&index=32" rel="noopener noreferrer" target="_blank"><img src="/img/imported/36d7634f-ad64-49e2-bb9d-0909bb28ae80" alt="magali.png" width="750" height="393" /></a>
 
@@ -514,7 +514,7 @@ This talk involved a demo of the Tungsten Fabric Plugin and details what the imp
 
 <strong>About Sven Vogel:</strong>
 
-Sven Vogel is a German IT-Specialist with 15+ years experience in IT and member of the Apache Software Foundation. Before he got invited to join the mother foundation, he has been the Chairman / VP of Apache Cloudstack and an active Committer for a few years. He is well-known for driving various projects and supporting everyone who needs technological exchange, advise or upskilling. His interest in cloud-technologies is both - his professional and personal passion and he looks forward meeting you to talk about why system-relevant institutions need our help as open source technologists.
+Sven Vogel is a German IT-Specialist with 15+ years experience in IT and member of the Apache Software Foundation. Before he got invited to join the mother foundation, he has been the Chairman / VP of Apache CloudStack and an active Committer for a few years. He is well-known for driving various projects and supporting everyone who needs technological exchange, advise or upskilling. His interest in cloud-technologies is both - his professional and personal passion and he looks forward meeting you to talk about why system-relevant institutions need our help as open source technologists.
 
 &nbsp;
 
@@ -547,7 +547,7 @@ Daniel Murray is a Developer at CloudOps and is focused on the CloudMC product. 
 
 <span ><strong><a title="StackBill - Simplified Cloud Management Platform" href="https://www.slideshare.net/ShapeBlue/stackbill-simplified-cloud-management-platform" target="_blank" rel="noopener">StackBill - Simplified Cloud Management Platform</a> - Rafi Md</strong></span>
 
-In this talk, Rafi shares the vision of StackBill and how they simplified cloud management with Apache Cloudstack. Key challenges of Datacenters on becoming a Cloud Datacenter and how stackbill solves it. New Features of StackBill added 2022 which would help datacenter, enterprises and telcos on measuring and maximizing their business.
+In this talk, Rafi shares the vision of StackBill and how they simplified cloud management with Apache CloudStack. Key challenges of Datacenters on becoming a Cloud Datacenter and how stackbill solves it. New Features of StackBill added 2022 which would help datacenter, enterprises and telcos on measuring and maximizing their business.
 
 <a href="https://www.youtube.com/watch?v=avGJLrOCVu0&list=PLnIKk7GjgFlYcKNbhYSgWGbJ8nJ0g496V&index=39" rel="noopener noreferrer" target="_blank"><img src="/img/imported/4f33a5fd-515f-4b21-8500-0e1bdfe9b264" alt="Rafi.png" width="750" height="393" /></a>
 
