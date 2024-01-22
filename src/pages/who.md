@@ -17,9 +17,6 @@ Board Minutes: https://whimsy.apache.org/board/minutes/CloudStack.html
 
 the following data is subject to change. The source of truth can be found at <a href="http://people.apache.org/committers-by-project.html#cloudstack-pmc">the apache peoples site</a>:
 
-<iframe width="600px" src="http://people.apache.org/committers-by-project.html#cloudstack">
-</iframe>
-
 **PMC members (also in the committer group)**: 55
 
 - Abhishek Kumar    (shwstppr)
@@ -78,7 +75,7 @@ the following data is subject to change. The source of truth can be found at <a 
 - Will Stevens	(swill)
 - William Chan	(willchan)
 
-**Committers**: 129
+**Committers**: more
 
 - Abhinandan Prateek	(aprateek)
 - Abhishek Kumar	(shwstppr)
@@ -86,6 +83,7 @@ the following data is subject to change. The source of truth can be found at <a 
 - Alena Prokharchyk	(alena1108)
 - Alex Huang	(ahuang)
 - Alex Karasulu	(akarasulu)
+- Alexandre Mattioli    (alexandremattioli)
 - Amogh Vasekar	(amoghvk)
 - Andrija Panic	(andrijapanic)
 - Anh Tu Nguyen	(tuna)
@@ -133,7 +131,9 @@ the following data is subject to change. The source of truth can be found at <a 
 - Jessica Tomechak	(jtomechak)
 - Jessica Wang	(jessicawang)
 - Jim Jagielski	(jim)
+- João Jandre Paraquetti        (joao)
 - Joe Brockmeier	(jzb)
+- John Bampton          (johnbam)
 - John Burwell	(jburwell)
 - John Kinsella	(jlk)
 - Karen Vuong	(karenv)
@@ -202,6 +202,7 @@ the following data is subject to change. The source of truth can be found at <a 
 - Toshiaki Hatano	(haeena)
 - Venkata Swamy	(swamy)
 - Vijayendra Bhamidipati	(vijayendrabvs)
+- Vladimir Petrov               (vladi)
 - Wei Zhou	(weizhou)
 - Wido den Hollander	(widodh)
 - Wilder Rodrigues	(ekho)
