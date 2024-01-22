@@ -15,8 +15,14 @@ Board Minutes: https://whimsy.apache.org/board/minutes/CloudStack.html
 
 **PMC Chair**: Rohit Yadav  (rohit)
 
-**PMC members (also in the committer group)**: 52
+the following data is subject to change. The source of truth can be found at <a href="http://people.apache.org/committers-by-project.html#cloudstack-pmc">the apache peoples site</a>:
 
+<iframe width="600px" src="http://people.apache.org/committers-by-project.html#cloudstack">
+</iframe>
+
+**PMC members (also in the committer group)**: 55
+
+- Abhishek Kumar    (shwstppr)
 - Alena Prokharchyk	(alena1108)
 - Alex Huang	(ahuang)
 - Alex Karasulu	(akarasulu)
@@ -28,12 +34,14 @@ Board Minutes: https://whimsy.apache.org/board/minutes/CloudStack.html
 - Chip Childers	(chipchilders)
 - Chiradeep Vittal	(chiradeep)
 - Daan	(dahn)
+- Daniel Augusto Veronezi Salvador      (gutoveronezi)
 - David Nalley	(ke4qqq)
 - Disheng Su	(edison)
 - Erik Weber	(erikw)
 - Gabriel Beims Bräscher	(gabriel)
 - Giles Sirett	(giles)
 - Go Chiba	(gochiba)
+- Harikrishna Patnala   (harikrishna)
 - Hugo Trippaers	(hugo)
 - Ian Duffy	(duffy)
 - Ilya Musayev	(ilya)
