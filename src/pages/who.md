@@ -4,20 +4,15 @@ title: Apache CloudStack Project Membership
 
 # Apache CloudStack Project Members
 
-<h3>Apache CloudStack</h3>
-
-The mission of CloudStack is the creation and maintenance of software related to
-Infrastructure as a Service solution.
-
 PMC Information: https://projects.apache.org/committee.html?cloudstack
 
 Board Minutes: https://whimsy.apache.org/board/minutes/CloudStack.html
 
 **PMC Chair**: Rohit Yadav  (rohit)
 
-the following data is subject to change. The source of truth can be found at <a href="http://people.apache.org/committers-by-project.html#cloudstack-pmc">the apache peoples site</a>:
+The following data is subject to change. The up-to-date information can be found on <a href="http://people.apache.org/committers-by-project.html#cloudstack-pmc">the Apache Peoples site</a>:
 
-**PMC members (also in the committer group)**: 55
+**PMC members (also in the committer group)**:
 
 - Abhishek Kumar    (shwstppr)
 - Alena Prokharchyk	(alena1108)
@@ -75,7 +70,7 @@ the following data is subject to change. The source of truth can be found at <a 
 - Will Stevens	(swill)
 - William Chan	(willchan)
 
-**Committers**: more
+**Committers**:
 
 - Abhinandan Prateek	(aprateek)
 - Abhishek Kumar	(shwstppr)
