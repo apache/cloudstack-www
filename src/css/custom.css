@@ -342,6 +342,8 @@ footer {
 .apache-card {
 	border-radius: 18px;
 	padding: 10px;
+    margin-right: 20px;
+    min-height: 375px;
 }
 .card-border {
 	border: 1px solid #2AA5DC40;
