@@ -15,11 +15,11 @@ const recentPosts = require("../../.docusaurus/docusaurus-plugin-content-blog/de
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header>
+    <header class="header-homepage">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 text-white">
-            <h1><strong>Open–Source</strong> Cloud Computing</h1>
+            <h1><strong>Open–Source</strong> Cloud Computing™</h1>
             <p class="px18 my-4">
 An open source software designed to deploy and manage large networks
 of virtual machines, as a highly available, highly scalable
@@ -28,8 +28,8 @@ Infrastructure as a Service (IaaS) cloud computing platform.
             <div class="center-buttons">
               <a href="downloads" class="btn btn-light btn-size">Download</a>
 	      &nbsp;
-              <a href="https://docs.cloudstack.apache.org/en/4.18.1.0/" class="btn btn-outline-light btn-size">Documentation</a>
-              <p class="small mt-3">Apache CloudStack 4.18.0.0 is out!</p>
+              <a href="https://docs.cloudstack.apache.org/en/4.18.1.0/" target="_blank" class="btn btn-outline-light btn-size">Documentation</a>
+              <p class="small mt-3">Apache CloudStack 4.18.1.0 is out!</p>
             </div>
           </div>
           <div class="col-lg-7"><img src="img/CloudStack_monkey_cloud.png" class="img-fluid" alt=""/></div>
@@ -212,10 +212,10 @@ specific infrastructure.
               <div class="col-lg-5">
                 <h2 class="section-title mb-4 margin-second">Latest Release</h2>
                 <div class="center-buttons">
-                  <p class="px18">Apache CloudStack 4.18.0.0 is out!<br/>This is the latest LTS release.</p>
-                  <a href="#" class="btn btn-primary btn-size">Download</a>
+                  <p class="px18">Apache CloudStack 4.18.1.0 is out!<br/>This is the latest LTS release.</p>
+                  <a href="downloads" class="btn btn-primary btn-size">Download</a>
                   &nbsp;
-                  <a href="#" class="btn btn-outline-secondary btn-size">Documentation</a>
+                  <a href="https://docs.cloudstack.apache.org/en/4.18.1.0/" target="_blank" class="btn btn-outline-secondary btn-size">Documentation</a>
                 </div>
               </div>
               <div class="col-lg-7"><img src="img/CloudStack_release_illustration.png" class="img-fluid img-release" alt=""/></div>
@@ -359,7 +359,7 @@ Video Series.
               </div>
             </div>
           </div>
-          <div class="user-servey">
+          <div class="user-survey">
             <div class="container">
               <div class="row">
                 <div class="col-lg-6">
