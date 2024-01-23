@@ -102,7 +102,7 @@ slug: apache-cloudstack-use-cases-benefits
 <ul>
 <li><strong>Describe what your use case is with CloudStack?&nbsp;</strong></li>
 </ul>
-<p>&ldquo;At DIMSI, we use Apache CloudStack to run our high-availability, eco-friendly and managed cloud infrastructure. Our customers make intensive use of Linux and Windows instances to build enterprise applications, virtual desktop or web apps. We&rsquo;ve also developed a backup solution that runs on top of Cloudstack: Backroll.&rdquo;&nbsp;</p>
+<p>&ldquo;At DIMSI, we use Apache CloudStack to run our high-availability, eco-friendly and managed cloud infrastructure. Our customers make intensive use of Linux and Windows instances to build enterprise applications, virtual desktop or web apps. We&rsquo;ve also developed a backup solution that runs on top of CloudStack: Backroll.&rdquo;&nbsp;</p>
 <ul>
 <li><strong>What is the primary benefit of using CloudStack against other virtualization management platforms?</strong></li>
 </ul>

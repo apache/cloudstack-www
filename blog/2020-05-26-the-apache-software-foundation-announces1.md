@@ -14,14 +14,14 @@ Wakefield, MA —NN May 2020— The Apache Software Foundation (ASF), the all-vo
 
 Apache CloudStack includes the entire "stack" of features in an IaaS cloud: compute orchestration, Network-as-a-Service, user and account management, full and open native API, resource accounting, and a first-class user interface.
 
-"v4.14 is an exciting release for Apache Cloudstack and is the result of many months of collaboration by our community,” said Sven Vogel, Vice President of Apache CloudStack. “We are introducing a number of major new features that have been driven by demand by users and operators of CloudStack based IaaS environments. At the same time, we have kept to the project's ethos of having a tightly defined scope and being the platform of choice on which to layer other services.”
+"v4.14 is an exciting release for Apache CloudStack and is the result of many months of collaboration by our community,” said Sven Vogel, Vice President of Apache CloudStack. “We are introducing a number of major new features that have been driven by demand by users and operators of CloudStack based IaaS environments. At the same time, we have kept to the project's ethos of having a tightly defined scope and being the platform of choice on which to layer other services.”
 
 Of particular note are:
-•	Cloudstack Kubernetes Service gives operators the ability to deliver CaaS or K8aaS style services with no change to underlying  infrastructure or business process
-•	VM Ingestion gives operators the ability to easily “import” existing VMware environments into Cloudstack
-•	The new backup and recovery framework, allows operators to integrate with any backup platform, giving a seamless user experience from the Cloudstack UI/API
+•	CloudStack Kubernetes Service gives operators the ability to deliver CaaS or K8aaS style services with no change to underlying  infrastructure or business process
+•	VM Ingestion gives operators the ability to easily “import” existing VMware environments into CloudStack
+•	The new backup and recovery framework, allows operators to integrate with any backup platform, giving a seamless user experience from the CloudStack UI/API
 
-“Apache Cloudstack 4.14 ships with a Technical Preview of Cloudstack’s new User Interface,” added Vogel. “This presents a new, ‘enterprise feel’ user experience and is earmarked to replace the current UI. We are encouraging all Cloudstack users to explore the Technical Preview and give feedback to the community. Thank you to all of the contributors across our community who have made this release possible."
+“Apache CloudStack 4.14 ships with a Technical Preview of CloudStack’s new User Interface,” added Vogel. “This presents a new, ‘enterprise feel’ user experience and is earmarked to replace the current UI. We are encouraging all CloudStack users to explore the Technical Preview and give feedback to the community. Thank you to all of the contributors across our community who have made this release possible."
 
 ore than 200 new features, enhancements and fixes include:
 

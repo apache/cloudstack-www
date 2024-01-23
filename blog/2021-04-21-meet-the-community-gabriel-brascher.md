@@ -83,7 +83,7 @@ We are working hard to keep it a reliable and stable solution; but it is also ke
 
 Small-medium enterprises need to determine which deployment model best suits their Cloud strategy. There are pros and cons on any of the cloud options (private, public, or hybrid clouds).
 
-Considering the complexity and challenges of deploying a cloud infrastructure, Cloudstack is reliable, easy to deploy, and can scale well. Additionally, CloudStack supports integration with public clouds; therefore it is a great option for hybrid clouds.
+Considering the complexity and challenges of deploying a cloud infrastructure, CloudStack is reliable, easy to deploy, and can scale well. Additionally, CloudStack supports integration with public clouds; therefore it is a great option for hybrid clouds.
 
 We have many known cases of companies that use it for a long time and have scaled their CloudStack Data Centers to huge amounts of Hosts and VMs. But there are also examples of small organizations that are benefiting from private clouds either as a key component of their core business or a tool for internal IT development and growth.
 <br/>

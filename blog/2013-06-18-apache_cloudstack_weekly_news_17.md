@@ -93,7 +93,7 @@ in this vote to join marketing@</p>
 
 <h3><a name="ApacheCloudStackWeeklyNews-17June2013-JCSUGpresentsatLinuxCon%2FCloudOpenJapan"></a>JCSUG presents at LinuxCon / CloudOpen Japan</h3>
 
-<p>On May 29-31 the Japanese CloudStack User Group participated in the <a href="http://linuxconcloudopenjapan2013.sched.org/" class="external-link" rel="nofollow">LinuxCon / CloudOpen 2013</a> in Tokyo. 20 volunteers helped with the CloudStack and Xen booth at the conference. During the conference there was also several sessions on building clouds with CloudStack, Cloudstack networking, and participation in a discussion panel with Google, Rackspace, NTT and Red Hat. Here are <a href="http://flickr.com/gp/kkitase/G2oV00/" class="external-link" rel="nofollow">pictures of the event.</a></p>
+<p>On May 29-31 the Japanese CloudStack User Group participated in the <a href="http://linuxconcloudopenjapan2013.sched.org/" class="external-link" rel="nofollow">LinuxCon / CloudOpen 2013</a> in Tokyo. 20 volunteers helped with the CloudStack and Xen booth at the conference. During the conference there was also several sessions on building clouds with CloudStack, CloudStack networking, and participation in a discussion panel with Google, Rackspace, NTT and Red Hat. Here are <a href="http://flickr.com/gp/kkitase/G2oV00/" class="external-link" rel="nofollow">pictures of the event.</a></p>
 
 <h3><a name="ApacheCloudStackWeeklyNews-17June2013-UpcomingEvents"></a>Upcoming Events</h3>
 

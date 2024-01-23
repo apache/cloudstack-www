@@ -23,9 +23,9 @@ Today we will introduce you to <a href="https://tungsten.io/">Tungsten.</a>
 
 <strong>Key Outcomes for Users</strong>
 
-<p>Apache Cloudstack has long provided flexibility regarding network configuration to serve the needed use case. Along with built-in functionality, ACS has supported a number of different Software Defined Networking (SDN) controllers, including VMware NSX multi-hypervisor (formally Nicara), Nuage and others.</p>
+<p>Apache CloudStack has long provided flexibility regarding network configuration to serve the needed use case. Along with built-in functionality, ACS has supported a number of different Software Defined Networking (SDN) controllers, including VMware NSX multi-hypervisor (formally Nicara), Nuage and others.</p>
 <p>However, Apache CloudStack lacked a fully-featured open-source SDN controller to deliver advanced networking features.&nbsp;&nbsp;</p>
-<p>Apache Cloudstack's integration with Tungsten Fabric will finally close this feature gap providing many long sought-after features, including BGP, MPLS, service stitching and deep security policy capabilities to meet even the most stringent industry requirements.</p>
+<p>Apache CloudStack's integration with Tungsten Fabric will finally close this feature gap providing many long sought-after features, including BGP, MPLS, service stitching and deep security policy capabilities to meet even the most stringent industry requirements.</p>
 <p>CloudStack will be able to manage these advanced functions via tight integration with the underlying best-of-breed network controller, while Tungsten Fabric handles the network fabric.&nbsp;</p>
 <p><span><strong>The Community Adopting the Integration of Apache CloudStack and Tungsten Fabric</strong></span></p>
 <p>A number of community members have already adopted Tungsten Fabric as part of their cloud infrastructure. We reached out to the community to hear their thoughts on the integration and how it benefits their organisation.</p>

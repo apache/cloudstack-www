@@ -32,7 +32,7 @@ A plugin for Dell PowerFlex (previously ScaleIO ) allows CloudStack to directly 
 
 Support has also been added for Linstor storage. The plugin, again, allows CloudStack to manage Linstor volumes for primary storage and also supports snapshots. 
 
-LINBIT SDS is deeply integrated with Apache Cloudstack. It has a native driver in the OS which provides block devices to the KVM. The CloudStack integration helps administrators to manage storage functions like snapshots, migration with the API.
+LINBIT SDS is deeply integrated with Apache CloudStack. It has a native driver in the OS which provides block devices to the KVM. The CloudStack integration helps administrators to manage storage functions like snapshots, migration with the API.
 </div>
 
 <div>

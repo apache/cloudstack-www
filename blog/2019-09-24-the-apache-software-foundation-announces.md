@@ -12,7 +12,7 @@ Wakefield, MA - 24 Sept 2019.  The Apache Software Foundation (ASF), the all-vol
 
 Apache CloudStack is the proven, highly scalable, and easy-to-deploy IaaS platform used for rapidly creating private, public, and hybrid Cloud environments. Thousands of large-scale public Cloud providers and enterprise organizations use Apache CloudStack to enable billions of dollars worth of business transactions annually across their clouds.
 
-“This is another release of Apache Cloudstack that has been heavily driven by users in our community” said Paul Angus, VP  of the  Apache Cloudstack project. “Those users are from organisations that are operating Apache CloudStack clouds at scale in production environments. I would like to thank everybody in the community who has contributed to this release”
+“This is another release of Apache CloudStack that has been heavily driven by users in our community” said Paul Angus, VP  of the  Apache CloudStack project. “Those users are from organisations that are operating Apache CloudStack clouds at scale in production environments. I would like to thank everybody in the community who has contributed to this release”
 
 Apache CloudStack v4.13 features nearly 200 new features, enhancements and fixes since 4.12., such as enhanced hypervisor support, performance increases and more user-configurable controls.  Highlights include:
 

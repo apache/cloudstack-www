@@ -37,7 +37,7 @@ easy to get it all up and running."</p>
 <p>Abhinandan Prateek forwarded a note from Bharat Kumar about changes to the way capacity is calculated in CloudStack. </p>
 
 <blockquote>
-<p>I have made changes to the way capacity is calculated in Cloudstack ,<br/>
+<p>I have made changes to the way capacity is calculated in CloudStack ,<br/>
 please review and comment.</p>
 
 <p>I will illustrate this with an example.</p>

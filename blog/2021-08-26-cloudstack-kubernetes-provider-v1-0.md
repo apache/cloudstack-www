@@ -6,7 +6,7 @@ slug: cloudstack-kubernetes-provider-v1-0
 ---
 # CloudStack Kubernetes Provider v1.0.0 Release
 
-The Apache CloudStack project is pleased to announce the first release of CloudStack Kubernetes Provider v1.0.0 that facilitates Kubernetes deployments on Cloudstack.
+The Apache CloudStack project is pleased to announce the first release of CloudStack Kubernetes Provider v1.0.0 that facilitates Kubernetes deployments on CloudStack.
 
 It allows Kubernetes to dynamically allocate IP addresses and the respective networking rules on CloudStack to ensure seamless TCP, UDP and TCP-Proxy LoadBalancer deployments on Kubernetes. This was historically part of the Kubernetes codebase which was later removed and donated to the project to allow for further maintenance of the provider plugin.
 
