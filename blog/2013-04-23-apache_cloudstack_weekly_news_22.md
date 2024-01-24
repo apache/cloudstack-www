@@ -103,7 +103,7 @@ slug: apache_cloudstack_weekly_news_22
 </ul>
 
 
-<p>If you want to to check in on events related to Apache CloudStack, see the <a href="http://lanyrd.com/topics/apache-cloudstack/" class="external-link" rel="nofollow">Lanyard Page for the Apache CloudStack topic</a>. </p>
+<p>If you want to check in on events related to Apache CloudStack, see the <a href="http://lanyrd.com/topics/apache-cloudstack/" class="external-link" rel="nofollow">Lanyard Page for the Apache CloudStack topic</a>. </p>
 
 <h3><a name="ApacheCloudStackWeeklyNews-22April2013-Jira"></a>Jira</h3>
 

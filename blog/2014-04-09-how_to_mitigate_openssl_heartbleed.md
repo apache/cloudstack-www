@@ -10,11 +10,11 @@ slug: how_to_mitigate_openssl_heartbleed
 <b>UPDATE 3:</b> Added instructions for verification of correct versions installed<br/>
 <b>UPDATE 4:</b> Apache CloudStack 4.0-4.1 not vulnerable, they use older Debian/openssl.<br/>
 
-<p>Earlier this week, a security vulnerability was disclosed in OpenSSL, one of the software libraries that Apache CloudStack uses to encrypt data sent over network network connections. As the vulnerability has existed in OpenSSL since early 2012, System VMs in Apache CloudStack versions 4.1.1-4.3 are running software using vulnerable versions of OpenSSL. This includes CloudStack's Virtual Router VMs, Console Proxy VMs, and Secondary Storage VMs.</p>
+<p>Earlier this week, a security vulnerability was disclosed in OpenSSL, one of the software libraries that Apache CloudStack uses to encrypt data sent over network connections. As the vulnerability has existed in OpenSSL since early 2012, System VMs in Apache CloudStack versions 4.1.1-4.3 are running software using vulnerable versions of OpenSSL. This includes CloudStack's Virtual Router VMs, Console Proxy VMs, and Secondary Storage VMs.</p>
 
 <p>We are actively working on creating updated System VM templates for each recent version of Apache CloudStack, and for each of the hypervisor platforms which Apache CloudStack supports. Due to our testing and QA processes, this will take several days. In the meantime, we want to provide our users with a temporary workaround for currently running System VMs.</p>
 
-<p>If you are running Apache CloudStack 4.0.0-incubating through the recent 4.3 release, the the following steps will help ensure the security of your cloud infrastructure until an updated version of the System VM template is available:</p>
+<p>If you are running Apache CloudStack 4.0.0-incubating through the recent 4.3 release, the following steps will help ensure the security of your cloud infrastructure until an updated version of the System VM template is available:</p>
 
 <h2> For KVM/Xen hosted systems</h2>
 <ol>

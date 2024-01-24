@@ -15,7 +15,7 @@ slug: apache_cloudstack_weekly_news_42
 
 <h5><a name="ApacheCloudStackWeeklyNews-4September2013-4.2IssuesClosure"></a>4.2 Issues Closure</h5>
 
-<p>Sudha Ponnaganti has throughout the 4.2 put <a href="http://markmail.org/message/pwmlzcq7nwtcfdg5" class="external-link" rel="nofollow">together a list</a> of the the current blocker and critical issues that need to be reviewed. If you have issues that have been resolved please review, test, and close out please. </p>
+<p>Sudha Ponnaganti has throughout the 4.2 put <a href="http://markmail.org/message/pwmlzcq7nwtcfdg5" class="external-link" rel="nofollow">together a list</a> of the current blocker and critical issues that need to be reviewed. If you have issues that have been resolved please review, test, and close out please. </p>
 
 <h5><a name="ApacheCloudStackWeeklyNews-4September2013-HighQualityDocumentation"></a>High Quality Documentation</h5>
 
