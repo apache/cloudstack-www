@@ -363,7 +363,7 @@ Video Series.
             <div class="container">
               <div class="row">
                 <div class="col-lg-6">
-                  <h2 class="section-title mb-4 margin-thirth">Take the Apache CloudStack User Survey</h2>
+                  <h2 class="section-title mb-4 margin-third">Take the Apache CloudStack User Survey</h2>
                   <p class="px18 mb-5">
 Participate in the Apache CloudStack User Survey and help us build the
 Annual State of CloudStack Report. This survey will take you less than
