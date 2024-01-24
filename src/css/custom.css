@@ -285,7 +285,7 @@ h1 {
     min-height: 600px;
     height: 6175px;
 }
-.margin-thirth {
+.margin-third {
 	margin-top: 100px;
 }
 
@@ -664,7 +664,7 @@ iframe {
 		border-radius: 20px;
 		text-align: center;
 	}
-	.margin-first, .margin-second, .margin-thirth {
+	.margin-first, .margin-second, .margin-third {
 		margin-top: 50px;
 	}
 	.load-more {
@@ -687,7 +687,7 @@ iframe {
 	h1 {
 		text-align: center; 
 	}
-	.margin-first, .margin-second, .margin-thirth {
+	.margin-first, .margin-second, .margin-third {
 		margin-top: 0;
 	}
 	.light-blue, .dark-blue {
