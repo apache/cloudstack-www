@@ -314,7 +314,7 @@ to Apache page, or go straight to our Developer Resources page.
                   <div class="join-card">
                     <img src="img/git_logo.svg" alt=""/>
                     <p class="blue-title">DEVELOPER RESOURCES</p>
-                    <p class="join-title">Contribe to Apache CloudStack</p>
+                    <p class="join-title">Contribute to Apache CloudStack</p>
                     <p class="text">
 Interested in helping out with Apache CloudStack? Great! We welcome
 participation from anybody willing to work The Apache Way.
@@ -359,11 +359,11 @@ Video Series.
               </div>
             </div>
           </div>
-          <div class="user-servey">
+          <div class="user-survey">
             <div class="container">
               <div class="row">
                 <div class="col-lg-6">
-                  <h2 class="section-title mb-4 margin-thirth">Take the Apache CloudStack User Servey</h2>
+                  <h2 class="section-title mb-4 margin-thirth">Take the Apache CloudStack User Survey</h2>
                   <p class="px18 mb-5">
 Participate in the Apache CloudStack User Survey and help us build the
 Annual State of CloudStack Report. This survey will take you less than

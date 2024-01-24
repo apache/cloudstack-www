@@ -207,7 +207,7 @@ slug: cloudstack_weekly_news_10_july
 <p>Dharmesh Kakadia one of our Google Summer of Code participants has <a href="http://markmail.org/message/dzixkixurzlskqik" class="external-link" rel="nofollow">started a discussion</a> on changing the future namespace convention for Apache CloudStack. The current namespace has been in place since the original Cloud.com implementation. As Dharmesh states, this is a big change, please join the discussion on how we can make this a successful switchover.</p>
 
 <blockquote>
-    <p>Since the cloudstack project has moved to ASF, the suggestion is to move from com.cloud packages to org.apache java packages.(<a href="https://issues.apache.org/jira/browse/CLOUDSTACK-212" class="external-link" rel="nofollow">https://issues.apache.org/jira/browse/CLOUDSTACK-212</a>)</p>
+    <p>Since the CloudStack project has moved to ASF, the suggestion is to move from com.cloud packages to org.apache java packages.(<a href="https://issues.apache.org/jira/browse/CLOUDSTACK-212" class="external-link" rel="nofollow">https://issues.apache.org/jira/browse/CLOUDSTACK-212</a>)</p>
 
     <p>As you might be realize, this is pretty big change. And merging this changes with a continuously updating master is non-trivial. So, here is the planned strategy after discussion over IRC. I am starting this thread to inform and know everyone's opinions.</p>
 
