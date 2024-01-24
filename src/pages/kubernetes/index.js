@@ -6,7 +6,7 @@ import LearnMore from '../learn-more.mdx';
 function KubernetesHeader() {
   const {siteConfig} = useDocusaurusContext();
     return (
-    <header class="header-kubernetes">
+    <header class="header-kubernetes header-homepage">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">

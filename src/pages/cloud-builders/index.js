@@ -6,7 +6,7 @@ import LearnMore from '../learn-more.mdx';
 function CloudBuildersHeader() {
   const {siteConfig} = useDocusaurusContext();
     return (
-    <header class="header-cloud">
+    <header class="header-cloud header-homepage">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">

@@ -250,7 +250,7 @@ Software Foundation, Licensed under the Apache License, Version 2.0.
  the Apache CloudStack Cloud Monkey logo and the Apache feather logos
 are registered trademarks or trademarks of The Apache Software
 Foundation.
-            <p class="footer-blue">Apache CloudStack Trademark Usage - Apache CloudStack Community ByLaws - Website Source Code</p></div>
+            <p class="footer-blue"><a href="/trademark-guidelines">Apache CloudStack Trademark Usage</a> - <a href="/bylaws">Apache CloudStack Community ByLaws</a> - <a href="https://github.com/apache/cloudstack-www">Website Source Code</a></p></div>
             </div>
           <br/>
           `,

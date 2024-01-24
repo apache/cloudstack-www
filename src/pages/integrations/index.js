@@ -7,7 +7,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 function IntegrationsHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header class="header-integrations">
+    <header class="header-integrations header-homepage">
       <div class="container">
         <div class="row">
           <div class="col-lg-5">

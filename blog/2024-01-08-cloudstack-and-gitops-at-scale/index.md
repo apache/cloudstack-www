@@ -119,7 +119,4 @@ Our expectation is essentially all workloads in the enterprise
 can/could be managed with CloudStack. Web applications, Kubernetes
 clusters, databases, etc.
 
-<br/>
-<br/>
-
-## More about AT&T: https://www.att.com/
+<h4>More about AT&T: <a href="https://www.att.com">https://www.att.com</a></h4>

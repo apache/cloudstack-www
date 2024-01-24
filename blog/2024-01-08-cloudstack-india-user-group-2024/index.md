@@ -43,7 +43,7 @@ As the user group is still accepting session proposals, the agenda is still to b
 
 Our meetups attendees benefit from catching up with the latest developments in the CloudStack ecosystem as well as learn about real-world use of CloudStack from actual users, learn about their interesting solutions, integrations and meet them face to face. It's just a great place to be at for anybody using CloudStack or considering to build a private cloud."
 
-- <a href="https://www.linkedin.com/in/rohityadavcloud/">Rohit Yadav</a>, PMC Chair and VP Apache CloudStack
+-<a href="https://www.linkedin.com/in/rohityadavcloud/">Rohit Yadav</a>, PMC Chair and VP Apache CloudStack
 
 </div>
 <div className="col col--3">
