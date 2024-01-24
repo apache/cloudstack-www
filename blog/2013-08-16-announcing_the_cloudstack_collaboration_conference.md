@@ -14,7 +14,7 @@ slug: announcing_the_cloudstack_collaboration_conference
 
 <p><h2>Important Dates </h2></p>
 
-<p>The Call for Papers will run from today (August 16th) to September 30th. We will send out notifications shortly after closing the the Call for Papers.</p> 
+<p>The Call for Papers will run from today (August 16th) to September 30th. We will send out notifications shortly after closing the Call for Papers.</p> 
 
 <p>The Conference Hack Day will be November 20th</p> 
 <p>The Conference talks and planned sessions begin on November 21th </p>

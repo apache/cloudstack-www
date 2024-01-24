@@ -4,7 +4,7 @@ title: Apache CloudStack Weekly News - 1 July 2013
 
 slug: apache_cloudstack_weekly_news_12
 ---
-<p><a href="/img/imported/ab378739-3c34-48ea-9495-2c49e23e58d6"><img src="/img/imported/ab378739-3c34-48ea-9495-2c49e23e58d6?t=true" alt="square-cloudmonkey.png" align="left" vspace="5" hspace="5"></img></a>We are half way through the year and a lot of work is done, and lot more is yet to be done. This week we look back at some of the <a href="http://cloudstackcollab.org/" class="external-link" rel="nofollow">CloudStack Collaboration Conference</a>, work continues on 4.1.1 and 4.2.0, and we have some interesting discussions on how we should release the CloudMonkey and Marvin tools used with CloudStack. There's a by-laws vote underway to look at how and where we decide non-technical issues, and some discussion on the best way to to discuss and do code reviews.</p>
+<p><a href="/img/imported/ab378739-3c34-48ea-9495-2c49e23e58d6"><img src="/img/imported/ab378739-3c34-48ea-9495-2c49e23e58d6?t=true" alt="square-cloudmonkey.png" align="left" vspace="5" hspace="5"></img></a>We are half way through the year and a lot of work is done, and lot more is yet to be done. This week we look back at some of the <a href="http://cloudstackcollab.org/" class="external-link" rel="nofollow">CloudStack Collaboration Conference</a>, work continues on 4.1.1 and 4.2.0, and we have some interesting discussions on how we should release the CloudMonkey and Marvin tools used with CloudStack. There's a by-laws vote underway to look at how and where we decide non-technical issues, and some discussion on the best way to discuss and do code reviews.</p>
 
 <h3><a name="ApacheCloudStackWeeklyNews-1July2013-NewsMovingtoWednesdays"></a>News Moving to Wednesdays</h3>
 

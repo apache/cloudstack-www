@@ -4,7 +4,7 @@ title: CloudStack Weekly News - 10 July 2013
 
 slug: cloudstack_weekly_news_10_july
 ---
-<p><a href="/img/imported/ab378739-3c34-48ea-9495-2c49e23e58d6"><img src="/img/imported/ab378739-3c34-48ea-9495-2c49e23e58d6?t=true" alt="square-cloudmonkey.png" align="left" vspace="5" hspace="5"></img></a>The community is busy working on 4.2.0, and there's much to be done before the release is ready. This week, we're taking a look at some of the interesting discussions going on in the the community about the next generation of Apache CloudStack, and functionality we can provide, as well as procedural changes that everyone should be aware of. </p>
+<p><a href="/img/imported/ab378739-3c34-48ea-9495-2c49e23e58d6"><img src="/img/imported/ab378739-3c34-48ea-9495-2c49e23e58d6?t=true" alt="square-cloudmonkey.png" align="left" vspace="5" hspace="5"></img></a>The community is busy working on 4.2.0, and there's much to be done before the release is ready. This week, we're taking a look at some of the interesting discussions going on in the community about the next generation of Apache CloudStack, and functionality we can provide, as well as procedural changes that everyone should be aware of. </p>
 
 <h3><a name="ApacheCloudStackWeeklyNews-10July2013-NewsMovingtoWednesdays"></a>News Moving to Wednesdays</h3>
 
