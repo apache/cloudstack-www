@@ -78,7 +78,7 @@ and isolated from one user account to another within the cloud.
 
 CloudStack provides you with the flexibility to allow you to integrate with the
 major hypervisors in the market today including KVM, VMware, Citrix
-XenServer/Hypervisor, XCP-ng, Hyper-V and OVM3.
+XenServer, XCP-ng.
 
 <h2>Easy Template Creation Process</h2>
 
