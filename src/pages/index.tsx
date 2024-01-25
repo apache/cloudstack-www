@@ -157,7 +157,7 @@ hybrid deployments.
 CKS is an easy to use quick start integration with kubernetes for
 starting clusters easily.
 		  </p>
-                  <a href="blog/we-systems-case-study" class="btn btn-outline-secondary btn-card">Discover a Success Story</a>
+                  <a href="blog/we-systems-case-study" class="btn btn-outline-secondary btn-card">Learn More</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
