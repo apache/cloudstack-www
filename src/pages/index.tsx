@@ -386,7 +386,7 @@ Annual State of CloudStack Report. This survey will take you less than
 5 minutes to complete. Your input is vital for the CloudStack
 Community!
                   </p>
-                  <div class="center-buttons"><a href="/survey" class="btn btn-outline-secondary btn-size">Learn More</a></div>
+                  <div class="center-buttons"><a href="/survey" class="btn btn-outline-secondary btn-size">Be Counted</a></div>
                 </div>
                 <div class="col-lg-6 text-center"><img src="img/CloudStack_survey.png" class="img-fluid mt-5"/></div>
               </div>
