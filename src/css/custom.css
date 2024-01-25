@@ -233,6 +233,11 @@ h1 {
 	float: left;
 	margin-right: 15px;
 }
+.events-overview-img {
+    width: 238px;
+    height: 134px;
+    border-radius: 5%;
+}
 .horizontal-card .title {
 	font-family: 'DM Sans', sans-serif;
 	font-size: 1.25rem;

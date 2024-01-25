@@ -240,24 +240,25 @@ involved with the community.
               <div class="hc-header">Upcoming Events:</div>
               <div class="row">
                 <div class="col-lg-9 pt-3 px-4">
-                  <img src="img/event_img1.png" alt="" class="events-img"/>
+                  <img src="img/india 2024.jpeg" alt="" class="events-img events-overview-img"/>
                   <p class="title mt-2">CloudStack India User Group</p>
-                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>WeWork Galaxy Bangalore</p>
-                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>August 18th 2023</p>
+                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Hyderabad, India</p>
+                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>Februari 22nd 2024</p>
                 </div>
                 <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="#" class="btn btn-primary">Register</a>
+                  <a href="https://cloudstack.apache.org/blog/india-user-group-2024/" class="btn btn-outline-secondary me-3">Read More</a>
+                  <a href="https://www.meetup.com/india-cloudstack-user-group/events/298324389/?isFirstPublish=true" class="btn btn-primary">Register</a>
                 </div>
               </div>
               <div class="row">
                 <div class="col-lg-9 pt-3 px-4">
-                  <img src="img/event_img2.png" alt="" class="events-img"/>
+                  <img src="img/ceph day.png" alt="" class="events-img events-overview-img"/>
                   <p class="title mt-2">CloudStack Collaboration Conference 2023</p>
                   <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Paris, Île-de-France, France</p>
                   <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>November 23-24 2023</p>
                 </div>
                 <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="#" class="btn btn-primary">Register</a>
+                  <a href="https://www.eventbrite.nl/e/cloudstack-and-ceph-day-netherlands-2024-tickets-700177167757" class="btn btn-primary">Register</a>
                 </div>
               </div>
             </div>
@@ -266,26 +267,37 @@ involved with the community.
               <div class="hc-header">Past Events:</div>
               <div class="row">
                 <div class="col-lg-9 pt-3 px-4">
-                  <img src="img/event_img2.png" alt="" class="events-img"/>
-                  <p class="title mt-2">CloudStack Collaboration Conference 2023 Event Roundup</p>
+                  <img src="img/event_img2.png" alt="" class="events-img events-overview-img"/>
+                  <p class="title mt-2">CloudStack Collaboration Conference 2023</p>
                   <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Paris, Île-de-France, France</p>
-                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>November 23-24 2023</p>
+                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>November 23-24, 2023</p>
                 </div>
                 <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://cloudstack.apache.org/blog/ccc2023-roundup" class="btn btn-outline-secondary me-3">Read More</a>
-                  <a href="https://www.youtube.com/watch?v=q0cxJS_sC2c&list=PLnIKk7GjgFlZsBJestxnL-xF5DxgewxYh" class="btn btn-primary">Watch</a>
+                  <a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlZsBJestxnL-xF5DxgewxYh" class="btn btn-primary">Watch</a>
                 </div>
               </div>
               <div class="row">
                 <div class="col-lg-9 pt-3 px-4">
-                  <img src="img/event_img4.png" alt="" class="events-img"/>
+                  <img src="img/india user group 2023.jpeg" alt="" class="events-img events-overview-img"/>
+                  <p class="title mt-2">CloudStack India User Group 2023</p>
+                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Bangalore, India</p>
+                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>August 18 2023</p>
+                </div>
+                <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://cloudstack.apache.org/blog/cloudstack-india-user-group-2023-roundup" class="btn btn-outline-secondary me-3">Read More</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-9 pt-3 px-4">
+                  <img src="img/CSEUG 2023.png" alt="" class="events-img events-overview-img"/>
                   <p class="title mt-2">CloudStack European User Group 2023</p>
-                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Virtual Event</p>
-                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>7th April 2022</p>
+                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>London, UK</p>
+                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>May 4, 2023</p>
                 </div>
                 <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://cloudstack.apache.org/blog/cseug-2023-roundup" class="btn btn-outline-secondary me-3">Read More</a>
-                  <a href="https://www.youtube.com/watch?v=K6AZrM85q9I&list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd" class="btn btn-primary">Watch</a>
+                  <a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd" class="btn btn-primary">Watch</a>
                 </div>
               </div>
             </div>
