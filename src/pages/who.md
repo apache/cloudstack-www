@@ -12,7 +12,7 @@ Board Minutes: https://whimsy.apache.org/board/minutes/CloudStack.html
 
 The following data is subject to change. The up-to-date information can be found on <a href="http://people.apache.org/committers-by-project.html#cloudstack-pmc">the Apache Peoples site</a>:
 
-**PMC members (also in the committer group)**:
+**PMC members (also in the [Committers](#committers) group)**:
 
 - Abhishek Kumar    (shwstppr)
 - Alena Prokharchyk	(alena1108)
@@ -70,7 +70,7 @@ The following data is subject to change. The up-to-date information can be found
 - Will Stevens	(swill)
 - William Chan	(willchan)
 
-**Committers**:
+**<a name="committers">Committers</a>**:
 
 - Abhinandan Prateek	(aprateek)
 - Abhishek Kumar	(shwstppr)
