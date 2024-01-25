@@ -18,13 +18,105 @@ function IntegrationsHeader() {
               seamlessly align with your technology stack.
             </p>
             <div class="center-buttons">
-              <a href="#" class="btn btn-primary btn-size mb-5">Explore</a>
             </div>
           </div>
           <div class="col-lg-7"><img src="img/oss_vs_css_integration_illustration.png" class="img-fluid" alt=""/></div>
         </div>
       </div>
     </header>
+  );
+}
+
+function OurUsers() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+        <section class="our-users">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="section-title text-center mb-4">Learn from our users</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 order-lg-2">
+                <div class="card-users">
+                  <div class="card-images clearfix mb-4">
+                    <img src="img/quotes_icon.svg" class="float-start" alt=""/>
+                    <img src="img/Kshtish_img.png" class="float-start" alt=""/>
+                    <img src="img/apiculus_logo.svg" class="float-end" alt=""/>
+                  </div>
+                  <div class="card-text">
+                    <p class="mb-4">
+“<strong>CloudStack is extremely easy to set up, learn, manage and
+operate</strong>. In our market(s), this not only helps our customers
+launch quickly, but also makes them feel empowered by way of using a
+technology that can easily be in-sourced.
+                    </p>
+                    <p>
+Our aim is to position the combination of CloudStack and Apiculus as a
+robust cloud solution in 100+ countries and 300+”
+                    </p>
+                  </div>
+                  <div class="card-info">
+                    <div class="card-name">— Kshitish Purohit</div>
+                    <p class="blue-title">CHIEF PRODUCT OFFICER</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 order-lg-2">
+                <div class="card-users">
+                  <div class="card-images clearfix mb-4">
+                    <img src="img/quotes_icon.svg" class="float-start" alt=""/>
+                    <img src="img/Tamara_img.png" class="float-start" alt=""/>
+                    <img src="img/Frauhofer_logo.svg" class="float-end" alt=""/>
+                  </div>
+                  <div class="card-text">
+                    <p class="mb-4">
+“<strong>CloudStack and Terraform bring scalability and
+flexibility</strong>. The immediate benefit out of them is that you
+can have tested and proven blueprints and roll out environments
+quickly. Terraform is perfect for quickly creating Test/Dev
+environments.
+                    </p>
+                    <p>
+In distributed teams, collaboration is extremely
+important. Infrastructure as code is a huge boost, helping teams to
+collaborate on code.”
+                    </p>
+                  </div>
+                  <div class="card-info">
+                    <div class="card-name">— Tamara Muryshkin</div>
+                    <p class="blue-title">ENTERPRISE SERVICE MANAGER</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 order-lg-2">
+                <div class="card-users">
+                  <div class="card-images clearfix mb-4">
+                    <img src="img/quotes_icon.svg" class="float-start" alt=""/>
+                    <img src="img/Sven_img.png" class="float-start" alt=""/>
+                    <img src="img/ewerk_group_logo.png" class="float-end" alt=""/>
+                  </div>
+                  <div class="card-text">
+                    <p class="mb-4">
+“The EWERK Group mainly serves organizations in system-relevant
+industries with regulated IT. <strong>In these industries, highly
+complex IT infrastructure projects place special demands on the
+network</strong>. In order to meet these requirements, a
+future-oriented further development with the highest demand on
+technological know-how and flexibility of the software is needed. The
+support of Tungsten Fabric helps us to meet these requirements.”
+                    </p>
+                  </div>
+                  <div class="card-info">
+                    <div class="card-name">— Sven Vogel</div>
+                    <p class="blue-title">SENIOR MANAGER R&amp;D</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
   );
 }
 
@@ -201,263 +293,7 @@ management and storage options</strong>.
           </div>
         </section>
 
-        <section class="our-users">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="section-title text-center mb-4">Learn from our users</div>
-              </div>
-            </div>
-            <div class="row mx-auto my-auto justify-content-center">
-              <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <div class="col-md-4">
-                      <div class="card-users">
-                        <div class="card-images clearfix mb-4">
-                          <img src="img/quotes_icon.svg" class="float-start" alt=""/>
-                          <img src="img/Kshtish_img.png" class="float-start" alt=""/>
-                          <img src="img/apiculus_logo.svg" class="float-end" alt=""/>
-                        </div>
-                        <div class="card-text">
-                          <p class="mb-4">
-“<strong>CloudStack is extremely easy to set up, learn, manage and
-operate</strong>. In our market(s), this not only helps our customers
-launch quickly, but also makes them feel empowered by way of using a
-technology that can easily be in-sourced.
-                          </p>
-                          <p>
-Our aim is to position the combination of CloudStack and Apiculus as a
-robust cloud solution in 100+ countries and 300+”
-                          </p>
-                        </div>
-                        <div class="card-info">
-                          <div class="card-name">— Kshitish Purohit</div>
-                          <p class="blue-title">CHIEF PRODUCT OFFICER</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card-users">
-                        <div class="card-images clearfix mb-4">
-                          <img src="img/quotes_icon.svg" class="float-start" alt=""/>
-                          <img src="img/Tamara_img.png" class="float-start" alt=""/>
-                          <img src="img/Frauhofer_logo.svg" class="float-end" alt=""/>
-                        </div>
-                        <div class="card-text">
-                          <p class="mb-4">
-“<strong>CloudStack and Terraform bring scalability and
-flexibility</strong>. The immediate benefit out of them is that you
-can have tested and proven blueprints and roll out environments
-quickly. Terraform is perfect for quickly creating Test/Dev
-environments.
-                          </p>
-                          <p>
-In distributed teams, collaboration is extremely
-important. Infrastructure as code is a huge boost, helping teams to
-collaborate on code.”
-                          </p>
-                        </div>
-                        <div class="card-info">
-                          <div class="card-name">— Tamara Muryshkin</div>
-                          <p class="blue-title">ENTERPRISE SERVICE MANAGER</p>
-                        </div>
-                      </div>
-                    </div><div class="col-md-4">
-                      <div class="card-users">
-                        <div class="card-images clearfix mb-4">
-                          <img src="img/quotes_icon.svg" class="float-start" alt=""/>
-                          <img src="img/Sven_img.png" class="float-start" alt=""/>
-                          <img src="img/ewerk_group_logo.png" class="float-end" alt=""/>
-                        </div>
-                        <div class="card-text">
-                          <p class="mb-4">
-“The EWERK Group mainly serves organizations in system-relevant
-industries with regulated IT. <strong>In these industries, highly
-complex IT infrastructure projects place special demands on the
-network</strong>. In order to meet these requirements, a
-future-oriented further development with the highest demand on
-technological know-how and flexibility of the software is needed. The
-support of Tungsten Fabric helps us to meet these requirements.”
-                          </p>
-                        </div>
-                        <div class="card-info">
-                          <div class="card-name">— Sven Vogel</div>
-                          <p class="blue-title">SENIOR MANAGER R&amp;D</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="carousel-item">
-                    <div class="col-md-4">
-                      <div class="card-users">
-                        <div class="card-images clearfix mb-4">
-                          <img src="img/quotes_icon.svg" class="float-start" alt=""/>
-                          <img src="img/Tamara_img.png" class="float-start" alt=""/>
-                          <img src="img/Frauhofer_logo.svg" class="float-end" alt=""/>
-                        </div>
-                        <div class="card-text">
-                          <p class="mb-4">
-“<strong>CloudStack and Terraform bring scalability and
-flexibility</strong>. The immediate benefit out of them is that you
-can have tested and proven blueprints and roll out environments
-quickly. Terraform is perfect for quickly creating Test/Dev
-environments.
-                          </p>
-                          <p>
-In distributed teams, collaboration is extremely
-important. Infrastructure as code is a huge boost, helping teams to
-collaborate on code.”
-                          </p>
-                        </div>
-                        <div class="card-info">
-                          <div class="card-name">— Tamara Muryshkin</div>
-                          <p class="blue-title">ENTERPRISE SERVICE MANAGER</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card-users">
-                        <div class="card-images clearfix mb-4">
-                          <img src="img/quotes_icon.svg" class="float-start" alt=""/>
-                          <img src="img/Sven_img.png" class="float-start" alt=""/>
-                          <img src="img/ewerk_group_logo.png" class="float-end" alt=""/>
-                        </div>
-                        <div class="card-text">
-                          <p class="mb-4">
-“The EWERK Group mainly serves organizations in system-relevant
-industries with regulated IT. <strong>In these industries, highly
-complex IT infrastructure projects place special demands on the
-network</strong>. In order to meet these requirements, a
-future-oriented further development with the highest demand on
-technological know-how and flexibility of the software is needed. The
-support of Tungsten Fabric helps us to meet these requirements.”
-                          </p>
-                        </div>
-                        <div class="card-info">
-                          <div class="card-name">— Sven Vogel</div>
-                          <p class="blue-title">SENIOR MANAGER R&amp;D</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card-users">
-                        <div class="card-images clearfix mb-4">
-                          <img src="img/quotes_icon.svg" class="float-start" alt=""/>
-                          <img src="img/Kshtish_img.png" class="float-start" alt=""/>
-                          <img src="img/apiculus_logo.svg" class="float-end" alt=""/>
-                        </div>
-                        <div class="card-text">
-                          <p class="mb-4">
-“<strong>CloudStack is extremely easy to set up, learn, manage and
-operate</strong>. In our market(s), this not only helps our customers
-launch quickly, but also makes them feel empowered by way of using a
-technology that can easily be in-sourced.
-                          </p>
-                          <p>
-Our aim is to position the combination of CloudStack and Apiculus as a
-robust cloud solution in 100+ countries and 300+”
-                          </p>
-                        </div>
-                        <div class="card-info">
-                          <div class="card-name">— Kshitish Purohit</div>
-                          <p class="blue-title">CHIEF PRODUCT OFFICER</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="carousel-item">
-                    <div class="col-md-4">
-                      <div class="card-users">
-                        <div class="card-images clearfix mb-4">
-                          <img src="img/quotes_icon.svg" class="float-start" alt=""/>
-                          <img src="img/Sven_img.png" class="float-start" alt=""/>
-                          <img src="img/ewerk_group_logo.png" class="float-end" alt=""/>
-                        </div>
-                        <div class="card-text">
-                          <p class="mb-4">
-“The EWERK Group mainly serves organizations in system-relevant
-industries with regulated IT. <strong>In these industries, highly
-complex IT infrastructure projects place special demands on the
-network</strong>. In order to meet these requirements, a
-future-oriented further development with the highest demand on
-technological know-how and flexibility of the software is needed. The
-support of Tungsten Fabric helps us to meet these requirements.”
-                          </p>
-                        </div>
-                        <div class="card-info">
-                          <div class="card-name">— Sven Vogel</div>
-                          <p class="blue-title">SENIOR MANAGER R&amp;D</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card-users">
-                        <div class="card-images clearfix mb-4">
-                          <img src="img/quotes_icon.svg" class="float-start" alt=""/>
-                          <img src="img/Kshtish_img.png" class="float-start" alt=""/>
-                          <img src="img/apiculus_logo.svg" class="float-end" alt=""/>
-                        </div>
-                        <div class="card-text">
-                          <p class="mb-4">
-“<strong>CloudStack is extremely easy to set up, learn, manage and
-operate</strong>. In our market(s), this not only helps our customers
-launch quickly, but also makes them feel empowered by way of using a
-technology that can easily be in-sourced.
-                          </p>
-                          <p>
-Our aim is to position the combination of CloudStack and Apiculus as a
-robust cloud solution in 100+ countries and 300+”
-                          </p>
-                        </div>
-                        <div class="card-info">
-                          <div class="card-name">— Kshitish Purohit</div>
-                          <p class="blue-title">CHIEF PRODUCT OFFICER</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="card-users">
-                        <div class="card-images clearfix mb-4">
-                          <img src="img/quotes_icon.svg" class="float-start" alt=""/>
-                          <img src="img/Tamara_img.png" class="float-start" alt=""/>
-                          <img src="img/Frauhofer_logo.svg" class="float-end" alt=""/>
-                        </div>
-                        <div class="card-text">
-                          <p class="mb-4">
-“<strong>CloudStack and Terraform bring scalability and
-flexibility</strong>. The immediate benefit out of them is that you
-can have tested and proven blueprints and roll out environments
-quickly. Terraform is perfect for quickly creating Test/Dev
-environments.
-                          </p>
-                          <p>
-In distributed teams, collaboration is extremely
-important. Infrastructure as code is a huge boost, helping teams to
-collaborate on code.”
-                          </p>
-                        </div>
-                        <div class="card-info">
-                          <div class="card-name">— Tamara Muryshkin</div>
-                          <p class="blue-title">ENTERPRISE SERVICE MANAGER</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
-                  <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-                  <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
-                </div>
-                <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-bs-slide="prev">🡐</a>
-                <a class="carousel-control-next" href="#recipeCarousel" role="button" data-bs-slide="next">🡒</a>
-              </div>
-            </div>
-          </div>
-        </section>
+        <OurUsers/>
 
         <section class="grey-splash">
           <div class="container">
@@ -535,7 +371,7 @@ successful Proof of…
                     </p>
                   </div>
                   <div class="apache-card-footer">
-                    <a href="" class="btn btn-primary">Download</a>
+                    <a href="files/acs-solution-brief-storpool-2022.pdf" class="btn btn-primary">Download</a>
                   </div>
                 </div>
               </div>
