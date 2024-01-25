@@ -157,7 +157,7 @@ hybrid deployments.
 CKS is an easy to use quick start integration with kubernetes for
 starting clusters easily.
 		  </p>
-                  <a href="blog/we-systems-case-study" class="btn btn-outline-secondary btn-card">Learn More</a>
+                  <a href="kubernetes" class="btn btn-outline-secondary btn-card">Learn More</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
@@ -247,7 +247,7 @@ involved with the community.
                   <img src="img/india 2024.jpeg" alt="" class="events-img events-overview-img"/>
                   <p class="title mt-2">CloudStack India User Group</p>
                   <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Hyderabad, India</p>
-                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>Februari 22nd 2024</p>
+                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>February 22nd 2024</p>
                 </div>
                 <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://cloudstack.apache.org/blog/india-user-group-2024/" class="btn btn-outline-secondary me-3">Read More</a>
