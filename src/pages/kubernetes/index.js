@@ -90,7 +90,6 @@ CloudStack using Cluster API.</p>
                         <p class="px18 mb-4">CloudStack hybrid
 deployments of Kubernetes. It is built atop the lessons learned from
 pre- vious cluster managers such as kops and kubicorn.</p>
-                        <a href="" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
             </section>
@@ -217,72 +216,6 @@ cluster tuning.</p>
             </div>
         </section>
 
-        <section class="m80px">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="section-title text-center mb-5">Learn More about Apache CloudStack</div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 mb-4">
-                        <div class="apache-card bgd-blue">
-                            <div class="img-holder"><img src="img/Apache%20CloudStack%20at%20a%20Glance_img.png" alt="" width="100%"/></div>
-                            <div class="apache-card-body">
-                                <div class="apache-card-title">Apache CloudStack at a Glance</div>
-                                <p>Learn more about Apache CloudStack and the capabilities it provides for IaaS builders</p>
-                                <a href="" class="btn btn-primary btn-dark-blue">Download</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mb-4">
-                        <div class="apache-card bgd-dark-blue">
-                            <div class="img-holder"><img src="img/Apache%20CloudStack%20Proof%20of%20Concept_img.png" alt="" width="100%"/></div>
-                            <div class="apache-card-body">
-                                <div class="apache-card-title">Apache CloudStack Proof of Concept Guide</div>
-                                <p>This PoC guide gives you all the guidance you need to perform a successful Proof of Concept of Apache CloudStack</p>
-                                <a href="" class="btn btn-primary">Download</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 mb-4">
-                        <div class="apache-card card-border">
-                            <div class="img-holder"><img src="img/Delivering%20Public%20Cloud%20Services_img.png" alt="" width="100%"/></div>
-                            <div class="apache-card-body">
-                                <p class="blue-title">SOLUTION BRIEF</p>
-                                <div class="apache-card-title">Delivering Public Cloud Services with CloudStack</div>
-                                <p>Discover how to use CloudStack to provision public cloud services and improve your profitability</p>
-                                <a href="" class="btn btn-primary">Download</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 mb-4">
-                         <div class="apache-card card-border">
-                            <div class="img-holder"><img src="img/IKOULA_img.png" alt="" width="100%"/></div>
-                            <div class="apache-card-body">
-                                <p class="blue-title">CASE STUDY</p>
-                                <div class="apache-card-title">IKOULA - The cloud leader &amp; innovator in France</div>
-                                <p>IKOULA Simplifies the Management of Large-Scale Cloud Infrastructure with CloudStack and XCP-ng</p>
-                                <a href="" class="btn btn-primary">Download</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mb-4">
-                         <div class="apache-card card-border">
-                            <div class="img-holder"><img src="img/Your.Online_img.png" alt="" width="100%"/></div>
-                            <div class="apache-card-body pt-0">
-                                <p class="blue-title">CASE STUDY</p>
-                                <div class="apache-card-title">Your.Online – A leading European online services platform</div>
-                                <p>Future-Proof Open-Source Platform Hosting Millions of Websites for Your.Online Powered by CloudStack, KVM and Ceph</p>
-                                <a href="" class="btn btn-primary">Download</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
       <LearnMore/>
     </Layout>
