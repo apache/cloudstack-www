@@ -153,7 +153,7 @@ const config = {
               },
               {
                 label: 'Case Studies',
-                href: 'https://cwiki.apache.org/confluence/display/CLOUDSTACK/Case+Studies'
+                href: 'blog/tags/case-studies'
               },
               {
                 label: 'Take Survey',
