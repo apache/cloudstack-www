@@ -13,10 +13,10 @@ function CloudBuildersHeader() {
                     <h1>Apache CloudStack– <strong>A Turnkey Solution for Cloud Builders</strong></h1>
                     <p class="px18 my-4 text-center text-lg-start">Decrease total cost of ownership, eliminate vendor lock-in and operational overhead</p>
                     <div class="center-buttons">
-                        <a href="downloads" class="btn btn-primary btn-size mb-5">Download</a>
+                        <a href="/downloads" class="btn btn-primary btn-size mb-5">Download</a>
                     </div>
                 </div>
-                <div class="col-lg-7"><img src="img/CloudStack_cloud_builderfs_illustration.png" class="img-fluid" alt=""/></div>
+                <div class="col-lg-7"><img src="/img/CloudStack_cloud_builderfs_illustration.png" class="img-fluid" alt=""/></div>
             </div>
 	</div>
     </header>
@@ -48,7 +48,7 @@ platform are greatly reduced.</p>
 and account management, a full and open native API, resource accounting,
  and a first-class User Interface.</p>
                     </div>
-                    <div class="col-lg-6 text-center"><img src="img/CloudStack_survey3.png" class="img-fluid mt-4 mt-lg-2" alt="CloudStack survey"/></div>
+                    <div class="col-lg-6 text-center"><img src="/img/CloudStack_survey3.png" class="img-fluid mt-4 mt-lg-2" alt="CloudStack survey"/></div>
                 </div>
             </div>
         </section>
@@ -59,12 +59,12 @@ and account management, a full and open native API, resource accounting,
                     <div class="partners-holder">
                         <p class="blue-title mb-4 mb-lg-5">LEADING COMPANIES TRUST APACHE CLOUDSTACK</p>
                         <div class="partners cloud-partners">
-                            <img src="img/BT_logo.svg" height="50" alt=""/>
-                            <img src="img/CloudOps_logo.svg" height="30" alt=""/>
-                            <img src="img/ikoula_logo.svg" height="40" alt=""/>
-                            <img src="img/M5Hosting_logo.png" height="30" alt=""/>
-                            <img src="img/versio-logo.png" height="20" alt=""/>
-                            <img src="img/yourhosting.nl_logo.svg" height="30" alt=""/>
+                            <img src="/img/BT_logo.svg" height="50" alt=""/>
+                            <img src="/img/CloudOps_logo.svg" height="30" alt=""/>
+                            <img src="/img/ikoula_logo.svg" height="40" alt=""/>
+                            <img src="/img/M5Hosting_logo.png" height="30" alt=""/>
+                            <img src="/img/versio-logo.png" height="20" alt=""/>
+                            <img src="/img/yourhosting.nl_logo.svg" height="30" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -89,37 +89,37 @@ requirements.</p>
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="power-card line">
-                            <img src="img/decrease_TCO_icon.svg" alt=""/>
+                            <img src="/img/decrease_TCO_icon.svg" alt=""/>
                             <p class="card-title">Decrease TCO for your IaaS</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="power-card line">
-                            <img src="img/open-source_icon.svg" alt=""/>
+                            <img src="/img/open-source_icon.svg" alt=""/>
                             <p class="card-title">Completely open-source</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="power-card line">
-                            <img src="img/community_icon.svg" alt=""/>
+                            <img src="/img/community_icon.svg" alt=""/>
                             <p class="card-title">Powered by an active community</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="power-card">
-                            <img src="img/easy_to_use_icon.svg" alt=""/>
+                            <img src="/img/easy_to_use_icon.svg" alt=""/>
                             <p class="card-title">Easy to use</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="power-card">
-                            <img src="img/quick_deploy_icon.svg" alt=""/>
+                            <img src="/img/quick_deploy_icon.svg" alt=""/>
                             <p class="card-title">Quick to deploy</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="power-card">
-                            <img src="img/vendor_integration_icon.svg" alt=""/>
+                            <img src="/img/vendor_integration_icon.svg" alt=""/>
                             <p class="card-title">Strong vendor integrations</p>
                         </div>
                     </div>

@@ -225,7 +225,7 @@ specific infrastructure.
                   <a href="https://docs.cloudstack.apache.org/en/4.18.1.0/" target="_blank" class="btn btn-outline-secondary btn-size">Documentation</a>
                 </div>
               </div>
-              <div class="col-lg-7"><img src="img/CloudStack_release_illustration.png" class="img-fluid img-release" alt=""/></div>
+              <div class="col-lg-7"><img src="/img/CloudStack_release_illustration.png" class="img-fluid img-release" alt=""/></div>
             </div>
 
         <EventContents/>
@@ -248,7 +248,7 @@ to Apache page, or go straight to our Developer Resources page.
               <div class="row">
                 <div class="col-lg-3 col-md-6">
                   <div class="join-card">
-                    <img src="img/git_logo.svg" alt=""/>
+                    <img src="/img/git_logo.svg" alt=""/>
                     <p class="blue-title">DEVELOPER RESOURCES</p>
                     <p class="join-title">Contribute to Apache CloudStack</p>
                     <p class="text">
@@ -260,7 +260,7 @@ participation from anybody willing to work The Apache Way.
                 </div>
                 <div class="col-lg-3 col-md-6">
                   <div class="join-card">
-                    <img src="img/slack_logo.svg" alt=""/>
+                    <img src="/img/slack_logo.svg" alt=""/>
                     <p class="blue-title">JOIN US ON SLACK</p>
                     <p class="join-title">Getting Involved</p>
                     <p class="text">
@@ -272,7 +272,7 @@ having someone with snazzy Web design skills would not be a bad thing!
                 </div>
                 <div class="col-lg-3 col-md-6">
                   <div class="join-card">
-                    <img src="img/blog_icon.svg" alt=""/>
+                    <img src="/img/blog_icon.svg" alt=""/>
                     <p class="blue-title">CONTRIBUTE CONTENT</p>
                     <p class="join-title">Blog</p>
                     <p class="text">
@@ -285,7 +285,7 @@ Video Series.
                 </div>
                 <div class="col-lg-3 col-md-6">
                   <div class="join-card">
-                    <img src="img/mailing_list_icon.svg" alt=""/>
+                    <img src="/img/mailing_list_icon.svg" alt=""/>
                     <p class="blue-title">WHERE TO ASK FOR HELP</p>
                     <p class="join-title">Mailing List</p>
                     <p class="text">Need some help getting started? Feel free to ask on the Mailing List.</p>

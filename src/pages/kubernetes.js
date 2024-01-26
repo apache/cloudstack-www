@@ -13,7 +13,7 @@ function KubernetesHeader() {
                     <h1><strong>Kubernetes on<br/> CloudStack</strong> in Production</h1>
                     <p class="px18 k-subtitle">Reduces operational overhead and infrastructure costs</p>
                 </div>
-                <div class="col-lg-6"><img src="img/CloudStack_release_illustration2.png" class="img-fluid mtm50" alt=""/></div>
+                <div class="col-lg-6"><img src="/img/CloudStack_release_illustration2.png" class="img-fluid mtm50" alt=""/></div>
             </div>
         </div>
     </header>
@@ -50,7 +50,7 @@ you need: compute orchestration, Network-as-a-Service, user and account
 management, a complete and open native API, resource accounting, and a
 first-class User Interface.</p>
                     </div>
-                    <div class="col-lg-6 margin-second text-center"><img src="../img/CloudStack_survey2.png" class="img-fluid" alt="CloudStack survey"/></div>
+                    <div class="col-lg-6 margin-second text-center"><img src="/img/CloudStack_survey2.png" class="img-fluid" alt="CloudStack survey"/></div>
                 </div>
             </div>
         </section>
@@ -112,7 +112,7 @@ seamless: users can now manage container clusters and deploy &amp;
 manage cloud-native applications all in the same user-interface they use
  to manage their existing compute, network and storage.</p>
                     </div>
-                    <div class="col-lg-6 text-center"><img src="img/apache_cloudstack_services.png" alt="" class="img-fluid"/></div>
+                    <div class="col-lg-6 text-center"><img src="/img/apache_cloudstack_services.png" alt="" class="img-fluid"/></div>
                 </div>
             </div>
         </section>
@@ -141,7 +141,7 @@ manage cloud-native applications all in the same user-interface they use
                             <div class="tab-pane fade show active" id="self-healing" role="tabpanel" aria-labelledby="self-healing-tab" tabindex="0">
                                 <div class="tab-content">
                                     <div class="row p-4">
-                                        <div class="col-lg-2 text-center"><img src="img/kubernetes_healing_icon.svg" alt="Self–Healing" class="mb-4"/></div>
+                                        <div class="col-lg-2 text-center"><img src="/img/kubernetes_healing_icon.svg" alt="Self–Healing" class="mb-4"/></div>
                                         <div class="col-lg-10">
                                             <p class="px18"><strong>The
 ClusterAPI provides self-healing when a Kubernetes node fails, spawning
@@ -163,7 +163,7 @@ nodes.</p>
                             <div class="tab-pane fade" id="mcm" role="tabpanel" aria-labelledby="mcm-tab" tabindex="1">
                                 <div class="tab-content">
                                     <div class="row p-4">
-                                        <div class="col-lg-2 text-center"><img src="img/multi-cluster_icon.svg" alt="Multiple Cluster Management" class="mb-4"/></div>
+                                        <div class="col-lg-2 text-center"><img src="/img/multi-cluster_icon.svg" alt="Multiple Cluster Management" class="mb-4"/></div>
                                         <div class="col-lg-10">
                                             <p class="px18">When
 Kubernetes cluster expansion is considered, ClusterAPI provides support
@@ -185,7 +185,7 @@ across multiple clusters, thus reducing rework.</p>
                             <div class="tab-pane fade" id="scaling" role="tabpanel" aria-labelledby="scaling-tab" tabindex="2">
                                 <div class="tab-content">
                                     <div class="row p-4">
-                                        <div class="col-lg-2 text-center"><img src="img/scaling_icon.svg" alt="Scaling" class="mb-4"/></div>
+                                        <div class="col-lg-2 text-center"><img src="/img/scaling_icon.svg" alt="Scaling" class="mb-4"/></div>
                                         <div class="col-lg-10">
                                             <p class="px18">Application
 workload is often unpredictable, and to scale up and down Kubernetes

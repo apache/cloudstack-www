@@ -222,22 +222,22 @@ const config = {
         copyright: `
             <div class="social">
                 <a href="mailto:dev-subscribe@cloudstack.apache.org">
-		  <img src="img/mail_mini_icon.svg" alt=""/>
+		  <img src="/img/mail_mini_icon.svg" alt=""/>
 		</a>
                 <a href="https://join.slack.com/t/apachecloudstack/shared_invite/zt-2aegc22z7-tPCxpptfcebTBtd59qcZSQ">
-		  <img src="img/slack_mini_icon.svg" alt=""/>
+		  <img src="/img/slack_mini_icon.svg" alt=""/>
 		</a>
                 <a href="https://github.com/apache/cloudstack">
-		  <img src="img/git_mini_icon.svg" alt=""/>
+		  <img src="/img/git_mini_icon.svg" alt=""/>
 		</a>
                 <a href="https://twitter.com/CloudStack">
-		  <img src="img/twitter_X_mini_icon.svg" alt=""/>
+		  <img src="/img/twitter_X_mini_icon.svg" alt=""/>
 		</a>
                 <a href="https://www.youtube.com/@ApacheCloudStack">
-		  <img src="img/youtube_mini_icon.svg" alt=""/>
+		  <img src="/img/youtube_mini_icon.svg" alt=""/>
 		</a>
                 <a href="https://www.linkedin.com/company/apachecloudstack/posts/">
-		  <img src="img/linkedin_icon.svg" alt=""/>
+		  <img src="/img/linkedin_icon.svg" alt=""/>
 		</a>
             </div>
             <div class="footer-bottom">Copyright © 2023 The Apache
