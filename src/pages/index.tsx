@@ -35,14 +35,16 @@ Apache CloudStack™  is an open-source software system designed to deploy and m
       </div>
       <div class="partners-holder">
         <div class="partners">
-          <img src="img/brainboard.png" height="30" alt=""/>
-          <img src="img/ntt.svg" height="20" alt=""/>
+          <img src="img/brainboard.png" height="25" alt=""/>
+          <img src="img/ntt.svg" height="18" alt=""/>
           <img src="img/leaseweb.svg" height="25" alt=""/>
           <img src="img/logo-indiqus.png" height="20" alt=""/>
           <img src="img/Logo_arsat.png" height="20" alt=""/>
-          <img src="img/we_systems.svg" height="60" alt=""/>
-          <img src="img/brainboard.png" height="30" alt=""/>
-          <img src="img/ntt.svg" height="20" alt=""/>
+          <img src="img/we_systems.svg" height="50" alt=""/>
+          <img src="img/AT&T_logo_2016.svg" height="38" alt=""/>
+          <img src="img/Dimsi SVG Logo.svg" height="30" alt=""/>
+          <img src="img/jotelulu.png" height="50" alt=""/>
+          <img src="img/proio_logo.svg" height="30" alt=""/>
         </div>
       </div>
     </header>
