@@ -130,10 +130,6 @@ const config = {
             position: 'right',
             items: [
               {
-                label: 'CloudStack Integrations',
-                href: '/integrations'
-              },
-              {
                 label: 'Cloud Builders',
                 href: '/cloud-builders'
               },
