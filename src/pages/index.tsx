@@ -152,9 +152,10 @@ optimizing resource utilization.
                   <img src="img/continuous_integration_icon.svg" alt=""/>
                   <p class="card-title mb-3">Kubernetes CAPC/CKS</p>
                   <p class="card-text">
-CAPI implementation CAPC integrates Kubernetes with CloudStack,
-simplifying cluster management. Apache 2 licensed, CNCF-managed for
+CAPI implementation CAPC integrates Kubernetes with CloudStack&nbsp;
+<strong>simplifying cluster management</strong>. Apache 2 licensed, CNCF-managed for
 hybrid deployments.
+		  <br/>
 		  <br/>
 CKS is an easy to use quick start integration with kubernetes for
 starting clusters easily.
