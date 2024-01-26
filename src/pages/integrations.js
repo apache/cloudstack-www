@@ -1,7 +1,7 @@
 import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import LearnMore from '../learn-more.mdx';
+import LearnMore from './learn-more.mdx';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 function IntegrationsHeader() {
