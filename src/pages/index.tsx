@@ -75,7 +75,7 @@ public cloud services, and by many companies to provide an on-premises
                 <p class="px18">
 CloudStack is a turnkey solution that includes the entire “stack” of
 features most organizations want with an laaS cloud: compute
-orchestration, Net-work-as-a-Service, user and account management, a
+orchestration, Network-as-a-Service, user and account management, a
 full and open native API, resource accounting, and a first-class User
 Interface (UI).
                 </p>
