@@ -60,6 +60,18 @@
     no-repeat;
 }
 
+/* kubernetes */
+.tabbed-examples {
+    text-align:center;
+    width:100%;
+    margin: auto;
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: inherit;
+    margin-left: calc(-.5 * var(width));
+}
+
 /* style.css from the ui dev */ 
 body {
 	font-family: 'Open Sans', sans-serif;
