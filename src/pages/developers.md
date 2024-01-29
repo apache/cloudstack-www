@@ -204,26 +204,16 @@ endings (LF) rather than Windows-type line endings (CRLF).</p>
 
 ## Resources
 
-- <a href="https://github.com/apache/cloudstack/" class="list-group-item" target="_blank">Public repository (on github)</a>
-
-- <a hread="https://github.com/apache/cloudstack/blob/main/CONTRIBUTING.md" class="list-group-item" target="_blank">Contribution Guidelines</a>
-
-- <a href="https://builds.apache.org/view/A-D/view/Cloudstack/" class="list-group-item" target="_blank">ASF Jenkins</a>
-
-- <a href="http://jenkins.buildacloud.org/" class="list-group-item" target="_blank">CloudStack Jenkins</a>
-
-- <a href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Development+101" class="list-group-item" target="_blank">CloudStack Development 101</a>
-
-- <a href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Setting+up+CloudStack+Development+Environment" class="list-group-item" target="_blank">Setting up a Dev Environment</a>
-
-- <a href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Coding+conventions" class="list-group-item" target="_blank">Code Conventions</a>
-
-- <a href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Testing" class="list-group-item" target="_blank">Testing CloudStack</a>
-
-- <a href="https://issues.apache.org/jira/browse/CLOUDSTACK" class="list-group-item" target="_blank">Obsolete Jira issue tracker</a>
-
-- <a href="https://github.com/shapeblue/hackerbook" target="_blank">Hackerbook - opensource CloudStack Developer training course</a>
-
+- [Public repository (on github)](https://github.com/apache/cloudstack/)
+- [Contribution Guidelines](https://github.com/apache/cloudstack/blob/main/CONTRIBUTING.md)
+- [ASF Jenkins](https://builds.apache.org/view/A-D/view/Cloudstack/)
+- [CloudStack Jenkins](http://jenkins.buildacloud.org/)
+- [CloudStack Development 101](https://cwiki.apache.org/confluence/display/CLOUDSTACK/Development+101)
+- [Setting up a Dev Environment](https://cwiki.apache.org/confluence/display/CLOUDSTACK/Setting+up+CloudStack+Development+Environment)
+- [Code Conventions](https://cwiki.apache.org/confluence/display/CLOUDSTACK/Coding+conventions)
+- [Testing CloudStack](https://cwiki.apache.org/confluence/display/CLOUDSTACK/Testing)
+- [Obsolete Jira issue tracker](https://issues.apache.org/jira/browse/CLOUDSTACK)
+- [Hackerbook - opensource CloudStack Developer training course](https://github.com/shapeblue/hackerbook)
 - [mbx - build and run appliance based CloudStack env for development and QA](https://github.com/shapeblue/mbx)
 
 ### CloudStack Git Repositories
