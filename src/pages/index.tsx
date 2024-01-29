@@ -7,7 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import EventContents from '@site/src/components/Events';
 import LearnMore from './learn-more.mdx';
-
+import ArchitectureSVG from '@site/static/img/Apache CloudStack Infrastructure_illustration.svg';
 import styles from './index.module.css';
 
 const recentPosts = require("../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json");
@@ -86,7 +86,7 @@ CloudStack provides an API that’s compatible with AWS EC2 and S3 for
 organizations that wish to deploy hybrid clouds.
                 </p>
               </div>
-              <div class="col-lg-6 text-center"><img src="img/Apache%20CloudStack%20Infrastructure_illustration.svg" class="img-fluid" alt="Apache CloudStack Infrastructure Illustration"/></div>
+              <ArchitectureSVG class="col-lg-6 text-center"/>
             </div>
           </div>
         </section>
