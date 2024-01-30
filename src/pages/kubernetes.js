@@ -146,7 +146,7 @@ compute, network and storage.
             </div>
             <div class="row">
               <div class="col col-lg-9 offset-lg-2">
-                <Tabs className="tabbed-examples">
+                <Tabs className="tabbed-examples tab-box">
                   <TabItem value="self–healing" label="Self–Healing" default>
                     <div class="row p-4">
                       <div class="col-lg-2 text-center"><img src="/img/kubernetes_healing_icon.svg" alt="Self–Healing" class="mb-4"/></div>
