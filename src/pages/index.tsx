@@ -30,21 +30,21 @@ Apache CloudStack™  is an open-source software system designed to deploy and m
               <p class="small mt-3">Apache CloudStack 4.18.1.0 is out!</p>
             </div>
           </div>
-          <div class="col-lg-7"><img src="img/CloudStack_monkey_cloud.png" class="img-fluid" alt=""/></div>
+          <div class="col-lg-7"><img src="/img/CloudStack_monkey_cloud.png" class="img-fluid" alt=""/></div>
         </div>
       </div>
       <div class="partners-holder">
         <div class="partners">
-          <img src="img/brainboard.png" height="25" alt=""/>
-          <img src="img/ntt.svg" height="18" alt=""/>
-          <img src="img/leaseweb.svg" height="25" alt=""/>
-          <img src="img/logo-indiqus.png" height="20" alt=""/>
-          <img src="img/Logo_arsat.png" height="20" alt=""/>
-          <img src="img/we_systems.svg" height="50" alt=""/>
-          <img src="img/AT&T_logo_2016.svg" height="38" alt=""/>
-          <img src="img/Dimsi SVG Logo.svg" height="30" alt=""/>
-          <img src="img/jotelulu.png" height="50" alt=""/>
-          <img src="img/proio_logo.svg" height="30" alt=""/>
+          <img src="/img/brainboard.png" height="25" alt=""/>
+          <img src="/img/ntt.svg" height="18" alt=""/>
+          <img src="/img/leaseweb.svg" height="25" alt=""/>
+          <img src="/img/logo-indiqus.png" height="20" alt=""/>
+          <img src="/img/Logo_arsat.png" height="20" alt=""/>
+          <img src="/img/we_systems.svg" height="50" alt=""/>
+          <img src="/img/AT&T_logo_2016.svg" height="38" alt=""/>
+          <img src="/img/Dimsi SVG Logo.svg" height="30" alt=""/>
+          <img src="/img/jotelulu.png" height="50" alt=""/>
+          <img src="/img/proio_logo.svg" height="30" alt=""/>
         </div>
       </div>
     </header>
@@ -101,7 +101,7 @@ organizations that wish to deploy hybrid clouds.
             <div class="row">
               <div class="col-lg-4 col-md-6">
                 <div class="power-card line">
-                  <img src="img/Cloud_Solution_icon.svg" alt=""/>
+                  <img src="/img/Cloud_Solution_icon.svg" alt=""/>
                   <p class="card-title mb-3">Cloud Solution Provider</p>
                   <p class="card-text">
 Apache CloudStack seamlessly integrates with your existing
@@ -113,7 +113,7 @@ required</strong> to build a multi-tenant IaaS platform.
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="power-card line">
-                  <img src="img/MSPs_icon.svg" alt=""/>
+                  <img src="/img/MSPs_icon.svg" alt=""/>
                   <p class="card-title mb-3">MSPs</p>
                   <p class="card-text">
 <strong>Ensure simplicity, scalability and avoid vendor lock-in with
@@ -125,7 +125,7 @@ cloud environments from a single plane.
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="power-card line">
-                  <img src="img/Telcos_icon.svg" alt=""/>
+                  <img src="/img/Telcos_icon.svg" alt=""/>
                   <p class="card-title mb-3">Telcos</p>
                   <p class="card-text">
 Deliver cutting-edge cloud-based services, including <strong>virtual
@@ -137,7 +137,7 @@ computing</strong> capabilities with Edge zones.
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="power-card">
-                  <img src="img/enterprises_icon.svg" alt=""/>
+                  <img src="/img/enterprises_icon.svg" alt=""/>
                   <p class="card-title mb-3">Enterprises</p>
                   <p class="card-text">
 <strong>Align your IT infrastructure with your specific business
@@ -149,7 +149,7 @@ optimizing resource utilization.
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="power-card">
-                  <img src="img/continuous_integration_icon.svg" alt=""/>
+                  <img src="/img/continuous_integration_icon.svg" alt=""/>
                   <p class="card-title mb-3">Kubernetes CAPC/CKS</p>
                   <p class="card-text">
 CAPI implementation CAPC integrates Kubernetes with CloudStack&nbsp;
@@ -165,7 +165,7 @@ starting clusters easily.
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="power-card">
-                  <img src="img/edge_icon.svg" alt=""/>
+                  <img src="/img/edge_icon.svg" alt=""/>
                   <p class="card-title mb-3">Edge Computing</p>
                   <p class="card-text">
 Manage both traditional Cloud (Core Zones) and Edge Zones from a
@@ -194,7 +194,7 @@ own cloud development plan, and use the hardware and software of your
 choice and business requirements.
 		</p>
               </div>
-              <div class="col-lg-6 text-center"><img src="img/key_challenges_illustration.png" alt="" class="img-fluid"/></div>
+              <div class="col-lg-6 text-center"><img src="/img/key_challenges_illustration.png" alt="" class="img-fluid"/></div>
             </div>
             <div class="take">Take charge of your cloud management. <strong>Decrease operational costs and simplify cloud management</strong> with Apache CloudStack!</div>
           </div>
@@ -212,7 +212,7 @@ market: it is not proprietary technology and is not tied to any
 specific infrastructure.
 		</p>
               </div>
-              <div class="col-lg-6 text-center"><img src="img/Multi-hypervisor_illustration.png" alt="" class="img-fluid"/></div>
+              <div class="col-lg-6 text-center"><img src="/img/Multi-hypervisor-environment.png" alt="" class="img-fluid"/></div>
             </div>
 
             <div class="row">
@@ -308,7 +308,7 @@ Community!
                   </p>
                   <div class="center-buttons"><a href="/survey" class="btn btn-outline-secondary btn-size">Take the Survey</a></div>
                 </div>
-                <div class="col-lg-6 text-center"><img src="img/CloudStack_survey.png" class="img-fluid mt-5"/></div>
+                <div class="col-lg-6 text-center"><img src="/img/CloudStack_survey.png" class="img-fluid mt-5"/></div>
               </div>
             </div>
           </div>
