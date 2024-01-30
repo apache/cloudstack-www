@@ -79,8 +79,10 @@ project's&nbsp;<a href="https://www.apache.org/dev/committers.html"
 alt="link to committers">committers</a>. Note that committer status
 is <strong>not</strong> limited to developers, but is conferred to
 individuals who have made sustained contributions of high quality, and
-have shown a commitment to mentoring other contributors and following
-[The Apache Way](https://theapacheway.com).
+have shown a commitment to mentoring other contributors and following&nbsp;
+                  <a href="https://theapacheway.com" alt="the apache way dot com">
+                    The Apache Way
+                  </a>.
                 </p>
                 <p>
 The current Vice President of Apache CloudStack and chair of the PMC,
