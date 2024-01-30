@@ -144,7 +144,7 @@ computing</strong> capabilities with Edge zones.
 requirements</strong> and security concerns, driving efficiency and
 optimizing resource utilization.
 		  </p>
-                  <a href="" class="btn btn-card">&nbsp;</a>
+                  <a href="https://cloudstack.apache.org/blog/cloudstack-and-gitops-at-scale/" class="btn btn-outline-secondary btn-card">Discover a Success Story</a>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
