@@ -7,7 +7,12 @@ export default function Events() {
   const {siteConfig} = useDocusaurusContext();
     return (
     <Layout title="Apache CloudStack Events and Meetups" >
-      <EventContents/>
+      <section class="events">
+        <div class="container">
+          <EventContents class="events"/>
+        </div>
+      </section>
+
       <section class="events container">
         <div>
           <p>

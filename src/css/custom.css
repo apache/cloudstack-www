@@ -220,7 +220,7 @@ h1 {
 
 /* events */
 .events {
-	padding: 50px 0;
+	padding: 0px 0 0px;
 }
 .margin-first {
 	margin-top: 200px;
@@ -1144,7 +1144,8 @@ progress{vertical-align:baseline}
     width:100%;
     padding-right:calc(var(--bs-gutter-x) * .5);
     padding-left:calc(var(--bs-gutter-x) * .5);
-    margin-right:auto;margin-left:auto
+    margin-right:auto;
+    margin-left:auto
 }
 
 

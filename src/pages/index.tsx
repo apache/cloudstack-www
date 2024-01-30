@@ -200,7 +200,7 @@ choice and business requirements.
           </div>
         </section>
 
-        <section class="events">
+        <section>
           <div class="container">
             <div class="row">
               <div class="col-lg-6 order-lg-2">
@@ -227,9 +227,12 @@ specific infrastructure.
               </div>
               <div class="col-lg-7"><img src="/img/CloudStack_release_illustration.png" class="img-fluid img-release" alt=""/></div>
             </div>
+          </div>
+        </section>
 
-        <EventContents/>
-
+        <section>
+          <div class="container">
+            <EventContents/>
           </div>
         </section>
 

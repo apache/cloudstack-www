@@ -2,7 +2,7 @@ import React from "react";
 
 export default function EventContents(): JSX.Element {
     return <>
-        <section class="events">
+        <section>
           <div class="container">
 
             <div class="row margin-second">
