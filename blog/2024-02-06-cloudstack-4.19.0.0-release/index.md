@@ -76,7 +76,6 @@ more!"</em>
 </div>
 </div>
 <br>
-<br>
 <div className="row">
 <div className="col col--3">
 
@@ -90,9 +89,8 @@ enhancing the ease of adopting CloudStack, evident in capabilities like VMware
 to KVM migration and KVM ingestion. The introduction of the Object Store
 framework introduces a new dimension to storage capabilities within CloudStack.
 Features such as hypervisor-agnostic DRS and Snapshot Copy DRaaS further bolster
-the orchestration capabilities of CloudStack.</em>
-
-<em>The release process has been a year-long collaborative effort involving over 40
+the orchestration capabilities of CloudStack. The release process has been a
+year-long collaborative effort involving over 40
 contributors from both organizations and individuals. Kudos to the community
 members who not only contributed fantastic features but also played a crucial
 role in testing and refining each other's work. This collaborative endeavour
