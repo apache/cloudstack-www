@@ -64,16 +64,19 @@ Apache CloudStack download page, and can be found at:
 
 </div>
 <div className="col col--9">
-_"4.19 is a fantastic release that is culmination of all our efforts from much of
+<em>"4.19 is a fantastic release that is culmination of all our efforts from much of
 last year coming together with a ton of exciting new features and benefits for
 existing and new users such as VMware to KVM instance migration, a new pluggable
 object storage framework with support for Min.io, hypervisor-agnostic DRS,
 support for VNF appliances, DR as a service with multi-zone snapshot copy,
 OAuth2, KVM ingestion, VM action scheduler, a redesigned dashboard, and much
-more!"_
-    - [Rohit Yadav](https://www.linkedin.com/in/rohityadavcloud/), CloudStack VP
+more!"</em>
+
+\- [Rohit Yadav](https://www.linkedin.com/in/rohityadavcloud/), CloudStack VP
 </div>
 </div>
+<br>
+<br>
 <div className="row">
 <div className="col col--3">
 
@@ -81,7 +84,7 @@ more!"_
 
 </div>
 <div className="col col--9">
-_“The 4.19 release marks a significant milestone for CloudStack, combining a
+<em></em>“The 4.19 release marks a significant milestone for CloudStack, combining a
 diverse array of new features and crucial fixes. The primary focus has been on
 enhancing the ease of adopting CloudStack, evident in capabilities like VMware
 to KVM migration and KVM ingestion. The introduction of the Object Store
@@ -93,7 +96,8 @@ The release process has been a year-long collaborative effort involving over 40
 contributors from both organizations and individuals. Kudos to the community
 members who not only contributed fantastic features but also played a crucial
 role in testing and refining each other's work. This collaborative endeavour
-has culminated in a feature-rich and stable 4.19 release.”_
-    - [Abhishek Kumar](https://www.linkedin.com/in/shwstppr/), 4.19 Release Manager
+has culminated in a feature-rich and stable 4.19 release.”</em>
+
+\- [Abhishek Kumar](https://www.linkedin.com/in/shwstppr/), 4.19 Release Manager
 </div>
 </div>
