@@ -1,0 +1,37 @@
+<svg id="containers_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48.053" viewBox="0 0 48 48.053">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31948" data-name="Rectangle 31948" width="48" height="48.053" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_31947" data-name="Rectangle 31947" width="48" height="48.053" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_31946" data-name="Rectangle 31946" width="48" height="48" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.151" y1="1.017" x2="0.779" y2="0.118" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d1ebf8" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#2aa5dc"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_97116" data-name="Group 97116" clip-path="url(#clip-path)">
+    <g id="Group_97115" data-name="Group 97115">
+      <g id="Group_97114" data-name="Group 97114" clip-path="url(#clip-path-2)">
+        <g id="Group_97113" data-name="Group 97113" opacity="0">
+          <g id="Group_97112" data-name="Group 97112">
+            <g id="Group_97111" data-name="Group 97111" clip-path="url(#clip-path-3)">
+              <rect id="Rectangle_31945" data-name="Rectangle 31945" width="48" height="48" transform="translate(0 0)"/>
+            </g>
+          </g>
+        </g>
+        <path id="Path_90575" data-name="Path 90575" d="M33.54,33H4a3,3,0,0,1-3-3V22a3,3,0,0,1,3-3H34" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_6065" data-name="Line 6065" transform="translate(23.05 26)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_6066" data-name="Line 6066" x1="4.05" transform="translate(9 26)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_90576" data-name="Path 90576" d="M34,15h0a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H4A3,3,0,0,0,1,4v8a3,3,0,0,0,3,3H26.5" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_6067" data-name="Line 6067" transform="translate(29.05 8)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_6068" data-name="Line 6068" x1="4.05" transform="translate(9 8)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_90577" data-name="Path 90577" d="M24,40.455V29a1,1,0,0,1,.518-.877L35,22.357l-.037,12.052Zm13-18.1-.037,12.054,4.929,2.7a1,1,0,1,1-.961,1.753l-4.968-2.722L25.037,42.167l10.481,5.762a1,1,0,0,0,.963,0l11-6.047A1,1,0,0,0,48,41.006V29a1,1,0,0,0-.519-.877Z" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

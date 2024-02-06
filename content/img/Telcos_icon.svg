@@ -1,0 +1,34 @@
+<svg id="Telcos_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31251" data-name="Rectangle 31251" width="48" height="48" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.895" y1="0.077" x2="0.174" y2="0.951" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2aa5dc"/>
+      <stop offset="1" stop-color="#d1ebf8" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_95080" data-name="Group 95080" clip-path="url(#clip-path)">
+    <g id="Group_95077" data-name="Group 95077">
+      <g id="Group_95076" data-name="Group 95076" clip-path="url(#clip-path)">
+        <g id="Group_95075" data-name="Group 95075" opacity="0">
+          <g id="Group_95074" data-name="Group 95074">
+            <g id="Group_95073" data-name="Group 95073" clip-path="url(#clip-path)">
+              <rect id="Rectangle_31247" data-name="Rectangle 31247" width="48" height="48"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <line id="Line_5853" data-name="Line 5853" x2="3.957" y2="2.681" transform="translate(20.042 25.428)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_5854" data-name="Line 5854" x1="11.636" y2="4.39" transform="translate(12.364 37.768)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_5855" data-name="Line 5855" x1="6.789" y1="4.96" transform="translate(17.211 32.808)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_5856" data-name="Line 5856" y1="2.681" x2="3.957" transform="translate(23.999 25.428)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_5857" data-name="Line 5857" x1="5.818" y1="2.195" transform="translate(23.998 37.769)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_5858" data-name="Line 5858" x1="6.789" y2="4.96" transform="translate(23.998 32.808)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_89778" data-name="Path 89778" d="M0,11.067v23.55" transform="translate(23.999 12.383)" fill="none" stroke="#082330" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_89588" data-name="Path 89588" d="M20.042,25.428C14.82,40.842,8.809,47,8.809,47" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_89589" data-name="Path 89589" d="M26.439,20.588C31.933,39.565,39.189,47,39.189,47" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Union_88" data-name="Union 88" d="M-3194.554-1177.342a1,1,0,0,1-.031-1.414c3.457-3.608,4.649-8.111,3.544-13.385a12.623,12.623,0,0,0-3.545-6.161,1,1,0,0,1,.015-1.414,1,1,0,0,1,1.414.016,14.561,14.561,0,0,1,4.073,7.151c1.248,5.958-.116,11.065-4.058,15.177a.994.994,0,0,1-.723.31A.99.99,0,0,1-3194.554-1177.342Zm-23.952-.031a15.365,15.365,0,0,1-4.169-7.715,18.553,18.553,0,0,1,.112-7.464,14.547,14.547,0,0,1,4.073-7.149,1,1,0,0,1,1.414-.016,1,1,0,0,1,.016,1.414,12.6,12.6,0,0,0-3.546,6.161c-1.105,5.274.087,9.777,3.544,13.385a1,1,0,0,1-.031,1.414.993.993,0,0,1-.691.279A.994.994,0,0,1-3218.505-1177.373Zm4.684-10.628a8,8,0,0,1,8-8,8,8,0,0,1,8,8,8,8,0,0,1-8,8A8,8,0,0,1-3213.822-1188Zm16.652,6.031a1,1,0,0,1,.116-1.408,6.622,6.622,0,0,0,2.242-6.709,6.074,6.074,0,0,0-2.184-3.538,1,1,0,0,1-.128-1.408,1,1,0,0,1,1.409-.129,7.968,7.968,0,0,1,2.873,4.728,8.581,8.581,0,0,1-2.919,8.581,1,1,0,0,1-.646.238A1,1,0,0,1-3197.17-1181.97Zm-18.715.117a8.58,8.58,0,0,1-2.918-8.583,7.963,7.963,0,0,1,2.872-4.725,1,1,0,0,1,1.408.129,1,1,0,0,1-.127,1.408,6.078,6.078,0,0,0-2.184,3.536,6.625,6.625,0,0,0,2.242,6.711,1,1,0,0,1,.116,1.408,1,1,0,0,1-.763.354A1,1,0,0,1-3215.885-1181.853Z" transform="translate(3229.822 1200.001)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

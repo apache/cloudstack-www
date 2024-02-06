@@ -1,0 +1,32 @@
+<svg id="kubernetes_healing_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31751" data-name="Rectangle 31751" width="48" height="48" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.091" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d1ebf8" stop-opacity="0.039"/>
+      <stop offset="1" stop-color="#2aa5dc"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_95853" data-name="Group 95853" clip-path="url(#clip-path)">
+    <g id="Group_95848" data-name="Group 95848">
+      <g id="Group_95847" data-name="Group 95847" clip-path="url(#clip-path)">
+        <g id="Group_95846" data-name="Group 95846" opacity="0">
+          <g id="Group_95845" data-name="Group 95845">
+            <g id="Group_95844" data-name="Group 95844" clip-path="url(#clip-path)">
+              <rect id="Rectangle_31746" data-name="Rectangle 31746" width="48" height="48"/>
+            </g>
+          </g>
+        </g>
+        <line id="Line_6040" data-name="Line 6040" y2="19.501" transform="translate(24 1)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+    <line id="Line_6041" data-name="Line 6041" x2="15.241" y2="12.167" transform="translate(6.025 9.651)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_6042" data-name="Line 6042" y1="4.321" x2="19.018" transform="translate(1.572 24.774)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_6043" data-name="Line 6043" y1="17.56" x2="8.489" transform="translate(13.99 27.147)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_6044" data-name="Line 6044" x1="15.284" y2="12.114" transform="translate(26.741 9.714)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_90213" data-name="Path 90213" d="M20.5,24A3.5,3.5,0,1,1,24,27.5,3.5,3.5,0,0,1,20.5,24Z" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_90214" data-name="Path 90214" d="M19.426,37.236A14,14,0,1,1,36.9,18.551" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_90215" data-name="Path 90215" d="M41.482,22.383h-14.2a4.906,4.906,0,0,0-4.9,4.9v14.2a4.906,4.906,0,0,0,4.9,4.9h14.2a4.906,4.906,0,0,0,4.9-4.9v-14.2a4.906,4.906,0,0,0-4.9-4.9m1.832,12.682A4.457,4.457,0,0,1,38.953,38.8,4.143,4.143,0,0,1,35.987,37.5l-.493-.511,1.434-1.465.542.553a2.147,2.147,0,0,0,1.424.682,2.453,2.453,0,0,0,2.4-2.017,2.367,2.367,0,0,0-.534-1.928,2.444,2.444,0,0,0-1.81-.8,2.027,2.027,0,0,0-1.453.682L32.754,37.5A4.175,4.175,0,0,1,29.876,38.8a4.507,4.507,0,0,1-4.449-3.738,4.414,4.414,0,0,1,4.39-5.1h.03a4.049,4.049,0,0,1,2.877,1.305l.39.4L31.676,33.1l-.376-.382a2.056,2.056,0,0,0-1.453-.712,2.434,2.434,0,0,0-1.84.83,2.371,2.371,0,0,0-.533,1.928,2.441,2.441,0,0,0,2.343,2.017A2.159,2.159,0,0,0,31.3,36.1l4.687-4.835a4.1,4.1,0,0,1,2.877-1.305A4.337,4.337,0,0,1,42.246,31.5a4.168,4.168,0,0,1,1.068,3.56" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
