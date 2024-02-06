@@ -84,7 +84,7 @@ more!"</em>
 
 </div>
 <div className="col col--9">
-<em></em>“The 4.19 release marks a significant milestone for CloudStack, combining a
+<em>“The 4.19 release marks a significant milestone for CloudStack, combining a
 diverse array of new features and crucial fixes. The primary focus has been on
 enhancing the ease of adopting CloudStack, evident in capabilities like VMware
 to KVM migration and KVM ingestion. The introduction of the Object Store
