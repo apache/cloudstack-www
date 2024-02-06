@@ -2,7 +2,7 @@
 layout: post
 title: Apache CloudStack 4.19.0.0 Release
 tags: [announcement]
-authors: [shwstppr]
+authors: [jamie]
 slug: cloudstack-4.19.0.0-release
 ---
 
@@ -51,9 +51,9 @@ Apache CloudStack download page, and can be found at:
 
 - https://download.cloudstack.org/el/7/
 - https://download.cloudstack.org/el/8/
+- https://download.cloudstack.org/el/9/
 - https://download.cloudstack.org/ubuntu/dists/
-- https://www.shapeblue.com/packages/
-
+- https://www.shapeblue.com/cloudstack-packages/
 
 #  A Word from the Community
 
@@ -83,20 +83,20 @@ more!"</em>
 
 </div>
 <div className="col col--9">
+
 <em>“The 4.19 release marks a significant milestone for CloudStack, combining a
 diverse array of new features and crucial fixes. The primary focus has been on
 enhancing the ease of adopting CloudStack, evident in capabilities like VMware
 to KVM migration and KVM ingestion. The introduction of the Object Store
 framework introduces a new dimension to storage capabilities within CloudStack.
 Features such as hypervisor-agnostic DRS and Snapshot Copy DRaaS further bolster
-the orchestration capabilities of CloudStack.
-
+the orchestration capabilities of CloudStack.<br/><br/>
 The release process has been a year-long collaborative effort involving over 40
 contributors from both organizations and individuals. Kudos to the community
 members who not only contributed fantastic features but also played a crucial
 role in testing and refining each other's work. This collaborative endeavour
 has culminated in a feature-rich and stable 4.19 release.”</em>
 
-\- [Abhishek Kumar](https://www.linkedin.com/in/shwstppr/), 4.19 Release Manager
+\- [Abhishek Kumar](https://www.linkedin.com/in/shwstppr/), 4.19 Release Manager and PMC Member
 </div>
 </div>
