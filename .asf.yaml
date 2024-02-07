@@ -45,7 +45,7 @@ notifications:
 # Staging and publishing profile for cloudstack-www.git:
 staging:
   profile: ~
-  whoami: staging-site
+  whoami: staged-site
   outputdir: content
 
 publish:
