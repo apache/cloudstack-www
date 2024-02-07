@@ -1,0 +1,13 @@
+<svg id="slack_logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.038" height="48" viewBox="0 0 48.038 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31491" data-name="Rectangle 31491" width="48.038" height="48" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_95502" data-name="Group 95502" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="Path_89933" data-name="Path 89933" d="M10.189,71.245A5.045,5.045,0,1,1,5.145,66.2h5.045Zm2.522,0a5.045,5.045,0,1,1,10.089,0V83.856a5.045,5.045,0,1,1-10.089,0Z" transform="translate(-0.062 -40.901)" fill="#e01e5a"/>
+    <path id="Path_89934" data-name="Path 89934" d="M17.694,10.089a5.045,5.045,0,1,1,5.045-5.045v5.045Zm0,2.561a5.045,5.045,0,0,1,0,10.089H5.045a5.045,5.045,0,0,1,0-10.089Z" transform="translate(0 0)" fill="#36c5f0"/>
+    <path id="Path_89935" data-name="Path 89935" d="M78.811,17.694a5.045,5.045,0,1,1,5.045,5.045H78.811Zm-2.522,0a5.045,5.045,0,0,1-10.089,0V5.045a5.045,5.045,0,1,1,10.089,0v12.65" transform="translate(-40.901 0)" fill="#2eb67d"/>
+    <path id="Path_89936" data-name="Path 89936" d="M71.245,78.811A5.045,5.045,0,1,1,66.2,83.856V78.811Zm0-2.522a5.045,5.045,0,0,1,0-10.089h12.65a5.045,5.045,0,0,1,0,10.089Z" transform="translate(-40.901 -40.901)" fill="#ecb22e"/>
+  </g>
+</svg>

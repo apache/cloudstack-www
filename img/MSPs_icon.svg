@@ -1,0 +1,26 @@
+<svg id="MSPs_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31271" data-name="Rectangle 31271" width="48" height="48" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.639" y1="0.248" x2="0.188" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2aa5dc"/>
+      <stop offset="1" stop-color="#d1ebf8" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_95110" data-name="Group 95110" clip-path="url(#clip-path)">
+    <g id="Group_95109" data-name="Group 95109">
+      <g id="Group_95107" data-name="Group 95107" opacity="0">
+        <g id="Group_95106" data-name="Group 95106">
+          <g id="Group_95105" data-name="Group 95105" clip-path="url(#clip-path)">
+            <rect id="Rectangle_31266" data-name="Rectangle 31266" width="48" height="48"/>
+          </g>
+        </g>
+      </g>
+      <path id="Path_89600" data-name="Path 89600" d="M20.19,22H4.81A1.81,1.81,0,0,1,3,20.19V4.81A1.81,1.81,0,0,1,4.81,3H20.19" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Rectangle_31268" data-name="Rectangle 31268" d="M1.81,0H17.191A1.809,1.809,0,0,1,19,1.809V17.19A1.81,1.81,0,0,1,17.19,19H1.81A1.81,1.81,0,0,1,0,17.19V1.81A1.81,1.81,0,0,1,1.81,0Z" transform="translate(26 26)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Rectangle_31269" data-name="Rectangle 31269" d="M1.81,0H17.19A1.81,1.81,0,0,1,19,1.81V17.191A1.809,1.809,0,0,1,17.191,19H1.81A1.81,1.81,0,0,1,0,17.19V1.81A1.81,1.81,0,0,1,1.81,0Z" transform="translate(3 26)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_89601" data-name="Path 89601" d="M41.838,15.083A2.78,2.78,0,0,1,40.917,13a2.826,2.826,0,0,1,.921-2.087c.7-.623,1.382-1.463,1.084-2.357a16.511,16.511,0,0,0-.65-1.6c-.407-.84-1.491-.948-2.412-.894a2.853,2.853,0,0,1-2.113-.813,2.751,2.751,0,0,1-.813-2.113c.054-.949-.054-2.005-.894-2.412a16.51,16.51,0,0,0-1.6-.65c-.894-.3-1.707.379-2.358,1.084A2.779,2.779,0,0,1,30,2.077a2.822,2.822,0,0,1-2.086-.921C27.287.451,26.447-.226,25.553.072a16.39,16.39,0,0,0-1.6.65c-.84.407-.949,1.491-.9,2.412a2.849,2.849,0,0,1-.813,2.113,2.853,2.853,0,0,1-2.113.813c-.948-.054-2.005.054-2.412.894a16.767,16.767,0,0,0-.65,1.6c-.3.894.379,1.707,1.084,2.357A2.782,2.782,0,0,1,19.077,13a2.824,2.824,0,0,1-.921,2.086c-.7.624-1.382,1.464-1.084,2.358a16.643,16.643,0,0,0,.65,1.6c.407.84,1.491.949,2.412.9A2.787,2.787,0,0,1,23.06,22.86c-.054.948.055,2,.9,2.412a16.644,16.644,0,0,0,1.6.65c.894.3,1.707-.379,2.358-1.084A2.779,2.779,0,0,1,30,23.917a2.822,2.822,0,0,1,2.086.921c.624.7,1.464,1.382,2.358,1.084a16.768,16.768,0,0,0,1.6-.65c.84-.407.948-1.491.894-2.412a2.327,2.327,0,0,1,.054-.623,3.42,3.42,0,0,1,2.276-2.276,4.853,4.853,0,0,1,.623-.055c.949.055,2-.054,2.412-.894a16.493,16.493,0,0,0,.65-1.6c.244-.867-.433-1.68-1.111-2.331m-9.05-2.059a2.818,2.818,0,1,1-2.818-2.818,2.816,2.816,0,0,1,2.818,2.818" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

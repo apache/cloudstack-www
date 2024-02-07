@@ -1,0 +1,53 @@
+backend:
+  name: github
+  branch: docusaurus-staging
+  repo: shapeblue/cloudstack-www
+
+# These lines should *not* be indented
+media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/img/" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+- name: blog
+  label: "Blog"
+  folder: blog
+  identifier_field: title
+  extension: md
+  widget: "list"
+  create: true
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  fields:
+    - { name: slug, label: Slug, widget: string }
+    - { name: title, label: Title, widget: string }
+    - { name: body, label: Body, widget: markdown }
+    - label: "Tags"
+      name: "tags"
+      widget: "list"
+    - label: "Authors"
+      name: "authors"
+      widget: "list"
+      fields:
+        - { name: name, label: Name, widget: string }
+        - { name: title, label: Title, widget: string }
+        - { name: url, label: URL, widget: string }
+        - { name: imageUrl, label: ImageURL, widget: string }
+- name: docs
+  label: "Docs"
+  folder: docs
+  identifier_field: slug
+  extension: md
+  widget: "list"
+  create: true
+  fields:
+    - { name: slug, label: Slug, widget: string }
+    - { name: body, label: Body, widget: markdown }
+- name: page
+  label: "Page"
+  folder: src/pages
+  identifier_field: slug
+  extension: md
+  widget: "list"
+  create: true
+  fields:
+    - { name: slug, label: Slug, widget: string }
+    - { name: body, label: Body, widget: markdown }
