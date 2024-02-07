@@ -52,7 +52,7 @@ subscribed with.
 
 **Please do not send emails to the list asking for someone to unsubscribe you.**
 
-<h2>search old mail</h2
+<h2>search old mail</h2>
 
 The mailing list archives can be searched at [APACHE Pony Mail](https://lists.apache.org/list.html?dev@cloudstack.apache.org)
 
