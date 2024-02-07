@@ -43,9 +43,10 @@ notifications:
   jobs:         commits@cloudstack.apache.org
 
 # Staging and publishing profile for cloudstack-www.git:
-#staging:
-#  profile: ~
-#  whoami: staging-site
+staging:
+  profile: ~
+  whoami: staging-site
+  outputdir: content
 
 publish:
   whoami:  asf-site
