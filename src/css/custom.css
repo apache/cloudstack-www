@@ -713,6 +713,8 @@ iframe {
 	}
 	.px18 {
 		font-size: 1rem;
+		padding-left: 0.75rem;
+		padding-right: 0.75rem;
 	}
 	.events-img {
 		width: 100%;
