@@ -15,7 +15,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   plugins: [
-    ['docusaurus-plugin-sass', {}],
+    [
+      'docusaurus-plugin-sass',
+      {},
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
+      },
+    ],
   ],
 
   presets: [
