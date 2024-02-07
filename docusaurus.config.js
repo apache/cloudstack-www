@@ -18,6 +18,7 @@ const config = {
     [
       'docusaurus-plugin-sass',
       {},
+    ],[
       '@docusaurus/plugin-client-redirects',
       {
         fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
