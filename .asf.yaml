@@ -46,6 +46,7 @@ notifications:
 staging:
   profile: ~
   whoami: staging-site
+  outputdir: content
 
 publish:
   whoami:  asf-site
