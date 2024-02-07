@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.19.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>createDiskOffering</h1>
+                                        <p>Creates a disk offering.</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;"><strong>name of the disk offering</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>bytesreadrate</i></td><td style="width:500px;"><i>bytes read rate of the disk offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>bytesreadratemax</i></td><td style="width:500px;"><i>burst bytes read rate of the disk offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>bytesreadratemaxlength</i></td><td style="width:500px;"><i>length (in seconds) of the burst</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>byteswriterate</i></td><td style="width:500px;"><i>bytes write rate of the disk offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>byteswriteratemax</i></td><td style="width:500px;"><i>burst bytes write rate of the disk offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>byteswriteratemaxlength</i></td><td style="width:500px;"><i>length (in seconds) of the burst</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>cachemode</i></td><td style="width:500px;"><i>the cache mode to use for this disk offering. none, writeback or writethrough</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>customized</i></td><td style="width:500px;"><i>whether disk offering size is custom or not</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>customizediops</i></td><td style="width:500px;"><i>whether disk offering iops is custom or not</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>details</i></td><td style="width:500px;"><i>details to specify disk offering parameters</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>disksize</i></td><td style="width:500px;"><i>size of the disk offering in GB (1GB = 1,073,741,824 bytes)</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>disksizestrictness</i></td><td style="width:500px;"><i>To allow or disallow the resize operation on the disks created from this disk offering, if the flag is true then resize is not allowed</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>displayoffering</i></td><td style="width:500px;"><i>an optional field, whether to display the offering to the end user or not.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>displaytext</i></td><td style="width:500px;"><i>An alternate display text of the disk offering, defaults to 'name'.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>domainid</i></td><td style="width:500px;"><i>the ID of the containing domain(s), null for public offerings</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>encrypt</i></td><td style="width:500px;"><i>Volumes using this offering should be encrypted</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>hypervisorsnapshotreserve</i></td><td style="width:500px;"><i>Hypervisor snapshot reserve space as a percent of a volume (for managed storage using Xen or VMware)</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>iopsreadrate</i></td><td style="width:500px;"><i>io requests read rate of the disk offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>iopsreadratemax</i></td><td style="width:500px;"><i>burst requests read rate of the disk offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>iopsreadratemaxlength</i></td><td style="width:500px;"><i>length (in seconds) of the burst</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>iopswriterate</i></td><td style="width:500px;"><i>io requests write rate of the disk offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>iopswriteratemax</i></td><td style="width:500px;"><i>burst io requests write rate of the disk offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>iopswriteratemaxlength</i></td><td style="width:500px;"><i>length (in seconds) of the burst</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>maxiops</i></td><td style="width:500px;"><i>max iops of the disk offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>miniops</i></td><td style="width:500px;"><i>min iops of the disk offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>provisioningtype</i></td><td style="width:500px;"><i>provisioning type used to create volumes. Valid values are thin, sparse, fat.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>storagepolicy</i></td><td style="width:500px;"><i>Name of the storage policy defined at vCenter, this is applicable only for VMware</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>storagetype</i></td><td style="width:500px;"><i>the storage type of the disk offering. Values are local and shared.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>tags</i></td><td style="width:500px;"><i>tags for the disk offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>zoneid</i></td><td style="width:500px;"><i>the ID of the containing zone(s), null for public offerings</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">unique ID of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cacheMode</strong></td><td style="width:500px;">the cache mode to use for this disk offering. none, writeback or writethrough</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>created</strong></td><td style="width:500px;">the date this disk offering was created</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>details</strong></td><td style="width:500px;">additional key/value details tied with this disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskBytesReadRate</strong></td><td style="width:500px;">bytes read rate of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskBytesReadRateMax</strong></td><td style="width:500px;">burst bytes read rate of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskBytesReadRateMaxLength</strong></td><td style="width:500px;">length (in seconds) of the burst</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskBytesWriteRate</strong></td><td style="width:500px;">bytes write rate of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskBytesWriteRateMax</strong></td><td style="width:500px;">burst bytes write rate of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskBytesWriteRateMaxLength</strong></td><td style="width:500px;">length (in seconds) of the burst</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskIopsReadRate</strong></td><td style="width:500px;">io requests read rate of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskIopsReadRateMax</strong></td><td style="width:500px;">burst io requests read rate of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskIopsReadRateMaxLength</strong></td><td style="width:500px;">length (in second) of the burst</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskIopsWriteRate</strong></td><td style="width:500px;">io requests write rate of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskIopsWriteRateMax</strong></td><td style="width:500px;">burst io requests write rate of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskIopsWriteRateMaxLength</strong></td><td style="width:500px;">length (in seconds) of the burst</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>disksize</strong></td><td style="width:500px;">the size of the disk offering in GB</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>disksizestrictness</strong></td><td style="width:500px;">To allow or disallow the resize operation on the disks created from this disk offering, if the flag is true then resize is not allowed</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>displayoffering</strong></td><td style="width:500px;">whether to display the offering to the end user or not.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>displaytext</strong></td><td style="width:500px;">an alternate display text of the disk offering.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domain</strong></td><td style="width:500px;">the domain name(s) this disk offering belongs to. Ignore this information as it is not currently applicable.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainid</strong></td><td style="width:500px;">the domain ID(s) this disk offering belongs to. Ignore this information as it is not currently applicable.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>encrypt</strong></td><td style="width:500px;">Whether disks using this offering will be encrypted on primary storage</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hypervisorsnapshotreserve</strong></td><td style="width:500px;">Hypervisor snapshot reserve space as a percent of a volume (for managed storage using Xen or VMware)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>iscustomized</strong></td><td style="width:500px;">true if disk offering uses custom size, false otherwise</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>iscustomizediops</strong></td><td style="width:500px;">true if disk offering uses custom iops, false otherwise</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>maxiops</strong></td><td style="width:500px;">the max iops of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>miniops</strong></td><td style="width:500px;">the min iops of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;">the name of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>provisioningtype</strong></td><td style="width:500px;">provisioning type used to create volumes. Valid values are thin, sparse, fat.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>storagetype</strong></td><td style="width:500px;">the storage type for this disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>tags</strong></td><td style="width:500px;">the tags for the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vspherestoragepolicy</strong></td><td style="width:500px;">the vsphere storage policy tagged to the disk offering in case of VMware</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zone</strong></td><td style="width:500px;">the zone name(s) this disk offering belongs to. Ignore this information as it is not currently applicable.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zoneid</strong></td><td style="width:500px;">the zone ID(s) this disk offering belongs to. Ignore this information as it is not currently applicable.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script type="text/javascript" src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

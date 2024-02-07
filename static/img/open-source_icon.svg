@@ -1,0 +1,24 @@
+<svg id="open-source_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31827" data-name="Rectangle 31827" width="48" height="48" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.719" y1="0.131" x2="0.026" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2aa5dc"/>
+      <stop offset="1" stop-color="#d1ebf8" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_95943" data-name="Group 95943">
+    <g id="Group_95941" data-name="Group 95941" opacity="0">
+      <g id="Group_95940" data-name="Group 95940">
+        <g id="Group_95939" data-name="Group 95939" clip-path="url(#clip-path)">
+          <rect id="Rectangle_31826" data-name="Rectangle 31826" width="48" height="48"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_90285" data-name="Path 90285" d="M12.232,14a1,1,0,0,0,0-2,4.305,4.305,0,0,0-3.325,1.655A5,5,0,0,0,8.077,18c.155.655.62,2.655.105,3.56-.12.21-.255.45-1.44.45a1,1,0,0,0,0,2c1.17,0,1.33.24,1.45.45.5.905.05,2.906-.105,3.561a5,5,0,0,0,.83,4.335A4.307,4.307,0,0,0,12.232,34a1,1,0,0,0,0-2,2.328,2.328,0,0,1-1.76-.9,3,3,0,0,1-.45-2.635c.375-1.59.7-3.6-.1-5a3.3,3.3,0,0,0-.33-.46,3.186,3.186,0,0,0,.33-.46c.8-1.41.475-3.415.1-5a3,3,0,0,1,.45-2.635,2.326,2.326,0,0,1,1.76-.91" fill="#082330"/>
+    <path id="Path_90286" data-name="Path 90286" d="M22.287,12.67l-7,20a1,1,0,0,0,.613,1.274h0a1.087,1.087,0,0,0,.33.055,1,1,0,0,0,.945-.67l7-20a1,1,0,0,0-1.89-.66" fill="#082330"/>
+    <path id="Path_90287" data-name="Path 90287" d="M26.01,43H4.3A2.3,2.3,0,0,1,2,40.7V5.3A2.3,2.3,0,0,1,4.3,3H23.173L32,11.967V24.322" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_90288" data-name="Path 90288" d="M46.666,36.137c-1.9-2.2-7.455-7.815-14.676-7.815s-12.779,5.619-14.676,7.815a1.318,1.318,0,0,0,0,1.731c1.9,2.2,7.455,7.815,14.676,7.815s12.778-5.618,14.676-7.815a1.318,1.318,0,0,0,0-1.731m-8.557,1.92a1,1,0,0,1-1.973-.334A4.272,4.272,0,0,0,36.2,37a4.208,4.208,0,1,0-4.208,4.209,4.341,4.341,0,0,0,.764-.068,1,1,0,1,1,.357,1.967A6.209,6.209,0,1,1,38.2,37a6.358,6.358,0,0,1-.089,1.055" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

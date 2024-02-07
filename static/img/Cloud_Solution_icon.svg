@@ -1,0 +1,29 @@
+<svg id="Cloud_Solution_icon" data-name="Cloud Solution_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31242" data-name="Rectangle 31242" width="48" height="48" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_31241" data-name="Rectangle 31241" width="48" height="48" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="1" x2="0.694" y2="0.237" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d1ebf8" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#2aa5dc"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_95064" data-name="Group 95064" clip-path="url(#clip-path)">
+    <g id="Group_95063" data-name="Group 95063">
+      <g id="Group_95062" data-name="Group 95062" clip-path="url(#clip-path-2)">
+        <g id="Group_95061" data-name="Group 95061" opacity="0">
+          <g id="Group_95060" data-name="Group 95060">
+            <g id="Group_95059" data-name="Group 95059" clip-path="url(#clip-path-2)">
+              <rect id="Rectangle_31239" data-name="Rectangle 31239" width="48" height="48" transform="translate(0 0)"/>
+            </g>
+          </g>
+        </g>
+        <path id="Path_89585" data-name="Path 89585" d="M8.737,34.176A10.548,10.548,0,0,1,10.615,13.5a13.415,13.415,0,0,1,26.737-.384,6.712,6.712,0,0,1,3.914,6.1c0,.082,0,.164,0,.248a7.67,7.67,0,0,1-1.218,15.06" transform="translate(0 0)" fill="none" stroke="#082330" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_89583" data-name="Path 89583" d="M24,22A13,13,0,1,0,37,35,13,13,0,0,0,24,22M16.713,39.71a1,1,0,0,1-1.415,0l-1.005-1a1,1,0,1,1,1.414-1.414L16.712,38.3a1,1,0,0,1,0,1.414m9.014-1.025-5.02,5.02A1,1,0,0,1,19,43V27a1,1,0,0,1,2,0V40.585l3.313-3.314a1,1,0,0,1,1.414,1.414M29,43a1,1,0,0,1-2,0V29.417L23.707,32.71A1,1,0,0,1,22.293,31.3l4.956-4.956A1,1,0,0,1,29,27Zm4-10a1,1,0,0,1-.707-.293l-1-1A1,1,0,0,1,32.7,30.291l1.005,1A1,1,0,0,1,33,33" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

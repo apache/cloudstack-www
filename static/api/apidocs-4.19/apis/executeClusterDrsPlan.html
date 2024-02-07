@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.19.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>executeClusterDrsPlan</h1>
+                                        <p>Execute DRS for a cluster. If there is another plan in progress for the same cluster, this command will fail.</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;"><strong>ID of cluster</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>migrateto</i></td><td style="width:500px;"><i>Virtual Machine to destination host mapping. This parameter specifies the mapping between a vm and a host to migrate that VM. clusterid is required if this parameter is set.Format of this parameter: migrateto[vm-index].vm=&lt;uuid&gt;&amp;migrateto[vm-index].host=&lt;uuid&gt; Where, [vm-index] indicates the index to identify the vm that you want to migrate, vm=&lt;uuid&gt; indicates the UUID of the vm that you want to migrate, and host=&lt;uuid&gt; indicates the UUID of the host where you want to migrate the vm. Example: migrateto[0].vm=&lt;71f43cd6-69b0-4d3b-9fbc-67f50963d60b&gt;&amp;migrateto[0].host=&lt;a382f181-3d2b-4413-b92d-b8931befa7e1&gt;&amp;migrateto[1].vm=&lt;88de0173-55c0-4c1c-a269-83d0279eeedf&gt;&amp;migrateto[1].host=&lt;95d6e97c-6766-4d67-9a30-c449c15011d1&gt;&amp;migrateto[2].vm=&lt;1b331390-59f2-4796-9993-bf11c6e76225&gt;&amp;migrateto[2].host=&lt;41fdb564-9d3b-447d-88ed-7628f7640cbc&gt;</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">unique ID of the drs plan for cluster</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>clusterid</strong></td><td style="width:500px;">Id of the cluster</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>eventid</strong></td><td style="width:500px;">Start event Id of the DRS Plan</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>migrations</strong></td><td style="width:500px;">List of migrations</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>status</strong></td><td style="width:500px;">Status of DRS Plan</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>type</strong></td><td style="width:500px;">Type of DRS Plan (Automated or Manual))</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script type="text/javascript" src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

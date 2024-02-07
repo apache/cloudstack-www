@@ -1,0 +1,36 @@
+<svg id="decrease_TCO_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48.162" viewBox="0 0 48 48.162">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31834" data-name="Rectangle 31834" width="48" height="48.162" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_31830" data-name="Rectangle 31830" width="48" height="48.162" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_31829" data-name="Rectangle 31829" width="48" height="48" transform="translate(0 0.162)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.062" y1="1" x2="0.819" y2="0.2" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d1ebf8" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#2aa5dc"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_95953" data-name="Group 95953" clip-path="url(#clip-path)">
+    <g id="Group_95950" data-name="Group 95950">
+      <g id="Group_95949" data-name="Group 95949" clip-path="url(#clip-path-2)">
+        <g id="Group_95948" data-name="Group 95948" opacity="0">
+          <g id="Group_95947" data-name="Group 95947">
+            <g id="Group_95946" data-name="Group 95946" clip-path="url(#clip-path-3)">
+              <rect id="Rectangle_31828" data-name="Rectangle 31828" width="48" height="48" transform="translate(0 0.162)"/>
+            </g>
+          </g>
+        </g>
+        <line id="Line_6048" data-name="Line 6048" y2="46" transform="translate(5 1)" fill="none" stroke="#0d0d0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_6049" data-name="Line 6049" x1="46" transform="translate(1 43)" fill="none" stroke="#0d0d0d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+    <rect id="Rectangle_31831" data-name="Rectangle 31831" width="6" height="12" transform="translate(33 26.162)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_90289" data-name="Path 90289" d="M27.75,24.037V38.162h-6v-18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect id="Rectangle_31832" data-name="Rectangle 31832" width="6" height="25.999" transform="translate(10.5 12.162)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_90290" data-name="Path 90290" d="M43,11.158A11,11,0,0,0,24.967,2.707L34,11.744V8.158a1,1,0,0,1,2,0v6a1,1,0,0,1-1,1H29a1,1,0,0,1,0-2H32.59L23.553,4.121A11,11,0,1,0,43,11.158" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
