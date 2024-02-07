@@ -44,7 +44,7 @@ jobs:
         if: github.event_name != 'pull_request'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: staging-site
+          publish_branch: staged-site
           publish_dir: ./build
           destination_dir: ./
           user_name: 'github-actions[bot]'
