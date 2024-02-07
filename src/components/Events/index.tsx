@@ -66,7 +66,7 @@ involved with the community.
                   <img src="img/india user group 2023.jpeg" alt="" class="events-img events-overview-img"/>
                   <p class="title mt-2">CloudStack India User Group 2023</p>
                   <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Bangalore, India</p>
-                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>August 18 2023</p>
+                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>August 18, 2023</p>
                 </div>
                 <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://cloudstack.apache.org/blog/cloudstack-india-user-group-2023-roundup" class="btn btn-outline-secondary me-3">Read More</a>
