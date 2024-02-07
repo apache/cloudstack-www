@@ -62,15 +62,15 @@ jobs:
 #            Your latest pull request changes are published to staging website
 #            https://cloudstack.staged.apache.org
 #
-      - name: Publish production website
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.event_name != 'pull_request'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: staging-site # TODO: change this to deploy branch 'asf-site'
-          publish_dir: ./build
-          destination_dir: ./
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: 'Automated CloudStack website deployment with cloudstack-www branch ${{ github.event.inputs.branch }}@${{ env.WWW_COMMIT }}'
-          #force_orphan: true
+#      - name: Publish production website
+#        uses: peaceiris/actions-gh-pages@v3
+#        if: github.event_name != 'pull_request'
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          publish_branch: staging-site # TODO: change this to deploy branch 'asf-site'
+#          publish_dir: ./build
+#          destination_dir: ./
+#          user_name: 'github-actions[bot]'
+#          user_email: 'github-actions[bot]@users.noreply.github.com'
+#          commit_message: 'Automated CloudStack website deployment with cloudstack-www branch ${{ github.event.inputs.branch }}@${{ env.WWW_COMMIT }}'
+#          #force_orphan: true
