@@ -31,7 +31,7 @@ $ yarn start
 This command starts a local development server and opens up a browser window.
 Most changes are reflected live without having to restart the server.
 
-## Building and Publishing
+## <a name="building"></a>Building and Publishing
 
 It can be useful at times to start anew:
 
@@ -48,5 +48,18 @@ $ yarn build
 This command generates static content into the `build` directory and can be
 served using any static contents hosting service. We've GitHub Actions based
 automation that can publish changes merged to 'main' branch being automatically
-published to the 'asf-site'.
+published to the 'asf-site'. see the procedure below.
 
+
+## publishing procedure
+
+- create a change
+- test your change according to [the previous chapter](#building)
+- create a PR against staging
+- merge
+- wait for the staged-site to be updated and published
+- check the staging site
+- merge staging-site to main
+- wait for asf-site to be updated and publised to the main site
+- check again
+- go to sleep
