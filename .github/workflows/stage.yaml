@@ -20,7 +20,7 @@ name: Pages
 on:
   push:
     branches:
-      - staging
+      - staging-site
   pull_request:
 
 jobs:
