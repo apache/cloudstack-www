@@ -52,6 +52,10 @@ subscribed with.
 
 **Please do not send emails to the list asking for someone to unsubscribe you.**
 
+<h2>search old mail</h2>
+
+The mailing list archives can be searched at [APACHE Pony Mail](https://lists.apache.org/list.html?dev@cloudstack.apache.org)
+
 <h2>Conduct on Mailing Lists</h2>
 
 We expect all participants on the mailing list to treat one another
