@@ -31,7 +31,7 @@ $ yarn start
 This command starts a local development server and opens up a browser window.
 Most changes are reflected live without having to restart the server.
 
-## <a name="building"></a>Building and Publishing
+## <a name="building-and-publishing">Building and Publishing</a>
 
 It can be useful at times to start anew:
 
@@ -54,7 +54,7 @@ published to the 'asf-site'. see the procedure below.
 ## publishing procedure
 
 - create a change
-- test your change according to [the previous chapter](#building)
+- test your change according to [the previous chapter](#building-and-publishing)
 - create a PR against staging
 - merge
 - wait for the staged-site to be updated and published
