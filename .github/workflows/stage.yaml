@@ -20,7 +20,7 @@ name: Pages
 on:
   push:
     branches:
-      - main
+      - staging
   pull_request:
 
 jobs:
@@ -39,15 +39,15 @@ jobs:
           cp .asf.yaml ./build/.asf.yaml
           export WWW_COMMIT=`git rev-parse HEAD`
 
-      - name: Publish production website
+      - name: Publish PR change to staging site
         uses: peaceiris/actions-gh-pages@v3
         if: github.event_name != 'pull_request'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: asf-site
+          publish_branch: staged-site
           publish_dir: ./build
           destination_dir: ./
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: 'Automated CloudStack website deployment completed on branch ${{ github.event.inputs.branch }}@${{ env.WWW_COMMIT }}'
+          commit_message: 'Automated CloudStack https://cloudstack.staged.apache.org staging website deployment with cloudstack-www branch ${{ github.event.inputs.branch }}@${{ env.WWW_COMMIT }}'
           #force_orphan: true
