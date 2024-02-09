@@ -32,12 +32,12 @@ The Call for Presentations is open! When proposing a talk, you can choose to pre
 
 |from|to|subject|speaker|
 |-----|-----|-------------------|---------|
-|9:30|10.00|Registration + Meetup Welcome|Abhishek Kumar, ShapeBlue|
-|10:00|10:30|CloudStack 101: The Best Way to Build Your Private Cloud|Rohit  Yadav, ShapeBlue|
-|10:40|11:10|What’s New in CloudStack 4.19|Abhishek Kumar, ShapeBlue|
+|9:30|10.00|Registration + Meetup Welcome|Abhishek Kumar, release manager Apache CloudStack 4.19|
+|10:00|10:30|CloudStack 101: The Best Way to Build Your Private Cloud|Rohit Yadav, VP Apache CloudStack|
+|10:40|11:10|What’s New in CloudStack 4.19|Abhishek Kumar, release manager Apache CloudStack 4.19|
 |11:20|11:50|How We Grew Up with CloudStack and its Journey|Dilip Singh, DataHub|
 |12:00|12:30|VM Migration from VMware to CloudStack and KVM|Suresh Anaparti, ShapeBlue|
-|12:30|13:30|Q&A|Lunch Break||
+|12:30|13:30|Q&A and Lunch Break||
 |13:30|14:00|Adoption of Apache CloudStack Among Public Cloud Service Providers|Amal Ranjith, StackBill|
 |14:10|14:55|Elevating Cloud Infrastructure with Object Storage, DRS, VM Scheduling, and DRaaS|Jithin Raju & Vishesh Jindal, ShapeBlue|
 |15:05|15:50|CloudStack Tooling Ecosystem|Kiran Chavala, ShapeBlue|
