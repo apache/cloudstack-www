@@ -688,10 +688,10 @@ iframe {
 		margin-top: 50px;
 	}
 	.load-more {
-		margin-bottom: 0;
+		margin-bottom: 5px;
 	}
 	.events-btn-margin {
-		margin: 15px 0 20px;
+		margin: 15px 5px 20px;
 	}
 	.center-buttons {
 		text-align: center;
