@@ -134,8 +134,8 @@ h1 {
 	font-family: 'DM Sans', sans-serif;
 }
 .partners-holder {
-	margin: 100px 0 30px;
-	width: 100%;
+    margin: 100px 0 30px;
+    width: 100%;
 }
 .partners {
 	display: flex;
@@ -659,8 +659,9 @@ iframe {
 		text-align: center;
 	}
 	.partners-holder {
-		overflow-x: scroll;
-		margin-top: 50px;
+	    overflow-x: scroll;
+	    margin-top: 50px;
+	    padding: 0px 5px 0px;
 	}
 	.partners {
 		justify-content: left;
@@ -767,6 +768,15 @@ iframe {
 	.carousel-control-prev {
 		left: calc(30px);
 	}
+        .community light-blue {
+            padding: 0px 5px 0px;
+        }
+        .join-card {
+	    border-radius: 8px;
+	    padding: 5px 5px 5px;
+	    margin-right: 0px;
+	    margin-bottom: 10px;
+        }
 }
 
 /* bootstrap.css from the dev */
