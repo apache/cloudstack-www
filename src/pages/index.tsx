@@ -86,7 +86,7 @@ CloudStack provides an API that’s compatible with AWS EC2 and S3 for
 organizations that wish to deploy hybrid clouds.
                 </p>
               </div>
-              <ArchitectureSVG class="col-lg-6 text-center"/>
+              <ArchitectureSVG class="col col-lg-6"/>
             </div>
           </div>
         </section>
