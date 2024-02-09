@@ -86,7 +86,7 @@ CloudStack provides an API that’s compatible with AWS EC2 and S3 for
 organizations that wish to deploy hybrid clouds.
                 </p>
               </div>
-              <ArchitectureSVG class="col-lg-6 text-center"/>
+              <ArchitectureSVG class="col col-lg-6"/>
             </div>
           </div>
         </section>
@@ -216,7 +216,7 @@ specific infrastructure.
             </div>
 
             <div class="row">
-              <div class="col-lg-5">
+              <div class="col col-lg-5">
                 <h2 class="section-title mb-4 margin-second">Latest Release</h2>
                 <div class="center-buttons">
                   <p class="px18">Apache CloudStack 4.19.0.0 is out!<br/>This is the latest LTS release.</p>
@@ -240,7 +240,7 @@ specific infrastructure.
           <div class="light-blue">
             <div class="container">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col col-lg-6">
                   <div class="section-title">Join Our Community</div>
                   <p class="px18 my-4">
 Learn more about involved with Apache CloudStack on the Contributing
@@ -249,7 +249,7 @@ to Apache page, or go straight to our Developer Resources page.
                 </div>
               </div>
               <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col col-lg-3 col-md-6">
                   <div class="join-card">
                     <img src="/img/git_logo.svg" alt=""/>
                     <p class="blue-title">DEVELOPER RESOURCES</p>
@@ -261,7 +261,7 @@ participation from anybody willing to work The Apache Way.
                     <a href="https://github.com/apache/cloudstack" class="btn btn-primary">Learn More</a>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col col-lg-3 col-md-6">
                   <div class="join-card">
                     <img src="/img/slack_logo.svg" alt=""/>
                     <p class="blue-title">JOIN US ON SLACK</p>
@@ -273,7 +273,7 @@ having someone with snazzy Web design skills would not be a bad thing!
                     <a href="https://join.slack.com/t/apachecloudstack/shared_invite/zt-2aegc22z7-tPCxpptfcebTBtd59qcZSQ" class="btn btn-primary">Learn More</a>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col col-lg-3 col-md-6">
                   <div class="join-card">
                     <img src="/img/blog_icon.svg" alt=""/>
                     <p class="blue-title">CONTRIBUTE CONTENT</p>
@@ -286,7 +286,7 @@ Video Series.
                     <a href="blog" class="btn btn-primary">Learn More</a>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col col-lg-3 col-md-6">
                   <div class="join-card">
                     <img src="/img/mailing_list_icon.svg" alt=""/>
                     <p class="blue-title">WHERE TO ASK FOR HELP</p>
