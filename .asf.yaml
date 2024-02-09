@@ -23,13 +23,18 @@ github:
     projects: false
     wiki: false
   labels:
+    - iaas
+    - cloud
     - cloudstack
+    - infrastructure
+    - hosting
   enabled_merge_buttons:
     squash:  true
     merge:   false
     rebase:  false
-  protected_branches:
-    main: {}
+
+  protected_branches: ~
+
   collaborators:
     - acs-robot
     - IvetPM
