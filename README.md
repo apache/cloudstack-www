@@ -59,7 +59,9 @@ published to the 'asf-site'. see the procedure below.
 - merge
 - wait for the staged-site to be updated and published
 - check the staging site
+- pull the latest staging-site and main branches
 - merge staging-site to main
+- push main
 - wait for asf-site to be updated and publised to the main site
 - check again
 - go to sleep
