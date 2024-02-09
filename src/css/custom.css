@@ -178,10 +178,10 @@ h1 {
 	padding: 80px 0;
 }
 .section-title {
-	font-family: 'DM Sans', sans-serif;
-	font-size: 2.5rem;
-	line-height: 3rem;
-	font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
 }
 .px18 {
 	font-size: 1.125rem;
@@ -189,15 +189,14 @@ h1 {
 
 /* power */
 .powers {
-	padding: 80px 0 50px;
-	background: url('img/splash_outline_blue.png') no-repeat calc(50% - 200px) 0; 
+    padding: 80px 10px 50px;
+    background: url('img/splash_outline_blue.png') no-repeat calc(50% - 200px) 0; 
 }
 .power-card {
-	background-color: #F0F2F5A6;
-	border-radius: 18px;
-	padding: 40px 30px 30px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+    background-color: #F0F2F5A6;
+    border-radius: 18px;
+    padding: 40px 30px 30px;
+    margin-bottom: 20px;
 }
 .power-card.line {
 	position: relative;
@@ -1172,7 +1171,7 @@ progress{vertical-align:baseline}
     padding-right:calc(var(--bs-gutter-x) * .5);
     padding-left:calc(var(--bs-gutter-x) * .5);
     margin-right:auto;
-    margin-left:auto
+    margin-left:auto;
 }
 
 
