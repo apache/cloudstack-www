@@ -32,10 +32,10 @@ The Call for Presentations is open! When proposing a talk, you can choose to pre
 
 |from|to|subject|speaker|
 |-----|-----|-------------------|---------|
-|9:30|10.00|Registration + Meetup Welcome|Abhishek Kumar, release manager Apache CloudStack 4.19|
+|9:30|10.00|Registration + Meetup Welcome|Abhishek Kumar, Release Manager Apache CloudStack 4.19|
 |10:00|10:30|CloudStack 101: The Best Way to Build Your Private Cloud|Rohit Yadav, VP Apache CloudStack|
-|10:40|11:10|What’s New in CloudStack 4.19|Abhishek Kumar, release manager Apache CloudStack 4.19|
-|11:20|11:50|How We Grew Up with CloudStack and its Journey|Dilip Singh, DataHub|
+|10:40|11:10|What’s New in CloudStack 4.19|Abhishek Kumar, Release Manager Apache CloudStack 4.19|
+|11:20|11:50|How We Grew Up with CloudStack and Our Journey|Dilip Singh, DataHub|
 |12:00|12:30|VM Migration from VMware to CloudStack and KVM|Suresh Anaparti, ShapeBlue|
 |12:30|13:30|Q&A and Lunch Break||
 |13:30|14:00|Adoption of Apache CloudStack Among Public Cloud Service Providers|Amal Ranjith, StackBill|
