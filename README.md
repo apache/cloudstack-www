@@ -59,9 +59,18 @@ published to the 'asf-site'. see the procedure below.
 - merge
 - wait for the staged-site to be updated and published
 - check the staging site
-- pull the latest staging-site and main branches
-- merge staging-site to main
-- push main
+- next, on your local machine
+  - pull the latest staging-site and main branches
+  - merge staging-site to main
+  - push main
+```
+git checkout staging-site
+git pull
+# git clean -d or similar if needed
+git checkout main
+git merge staging-site
+git push
+```
 - wait for asf-site to be updated and publised to the main site
 - check again
 - go to sleep
