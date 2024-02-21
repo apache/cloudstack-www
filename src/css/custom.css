@@ -76,7 +76,14 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 }
-
+main {
+    margin-top:25px;
+    padding-top: 10px;
+}
+article {
+    margin-top: 25px;
+    padding-top: 10px;
+}
 .btn-primary {
 	background-color: #2AA5DC;
 	border-color: #2AA5DC;
