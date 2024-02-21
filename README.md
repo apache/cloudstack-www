@@ -68,7 +68,8 @@ git checkout staging-site
 git pull
 # git clean -d or similar if needed
 git checkout main
-git merge staging-site
+git pull
+git merge --ff-only staging-site
 git push
 ```
 - wait for asf-site to be updated and publised to the main site
