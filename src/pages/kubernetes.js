@@ -60,7 +60,9 @@ User Interface.
                 </p>
               </div>
               <div class="col-lg-6 margin-second text-center">
-                <img src="/img/CloudStack_survey2.png" class="img-fluid" alt="CloudStack survey"/>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScPHIRetdt-pxPT62IesXMoQUmhQ8ATGKcYZa507mB9uwzn-Q/viewform" target="_blank">
+                  <img src="/img/CloudStack_survey2.png" class="img-fluid" alt="CloudStack survey"/>
+                </a>
               </div>
             </div>
           </div>
