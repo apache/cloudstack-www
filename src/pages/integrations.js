@@ -313,7 +313,11 @@ organisation, including:
                   <li>Collaboration and <strong>Community Engagement</strong></li>
                 </ul>
               </div>
-              <div class="col-lg-6 text-center"><img src="img/CloudStack_survey4.png" class="img-fluid mt-4" alt="CloudStack survey"/></div>
+              <div class="col-lg-6 text-center">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScPHIRetdt-pxPT62IesXMoQUmhQ8ATGKcYZa507mB9uwzn-Q/viewform" target="_blank">
+                  <img src="img/CloudStack_survey4.png" class="img-fluid mt-4" alt="CloudStack survey"/>
+                </a>
+              </div>
             </div>
           </div>
         </section>

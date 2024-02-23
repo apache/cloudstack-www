@@ -48,7 +48,11 @@ platform are greatly reduced.</p>
 and account management, a full and open native API, resource accounting,
  and a first-class User Interface.</p>
                     </div>
-                    <div class="col-lg-6 text-center"><img src="/img/CloudStack_survey3.png" class="img-fluid mt-4 mt-lg-2" alt="CloudStack survey"/></div>
+                    <div class="col-lg-6 text-center">
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLScPHIRetdt-pxPT62IesXMoQUmhQ8ATGKcYZa507mB9uwzn-Q/viewform" target="_blank">
+                        <img src="/img/CloudStack_survey3.png" class="img-fluid mt-4 mt-lg-2" alt="CloudStack survey"/>
+                      </a>
+                    </div>
                 </div>
             </div>
         </section>
