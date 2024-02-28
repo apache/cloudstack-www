@@ -161,7 +161,7 @@ const config = {
               },
               {
                 label: 'Take Survey',
-                href: '/survey'
+                href: 'https://docs.google.com/forms/d/e/1FAIpQLScPHIRetdt-pxPT62IesXMoQUmhQ8ATGKcYZa507mB9uwzn-Q/viewform'
               }
             ]
           },

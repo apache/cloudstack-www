@@ -22,17 +22,10 @@ involved with the community.
 
             <div class="horizontal-card">
               <div class="hc-header">Upcoming Events:</div>
-              <div class="row">
-                <div class="col-lg-9 pt-3 px-4">
-                  <img src="img/ceph day.png" alt="" class="events-img events-overview-img"/>
-                  <p class="title mt-2">Ceph and CloudStack day 2024</p>
-                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Amsterdam, the Netherlands</p>
-                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>February 22, 2024</p>
-                </div>
-                <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://www.eventbrite.nl/e/cloudstack-and-ceph-day-netherlands-2024-tickets-700177167757" class="btn btn-primary">Register</a>
-                </div>
-              </div>
+            </div>
+
+            <div class="horizontal-card">
+              <div class="hc-header">Past Events:</div>
               <div class="row">
                 <div class="col-lg-9 pt-3 px-4">
                   <img src="img/india 2024.jpeg" alt="" class="events-img events-overview-img"/>
@@ -45,10 +38,17 @@ involved with the community.
                   <a href="https://www.meetup.com/india-cloudstack-user-group/events/298324389/?isFirstPublish=true" class="btn btn-primary">Register</a>
                 </div>
               </div>
-            </div>
-
-            <div class="horizontal-card">
-              <div class="hc-header">Past Events:</div>
+              <div class="row">
+                <div class="col-lg-9 pt-3 px-4">
+                  <img src="img/ceph day.png" alt="" class="events-img events-overview-img"/>
+                  <p class="title mt-2">Ceph and CloudStack day 2024</p>
+                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Amsterdam, the Netherlands</p>
+                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>February 22, 2024</p>
+                </div>
+                <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://www.eventbrite.nl/e/cloudstack-and-ceph-day-netherlands-2024-tickets-700177167757" class="btn btn-primary">Register</a>
+                </div>
+              </div>
               <div class="row">
                 <div class="col-lg-9 pt-3 px-4">
                   <img src="img/event_img2.png" alt="" class="events-img events-overview-img"/>
