@@ -22,6 +22,9 @@ the session recordings will also be made available here and on the Apache
 
 <!-- truncate -->
 
+**Access each session's slides by clicking onto the presentation graphic.**
+
+
 <a class="button button--primary button--lg" href="https://photos.google.com/u/1/share/AF1QipM0NzSg04eMoTW1jhXHwfEBUNrvCigWWSTrjB1aWfnmsBhRx6QaCOeIfep17u5cvQ?key=OGYyLXMydjd4YWtWSXRRcmQ1dG5jVzh1VmVpRTl3" target="_blank">View Photo Gallery</a>
 
 <br/> <br/>
