@@ -2,7 +2,7 @@
 layout: post
 title: Meet Apache CloudStack at CloudFest 2024
 tags: [news]
-authors: [ivet]
+authors: [jamie]
 slug: cloudfest-2024
 ---
 
@@ -11,10 +11,11 @@ slug: cloudfest-2024
 <h2>Meet Apache CloudStack at CloudFest 2024</h2>
 
 On March 18-21st, the #1 internet infrastructure event in the world –
-CloudFest – will be taking place in Rust, Germany! We are excited to
-share that Apache CloudStack will be exhibiting at this year's
-CloudFest. This will provide the opportunity to share Apache
-CloudStack’s capabilities to the wider cloud computing industry.
+[CloudFest](https://www.cloudfest.com/) – will be taking place in
+Rust, Germany! We are excited to share that Apache CloudStack will be
+exhibiting at this year's CloudFest. This will provide the opportunity
+to share Apache CloudStack’s capabilities to the wider cloud computing
+industry.
 
 <!-- truncate -->
 
