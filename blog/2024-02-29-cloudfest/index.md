@@ -23,7 +23,7 @@ CloudStack’s capabilities to the wider cloud computing industry.
 Use the following code to attend the highly anticipated conference for
 free, saving you 499 EUR - c3SY3Zu2
 
-<div class="col-9">
+<div class="col col-3 col-lg text-center">
 <a class="button button--primary"
 href="https://registration.cloudfest.com/registration" target="_blank">Register for Free</a>
 </div>
@@ -46,7 +46,7 @@ topics such as:
 - CloudStack Object Storage
 - Schedule Instance Lifecycle Operations
 - CloudStack DRS
--  And more!
+- And more!
 
 ![](team.png "the cloudstack team")
 
