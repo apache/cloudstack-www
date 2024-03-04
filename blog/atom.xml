@@ -14,10 +14,11 @@
         <updated>2024-02-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Meet Apache CloudStack at CloudFest 2024]]></summary>
         <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/header-573be501cef3bc223b017fd1dceac14f.png" title="Blog Header Image" width="1200" height="628" class="img_ev3q"></p><h2>Meet Apache CloudStack at CloudFest 2024</h2><p>On March 18-21st, the #1 internet infrastructure event in the world –
-CloudFest – will be taking place in Rust, Germany! We are excited to
-share that Apache CloudStack will be exhibiting at this year's
-CloudFest. This will provide the opportunity to share Apache
-CloudStack’s capabilities to the wider cloud computing industry.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-a-free-ticket">Get a Free Ticket!<a href="#get-a-free-ticket" class="hash-link" aria-label="Direct link to Get a Free Ticket!" title="Direct link to Get a Free Ticket!">​</a></h2><p>Use the following code to attend the highly anticipated conference for
+<a href="https://www.cloudfest.com/" target="_blank" rel="noopener noreferrer">CloudFest</a> – will be taking place in
+Rust, Germany! We are excited to share that Apache CloudStack will be
+exhibiting at this year's CloudFest. This will provide the opportunity
+to share Apache CloudStack’s capabilities to the wider cloud computing
+industry.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-a-free-ticket">Get a Free Ticket!<a href="#get-a-free-ticket" class="hash-link" aria-label="Direct link to Get a Free Ticket!" title="Direct link to Get a Free Ticket!">​</a></h2><p>Use the following code to attend the highly anticipated conference for
 free, saving you 499 EUR - c3SY3Zu2</p><div class="col col-3 col-lg text-center"><a href="https://registration.cloudfest.com/registration" target="_blank" rel="noopener noreferrer" class="button button--primary">Register for Free</a></div><p><strong>Make sure to use the code:</strong></p><p><img loading="lazy" src="/assets/images/tickets-596b34e626d5fa1ef2374ed5ff39f1e5.png" title="the cloudstack team" width="1118" height="518" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-cloudstack-booth-number-is-r30">The CloudStack Booth Number is R30!<a href="#the-cloudstack-booth-number-is-r30" class="hash-link" aria-label="Direct link to The CloudStack Booth Number is R30!" title="Direct link to The CloudStack Booth Number is R30!">​</a></h2><p>If you do choose to attend the conference, make sure to swing by the
 CloudStack booth! Our booth members are looking forward to having
 interesting discussions with the wider cloud computing industry, on
@@ -43,8 +44,8 @@ challenges such as costs, avoiding vendor lock-in, and efficiently
 managing a multitude of physical servers spread across geographically
 distributed data centers.</p>]]></content>
         <author>
-            <name>Ivet Petrova</name>
-            <uri>https://github.com/IvetPM</uri>
+            <name>Jamie Pell</name>
+            <uri>https://github.com/jamiepell10</uri>
         </author>
         <category label="news" term="news"/>
     </entry>
