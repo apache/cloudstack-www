@@ -2,11 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2024-02-28T00:00:00.000Z</updated>
+    <updated>2024-02-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Meet Apache CloudStack at CloudFest 2024]]></title>
+        <id>https://cloudstack.apache.org/blog/cloudfest-2024</id>
+        <link href="https://cloudstack.apache.org/blog/cloudfest-2024"/>
+        <updated>2024-02-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meet Apache CloudStack at CloudFest 2024]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/header-573be501cef3bc223b017fd1dceac14f.png" title="Blog Header Image" width="1200" height="628" class="img_ev3q"></p><h2>Meet Apache CloudStack at CloudFest 2024</h2><p>On March 18-21st, the #1 internet infrastructure event in the world –
+<a href="https://www.cloudfest.com/" target="_blank" rel="noopener noreferrer">CloudFest</a> – will be taking place in
+Rust, Germany! We are excited to share that Apache CloudStack will be
+exhibiting at this year's CloudFest. This will provide the opportunity
+to share Apache CloudStack’s capabilities to the wider cloud computing
+industry.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-a-free-ticket">Get a Free Ticket!<a href="#get-a-free-ticket" class="hash-link" aria-label="Direct link to Get a Free Ticket!" title="Direct link to Get a Free Ticket!">​</a></h2><p>Use the following code to attend the highly anticipated conference for
+free, saving you 499 EUR - c3SY3Zu2</p><div class="col col-3 col-lg text-center"><a href="https://registration.cloudfest.com/registration" target="_blank" rel="noopener noreferrer" class="button button--primary">Register for Free</a></div><p><strong>Make sure to use the code:</strong></p><p><img loading="lazy" src="/assets/images/tickets-596b34e626d5fa1ef2374ed5ff39f1e5.png" title="the cloudstack team" width="1118" height="518" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-cloudstack-booth-number-is-r30">The CloudStack Booth Number is R30!<a href="#the-cloudstack-booth-number-is-r30" class="hash-link" aria-label="Direct link to The CloudStack Booth Number is R30!" title="Direct link to The CloudStack Booth Number is R30!">​</a></h2><p>If you do choose to attend the conference, make sure to swing by the
+CloudStack booth! Our booth members are looking forward to having
+interesting discussions with the wider cloud computing industry, on
+topics such as:</p><ul><li>VMware to KVM Migration</li><li>VMware to CloudStack migration</li><li>KVM Import</li><li>VNF Appliances Support</li><li>CloudStack Object Storage</li><li>Schedule Instance Lifecycle Operations</li><li>CloudStack DRS</li><li>And more!</li></ul><p><img loading="lazy" src="/assets/images/team-94f36e56889b292e47d30c915a641880.png" title="the cloudstack team" width="1380" height="1035" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="apache-cloudstack-at-cloudfest">Apache CloudStack at CloudFest<a href="#apache-cloudstack-at-cloudfest" class="hash-link" aria-label="Direct link to Apache CloudStack at CloudFest" title="Direct link to Apache CloudStack at CloudFest">​</a></h2><p>Being part of CloudFest is another step for our community to connect
+with existing users in the cloud industry and highlight the
+improvements in our project. For example, by using the latest features
+released in CloudStack 4.19, users can migrate to CloudStack from
+VMware environments.</p><p>Additionally, we look forward to meeting individuals interested in
+contributing to open-source projects and involving them in Apache
+CloudStack.</p><p>We are looking forward to the opportunity to discuss Apache CloudStack
+with potential new users and explore collaborations with technologies
+seeking integration opportunities.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-apache-cloudstack-benefits-cloud-builders">How Apache CloudStack Benefits Cloud Builders<a href="#how-apache-cloudstack-benefits-cloud-builders" class="hash-link" aria-label="Direct link to How Apache CloudStack Benefits Cloud Builders" title="Direct link to How Apache CloudStack Benefits Cloud Builders">​</a></h2><p>For companies venturing into the public cloud market, the challenge
+lies in finding the right software and partners that facilitate swift
+deployment for their customers. This hurdle can consume a considerable
+amount of time and potentially lead to a diminished return on
+investment if incorrect choices are made in delivering both public and
+private cloud solutions.</p><p>CloudStack is a turnkey solution for cloud builders and managed
+service providers. Being entirely open-source, it is user-friendly,
+easy to implement, manage, and scale. CloudStack is also backed by a
+large open-source community and adheres to rapid release
+cycles. Apache CloudStack assists cloud builders in overcoming key
+challenges such as costs, avoiding vendor lock-in, and efficiently
+managing a multitude of physical servers spread across geographically
+distributed data centers.</p>]]></content>
+        <author>
+            <name>Jamie Pell</name>
+            <uri>https://github.com/jamiepell10</uri>
+        </author>
+        <category label="news" term="news"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CloudStack India User Group 2024 Hyderabad Roundup]]></title>
         <id>https://cloudstack.apache.org/blog/csiug-2024-hyd-roundup</id>
