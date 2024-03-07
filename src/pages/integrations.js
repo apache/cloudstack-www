@@ -145,7 +145,7 @@ CloudStack supports automation integrations through its robust API and
 integration capabilities, enabling <strong>seamless orchestration and
 automation of cloud infrastructure tasks</strong>.
                       </p>
-                      <div class="row">
+                      <div class="row integration-images">
                         <div class="col-md-6">
                           <div class="tab-box box-puppet box278"><img src="img/puppet_logo.svg" alt="hyper-v"/></div>
                         </div>
@@ -168,7 +168,7 @@ CloudStack’s <strong>APIs and extensible architecture</strong>,
 enabling third-party tools and services to seamlessly integrate with
 the platform for data protection and continuity.
                       </p>
-                      <div class="row">
+                      <div class="row integration-images">
                         <div class="col">
                           <div class="tab-box box-acronis box192"><img src="img/acronis_logo.svg" alt=""/></div>
                         </div>
@@ -184,7 +184,7 @@ Service, which can manage and orchestrate container-based workloads
 alongside traditional virtual machines, <strong>providing a unified
 cloud infrastructure platform</strong>.
                       </p>
-                      <div class="row">
+                      <div class="row integration-images">
                         <div class="col">
                           <div class="tab-box box-kubernetes box192"><img src="img/kubernetes_logo.svg" alt=""/></div>
                         </div>
@@ -200,7 +200,7 @@ CloudStack’s <strong>hypervisor-agnostic architecture</strong>,
 allowing deployment and management of virtualized resources across
 various hypervisor platforms.
                       </p>
-                      <div class="row">
+                      <div class="row integration-images">
                         <div class="col-md-6">
                           <div class="tab-box box-blue box278"><img src="img/MS_hyper-v_logo.png" alt="hyper-v"/></div>
                         </div>
@@ -228,7 +228,7 @@ its <strong>hypervisor-agnostic architecture</strong>, allowing
 deployment and management of virtualized resources across various
 hypervisor platforms.
                       </p>
-                      <div class="row">
+                      <div class="row integration-images">
                         <div class="col">
                           <div class="tab-box box-veeam box192"><img src="img/veeam_logo.svg" alt=""/></div>
                         </div>
@@ -244,7 +244,7 @@ networking framework, which facilitates the integration
 of <strong>various network technologies and services to meet diverse
 infrastructure needs</strong>.
                       </p>
-                      <div class="row">
+                      <div class="row integration-images">
                         <div class="col">
                           <div class="tab-box box-tfabric box192"><img src="img/tungsten_logo.svg" alt=""/></div>
                         </div>
@@ -260,7 +260,7 @@ pluggable storage framework, allowing seamless integration with
 various storage systems and technologies for <strong>versatile data
 management and storage options</strong>.
                       </p>
-                      <div class="row">
+                      <div class="row integration-images">
                         <div class="col-md-6">
                           <div class="tab-box box-white box278"><img src="img/storpool_logo.svg" alt=""/></div>
                         </div>
