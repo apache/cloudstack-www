@@ -144,6 +144,10 @@ const config = {
               {
                 label: 'Kubernetes',
                 href: '/kubernetes'
+              },
+              {
+                label: 'Integrations',
+                href: '/integrations'
               }
             ]
           },
