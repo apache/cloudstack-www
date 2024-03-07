@@ -176,117 +176,117 @@ the platform for data protection and continuity.
                     </div>
                   </TabItem>
                   <TabItem value="containers" label="Containers">
-                  <div class="tab-pane" id="containers" role="tabpanel" aria-labelledby="containers-tab" tabindex="0">
-                    <h2 class="integration-title"><img src="img/containers_icon.svg" alt="" class="me-3"/>Containers</h2>
-                    <p>
+                    <div class="tab-pane" id="containers" role="tabpanel" aria-labelledby="containers-tab" tabindex="0">
+                      <h2 class="integration-title"><img src="img/containers_icon.svg" alt="" class="me-3"/>Containers</h2>
+                      <p>
 CloudStack supports different containers through its Container
 Service, which can manage and orchestrate container-based workloads
 alongside traditional virtual machines, <strong>providing a unified
 cloud infrastructure platform</strong>.
-                    </p>
-                    <div class="row">
-                      <div class="col">
-                        <div class="tab-box box-kubernetes box192"><img src="img/kubernetes_logo.svg" alt=""/></div>
+                      </p>
+                      <div class="row">
+                        <div class="col">
+                          <div class="tab-box box-kubernetes box192"><img src="img/kubernetes_logo.svg" alt=""/></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </TabItem>
                   <TabItem value="hypervisors" label="Hypervisors">
-                  <div class="tab-pane" id="hypervisors" role="tabpanel" aria-labelledby="hypervisors-tab" tabindex="0">
-                    <h2 class="integration-title"><img src="img/Hypervisors_icon.svg" alt="" class="me-3"/>Hypervisors</h2>
-                    <p>
+                    <div class="tab-pane" id="hypervisors" role="tabpanel" aria-labelledby="hypervisors-tab" tabindex="0">
+                      <h2 class="integration-title"><img src="img/Hypervisors_icon.svg" alt="" class="me-3"/>Hypervisors</h2>
+                      <p>
 Supports different hypervisors through
 CloudStack’s <strong>hypervisor-agnostic architecture</strong>,
 allowing deployment and management of virtualized resources across
 various hypervisor platforms.
-                    </p>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="tab-box box-blue box278"><img src="img/MS_hyper-v_logo.png" alt="hyper-v"/></div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="tab-box box-white box278"><img src="img/VM_ware_logo.svg" alt="vmware"/></div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="tab-box box-citrix box131"><img src="img/citrix_logo.svg" alt="citrix"/></div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="tab-box box-dgray box131"><img src="img/KVM_logo.svg" alt=""/></div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="tab-box box-lgray box131"><img src="img/XCP-ng_logo.png" alt=""/></div>
+                      </p>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="tab-box box-blue box278"><img src="img/MS_hyper-v_logo.png" alt="hyper-v"/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-white box278"><img src="img/VM_ware_logo.svg" alt="vmware"/></div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="tab-box box-citrix box131"><img src="img/citrix_logo.svg" alt="citrix"/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-dgray box131"><img src="img/KVM_logo.svg" alt=""/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-lgray box131"><img src="img/XCP-ng_logo.png" alt=""/></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </TabItem>
                   <TabItem value="monitoring" label="Monitoring">
-                  <div class="tab-pane" id="monitoring" role="tabpanel" aria-labelledby="monitoring-tab" tabindex="0">
-                    <h2 class="integration-title"><img src="img/monitoring_icon.svg" alt="" class="me-3"/>Monitoring</h2>
-                    <p>
+                    <div class="tab-pane" id="monitoring" role="tabpanel" aria-labelledby="monitoring-tab" tabindex="0">
+                      <h2 class="integration-title"><img src="img/monitoring_icon.svg" alt="" class="me-3"/>Monitoring</h2>
+                      <p>
 Apache CloudStack supports different hypervisors through
 its <strong>hypervisor-agnostic architecture</strong>, allowing
 deployment and management of virtualized resources across various
 hypervisor platforms.
-                    </p>
-                    <div class="row">
-                      <div class="col">
-                        <div class="tab-box box-veeam box192"><img src="img/veeam_logo.svg" alt=""/></div>
+                      </p>
+                      <div class="row">
+                        <div class="col">
+                          <div class="tab-box box-veeam box192"><img src="img/veeam_logo.svg" alt=""/></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </TabItem>
                   <TabItem value="networking" label="Networking">
-                  <div class="tab-pane" id="networking" role="tabpanel" aria-labelledby="networking-tab" tabindex="0">
-                    <h2 class="integration-title"><img src="img/networking_icon.svg" alt="" class="me-3"/>Networking</h2>
-                    <p>
+                    <div class="tab-pane" id="networking" role="tabpanel" aria-labelledby="networking-tab" tabindex="0">
+                      <h2 class="integration-title"><img src="img/networking_icon.svg" alt="" class="me-3"/>Networking</h2>
+                      <p>
 Support different networking integrations through CloudStack’s modular
 networking framework, which facilitates the integration
 of <strong>various network technologies and services to meet diverse
 infrastructure needs</strong>.
-                    </p>
-                    <div class="row">
-                      <div class="col">
-                        <div class="tab-box box-tfabric box192"><img src="img/tungsten_logo.svg" alt=""/></div>
+                      </p>
+                      <div class="row">
+                        <div class="col">
+                          <div class="tab-box box-tfabric box192"><img src="img/tungsten_logo.svg" alt=""/></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </TabItem>
                   <TabItem value="storage" label="Storage">
-                  <div class="tab-pane" id="storage" role="tabpanel" aria-labelledby="storage-tab" tabindex="0">
-                    <h2 class="integration-title"><img src="img/storage_icon.svg" alt="" class="me-3"/>Storage</h2>
-                    <p>
+                    <div class="tab-pane" id="storage" role="tabpanel" aria-labelledby="storage-tab" tabindex="0">
+                      <h2 class="integration-title"><img src="img/storage_icon.svg" alt="" class="me-3"/>Storage</h2>
+                      <p>
 Apache CloudStack supports different storage integrations through its
 pluggable storage framework, allowing seamless integration with
 various storage systems and technologies for <strong>versatile data
 management and storage options</strong>.
-                    </p>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="tab-box box-white box278"><img src="img/storpool_logo.svg" alt=""/></div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="tab-box box-netapp box131"><img src="img/net_app__solidfire_logo.svg" alt=""/></div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="tab-box box-pure box131"><img src="img/pure_storage-logo.svg" alt=""/></div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="tab-box box-ceph box131"><img src="img/ceph_logo.svg" alt=""/></div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="tab-box box-gluster box90"><img src="img/gluster_logo.png" alt=""/></div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="tab-box box-nutanix box172"><img src="img/nutanix_logo.svg" alt=""/></div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="tab-box box-dell box172"><img src="img/dell_logo.svg" alt=""/></div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="tab-box box-cloudian box90"><img src="img/cloudian_logo.svg" alt=""/></div>
+                      </p>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="tab-box box-white box278"><img src="img/storpool_logo.svg" alt=""/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-netapp box131"><img src="img/net_app__solidfire_logo.svg" alt=""/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-pure box131"><img src="img/pure_storage-logo.svg" alt=""/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-ceph box131"><img src="img/ceph_logo.svg" alt=""/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-gluster box90"><img src="img/gluster_logo.png" alt=""/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-nutanix box172"><img src="img/nutanix_logo.svg" alt=""/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-dell box172"><img src="img/dell_logo.svg" alt=""/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-cloudian box90"><img src="img/cloudian_logo.svg" alt=""/></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </TabItem>
                 </Tabs>
               </div>
