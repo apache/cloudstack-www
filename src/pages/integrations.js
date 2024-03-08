@@ -265,7 +265,7 @@ management and storage options</strong>.
                           <div class="tab-box box-white box278"><img src="/img/storpool_logo.svg" alt=""/></div>
                         </div>
                         <div class="col-md-6">
-                          <div class="tab-box box-netapp box131"><img src="/img/net_app__solidfire_logo.svg" alt=""/></div>
+                          <div class="tab-box box-netapp box278"><img src="/img/net_app__solidfire_logo.svg" alt=""/></div>
                         </div>
                         <div class="col-md-6">
                           <div class="tab-box box-pure box131"><img src="/img/pure_storage-logo.svg" alt=""/></div>
@@ -283,7 +283,7 @@ management and storage options</strong>.
                           <div class="tab-box box-dell box172"><img src="/img/dell_logo.svg" alt=""/></div>
                         </div>
                         <div class="col-md-6">
-                          <div class="tab-box box-cloudian box90"><img src="/img/cloudian_logo.svg" alt=""/></div>
+                          <div class="tab-box box-cloudian box172"><img src="/img/cloudian_logo.svg" alt=""/></div>
                         </div>
                       </div>
                     </div>
