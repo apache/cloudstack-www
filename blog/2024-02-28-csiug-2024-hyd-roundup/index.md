@@ -16,9 +16,7 @@ particular focus on the new features released in Apache CloudStack 4.19. The
 user group also saw its participants exchange insights and establish new
 connections.
 
-Below you can find the session slides from the user group. In the coming weeks,
-the session recordings will also be made available here and on the Apache
-[CloudStack YouTube channel](https://www.youtube.com/@ApacheCloudStack).
+Below you can find the session recordings and slides from the user group.
 
 <!-- truncate -->
 
@@ -38,7 +36,9 @@ networks of virtual machines, as a highly available, highly scalable
 Infrastructure as a Service (IaaS) cloud computing platform. This talk
 introduces the technology, its architecture, its history and community.
 
-[![](Welcome.png "The Best Way to Build Your Private Cloud")](https://www.slideshare.net/slideshow/embed_code/key/tE2SKCfqG1zzhv?hostedIn=slideshare&page=upload)
+[![](youtube/Welcome.png "The Best Way to Build Your Private Cloud - video")](https://www.youtube.com/watch?v=pASzZR57V_8&list=PLnIKk7GjgFlYRGmxK70VXSgpNXjEBHpYw&index=1)
+
+[![](slideshare/Welcome.png "The Best Way to Build Your Private Cloud - slides")](https://www.slideshare.net/slideshow/embed_code/key/tE2SKCfqG1zzhv)
 
 
 ## What’s New in CloudStack 4.19, [Abhishek Kumar](https://www.linkedin.com/in/shwstppr/)
@@ -51,7 +51,9 @@ Hypervisor agnostic simple DRS, CAPC aware CKS, OAuth2, DRaaS with Multi zone
 disaster recovery, etc and a summary of improvements added since the previous
 major LTS release of the CloudStack, ie, 4.18.0.
 
-[![](WhatsNew.png "whats's new - slides")](https://www.slideshare.net/slideshow/embed_code/key/pG7OmG75QZYBNW)
+[![](youtube/WhatsNew.png "Whats's new in CloudStack 4.19 - video")](https://www.youtube.com/watch?v=-uDdCrV9bFU&list=PLnIKk7GjgFlYRGmxK70VXSgpNXjEBHpYw&index=2)
+
+[![](slideshare/WhatsNew.png "Whats's new in CloudStack 4.19 - slides")](https://www.slideshare.net/slideshow/embed_code/key/pG7OmG75QZYBNW)
 
 
 ## How We Grew Up with CloudStack and its Journey, [Dilip Singh](https://www.linkedin.com/in/dilip-singh-10956256/)
@@ -60,7 +62,9 @@ In this session, Senior IT Manager at DataHub Nepal, Dilip Singh, shares how
 DataHub grew up with CloudStack and details the journey the company had with the
 cloud orchestration platform.
 
-[![](NepalGrewUp.png "How We Grew Up with CloudStack and its Journey - slides")](https://www.slideshare.net/slideshow/embed_code/key/61TwJQZJkOuEyK)
+[![](youtube/NepalGrewUp.png "How We Grew Up with CloudStack and its Journey - video")](https://www.youtube.com/watch?v=4tkj4Q4MX80&list=PLnIKk7GjgFlYRGmxK70VXSgpNXjEBHpYw&index=3)
+
+[![](slideshare/NepalGrewUp.png "How We Grew Up with CloudStack and its Journey - slides")](https://www.slideshare.net/slideshow/embed_code/key/61TwJQZJkOuEyK)
 
 
 ## VM Migration from VMware to CloudStack and KVM, [Suresh Anaparti](https://www.linkedin.com/in/sureshanaparti/)
@@ -71,7 +75,9 @@ CloudStack-managed KVM environment has been added to CloudStack 4.19.
 In this talk, Suresh provides the details about the import/migration process in
 CloudStack along with a demo, and discusses the future improvements.
 
-[![](VmwareKVMMigration.png "VM Migration from VMware to CloudStack and KVM - slides")](https://www.slideshare.net/slideshow/embed_code/key/A8JFpCPykKA3EF)
+[![](youtube/VmwareKVMMigration.png "VM Migration from VMware to CloudStack and KVM - video")](https://www.youtube.com/watch?v=h83wxxelRig&list=PLnIKk7GjgFlYRGmxK70VXSgpNXjEBHpYw&index=4)
+
+[![](slideshare/VmwareKVMMigration.png "VM Migration from VMware to CloudStack and KVM - slides")](https://www.slideshare.net/slideshow/embed_code/key/A8JFpCPykKA3EF)
 
 
 ## Elevating Cloud Infrastructure with Object Storage, DRS, VM Scheduling, and DRaaS, [Jithin Raju](https://www.linkedin.com/in/rajujith/) & [Vishesh Jindal](https://www.linkedin.com/in/vishesh92/)
@@ -79,7 +85,9 @@ CloudStack along with a demo, and discusses the future improvements.
 In this session, Vishesh Jindal and Jithin Raju give a demonstration on Apache
 CloudStack's 4.19 marquee features - Object Storage, DRS, VM schedule & DRaaS.
 
-[![](Elevating.png "")](https://www.slideshare.net/slideshow/embed_code/key/ta0GIsjchZA5ti)
+[![](youtube/Elevating.png "Elevating Cloud Infrastructure with Object Storage, DRS, VM Scheduling, and DRaaS - video")](https://www.youtube.com/watch?v=w85gB1SXS7U&list=PLnIKk7GjgFlYRGmxK70VXSgpNXjEBHpYw&index=5)
+
+[![](slideshare/Elevating.png "Elevating Cloud Infrastructure with Object Storage, DRS, VM Scheduling, and DRaaS - slides")](https://www.slideshare.net/slideshow/embed_code/key/ta0GIsjchZA5ti)
 
 
 ## CloudStack Tooling Ecosystem, [Kiran Chavala](https://www.linkedin.com/in/kiran-chavala-1bb6a97/)
@@ -93,7 +101,9 @@ CloudStack.
 This session provides a great way to speed up CloudStack adoption and improve
 performance by saving valuable time.
 
-[![](Tooling.png "CloudStack Tooling Ecosystem - slides")](https://www.slideshare.net/slideshow/embed_code/key/6woxuBiP6b6aq5)
+[![](youtube/Tooling.png "CloudStack Tooling Ecosystem - video")](https://www.youtube.com/watch?v=xjgGzWTBIYw&list=PLnIKk7GjgFlYRGmxK70VXSgpNXjEBHpYw&index=6)
+
+[![](slideshare/Tooling.png "CloudStack Tooling Ecosystem - slides")](https://www.slideshare.net/slideshow/embed_code/key/6woxuBiP6b6aq5)
 
 
 ## CloudStack Authentication Methods, [Harikrishna Patnala](https://www.linkedin.com/in/harikrishnapatnala/)
@@ -107,5 +117,7 @@ third-party applications, and API keys offer programmatic access to resources.
 Additionally, CloudStack supports Two-Factor Authentication for an extra layer
 of security, enhancing user verification through multiple verification steps.
 
-[![](Auth.png "CloudStack Authentication Methods - slides")](https://www.slideshare.net/slideshow/embed_code/key/42HE4pVaNJl1qd)
+[![](youtube/Auth.png "CloudStack Authentication Methods - video")](https://www.youtube.com/watch?v=M4cnljW2J9k&list=PLnIKk7GjgFlYRGmxK70VXSgpNXjEBHpYw&index=7)
+
+[![](slideshare/Auth.png "CloudStack Authentication Methods - slides")](https://www.slideshare.net/slideshow/embed_code/key/42HE4pVaNJl1qd)
 
