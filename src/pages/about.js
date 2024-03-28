@@ -72,7 +72,7 @@ full-featured public or private IaaS cloud.
                 <p>
 Apache projects are managed by
 a <a href="https://www.apache.org/dev/pmc.html#what-is-a-pmc"
-alt="link to describtion of what a PMC entails">Project Management
+alt="link to description of what a PMC entails">Project Management
 Committee</a> <a href="/who">(PMC)</a>, and much of the work is done
 by the
 project's&nbsp;<a href="https://www.apache.org/dev/committers.html"
