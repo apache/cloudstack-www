@@ -252,7 +252,7 @@ const config = {
 		  <img src="/img/linkedin_icon.svg" alt=""/>
 		</a>
             </div>
-            <div class="footer-bottom">Copyright © 2023 The Apache
+            <div class="footer-bottom">Copyright © ${new Date().getFullYear()} The Apache
 Software Foundation, Licensed under the Apache License, Version 2.0.
 “Apache”, “CloudStack”, “Apache CloudStack”, the Apache CloudStack logo,
  the Apache CloudStack Cloud Monkey logo and the Apache feather logos
