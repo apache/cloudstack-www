@@ -4,10 +4,30 @@
         <title>Apache CloudStack Blog</title>
         <link>https://cloudstack.apache.org/blog</link>
         <description>Apache CloudStack Blog</description>
-        <lastBuildDate>Thu, 29 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apache CloudStack CloudMonkey 6.4.0 Release]]></title>
+            <link>https://cloudstack.apache.org/blog/cloudmonkey-6.4-release</link>
+            <guid>https://cloudstack.apache.org/blog/cloudmonkey-6.4-release</guid>
+            <pubDate>Thu, 28 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are pleased to announce the release of Apache CloudStack CloudMonkey v6.4.0,]]></description>
+            <content:encoded><![CDATA[<p><a href="/blog/cloudmonkey-6.4-release"><img loading="lazy" src="/assets/images/banner-00cffd639418c48fde1f4c479259e9b6.svg" title="CloudMonkey Image" width="1484" height="363" class="img_ev3q"></a></p><p>We are pleased to announce the release of Apache CloudStack CloudMonkey v6.4.0,
+the latest version of the popular command-line interface tool for managing
+Apache CloudStack environments.</p><p>CloudMonkey 6.4.0 comes packed with several new features, enhancements, and bug
+fixes to make it even more robust and reliable. Some of the key highlights of
+this release include:</p><ul><li>Improve CLI mode usage and output handling</li><li>Add support for http POST handling for password and user-data</li><li>Optimise async API jobs polling</li><li>Better interrupt handling of Ctrl+C to cancel on-going API request but not crash cmk</li><li>Remove unnecessary call to listApis (sync) when using CLI mode with url, api key, secret key</li><li>Updates inbuilt API precache to ACS v4.19</li></ul><p>CloudMonkey v6.4.0 is <a href="https://cloudstack.apache.org/downloads.html" target="_blank" rel="noopener noreferrer">available for download</a>
+now from the Apache CloudStack website. For more information on the release, including a full list
+of new features and bug fixes, please refer to the release notes.</p><a href="https://github.com/apache/cloudstack-cloudmonkey/releases/tag/6.4.0" target="_blank" rel="noopener noreferrer" class="button button--primary">Download CloudMonkey v6.4.0</a><br><br><h1>Downloads and Documentation</h1><p>The official source code for CloudMonkey v6.4.0 can be downloaded from:
+<a href="https://cloudstack.apache.org/downloads.html" target="_blank" rel="noopener noreferrer">https://cloudstack.apache.org/downloads.html</a></p><p>CloudMonkey's usage details are documented at
+<a href="https://github.com/apache/cloudstack-cloudmonkey/wiki" target="_blank" rel="noopener noreferrer">https://github.com/apache/cloudstack-cloudmonkey/wiki</a></p><p>We encourage all CloudStack users to upgrade to CloudMonkey 6.4.0 to take
+advantage of the latest features and improvements. As always, we welcome
+feedback and contributions from the community to help make CloudMonkey even
+better.</p><p>Thank you for your continued support of Apache CloudStack CloudMonkey.</p>]]></content:encoded>
+            <category>announcement</category>
+        </item>
         <item>
             <title><![CDATA[Meet Apache CloudStack at CloudFest 2024]]></title>
             <link>https://cloudstack.apache.org/blog/cloudfest-2024</link>
