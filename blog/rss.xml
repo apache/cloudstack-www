@@ -4,10 +4,51 @@
         <title>Apache CloudStack Blog</title>
         <link>https://cloudstack.apache.org/blog</link>
         <description>Apache CloudStack Blog</description>
-        <lastBuildDate>Thu, 28 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[CloudStack at CloudFest 2024]]></title>
+            <link>https://cloudstack.apache.org/blog/cloudfest-2024-roundup</link>
+            <guid>https://cloudstack.apache.org/blog/cloudfest-2024-roundup</guid>
+            <pubDate>Fri, 29 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[CloudFest happened last week and the CloudStack community was pleased to attend the premier event for internet infrastructure globally. Apache CloudStack has proudly showcased at the conference, with several community members representing both the technology and community.]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="/assets/images/header-1a6767b1e22057921b145f6c860274dc.png" title="Blog Header Image" width="1200" height="628" class="img_ev3q"></p><p>CloudFest happened last week and the CloudStack community was pleased to attend the premier event for internet infrastructure globally. Apache CloudStack has proudly showcased at the conference, with several community members representing both the technology and community. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-we-participate">Why We Participate?<a href="#why-we-participate" class="hash-link" aria-label="Direct link to Why We Participate?" title="Direct link to Why We Participate?">​</a></h2><p>Apache CloudStack's presence at CloudFest serves multiple strategic
+purposes. Firstly, by exhibiting at this major event in the cloud
+computing industry, Apache CloudStack enhances its visibility and
+connects with a diverse audience of developers, IT professionals,
+business leaders and potential new users. This exposure facilitates
+networking opportunities and enables Apache CloudStack to showcase its
+features and recent developments, fostering engagement with potential
+users, contributors, and partners.</p><p>Moreover, CloudFest offers a platform for Apache CloudStack to engage
+directly with its existing community, facilitating face-to-face
+interactions and discussions. The participation in CloudFest allows
+Apache CloudStack to stay competitive by highlighting its unique
+advantages and strengths amidst the broader landscape of cloud
+computing solutions.</p><p>Lastly, the event provides a valuable opportunity for Apache
+CloudStack to gather market intelligence, enabling the project to
+adapt and evolve in alignment with emerging trends, customer needs,
+and industry challenges.</p><p>We are greatful to all community members, who came to help at the
+booth, did numerous demos of Apache CloudStack and showcased its
+strenghts to service providers and cloud builders from all around the
+globe.</p><p><img loading="lazy" src="/assets/images/crowded-booth-1b7fa120b92387cae4922592bd7c410d.png" title="the cloudstack team" width="1378" height="1033" class="img_ev3q"></p><p><img loading="lazy" src="/assets/images/lesEntrepeneurs-a941aeb47608486519812e1e275191ed.png" title="the cloudstack team" width="1378" height="1033" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-special-thanks-to-the-cloudfest-team">A Special Thanks to the CloudFest Team<a href="#a-special-thanks-to-the-cloudfest-team" class="hash-link" aria-label="Direct link to A Special Thanks to the CloudFest Team" title="Direct link to A Special Thanks to the CloudFest Team">​</a></h2><p>Apache CloudStack extends gratitude to the CloudFest team, their CEO
+Christian Jaeger and Johannes Gottschlich, for their unwavering
+support and dedication to fostering innovation and collaboration
+within the technology community.</p><p>We deeply appreciate their efforts in providing a platform for
+projects like Apache CloudStack to thrive, connect with a diverse
+audience, and showcase the transformative potential of open-source
+solutions. It is through their support and understanding of the
+significance of open-source technologies that projects like Apache
+CloudStack can continue to evolve, empower users, and shape the future
+of cloud computing.</p><p><img loading="lazy" src="/assets/images/booth-crew-d59035265e6a7d24eab16e825f20820d.png" title="the cloudstack team" width="1380" height="1328" class="img_ev3q"></p><p><img loading="lazy" src="/assets/images/ACS-businessmen-059e5a7b031a3d6083ed5edfabb61711.png" title="the cloudstack team" width="480" height="360" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="exploring-the-cloudstack-419-release">Exploring the CloudStack 4.19 Release<a href="#exploring-the-cloudstack-419-release" class="hash-link" aria-label="Direct link to Exploring the CloudStack 4.19 Release" title="Direct link to Exploring the CloudStack 4.19 Release">​</a></h2><p>Our community members have shared with CloudFest attendees the latest
+advancements and capabilities of Apache CloudStack, made available in
+the 4.19 release! Due to VMware’s acquisition by Broadcom, there have
+been many topical discussions on the latest CloudStack features
+suitable for cloud service providers looking for a VMware alternative.</p>]]></content:encoded>
+            <category>news</category>
+            <category>roundup</category>
+        </item>
         <item>
             <title><![CDATA[Apache CloudStack CloudMonkey 6.4.0 Release]]></title>
             <link>https://cloudstack.apache.org/blog/cloudmonkey-6.4-release</link>
