@@ -1,4 +1,5 @@
 import React from 'react';
+{/*import {MetaTags} from 'react-meta-tags';*/}
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -57,6 +58,15 @@ export default function Home(): JSX.Element {
     <Layout
       title={`${siteConfig.title}`}
       description="Apache CloudStack is an opensource infrastructure-as-a-service cloud computing platform that is easy to use, turnkey, highly available and highly scalable.">
+{/*
+          <MetaTags>
+            <title>Page 1</title>
+            <meta id="meta-description" name="description" content="Some description." />
+            <meta id="og-title" property="og:title" content="MyApp" />
+            <meta id="og-image" property="og:image" content="path/to/image.jpg" />
+          </MetaTags>
+*/}
+
       <HomepageHeader />
       <main>
         <section class="light-blue">
