@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet-async";
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import LearnMore from './learn-more.mdx';
@@ -25,6 +26,9 @@ function KubernetesHeader() {
 export default function KubernetesOnCloudStack() {
   return (
     <Layout title="Kubernetes on CloudStack in Production" description="Kubernetes on CloudStack in Production">
+      <Helmet>
+        <meta name="description" content="CloudStack is open-source Infrastructure-as-a-Service cloud computing software for creating, managing, and deploying infrastructure cloud services."/>
+      </Helmet>
       <KubernetesHeader />
       <main>
         <section>
