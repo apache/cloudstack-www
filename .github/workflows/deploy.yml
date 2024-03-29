@@ -34,6 +34,7 @@ jobs:
           node-version: 16.x
           cache: yarn
       - run: |
+          cp static/robots.txt.main static/robots.txt
           yarn install --frozen-lockfile
           yarn build
           cp .asf.yaml ./build/.asf.yaml
