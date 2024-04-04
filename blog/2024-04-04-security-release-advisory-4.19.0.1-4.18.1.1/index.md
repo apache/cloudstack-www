@@ -6,8 +6,11 @@ authors: [rohit]
 slug: security-release-advisory-4.19.0.1-4.18.1.1
 ---
 
-Apache CloudStack security releases 4.18.1.1 and 4.19.0.1 address the CVEs
-listed below. Affected users are recommended to upgrade their CloudStack
+Apache CloudStack security releases
+[4.18.1.1](https://github.com/apache/cloudstack/releases/tag/4.18.1.1) and
+[4.19.0.1](https://github.com/apache/cloudstack/releases/tag/4.19.0.1) address the CVEs
+listed below. Affected users are recommended to
+[upgrade](https://cloudstack.apache.org/downloads) their CloudStack
 installations.
 
 <!-- truncate -->
