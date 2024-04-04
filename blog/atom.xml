@@ -12,9 +12,12 @@
         <id>https://cloudstack.apache.org/blog/security-release-advisory-4.19.0.1-4.18.1.1</id>
         <link href="https://cloudstack.apache.org/blog/security-release-advisory-4.19.0.1-4.18.1.1"/>
         <updated>2024-04-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Apache CloudStack security releases 4.18.1.1 and 4.19.0.1 address the CVEs]]></summary>
-        <content type="html"><![CDATA[<p>Apache CloudStack security releases 4.18.1.1 and 4.19.0.1 address the CVEs
-listed below. Affected users are recommended to upgrade their CloudStack
+        <summary type="html"><![CDATA[Apache CloudStack security releases]]></summary>
+        <content type="html"><![CDATA[<p>Apache CloudStack security releases
+<a href="https://github.com/apache/cloudstack/releases/tag/4.18.1.1" target="_blank" rel="noopener noreferrer">4.18.1.1</a> and
+<a href="https://github.com/apache/cloudstack/releases/tag/4.19.0.1" target="_blank" rel="noopener noreferrer">4.19.0.1</a> address the CVEs
+listed below. Affected users are recommended to
+<a href="https://cloudstack.apache.org/downloads" target="_blank" rel="noopener noreferrer">upgrade</a> their CloudStack
 installations.</p><p><a href="https://www.cve.org/CVERecord?id=CVE-2024-29006" target="_blank" rel="noopener noreferrer"><strong>CVE-2024-29006</strong></a>: x-forwarded-for HTTP header parsed by default</p><p>Severity: moderate</p><p>Description: By default the CloudStack management server honours the
 x-forwarded-for HTTP header and logs it as the source IP of an API
 request. This could lead to authentication bypass and other
