@@ -1,7 +1,7 @@
 # Apache CloudStack Official Website
 
-This project keeps all sources used for building up Apache CloudStack
-official website which's served at https://cloudstack.apache.org/.
+This project keeps all sources used for building up the Apache CloudStack
+official website which is served at https://cloudstack.apache.org/.
 
 ## Contributing
 
@@ -72,6 +72,6 @@ git pull
 git merge --ff-only staging-site
 git push
 ```
-- wait for asf-site to be updated and publised to the main site
+- wait for asf-site to be updated and published to the main site
 - check again
 - go to sleep
