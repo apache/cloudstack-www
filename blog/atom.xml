@@ -2,11 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2024-03-29T00:00:00.000Z</updated>
+    <updated>2024-04-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[[ADVISORY] Apache CloudStack Security Releases 4.18.1.1 and 4.19.0.1]]></title>
+        <id>https://cloudstack.apache.org/blog/security-release-advisory-4.19.0.1-4.18.1.1</id>
+        <link href="https://cloudstack.apache.org/blog/security-release-advisory-4.19.0.1-4.18.1.1"/>
+        <updated>2024-04-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apache CloudStack security releases 4.18.1.1 and 4.19.0.1 address the CVEs]]></summary>
+        <content type="html"><![CDATA[<p>Apache CloudStack security releases 4.18.1.1 and 4.19.0.1 address the CVEs
+listed below. Affected users are recommended to upgrade their CloudStack
+installations.</p><p><a href="https://www.cve.org/CVERecord?id=CVE-2024-29006" target="_blank" rel="noopener noreferrer"><strong>CVE-2024-29006</strong></a>: x-forwarded-for HTTP header parsed by default</p><p>Severity: moderate</p><p>Description: By default the CloudStack management server honours the
+x-forwarded-for HTTP header and logs it as the source IP of an API
+request. This could lead to authentication bypass and other
+operational problems should an attacker decide to spoof their IP
+address this way.</p><p>Affected versions: Apache CloudStack 4.11.0.0 through 4.18.1.0, and 4.19.0.0</p><p>Credit: Yuyang Xiao &lt; <a href="mailto:superxyyang@gmail.com" target="_blank" rel="noopener noreferrer">superxyyang@gmail.com</a> &gt; (finder)</p><p><a href="https://www.cve.org/CVERecord?id=CVE-2024-29007" target="_blank" rel="noopener noreferrer"><strong>CVE-2024-29007</strong></a>: When
+downloading templates or ISOs, the management server and SSVM follow HTTP
+redirects with potentially dangerous consequences</p><p>Severity: moderate</p><p>Affected versions: Apache CloudStack 4.9.1.0 through 4.18.1.0, and 4.19.0.0</p><p>Description: The CloudStack management server and secondary storage VM could be
+tricked into making requests to restricted or random resources by
+means of following 301 HTTP redirects presented by external servers
+when downloading templates or ISOs. Users are recommended to upgrade
+to version 4.18.1.1 or 4.19.0.1, which fixes this issue.</p><p>Credit: Yuyang Xiao &lt; <a href="mailto:superxyyang@gmail.com" target="_blank" rel="noopener noreferrer">superxyyang@gmail.com</a> &gt; (finder)</p><p><a href="https://www.cve.org/CVERecord?id=CVE-2024-29008" target="_blank" rel="noopener noreferrer"><strong>CVE-2024-29008</strong></a>: The
+extraconfig feature can be abused to load hypervisor resources on a VM instance</p><p>Severity: critical</p><p>Affected versions: Apache CloudStack 4.14.0.0 through 4.18.1.0, and 4.19.0.0</p><p>Description: A problem has been identified in the CloudStack additional VM
+configuration (extraconfig) feature which can be misused by anyone who
+has privilege to deploy a VM instance or configure settings of an
+already deployed VM instance, to configure additional VM configuration
+even when the feature is not explicitly enabled by the administrator.
+In a KVM based CloudStack environment, an attacker can exploit this
+issue to attach host devices such as storage disks, and PCI and USB
+devices such as network adapters and GPUs, in a regular VM instance
+that can be further exploited to gain access to the underlying network
+and storage infrastructure resources, and access any VM instance disks
+on the local storage.</p><p>Credit: Wei Zhou &lt; <a href="mailto:ustcweizhou@gmail.com" target="_blank" rel="noopener noreferrer">ustcweizhou@gmail.com</a> &gt; (finder)</p>]]></content>
+        <author>
+            <name>Rohit Yadav</name>
+            <uri>https://github.com/rohityadavcloud</uri>
+        </author>
+        <category label="announcement" term="announcement"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CloudStack at CloudFest 2024]]></title>
         <id>https://cloudstack.apache.org/blog/cloudfest-2024-roundup</id>
