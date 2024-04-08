@@ -22,6 +22,19 @@ involved with the community.
 
             <div class="horizontal-card">
               <div class="hc-header">Upcoming Events:</div>
+              <div class="row">
+                <div class="col-lg-9 pt-3 px-4">
+                  <img src="img/CSEUG 2024.jpg" alt="" class="events-img events-overview-img"/>
+                  <p class="title mt-2">CloudStack European User Group 2024</p>
+                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Frankfurt, Germany</p>
+                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>Sep 12, 2024</p>
+                </div>
+                <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="blog/cseug-2024" class="btn btn-outline-secondary me-3">Read More</a>
+                  <a class="button button--primary" href="https://www.eventbrite.co.uk/e/cloudstack-european-user-group-germany-tickets-879369205967" target="_blank">Register Now</a>
+
+                </div>
+              </div>
             </div>
 
             <div class="horizontal-card">
@@ -59,17 +72,6 @@ involved with the community.
                 <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://cloudstack.apache.org/blog/ccc2023-roundup" class="btn btn-outline-secondary me-3">Read More</a>
                   <a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlZsBJestxnL-xF5DxgewxYh" class="btn btn-primary">Watch</a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-9 pt-3 px-4">
-                  <img src="img/india user group 2023.jpeg" alt="" class="events-img events-overview-img"/>
-                  <p class="title mt-2">CloudStack India User Group 2023</p>
-                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Bangalore, India</p>
-                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>August 18, 2023</p>
-                </div>
-                <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://cloudstack.apache.org/blog/cloudstack-india-user-group-2023-roundup" class="btn btn-outline-secondary me-3">Read More</a>
                 </div>
               </div>
               <div class="row">
