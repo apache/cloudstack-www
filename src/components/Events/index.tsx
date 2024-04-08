@@ -30,9 +30,21 @@ involved with the community.
                   <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>Sep 12, 2024</p>
                 </div>
                 <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="blog/cseug-2024" class="btn btn-outline-secondary me-3">Read More</a>
+                  <a href="/blog/cseug-2024" class="btn btn-outline-secondary me-3">Read More</a>
                   <a class="button button--primary" href="https://www.eventbrite.co.uk/e/cloudstack-european-user-group-germany-tickets-879369205967" target="_blank">Register Now</a>
 
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-9 pt-3 px-4">
+                  <img src="img/CCC-2024.png" alt="" class="events-img events-overview-img"/>
+                  <p class="title mt-2">CloudStack Collaboration Conference 2024</p>
+                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Madrid, Spain</p>
+                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>November 20-22, 2024</p>
+                </div>
+                <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="/blog/ccc-2024" class="btn btn-outline-secondary me-3">Read More</a>
+                  <a href="https://www.eventbrite.com/e/cloudstack-collaboration-conference-2024-tickets-879401903767" class="btn btn-primary">Register Now</a>
                 </div>
               </div>
             </div>
