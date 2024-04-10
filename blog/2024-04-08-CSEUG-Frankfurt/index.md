@@ -64,7 +64,7 @@ building IaaS.
 href="https://www.eventbrite.co.uk/e/cloudstack-european-user-group-germany-tickets-879369205967" target="_blank">Register Now</a>
 </div>
 
-## Meet ProIO – Our host 
+## Meet proIO – Our host
 
 [![](proio-logo.png "proIO")](https://www.proIO.com/)
 
