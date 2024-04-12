@@ -13,7 +13,7 @@
         <link href="https://cloudstack.apache.org/blog/cloudstack-terraform-provider-0.5.0-release"/>
         <updated>2024-04-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We are pleased to announce the release of Apache CloudStack Terraform]]></summary>
-        <content type="html"><![CDATA[<p><a href="/blog/cloudstack-terraform-provider-0.5.0-release"><img loading="lazy" src="/assets/images/banner-8227f404f3d9aa5fc904a9e731daaecc.jpg" title="CloudStack Terraform Provider" width="1200" height="628" class="img_ev3q"></a></p><p>We are pleased to announce the release of Apache CloudStack Terraform
+        <content type="html"><![CDATA[<p><a href="/blog/cloudstack-terraform-provider-0.5.0-release"><img loading="lazy" src="/assets/images/banner-876119598f926b6667d73cd18625f33d.jpg" title="CloudStack Terraform Provider" width="1200" height="628" class="img_ev3q"></a></p><p>We are pleased to announce the release of Apache CloudStack Terraform
 provider v0.5.0. Terraform is an open-source infrastructure as code software
 tool that provides a consistent CLI workflow to manage resources in many
 public/private clouds.</p><p>Terraform v0.5.0 comes packed with several new features, enhancements,
