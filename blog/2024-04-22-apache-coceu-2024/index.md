@@ -42,12 +42,12 @@ href="https://eu.communityovercode.org/schedule/" target="_blank">Event Schedule
 Below you can find a list of all the sessions about Apache CloudStack
 – all of which will be held by Apache CloudStack community members.
 
-### What’s New in CloudStack, [Boris Stoyanov](https://www.linkedin.com/in/bstoyanov/) – Monday 3rd at 13:20 – 13:50 (Harmony 3)
+###### What’s New in CloudStack, [Boris Stoyanov](https://www.linkedin.com/in/bstoyanov/) – Monday 3rd at 13:20 – 13:50 (Harmony 3)
 
 In this session, CloudStack PMC Member Boris will be covering the
 latest major features in Apache CloudStack over the past few releases.
 
-### Transitioning from VMware to Apache CloudStack: A Path to Profitability and Competitiveness, [Marco Sinhoreli](https://www.linkedin.com/in/msinhore/) – Tuesday 4th at 12:30 – 13:00 (Harmony 1) 
+###### Transitioning from VMware to Apache CloudStack: A Path to Profitability and Competitiveness, [Marco Sinhoreli](https://www.linkedin.com/in/msinhore/) – Tuesday 4th at 12:30 – 13:00 (Harmony 1) 
 
 In this session, Marco will explore the potential of migrating from
 VMware to Apache CloudStack with KVM. VMware vSphere is a robust cloud
@@ -64,7 +64,7 @@ profitability, and enhance competitiveness. He will also cover the
 practical steps and considerations in planning and executing this
 transition effectively.
 
-### Making Apache CloudStack market ready with a native rating solution,[Daniel Salvador](https://www.linkedin.com/in/gutoveronezi/),[Bryan Lima](https://www.linkedin.com/in/bryan-lima/), [João Paraquetti](https://www.linkedin.com/in/jo%C3%A3o-jandre-136a32159/),[Rafael Weingärtner](http://cloudstack.apache.org) – Tuesday 4th at 14:00 – 14:30 (Harmony 1)
+###### Making Apache CloudStack market ready with a native rating solution,[Daniel Salvador](https://www.linkedin.com/in/gutoveronezi/),[Bryan Lima](https://www.linkedin.com/in/bryan-lima/), [João Paraquetti](https://www.linkedin.com/in/jo%C3%A3o-jandre-136a32159/),[Rafael Weingärtner](http://cloudstack.apache.org) – Tuesday 4th at 14:00 – 14:30 (Harmony 1)
 
 This presentation will address the design and efforts of the ACS
 community to implement a native rating feature that will allow more
@@ -79,7 +79,7 @@ external KVM hosts to KVM hosts managed by CloudStack. Andrija will
 also show how you can quickly deploy an instance from a previously
 prepared qcow2 image.
 
-### Incremental snapshots/backups in KVM plugin of Apache CloudStack, [Daniel Salvador](https://www.linkedin.com/in/gutoveronezi/), [Bryan Lima](https://www.linkedin.com/in/bryan-lima/), [João Paraquetti](https://www.linkedin.com/in/jo%C3%A3o-jandre-136a32159/),[Rafael Weingärtner](http://cloudstack.apache.org) – Tuesday 4th at 15:20 – 15:50 (Harmony 1)
+###### Incremental snapshots/backups in KVM plugin of Apache CloudStack, [Daniel Salvador](https://www.linkedin.com/in/gutoveronezi/), [Bryan Lima](https://www.linkedin.com/in/bryan-lima/), [João Paraquetti](https://www.linkedin.com/in/jo%C3%A3o-jandre-136a32159/),[Rafael Weingärtner](http://cloudstack.apache.org) – Tuesday 4th at 15:20 – 15:50 (Harmony 1)
 
 Apache CloudStack (ACS) and KVM are a combination that many
 organizations decided to adopt. KVM is a widely used hypervisor with a
@@ -95,7 +95,7 @@ address the design and efforts of the ACS community to support
 incremental snapshots/backups for the KVM plugin. Thus, creating a
 native backup solution in ACS that supports differential copies.
 
-### VNF Integration and Support in Apache CloudStack, [Wei Zhou](https://www.linkedin.com/in/wei-zhou-3635b633/) – Tuesday 4th at 16:10 – 16:40 (Harmony 1)
+###### VNF Integration and Support in Apache CloudStack, [Wei Zhou](https://www.linkedin.com/in/wei-zhou-3635b633/) – Tuesday 4th at 16:10 – 16:40 (Harmony 1)
 
 In this session, Wei will present how CloudStack 4.19 adds the
 capability to easily and quickly perform a light-touch integration of
@@ -104,7 +104,7 @@ and end users to offer a broader range of networking services while
 empowering end-users to effortlessly deploy their own virtualized
 network functions (VNFs).
 
-### SDN Options in Apache CloudStack, [Alexandre Mattioli](https://www.linkedin.com/in/alexandremattiolibastos/) – Tuesday 4th at 16:50 – 17:20 (Harmony 1)
+###### SDN Options in Apache CloudStack, [Alexandre Mattioli](https://www.linkedin.com/in/alexandremattiolibastos/) – Tuesday 4th at 16:50 – 17:20 (Harmony 1)
 
 Apache CloudStack integrates with two major SDN solutions, Tungsten
 Fabric (OpenSDN) for KVM environments and NSX for VMWare ESX
