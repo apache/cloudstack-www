@@ -2,11 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2024-04-12T00:00:00.000Z</updated>
+    <updated>2024-04-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Apache Community over Code 2024 – June 3rd-5th, Bratislava, Slovakia]]></title>
+        <id>https://cloudstack.apache.org/blog/coceu-2024</id>
+        <link href="https://cloudstack.apache.org/blog/coceu-2024"/>
+        <updated>2024-04-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On 3-5th June, the [Apache Software]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/banner-69b00009fb33eeb6cf1dabe063a2f5e1.png" title="Blog Header Image" width="1200" height="628" class="img_ev3q"></p><p>On 3-5th June, the <a href="https://www.apache.org" target="_blank" rel="noopener noreferrer">Apache Software
+Foundation</a> will be holding the annual
+<a href="https://eu.communityovercode.org/" target="_blank" rel="noopener noreferrer">Community Over Code EU</a>
+conference. This year, attendees can anticipate engaging sessions led
+by Apache CloudStack community members at the event. It serves as a
+prime platform to stay aware of the newest developments within Apache
+Software Foundation (ASF) projects and their associated
+communities. Taking place in the charming city of Bratislava,
+Slovakia, this event fosters an environment conducive to
+collaborative, vendor-neutral discussions. Open-source communities
+from across the globe will converge to freely exchange ideas and
+strategize on various projects.</p><div class="col col-3 col-lg text-center"><a href="https://eu.communityovercode.org/tickets/" target="_blank" rel="noopener noreferrer" class="button button--primary">Register Now</a></div><br><div class="col col-3 col-lg text-center"><a href="https://eu.communityovercode.org/schedule/" target="_blank" rel="noopener noreferrer" class="button button--primary">Event Schedule</a></div><h2 class="anchor anchorWithStickyNavbar_LWe7" id="apache-cloudstack-sessions">Apache CloudStack Sessions<a href="#apache-cloudstack-sessions" class="hash-link" aria-label="Direct link to Apache CloudStack Sessions" title="Direct link to Apache CloudStack Sessions">​</a></h2><p>Below you can find a list of all the sessions about Apache CloudStack
+– all of which will be held by Apache CloudStack community members.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new-in-cloudstack-boris-stoyanov--monday-3rd-at-1320--1350-harmony-3">What’s New in CloudStack, <a href="https://www.linkedin.com/in/bstoyanov/" target="_blank" rel="noopener noreferrer">Boris Stoyanov</a> – Monday 3rd at 13:20 – 13:50 (Harmony 3)<a href="#whats-new-in-cloudstack-boris-stoyanov--monday-3rd-at-1320--1350-harmony-3" class="hash-link" aria-label="Direct link to whats-new-in-cloudstack-boris-stoyanov--monday-3rd-at-1320--1350-harmony-3" title="Direct link to whats-new-in-cloudstack-boris-stoyanov--monday-3rd-at-1320--1350-harmony-3">​</a></h3><p>In this session, CloudStack PMC Member Boris will be covering the
+latest major features in Apache CloudStack over the past few releases.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="transitioning-from-vmware-to-apache-cloudstack-a-path-to-profitability-and-competitiveness-marco-sinhoreli--tuesday-4th-at-1230--1300-harmony-1">Transitioning from VMware to Apache CloudStack: A Path to Profitability and Competitiveness, <a href="https://www.linkedin.com/in/msinhore/" target="_blank" rel="noopener noreferrer">Marco Sinhoreli</a> – Tuesday 4th at 12:30 – 13:00 (Harmony 1)<a href="#transitioning-from-vmware-to-apache-cloudstack-a-path-to-profitability-and-competitiveness-marco-sinhoreli--tuesday-4th-at-1230--1300-harmony-1" class="hash-link" aria-label="Direct link to transitioning-from-vmware-to-apache-cloudstack-a-path-to-profitability-and-competitiveness-marco-sinhoreli--tuesday-4th-at-1230--1300-harmony-1" title="Direct link to transitioning-from-vmware-to-apache-cloudstack-a-path-to-profitability-and-competitiveness-marco-sinhoreli--tuesday-4th-at-1230--1300-harmony-1">​</a></h3><p>In this session, Marco will explore the potential of migrating from
+VMware to Apache CloudStack with KVM. VMware vSphere is a robust cloud
+infrastructure and management solution that combines vSphere and
+vRealize Suite, providing automation and operations capabilities for
+traditional and modern infrastructure and apps. However, the
+transition to Apache CloudStack can offer enhanced profitability and
+competitiveness.</p><p>Marco will delve into the benefits of Apache CloudStack, including its
+cost-effectiveness and open-source nature, and discuss how a gradual
+migration from VMware vCloud can reduce ownership costs, increase
+profitability, and enhance competitiveness. He will also cover the
+practical steps and considerations in planning and executing this
+transition effectively.</p><p>Making Apache CloudStack market ready with a native rating solution,
+<a href="https://www.linkedin.com/in/gutoveronezi/" target="_blank" rel="noopener noreferrer">Daniel Salvador</a>,
+<a href="https://www.linkedin.com/in/bryan-lima/" target="_blank" rel="noopener noreferrer">Bryan Lima</a>, <a href="https://www.linkedin.com/in/jo%C3%A3o-jandre-136a32159/" target="_blank" rel="noopener noreferrer">João Paraquetti</a>,
+<!-- -->[Rafael Weingärtner]<!-- -->((<a href="http://cloudstack.apache.org" target="_blank" rel="noopener noreferrer">http://cloudstack.apache.org</a>) – Tuesday 4th at 14:00 – 14:30 (Harmony 1)</p><p>This presentation will address the design and efforts of the ACS
+community to implement a native rating feature that will allow more
+flexibility and reduce the need for external systems.</p><p>Importing KVM instances from external KVM hosts or QCOW2, <a href="https://www.linkedin.com/in/andrijapanic/" target="_blank" rel="noopener noreferrer">Andrija Panić</a> – Tuesday 4th at 14:40 – 15:10 (Harmony 1)</p><p>CloudStack recently introduced a few hypervisor migration features, to
+help cloud operators migrate existing VM workloads into CloudStack. In
+this session, Andrija will show how you can migrate instances from
+external KVM hosts to KVM hosts managed by CloudStack. Andrija will
+also show how you can quickly deploy an instance from a previously
+prepared qcow2 image.</p><p>Incremental snapshots/backups in KVM plugin of Apache CloudStack, <a href="https://www.linkedin.com/in/gutoveronezi/" target="_blank" rel="noopener noreferrer">Daniel Salvador</a>, <a href="https://www.linkedin.com/in/bryan-lima/" target="_blank" rel="noopener noreferrer">Bryan Lima</a>, <a href="https://www.linkedin.com/in/jo%C3%A3o-jandre-136a32159/" target="_blank" rel="noopener noreferrer">João Paraquetti</a>,
+<a href="http://cloudstack.apache.org" target="_blank" rel="noopener noreferrer">Rafael Weingärtner</a> – Tuesday 4th at 15:20 – 15:50 (Harmony 1)</p><p>Apache CloudStack (ACS) and KVM are a combination that many
+organizations decided to adopt. KVM is a widely used hypervisor with a
+vibrant community and support in different operating system
+distributions. While developing the KVM plugin functionalities, one
+normally tries to make use of the full potential of the
+hypervisor. However, while Libvirt, the toolkit used by ACS to manage
+KVM VMs, already supports native incremental snapshots, every volume
+snapshot/backup taken with ACS is a full snapshot/backup. In many
+situations, always taking full snapshots of volumes is costly for both
+the storage network and storage systems. This presentation will
+address the design and efforts of the ACS community to support
+incremental snapshots/backups for the KVM plugin. Thus, creating a
+native backup solution in ACS that supports differential copies.</p><p>VNF Integration and Support in Apache CloudStack, <a href="https://www.linkedin.com/in/wei-zhou-3635b633/" target="_blank" rel="noopener noreferrer">Wei Zhou</a> – Tuesday 4th at 16:10 – 16:40 (Harmony 1) </p><p>In this session, Wei will present how CloudStack 4.19 adds the
+capability to easily and quickly perform a light-touch integration of
+networking appliances with Apache CloudStack, allowing for operators
+and end users to offer a broader range of networking services while
+empowering end-users to effortlessly deploy their own virtualized
+network functions (VNFs).</p><p>SDN Options in Apache CloudStack, <a href="https://www.linkedin.com/in/alexandremattiolibastos/" target="_blank" rel="noopener noreferrer">Alexandre Mattioli</a> – Tuesday 4th at 16:50 – 17:20 (Harmony 1)</p><p>Apache CloudStack integrates with two major SDN solutions, Tungsten
+Fabric (OpenSDN) for KVM environments and NSX for VMWare ESX
+environments. In this talk, Alex will explore how these integrations
+were implemented, how to setup ACS Zones with these SDNs and he will
+also explore their capabilities in regards to Apache CloudStack.</p>]]></content>
+        <author>
+            <name>Jamie Pell</name>
+            <uri>https://github.com/jamiepell10</uri>
+        </author>
+        <category label="news" term="news"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache CloudStack Terraform 0.5.0 Release]]></title>
         <id>https://cloudstack.apache.org/blog/cloudstack-terraform-provider-0.5.0-release</id>
