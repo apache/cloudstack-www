@@ -48,7 +48,7 @@ slug: apache-cloudstack-use-cases-benefits
 </ul>
 <p>&ldquo;Private cloud deployments which are properly connected to deployment and&nbsp;orchestration tooling allow for easy use and adoption of CloudStack&nbsp;within a company.&rdquo;</p>
 <p><strong>&nbsp;</strong></p>
-<p><span ><strong>Kshitish Purohit, Co-Founder, </strong><a href="https://www.indiqus.com/"><strong>IndiQus Technologies</strong></a></span></p>
+<p><span ><strong>Kshitish Purohit, Co-Founder, </strong><a href="https://www.apiculus.com/"><strong>IndiQus Technologies</strong></a></span></p>
 <p><strong>Kshitish is the Co-Founder and Chief Product Officer at IndiQus. Kshitish has over 15 years of experience in the user experience, product management and startup domains, and has been an entrepreneur for all his career.</strong></p>
 <p><strong>IndiQus is a fast-growing Cloud solutions company that works with Telecom Service Providers (Telcos, ISPs and Datacenter providers) globally and enables them to build a profitable in-country cloud business.</strong></p>
 <ul>
