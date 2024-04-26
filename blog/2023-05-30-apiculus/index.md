@@ -8,14 +8,14 @@ slug: apiculus
 
 [![](apiculus-banner.png "Apiculus")](/blog/apiculus)
 
-[Apiculus](https://www.apiculus.io/) is a fully integrated and re-brandable
+[Apiculus](https://www.apiculus.com/) is a fully integrated and re-brandable
 public cloud management software for ISPs, data centres and telcos that combines
 cloud monetisation, customer lifecycle and infrastructure management into a
 single pane of glass. Apiculus is an all-in-one technology platform that
 combines infrastructure management, cloud service management, customer lifecycle
 management, and an integrated solution for the cloud providers in the Edge market.
 
-Apiculus is developed by [IndiQus Technologies](https://www.indiqus.com/), an
+Apiculus is developed by [IndiQus Technologies](https://www.apiculus.com/), an
 India-based cloud solutions company that has set up and managed over 25 public,
 private and hybrid clouds globally.
 
