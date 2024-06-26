@@ -236,19 +236,22 @@ const config = {
                 <a href="mailto:dev-subscribe@cloudstack.apache.org">
 		  <img src="/img/mail_mini_icon.svg" alt=""/>
 		</a>
-                <a href="https://join.slack.com/t/apachecloudstack/shared_invite/zt-2aegc22z7-tPCxpptfcebTBtd59qcZSQ">
+                <a href="https://join.slack.com/t/apachecloudstack/shared_invite/zt-2aegc22z7-tPCxpptfcebTBtd59qcZSQ" target="_blank">
 		  <img src="/img/slack_mini_icon.svg" alt=""/>
 		</a>
-                <a href="https://github.com/apache/cloudstack">
+                <a href="https://github.com/apache/cloudstack" target="_blank">
 		  <img src="/img/git_mini_icon.svg" alt=""/>
 		</a>
-                <a href="https://twitter.com/CloudStack">
+                <a href="https://twitter.com/CloudStack" target="_blank">
 		  <img src="/img/twitter_X_mini_icon.svg" alt=""/>
 		</a>
-                <a href="https://www.youtube.com/@ApacheCloudStack">
+                <a href="https://www.reddit.com/r/ApacheCloudStack/" target="_blank">
+		  <img src="/img/reddit_icon.svg" alt=""/>
+		</a>
+                <a href="https://www.youtube.com/@ApacheCloudStack" target="_blank">
 		  <img src="/img/youtube_mini_icon.svg" alt=""/>
 		</a>
-                <a href="https://www.linkedin.com/company/apachecloudstack/posts/">
+                <a href="https://www.linkedin.com/company/apachecloudstack/posts/" target="_blank">
 		  <img src="/img/linkedin_icon.svg" alt=""/>
 		</a>
             </div>
