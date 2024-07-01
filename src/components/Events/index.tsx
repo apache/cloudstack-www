@@ -37,6 +37,21 @@ involved with the community.
               </div>
               <div class="row">
                 <div class="col-lg-9 pt-3 px-4">
+                  <div class="events-img events-overview-img" style={{display: "flex",  alignItems: "center"}}>
+                    <img src="https://www.apachecon.com/event-images/na2024-wide-light.png" alt="C/C NA 2024"/>
+                  </div>                  
+                  <p class="title mt-2">Community Over Code North America 2024</p>
+                  <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Denver, United States of America</p>
+                  <p class="events-info"><img src="img/calendar_icon.png" class="me-2" alt=""/>October 7-10, 2024</p>
+                </div>
+                <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://communityovercode.org/" class="btn btn-outline-secondary me-3">Read More</a>
+                  <a class="button button--primary" href="https://communityovercode.org/registration/" target="_blank">Register Now</a>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-9 pt-3 px-4">
                   <img src="img/CCC-2024.png" alt="" class="events-img events-overview-img"/>
                   <p class="title mt-2">CloudStack Collaboration Conference 2024</p>
                   <p class="events-info"><img src="img/pin_icon.png" class="me-2" alt=""/>Madrid, Spain</p>
