@@ -39,7 +39,7 @@ providers and companies managing large-scale virtual machine (VM)
 environments. Telecom companies and cloud providers, in particular,
 stand to benefit from CloudStack's ability to streamline VM
 management, enhance security, and provide detailed cost and resource
-tracking. Read the full interview bellow.
+tracking. Read the full interview below.
 
 #### What exactly is the role of VP of Apache CloudStack?
 
@@ -141,7 +141,7 @@ most cloud providers.
 #### Many community members notice that CloudStack is becoming more and more appealing for enterprises. What would you advise this type of organization?
 
 Indeed, CloudStack is becoming more appealing for large enterprise as
-"brick and mortar" bussiness are getting more and more
+"brick and mortar" business are getting more and more
 digitalized. Companies running large datacenters will find out that
 CloudStack is one of the best options, with its easy-to-use graphical
 interface, market-ready structure, advanced features, and so on. My

@@ -10,7 +10,7 @@ slug: apache-cloudstack-lts-maintenance-release2
 The Apache CloudStack project is pleased to announce the release ofCloudStack 4.15.2.0.
 
 The CloudStack 4.15.2.0 release is a maintenance release as part of its
-4.15.x  LTS branch and contains more than 75 fixes and improvements since
+4.15.x LTS branch and contains more than 75 fixes and improvements since
 the CloudStack 4.15.0.0 release.
 
 <!-- truncate -->
@@ -23,14 +23,14 @@ Apache CloudStack is an integrated Infrastructure-as-a-Service (IaaS)
 software platform that allows users to build feature-rich public and
 private cloud environments. CloudStack includes an intuitive user interface
 and rich API for managing the compute, networking, software, and storage
-resources. The project became an Apache top-level project in March, 2013.
+resources. The project became an Apache top-level project in March 2013.
 
 ore information about Apache CloudStack can be found at:
 https://cloudstack.apache.org/
 
 # Documentation
 
-What's new in  CloudStack 4.15.2.0:
+What's new in CloudStack 4.15.2.0:
 https://docs.cloudstack.apache.org/en/4.15.2.0/releasenotes/about.html
 
 The 4.15.2.0 release notes include a full list of issues fixed, as well as
