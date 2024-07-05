@@ -1,17 +1,17 @@
 ---
 layout: post
-title: CloudStack European User Group – September 12th, Frankfurt, Germany
+title: CloudStack European User Group – September 19th, Frankfurt, Germany
 tags: [news]
 authors: [ivet]
 slug: cseug-2024
 ---
 
 
-![](banner.jpg "Blog Header Image")
+![](banner.png "Blog Header Image")
 
 
 # Apache CloudStack is thrilled to share that the autumn edition of
-  CloudStack European User Group 2024 is scheduled for September 12th
+  CloudStack European User Group 2024 is scheduled for September 19th
   and will happen in Frankfurt, Germany!
 
 The event will be hosted by proIO – а German Private Cloud and Managed
