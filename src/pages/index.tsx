@@ -26,8 +26,8 @@ Apache CloudStack™  is an open-source software system designed to deploy and m
             <div class="center-buttons">
               <a href="downloads" class="btn btn-light btn-size">Download</a>
 	      &nbsp;
-              <a href="https://docs.cloudstack.apache.org/en/4.19.0.0/" target="_blank" class="btn btn-outline-light btn-size">Documentation</a>
-              <p class="small mt-3">Apache CloudStack 4.19.0.1 is out!</p>
+              <a href="https://docs.cloudstack.apache.org/en/4.19.0.2/" target="_blank" class="btn btn-outline-light btn-size">Documentation</a>
+              <p class="small mt-3">Apache CloudStack 4.19.0.2 is out!</p>
             </div>
           </div>
           <div class="col-lg-7"><img src="/img/CloudStack_monkey_cloud.png" class="img-fluid" alt=""/></div>
@@ -219,10 +219,10 @@ specific infrastructure.
               <div class="col col-lg-5">
                 <h2 class="section-title mb-4 margin-second">Latest Release</h2>
                 <div class="center-buttons">
-                  <p class="px18">Apache CloudStack 4.19.0.1 is out!<br/>This is the latest LTS release.</p>
+                  <p class="px18">Apache CloudStack 4.19.0.2 is out!<br/>This is the latest LTS release.</p>
                   <a href="downloads" class="btn btn-primary btn-size">Download</a>
                   &nbsp;
-                  <a href="https://docs.cloudstack.apache.org/en/4.19.0.0/" target="_blank" class="btn btn-outline-secondary btn-size">Documentation</a>
+                  <a href="https://docs.cloudstack.apache.org/en/4.19.0.2/" target="_blank" class="btn btn-outline-secondary btn-size">Documentation</a>
                 </div>
               </div>
               <div class="col-lg-7"><img src="/img/CloudStack_release_illustration.png" class="img-fluid img-release" alt=""/></div>
