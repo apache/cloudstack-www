@@ -8,7 +8,7 @@ slug: announcing-apache-cloudstack-4-12
 
 <!-- truncate -->
 
-  <p>Apache CloudStack is an integrated Infrastructure-as-a-Service (IaaS) software platform that allows users to build feature-rich public and private cloud environments. CloudStack includes an intuitive user interface and rich API for managing the compute, networking, software, and storage resources. The project became an Apache top level project in March, 2013.</p> 
+  <p>Apache CloudStack is an integrated Infrastructure-as-a-Service (IaaS) software platform that allows users to build feature-rich public and private cloud environments. CloudStack includes an intuitive user interface and rich API for managing the compute, networking, software, and storage resources. The project became an Apache top level project in March 2013.</p> 
   <p>More information about Apache CloudStack can be found at&nbsp;<a href="http://cloudstack.apache.org/">http://cloudstack.apache.org/</a><br /><strong></strong></p> 
   <p> </p> 
   <p><strong># Documentation</strong></p> 

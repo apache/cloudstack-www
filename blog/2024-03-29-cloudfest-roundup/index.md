@@ -35,9 +35,9 @@ CloudStack to gather market intelligence, enabling the project to
 adapt and evolve in alignment with emerging trends, customer needs,
 and industry challenges.
 
-We are greatful to all community members, who came to help at the
+We are grateful to all community members, who came to help at the
 booth, did numerous demos of Apache CloudStack and showcased its
-strenghts to service providers and cloud builders from all around the
+strengths to service providers and cloud builders from all around the
 globe.
 
 ![](crowded-booth.png "the cloudstack team")
