@@ -90,10 +90,6 @@ const config = {
               {
                 label: 'Trademark Guidelines',
                 href: '/trademark-guidelines'
-              },
-              {
-                label: 'Security',
-                href: '/security'
               }
             ]
           },
