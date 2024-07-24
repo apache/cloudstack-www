@@ -4,9 +4,24 @@ title: Apache CloudStack Security
 
 <h1>Apache CloudStack: Security</h1>
 
+<h2>Security Model</h2>
+
 The Apache CloudStack project understands that as a core infrastructure project,
 the application security of Apache CloudStack is of critical importance to the
 community and users.
+
+It is important to know that the project can not guarantee that it will be secure with
+the following usages:
+
+- share access to the DataBase
+- share database dumps or other forms of backups
+- share log files
+- use any of [the third party integration components](integrations), that are meant for monitoring, storage, network and more.
+
+That said, the project will work with any one on improving the secure
+use of the software it provides, with any 3rd party integration
+vendors or users of the software. This can be done on public github
+issues or confidentially if so desired.
 
 <h2>Reporting Potential Vulnerabilities in Apache CloudStack</h2>
 
