@@ -8,7 +8,8 @@ The Apache CloudStack project understands that as a core infrastructure project,
 the application security of Apache CloudStack is of critical importance to the
 community and users.
 
-It is important to know that the project can not guarantee that it will be safe to
+It is important to know that the project can not guarantee that it will be secure with
+the following usages:
 
 - share access to the DataBase
 - share database dumps or other forms of backups
