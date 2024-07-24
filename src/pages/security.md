@@ -14,7 +14,7 @@ the following usages:
 - share access to the DataBase
 - share database dumps or other forms of backups
 - share log files
-- use any of the 3rd party integration components, such as for monitoring, storage, network and more.
+- use any of [the third party integration components](integrations), that are meant for monitoring, storage, network and more.
 
 That said, the project will work with any one on improving the secure
 use of the software it provides, with any 3rd party integration
