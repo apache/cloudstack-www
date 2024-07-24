@@ -4,7 +4,7 @@ title: Apache CloudStack Security
 
 <h1>Apache CloudStack: Security</h1>
 
-<h2>Security Model</h2
+<h2>Security Model</h2>
 
 The Apache CloudStack project understands that as a core infrastructure project,
 the application security of Apache CloudStack is of critical importance to the
