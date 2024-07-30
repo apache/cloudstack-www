@@ -41,13 +41,23 @@ empowering strong local brands, Your.Online excels in nurturing entrepreneurial
 spirit and uniting teams of local builders. Their commitment to innovation is
 reflected in their support for industry-leading events like #CSCollab2024.
 
+<div className="row">
+<div className="col col--3">
+
 ![](wido.png)
 
+</div>
+
+<div className="col col--9">
+
 CTO at Your.Online, [Wido den Hollander](https://www.linkedin.com/in/widodh/)
-shared “Your.Online has been a long-time user of CloudStack. We understand the
+shared *“Your.Online has been a long-time user of CloudStack. We understand the
 importance of in-person meetings, as it grows the community and makes it
 stronger. Therefore, we sponsor the CloudStack Collaboration Conference, it's an
-investment in the project"
+investment in the project"*
+
+</div>
+</div>
 
 ## Register for CCC 2024 and Submit Your CFP
 
