@@ -2,11 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2024-07-22T00:00:00.000Z</updated>
+    <updated>2024-07-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Your.Online Joins CloudStack Collaboration Conference 2024 as Gold Sponsor!]]></title>
+        <id>https://cloudstack.apache.org/blog/ccc2024-sponsor-your-online</id>
+        <link href="https://cloudstack.apache.org/blog/ccc2024-sponsor-your-online"/>
+        <updated>2024-07-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are thrilled to announce that Your.Online is stepping]]></summary>
+        <content type="html"><![CDATA[<p><a href="/blog/ccc2024-sponsor-your-online"><img loading="lazy" src="/assets/images/banner-b141d1ca15cf3fc56fa1ed2a6d43dcbc.png" title="Your.Online Joins CloudStack Collaboration Conference 2024 as Gold Sponsor!" width="1384" height="715" class="img_ev3q"></a></p><p>We are thrilled to announce that <a href="https://your.online" target="_blank" rel="noopener noreferrer">Your.Online</a> is stepping
+into the spotlight as a Gold Sponsor for the <a href="https://www.cloudstackcollab.org" target="_blank" rel="noopener noreferrer">CloudStack Collaboration
+Conference (CCC) 2024</a>! This year’s
+conference, set to take place from November 20th to 22nd in Madrid, Spain, will
+be held at the vibrant venue,
+<a href="https://www.meetingplace.es/en/orense-34/" target="_blank" rel="noopener noreferrer">Orense34</a>.</p><p>As a Gold Sponsor, Your.Online will be making a significant contribution to the
+conference experience by helping covering the costs of the event, alongside the
+<a href="https://www.cloudstackcollab.org/#sponsors" target="_blank" rel="noopener noreferrer">other event sponsors</a>. They will
+also be paying for the drinks at the end of Day 2, where attendees unwind,
+network, and share their insights with one another.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="about-cloudstack-collaboration-conference-2024">About CloudStack Collaboration Conference 2024<a href="#about-cloudstack-collaboration-conference-2024" class="hash-link" aria-label="Direct link to About CloudStack Collaboration Conference 2024" title="Direct link to About CloudStack Collaboration Conference 2024">​</a></h2><p>The CloudStack Collaboration Conference is a premier event that brings together
+developers, users, and enthusiasts of Apache CloudStack from around the world.
+This year’s conference promises a rich agenda featuring insightful talks,
+hands-on sessions, and ample networking opportunities. Whether you’re a seasoned
+professional or a newcomer to the world of cloud computing, CCC 2024 will offer
+valuable experiences and takeaways.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="youronline-empowering-digital-potential">Your.Online: Empowering Digital Potential<a href="#youronline-empowering-digital-potential" class="hash-link" aria-label="Direct link to Your.Online: Empowering Digital Potential" title="Direct link to Your.Online: Empowering Digital Potential">​</a></h2><p>Your.Online is a forward-thinking company dedicated to providing highly
+standardized managed services that help high-intent customers achieve their full
+online potential. With a robust track record in acquiring, developing, and
+empowering strong local brands, Your.Online excels in nurturing entrepreneurial
+spirit and uniting teams of local builders. Their commitment to innovation is
+reflected in their support for industry-leading events like #CSCollab2024.</p><p><img loading="lazy" src="/assets/images/wido-c48268332339eaba2029443cae1798d3.png" width="128" height="122" class="img_ev3q"></p><p>CTO at Your.Online, <a href="https://www.linkedin.com/in/widodh/" target="_blank" rel="noopener noreferrer">Wido den Hollander</a>
+shared “Your.Online has been a long-time user of CloudStack. We understand the
+importance of in-person meetings, as it grows the community and makes it
+stronger. Therefore, we sponsor the CloudStack Collaboration Conference, it's an
+investment in the project"</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="register-for-ccc-2024-and-submit-your-cfp">Register for CCC 2024 and Submit Your CFP<a href="#register-for-ccc-2024-and-submit-your-cfp" class="hash-link" aria-label="Direct link to Register for CCC 2024 and Submit Your CFP" title="Direct link to Register for CCC 2024 and Submit Your CFP">​</a></h2><p>Don’t miss your chance to be part of this landmark event!
+<a href="https://www.eventbrite.com/e/cloudstack-collaboration-conference-2024-tickets-879401903767" target="_blank" rel="noopener noreferrer">Registration</a>
+is now open, and we encourage you to secure your spot soon, as the early bird
+ticket discount ends on September 16th. Additionally, the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzhEy-v68wyVQcBY3AnQT7OeDVs4xnfvlt3wIlLxV50dP11w/viewform" target="_blank" rel="noopener noreferrer">Call for Presentations
+(CFP)</a>
+is open until 20th September for those interested in presenting their
+insights and innovations at the conference. Whether you would like to share your
+use case or an integration of feature you have been working on, the community
+welcomes your submissions.</p><div class="col col-3 col-lg text-center"><a href="https://www.eventbrite.com/e/cloudstack-collaboration-conference-2024-tickets-879401903767" target="_blank" rel="noopener noreferrer" class="button button--primary">Register Now</a></div><br><div class="col col-3 col-lg text-center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdzhEy-v68wyVQcBY3AnQT7OeDVs4xnfvlt3wIlLxV50dP11w/viewform" target="_blank" rel="noopener noreferrer" class="button button--primary">Submit a Talk</a></div><br><p>We look forward to seeing you in Madrid and sharing the experience with you.
+Join us in celebrating the future of cloud computing!</p>]]></content>
+        <author>
+            <name>Jamie Pell</name>
+            <uri>https://github.com/jamiepell10</uri>
+        </author>
+        <category label="news" term="news"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache CloudStack 4.19.1.0 Release]]></title>
         <id>https://cloudstack.apache.org/blog/cloudstack-4.19.1.0-release</id>
