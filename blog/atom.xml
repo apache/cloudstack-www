@@ -2,11 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2024-08-06T00:00:00.000Z</updated>
+    <updated>2024-08-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[CloudStack European User Group Agenda 2024]]></title>
+        <id>https://cloudstack.apache.org/blog/cseug2024-agenda</id>
+        <link href="https://cloudstack.apache.org/blog/cseug2024-agenda"/>
+        <updated>2024-08-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are excited to announce the agenda for the upcoming CloudStack European User]]></summary>
+        <content type="html"><![CDATA[<p><a href="/blog/cseug2024-agenda"><img loading="lazy" src="/assets/images/banner-c7d645a8c88d79a150e3c6926ee202bf.png" title="CSEUG 2024 Agenda" width="1852" height="924" class="img_ev3q"></a></p><p>We are excited to announce the agenda for the upcoming CloudStack European User
+Group, taking place in Frankfurt on September 19th, 2024. Hosted by
+<a href="https://www.proio.com" target="_blank" rel="noopener noreferrer">proIO</a>, a leading German Private Cloud and Managed
+Hosting Provider, this event promises to be a day filled with insightful
+presentations, networking opportunities, and the latest updates from the
+CloudStack community.</p><a href="https://www.eventbrite.co.uk/e/cloudstack-european-user-group-germany-tickets-879369205967" target="_blank" rel="noopener noreferrer" class="button button--primary button--lg">Register</a><br><h2 class="anchor anchorWithStickyNavbar_LWe7" id="event-agenda">Event Agenda<a href="#event-agenda" class="hash-link" aria-label="Direct link to Event Agenda" title="Direct link to Event Agenda">​</a></h2><p><strong>10:30 – Registration &amp; Morning Coffee</strong></p><p><strong>11:00 – Welcome: CloudStack EU User Group Updates, <a href="https://www.linkedin.com/in/swen-br%C3%BCseke-391912193/" target="_blank" rel="noopener noreferrer">Swen Brüseke</a>, <a href="https://www.proio.com" target="_blank" rel="noopener noreferrer">proIO</a></strong></p><p><strong>11:15 - 12:00 - What’s New and What’s Upcoming in Apache CloudStack, <a href="https://www.linkedin.com/in/gilessirett/" target="_blank" rel="noopener noreferrer">Giles Sirett</a>, <a href="https://www.shapeblue.com" target="_blank" rel="noopener noreferrer">ShapeBlue</a></strong></p><p>This talk provides a detailed overview of the latest advancements and upcoming
+features in Apache CloudStack. Giles will explore the 4.19 release, highlighting
+significant updates such as VNF Appliances Support, KVM Import, and VMware to
+KVM migration.</p><p>Looking ahead to version 4.20, the presentation will outline anticipated
+features and offer a quick sneak peek into the project roadmap.</p><p><strong>12:10 - 12:55 - VM-HA with CloudStack and Linstor, Rene Peinthor, <a href="https://linbit.com" target="_blank" rel="noopener noreferrer">LINBIT</a></strong></p><p>Linstor's CloudStack integration uses DRBD's quorum implementation to determine
+whether a VM currently has problems accessing its disk storage and might need to
+be restarted on another host. This talk briefly overviews the implementation and
+includes a live demo of CloudStack’s VM-HA combined with Linstor.</p><p>Rene will see what happens on DRBD level if a host node fails and when
+CloudStack will start doing HA recovery procedures. Rene will also go into
+CloudStack settings that can be used to tune VM HA timeouts.</p><p><strong>13:00 - 14:15 - Lunch Break</strong></p><p><strong>14:15 - 14:45 - Transitioning from VMware to Apache CloudStack: A Path to Profitability and Competitiveness, <a href="https://www.linkedin.com/in/msinhore/" target="_blank" rel="noopener noreferrer">Marco Sinhorelli</a>, <a href="https://www.shapeblue.com" target="_blank" rel="noopener noreferrer">ShapeBlue</a></strong></p><p>In this session, Marco will explore the potential of migrating from VMware to
+Apache CloudStack with KVM. VMware vSphere is a robust cloud infrastructure and
+management solution that combines vSphere and vRealize Suite, providing
+automation and operations capabilities for traditional and modern infrastructure
+and apps. However, the transition to Apache CloudStack can offer enhanced
+profitability and competitiveness.</p><p>Marco will delve into the benefits of Apache CloudStack, including its
+cost-effectiveness and open-source nature, and discuss how a gradual migration
+from VMware vCloud can reduce ownership costs, increase profitability, and
+enhance competitiveness. Marco will also cover the practical steps and
+considerations in planning and executing this transition effectively.</p><p><strong>14:55 - 15:25 - Internet Facing VMs and the DDoS Problem, <a href="https://www.linkedin.com/in/widodh/" target="_blank" rel="noopener noreferrer">Wido den Hollander</a>, <a href="https://your.online" target="_blank" rel="noopener noreferrer">Your.Online</a></strong></p><p>When connected to the internet it is probably just a matter of time before one of your VMs is under a DDoS attack. Wido will cover how CloudStack handle this and what can you do about it.</p><p><strong>15:35 - 16:05 - How We Use CloudStack to Provide Managed Hosting, <a href="https://www.linkedin.com/in/swen-br%C3%BCseke-391912193/" target="_blank" rel="noopener noreferrer">Swen Brüseke</a>, <a href="https://www.proio.com" target="_blank" rel="noopener noreferrer">proIO</a></strong></p><p>Swen will delve into how proIO leverages CloudStack to deliver robust and efficient managed hosting solutions. This session will explore the architecture and deployment strategies that enable us to provide reliable and scalable hosting services to our clients.</p><p><strong>16:15 - 16:45 - CloudStack and Ceph for Public and Private Cloud, <a href="https://www.linkedin.com/in/mohammad-foysal-kayum-5448b6a3/" target="_blank" rel="noopener noreferrer">Mohammad Foysal Kayum</a>, <a href="https://www.bol-online.com" target="_blank" rel="noopener noreferrer">Bangladesh Export Import Co</a></strong></p><p>The session will cover Mohammad’s organisation’s deployment of CloudStack and
+Ceph and will cover their use case of CloudStack for both enterprise and Service
+provider's networks. The session will also demonstrate their approach to a
+cost-effective, open-source first cloud infrastructure deployment.</p>]]></content>
+        <author>
+            <name>Jamie Pell</name>
+            <uri>https://github.com/jamiepell10</uri>
+        </author>
+        <category label="news" term="news"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[ADVISORY] Apache CloudStack LTS Security Releases 4.18.2.3 and 4.19.1.1]]></title>
         <id>https://cloudstack.apache.org/blog/security-release-advisory-4.19.1.1-4.18.2.3</id>
