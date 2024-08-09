@@ -15,7 +15,9 @@ Hosting Provider, this event promises to be a day filled with insightful
 presentations, networking opportunities, and the latest updates from the
 CloudStack community.
 
+<div class="col col-3 col-lg text-center">
 <a class="button button--primary button--lg" href="https://www.eventbrite.co.uk/e/cloudstack-european-user-group-germany-tickets-879369205967" target="_blank">Register</a><br/>
+</div>
 
 <!-- truncate -->
 
