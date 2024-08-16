@@ -288,6 +288,36 @@ management and storage options</strong>.
                       </div>
                     </div>
                   </TabItem>
+                  <TabItem value="billing" label="Billing">
+                    <div class="tab-pane" id="storage" role="tabpanel" aria-labelledby="storage-tab" tabindex="0">
+                      <h2 class="integration-title"><img src="/img/storage_icon.svg" alt="" class="me-3"/>Storage</h2>
+                      <p>
+Apache CloudStack offers integrations with a variety of self-service
+intuitive billing and cloud management portals, designed to empower
+administrators, and service providers with the tools they need to
+manage cloud resources effectively . These solutions offer tools for
+service orchestration, automation, billing, and seamless integration
+with various IaaS cloud ecosystems.
+                      </p>
+                      <div class="row integration-images">
+                        <div class="col-md-6">
+                          <div class="tab-box box-cloudmc box131"><img src="/img/cloud-mc-white.png" height="47p" alt=""/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-stackconsole box131"><img src="/img/Stack Console SVG.svg" alt=""/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-stackbill box131"><img src="/img/stack-bill-logo-02.png" height="47p" alt=""/></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="tab-box box-hostbill box131"><img src="/img/hostbill-logo.png" height="47p" alt=""/></div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="tab-box box-apiculus box131"><img src="/img/apiculus-logo.png" height="47p" alt=""/></div>
+                        </div>
+                      </div>
+                    </div>
+                  </TabItem>
                 </Tabs>
               </div>
               <div class="col-lg-6">

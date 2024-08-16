@@ -583,6 +583,21 @@ iframe {
 	background-image: url(img/cloudian_bkg.png);
 	background-size: 100%;
 }
+.box-cloudmc {
+	background-image: url(img/cloudmc-background.png);
+}
+.box-stackconsole {
+    background-color: #adc9ec;
+}
+.box-stackbill {
+    background-color: #4a84d1;
+}
+.box-hostbill {
+	background-image: url(img/hostbill-background.png);
+}
+.box-apiculus {
+    background-color: #cfe9ff;
+}
 .box278 {
 	height: 278px;	
 }
