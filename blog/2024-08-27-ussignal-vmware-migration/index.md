@@ -3,7 +3,7 @@ layout: post
 title: US Signal Shifting Workloads to Apache CloudStack After Losing Predictability with VMware
 tags: [case-studies]
 authors: [ivet]
-slug: fix-this-slug-for-post-url
+slug: us-signal-chooses-cloudstack
 ---
 
 ![](Banner.png "Blog Header Image")
@@ -70,17 +70,17 @@ and the new platform.”
 
 __US Signal’s criteria:__
 
-    • Self-service solution
-    • Online portal available
-    • Multi-hypervisor support
-    • Performance and availability
-    • Easy migration from VMware
-    • Simple networking management
-    • Firewalls and load balancing easy management
-    • Same support, performance, and uptime SLAs to match their VMware environment
-    • Distributed solution between multiple data centers
-    • Integrations with existing tools and technologies
-    • OpenAPI
+- Self-service solution
+- Online portal available
+- Multi-hypervisor support
+- Performance and availability
+- Easy migration from VMware
+- Simple networking management
+- Firewalls and load balancing easy management
+- Same support, performance, and uptime SLAs to match their VMware environment
+- Distributed solution between multiple data centers
+- Integrations with existing tools and technologies
+- OpenAPI
 
 US Signal chose Apache CloudStack not only for its outstanding
 technical capabilities but also for its supportive open-source
@@ -118,4 +118,3 @@ technological advancements.
 
 Learn how US Signal can help your organization transform its digital infrastructure and meet evolving technology and business needs. Visit https://ussignal.com to get started.
 
-<a class="button button--primary" href="https://cloudstack.apache.org/" target="_blank">BUTTON</a>
