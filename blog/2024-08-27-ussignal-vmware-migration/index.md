@@ -1,7 +1,7 @@
 ---
 layout: post
 title: US Signal Shifting Workloads to Apache CloudStack After Losing Predictability with VMware
-tags: [news]
+tags: [case-studies]
 authors: [ivet]
 slug: fix-this-slug-for-post-url
 ---
