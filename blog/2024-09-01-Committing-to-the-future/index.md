@@ -27,9 +27,9 @@ to make a significant impact.
 ## Why Contribute to the CloudStack Project?
 
 For the CloudStack project, contributions can come in a variety of
-forms, such as code development, bug fixes, marketing, event
+forms, such as <strong> code development, bug fixes, marketing, event
 organisation, being a speaker at events/meetups, documentation,
-contributing case studies, and the list goes on. Below, we outline the
+contributing [case studies](/blog/tags/case-studies), and the list goes on</strong>. Below, we outline the
 various benefits of contributing to the project and share insights
 from community members.
 
@@ -49,7 +49,8 @@ for learning and growth.
 </div>
 <div className="col col--9">
 
-PMC member of the CloudStack project, Rohit Yadav shared "As a
+PMC member of the CloudStack project, [Rohit
+Yadav](https://www.linkedin.com/in/rohityadavcloud) shared "As a
 committer or a PMC member, you gain industry and community recognition
 while collaborating on a global scale. You contribute to the
 development of features and improvements released with the project,
@@ -77,13 +78,15 @@ worldwide.
 </div>
 <div className="col col--9">
 
-PMC member Daan (dahn) Hoogland shared his thoughts - "Users of a piece of
-software have an opportunity unique to open-source with a product like
-Apache CloudStack. They can see features and even direct the design
-before it hits production. They can alter the direction of the
-project, but for this they need to commit themselves to doing so. With
-only a few hours per week of effort you can guard and influence your
-main cloud orchestration tool to be as you need it."
+PMC member [Daan (dahn)
+Hoogland](https://www.linkedin.com/in/dhoogland) shared his thoughts -
+"Users of a piece of software have an opportunity unique to
+open-source with a product like Apache CloudStack. They can see
+features and even dirqect the design before it hits production. They
+can alter the direction of the project, but for this they need to
+commit themselves to doing so. With only a few hours per week of
+effort you can guard and influence your main cloud orchestration tool
+to be as you need it."
 
 </div>
 </div>
@@ -91,18 +94,19 @@ main cloud orchestration tool to be as you need it."
 <div className="row">
 <div className="col col--3">
 
-![](swen.png "Swen Brüske" class="blog-image")
+![](swen.png "Swen Brüseke" class="blog-image")
 
 </div>
 <div className="col col--9">
 
-PMC Member, Swen Brüseke expanded on Daan’s point - “Joining the
-CloudStack project means being part of a global community dedicated to
-advancing cloud technology. As a committer or PMC member, you have the
-opportunity to influence the direction of a widely used open-source
-project, connect with industry experts, and play a key role in its
-development. Your contributions can make a significant impact on the
-future of cloud computing.”
+PMC Member, [Swen
+Brüseke](https://www.linkedin.com/in/swen-br%C3%BCseke-391912193/)
+expanded on Daan’s point - “Joining the CloudStack project means being
+part of a global community dedicated to advancing cloud technology. As
+a committer or PMC member, you have the opportunity to influence the
+direction of a widely used open-source project, connect with industry
+experts, and play a key role in its development. Your contributions
+can make a significant impact on the future of cloud computing.”
 
 </div>
 </div>
@@ -131,12 +135,14 @@ opportunities and collaborations.
 </div>
 <div className="col col--9">
 
-4.19 Release Manager and PMC Member Abhishek Kumar expanded on this
-point - “Committing to an open-source project like CloudStack lets you
+4.19 Release Manager and PMC Member [Abhishek
+Kumar](https://www.linkedin.com/in/shwstppr/) expanded on this point -
+“Committing to an open-source project like CloudStack lets you
 contribute to the future of cloud infrastructure while honing your
 skills in a collaborative, innovative environment. It’s a chance to
 influence the project's direction, mentor new contributors, and gain
 recognition within the broader open-source community.”
+
 </div>
 </div>
 
