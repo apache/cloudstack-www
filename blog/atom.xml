@@ -2,11 +2,86 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2024-08-09T00:00:00.000Z</updated>
+    <updated>2024-09-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Committing to the CloudStack Project: Empowering the Future of Cloud Computing]]></title>
+        <id>https://cloudstack.apache.org/blog/committing-to-the-cloudstack-project</id>
+        <link href="https://cloudstack.apache.org/blog/committing-to-the-cloudstack-project"/>
+        <updated>2024-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At the forefront of cloud computing stands the Apache CloudStack]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/Banner-c185c970762ca8f670fbbaa5aaa65947.png" title="Blog Header Image" width="2040" height="1054" class="img_ev3q"></p><p>At the forefront of cloud computing stands the Apache CloudStack
+project, a robust open-source platform that enables organisations to
+build and manage scalable cloud environments with flexibility and
+efficiency.</p><p>As open-source projects are not vendor-driven, they rely entirely on
+contributions from their respective community. This community-driven
+approach helps distribute the workload, accelerate innovation, and
+ensure that the software evolves to meet the needs of the global user
+base.</p><p>For those passionate about shaping the future of cloud computing,
+contributing to the CloudStack project provides a valuable opportunity
+to make a significant impact.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-contribute-to-the-cloudstack-project">Why Contribute to the CloudStack Project?<a href="#why-contribute-to-the-cloudstack-project" class="hash-link" aria-label="Direct link to Why Contribute to the CloudStack Project?" title="Direct link to Why Contribute to the CloudStack Project?">​</a></h2><p>For the CloudStack project, contributions can come in a variety of
+forms, such as code development, bug fixes, marketing, event
+organisation, being a speaker at events/meetups, documentation,
+contributing case studies, and the list goes on. Below, we outline the
+various benefits of contributing to the project and share insights
+from community members.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="open-source-community-collaboration">Open-Source Community Collaboration<a href="#open-source-community-collaboration" class="hash-link" aria-label="Direct link to Open-Source Community Collaboration" title="Direct link to Open-Source Community Collaboration">​</a></h3><p>Joining the CloudStack project means becoming part of a vibrant
+community of developers, architects, and enthusiasts who collaborate
+openly to advance cloud technology. Open-source projects thrive on
+diverse perspectives and contributions, making it an ideal environment
+for learning and growth.</p><div class="row"><div class="col col--3"><p><img loading="lazy" src="/assets/images/rohit-65e106e61156422569cbfc147119b9ba.png" title="Rohit Yadav&quot; class=&quot;blog-image" width="312" height="324" class="img_ev3q"></p></div><div class="col col--9"><p>PMC member of the CloudStack project, Rohit Yadav shared "As a
+committer or a PMC member, you gain industry and community recognition
+while collaborating on a global scale. You contribute to the
+development of features and improvements released with the project,
+securing your organisation’s interests and influencing the future of
+CloudStack. Your efforts drive its adoption and benefit a vast
+community that you become an integral part of."</p></div></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="impactful-contributions">Impactful Contributions<a href="#impactful-contributions" class="hash-link" aria-label="Direct link to Impactful Contributions" title="Direct link to Impactful Contributions">​</a></h3><p>As a committer to the CloudStack project, individuals have the
+opportunity to make substantial contributions to critical components
+of cloud infrastructure. Whether it's enhancing scalability, improving
+security measures, or innovating new features, every contribution
+directly impacts the usability and reliability of cloud solutions
+worldwide.</p><div class="row"><div class="col col--3"><p><img loading="lazy" src="/assets/images/dahn-9f6b1a14bdd2ad15abc1f9fe14ec55c3.png" title="Daan Hoogland&quot; class=&quot;blog-image" width="184" height="196" class="img_ev3q"></p></div><div class="col col--9"><p>PMC member Daan (dahn) Hoogland shared his thoughts - "Users of a piece of
+software&nbsp;have an opportunity unique to open-source with a product like
+Apache CloudStack. They can see features and even direct the design
+before it hits production. They can alter the direction of the
+project, but for this they need to commit themselves to doing so. With
+only a few hours per week of effort you can guard and influence your
+main cloud orchestration tool to be as you need it."</p></div></div><div class="row"><div class="col col--3"><p><img loading="lazy" src="/assets/images/swen-6f702e0cd9e45f23a7272124b4ef6e35.png" title="Swen Brüske&quot; class=&quot;blog-image" width="337" height="314" class="img_ev3q"></p></div><div class="col col--9"><p>PMC Member, Swen Brüseke expanded on Daan’s point - “Joining the
+CloudStack project means being part of a global community dedicated to
+advancing cloud technology. As a committer or PMC member, you have the
+opportunity to influence the direction of a widely used open-source
+project, connect with industry experts, and play a key role in its
+development. Your contributions can make a significant impact on the
+future of cloud computing.”</p></div></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="professional-experience">Professional Experience<a href="#professional-experience" class="hash-link" aria-label="Direct link to Professional Experience" title="Direct link to Professional Experience">​</a></h3><p>Working on an open-source project like Apache CloudStack provides
+invaluable hands-on experience that enhances professional
+growth. Contributors get the chance to collaborate with industry
+leaders and peers, thus giving them invaluable experience aiding their
+personal career trajectory.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="building-a-reputation">Building a Reputation<a href="#building-a-reputation" class="hash-link" aria-label="Direct link to Building a Reputation" title="Direct link to Building a Reputation">​</a></h3><p>Becoming a committer to a respected open-source project such as Apache
+CloudStack can elevate one's professional profile within the tech
+community. It demonstrates expertise, dedication, and a commitment to
+driving innovation, potentially opening doors to new career
+opportunities and collaborations.</p><div class="row"><div class="col col--3"><p><img loading="lazy" src="/assets/images/abhishek-6849412b1ec64398f834183f43af7a6f.png" title="Abhishek Kumar&quot; class=&quot;blog-image" width="299" height="316" class="img_ev3q"></p></div><div class="col col--9"><p>4.19 Release Manager and PMC Member Abhishek Kumar expanded on this
+point - “Committing to an open-source project like CloudStack lets you
+contribute to the future of cloud infrastructure while honing your
+skills in a collaborative, innovative environment. It’s a chance to
+influence the project's direction, mentor new contributors, and gain
+recognition within the broader open-source community.”</p></div></div><p>Committing to the CloudStack project is more than a professional
+endeavour; it is a commitment to shaping the future of cloud
+computing. Through collaboration, innovation, and dedication,
+contributors not only enhance their own skills and professional
+development but also contribute to a global effort to make cloud
+technology more accessible, secure, and efficient for everyone. As the
+demand for scalable cloud solutions continues to grow, the
+contributions made today through projects like CloudStack will
+undoubtedly shape the landscape of tomorrow's digital infrastructure.</p>]]></content>
+        <author>
+            <name>Jamie Pell</name>
+            <uri>https://github.com/jamiepell10</uri>
+        </author>
+        <category label="community" term="community"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CloudStack European User Group Agenda 2024]]></title>
         <id>https://cloudstack.apache.org/blog/cseug2024-agenda</id>
