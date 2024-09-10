@@ -24,7 +24,7 @@ involved with the community.
               <div class="hc-header">Upcoming Events:</div>
               <div class="row">
                 <div class="col-lg-9 pt-3 px-4">
-                  <img src="/img/CSEUG 2024.jpg" alt="" class="events-img events-overview-img"/>
+                  <img src="/img/CSEUG 2024.png" alt="" class="events-img events-overview-img"/>
                   <p class="title mt-2">CloudStack European User Group 2024</p>
                   <p class="events-info"><img src="/img/pin_icon.png" class="me-2" alt=""/>Frankfurt, Germany</p>
                   <p class="events-info"><img src="/img/calendar_icon.png" class="me-2" alt=""/>Sep 19, 2024</p>
