@@ -24,6 +24,8 @@ For those passionate about shaping the future of cloud computing,
 contributing to the CloudStack project provides a valuable opportunity
 to make a significant impact.
 
+<!-- truncate -->
+
 ## Why Contribute to the CloudStack Project?
 
 For the CloudStack project, contributions can come in a variety of
