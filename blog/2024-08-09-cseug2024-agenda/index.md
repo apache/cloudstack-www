@@ -73,7 +73,8 @@ When connected to the internet it is probably just a matter of time before one o
 
 Swen will delve into how proIO leverages CloudStack to deliver robust and efficient managed hosting solutions. This session will explore the architecture and deployment strategies that enable us to provide reliable and scalable hosting services to our clients.
 
-**16:15 - 16:45 - CloudStack and Ceph for Public and Private Cloud, [Mohammad Foysal Kayum](https://www.linkedin.com/in/mohammad-foysal-kayum-5448b6a3/), [Bangladesh Export Import Co](https://www.bol-online.com)**
+**16:15 - 16:45 - Development of an Оbject Storage Plugin for CloudStack, [Christian Reichert](https://www.linkedin.com/in/christian-reichert-35569b37/?originalSubdomain=de), [sc synergy GmbH](https://scsynergy.com/)
+
 
 The session will cover Mohammad’s organisation’s deployment of CloudStack and
 Ceph and will cover their use case of CloudStack for both enterprise and Service
