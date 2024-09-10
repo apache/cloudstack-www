@@ -27,7 +27,7 @@ involved with the community.
                   <img src="/img/CSEUG 2024.jpg" alt="" class="events-img events-overview-img"/>
                   <p class="title mt-2">CloudStack European User Group 2024</p>
                   <p class="events-info"><img src="/img/pin_icon.png" class="me-2" alt=""/>Frankfurt, Germany</p>
-                  <p class="events-info"><img src="/img/calendar_icon.png" class="me-2" alt=""/>Sep 12, 2024</p>
+                  <p class="events-info"><img src="/img/calendar_icon.png" class="me-2" alt=""/>Sep 19, 2024</p>
                 </div>
                 <div class="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="/blog/cseug-2024" class="btn btn-outline-secondary me-3">Read More</a>
