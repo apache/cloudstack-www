@@ -75,9 +75,5 @@ Swen will delve into how proIO leverages CloudStack to deliver robust and effici
 
 **16:15 - 16:45 - Development of an Оbject Storage Plugin for CloudStack, [Christian Reichert](https://www.linkedin.com/in/christian-reichert-35569b37/?originalSubdomain=de), [sc synergy GmbH](https://scsynergy.com/)**
 
-
-The session will cover Mohammad’s organisation’s deployment of CloudStack and
-Ceph and will cover their use case of CloudStack for both enterprise and Service
-provider's networks. The session will also demonstrate their approach to a
-cost-effective, open-source first cloud infrastructure deployment.
+The abstract for this session is currently unavailable.
 
