@@ -155,7 +155,7 @@ export default function Committers(): JSX.Element {
             <thead>
             <tr>
                 <th><b>Name</b></th>
-                <th><b>GitHub ID</b></th>
+                <th><b>Apache ID</b></th>
             </tr>
             </thead>
             <tbody>
