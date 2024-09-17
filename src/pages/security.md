@@ -45,7 +45,7 @@ the issue in a non-public manner, and made public at the appropriate time.
 
 <h2>Procedure for Responding to Potential Security Issues</h2>
 
-We're following the Apache Security Team's procedures documented
+We follow the Apache Security Team's procedures documented
 [here](https://www.apache.org/security/committers.html).
 
 <h2>For further information</h2>
