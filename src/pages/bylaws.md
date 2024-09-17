@@ -287,7 +287,7 @@ votes over the action.
   - 3.4.11. Trademark Usage Approvals
 
     Our project maintains a formal Trademark Usage Guidelines document, which
-    serves as a additive reference to the Apache Software Foundation's trademark
+    serves as an additive reference to the Apache Software Foundation's trademark
     policies. The Apache CloudStack PMC has had approval authority delegated to it
     for requests from third parties to use our trademarks. It is the PMC's
     responsibility to provide these approvals, and to ensure that any requests
@@ -304,8 +304,8 @@ votes over the action.
 
     * If no PMC member raises a concern after 72 hours, the requester can assume approval.
 
-   - In situations where a concern is raised, the PMC member is expected inform the
-requster that there is some discussion that needs to be had prior to approval
+   - In situations where a concern is raised, the PMC member is expected to inform the
+requester that there is some discussion that needs to be had prior to approval
 from the PMC.  This notice serves to end the assumed approval after 72 hours.
 
      After raising a concern, the PMC member in question is required to forward the
