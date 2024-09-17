@@ -9,7 +9,7 @@ export default function EventContents(): JSX.Element {
               <div class="col-lg-8 offset-lg-2 text-center">
                 <h2 class="section-title">CloudStack Events</h2>
                 <p class="px18 mt-4">
-There’s always plenty of Cloudstack Events happening in different
+There’s always plenty of CloudStack Events happening in different
 parts of the world. These range from Meet-ups, User Groups to
 CloudStack Collaboration Conference events. Each event will feature a
 lot of opportunities to learn, collaborate and engage with the

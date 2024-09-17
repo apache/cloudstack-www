@@ -100,7 +100,7 @@ kubicorn.
                 <h2 class="section-title">Launching a Kubernetes cluster on Apache CloudStack</h2>
                 <p class="px18 mt-4">
 If users want to launch a
-Kubernetes cluster on Apache Cloudstack, they can check out the Getting
+Kubernetes cluster on Apache CloudStack, they can check out the Getting
 Started Guide to create your first Kubernetes cluster on Apache
 CloudStack using Cluster API.
                 </p>
