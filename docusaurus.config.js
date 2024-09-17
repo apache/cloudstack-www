@@ -157,7 +157,7 @@ const config = {
               },
               {
                 label: 'Case Studies',
-                href: 'blog/tags/case-studies'
+                href: '/blog/tags/case-studies'
               },
               {
                 label: 'Take Survey',
