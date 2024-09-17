@@ -13,7 +13,7 @@ Announces Apache® CloudStack® v4.19.
 
 Apache CloudStack 4.19 is the most recent release of the cloud management platform.
 It comes as a product of extensive contributions from the development community and
-is a LTS release, guaranteeing ongoing maintenance and support for a period of 18 months. 
+is a LTS release, guaranteeing ongoing maintenance and support for a period of 18 months.
 
 <!-- truncate -->
 
@@ -27,7 +27,7 @@ these being major features. Some of the highlighted features include:
 - VNF Appliances Support
 - Scheduled Instance Lifecycle Operations
 - OAuth 2 Authentication
-- CloudStack Snapshot Copy 
+- CloudStack Snapshot Copy
 
 The full list of new features can be found in the project release notes at:
 https://docs.cloudstack.apache.org/en/4.19.0.0/releasenotes

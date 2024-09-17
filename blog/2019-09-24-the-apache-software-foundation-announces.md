@@ -19,9 +19,9 @@ Apache CloudStack v4.13 features nearly 200 new features, enhancements and fixes
 •	Supporting configuration of virtualised appliances
 •	VMware 6.7 support
 •	Increased granularity & control of instance  deployment
-•	Improvements in system VM performance 
+•	Improvements in system VM performance
 •	Allow live migration of DPDK enabled instances
-•	More flexible UI branding 
+•	More flexible UI branding
 •	Allowing users to create layer 2 network offerings
 
 The full list of new features can be found in the project release notes at http://docs.cloudstack.apache.org/en/4.13.0.0/releasenotes/changes.html

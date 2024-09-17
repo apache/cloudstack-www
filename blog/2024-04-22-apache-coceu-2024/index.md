@@ -47,7 +47,7 @@ Below you can find a list of all the sessions about Apache CloudStack
 In this session, CloudStack PMC Member Boris will be covering the
 latest major features in Apache CloudStack over the past few releases.
 
-###### Transitioning from VMware to Apache CloudStack: A Path to Profitability and Competitiveness, [Marco Sinhoreli](https://www.linkedin.com/in/msinhore/) – Tuesday 4th at 12:30 – 13:00 (Harmony 1) 
+###### Transitioning from VMware to Apache CloudStack: A Path to Profitability and Competitiveness, [Marco Sinhoreli](https://www.linkedin.com/in/msinhore/) – Tuesday 4th at 12:30 – 13:00 (Harmony 1)
 
 In this session, Marco will explore the potential of migrating from
 VMware to Apache CloudStack with KVM. VMware vSphere is a robust cloud

@@ -157,7 +157,7 @@ slug: cloudstack_weekly_news_10_july
 <p>Sudha Ponnaganti <a href="http://markmail.org/message/5mwy2yuc5bvcg2qz" class="external-link" rel="nofollow">posted a list of 543 defects</a> that are in resolved state that need to re-validated, reopened or closed. Please look through this list and check to see if you're assigned to any of these defects. </p>
 
 <blockquote>
-    <p>There are 543 defects in Resolved state and not closed. Please make sure that you validate and close the defect if you are satisfied with the fix. If there are issues with the fix, pl reopen the defect. Pl note that these need to be validated in 4.2 branch as all are fixed in 4.2 ( should be applicable for master as well). You can prioritize these based on the blocker, critical, major etc.  As team is already done with the features, this is good time to close these...</p></blockquote> 
+    <p>There are 543 defects in Resolved state and not closed. Please make sure that you validate and close the defect if you are satisfied with the fix. If there are issues with the fix, pl reopen the defect. Pl note that these need to be validated in 4.2 branch as all are fixed in 4.2 ( should be applicable for master as well). You can prioritize these based on the blocker, critical, major etc.  As team is already done with the features, this is good time to close these...</p></blockquote>
 
 <h5><a name="ApacheCloudStackWeeklyNews-10July2013-CodingConventionReminder"></a>Coding Convention Reminder</h5>
 

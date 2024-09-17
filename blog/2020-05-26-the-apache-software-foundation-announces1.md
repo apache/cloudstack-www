@@ -27,18 +27,18 @@ ore than 200 new features, enhancements and fixes include:
 
 •	New modern UI (Project Primate, Technical preview)
 •	Backup and Recovery framework
-•	Backup and Recovery provider for Veeam 
+•	Backup and Recovery provider for Veeam
 •	VM ingestion
 •	CloudStack Kubernetes Service
-•	L2 network PVLAN enhancements 
+•	L2 network PVLAN enhancements
 •	UEFI support
 •	KVM rolling maintenance
-•	Enable Direct Download for systemVM templates 
-•	Template Direct Download support for Local and SharedMountPoint storages 
+•	Enable Direct Download for systemVM templates
+•	Template Direct Download support for Local and SharedMountPoint storages
 •	VR health checks
 •	Download logs and diagnostics data from SSVM/CPVM/VRs
 •	Enable additional configuration metadata to virtual machines
 
-The full list of new features can be found in the project release notes at http://docs.cloudstack.apache.org/en/4.14.0.0/releasenotes/index.html 
+The full list of new features can be found in the project release notes at http://docs.cloudstack.apache.org/en/4.14.0.0/releasenotes/index.html
 
 Apache CloudStack powers thousands of clouds and billions of dollars in transactions across an array of organizations that include Apple, BT, INRIA, Royal Melbourne Institute of Technology (RMIT), SAP, Taiwan Mobile, Verizon, and WebMD, among others. A list of some of Apache CloudStack’s users are available at http://cloudstack.apache.org/users.html

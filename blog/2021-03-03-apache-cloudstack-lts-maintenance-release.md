@@ -49,6 +49,6 @@ In addition to the official source code release, individual contributors
 have also made convenience binaries available on the Apache CloudStack
 download page, and can be found at:
 
-http://download.cloudstack.org/ubuntu/dists/ 
+http://download.cloudstack.org/ubuntu/dists/
 http://download.cloudstack.org/centos/7/
 http://www.shapeblue.com/packages/

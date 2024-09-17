@@ -4,7 +4,7 @@ title: Apache CloudStack Features
 
 # ☁️ Apache CloudStack Features
 
-As a mature and turnkey Infrastructure-as-a-Service (IaaS) platform, Apache CloudStack has a comprehensive set of features. This is an extensive, but not exhaustive, set of features. 
+As a mature and turnkey Infrastructure-as-a-Service (IaaS) platform, Apache CloudStack has a comprehensive set of features. This is an extensive, but not exhaustive, set of features.
 
 Have a feature request? We'd invite you to [bring it up on the mailing list](/mailing-lists), and consider [filing a feature request in our issue tracker](https://github.com/apache/cloudstack/issues).
 

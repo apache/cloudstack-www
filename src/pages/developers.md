@@ -107,7 +107,7 @@ $ git commit -a -m "descriptive commit message for your changes"
 
 <blockquote>The <code>-b</code> specifies that you want to create a new branch
 called <code>feature_x</code>.  You only specify <code>-b</code> the first time
-you 
+you
 checkout because you are creating a new branch.  Once the <code>feature_x</code>
 branch exists, you can later switch to it with only <code>git checkout
 feature_x</code>.</blockquote>
@@ -115,11 +115,11 @@ feature_x</code>.</blockquote>
 ### Rebase <code>feature_x</code> to include updates from <code>upstream/main</code>
 
 It is important that you maintain an up-to-date <code>main</code> branch in
-your local repository.  This is done by rebasing in the code 
+your local repository.  This is done by rebasing in the code
 changes from <code>upstream/main</code> (the official ACS project repository)
-into your local repository.  You will want to do this before you start 
+into your local repository.  You will want to do this before you start
 working on a feature as well as right before you submit your changes as a pull
-request. We recommend you do this process periodically while you work to make 
+request. We recommend you do this process periodically while you work to make
 sure you are working off the most recent project code.
 
 This process will do the following:
@@ -197,9 +197,9 @@ $ git push origin :feature_x
 
 <p>You might want to peruse the <a
 href="http://www.apache.org/foundation/getinvolved.html" target="_blank">Get
-Involved</a> page on Apache.org. 
+Involved</a> page on Apache.org.
 Please, respect the original style of the CloudStack code, and ensure that
-you're using spaces rather than tabs, and your code have Unix line 
+you're using spaces rather than tabs, and your code have Unix line
 endings (LF) rather than Windows-type line endings (CRLF).</p>
 
 ## Resources

@@ -14,21 +14,21 @@ slug: announcing_the_cloudstack_collaboration_conference
 
 <p><h2>Important Dates </h2></p>
 
-<p>The Call for Papers will run from today (August 16th) to September 30th. We will send out notifications shortly after closing the Call for Papers.</p> 
+<p>The Call for Papers will run from today (August 16th) to September 30th. We will send out notifications shortly after closing the Call for Papers.</p>
 
-<p>The Conference Hack Day will be November 20th</p> 
+<p>The Conference Hack Day will be November 20th</p>
 <p>The Conference talks and planned sessions begin on November 21th </p>
 <p>The Conference ends on November 22th </p>
 
-<p><h2>Registration</h2></p> 
+<p><h2>Registration</h2></p>
 
-<p>We will announce the registration in a short while, please keep an eye on the website <a href="http://www.cloudstackcollab.org/">http://www.cloudstackcollab.org/</a> for more details.</p> 
+<p>We will announce the registration in a short while, please keep an eye on the website <a href="http://www.cloudstackcollab.org/">http://www.cloudstackcollab.org/</a> for more details.</p>
 
-<p><h2>Location</h2></p> 
+<p><h2>Location</h2></p>
 
 <p>The conference will be at the Beurs van Berlage in Amsterdam, The Netherlands. Located in the city center it is close to quite a number of hotels and hostels in Amsterdam. We are looking at the possibility to make a deal with one of the hotels in the immediate vicinity of the conference location. We will update the conference website when we have the details.</p>
 
-<p><h2>Sponsoring</h2></p> 
+<p><h2>Sponsoring</h2></p>
 
 <p>Sponsoring opportunities are available for the CloudStack Collaboration Conference. At the conference website <a href="http://www.cloudstackcollab.org/sponsors">http://www.cloudstackcollab.org/sponsors</a> some of our sponsors will explain you the benefits in a video message. If you’d like to see the sponsorship prospectus or ask about sponsoring, contact <a href="mailto:sponsors@cloudstackcollab.org">sponsors@cloudstackcollab.org</a>.</p>
 
