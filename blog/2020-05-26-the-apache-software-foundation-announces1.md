@@ -6,7 +6,7 @@ slug: the-apache-software-foundation-announces1
 ---
 The Apache Software Foundation Announces Apache® CloudStack® v 4.14
 
-ature Open Source Enterprise Cloud platform powers billions of dollars in transactions for the world's largest Cloud providers, Fortune 5 multinationals, educational institutions, and more.
+Mature Open Source Enterprise Cloud platform powers billions of dollars in transactions for the world's largest Cloud providers, Fortune 5 multinationals, educational institutions, and more.
 
 Wakefield, MA —NN May 2020— The Apache Software Foundation (ASF), the all-volunteer developers, stewards, and incubators of more than 350 Open Source projects and initiatives, announced today Apache® CloudStack® 4.14, the latest version of the mature, turnkey enterprise Cloud orchestration platform.
 
@@ -23,7 +23,7 @@ Of particular note are:
 
 “Apache CloudStack 4.14 ships with a Technical Preview of CloudStack’s new User Interface,” added Vogel. “This presents a new, ‘enterprise feel’ user experience and is earmarked to replace the current UI. We are encouraging all CloudStack users to explore the Technical Preview and give feedback to the community. Thank you to all of the contributors across our community who have made this release possible."
 
-ore than 200 new features, enhancements and fixes include:
+More than 200 new features, enhancements and fixes include:
 
 •	New modern UI (Project Primate, Technical preview)
 •	Backup and Recovery framework
