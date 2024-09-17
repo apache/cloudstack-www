@@ -7,7 +7,7 @@ slug: announce_announcing_apache_cloudstack_4
 <p>The Apache CloudStack project is pleased to announce the 4.3.2 release
 of the CloudStack cloud orchestration platform. This is a minor release
 of the 4.3 branch which released on March 25, 2014. The 4.3.2 release
-contains more than 100 bug fixes since the 4.3.1 release. As a bug fix 
+contains more than 100 bug fixes since the 4.3.1 release. As a bug fix
 release, no new features are included in 4.3.2.</p>
 
 <p>As a minor release it is a simple upgrade from 4.3.0 or 4.3.1 with no

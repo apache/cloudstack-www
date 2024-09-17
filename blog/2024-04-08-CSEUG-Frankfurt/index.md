@@ -77,7 +77,7 @@ CloudStack. This commitment to open-source principles is further
 highlighted by CEO Swen Brüseke, who is frequently featured at
 community events, sharing insights and fostering dialogue with the
 community.
- 
+
 "CloudStack empowers proIO to offer solutions that are precisely
 tailored to meet our customers' unique business needs," states
 Swen. "With its minimal footprint, flexibility, ease of use, and

@@ -44,7 +44,7 @@ engineers, and project committers will come together to unleash their
 creativity, tackle real-world challenges, and push the boundaries of
 what's possible within the CloudStack ecosystem.
 
-## Technical Sessions and Panels - November 21st and 22nd 
+## Technical Sessions and Panels - November 21st and 22nd
 
 The excitement continues over the following two days with a jam-packed
 schedule of technical sessions, thought-provoking talks, and engaging

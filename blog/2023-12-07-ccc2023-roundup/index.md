@@ -242,7 +242,7 @@ their causes, and possible mitigation steps.
 
 CloudStack allows you to use older hardware for a longer time in your cloud
 environment. By using older hardware for a longer time you can save money and
-the environment by not producing new hardware. 
+the environment by not producing new hardware.
 
 [![](youtube/17-re-use.png "How to Re-use Old Hardware - video")](https://www.youtube.com/watch?v=KAJCkC00tzQ&si=56v3sWaRj93XfF2m&controls=0)
 
@@ -269,7 +269,7 @@ makerspace concept. In the case of our software makerspace, it is following the
 same principles as a traditional makerspace for device and mechanical
 prototyping, but instead provides software development tools. One such
 indispensable tool is cloud-based infrastructure. A cloud facilitates rapid
-prototyping of machine learning tools, microservices, IoT data mining, etc. 
+prototyping of machine learning tools, microservices, IoT data mining, etc.
 
 This talk presents their approach to extend the concept of a makerspace to
 software development using a student developed private cloud. They present the

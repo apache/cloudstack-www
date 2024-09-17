@@ -32,7 +32,7 @@ href="https://registration.cloudfest.com/registration" target="_blank">Register 
 **Make sure to use the code:**
 
 ![](tickets.png "the cloudstack team")
- 
+
 ## The CloudStack Booth Number is R30!
 
 If you do choose to attend the conference, make sure to swing by the

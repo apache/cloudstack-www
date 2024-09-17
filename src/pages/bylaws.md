@@ -23,7 +23,7 @@ respect for fellow developers, and meritocracy, in no specific order.
 
 <h2>2. Roles and Responsibilities</h2>
 
-   Apache projects define a set of roles with 
+   Apache projects define a set of roles with
 associated rights and
 responsibilities. These roles govern what tasks an individual may perform
 within the project. The roles are defined in the following sections:

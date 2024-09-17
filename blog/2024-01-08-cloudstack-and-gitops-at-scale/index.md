@@ -99,7 +99,7 @@ more modern private cloud platform.
 
 <strong>Do you run your datacenter ipv4 or ipv4/ipv6 or ipv6 only?</strong>
 
-Both ipv4 and ipv6. 
+Both ipv4 and ipv6.
 
 
 <strong>Why don’t you push back your container image cloudstack mgmt

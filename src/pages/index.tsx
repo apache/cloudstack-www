@@ -90,7 +90,7 @@ organizations that wish to deploy hybrid clouds.
             </div>
           </div>
         </section>
-        
+
         <section class="powers">
           <div class="container">
             <div class="row">

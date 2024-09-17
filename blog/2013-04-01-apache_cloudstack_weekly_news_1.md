@@ -25,7 +25,7 @@ slug: apache_cloudstack_weekly_news_1
 <p>Discussion <a href="http://markmail.org/message/6licrw7dve4f674h" class="external-link" rel="nofollow">continued</a> on Murali Reddy's <a href="http://markmail.org/message/flx3romoalsu5oiu" class="external-link" rel="nofollow">proposal</a> to enhance the EIP functionality to work at the region level. This week, Murali explained in more detail what he was thinking:</p>
 
 <blockquote>
-<p>CloudStack need not have a native capability to move IP across zone. From the CloudStack core perspective, all we need is abstraction of moving IP (presented as NAT) across the zones. Then we can have specific intelligence in the plug-ins which are providing EIP service. For e.g.'Route Health Injection' is commonly used solution in distributed data centres for disaster recovery supported by multiple vendors.</p></blockquote> 
+<p>CloudStack need not have a native capability to move IP across zone. From the CloudStack core perspective, all we need is abstraction of moving IP (presented as NAT) across the zones. Then we can have specific intelligence in the plug-ins which are providing EIP service. For e.g.'Route Health Injection' is commonly used solution in distributed data centres for disaster recovery supported by multiple vendors.</p></blockquote>
 
 <h5><a name="ApacheCloudStackWeeklyNews-1April2013-UpgradeProcessfrom4.0.xto4.1.0"></a>Upgrade Process from 4.0.x to 4.1.0</h5>
 

@@ -19,7 +19,7 @@ Tall, smart, handsome. Love sports, adventures and am ready to take up any chall
 
 <b>Tell us your story in one Tweet.</b>
 
-"Hello World". Two simple words inspired me and forged the path to where I am today. With just a few lines of code, I can create something that thinks, serves a purpose and makes people's lives better! 
+"Hello World". Two simple words inspired me and forged the path to where I am today. With just a few lines of code, I can create something that thinks, serves a purpose and makes people's lives better!
 &nbsp;
 
 <b>When did you start your CloudStack journey?</b>

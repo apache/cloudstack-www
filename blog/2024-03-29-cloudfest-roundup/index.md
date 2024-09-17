@@ -8,7 +8,7 @@ slug: cloudfest-2024-roundup
 
 ![](header.png "Blog Header Image")
 
-CloudFest happened last week and the CloudStack community was pleased to attend the premier event for internet infrastructure globally. Apache CloudStack has proudly showcased at the conference, with several community members representing both the technology and community. 
+CloudFest happened last week and the CloudStack community was pleased to attend the premier event for internet infrastructure globally. Apache CloudStack has proudly showcased at the conference, with several community members representing both the technology and community.
 
 <!-- truncate -->
 

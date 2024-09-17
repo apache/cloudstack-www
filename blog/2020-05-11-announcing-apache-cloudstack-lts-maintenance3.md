@@ -12,7 +12,7 @@ Apache CloudStack is an integrated Infrastructure-as-a-Service (IaaS) software p
 
 # Documentation
 The 4.13.1.0 release notes include a full list of issues fixed:
-http://docs.cloudstack.apache.org/en/4.13.1.0/releasenotes/changes.html 
+http://docs.cloudstack.apache.org/en/4.13.1.0/releasenotes/changes.html
 
 The CloudStack documentation includes upgrade instructions from previous
 versions of Apache CloudStack, and can be found at:

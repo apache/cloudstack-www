@@ -14,7 +14,7 @@ Risk Level: Low<br/>
 CVSSv2 Base Scores: 3.5  (AV:N/AC:M/Au:S/C:P/I:N/A:N)<br/>
 </p>
 
-<p>Description:</p> 
+<p>Description:</p>
 <p>The Apache CloudStack Security Team was notified of a an
 issue in Apache CloudStack which permits an authenticated user to list
 network ACLs for other users.</p>

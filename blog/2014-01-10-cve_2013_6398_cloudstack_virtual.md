@@ -13,7 +13,7 @@ CVE References: CVE-2013-2136<br/>
 Risk Level: Low<br/>
 CVSSv2 Base Scores: 2.8 (AV:N/AC:M/Au:M/C:P/I:N/A:N)<br/></p>
 
-<p>Description:</p> 
+<p>Description:</p>
 <p>The Apache CloudStack Security Team was notified of a an issue in the Apache CloudStack virtual router that failed to preserve source restrictions in firewall rules after a virtual router had been stopped and restarted.</p>
 
 <p>Mitigation:</p>
