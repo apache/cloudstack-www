@@ -7,9 +7,9 @@ export default function Who() {
     return (
     <Layout title="Apache CloudStack Project Members">
         <section>
-            <div class="container">
-            <div class="row">
-                 <h1 class="section-title mt-lg-5">Apache CloudStack Project Members</h1>
+            <div className="container">
+            <div className="row">
+                 <h1 className="section-title mt-lg-5">Apache CloudStack Project Members</h1>
                  <div>
                     <p>
                         PMC Information: https://projects.apache.org/committee.html?cloudstack
