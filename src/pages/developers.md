@@ -204,7 +204,7 @@ endings (LF) rather than Windows-type line endings (CRLF).</p>
 
 ## Resources
 
-- [Public repository (on github)](https://github.com/apache/cloudstack/)
+- [Public repository (on GitHub)](https://github.com/apache/cloudstack/)
 - [Contribution Guidelines](https://github.com/apache/cloudstack/blob/main/CONTRIBUTING.md)
 - [ASF Jenkins](https://builds.apache.org/view/A-D/view/Cloudstack/)
 - [CloudStack Jenkins](http://jenkins.buildacloud.org/)

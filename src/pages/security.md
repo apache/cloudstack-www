@@ -20,7 +20,7 @@ the following usages:
 
 That said, the project will work with any one on improving the secure
 use of the software it provides, with any 3rd party integration
-vendors or users of the software. This can be done on public github
+vendors or users of the software. This can be done on public GitHub
 issues or confidentially if so desired.
 
 <h2>Reporting Potential Vulnerabilities in Apache CloudStack</h2>
@@ -45,7 +45,7 @@ the issue in a non-public manner, and made public at the appropriate time.
 
 <h2>Procedure for Responding to Potential Security Issues</h2>
 
-We're follow the Apache Security Team's procedures documented
+We follow the Apache Security Team's procedures documented
 [here](https://www.apache.org/security/committers.html).
 
 <h2>For further information</h2>

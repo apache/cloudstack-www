@@ -82,7 +82,7 @@ and account management, a full and open native API, resource accounting,
                         <h2 className="section-title text-center mb-4">CloudStack Solves Key Challenges for Cloud Providers &amp; MSPs</h2>
                         <p className="px18 text-center mb-5">CloudStack can
 manage tens of thousands of physical servers installed in geographically
- distributed data centers. It is a powerful IaaS man- agement solution,
+ distributed data centers. It is a powerful IaaS management solution,
 but it is still easy to use and implement with a small team. Powered by a
  solid open-source community, Apache CloudStack eliminates the
 dependencies and allows you to follow your own cloud development plan,

@@ -93,7 +93,7 @@ CloudStack's 4.19 marquee features - Object Storage, DRS, VM schedule & DRaaS.
 ## CloudStack Tooling Ecosystem, [Kiran Chavala](https://www.linkedin.com/in/kiran-chavala-1bb6a97/)
 
 In this session, Kiran gives a talk about the rich ecosystem of tools (cmk,
-CAPC, Terraform, Ansible, Packer, csbench, mbx), that support Cloudstack.
+CAPC, Terraform, Ansible, Packer, csbench, mbx), that support CloudStack.
 
 Find out how the various tools work and how easy it is to integrate with Apache
 CloudStack.
