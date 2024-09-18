@@ -75,10 +75,10 @@ User Interface.
                 <div class="section-title">Explore the Kubernetes Cluster API Provider for Apache CloudStack</div>
                 <p class="px18 mt-4">
 The Kubernetes Cluster API (CAPI) provider for Apache CloudStack
-allows Ku- bernetes users to build and manage resources on Apache
-CloudStack. The pro- vider is available under the Apache 2 open-source
+allows Kubernetes users to build and manage resources on Apache
+CloudStack. The provider is available under the Apache 2 open-source
 license and is managed by the Cloud Native Computing Foundation
-(CNCF). The Cluster API brings declara- tive, Kubernetes-style APIs to
+(CNCF). The Cluster API brings declarative, Kubernetes-style APIs to
 cluster creation, configuration and management. The API itself is
 shared across multiple cloud providers allowing for true Apache
 CloudStack hybrid deployments of Kubernetes. It is built atop the
@@ -100,13 +100,13 @@ kubicorn.
                 <h2 class="section-title">Launching a Kubernetes cluster on Apache CloudStack</h2>
                 <p class="px18 mt-4">
 If users want to launch a
-Kubernetes cluster on Apache Cloudstack, they can check out the Getting
+Kubernetes cluster on Apache CloudStack, they can check out the Getting
 Started Guide to create your first Kubernetes cluster on Apache
 CloudStack using Cluster API.
                 </p>
                 <p class="px18 mb-4">
 CloudStack hybrid deployments of Kubernetes. It is built atop the
-lessons learned from pre- vious cluster managers such as kops and
+lessons learned from previous cluster managers such as kops and
 kubicorn.
                 </p>
               </div>
