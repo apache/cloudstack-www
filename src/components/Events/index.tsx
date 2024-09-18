@@ -73,7 +73,6 @@ involved with the community.
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://cloudstack.apache.org/blog/india-user-group-2024/" className="btn btn-outline-secondary me-3">Read More</a>
-                  <a href="https://www.meetup.com/india-cloudstack-user-group/events/298324389/?isFirstPublish=true" className="btn btn-primary">Register</a>
                 </div>
               </div>
               <div className="row">
@@ -84,7 +83,6 @@ involved with the community.
                   <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>February 22, 2024</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://www.eventbrite.nl/e/cloudstack-and-ceph-day-netherlands-2024-tickets-700177167757" className="btn btn-primary">Register</a>
                 </div>
               </div>
               <div className="row">
