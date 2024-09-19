@@ -164,5 +164,3 @@ their causes, and possible mitigation steps.
 For work, [Jithin](https://www.linkedin.com/in/rajujith/) is a cloud architect
 at ShapeBlue. Jithin has helped organisations around the globe use commercial
 distributions of Apache CloudStack in the past 10 years.
-
-

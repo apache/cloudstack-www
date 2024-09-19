@@ -120,4 +120,3 @@ of security, enhancing user verification through multiple verification steps.
 [![](youtube/Auth.png "CloudStack Authentication Methods - video")](https://www.youtube.com/watch?v=M4cnljW2J9k&list=PLnIKk7GjgFlYRGmxK70VXSgpNXjEBHpYw&index=7)
 
 [![](slideshare/Auth.png "CloudStack Authentication Methods - slides")](https://www.slideshare.net/slideshow/embed_code/key/42HE4pVaNJl1qd)
-
