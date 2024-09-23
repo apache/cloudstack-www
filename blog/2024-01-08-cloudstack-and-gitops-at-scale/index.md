@@ -75,7 +75,7 @@ user/contributor community like what we found with CloudStack.
   other technologies. What do you recommended to be tested during a
   PoC?</strong>
 
-Why you chose CloudStack?  Each use case is different obviously. The
+Why you chose CloudStack? Each use case is different obviously. The
 scale of the implementation, how users will interact with the
 platform, how migration from present state to future state can be
 carried out when deploying a new cloud platform are all items we took
