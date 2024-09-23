@@ -42,7 +42,7 @@ month across the country. All this is looked after by a team of just 20 staff.
 ![](csc.png "CSC")
 
 Since 2015, there were approximately 100,000 kiosks and 28 million
-e-transactions. Fast forward to 2022, there were 541,000 kiosks with 389
+e-transactions. Fast-forward to 2022, there were 541,000 kiosks with 389
 million e-transactions. Abhishek credits the possibility of this growth rate ‘to
 the scalability and reliability of CloudStack’.
 

@@ -82,9 +82,9 @@ worldwide.
 
 PMC member [Daan (dahn)
 Hoogland](https://www.linkedin.com/in/dhoogland) shared his thoughts -
-"Users of a piece of software have an opportunity unique to
+"Users of a piece of software have an opportunity unique to
 open-source with a product like Apache CloudStack. They can see
-features and even dirqect the design before it hits production. They
+features and even direct the design before it hits production. They
 can alter the direction of the project, but for this they need to
 commit themselves to doing so. With only a few hours per week of
 effort you can guard and influence your main cloud orchestration tool

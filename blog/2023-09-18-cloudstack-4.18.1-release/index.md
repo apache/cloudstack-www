@@ -24,7 +24,7 @@ Some of the highlights include:
 - Support for VMware 8.0.0.x
 - Several Hypervisor (VMware, KVM, XenServer) fixes and improvements
 - Several UI fixes and improvements
-- Several Network (L2, VXLAN, etc) fixes and improvements
+- Several Network (L2, VXLAN, etc.) fixes and improvements
 - Several System VM (CPVM, SSVM) fixes and improvements
 - Improve Solidfire storage plugin integration on VMware
 - Support volume migration in ScaleIO/PowerFlex within and across ScaleIO/PowerFlex storage clusters

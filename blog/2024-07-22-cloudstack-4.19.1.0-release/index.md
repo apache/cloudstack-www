@@ -36,7 +36,7 @@ Apache CloudStack is an integrated Infrastructure-as-a-Service (IaaS)
 software platform that allows users to build feature-rich public and
 private cloud environments. CloudStack includes an intuitive user interface
 and rich API for managing the compute, networking, software, and storage
-resources. The project became an Apache top-level project in March, 2013.
+resources. The project became an Apache top-level project in March 2013.
 
 More information about Apache CloudStack can be found at:
 https://cloudstack.apache.org/
