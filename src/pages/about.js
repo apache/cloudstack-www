@@ -8,12 +8,12 @@ export default function About() {
   return (
     <Layout title="About Apache CloudStack">
       <header>
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h1 class="section-title text-center mb-5">About Apache CloudStack</h1>
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <h1 className="section-title text-center mb-5">About Apache CloudStack</h1>
               <div>
-                <h2 class="text-center">What is Apache CloudStack?</h2>
+                <h2 className="text-center">What is Apache CloudStack?</h2>
                 <p>
 Apache CloudStack is a top-level project of the Apache Software
 Foundation (ASF). The project develops open source software for
