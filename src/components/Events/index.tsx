@@ -83,6 +83,7 @@ involved with the community.
                   <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>February 22, 2024</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlYgPbjM3os1YoE10Ys9gEB6" className="btn btn-primary">Watch</a>
                 </div>
               </div>
               <div className="row">
