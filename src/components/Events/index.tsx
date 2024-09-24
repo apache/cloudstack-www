@@ -24,18 +24,6 @@ involved with the community.
               <div className="hc-header">Upcoming Events:</div>
               <div className="row">
                 <div className="col-lg-9 pt-3 px-4">
-                  <img src="/img/CSEUG 2024.png" alt="" className="events-img events-overview-img"/>
-                  <p className="title mt-2">CloudStack European User Group 2024</p>
-                  <p className="events-info"><img src="/img/pin_icon.png" className="me-2" alt=""/>Frankfurt, Germany</p>
-                  <p className="events-info"><img src="/img/calendar_icon.png" className="me-2" alt=""/>Sep 19, 2024</p>
-                </div>
-                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="/blog/cseug-2024" className="btn btn-outline-secondary me-3">Read More</a>
-                  <a className="button button--primary" href="https://www.eventbrite.co.uk/e/cloudstack-european-user-group-germany-tickets-879369205967" target="_blank">Register Now</a>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-9 pt-3 px-4">
                   <div className="events-img events-overview-img" style={{display: "flex",  alignItems: "center"}}>
                     <img src="https://www.apachecon.com/event-images/na2024-wide-light.png" alt="C/C NA 2024"/>
                   </div>
@@ -64,6 +52,17 @@ involved with the community.
 
             <div className="horizontal-card">
               <div className="hc-header">Past Events:</div>
+              <div className="row">
+                <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/CSEUG 2024.png" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">CloudStack European User Group 2024</p>
+                  <p className="events-info"><img src="/img/pin_icon.png" className="me-2" alt=""/>Frankfurt, Germany</p>
+                  <p className="events-info"><img src="/img/calendar_icon.png" className="me-2" alt=""/>Sep 19, 2024</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="/blog/cseug-2024" className="btn btn-outline-secondary me-3">Read More</a>
+                </div>
+              </div>
               <div className="row">
                 <div className="col-lg-9 pt-3 px-4">
                   <img src="/img/india 2024.jpeg" alt="" className="events-img events-overview-img"/>
@@ -96,18 +95,6 @@ involved with the community.
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://cloudstack.apache.org/blog/ccc2023-roundup" className="btn btn-outline-secondary me-3">Read More</a>
                   <a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlZsBJestxnL-xF5DxgewxYh" className="btn btn-primary">Watch</a>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-9 pt-3 px-4">
-                  <img src="/img/CSEUG 2023.png" alt="" className="events-img events-overview-img"/>
-                  <p className="title mt-2">CloudStack European User Group 2023</p>
-                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>London, UK</p>
-                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>May 4, 2023</p>
-                </div>
-                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://cloudstack.apache.org/blog/cseug-2023-roundup" className="btn btn-outline-secondary me-3">Read More</a>
-                  <a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlZtSvP7zSXDKr-r5qLCKCFd" className="btn btn-primary">Watch</a>
                 </div>
               </div>
             </div>
