@@ -501,4 +501,3 @@ Import-Export Instances feature for the KVM Hypervisor.
 [![](youtube/36-ImportExport.png "Import Export Virtual Machine for KVM Hypervisor - video")](https://www.youtube.com/watch?v=ZKKMW4aAprY&si=rGTJeyU51SlGaJdz&controls=0)
 
 [![](slides/34-importexport.png "Import Export Virtual Machine for KVM Hypervisor - slides")](https://www.slideshare.net/slideshow/embed_code/key/fUIK05TiJtVJ5f?hostedIn=slideshare&page=upload)
-

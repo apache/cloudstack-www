@@ -158,4 +158,3 @@ technology more accessible, secure, and efficient for everyone. As the
 demand for scalable cloud solutions continues to grow, the
 contributions made today through projects like CloudStack will
 undoubtedly shape the landscape of tomorrow's digital infrastructure.
-

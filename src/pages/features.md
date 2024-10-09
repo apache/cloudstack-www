@@ -260,4 +260,3 @@ CloudStack also supports two-factor authentication.
 Admin can set notification threshold to receive an alert when resource pool
 crosses the notification threshold. Capacity threshold prevents CloudStack from
 allocating further resources to that pool.
-

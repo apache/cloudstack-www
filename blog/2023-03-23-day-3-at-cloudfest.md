@@ -49,4 +49,3 @@ in its entirety, visit the [official event website](https://www.cloudfest.com/ag
 <img src="/img/imported/11ea3fea-4b0d-473b-8d0d-32641542c6be" />
 <img src="/img/imported/fbc9fa75-fd48-413d-8866-3622f8eb53e3" />
 <img src="/img/imported/2d95e42d-2b12-4c1e-b1ea-2ce0c91216d7" />
-

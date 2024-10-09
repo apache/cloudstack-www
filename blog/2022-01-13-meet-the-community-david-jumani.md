@@ -41,4 +41,3 @@ The support for autoscaling CloudStack Kubernetes Clusters. It allows the cluste
 Free obviously, since everybody loves free stuff. Jokes aside, it has a wide community of like-minded people who decide the direction of the project and want the project to succeed. Additionally, open-source is completely transparent so you know exactly what you're choosing and why.<br/>
 
 Find David Jumani on GitHub: <a href="https://github.com/davidjumani">https://github.com/davidjumani</a>
-
