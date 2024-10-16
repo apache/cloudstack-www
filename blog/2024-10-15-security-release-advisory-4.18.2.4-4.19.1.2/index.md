@@ -15,6 +15,8 @@ The Apache CloudStack project announces the release of LTS security releases [4.
 - CVE-2024-45462 (severity 'Moderate')
 - CVE-2024-45693 (severity 'Important')
 
+<!-- truncate -->
+
 ## [CVE-2024-45219](https://www.cve.org/CVERecord?id=CVE-2024-45219): Uploaded and registered templates and volumes can be used to abuse KVM-based infrastructure
 
 Account users in Apache CloudStack by default are allowed to upload and register templates for deploying instances and volumes for attaching them as data disks to their existing instances. Due to missing validation checks for KVM-compatible templates or volumes in CloudStack 4.0.0 through 4.18.2.3 and 4.19.0.0 through 4.19.1.1, an attacker that can upload or register templates and volumes, can use them to deploy malicious instances or attach uploaded volumes to their existing instances on KVM-based environments and exploit this to gain access to the host filesystems that could result in the compromise of resource integrity and confidentiality, data loss, denial of service, and availability of KVM-based infrastructure managed by CloudStack.
