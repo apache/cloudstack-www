@@ -14,6 +14,10 @@ const config = {
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
 
+  clientModules: [
+    require.resolve('./asf-matomo.js'),
+  ],
+
   plugins: [
     [
       'docusaurus-plugin-sass',
