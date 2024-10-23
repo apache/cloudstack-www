@@ -15,14 +15,14 @@ The conference hosted over 370 participants and 48 speakers from 32 countries. I
 
 <!-- truncate -->
 
-The Apache CloudStack community is grateful to the event’s sponsors, for helping make the event a reality - <a href="http://www.shapeblue.com/" data-cke-saved-href="http://www.shapeblue.com/">ShapeBlue,</a> <a href="https://linbit.com/" target="_blank" rel="noopener" data-cke-saved-href="https://linbit.com/">LINBIT</a>, <a href="https://cloud.dimsi.io/#/" target="_blank" rel="noopener" data-cke-saved-href="https://cloud.dimsi.io/#/">DIMSI</a>, <a href="https://storpool.com/" target="_blank" rel="noopener" data-cke-saved-href="https://storpool.com/">StorPool</a>, <a href="https://www.apiculus.com/" target="_blank" rel="noopener" data-cke-saved-href="https://www.apiculus.com/">Apiculus by IndiQus</a>, <a href="https://www.stackbill.com/" target="_blank" rel="noopener" data-cke-saved-href="https://www.stackbill.com/">StackBill</a>, <a href="https://www.stackconsole.io/" target="_blank" rel="noopener" data-cke-saved-href="https://www.stackconsole.io/">Stack Console</a>, <a href="https://www.cldin.eu/" target="_blank" rel="noopener" data-cke-saved-href="https://www.cldin.eu/">CLDIN</a> and <a href="https://www.hubilo.com/" target="_blank" rel="noopener" data-cke-saved-href="https://www.hubilo.com/">Hubilo. </a>
+The Apache CloudStack community is grateful to the event’s sponsors, for helping make the event a reality - <a href="http://www.shapeblue.com/" data-cke-saved-href="http://www.shapeblue.com/">ShapeBlue,</a> <a href="https://linbit.com/" target="_blank" rel="noopener" data-cke-saved-href="https://linbit.com/">LINBIT</a>, <a href="https://cloud.dimsi.io/#/" target="_blank" rel="noopener" data-cke-saved-href="https://cloud.dimsi.io/#/">DIMSI</a>, <a href="https://storpool.com/" target="_blank" rel="noopener" data-cke-saved-href="https://storpool.com/">StorPool</a>, <a href="https://www.apiculus.com/" target="_blank" rel="noopener" data-cke-saved-href="https://www.apiculus.com/">Apiculus by IndiQus</a>, <a href="https://www.stackbill.com/" target="_blank" rel="noopener" data-cke-saved-href="https://www.stackbill.com/">StackBill</a>, <a href="https://www.stackconsole.io/" target="_blank" rel="noopener" data-cke-saved-href="https://www.stackconsole.io/">Stack Console</a>, <a href="https://www.cldin.eu/" target="_blank" rel="noopener" data-cke-saved-href="https://www.cldin.eu/">CLDIN</a> and <a href="https://www.hubilo.com/" target="_blank" rel="noopener" data-cke-saved-href="https://www.hubilo.com/">Hubilo.</a>
 
 This blog shares the event highlights including session recordings, slides and speaker information for anybody who was not able to make it.
 
 <h2><span >Day 1 Sessions:</span></h2>
 <span ><strong><a href="https://www.slideshare.net/ShapeBlue/keynote-talk-apache-cloudstack-charting-a-path-for-the-next-10-years-and-beyond" target="_blank" rel="noopener">Keynote talk: Apache CloudStack - Charting a Path for the Next 10 years and Beyond</a> - Simon Weller</strong></span>
 
-CloudStack since its inception has been a significant player in the cloud market, enabling service providers and enterprise customers to drive success, while controlling their own destinies. With the constant evolution of technology and rapidly changing market dynamics, join Simon as he reflects on an exciting 10 years of innovation and looks to the future.
+CloudStack since its inception has been a significant player in the cloud market, enabling service providers and enterprise customers to drive success, while controlling their own destinies. With the constant evolution of technology and rapidly changing market dynamics, join Simon as he reflects on an exciting 10 years of innovation and looks to the future.
 
 <p><a href="https://www.youtube.com/watch?v=vu3p0JDe830&t=1120s" rel="noopener noreferrer" target="_blank"><img src="/img/imported/6a12e690-ed32-457a-9927-7ef28b2d2935" alt="Screenshot 2022-12-14 at 12.53.32.png" width="750" height="393" /></a></p>
 
@@ -34,7 +34,7 @@ Simon Weller is the new VP of Apache CloudStack announced in late March 2022. Si
 
 &nbsp;
 
-<strong><span ><a href="https://www.slideshare.net/ShapeBlue/whats-new-in-apache-cloudstack-417" target="_blank" rel="noopener">What's New In Apache CloudStack 4.17</a> - Nicolas Vazquez </span></strong>
+<strong><span ><a href="https://www.slideshare.net/ShapeBlue/whats-new-in-apache-cloudstack-417" target="_blank" rel="noopener">What's New In Apache CloudStack 4.17</a> - Nicolas Vazquez</span></strong>
 
 4.17.0 is the latest Apache CloudStack major release. In this talk, Nicolas goes through the new features introduced in this version from an administrator/user perspective, explaining their benefits and the problems those features resolve. He also ran a live demo to see the new features in action.
 
@@ -283,7 +283,7 @@ In this talk, Vladi looks at the new Volume encryption option (due in CloudStack
 <div></div>
 
 &nbsp;
-<div><span ><strong><a title="StorPool Storage Оverview and Integration with CloudStack" href="https://www.slideshare.net/ShapeBlue/storpool-storage-verview-and-integration-with-cloudstack" target="_blank" rel="noopener">StorPool Storage Оverview and Integration with CloudStack</a> - Slavka Peleva, Venko Moyankov, Alex Ivanov </strong></span></div>
+<div><span><strong><a title="StorPool Storage Оverview and Integration with CloudStack" href="https://www.slideshare.net/ShapeBlue/storpool-storage-verview-and-integration-with-cloudstack" target="_blank" rel="noopener">StorPool Storage Оverview and Integration with CloudStack</a> - Slavka Peleva, Venko Moyankov, Alex Ivanov</strong></span></div>
 <div>StorPool is a leading software provider that develops the most reliable and speedy storage platform on the market. The software comes as an utterly hands-off solution – StorPool’s team architects, deploys, tunes, monitors, and maintains the system. The software has a native plug-in for CloudStack, and it is the ideal solution for companies that aim to optimize and grow their business, eliminate data storage issues, or secure fast and reliable access to data to achieve their business goals. In this talk, you’ll find out more about StorPool’s functionality, architecture, and use cases. You’ll also learn about the new features of the product and its deeper integration into CloudStack.</div>
 
 <a href="https://www.youtube.com/watch?v=045dkTHlcf8&list=PLnIKk7GjgFlYcKNbhYSgWGbJ8nJ0g496V&index=20" rel="noopener noreferrer" target="_blank"><img src="/img/imported/f4e2c5db-8664-497c-bf2e-835276fb0595" alt="Screenshot 2023-01-10 at 11.34.50.png" width="750" height="393" /></a>
