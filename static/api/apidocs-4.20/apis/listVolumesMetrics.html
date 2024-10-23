@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.20.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>listVolumesMetrics</h1>
+                                        <p>Lists volume metrics</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>account</i></td><td style="width:500px;"><i>list resources by account. Must be used with the domainId parameter.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>clusterid</i></td><td style="width:500px;"><i>the cluster id the disk volume belongs to</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>diskofferingid</i></td><td style="width:500px;"><i>list volumes by disk offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>displayvolume</i></td><td style="width:500px;"><i>list resources by display flag; only ROOT admin is eligible to pass this parameter</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>domainid</i></td><td style="width:500px;"><i>list only resources belonging to the domain specified</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>hostid</i></td><td style="width:500px;"><i>list volumes on specified host</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>id</i></td><td style="width:500px;"><i>the ID of the disk volume</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>ids</i></td><td style="width:500px;"><i>the IDs of the volumes, mutually exclusive with id</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>isencrypted</i></td><td style="width:500px;"><i>list only volumes that are encrypted</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>isrecursive</i></td><td style="width:500px;"><i>defaults to false, but if true, lists all resources from the parent specified by the domainId till leaves.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>keyword</i></td><td style="width:500px;"><i>List by keyword</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>listall</i></td><td style="width:500px;"><i>If set to false, list only resources belonging to the command's caller; if set to true - list resources that the caller is authorized to see. Default value is false. Resources dedicated to a project are listed only if using the projectid parameter.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>listsystemvms</i></td><td style="width:500px;"><i>list system VMs; only ROOT admin is eligible to pass this parameter</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>name</i></td><td style="width:500px;"><i>the name of the disk volume</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>page</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>pagesize</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>podid</i></td><td style="width:500px;"><i>the pod id the disk volume belongs to</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>projectid</i></td><td style="width:500px;"><i>list objects by project; if projectid=-1 lists All VMs</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>retrieveonlyresourcecount</i></td><td style="width:500px;"><i>makes the API's response contains only the resource count</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>serviceofferingid</i></td><td style="width:500px;"><i>list volumes by disk offering of a service offering. If both service offering and disk offering are passed, service offering is ignored</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>state</i></td><td style="width:500px;"><i>state of the volume. Possible values are: Ready, Allocated, Destroy, Expunging, Expunged.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>storageid</i></td><td style="width:500px;"><i>the ID of the storage pool, available to ROOT admin only</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>tags</i></td><td style="width:500px;"><i>List resources by tags (key/value pairs)</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>type</i></td><td style="width:500px;"><i>the type of disk volume</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>virtualmachineid</i></td><td style="width:500px;"><i>the ID of the virtual machine</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>zoneid</i></td><td style="width:500px;"><i>the ID of the availability zone</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskiopstotal</strong></td><td style="width:500px;">the total disk iops</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>sizegb</strong></td><td style="width:500px;">disk size in GiB</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script type="text/javascript" src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

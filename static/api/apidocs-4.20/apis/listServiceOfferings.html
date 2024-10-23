@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.20.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>listServiceOfferings</h1>
+                                        <p>Lists all available service offerings.</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>account</i></td><td style="width:500px;"><i>list resources by account. Must be used with the domainId parameter.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>cpunumber</i></td><td style="width:500px;"><i>the CPU number that listed offerings must support</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>cpuspeed</i></td><td style="width:500px;"><i>the CPU speed that listed offerings must support</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>domainid</i></td><td style="width:500px;"><i>list only resources belonging to the domain specified</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>encryptroot</i></td><td style="width:500px;"><i>listed offerings support root disk encryption</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>id</i></td><td style="width:500px;"><i>ID of the service offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>isrecursive</i></td><td style="width:500px;"><i>defaults to false, but if true, lists all resources from the parent specified by the domainId till leaves.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>issystem</i></td><td style="width:500px;"><i>is this a system vm offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>keyword</i></td><td style="width:500px;"><i>List by keyword</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>listall</i></td><td style="width:500px;"><i>If set to false, list only resources belonging to the command's caller; if set to true - list resources that the caller is authorized to see. Default value is false. Resources dedicated to a project are listed only if using the projectid parameter.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>memory</i></td><td style="width:500px;"><i>the RAM memory that listed offering must support</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>name</i></td><td style="width:500px;"><i>name of the service offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>page</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>pagesize</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>projectid</i></td><td style="width:500px;"><i>list objects by project; if projectid=-1 lists All VMs</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>state</i></td><td style="width:500px;"><i>Filter by state of the service offering. Defaults to 'Active'. If set to 'all' shows both Active &amp; Inactive offerings.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>storagetype</i></td><td style="width:500px;"><i>the storage type of the service offering. Values are local and shared.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>systemvmtype</i></td><td style="width:500px;"><i>the system VM type. Possible types are "consoleproxy", "secondarystoragevm" or "domainrouter".</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>templateid</i></td><td style="width:500px;"><i>The ID of the template that listed offerings must support</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>virtualmachineid</i></td><td style="width:500px;"><i>the ID of the virtual machine. Pass this in if you want to see the available service offering that a virtual machine can be changed to.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>zoneid</i></td><td style="width:500px;"><i>id of zone disk offering is associated with</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">the id of the service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cacheMode</strong></td><td style="width:500px;">the cache mode to use for this disk offering. none, writeback or writethrough</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cpunumber</strong></td><td style="width:500px;">the number of CPU</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cpuspeed</strong></td><td style="width:500px;">the clock rate CPU speed in Mhz</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>created</strong></td><td style="width:500px;">the date this service offering was created</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>defaultuse</strong></td><td style="width:500px;">is this a  default system vm offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>deploymentplanner</strong></td><td style="width:500px;">deployment strategy used to deploy VM.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskBytesReadRate</strong></td><td style="width:500px;">bytes read rate of the service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskBytesReadRateMax</strong></td><td style="width:500px;">burst bytes read rate of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskBytesReadRateMaxLength</strong></td><td style="width:500px;">length (in seconds) of the burst</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskBytesWriteRate</strong></td><td style="width:500px;">bytes write rate of the service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskBytesWriteRateMax</strong></td><td style="width:500px;">burst bytes write rate of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskBytesWriteRateMaxLength</strong></td><td style="width:500px;">length (in seconds) of the burst</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskIopsReadRate</strong></td><td style="width:500px;">io requests read rate of the service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskIopsReadRateMax</strong></td><td style="width:500px;">burst io requests read rate of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskIopsReadRateMaxLength</strong></td><td style="width:500px;">length (in second) of the burst</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskIopsWriteRate</strong></td><td style="width:500px;">io requests write rate of the service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskIopsWriteRateMax</strong></td><td style="width:500px;">burst io requests write rate of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskIopsWriteRateMaxLength</strong></td><td style="width:500px;">length (in seconds) of the burst</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskofferingdisplaytext</strong></td><td style="width:500px;">the display text of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskofferingid</strong></td><td style="width:500px;">the ID of the disk offering to which service offering is linked</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskofferingname</strong></td><td style="width:500px;">name of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>diskofferingstrictness</strong></td><td style="width:500px;">True/False to indicate the strictness of the disk offering association with the compute offering. When set to true, override of disk offering is not allowed when VM is deployed and change disk offering is not allowed for the ROOT disk after the VM is deployed</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>displaytext</strong></td><td style="width:500px;">an alternate display text of the service offering.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domain</strong></td><td style="width:500px;">the domain name(s) this disk offering belongs to. Ignore this information as it is not currently applicable.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainid</strong></td><td style="width:500px;">the domain ID(s) this disk offering belongs to. Ignore this information as it is not currently applicable.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>dynamicscalingenabled</strong></td><td style="width:500px;">true if virtual machine needs to be dynamically scalable of cpu or memory</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>encryptroot</strong></td><td style="width:500px;">true if virtual machine root disk will be encrypted on storage</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hosttags</strong></td><td style="width:500px;">the host tag for the service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hypervisorsnapshotreserve</strong></td><td style="width:500px;">Hypervisor snapshot reserve space as a percent of a volume (for managed storage using Xen or VMware)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>iscustomized</strong></td><td style="width:500px;">is true if the offering is customized</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>iscustomizediops</strong></td><td style="width:500px;">true if disk offering uses custom iops, false otherwise</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>issystem</strong></td><td style="width:500px;">is this a system vm offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>isvolatile</strong></td><td style="width:500px;">true if the vm needs to be volatile, i.e., on every reboot of vm from API root disk is discarded and creates a new root disk</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>limitcpuuse</strong></td><td style="width:500px;">restrict the CPU usage to committed service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>maxiops</strong></td><td style="width:500px;">the max iops of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>memory</strong></td><td style="width:500px;">the memory in MB</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>miniops</strong></td><td style="width:500px;">the min iops of the disk offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;">the name of the service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkrate</strong></td><td style="width:500px;">data transfer rate in megabits per second allowed.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>offerha</strong></td><td style="width:500px;">the ha support in the service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>provisioningtype</strong></td><td style="width:500px;">provisioning type used to create volumes. Valid values are thin, sparse, fat.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>purgeresources</strong></td><td style="width:500px;">Whether to cleanup VM and its associated resource upon expunge</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>rootdisksize</strong></td><td style="width:500px;">Root disk size in GB</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>serviceofferingdetails</strong></td><td style="width:500px;">additional key/value details tied with this service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>state</strong></td><td style="width:500px;">state of the service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>storagetags</strong></td><td style="width:500px;">the tags for the service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>storagetype</strong></td><td style="width:500px;">the storage type for this service offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>systemvmtype</strong></td><td style="width:500px;">is this a the systemvm type for system vm offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vspherestoragepolicy</strong></td><td style="width:500px;">the vsphere storage policy tagged to the service offering in case of VMware</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zone</strong></td><td style="width:500px;">the zone name(s) this disk offering belongs to. Ignore this information as it is not currently applicable.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zoneid</strong></td><td style="width:500px;">the zone ID(s) this disk offering belongs to. Ignore this information as it is not currently applicable.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script type="text/javascript" src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
