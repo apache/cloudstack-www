@@ -32,7 +32,7 @@ During the hackathon, participants will work on exciting projects
 ranging from improving CloudStack features, developing new plugins, or
 tackling specific cloud-related problems. Expert mentors and
 CloudStack maintainers will be available to provide guidance and
-support, ensuring everyone can contribute and learn. The event will
+support, ensuring everyone can contribute and learn. The day will
 conclude with a showcase of the top solutions and technically
 impressive projects.
 
@@ -107,7 +107,15 @@ partner’s technology stack.
 </div>
 <div className="col col--9">
 
-This will be an in-depth session on the latest advancements in Apache CloudStack, with a special focus on the exciting new features and improvements in the 4.20 release. As one of the leading open-source cloud management platforms, CloudStack continues to evolve to meet the needs of modern cloud infrastructures. This session will cover key updates that enhance functionality, scalability, and user experience, empowering cloud operators and developers alike. Rohit will explore the cutting-edge enhancements introduced in version 4.20, including new integrations, performance improvements, and security updates.
+This will be an in-depth session on the latest advancements in Apache
+CloudStack, with a special focus on the exciting new features and
+improvements in the 4.20 release. As one of the leading open-source
+cloud management platforms, CloudStack continues to evolve to meet the
+needs of modern cloud infrastructures. This session will cover key
+updates that enhance functionality, scalability, and user experience,
+empowering cloud operators and developers alike. Rohit will explore
+the cutting-edge enhancements introduced in version 4.20, including
+new integrations, performance improvements, and security updates.
 
 </div>
 </div>
