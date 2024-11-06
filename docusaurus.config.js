@@ -94,6 +94,10 @@ const config = {
               {
                 label: 'Trademark Guidelines',
                 href: '/trademark-guidelines'
+              },
+              {
+                label: 'Security',
+                href: '/security'
               }
             ]
           },
@@ -216,7 +220,6 @@ const config = {
               {label: 'Foundation', to: 'https://www.apache.org/'},
               {label: 'License', to: 'https://www.apache.org/licenses/'},
               {label: 'Events', to: 'https://www.apache.org/events/current-event'},
-              {label: 'Security', to: 'https://www.apache.org/security/'},
               {label: 'Sponsorship', to: 'https://www.apache.org/foundation/sponsorship.html'},
               {label: 'Privacy', to: 'https://www.apache.org/foundation/policies/privacy.html'},
               {label: 'Thanks', to: 'https://www.apache.org/foundation/thanks.html'}
