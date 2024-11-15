@@ -76,4 +76,3 @@ Swen will delve into how proIO leverages CloudStack to deliver robust and effici
 **16:15 - 16:45 - Development of an Оbject Storage Plugin for CloudStack, [Christian Reichert](https://www.linkedin.com/in/christian-reichert-35569b37/?originalSubdomain=de), [sc synergy GmbH](https://scsynergy.com/)**
 
 The abstract for this session is currently unavailable.
-

@@ -110,4 +110,3 @@ request](https://github.com/apache/cloudstack-www/pulls/new) for this site.
 - <a href="/api/apidocs-4.0/TOC_Root_Admin.html" target="_blank">Root Admin APIs</a>
 - <a href="/api/apidocs-4.0/TOC_Domain_Admin.html" target="_blank">Domain Admin APIs</a>
 - <a href="/api/apidocs-4.0/TOC_User.html" target="_blank">User APIs</a>
-
