@@ -53,4 +53,3 @@ We follow the Apache Security Team's procedures documented
 Further information about Apache CloudStack's security practices can be found in
 the [CloudStack Security wiki
 page](https://cwiki.apache.org/confluence/display/CLOUDSTACK/CloudStack+Security).
-
