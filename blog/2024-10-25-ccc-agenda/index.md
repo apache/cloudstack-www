@@ -201,4 +201,3 @@ cloud technology and Apache CloudStack!
 ### CloudStack Collaboration Conference 2024 - Made Possible with the Generous Support of Our Sponsors
 
 ![](sponsors.png "sponsors" class="blog-image")
-
