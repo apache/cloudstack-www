@@ -357,7 +357,7 @@ fits in CloudStack.
 ### Centralized Logging Feature in CloudStack using ELK and Grafana, [Kiran Chavala](https://www.linkedin.com/in/kiran-chavala-1bb6a97)
 
 In this session, Kiran demonstrates how to centralize all the CloudStack-related
-logs in one place using Elastic Search and generate beautiful dashboards in
+logs in one place using Elasticsearch and generate beautiful dashboards in
 Grafana. This session simplifies the troubleshooting process involved with
 CloudStack and quickly helps to resolve the issue.
 
