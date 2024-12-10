@@ -16,6 +16,16 @@ Looking for other versions of Apache CloudStack? You can find them in our
 [archives](/archives) page and under [GitHub
 releases](https://github.com/apache/cloudstack/releases).
 
+### verification
+
+In general packages can be verified by the following commands:
+
+~~~
+$ gpg import KEYS
+$ gpg --verify <release-filename>.asc
+$ sha512sum --check <release-filename>.sha512
+~~~
+
 ### Source Releases
 
 Apache CloudStack's most recent release is `4.20.0.0`. This is current
