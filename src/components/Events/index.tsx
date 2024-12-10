@@ -22,6 +22,22 @@ involved with the community.
 
             <div className="horizontal-card">
               <div className="hc-header">Upcoming Events:</div>
+            </div>
+
+            <div className="horizontal-card">
+              <div className="hc-header">Past Events:</div>
+              <div className="row">
+                <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/CCC-2024.png" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">CloudStack Collaboration Conference 2024</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Madrid, Spain</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 20-22, 2024</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="/blog/ccc-2024" className="btn btn-outline-secondary me-3">Read More</a>
+                </div>
+              </div>
+
               <div className="row">
                 <div className="col-lg-9 pt-3 px-4">
                   <div className="events-img events-overview-img" style={{display: "flex",  alignItems: "center"}}>
@@ -33,25 +49,8 @@ involved with the community.
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://communityovercode.org/" className="btn btn-outline-secondary me-3">Read More</a>
-                  <a className="button button--primary" href="https://communityovercode.org/registration/" target="_blank">Register Now</a>
                 </div>
               </div>
-              <div className="row">
-                <div className="col-lg-9 pt-3 px-4">
-                  <img src="/img/CCC-2024.png" alt="" className="events-img events-overview-img"/>
-                  <p className="title mt-2">CloudStack Collaboration Conference 2024</p>
-                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Madrid, Spain</p>
-                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 20-22, 2024</p>
-                </div>
-                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="/blog/ccc-2024" className="btn btn-outline-secondary me-3">Read More</a>
-                  <a href="https://www.eventbrite.com/e/cloudstack-collaboration-conference-2024-tickets-879401903767" className="btn btn-primary">Register Now</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="horizontal-card">
-              <div className="hc-header">Past Events:</div>
               <div className="row">
                 <div className="col-lg-9 pt-3 px-4">
                   <img src="/img/CSEUG 2024.png" alt="" className="events-img events-overview-img"/>
@@ -83,18 +82,6 @@ involved with the community.
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlYgPbjM3os1YoE10Ys9gEB6" className="btn btn-primary">Watch</a>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-9 pt-3 px-4">
-                  <img src="/img/event_img2.png" alt="" className="events-img events-overview-img"/>
-                  <p className="title mt-2">CloudStack Collaboration Conference 2023</p>
-                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Paris, Île-de-France, France</p>
-                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 23-24, 2023</p>
-                </div>
-                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://cloudstack.apache.org/blog/ccc2023-roundup" className="btn btn-outline-secondary me-3">Read More</a>
-                  <a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlZsBJestxnL-xF5DxgewxYh" className="btn btn-primary">Watch</a>
                 </div>
               </div>
             </div>
