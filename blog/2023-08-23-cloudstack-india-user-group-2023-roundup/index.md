@@ -68,7 +68,7 @@ Engineer at ShapeBlue.
 
 **Session Description:**
 
-Currently Apache CloudStack supports two methods to deploy Kubernetes Clusters
+Currently, Apache CloudStack supports two methods to deploy Kubernetes Clusters
 (CKS, CAPC). This session gives a demo on how to easily deploy CKS and CAPC on
 Apache CloudStack and will also give an overview of various use cases which will
 help you to choose the best deployment based on your requirement.

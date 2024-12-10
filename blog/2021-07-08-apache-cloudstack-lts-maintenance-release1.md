@@ -8,7 +8,7 @@ slug: apache-cloudstack-lts-maintenance-release1
 # Apache CloudStack LTS Maintenance Release 4.15.1.0
 
 The Apache CloudStack project is pleased to announce the release of CloudStack 4.15.1.0.
-The CloudStack 4.15.1.0 release is a maintenance release as part of its 4.15.x  LTS branch and contains more than 350  fixes and improvements since the CloudStack 4.15.0.0 release.
+The CloudStack 4.15.1.0 release is a maintenance release as part of its 4.15.x LTS branch and contains more than 350 fixes and improvements since the CloudStack 4.15.0.0 release.
 
 <!-- truncate -->
 
