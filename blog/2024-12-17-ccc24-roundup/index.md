@@ -1,13 +1,10 @@
 ---
 layout: post
-title: CloudStack Coolaboration Conference 2024 Roundup
+title: Explore the Sessions from the CloudStack Collaboration Conference 2024!
 tags: [roundup]
 authors: [jamie]
 slug: ccc-2024-roundup
 ---
-
-Explore the Sessions from CloudStack Collaboration Conference 2024!
-
 
 ![](banner.png "Blog Header Image")
 
