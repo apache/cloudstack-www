@@ -18,6 +18,8 @@ management platform. It comes as a product of extensive contributions
 from the development community and is a LTS release, guaranteeing
 ongoing maintenance and support for a period of 18 months
 
+<!-- truncate -->
+
 The 4.20 release contains 26 new features, 79 improvements and 59 bug
 fixes since 4.19.
 
