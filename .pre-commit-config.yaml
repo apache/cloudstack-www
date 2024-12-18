@@ -16,7 +16,7 @@
 #  under the License.
 ---
 # https://pre-commit.com/#installation
-default_stages: [commit, push]
+default_stages: [pre-commit, pre-push]
 default_language_version:
   # force all unspecified Python hooks to run python3
   python: python3
@@ -27,16 +27,15 @@ repos:
       - id: identity
       - id: check-hooks-apply
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       #- id: check-added-large-files
       - id: check-case-conflict
-      #- id: check-executables-have-shebangs
       - id: check-merge-conflict
-      #- id: check-shebang-scripts-are-executable
+      - id: check-shebang-scripts-are-executable
       - id: check-vcs-permalinks
-      #- id: check-yaml
-      #- id: destroyed-symlinks
+      - id: check-yaml
+      - id: destroyed-symlinks
       - id: detect-aws-credentials
         args: [--allow-missing-credentials]
       - id: detect-private-key
