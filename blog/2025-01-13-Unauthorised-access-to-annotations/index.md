@@ -2,7 +2,7 @@
 layout: post
 title: 'CVE-2025-22828: Unauthorised access to annotations'
 tags: [announcement]
-authors: [NuxRo]
+authors: [nux]
 slug: unauthorised-access-to-annotations
 ---
 
@@ -17,6 +17,8 @@ Affected versions:
 ## Description:
 
 CloudStack users can add and read comments (annotations) on resources they are authorised to access. 
+
+<!-- truncate -->
 
 Due to an access validation issue that affects Apache CloudStack versions from 4.16.0, users who have access, prior access or knowledge of resource UUIDs can list and add comments (annotations) to such resources. 
 
