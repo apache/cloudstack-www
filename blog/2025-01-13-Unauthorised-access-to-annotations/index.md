@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CVE-2025-22828: Unauthorised access to annotations
+title: 'CVE-2025-22828: Unauthorised access to annotations'
 tags: [announcement]
 authors: [NuxRo]
 slug: unauthorised-access-to-annotations
@@ -36,5 +36,3 @@ Efstratios Chatzoglou <efchatzoglou@gmail.com> (reporter)
 
 https://cloudstack.apache.org/
 https://www.cve.org/CVERecord?id=CVE-2025-22828
-
-
