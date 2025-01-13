@@ -32,9 +32,11 @@ CloudStack admins may also disallow listAnnotations and addAnnotation API access
 ## Credit:
 
 Alex Perrakis <alexperrakis1@gmail.com> (reporter)
+
 Efstratios Chatzoglou <efchatzoglou@gmail.com> (reporter)
 
 ## References:
 
 https://cloudstack.apache.org/
+
 https://www.cve.org/CVERecord?id=CVE-2025-22828
