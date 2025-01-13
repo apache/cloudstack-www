@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[7235],{38327:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/announcement/page/4","page":4,"postsPerPage":10,"totalPages":7,"totalCount":65,"previousPage":"/blog/tags/announcement/page/3","nextPage":"/blog/tags/announcement/page/5","blogDescription":"Apache CloudStack Blog","blogTitle":"Blog"}')}}]);

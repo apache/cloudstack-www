@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2024-12-17T00:00:00.000Z</updated>
+    <updated>2025-01-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[CVE-2025-22828: Unauthorised access to annotations]]></title>
+        <id>https://cloudstack.apache.org/blog/unauthorised-access-to-annotations</id>
+        <link href="https://cloudstack.apache.org/blog/unauthorised-access-to-annotations"/>
+        <updated>2025-01-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CVE-2025-22828: Unauthorised access to annotations]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cve-2025-22828-unauthorised-access-to-annotations"><a href="https://www.cve.org/CVERecord?id=CVE-2025-22828" target="_blank" rel="noopener noreferrer">CVE-2025-22828</a>: Unauthorised access to annotations<a href="#cve-2025-22828-unauthorised-access-to-annotations" class="hash-link" aria-label="Direct link to cve-2025-22828-unauthorised-access-to-annotations" title="Direct link to cve-2025-22828-unauthorised-access-to-annotations">​</a></h2><p>Severity: Low</p><p>Affected versions:</p><ul><li>Apache CloudStack 4.16.0 or later</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="description">Description:<a href="#description" class="hash-link" aria-label="Direct link to Description:" title="Direct link to Description:">​</a></h2><p>CloudStack users can add and read comments (annotations) on resources they are authorised to access.</p><p>Due to an access validation issue that affects Apache CloudStack versions from 4.16.0, users who have access, prior access or knowledge of resource UUIDs can list and add comments (annotations) to such resources.</p><p>An attacker with a user-account and access or prior knowledge of resource UUIDs may exploit this issue to read contents of the comments (annotations) or add malicious comments (annotations) to such resources.</p><p>This may cause potential loss of confidentiality of CloudStack environments and resources if the comments (annotations) contain any privileged information. However, guessing or brute-forcing resource UUIDs are generally hard to impossible and access to listing or adding comments isn't same as access to CloudStack resources, making this issue of very low severity and general low impact.</p><p>CloudStack admins may also disallow listAnnotations and addAnnotation API access to non-admin roles in their environment as an interim measure.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="credit">Credit:<a href="#credit" class="hash-link" aria-label="Direct link to Credit:" title="Direct link to Credit:">​</a></h2><p>Alex Perrakis <a href="mailto:alexperrakis1@gmail.com" target="_blank" rel="noopener noreferrer">alexperrakis1@gmail.com</a> (reporter)
+Efstratios Chatzoglou <a href="mailto:efchatzoglou@gmail.com" target="_blank" rel="noopener noreferrer">efchatzoglou@gmail.com</a> (reporter)</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="references">References:<a href="#references" class="hash-link" aria-label="Direct link to References:" title="Direct link to References:">​</a></h2><p><a href="https://cloudstack.apache.org/" target="_blank" rel="noopener noreferrer">https://cloudstack.apache.org/</a>
+<a href="https://www.cve.org/CVERecord?id=CVE-2025-22828" target="_blank" rel="noopener noreferrer">https://www.cve.org/CVERecord?id=CVE-2025-22828</a></p>]]></content>
+        <author>
+            <name>Nux</name>
+            <uri>https://www.nux.ro</uri>
+        </author>
+        <category label="announcement" term="announcement"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Explore the Sessions from the CloudStack Collaboration Conference 2024!]]></title>
         <id>https://cloudstack.apache.org/blog/ccc-2024-roundup</id>
