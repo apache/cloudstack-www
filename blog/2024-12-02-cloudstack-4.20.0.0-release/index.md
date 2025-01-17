@@ -112,7 +112,7 @@ Furthermore, already existing features were revamped, such as the Quota plugin, 
 "
 </em>
 
-\- [João Jandre Paraquetti](www.linkedin.com/in/joão-jandre-136a32159), CloudStack Committer, 4.20 Release Manager
+\- [João Jandre Paraquetti](https://www.linkedin.com/in/joão-jandre-136a32159), CloudStack Committer, 4.20 Release Manager
 </div>
 </div>
 <br/>
