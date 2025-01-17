@@ -49,7 +49,7 @@ Apache CloudStack is driving innovation in cloud computing.
 
 Click the button below to redeem a free pass, worth €499 EUR!
 
-<a class="button button--primary" href="https://registration.cloudfest.com/registration" target="_blank">Register for Free</a>
+<a class="button button--primary" href="https://registration.cloudfest.com/registration?code=VFsUB83x" target="_blank">Register for Free</a>
 
 </div>
 
