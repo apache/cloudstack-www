@@ -4,10 +4,49 @@
         <title>Apache CloudStack Blog</title>
         <link>https://cloudstack.apache.org/blog</link>
         <description>Apache CloudStack Blog</description>
-        <lastBuildDate>Mon, 13 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Meet Apache CloudStack at CloudFest 2025]]></title>
+            <link>https://cloudstack.apache.org/blog/cloudfest-2025</link>
+            <guid>https://cloudstack.apache.org/blog/cloudfest-2025</guid>
+            <pubDate>Fri, 17 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[From March 17-20th, the world’s leading internet infrastructure event]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="/assets/images/banner-f80e8e5d2b2dc688bbed2419ac1b9437.png" title="Blog Header Image" width="896" height="468" class="img_ev3q"></p><p>From March 17-20th, the world’s leading internet infrastructure event
+– <a href="https://www.cloudfest.com" target="_blank" rel="noopener noreferrer">CloudFest</a> – will be taking place at
+Europa-Park in Rust, Germany!  The Apache CloudStack project will be
+exhibiting at the conference for a third consecutive year, showcasing
+the benefit of complete vendor independency and flexibility of using
+open-source virtualization management solutions! The event presents a
+fantastic opportunity for cloud builders to discover Apache
+CloudStack’s robust capabilities and its value to the wider cloud
+computing industry. As the premier gathering for internet
+infrastructure professionals, CloudFest offers an ideal platform to
+connect with industry leaders, share insights, and highlight how
+Apache CloudStack is driving innovation in cloud computing.</p><div class="row"><div class="col col--4"><p><img loading="lazy" src="/assets/images/ACSbusinessmen-b73c0a4c466f04aca0e950ad39de4d03.png" title="ACS CEOs&quot; class=&quot;blog-image" width="353" height="317" class="img_ev3q"></p></div><div class="col col--4"><p><img loading="lazy" src="/assets/images/standbusy-3c11638c51605c323b01cae6915dfc0e.jpg" title="The stand being busy&quot; class=&quot;blog-image" width="516" height="386" class="img_ev3q"></p></div><div class="col col--4"><p><img loading="lazy" src="/assets/images/standcrew-155e2273e0bcf690b8fa55074ba8b646.jpg" title="The stand with crew&quot; class=&quot;blog-image" width="515" height="386" class="img_ev3q"></p></div></div><div class="row"><div class="col col--9"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-a-free-ticket">Get a Free Ticket!<a href="#get-a-free-ticket" class="hash-link" aria-label="Direct link to Get a Free Ticket!" title="Direct link to Get a Free Ticket!">​</a></h2><p>Click the button below to redeem a free pass, worth €499 EUR!</p><a href="https://registration.cloudfest.com/registration" target="_blank" rel="noopener noreferrer" class="button button--primary">Register for Free</a></div><div class="col col--3"><p><img loading="lazy" src="/assets/images/ticket-c692e7588459c968b5457b52d43ce3ef.png" title="a free pass for the cloudstack team&quot; class=&quot;blog-image" width="340" height="634" class="img_ev3q"></p></div></div><h2 class="anchor anchorWithStickyNavbar_LWe7" id="visit-the-cloudstack-booth">Visit the CloudStack Booth!<a href="#visit-the-cloudstack-booth" class="hash-link" aria-label="Direct link to Visit the CloudStack Booth!" title="Direct link to Visit the CloudStack Booth!">​</a></h2><p>Visitors to the Apache CloudStack booth (G24) at CloudFest will have
+the opportunity to explore live demos with CloudStack expert,
+providing insights into its capabilities and features. The booth will
+also serve as a space for discussions on topical subjects, such as
+migration strategies from proprietary technologies to Apache
+CloudStack. Whether you’re interested in new features or want to delve
+deeper into existing ones, the booth offers a chance to engage with
+knowledgeable community members and gain a deeper understanding of how
+CloudStack supports modern cloud infrastructure needs.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-apache-cloudstack">Why Apache CloudStack?<a href="#why-apache-cloudstack" class="hash-link" aria-label="Direct link to Why Apache CloudStack?" title="Direct link to Why Apache CloudStack?">​</a></h2><p>For companies entering the public cloud market, one of the main
+challenges is selecting the right software to ensure efficient
+deployment for their customers. This process can be time-intensive
+and, if the wrong decisions are made, may lead to reduced returns on
+investment when delivering both public and private cloud solutions.</p><p>Apache CloudStack offers a comprehensive solution for cloud builders
+and managed service providers. As a fully open-source platform, it is
+designed for ease of use, straightforward implementation, seamless
+management, and scalability. Supported by a vibrant open-source
+community and frequent release cycles, CloudStack helps businesses
+address critical challenges, including cost management, avoiding
+vendor lock-in, and effectively handling large-scale infrastructure
+across geographically distributed datacentres.</p>]]></content:encoded>
+            <category>news</category>
+        </item>
         <item>
             <title><![CDATA[CVE-2025-22828: Unauthorised access to annotations]]></title>
             <link>https://cloudstack.apache.org/blog/unauthorised-access-to-annotations</link>
