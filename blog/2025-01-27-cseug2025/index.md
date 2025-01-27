@@ -12,14 +12,16 @@ We’re thrilled to announce that the CloudStack European User Group
 (CSEUG) 2025 is happening on May 8th in Vienna, Austria! This User
 Group meeting will bring together the European CloudStack community
 for a full day of networking, knowledge sharing, and discussions about
-our open-source cloud technology. This year’s CSEUG is sponsored by ,
+our open-source cloud technology. This year’s CSEUG is sponsored by
 [ShapeBlue](https://www.shapeblue.com/),
 [proIO](https://www.proio.com/) and [LINBIT](https://linbit.com/), who
 will also be the local event host.
 
 <!-- truncate -->
 
+<div class="col col-3 col-lg text-center">
 <a class="button button--primary" href="https://www.eventbrite.com/e/cloudstack-european-user-group-2025-vienna-austria-tickets-1217321664869?aff=oddtdtcreator" target="_blank">Register Now</a>
+</div>
 
 ## Why Attend CSEUG 2025
 
@@ -40,7 +42,9 @@ have technical expertise specific to CloudStack, a case study you
 would like to share, or a new/upcoming feature you have been working
 on, you should submit a session!
 
+<div class="col col-3 col-lg text-center">
 <a class="button button--primary" href="https://docs.google.com/forms/d/e/1FAIpQLScA2IUj5rKIdd1qx-xCX5btB_FBAuBQNMzEjHwaFGhbZLFPcA/viewform?usp=sharing" target="_blank">Submit a Session</a>
+</div>
 
 ## Who is the Event for?
 
