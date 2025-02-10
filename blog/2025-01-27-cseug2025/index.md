@@ -67,3 +67,6 @@ Linux platform DRBD, which was officially integrated into the Linux
 Kernel in 2010 by Linus Torvalds. LINBIT’s roots are deeply embedded
 in the open-source community, and its software and solutions are
 utilized by established organizations and businesses worldwide.
+
+
+## The CloudStack European User Group is scheduled to take place at [QUARTIER BELVEDERE CENTRAL 3, Gertrude-Fröhlich-Sandner-Straße 3, 1100 Vienna, Austriа.](https://maps.app.goo.gl/bL1qhDM8eC7EJNMM9)
