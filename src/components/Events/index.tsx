@@ -30,8 +30,8 @@ involved with the community.
                   <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>May 8th, 2025</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://www.eventbrite.com/e/cloudstack-european-user-group-2025-vienna-austria-tickets-1217321664869?aff=oddtdtcreator" className="btn btn-primary me-3">Register</a>
                   <a href="/blog/cseug-2025" className="btn btn-outline-secondary me-3">Read More</a>
-                  <a href="https://www.eventbrite.com/e/cloudstack-european-user-group-2025-vienna-austria-tickets-1217321664869?aff=oddtdtcreator" className="btn btn-outline-secondary me-3">Register</a>
                 </div>
               </div>
               <div className="row">
