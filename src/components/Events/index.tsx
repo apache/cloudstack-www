@@ -31,6 +31,7 @@ involved with the community.
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="/blog/cseug-2025" className="btn btn-outline-secondary me-3">Read More</a>
+                  <a href="https://www.eventbrite.com/e/cloudstack-european-user-group-2025-vienna-austria-tickets-1217321664869?aff=oddtdtcreator" className="btn btn-outline-secondary me-3">Register</a>
                 </div>
               </div>
               <div className="row">
