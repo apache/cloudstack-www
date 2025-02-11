@@ -22,6 +22,28 @@ involved with the community.
 
             <div className="horizontal-card">
               <div className="hc-header">Upcoming Events:</div>
+              <div className="row">
+                <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/cseug-2025.png" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">CloudStack European User Group 2025</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Vienna, Austria</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>May 8th, 2025</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://www.eventbrite.com/e/cloudstack-european-user-group-2025-vienna-austria-tickets-1217321664869?aff=oddtdtcreator" className="btn btn-primary me-3">Register</a>
+                  <a href="/blog/cseug-2025" className="btn btn-outline-secondary me-3">Read More</a>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/csiug-2025.png" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">CloudStack Indian User Group 2025</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>TBD, India</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>TBD</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                </div>
+              </div>
             </div>
 
             <div className="horizontal-card">
