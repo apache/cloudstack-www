@@ -178,7 +178,7 @@ The following data is subject to change. The up-to-date information can be found
 - Rakesh Venkatesh	(rakeshv)
 - Remi Bergsma	(remi)
 - Rene Moser	(resmo)
-- Rene Peinthor (rp9) 
+- Rene Peinthor (rp9)
 - Rohit Yadav	(rohit)
 - Sailaja Mada	(sailajamada)
 - Saksham Srivastava	(saksham)
