@@ -51,7 +51,7 @@ automation that can publish changes merged to 'main' branch being automatically
 published to the 'asf-site'. see the procedure below.
 
 
-## publishing procedure
+## Publishing procedure
 
 - create a change
 - test your change according to [the previous chapter](#building-and-publishing)
@@ -75,3 +75,24 @@ git push
 - wait for asf-site to be updated and published to the main site
 - check again
 - go to sleep
+
+
+## Updating the who.md file
+
+Every time new committers or PMC members are invited to CloudStack, the parent list maintained at: https://people.apache.org/committers-by-project.html#cloudstack is updated. This can be used to automate the generation of who.md file which is used at https://cloudstack.staged.apache.org/who/
+
+To generate the who.md file, follow the given steps:
+
+1. Install the necessary dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+2. Run the `generate_who.py` script
+
+```
+python3 source/generate_who.py
+```
+
+NOTE: Currently, the PMC Chair's name needs to be manually updated in the script.
