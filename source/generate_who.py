@@ -14,15 +14,15 @@ def fetch_cloudstack_members():
     if response.status_code != 200:
         print("Failed to fetch the page")
         return None, None
-    
+
     soup = BeautifulSoup(response.text, "html.parser")
-    
+
     pmc_section = soup.find("h2", {"id": "cloudstack-pmc"})
     committers_section = soup.find("h2", {"id": "cloudstack"})
-    
+
     pmc_members = []
     committers = []
-    
+
     if pmc_section:
         pmc_table = pmc_section.find_next("table")
         if pmc_table:
@@ -33,7 +33,7 @@ def fetch_cloudstack_members():
                     name = columns[1].text.strip()
                     svn_id = columns[0].text.strip()
                     pmc_members.append((name, svn_id))
-    
+
     if committers_section:
         committers_table = committers_section.find_next("table")
         if committers_table:
@@ -51,10 +51,10 @@ def get_repo_path():
     try:
         # Find the current working directory
         current_dir = os.getcwd()
-        
+
         # Check if it's a Git repository
         repo = git.Repo(current_dir)
-        
+
         # Get the absolute path of the repository
         repo_path = repo.git.rev_parse("--show-toplevel")
         return repo_path
@@ -79,16 +79,16 @@ PMC Information: https://projects.apache.org/committee.html?cloudstack
 Board Minutes: https://whimsy.apache.org/board/minutes/CloudStack.html
 
 """)
-        
+
         pmc_chair = "Daniel Augusto Veronezi Salvador (gutoveronezi)"
         f.write(f"**PMC Chair**: {pmc_chair}\n\n")
-        
+
         f.write("The following data is subject to change. The up-to-date information can be found on <a href=\"http://people.apache.org/committers-by-project.html#cloudstack-pmc\">the Apache Peoples site</a>:\n\n")
-        
+
         f.write("**PMC members (also in the [Committers](#committers) group)**:\n\n")
         for name, id in pmc_members:
             f.write(f"- {name}  ({id})\n")
-        
+
         f.write("\n**<a name=\"committers\">Committers</a>**:\n\n")
         for name, id in committers:
             f.write(f"- {name}  ({id})\n")
