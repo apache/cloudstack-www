@@ -25,15 +25,12 @@ will also be the local event host.
 
 ## Why Attend CSEUG 2025
 
-While the exact venue is yet to be confirmed, you can already mark
-your calendars for what promises to be a valuable gathering for
-developers, operators, and users of Apache CloudStack. Whether you’re
-an existing user of Apache CloudStack or have just started researching
-it, this is the perfect opportunity to connect and learn from fellow
-community members from the European CloudStack ecosystem. The event
-will host a full day of sessions, all focused-on Apache
-CloudStack. From new features to compelling case studies, the event
-promises to be yet another CSEUG to remember.
+Whether you’re an existing user of Apache CloudStack or have just
+started researching it, this is the perfect opportunity to connect and
+learn from fellow community members from the European CloudStack
+ecosystem. The event will host a full day of sessions, all focused-on
+Apache CloudStack. From new features to compelling case studies, the
+event promises to be yet another CSEUG to remember.
 
 ## Call for Presentations
 
@@ -68,5 +65,6 @@ Kernel in 2010 by Linus Torvalds. LINBIT’s roots are deeply embedded
 in the open-source community, and its software and solutions are
 utilized by established organizations and businesses worldwide.
 
+## The Event Venue is Confirmed!
 
-## The CloudStack European User Group is scheduled to take place at [QUARTIER BELVEDERE CENTRAL 3, Gertrude-Fröhlich-Sandner-Straße 3, 1100 Vienna, Austriа.](https://maps.app.goo.gl/bL1qhDM8eC7EJNMM9)
+**This year’s Spring Edition of CSEUG** will be held near **Vienna’s historic Old Town**, at [Quartier Belvedere Central 3](https://shapeblue.us1.list-manage.com/track/click?u=5dc04ec275e7bd0b6af196418&id=c21a8d9a71&e=3c67b97b3c). Conveniently located just **20 minutes from Vienna International Airport** by car or public transport, this venue offers an easily accessible and welcoming space for our community members traveling to the event.
