@@ -6,7 +6,7 @@ authors: [daan]
 slug: cloudstack-4.19.2.0-release
 ---
 
-[![](CloudStack_New-Release-4192.jpeg "Apache CloudStack 4.19.2.0 Release")](/blog/cloudstack-4.19.2.0-release)
+[![](CloudStack_New-Release-4192.jpg "Apache CloudStack 4.19.2.0 Release")](/blog/cloudstack-4.19.2.0-release)
 
 The Apache CloudStack project is pleased to announce the release of CloudStack
 4.19.2.0.
