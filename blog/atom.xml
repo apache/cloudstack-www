@@ -2,11 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2025-01-27T00:00:00.000Z</updated>
+    <updated>2025-03-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Apache CloudStack 4.19.2.0 Release]]></title>
+        <id>https://cloudstack.apache.org/blog/cloudstack-4.19.2.0-release</id>
+        <link href="https://cloudstack.apache.org/blog/cloudstack-4.19.2.0-release"/>
+        <updated>2025-03-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Apache CloudStack project is pleased to announce the release of CloudStack]]></summary>
+        <content type="html"><![CDATA[<p><a href="/blog/cloudstack-4.19.2.0-release"><img loading="lazy" src="/assets/images/CloudStack_New-Release-4192-c0cb15d68d62a469448d2403b2b3665f.jpg" title="Apache CloudStack 4.19.2.0 Release" width="1200" height="628" class="img_ev3q"></a></p><p>The Apache CloudStack project is pleased to announce the release of CloudStack
+4.19.2.0.</p><p>The CloudStack 4.19.2.0 release is a maintenance update within the 4.19.x LTS branch. This release includes over 170 fixes, bringing the total number of fixes since version 4.19.0 to approximately 480.</p><p>Some of the highlights include:</p><ul><li>Improvements for third-party storage solutions like LINSTOR and StorPool</li><li>Numerous fixes for UI and API behaviour</li><li>Project access control fixes</li><li>Network enhancements for various types of networks</li><li>Improved VMware import functionality</li></ul><p>CloudStack LTS branches are supported for 18 months, receiving regular
+updates for the first 12 months, followed by security updates only in
+the last 6 months.</p><p>Apache CloudStack is an integrated Infrastructure-as-a-Service (IaaS)
+software platform that enables users to build feature-rich public and
+private cloud environments. It offers an intuitive user interface and
+a robust API for managing compute, networking, software, and storage
+resources. The project became an Apache top-level project in March
+2013.</p><p>More information about Apache CloudStack can be found at:
+<a href="https://cloudstack.apache.org/" target="_blank" rel="noopener noreferrer">https://cloudstack.apache.org/</a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="documentation">Documentation<a href="#documentation" class="hash-link" aria-label="Direct link to Documentation" title="Direct link to Documentation">​</a></h2><p>What's new in CloudStack 4.19.2.0:
+<a href="https://docs.cloudstack.apache.org/en/4.19.2.0/releasenotes/about.html" target="_blank" rel="noopener noreferrer">https://docs.cloudstack.apache.org/en/4.19.2.0/releasenotes/about.html</a></p><p>The 4.19.2.0 release notes include a full list of issues fixed, as well
+as upgrade instructions from previous versions of Apache CloudStack, and
+can be found at:
+<a href="https://docs.cloudstack.apache.org/en/4.19.2.0/releasenotes/" target="_blank" rel="noopener noreferrer">https://docs.cloudstack.apache.org/en/4.19.2.0/releasenotes/</a></p><p>The official installation, administration, and API documentation for
+each of the releases are available on our documentation page:
+<a href="https://docs.cloudstack.apache.org/" target="_blank" rel="noopener noreferrer">https://docs.cloudstack.apache.org/</a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="downloads">Downloads<a href="#downloads" class="hash-link" aria-label="Direct link to Downloads" title="Direct link to Downloads">​</a></h2><p>The official source code for the 4.19.2.0 release can be downloaded from our
+downloads page:</p><p><a href="https://cloudstack.apache.org/downloads.html" target="_blank" rel="noopener noreferrer">https://cloudstack.apache.org/downloads.html</a></p><p>In addition to the official source code release, individual contributors
+have also made convenience binaries available on the Apache CloudStack
+download page, and can be found at:</p><ul><li><a href="https://download.cloudstack.org/el/7/" target="_blank" rel="noopener noreferrer">https://download.cloudstack.org/el/7/</a></li><li><a href="https://download.cloudstack.org/el/8/" target="_blank" rel="noopener noreferrer">https://download.cloudstack.org/el/8/</a></li><li><a href="https://download.cloudstack.org/el/9/" target="_blank" rel="noopener noreferrer">https://download.cloudstack.org/el/9/</a></li><li><a href="https://download.cloudstack.org/suse/15" target="_blank" rel="noopener noreferrer">https://download.cloudstack.org/suse/15</a></li><li><a href="https://download.cloudstack.org/ubuntu/dists/" target="_blank" rel="noopener noreferrer">https://download.cloudstack.org/ubuntu/dists/</a></li><li><a href="https://www.shapeblue.com/packages/" target="_blank" rel="noopener noreferrer">https://www.shapeblue.com/packages/</a></li></ul>]]></content>
+        <author>
+            <name>Daan Hoogland</name>
+            <uri>https://github.com/DaanHoogland</uri>
+        </author>
+        <category label="announcement" term="announcement"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CloudStack European User Group 2025 – Vienna, Austria]]></title>
         <id>https://cloudstack.apache.org/blog/cseug-2025</id>
