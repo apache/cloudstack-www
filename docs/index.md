@@ -12,7 +12,7 @@ file usually ending with `.md` extension. These .md files are used by Docusaurus
 have to write HTML by manually.
 
 You may co-relate with the source of this (Markdown) page at:
-https://github.com/apache/cloudstack-www/blob/main/docs/2.x/index.md
+https://github.com/apache/cloudstack-www/blob/main/docs/index.md
 
 For basic Markdown syntax reference, please refer:
 https://www.markdownguide.org/basic-syntax/
