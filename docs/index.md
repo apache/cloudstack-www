@@ -12,13 +12,13 @@ file usually ending with `.md` extension. These .md files are used by Docusaurus
 have to write HTML by manually.
 
 You may co-relate with the source of this (Markdown) page at:
-https://github.com/apache/cloudstack-www/blob/main/docs/index.md
+https://github.com/apache/cloudstack-www/blob/main/docs/2.x/index.md
 
 For basic Markdown syntax reference, please refer:
 https://www.markdownguide.org/basic-syntax/
 
 Refer to the following for Docusaurus supported markdown features:
-https://docusaurus.io/docs/markdown-features
+https://docusaurus.io/docs/2.x/markdown-features
 
 ## Working with the Website, Pages and Blogs
 
@@ -54,7 +54,7 @@ Use the provided index.md to specify attribute of your blog such as title, tags
 Having all your blog content and assets in a blog directory makes it easier to
 work with GitHub's editor and allows you to visually contribute changes.
 
-You may further read https://docusaurus.io/docs/blog for advance changes and
+You may further read https://docusaurus.io/docs/2.x/blog for advance changes and
 refer to the misc section on this page for various components that you case use.
 
 A common use-case is to have a header file and a way to limit how much of the
@@ -134,7 +134,7 @@ If you don't want table of contents show up on right-side of a page/blog, then
 don't use the Markdown syntax for h2 (##), h3 (###) etc. instead use the HTML
 `<h2>`, `<h3>` etc. which will not show the ToC on a page/blog.
 
-Further reference: https://docusaurus.io/docs/markdown-features/toc
+Further reference: https://docusaurus.io/docs/2.x/markdown-features/toc
 
 ## Images
 
@@ -149,7 +149,7 @@ Which results in:
 
 ![](/img/banner.svg "Example image title")
 
-Further reference: https://docusaurus.io/docs/markdown-features/assets
+Further reference: https://docusaurus.io/docs/2.x/markdown-features/assets
 
 ## Buttons
 
@@ -169,7 +169,7 @@ For examples:
 <br/>
 <br/>
 
-Buttons can also have colours depending on the class used, such as:
+Buttons can also have colors depending on the class used, such as:
 
 <a class="button button--secondary" href="https://cloudstack.apache.org/" target="_blank">BUTTON</a>
 <br/>
@@ -191,7 +191,7 @@ Example of code block:
 
 ## Using Admonitions
 
-Refer to https://docusaurus.io/docs/markdown-features/admonitions
+Refer to https://docusaurus.io/docs/2.x/markdown-features/admonitions
 
 
 :::tip
