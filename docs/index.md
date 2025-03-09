@@ -12,13 +12,13 @@ file usually ending with `.md` extension. These .md files are used by Docusaurus
 have to write HTML by manually.
 
 You may co-relate with the source of this (Markdown) page at:
-https://github.com/apache/cloudstack-www/blob/main/src/pages/website-guide.md
+https://github.com/apache/cloudstack-www/blob/main/docs/index.md
 
 For basic Markdown syntax reference, please refer:
 https://www.markdownguide.org/basic-syntax/
 
 Refer to the following for Docusaurus supported markdown features:
-https://docusaurus.io/docs/2.3.1/markdown-features
+https://docusaurus.io/docs/markdown-features
 
 ## Working with the Website, Pages and Blogs
 
@@ -134,7 +134,7 @@ If you don't want table of contents show up on right-side of a page/blog, then
 don't use the Markdown syntax for h2 (##), h3 (###) etc. instead use the HTML
 `<h2>`, `<h3>` etc. which will not show the ToC on a page/blog.
 
-Further reference: https://docusaurus.io/docs/2.3.1/markdown-features/toc
+Further reference: https://docusaurus.io/docs/markdown-features/toc
 
 ## Images
 
@@ -149,7 +149,7 @@ Which results in:
 
 ![](/img/banner.svg "Example image title")
 
-Further reference: https://docusaurus.io/docs/2.3.1/markdown-features/assets
+Further reference: https://docusaurus.io/docs/markdown-features/assets
 
 ## Buttons
 
@@ -191,7 +191,7 @@ Example of code block:
 
 ## Using Admonitions
 
-Refer to https://docusaurus.io/docs/2.3.1/markdown-features/admonitions
+Refer to https://docusaurus.io/docs/markdown-features/admonitions
 
 
 :::tip
