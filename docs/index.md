@@ -54,7 +54,7 @@ Use the provided index.md to specify attribute of your blog such as title, tags
 Having all your blog content and assets in a blog directory makes it easier to
 work with GitHub's editor and allows you to visually contribute changes.
 
-You may further read https://docusaurus.io/docs/2.x/blog for advance changes and
+You may further read https://docusaurus.io/docs/blog for advance changes and
 refer to the misc section on this page for various components that you case use.
 
 A common use-case is to have a header file and a way to limit how much of the
