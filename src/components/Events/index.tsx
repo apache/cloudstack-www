@@ -56,6 +56,7 @@ involved with the community.
                   <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 20-22, 2024</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="/blog/ccc-2024" className="btn btn-outline-secondary me-3">Read More</a>
                   <a href="https://youtube.com/playlist?list=PLnIKk7GjgFlaWZzwxq7UxIYdMGy_oo0W5&si=2dvKUkuoxM82hARV" target="_blank" className="btn btn-primary me-3">Watch</a>
                 </div>
               </div>
@@ -92,6 +93,7 @@ involved with the community.
                   <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>February 23, 2024</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://cloudstack.apache.org/blog/india-user-group-2024/" className="btn btn-outline-secondary me-3">Read More</a>
                   <a href="https://youtube.com/playlist?list=PLnIKk7GjgFlYRGmxK70VXSgpNXjEBHpYw&si=JQzS5sYCbmTeIsfs" target="_blank" className="btn btn-primary me-3">Watch</a>
                 </div>
               </div>
