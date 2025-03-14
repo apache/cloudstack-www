@@ -44,9 +44,7 @@ European CloudStack community. The primary audience includes
 enterprises, cloud service providers, telecommunications companies,
 and managed service providers (MSPs).
 
-
 ## Agenda
-
 
 **10:00 - 10:45 - Apache CloudStack 101 - Introduction, What’s New and What’s Coming**
 Giles Sirett, ShapeBlue
@@ -68,12 +66,11 @@ Francisco Arencibia, Jotelulu
 **14:25 - 14:55 - Proposed Feature: Monitoring and Managing Cloud Usage Costs in Apache CloudStack**
 Grégoire Lamodiere, Joffrey Luangsaysana, DIMSI
 
-**15:05 - 15:35 - Pushing the Limits: CloudStack at 25K Hosts**
-Boris Stoyanov, ShapeBlue
-
-**15:45 - 16:15 - Stretching CloudStack Over Multiple Datacenters**
+**15:05 - 15:35 - Stretching CloudStack Over Multiple Datacenters**
 Wido den Hollander, Your.Online
 
+**15:45 - 16:15 - Pushing the Limits: CloudStack at 25K Hosts**
+Boris Stoyanov, ShapeBlue
 
 ## Meet [LINBIT - Our Host](https://linbit.com/)
 
