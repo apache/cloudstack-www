@@ -32,17 +32,6 @@ ecosystem. The event will host a full day of sessions, all focused-on
 Apache CloudStack. From new features to compelling case studies, the
 event promises to be yet another CSEUG to remember.
 
-## Call for Presentations
-
-We’re now accepting submissions for the Call for Presentations! If you
-have technical expertise specific to CloudStack, a case study you
-would like to share, or a new/upcoming feature you have been working
-on, you should submit a session!
-
-<div class="col col-3 col-lg text-center">
-<a class="button button--primary" href="https://docs.google.com/forms/d/e/1FAIpQLScA2IUj5rKIdd1qx-xCX5btB_FBAuBQNMzEjHwaFGhbZLFPcA/viewform?usp=sharing" target="_blank">Submit a Session</a>
-</div>
-
 ## Who is the Event for?
 
 CSEUG is intended for developers, operators, and users to collaborate
@@ -54,6 +43,37 @@ you can expect the majority of attendees and speakers to be from the
 European CloudStack community. The primary audience includes
 enterprises, cloud service providers, telecommunications companies,
 and managed service providers (MSPs).
+
+
+## Agenda
+
+
+**10:00 - 10:45 - Apache CloudStack 101 - Introduction, What’s New and What’s Coming**
+Giles Sirett, ShapeBlue
+
+**10:55 - 11:25 - Storage Setup for LINSTOR/DRBD/CloudStack**
+Rene Peinthor, LINBIT
+
+**11:35 - 12:05 - I’d Like to Resell Your CloudStack Services, but...**
+Brian Turnbow, CDLAN
+
+**12:15 - 12:45 - Fully Open-Source Private Clouds: Freedom, Security, and Control**
+Swen Brüseke, proIO
+
+**12:45 - 13:45 - Lunch break**
+
+**13:45 - 14:15 - CloudStack + KVM: Your Local Cloud Lab**
+Francisco Arencibia, Jotelulu
+
+**14:25 - 14:55 - Proposed Feature: Monitoring and Managing Cloud Usage Costs in Apache CloudStack**
+Grégoire Lamodiere, Joffrey Luangsaysana, DIMSI
+
+**15:05 - 15:35 - Pushing the Limits: CloudStack at 25K Hosts**
+Boris Stoyanov, ShapeBlue
+
+**15:45 - 16:15 - Stretching CloudStack Over Multiple Datacenters**
+Wido den Hollander, Your.Online
+
 
 ## Meet [LINBIT - Our Host](https://linbit.com/)
 
