@@ -46,30 +46,30 @@ and managed service providers (MSPs).
 
 ## Agenda
 
-**10:00 - 10:45 - Apache CloudStack 101 - Introduction, What’s New and What’s Coming**
+**10:00 - 10:45 - Apache CloudStack 101 - Introduction, What’s New and What’s Coming**,
 Giles Sirett, ShapeBlue
 
-**10:55 - 11:25 - Storage Setup for LINSTOR/DRBD/CloudStack**
+**10:55 - 11:25 - Storage Setup for LINSTOR/DRBD/CloudStack**,
 Rene Peinthor, LINBIT
 
-**11:35 - 12:05 - I’d Like to Resell Your CloudStack Services, but...**
+**11:35 - 12:05 - I’d Like to Resell Your CloudStack Services, but...**,
 Brian Turnbow, CDLAN
 
-**12:15 - 12:45 - Fully Open-Source Private Clouds: Freedom, Security, and Control**
+**12:15 - 12:45 - Fully Open-Source Private Clouds: Freedom, Security, and Control**,
 Swen Brüseke, proIO
 
 **12:45 - 13:45 - Lunch break**
 
-**13:45 - 14:15 - CloudStack + KVM: Your Local Cloud Lab**
+**13:45 - 14:15 - CloudStack + KVM: Your Local Cloud Lab**,
 Francisco Arencibia, Jotelulu
 
-**14:25 - 14:55 - Proposed Feature: Monitoring and Managing Cloud Usage Costs in Apache CloudStack**
+**14:25 - 14:55 - Proposed Feature: Monitoring and Managing Cloud Usage Costs in Apache CloudStack**,
 Grégoire Lamodiere, Joffrey Luangsaysana, DIMSI
 
-**15:05 - 15:35 - Stretching CloudStack Over Multiple Datacenters**
+**15:05 - 15:35 - Stretching CloudStack Over Multiple Datacenters**,
 Wido den Hollander, Your.Online
 
-**15:45 - 16:15 - Pushing the Limits: CloudStack at 25K Hosts**
+**15:45 - 16:15 - Pushing the Limits: CloudStack at 25K Hosts**,
 Boris Stoyanov, ShapeBlue
 
 ## Meet [LINBIT - Our Host](https://linbit.com/)
