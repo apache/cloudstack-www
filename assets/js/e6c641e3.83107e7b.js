@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[1106],{28334:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/case-studies/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":13,"previousPage":"/blog/tags/case-studies","blogDescription":"Apache CloudStack Blog","blogTitle":"Blog"}')}}]);
