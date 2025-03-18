@@ -2,11 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2025-03-03T00:00:00.000Z</updated>
+    <updated>2025-03-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Why LifeinCloud Chose ACS for their Public Cloud]]></title>
+        <id>https://cloudstack.apache.org/blog/why-lifeincloud-chose-cloudstack</id>
+        <link href="https://cloudstack.apache.org/blog/why-lifeincloud-chose-cloudstack"/>
+        <updated>2025-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Story of LifeinCloud]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-story-of-lifeincloud">The Story of LifeinCloud<a href="#the-story-of-lifeincloud" class="hash-link" aria-label="Direct link to The Story of LifeinCloud" title="Direct link to The Story of LifeinCloud">​</a></h2><p><a href="https://lifeincloud.com/" target="_blank" rel="noopener noreferrer">LifeinCloud</a> is a privately-owned, European public
+cloud provider on a mission to make powerful cloud solutions more accessible to
+developers and businesses worldwide.</p><p>They started in 2009 as a managed services provider, later expanding into
+private cloud solutions. As demand grew, they faced a similar challenge to many
+in our community:</p><div class="row"><div class="col col--4"><p><img loading="lazy" src="/assets/images/bogdan-cf517c0d7050794d3e2b993b7a1bbf57.png" title="Bogdan Rohan&quot; class=&quot;blog-image" width="282" height="284" class="img_ev3q"></p></div><div class="col col--8"><p><em>"Each client environment was essentially a separate island. We were duplicating
+efforts across different environments - separate hardware, separate maintenance
+windows, separate upgrade cycles. This wasn't just inefficient; it was
+unsustainable as we looked to scale."</em></p><p>-<a href="https://www.linkedin.com/in/bogdanrohan/" target="_blank" rel="noopener noreferrer">Bogdan Rohan</a>, LifeinCloud Founder &amp; CEO</p></div></div><p>Their solution? Building a multi-region public cloud platform powered by Apache
+CloudStack. The results transformed their operations: 40% reduction in overhead,
+85%+ infrastructure utilization, and onboarding time cut from weeks to hours.</p><p>But the interesting part is how they got there.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-choice-cloudstack-vs-openstack">The choice: CloudStack vs OpenStack<a href="#the-choice-cloudstack-vs-openstack" class="hash-link" aria-label="Direct link to The choice: CloudStack vs OpenStack" title="Direct link to The choice: CloudStack vs OpenStack">​</a></h2><p>During their technical evaluation, LifeinCloud's team discovered significant
+architectural differences between the two platforms. Their CTO, <a href="https://www.linkedin.com/in/george-lisandru-6840a9294/?originalSubdomain=ro" target="_blank" rel="noopener noreferrer">George
+Lisandru</a>,
+explains why OpenStack's architecture proved challenging for what they were
+trying to achieve:</p><div class="row"><div class="col col--4"><p><img loading="lazy" src="/assets/images/george-d1f9d5394469ed9e196bf1fe9c96c966.png" title="George Lisandru&quot; class=&quot;blog-image" width="316" height="316" class="img_ev3q"></p></div><div class="col col--8"><p><em>"OpenStack's architecture follows the Unix philosophy - many small components
+each doing one thing well. In theory, this provides maximum flexibility. In
+practice, it means you need separate services for compute (Nova), networking
+(Neutron), identity (Keystone), image management (Glance) and storage (Cinder).
+Each component needs its own high-availability setup, monitoring and
+maintenance. It's as powerful as it is complex."</em></p></div></div><p>Their testing revealed striking differences in resource requirements for managing 100 VMs:</p><ul><li>OpenStack needed 5+ control nodes and nearly 100GB of RAM just to manage itself</li><li>CloudStack ran the same workload with a single management server (two for HA) and just 16GB of RAM</li><li>Ceph integration with CloudStack "just worked," while OpenStack required additional components and careful configuration</li></ul><p>George also singled out CloudStack's API-first approach as a major advantage:</p><p><em>"It's remarkably stable and well-documented. The API hasn't broken compatibility
+in years, making it reliable for long-term automation. This is crucial for our
+customers building infrastructure-as-code pipelines."</em></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="implementation-challenges">Implementation Challenges<a href="#implementation-challenges" class="hash-link" aria-label="Direct link to Implementation Challenges" title="Direct link to Implementation Challenges">​</a></h2><p>While basic deployment was straightforward, the team encountered several
+technical hurdles, as George notes:</p><p>"The documentation for advanced HA configurations could be better. We ended up
+working directly with ShapeBlue and the CloudStack community to resolve some
+edge cases."</p><p>Other challenges included:</p><ul><li>Extensive Ceph optimization for their workload patterns</li><li>Network configuration refinement for maximum throughput</li><li>Management server database tuning for multi-datacenter operations</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="real-world-performance">Real-World Performance<a href="#real-world-performance" class="hash-link" aria-label="Direct link to Real-World Performance" title="Direct link to Real-World Performance">​</a></h2><p>After optimization, LifeinCloud reports that their deployment is now delivering
+consistent performance:</p><p><strong>Compute Layer:</strong></p><ul><li><a href="https://lifeincloud.com/products/cloud-servers/" target="_blank" rel="noopener noreferrer">VM Provisioning</a>: 45 seconds average (down from 3+ minutes)</li><li>Live Migration: Sub-second downtime for running VMs</li><li>CPU Overhead: Less than 2% for KVM virtualization</li></ul><p><strong>Storage Layer (Ceph with NVMe):</strong></p><ul><li>Random 4K Read: 120,000 IOPS per storage node</li><li>Sequential Read: 3.2 GB/s sustained throughput</li><li>Latency: Sub-5ms for cached reads</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="storage-architecture">Storage Architecture<a href="#storage-architecture" class="hash-link" aria-label="Direct link to Storage Architecture" title="Direct link to Storage Architecture">​</a></h2><p>When asked about why Ceph won, LifeinCloud’s CTO explains: "Ceph, while more
+resource-intensive, met our reliability requirements and offered better scaling
+characteristics."</p><p>Their current Ceph implementation provides:</p><ul><li>Triple replication for data redundancy</li><li>Dedicated networks for replication traffic</li><li>Optimized placement groups for better performance</li><li>Integration with <a href="https://lifeincloud.com/products/block-storage/" target="_blank" rel="noopener noreferrer">NVMe SSD storage</a> for high-performance workloads</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="network-architecture">Network Architecture<a href="#network-architecture" class="hash-link" aria-label="Direct link to Network Architecture" title="Direct link to Network Architecture">​</a></h2><p>Their network design emphasizes redundancy and isolation through:</p><ul><li>Dual physical switches for hardware redundancy</li><li>Network bonding on all hosts</li><li>Automatic failover capabilities</li><li>VLAN-based network separation</li><li><a href="https://lifeincloud.com/products/cloud-firewall/" target="_blank" rel="noopener noreferrer">Granular firewall</a> controls</li><li>Support for custom network topologies</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="security-architecture">Security Architecture<a href="#security-architecture" class="hash-link" aria-label="Direct link to Security Architecture" title="Direct link to Security Architecture">​</a></h2><p>The provider says security was built as a fundamental component into every layer of their stack:</p><p><strong>Network Security:</strong></p><ul><li>CloudStack's VLAN capabilities maintain complete customer traffic separation</li><li>Per-VLAN firewall rules allow customers to implement precise security controls</li><li>No cross-tenant network visibility</li></ul><p><strong><a href="https://lifeincloud.com/features/identity-access-management/" target="_blank" rel="noopener noreferrer">Access Control</a>:</strong></p><ul><li>Granular Role-Based Access Control (RBAC) system</li><li>Precise permission management</li><li>Comprehensive admin action logging for compliance requirements</li></ul><p><em>"The centralized management approach is key here,"</em> notes George. <em>"When
+something needs investigation, we're not playing detective across five different
+dashboards trying to piece together what happened."</em></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="technical-roadmap">Technical Roadmap<a href="#technical-roadmap" class="hash-link" aria-label="Direct link to Technical Roadmap" title="Direct link to Technical Roadmap">​</a></h2><p>The LifeinCloud platform currently operates across multiple datacenters:</p><ul><li>Frankfurt: Chosen for proximity to DE-CIX, Europe's largest Internet peering exchange</li><li>Bucharest: Features some of the fastest broadband internet globally</li><li>London: Europe’s largest data center market and a global business hub</li><li>Miami: Planned for end of 2025, connecting European customers to the Americas</li></ul><p>Having just released their
+<a href="https://lifeincloud.com/products/kubernetes/" target="_blank" rel="noopener noreferrer">Kubernetes</a>, <a href="https://lifeincloud.com/products/high-frequency-compute/" target="_blank" rel="noopener noreferrer">high-frequency
+compute</a>, and <a href="https://lifeincloud.com/products/object-storage/" target="_blank" rel="noopener noreferrer">S3-compatible
+object storage</a> offerings,
+their upcoming technical initiatives include GPU support with direct device
+passthrough.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-final-verdict">The Final Verdict<a href="#the-final-verdict" class="hash-link" aria-label="Direct link to The Final Verdict" title="Direct link to The Final Verdict">​</a></h2><p>After running CloudStack in production, LifeinCloud achieved the scalability
+they needed without the complexity they feared. Their infrastructure handled
+growth from one region to multiple availability zones while maintaining
+performance and reliability. Their CTO adds:
+<em>"So far, we're happy with how ACS performed in this expansion: one platform,
+multiple regions, no silos. We can scale globally while keeping data exactly
+where it needs to be."</em></p>]]></content>
+        <author>
+            <name>Jamie Pell</name>
+            <uri>https://github.com/jamiepell10</uri>
+        </author>
+        <category label="case-studies" term="case-studies"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache CloudStack 4.19.2.0 Release]]></title>
         <id>https://cloudstack.apache.org/blog/cloudstack-4.19.2.0-release</id>
@@ -62,14 +114,14 @@ and discussing its real-world applications.</p><p>The event proudly welcomes att
 you can expect the majority of attendees and speakers to be from the
 European CloudStack community. The primary audience includes
 enterprises, cloud service providers, telecommunications companies,
-and managed service providers (MSPs).</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="agenda">Agenda<a href="#agenda" class="hash-link" aria-label="Direct link to Agenda" title="Direct link to Agenda">​</a></h2><p><strong>10:00 - 10:45 - Apache CloudStack 101 - Introduction, What’s New and What’s Coming</strong>
-Giles Sirett, ShapeBlue</p><p><strong>10:55 - 11:25 - Storage Setup for LINSTOR/DRBD/CloudStack</strong>
-Rene Peinthor, LINBIT</p><p><strong>11:35 - 12:05 - I’d Like to Resell Your CloudStack Services, but...</strong>
-Brian Turnbow, CDLAN</p><p><strong>12:15 - 12:45 - Fully Open-Source Private Clouds: Freedom, Security, and Control</strong>
-Swen Brüseke, proIO</p><p><strong>12:45 - 13:45 - Lunch break</strong></p><p><strong>13:45 - 14:15 - CloudStack + KVM: Your Local Cloud Lab</strong>
-Francisco Arencibia, Jotelulu</p><p><strong>14:25 - 14:55 - Proposed Feature: Monitoring and Managing Cloud Usage Costs in Apache CloudStack</strong>
-Grégoire Lamodiere, Joffrey Luangsaysana, DIMSI</p><p><strong>15:05 - 15:35 - Stretching CloudStack Over Multiple Datacenters</strong>
-Wido den Hollander, Your.Online</p><p><strong>15:45 - 16:15 - Pushing the Limits: CloudStack at 25K Hosts</strong>
+and managed service providers (MSPs).</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="agenda">Agenda<a href="#agenda" class="hash-link" aria-label="Direct link to Agenda" title="Direct link to Agenda">​</a></h2><p><strong>10:00 - 10:45 - Apache CloudStack 101 - Introduction, What’s New and What’s Coming</strong>,
+Giles Sirett, ShapeBlue</p><p><strong>10:55 - 11:25 - Storage Setup for LINSTOR/DRBD/CloudStack</strong>,
+Rene Peinthor, LINBIT</p><p><strong>11:35 - 12:05 - I’d Like to Resell Your CloudStack Services, but...</strong>,
+Brian Turnbow, CDLAN</p><p><strong>12:15 - 12:45 - Fully Open-Source Private Clouds: Freedom, Security, and Control</strong>,
+Swen Brüseke, proIO</p><p><strong>12:45 - 13:45 - Lunch break</strong></p><p><strong>13:45 - 14:15 - CloudStack + KVM: Your Local Cloud Lab</strong>,
+Francisco Arencibia, Jotelulu</p><p><strong>14:25 - 14:55 - Proposed Feature: Monitoring and Managing Cloud Usage Costs in Apache CloudStack</strong>,
+Grégoire Lamodiere, Joffrey Luangsaysana, DIMSI</p><p><strong>15:05 - 15:35 - Stretching CloudStack Over Multiple Datacenters</strong>,
+Wido den Hollander, Your.Online</p><p><strong>15:45 - 16:15 - Pushing the Limits: CloudStack at 25K Hosts</strong>,
 Boris Stoyanov, ShapeBlue</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="meet-linbit---our-host">Meet <a href="https://linbit.com/" target="_blank" rel="noopener noreferrer">LINBIT - Our Host</a><a href="#meet-linbit---our-host" class="hash-link" aria-label="Direct link to meet-linbit---our-host" title="Direct link to meet-linbit---our-host">​</a></h2><p>LINBIT is the company behind the open-source storage software DRBD and
 LINSTOR. Since 2001, the company has been recognized in the public
 sphere primarily for its distributed replicated storage system for the
