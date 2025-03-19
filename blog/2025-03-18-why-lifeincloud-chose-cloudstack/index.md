@@ -6,6 +6,8 @@ authors: [jamie]
 slug: why-lifeincloud-chose-cloudstack
 ---
 
+[![](banner.png "Why LifeinCloud Chose ACS for their Public Cloud")](/blog/why-lifeincloud-chose-cloudstack)
+
 ## The Story of LifeinCloud
 
 [LifeinCloud](https://lifeincloud.com/) is a privately-owned, European public
