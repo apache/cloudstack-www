@@ -182,4 +182,3 @@ performance and reliability. Their CTO adds:
 *"So far, we're happy with how ACS performed in this expansion: one platform,
 multiple regions, no silos. We can scale globally while keeping data exactly
 where it needs to be."*
-
