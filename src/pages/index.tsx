@@ -270,8 +270,7 @@ participation from anybody willing to work The Apache Way.
 We need folks to help with documentation, translation, promotion, and
 having someone with snazzy Web design skills would not be a bad thing!
                     </p>
-                    <a href="mailto:users@cloudstack.apache.org?subject=Request%20to%20Join%20Slack%20Channel&body=I%20request%20to%20join%20the%20Slack%20community.%0A%0AThanks,%0ARegards" 
-                          className="btn btn-primary"> Learn More</a>
+                    <a href="mailto:users@cloudstack.apache.org?subject=Request%20to%20join%20Slack%20community&body=Thanks,%0A%0ARegards." className="btn btn-primary">Learn More</a>
                   </div>
                 </div>
                 <div className="col col-lg-3 col-md-6">
