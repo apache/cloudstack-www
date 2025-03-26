@@ -44,6 +44,17 @@ involved with the community.
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                 </div>
               </div>
+              <div className="row">
+                <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/ccc-2025.jpg" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">CloudStack Collaboration Conference 2025</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Milan, Italy</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>TBD, 2025</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://www.cloudstackcollab.org/" className="btn btn-outline-secondary me-3">Read More</a>
+                </div>
+              </div>
             </div>
 
             <div className="horizontal-card">
