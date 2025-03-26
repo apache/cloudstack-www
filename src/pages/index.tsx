@@ -258,7 +258,7 @@ to Apache page, or go straight to our Developer Resources page.
 Interested in helping out with Apache CloudStack? Great! We welcome
 participation from anybody willing to work The Apache Way.
                     </p>
-                    <a href="https://github.com/apache/cloudstack" className="btn btn-primary">Learn More</a>
+                    <a href="https://github.com/apache/cloudstack" className="btn btn-primary">Explore the Code</a>
                   </div>
                 </div>
                 <div className="col col-lg-3 col-md-6">
@@ -270,7 +270,7 @@ participation from anybody willing to work The Apache Way.
 We need folks to help with documentation, translation, promotion, and
 having someone with snazzy Web design skills would not be a bad thing!
                     </p>
-                    <a href="mailto:users@cloudstack.apache.org?subject=Request%20to%20join%20Slack%20community&body=Thanks,%0A%0ARegards." className="btn btn-primary">Learn More</a>
+                    <a href="mailto:users@cloudstack.apache.org?subject=Request%20to%20join%20Slack%20community&body=Thanks,%0A%0ARegards." className="btn btn-primary">Request Access</a>
                   </div>
                 </div>
                 <div className="col col-lg-3 col-md-6">
@@ -279,11 +279,9 @@ having someone with snazzy Web design skills would not be a bad thing!
                     <p className="blue-title">CONTRIBUTE CONTENT</p>
                     <p className="join-title">Blog</p>
                     <p className="text">
-Want to share your success story? Or you are working on a new feature?
-Contribute your content to our blog or join the Meet the Community
-Video Series.
+Share a feature you have been working on, a success story, or alternative content to the CloudStack blog!
                     </p>
-                    <a href="blog" className="btn btn-primary">Learn More</a>
+                    <a href="blog" className="btn btn-primary">Dive In</a>
                   </div>
                 </div>
                 <div className="col col-lg-3 col-md-6">
@@ -292,7 +290,7 @@ Video Series.
                     <p className="blue-title">WHERE TO ASK FOR HELP</p>
                     <p className="join-title">Mailing List</p>
                     <p className="text">Need some help getting started? Feel free to ask on the Mailing List.</p>
-                    <a href="mailing-lists" className="btn btn-primary">Learn More</a>
+                    <a href="mailing-lists" className="btn btn-primary">Subscribe</a>
                   </div>
                 </div>
               </div>
