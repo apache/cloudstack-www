@@ -8,7 +8,7 @@ PMC Information: https://projects.apache.org/committee.html?cloudstack
 
 Board Minutes: https://whimsy.apache.org/board/minutes/CloudStack.html
 
-**PMC Chair**: Daniel Augusto Veronezi Salvador	(gutoveronezi)
+**PMC Chair**: Nicolás Vázquez (nvazquez)
 
 The following data is subject to change. The up-to-date information can be found on <a href="http://people.apache.org/committers-by-project.html#cloudstack-pmc">the Apache Peoples site</a>:
 
