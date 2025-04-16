@@ -53,8 +53,6 @@ involved with the community.
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://www.eventbrite.co.uk/e/cloudstack-collaboration-conference-2025-tickets-1301872940009?aff=oddtdtcreator" className="btn btn-primary me-3">Register</a>
-                </div>
-                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://www.cloudstackcollab.org/" className="btn btn-outline-secondary me-3">Read More</a>
                 </div>
               </div>
