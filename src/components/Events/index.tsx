@@ -49,7 +49,10 @@ involved with the community.
                   <img src="/img/ccc-2025.jpg" alt="" className="events-img events-overview-img"/>
                   <p className="title mt-2">CloudStack Collaboration Conference 2025</p>
                   <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Milan, Italy</p>
-                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>TBD, 2025</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 19-21, 2025</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://www.eventbrite.co.uk/e/cloudstack-collaboration-conference-2025-tickets-1301872940009?aff=oddtdtcreator" className="btn btn-primary me-3">Register</a>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://www.cloudstackcollab.org/" className="btn btn-outline-secondary me-3">Read More</a>
