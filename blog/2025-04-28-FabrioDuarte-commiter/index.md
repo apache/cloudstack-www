@@ -33,13 +33,13 @@ playing video-games and learning new stuff.
 
 I have worked on:
 - investigating and patching security issues: CVE-2024-42062, CVE-2024-45461, https://github.com/apache/cloudstack/pull/9461;
-- fixing regressions: 
+- fixing regressions:
 https://github.com/apache/cloudstack/pull/9894, https://github.com/apache/cloudstack/pull/10244, https://github.com/apache/cloudstack/pull/10546;
-- fixing bugs: 
+- fixing bugs:
 https://github.com/apache/cloudstack/pull/7832, https://github.com/apache/cloudstack/pull/9888;
 - normalizing behaviors:
 https://github.com/apache/cloudstack/pull/8243, https://github.com/apache/cloudstack/pull/9636, https://github.com/apache/cloudstack/pull/10008;
-- and on various other improvements, such as: 
+- and on various other improvements, such as:
 https://github.com/apache/cloudstack/pull/10363 and https://github.com/apache/cloudstack/pull/10454.
 
 ##### What would your advice be to people interested in the CloudStack project, but not sure how to get involved?
