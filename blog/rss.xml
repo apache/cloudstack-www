@@ -62,7 +62,7 @@ normalization would not be performed automatically so that we do not
 accidentally ignore an underlying problem, but we could suggest
 operators some actions to take (maybe even provide an API to easily
 execute these actions).</p>]]></content:encoded>
-            <category>news</category>
+            <category>community</category>
         </item>
         <item>
             <title><![CDATA[Meet the New VP of CloudStack: Nicolas Vazquez]]></title>
@@ -148,6 +148,7 @@ complex cloud environments efficiently, while avoiding the pitfalls of
 vendor lock-in. In a world where infrastructure decisions shape
 business agility, open-source solutions like CloudStack are not an
 alternative — they’re the foundation!</p>]]></content:encoded>
+            <category>community</category>
             <category>news</category>
         </item>
         <item>
@@ -844,6 +845,7 @@ those workarounds add unnecessary complexity to the project and do not
 fully address the situation; they might even introduce other bugs and
 situations. It is very important to understand what is happening and
 act precisely.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="if-you-need-to-summarize-cloudstack-in-3-words-what-would-they-be">If you need to summarize CloudStack in 3 words, what would they be?<a href="#if-you-need-to-summarize-cloudstack-in-3-words-what-would-they-be" class="hash-link" aria-label="Direct link to If you need to summarize CloudStack in 3 words, what would they be?" title="Direct link to If you need to summarize CloudStack in 3 words, what would they be?">​</a></h4><p>I think they would be: stable, resilient, and innovative.</p>]]></content:encoded>
+            <category>community</category>
             <category>news</category>
         </item>
         <item>

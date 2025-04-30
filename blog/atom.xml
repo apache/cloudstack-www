@@ -65,7 +65,7 @@ execute these actions).</p>]]></content>
             <name>Jamie Pell</name>
             <uri>https://github.com/jamiepell10</uri>
         </author>
-        <category label="news" term="news"/>
+        <category label="community" term="community"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Meet the New VP of CloudStack: Nicolas Vazquez]]></title>
@@ -155,6 +155,7 @@ alternative — they’re the foundation!</p>]]></content>
             <name>Jamie Pell</name>
             <uri>https://github.com/jamiepell10</uri>
         </author>
+        <category label="community" term="community"/>
         <category label="news" term="news"/>
     </entry>
     <entry>
@@ -927,6 +928,7 @@ act precisely.</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="if-you-need
             <name>Ivet Petrova</name>
             <uri>https://github.com/IvetPM</uri>
         </author>
+        <category label="community" term="community"/>
         <category label="news" term="news"/>
     </entry>
     <entry>
