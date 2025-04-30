@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fabricio Duarte, new ACS committer, reflects on his commitment to the CloudStack project
-tags: [news]
+tags: [community]
 authors: [jamie]
 slug: fabricio-duarte-committer
 ---
