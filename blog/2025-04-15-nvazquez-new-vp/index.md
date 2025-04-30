@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Meet the New VP of CloudStack: Nicolas Vazquez'
-tags: [news]
+tags: [community, news]
 authors: [jamie]
 slug: new-vp-nicolas-vazquez
 ---
