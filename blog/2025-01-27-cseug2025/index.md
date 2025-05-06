@@ -63,7 +63,7 @@ Swen Brüseke, proIO
 **13:45 - 14:15 - CloudStack + KVM: Your Local Cloud Lab**,
 Francisco Arencibia, Jotelulu
 
-**14:25 - 14:55 - Proposed Feature: Monitoring and Managing Cloud Usage Costs in Apache CloudStack**,
+**14:25 - 14:55 - Proposed Feature: Monitoring and Managing Cloud Usage in Apache CloudStack**,
 Grégoire Lamodiere, Joffrey Luangsaysana, DIMSI
 
 **15:05 - 15:35 - Stretching CloudStack Over Multiple Datacenters**,
