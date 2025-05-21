@@ -21,8 +21,9 @@ across the CloudStack ecosystem.
 The 2025 CSIUG is supported by [ShapeBlue](https://www.shapeblue.com/) and
 [Yotta](https://yotta.com/).
 
+<div class="col col-3 col-lg text-center">
 <a class="button button--primary button--lg" href="https://www.eventbrite.com/e/cloudstack-india-user-group-2025-tickets-1374146161159?aff=oddtdtcreator" target="_blank">REGISTER</a>
-<br/>
+</div>
 
 ## Call for Presentations
 
@@ -35,8 +36,9 @@ your experience with the global CloudStack community. Please note, the deadline
 for CFP is <strong>16th June 2025</strong>.
 
 <br/>
+<div class="col col-3 col-lg text-center">
 <a class="button button--primary button--lg" href="https://docs.google.com/forms/d/e/1FAIpQLSdt8GkcDiTOxfzXUpf2r37sAEZwqPCuMg200JfAXF4HOgEHkA/viewform" target="_blank">Submit a Talk</a>
-<br/>
+</div>
 
 <!-- truncate -->
 
