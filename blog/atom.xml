@@ -2,11 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2025-04-28T00:00:00.000Z</updated>
+    <updated>2025-05-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[CloudStack India User Group 2025 – Greater Noida]]></title>
+        <id>https://cloudstack.apache.org/blog/csiug-2025</id>
+        <link href="https://cloudstack.apache.org/blog/csiug-2025"/>
+        <updated>2025-05-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We’re excited to share that the CloudStack India User Group (CSIUG) will be held]]></summary>
+        <content type="html"><![CDATA[<p><a href="/blog/csiug-2025"><img loading="lazy" src="/assets/images/banner-b1d313233f28c0afc215bc0b0189fff4.png" title="CloudStack India User Group 2025" width="1200" height="628" class="img_ev3q"></a></p><p>We’re excited to share that the CloudStack India User Group (CSIUG) will be held
+on 11th July 2025 at the <a href="https://tinyurl.com/yjff2yza" target="_blank" rel="noopener noreferrer">D1 Yotta Data Center</a> in
+Greater Noida.</p><p>This event will bring together CloudStack users, developers, and operators from
+across India for a day of technical sessions, community collaboration, and
+in-depth discussions on building and running open-source cloud infrastructure.
+Expect real-world case studies, project updates, and valuable insights from
+across the CloudStack ecosystem.</p><p>The 2025 CSIUG is supported by <a href="https://www.shapeblue.com/" target="_blank" rel="noopener noreferrer">ShapeBlue</a> and
+<a href="https://yotta.com/" target="_blank" rel="noopener noreferrer">Yotta</a>.</p><a href="https://www.eventbrite.com/e/cloudstack-india-user-group-2025-tickets-1374146161159?aff=oddtdtcreator" target="_blank" rel="noopener noreferrer" class="button button--primary button--lg">REGISTER</a><br><h2 class="anchor anchorWithStickyNavbar_LWe7" id="call-for-presentations">Call for Presentations<a href="#call-for-presentations" class="hash-link" aria-label="Direct link to Call for Presentations" title="Direct link to Call for Presentations">​</a></h2><p>We’re inviting session proposals that showcase technical expertise, real-world
+CloudStack implementations, best practices, feature deep-dives, and fresh
+perspectives on open-source cloud technologies.</p><p>Use the button below to submit your proposal and take the opportunity to share
+your experience with the global CloudStack community. Please note, the deadline
+for CFP is <strong>16th June 2025</strong>.</p><br><a href="https://docs.google.com/forms/d/e/1FAIpQLSdt8GkcDiTOxfzXUpf2r37sAEZwqPCuMg200JfAXF4HOgEHkA/viewform" target="_blank" rel="noopener noreferrer" class="button button--primary button--lg">Submit a Talk</a><br><h2 class="anchor anchorWithStickyNavbar_LWe7" id="who-should-attend">Who Should Attend?<a href="#who-should-attend" class="hash-link" aria-label="Direct link to Who Should Attend?" title="Direct link to Who Should Attend?">​</a></h2><p>The CloudStack India User Group is for developers, cloud operators, engineers,
+and technology leaders in India who are working with or curious about — Apache
+CloudStack. Whether you’re deploying, managing, or building on CloudStack, this
+event offers a platform to explore its capabilities, hear real-world
+implementation stories, and engage with the open-source community driving the
+project forward.</p><p>CSIUG brings together a diverse audience from across India’s growing cloud
+ecosystem — including enterprises, cloud service providers, telecoms, and
+managed service providers — all contributing to and benefiting from open-source
+cloud infrastructure. You’ll also have the opportunity to connect directly with
+core contributors, maintainers, and project committers in the region.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="bonus---dc-tour">Bonus - DC Tour!<a href="#bonus---dc-tour" class="hash-link" aria-label="Direct link to Bonus - DC Tour!" title="Direct link to Bonus - DC Tour!">​</a></h2><p>Courtesy of Yotta, this CSIUG meetup event also includes a Data Center tour of
+their <a href="https://www.youtube.com/watch?v=fGSkazxblmE" target="_blank" rel="noopener noreferrer">D1 Data Center</a> in Greater
+Noida, which is also the event venue.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-note-from-the-chair">A Note from the Chair<a href="#a-note-from-the-chair" class="hash-link" aria-label="Direct link to A Note from the Chair" title="Direct link to A Note from the Chair">​</a></h2><div class="row"><div class="col col--9"><p>"The CloudStack India User Group (CSIUG) meetup brings together real users and
+developers to share practical insights, integrations, and success stories. With
+tech talks, live demos, and face-to-face networking, it’s a great space for
+anyone using or considering Apache CloudStack, to learn and connect with others.</p><p>If you're building or running IaaS cloud infrastructure in India, CSIUG is where
+you want to be."</p><p>-<a href="https://www.linkedin.com/in/rohityadavcloud/" target="_blank" rel="noopener noreferrer">Rohit Yadav</a>, CSIUG Chairman &amp; CloudStack PMC Member</p></div><div class="col col--3"><p><img loading="lazy" src="/assets/images/rohit-fc024e4dc93c2846071318fcc957e783.png" title="Rohit Yadav&quot; class=&quot;blog-image" width="372" height="381" class="img_ev3q"></p></div></div>]]></content>
+        <author>
+            <name>Jamie Pell</name>
+            <uri>https://github.com/jamiepell10</uri>
+        </author>
+        <category label="news" term="news"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fabricio Duarte, new ACS committer, reflects on his commitment to the CloudStack project]]></title>
         <id>https://cloudstack.apache.org/blog/fabricio-duarte-committer</id>
