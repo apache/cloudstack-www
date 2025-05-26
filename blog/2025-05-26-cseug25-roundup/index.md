@@ -134,7 +134,7 @@ preserving CloudStack's logical zone constructs.
 
 [![](Wido.png "Stretching CloudStack Over Multiple Datacenters - slides")](https://www.slideshare.net/slideshow/stretching-cloudstack-over-multiple-datacenters/279335005)
 
-## Pushing the Limits: CloudStack at 25K Hosts, [Boris Stoyanov](https://www.linkedin.com/in/widodh/), [ShapeBlue](https://www.shapeblue.com/)
+## Pushing the Limits: CloudStack at 25K Hosts, [Boris Stoyanov](https://www.linkedin.com/in/bstoyanov/), [ShapeBlue](https://www.shapeblue.com/)
 
 The closing session was a standout, as Boris Stoyanov, QA Manager at
 ShapeBlue walked the audience through a large-scale load testing
