@@ -4,10 +4,106 @@
         <title>Apache CloudStack Blog</title>
         <link>https://cloudstack.apache.org/blog</link>
         <description>Apache CloudStack Blog</description>
-        <lastBuildDate>Wed, 21 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[CloudStack European User Group 2025 – Event Roundup]]></title>
+            <link>https://cloudstack.apache.org/blog/cseug25-roundup</link>
+            <guid>https://cloudstack.apache.org/blog/cseug25-roundup</guid>
+            <pubDate>Mon, 26 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Apache CloudStack European User Group (CSEUG) convened on May 8th]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="/assets/images/CSEUG-roundup-a9a6ececd1fb66b7f321ac863e8dab2d.png" title="Blog Header Image" width="1200" height="628" class="img_ev3q"></p><p>The Apache CloudStack European User Group (CSEUG) convened on May 8th
+in Vienna, Austria, marking its return with a technically focused
+event that brought together a dynamic cross-section of users,
+contributors, developers, and operators from across Europe. Hosted at
+Quartier Belvedere Central, the event delivered a full day of in-depth
+technical sessions, collaborative community interactions, and
+practical insights into real-world deployments and advancements within
+the Apache CloudStack ecosystem.</p><p>Organised annually by the CloudStack EU Community and with the support
+of longtime contributors and sponsors including ShapeBlue, ProIO, and
+LINBIT, the event continues to grow, reflecting the maturity and
+vitality of the Apache CloudStack community.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-full-day-of-technical-deep-dives-and-community-learning">A Full Day of Technical Deep Dives and Community Learning<a href="#a-full-day-of-technical-deep-dives-and-community-learning" class="hash-link" aria-label="Direct link to A Full Day of Technical Deep Dives and Community Learning" title="Direct link to A Full Day of Technical Deep Dives and Community Learning">​</a></h2><p>The agenda for this year’s event included presentations covering core
+concepts, advanced configuration techniques, case studies on
+production deployments, and proposals for future development. The
+program was structured to accommodate both new users interested in
+open-source cloud orchestration and experienced practitioners working
+with large-scale Apache CloudStack environments.</p><div class="col col-3 col-lg text-center"><a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlaMg8GePeADgfC-XLmUD8-l" target="_blank" rel="noopener noreferrer" class="button button--primary">Watch Session Recordings</a></div><p>Below you can find the sessions slides, abstracts, as well as
+speaker’s social links in case you would like to connect and have any
+questions about their session!</p><p><strong>Access each session's slides by clicking onto the presentation graphic.</strong></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="apache-cloudstack-101--whats-new-and-whats-coming-giles-sirett-shapeblue">Apache CloudStack 101 – What’s New and What’s Coming, <a href="https://www.linkedin.com/in/gilessirett/" target="_blank" rel="noopener noreferrer">Giles Sirett</a>, <a href="https://www.shapeblue.com/" target="_blank" rel="noopener noreferrer">ShapeBlue</a><a href="#apache-cloudstack-101--whats-new-and-whats-coming-giles-sirett-shapeblue" class="hash-link" aria-label="Direct link to apache-cloudstack-101--whats-new-and-whats-coming-giles-sirett-shapeblue" title="Direct link to apache-cloudstack-101--whats-new-and-whats-coming-giles-sirett-shapeblue">​</a></h2><p>Giles Sirett, CEO of ShapeBlue kicked off the day with an accessible
+yet thorough overview of Apache CloudStack’s core capabilities. He
+walked attendees through the project’s architecture, support for
+multiple hypervisors (KVM, VMware, XCP-ng), and how CloudStack
+integrates into existing IT environments. The session also highlighted
+new features from recent releases and shared exciting developments on
+the roadmap, including enhancements in UI/UX, support for
+containerized workloads, and improvements in scalability and
+automation.</p><p><a href="https://www.slideshare.net/slideshow/cloudstack-euug-may-2025-introduction-101-giles-sirett-pdf/279333961" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Giles-a2ccca3de01976b797aa0a9d8f50f2fe.png" title="What's New and What's Coming - slides" width="793" height="442" class="img_ev3q"></a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="storage-setup-for-linstordrbdcloudstack-rene-peinthor-linbit">Storage Setup for LINSTOR/DRBD/CloudStack, <a href="https://github.com/rp-" target="_blank" rel="noopener noreferrer">Rene Peinthor</a>, <a href="https://linbit.com/" target="_blank" rel="noopener noreferrer">LINBIT</a><a href="#storage-setup-for-linstordrbdcloudstack-rene-peinthor-linbit" class="hash-link" aria-label="Direct link to storage-setup-for-linstordrbdcloudstack-rene-peinthor-linbit" title="Direct link to storage-setup-for-linstordrbdcloudstack-rene-peinthor-linbit">​</a></h2><p>Rene Peinthor, Software Engineer at LINBIT, presented a comparative
+analysis of various storage setups including LVM-Thin, ZFS, and
+striped volumes, explaining the trade-offs between performance,
+failure domains, and operational complexity. Attendees gained
+actionable insights into designing optimized storage backends using
+LINSTOR with CloudStack, and learned best practices for balancing high
+availability with efficient resource utilization.</p><p><a href="https://www.slideshare.net/slideshow/storage-setup-for-linstor-drbd-cloudstack/279334610" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Rene-f79a9fc53635a33fcf15ee444a40f049.png" title="Storage Setup for LINSTOR/DRBD/CloudStack - slides" width="792" height="442" class="img_ev3q"></a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="id-like-to-resell-your-cloudstack-services-but-brian-turnbow-cdlan">I’d Like to Resell Your CloudStack Services, But..., <a href="https://www.linkedin.com/in/brianturnbow/" target="_blank" rel="noopener noreferrer">Brian Turnbow</a>, <a href="https://www.cdlan.it/en/" target="_blank" rel="noopener noreferrer">CDLAN</a><a href="#id-like-to-resell-your-cloudstack-services-but-brian-turnbow-cdlan" class="hash-link" aria-label="Direct link to id-like-to-resell-your-cloudstack-services-but-brian-turnbow-cdlan" title="Direct link to id-like-to-resell-your-cloudstack-services-but-brian-turnbow-cdlan">​</a></h2><p>Brian Turnbow, DCT at CDLAN, shared a candid case study on onboarding
+a white-label reseller into CDLAN’s CloudStack-powered platform. The
+talk addressed the operational and technical challenges faced when
+customers require custom IP ranges, brand identity, billing
+integration, and even their own network capacity. This session
+resonated with providers looking to expand their customer base while
+maintaining operational control and compliance.</p><p><a href="https://www.slideshare.net/slideshow/i-d-like-to-resell-your-cloudstack-services-but/279334685" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Brian-10d65cd17081131060da32bcb82f9c5e.png" title="I’d Like to Resell Your CloudStack Services, But... - slides" width="794" height="448" class="img_ev3q"></a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="fully-open-source-private-clouds-freedom-security-and-control-swen-brüseke-proio">Fully Open-Source Private Clouds: Freedom, Security, and Control, <a href="https://www.linkedin.com/in/swen-br%C3%BCseke-391912193/" target="_blank" rel="noopener noreferrer">Swen Brüseke</a>, <a href="https://www.proio.com/" target="_blank" rel="noopener noreferrer">ProIO</a><a href="#fully-open-source-private-clouds-freedom-security-and-control-swen-brüseke-proio" class="hash-link" aria-label="Direct link to fully-open-source-private-clouds-freedom-security-and-control-swen-brüseke-proio" title="Direct link to fully-open-source-private-clouds-freedom-security-and-control-swen-brüseke-proio">​</a></h2><p>In a compelling argument for digital sovereignty, SwenBrüseke, CEO at
+ProIO, presented ProIO’s fully open-source approach to building secure
+and performant private clouds. By combining Apache CloudStack with
+LINBIT’s storage stack, and maintaining transparency through
+professional support, ProIO demonstrates how organizations can reduce
+dependency on proprietary solutions while ensuring reliability,
+flexibility, and security. He also offered a comparative evaluation of
+CloudStack vs. other solutions like Proxmox, highlighting CloudStack’s
+strengths in automation, scalability, and multi-tenancy.</p><p><a href="https://www.slideshare.net/slideshow/ully-open-source-private-clouds-freedom-security-and-control/279381615" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Swen-a8e98b32cfb2cbe71eb875dbda9f0da5.png" title="Fully Open-Source Private Clouds: Freedom, Security, and Control - slides" width="793" height="445" class="img_ev3q"></a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="cloudstack--kvm-your-local-cloud-lab-francisco-arencibia-jotelulu">CloudStack + KVM: Your Local Cloud Lab, <a href="https://www.linkedin.com/in/franciscoarencibia/" target="_blank" rel="noopener noreferrer">Francisco Arencibia</a>, <a href="https://jotelulu.com/en-gb/" target="_blank" rel="noopener noreferrer">Jotelulu</a><a href="#cloudstack--kvm-your-local-cloud-lab-francisco-arencibia-jotelulu" class="hash-link" aria-label="Direct link to cloudstack--kvm-your-local-cloud-lab-francisco-arencibia-jotelulu" title="Direct link to cloudstack--kvm-your-local-cloud-lab-francisco-arencibia-jotelulu">​</a></h2><p>Francisco Arencibia, Senior DevOps Engineer at Jotelulu, provided a
+highly practical guide for setting up a CloudStack-based private cloud
+lab using KVM, ideal for testing and development. Attendees learned
+how to automate the entire setup using Ansible, making it simple to
+deploy and tear down environments. This session served as a great
+entry point for developers and sysadmins looking to experiment with
+CloudStack or prototype cloud-native applications.</p><p><a href="https://www.slideshare.net/slideshow/cloudstack-kvm-your-local-cloud-lab/279334768" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Francisco-ea43891aae3f7db58c5b153d76d82d9d.png" title="CloudStack + KVM: Your Local Cloud Lab - slides" width="793" height="427" class="img_ev3q"></a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="proposed-feature-monitoring-and-managing-cloud-usage-costs-in-apache-cloudstack-grégoire-lamodiere--joffrey-luangsaysana-dimsi">Proposed Feature: Monitoring and Managing Cloud Usage Costs in Apache CloudStack, <a href="https://linkedin.com/in/gr%C3%A9goire-lamodi%C3%A8re-04171210" target="_blank" rel="noopener noreferrer">Grégoire Lamodiere</a> &amp; <a href="https://www.linkedin.com/in/jluang/" target="_blank" rel="noopener noreferrer">Joffrey Luangsaysana</a>, <a href="https://dimsi.fr" target="_blank" rel="noopener noreferrer">DIMSI</a><a href="#proposed-feature-monitoring-and-managing-cloud-usage-costs-in-apache-cloudstack-grégoire-lamodiere--joffrey-luangsaysana-dimsi" class="hash-link" aria-label="Direct link to proposed-feature-monitoring-and-managing-cloud-usage-costs-in-apache-cloudstack-grégoire-lamodiere--joffrey-luangsaysana-dimsi" title="Direct link to proposed-feature-monitoring-and-managing-cloud-usage-costs-in-apache-cloudstack-grégoire-lamodiere--joffrey-luangsaysana-dimsi">​</a></h2><p>Grégoire Lamodiere, CEO and Joffrey Luangsaysana, Cloud Expert at
+DIMSI introduced a proposed native feature aimed at tracking and
+visualizing cloud resource usage and cost within CloudStack. Gregoire
+and Joffrey emphasized the need for better visibility for both
+administrators and end users—especially in multi-tenant or MSP
+environments. The session invited feedback from the community,
+igniting discussion around metrics collection, usage-based billing,
+and potential integrations with third-party tools. The proposal
+underscores the community’s commitment to evolving CloudStack in
+response to real-world needs.</p><p><a href="https://www.slideshare.net/slideshow/proposed-feature-monitoring-and-managing-cloud-usage-costs-in-apache-cloudstack/279334953" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Grégoire&amp;Joffrey-3f54084abb45788bd3690955d0ad2be0.png" title="Proposed Feature: Monitoring and Managing Cloud Usage Costs in Apache CloudStac - slides" width="1159" height="651" class="img_ev3q"></a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="stretching-cloudstack-over-multiple-datacenters-wido-den-hollander-youronline">Stretching CloudStack Over Multiple Datacenters, <a href="https://www.linkedin.com/in/widodh/" target="_blank" rel="noopener noreferrer">Wido den Hollander</a>, <a href="https://your.online/" target="_blank" rel="noopener noreferrer">Your.Online</a><a href="#stretching-cloudstack-over-multiple-datacenters-wido-den-hollander-youronline" class="hash-link" aria-label="Direct link to stretching-cloudstack-over-multiple-datacenters-wido-den-hollander-youronline" title="Direct link to stretching-cloudstack-over-multiple-datacenters-wido-den-hollander-youronline">​</a></h2><p>Scaling CloudStack beyond a single datacenter brings new architectural
+considerations. Wido den Hollander, CTO at Your.Online, explored
+techniques for spanning CloudStack zones across multiple physical
+locations, including challenges in networking, storage, and
+orchestration. Drawing from operational experience, he outlined
+patterns for inter-datacenter VM migration and high availability while
+preserving CloudStack's logical zone constructs.</p><p><a href="https://www.slideshare.net/slideshow/stretching-cloudstack-over-multiple-datacenters/279335005" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Wido-ad7313c9b2ad6e7689695bcffb013967.png" title="Stretching CloudStack Over Multiple Datacenters - slides" width="1159" height="651" class="img_ev3q"></a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="pushing-the-limits-cloudstack-at-25k-hosts-boris-stoyanov-shapeblue">Pushing the Limits: CloudStack at 25K Hosts, <a href="https://www.linkedin.com/in/bstoyanov/" target="_blank" rel="noopener noreferrer">Boris Stoyanov</a>, <a href="https://www.shapeblue.com/" target="_blank" rel="noopener noreferrer">ShapeBlue</a><a href="#pushing-the-limits-cloudstack-at-25k-hosts-boris-stoyanov-shapeblue" class="hash-link" aria-label="Direct link to pushing-the-limits-cloudstack-at-25k-hosts-boris-stoyanov-shapeblue" title="Direct link to pushing-the-limits-cloudstack-at-25k-hosts-boris-stoyanov-shapeblue">​</a></h2><p>The closing session was a standout, as Boris Stoyanov, QA Manager at
+ShapeBlue walked the audience through a large-scale load testing
+initiative involving 25,000 hosts in a lab environment. This technical
+deep dive included performance benchmarks, system bottlenecks, and the
+specific code changes implemented to support this level of
+scalability. The findings will inform future development efforts to
+further strengthen CloudStack’s ability to support massive,
+distributed infrastructure.</p><p><a href="https://www.slideshare.net/slideshow/pushing-the-limits-cloudstack-at-25k-hosts/279335083" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Bobby-0084b8b40a74897b04a46709c3bcf9d1.png" title="Pushing the Limits: CloudStack at 25K Hosts - slides" width="1161" height="650" class="img_ev3q"></a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="thank-you-for-making-it-a-success">Thank You for Making It a Success<a href="#thank-you-for-making-it-a-success" class="hash-link" aria-label="Direct link to Thank You for Making It a Success" title="Direct link to Thank You for Making It a Success">​</a></h2><p>The Apache CloudStack community would like to extend a sincere thank
+you to ShapeBlue, ProIO, and LINBIT for their continued sponsorship
+and support. These events wouldn’t be possible without the volunteers,
+contributors, and passionate users who give their time and energy to
+make each gathering meaningful.</p><p>We’re already looking forward to the upcoming CloudStack India User
+Group 2025, taking place on 11th July at the Yotta Data Centre Park
+(D1) in Greater Noida, Uttar Pradesh. Shortly after, we’ll be
+gathering again for the next CloudStack European User Group meeting in
+London on 18th September. And finally, the highlight of the year—the
+CloudStack Collaboration Conference—will be held in Milan, Italy from
+19th to 21st November. As the most significant CloudStack event
+globally, the conference brings together professionals from around the
+world to connect, share knowledge, and shape the future of open-source
+cloud infrastructure. Until then, stay involved, stay curious, and
+keep building!</p>]]></content:encoded>
+            <category>roundup</category>
+        </item>
         <item>
             <title><![CDATA[CloudStack India User Group 2025 – Greater Noida]]></title>
             <link>https://cloudstack.apache.org/blog/csiug-2025</link>
