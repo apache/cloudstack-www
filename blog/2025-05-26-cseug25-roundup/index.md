@@ -95,7 +95,7 @@ strengths in automation, scalability, and multi-tenancy.
 
 [![](Swen.png "Fully Open-Source Private Clouds: Freedom, Security, and Control - slides")](https://www.slideshare.net/slideshow/ully-open-source-private-clouds-freedom-security-and-control/279381615)
 
-## CloudStack + KVM: Your Local Cloud Lab, [Francisco Arencibia](https://jotelulu.com/en-gb/), [Jotelulu](https://jotelulu.com/en-gb/)
+## CloudStack + KVM: Your Local Cloud Lab, [Francisco Arencibia](https://www.linkedin.com/in/franciscoarencibia/), [Jotelulu](https://jotelulu.com/en-gb/)
 
 Francisco Arencibia, Senior DevOps Engineer at Jotelulu, provided a
 highly practical guide for setting up a CloudStack-based private cloud
