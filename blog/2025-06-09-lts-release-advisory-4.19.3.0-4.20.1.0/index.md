@@ -2,7 +2,7 @@
 layout: post
 title: "[ADVISORY] Apache CloudStack LTS Releases 4.19.3.0 and 4.20.1.0 with security fixes"
 tags: [announcement]
-authors: [pearl11594]
+authors: [pearl]
 slug: lts-release-advisory-4.19.3.0-4.20.1.0
 ---
 
