@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "[ADVISORY] Apache CloudStack LTS Releases 4.19.3.0 and 4.20.1.0 with security fixes"
+title: "[ADVISORY] Security Improvements in Apache CloudStack 4.19.3.0 and 4.20.1.0"
 tags: [announcement]
 authors: [pearl]
 slug: lts-release-advisory-4.19.3.0-4.20.1.0
 ---
 
-[![](banner.png "Apache CloudStack LTS Releases 4.19.3.0 and 4.20.1.0 with security fixes")](/blog/lts-release-advisory-4.19.3.0-4.20.1.0)
+[![](banner.png "Security Improvements in Apache CloudStack 4.19.3.0 and 4.20.1.0")](/blog/lts-release-advisory-4.19.3.0-4.20.1.0)
 
  The Apache CloudStack project announces the LTS release of [4.19.3.0](https://github.com/apache/cloudstack/releases/tag/4.19.3.0) and [4.20.1.0](https://github.com/apache/cloudstack/releases/tag/4.20.1.0) that address the following security issues:
 
