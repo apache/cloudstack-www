@@ -3,7 +3,7 @@ layout: post
 title: "[ADVISORY] Security Improvements in Apache CloudStack 4.19.3.0 and 4.20.1.0"
 tags: [announcement]
 authors: [pearl]
-slug: cve-advisories-4.19.3.0-4.20.1.0
+slug: advisories-cve-4.19.3.0-4.20.1.0
 ---
 
 [![](banner.png "Security Improvements in Apache CloudStack 4.19.3.0 and 4.20.1.0")](/blog/lts-release-advisory-4.19.3.0-4.20.1.0)
