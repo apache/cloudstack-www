@@ -12,8 +12,8 @@ The Apache CloudStack project is pleased to announce the release of CloudStack 4
 
 The CloudStack releases 4.19.3.0 and 4.20.1.0 are maintenance releases as part of their 4.19.x and 4.20.x LTS branches respectively. CloudStack release 4.19.3.0 contains more than 120 fixes and improvements since CloudStack 4.19.2.0 and CloudStack 4.20.1.0 contains more than 150 fixes and improvements since CloudStack 4.20.0.0 release.
 
-Highlights of 4.19.3.0 include:
 <!-- truncate -->
+Highlights of 4.19.3.0 include:
 
 * Fixes broken console access after upgrade to 4.19.2.0 on VMware
 * Improve listing of VMware Datacenter VMs for migration to KVM
@@ -24,7 +24,6 @@ Highlights of 4.19.3.0 include:
 
 
 Highlights of 4.20.1.0 include:
-<!-- truncate -->
 
 CloudStack 4.20.1.0 includes all the fixes from the 4.19.3.0 release.
 * Improvements to multi-architecture support in CloudStack
