@@ -61,13 +61,13 @@ https://docs.cloudstack.apache.org/
 
 ## Downloads
 
-The official source code for the 4.19.3.0 and 4.20.1.0 releases can be downloaded from our downloads page:https://cloudstack.apache.org/downloads
+The official source code for the 4.19.3.0 and 4.20.1.0 releases can be downloaded from our [downloads page](/downloads).
 
 In addition to the official source code release, individual contributors have also made convenience binaries available on the Apache CloudStack download page, and can be found at:
 
 https://download.cloudstack.org/el/7/
-https://download.cloudstack.org/el/8/
-https://download.cloudstack.org/el/9/
-https://download.cloudstack.org/suse/15
-https://download.cloudstack.org/ubuntu/dists/
-https://www.shapeblue.com/packages/
+<br/>https://download.cloudstack.org/el/8/
+<br/>https://download.cloudstack.org/el/9/
+<br/>https://download.cloudstack.org/suse/15
+<br/>https://download.cloudstack.org/ubuntu/dists/
+<br/>https://www.shapeblue.com/packages/
