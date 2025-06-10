@@ -174,9 +174,7 @@ Users are recommended to upgrade to version 4.19.3.0, 4.20.1.0 or later, which a
 
 ## Downloads and Documentation
 
-The official source code for the 4.19.3.0 and 4.20.1.0 releases can be downloaded from the project downloads page:
-
-https://cloudstack.apache.org/downloads
+The official source code for the 4.19.3.0 and 4.20.1.0 releases can be downloaded from the project [downloads page](/downloads).
 
 The 4.19.3.0 and 4.20.1.0 release notes can be found at:
 
