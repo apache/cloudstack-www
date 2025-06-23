@@ -18,29 +18,43 @@ in-depth discussions on building and running open-source cloud infrastructure.
 Expect real-world case studies, project updates, and valuable insights from
 across the CloudStack ecosystem.
 
-The 2025 CSIUG is supported by [ShapeBlue](https://www.shapeblue.com/) and
-[Yotta](https://yotta.com/).
+The 2025 CSIUG is supported by [ShapeBlue](https://www.shapeblue.com/), [Yotta](https://yotta.com/) and [LINBIT](https://linbit.com/).
 
 <div class="col col-3 col-lg text-center">
 <a class="button button--primary button--lg" href="https://www.eventbrite.com/e/cloudstack-india-user-group-2025-tickets-1374146161159?aff=oddtdtcreator" target="_blank">REGISTER</a>
 </div>
 
-## Call for Presentations
-
-We’re inviting session proposals that showcase technical expertise, real-world
-CloudStack implementations, best practices, feature deep-dives, and fresh
-perspectives on open-source cloud technologies.
-
-Use the button below to submit your proposal and take the opportunity to share
-your experience with the global CloudStack community. Please note, the deadline
-for CFP is <strong>16th June 2025</strong>.
-
-<br/>
-<div class="col col-3 col-lg text-center">
-<a class="button button--primary button--lg" href="https://docs.google.com/forms/d/e/1FAIpQLSdt8GkcDiTOxfzXUpf2r37sAEZwqPCuMg200JfAXF4HOgEHkA/viewform" target="_blank">Submit a Talk</a>
-</div>
-
 <!-- truncate -->
+
+## Event Agenda
+
+09.00 - 09.45 - Registration & Networking
+
+09.45-10.00 - Meetup Kickoff & Welcome – Rohit Yadav, CSIUG Chairman
+
+10.00 -10.25 - The Yotta x CloudStack Advantage: a Scalable, India-First Cloud - Tailored for Sovereignty, Flexibility, Affordability and Innovation – Sunil Gupta, Yotta
+
+10.30 - 11.15 - Apache CloudStack 201: Let's Design & Build an IaaS Cloud – Jithin Raju, ShapeBlue
+
+11.30 - 11.55 - Empowering Cloud Providers with Apache CloudStack and Stackbill: From Infrastructure to Business Success - Ravichandran Palanisamy, StackBill
+
+12.00 - 12.25 - Ampere offers energy-efficient future for AI and Cloud - Vinod Kumar, Ampere Computing
+
+12.30 - 12.55 - Building and Operating a Private Cloud with CloudStack and LINBIT CloudStack HCI Appliance - Nischal Prabhu, LINBIT
+
+13.00 - 13.50 - Lunch & Networking
+
+13.50pm - 14.50 – Datacentre Tour
+
+14.50 - 15.00 - Meetup Photo-Op & Break
+
+15.00 - 15.25 - CloudStack GPU Integration - Rohit Yadav, ShapeBlue
+
+15.30 -15.55 - Simplifying End-to-End Apache CloudStack Deployment with a Web-Based Automation Portal - Vivek Kumar, Yotta
+
+16.00 -16.25 - Extensions Framework (XaaS) - Enabling Orchestrate Anything - Harikrishna Patnala & Abhishek Kumar, ShapeBlue
+
+16.30 - 17.30 - Meetup Closing & Networking
 
 ## Who Should Attend?
 
