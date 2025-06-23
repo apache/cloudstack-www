@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Autumn Edition: CloudStack European User Group 2025  - London, UK"
-tags: [events]
+tags: [news, events]
 authors: [jamie]
 slug: cseug-2025-london
 ---
