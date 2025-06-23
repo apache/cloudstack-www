@@ -28,6 +28,8 @@ The Call for presentations is open! We're looking for session proposals that hig
 Submit your session proposal using the button below for an opportunity to share your insights with the global CloudStack community. Please note that the CFP closes on August 1st.
 </b>
 
+<br/><br/>
+
 <div class="col col-3 col-lg text-center">
 <a class="button button--primary" href="https://tinyurl.com/4pks9ky4" target="_blank">Submit a Session</a>
 </div>
