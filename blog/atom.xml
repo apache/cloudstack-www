@@ -18,6 +18,7 @@
             <name>Jamie Pell</name>
             <uri>https://github.com/jamiepell10</uri>
         </author>
+        <category label="news" term="news"/>
         <category label="events" term="events"/>
     </entry>
     <entry>
