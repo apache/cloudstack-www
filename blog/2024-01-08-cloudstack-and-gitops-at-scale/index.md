@@ -49,11 +49,7 @@ questions to the AT&T team, to understand more about their choice of
 technology and learn for their experience of managing infrastructure
 at a large-scale and enterprise level.
 
-<iframe width="100%" height="480p" src="https://www.youtube.com/embed/Bc1a8YHdEq4?si=V7QZM660_YS9pjKp"
-title="YouTube video player" frameborder="0" allow="accelerometer;
-autoplay; clipboard-write; encrypted-media; gyroscope;
-picture-in-picture; web-share" allowfullscreen>
-</iframe>
+[![](preview.png "CloudStack GitOps at Scale - video")](https://www.youtube.com/watch?v=Bc1a8YHdEq4)
 
 <div class="text-center">
   Alex Dometrius, Associate Director - Technology at AT&T, presents at
