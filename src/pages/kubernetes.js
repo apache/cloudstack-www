@@ -86,11 +86,10 @@ lessons learned from previous cluster managers such as kops and
 kubicorn.
                 </p>
               </div>
-		<div className="col-lg-6">
-                  <a href="https://www.youtube.com/embed/NcfVkVT48Kk" target="_blank">
-                    <img src="/img/bootstrapping_k8s_capc.png" className="img-fluid" alt="Bootstrapping Kubernetes using CAPC"/>
-                  </a>
-                </div>
+              <div className="col-lg-6">
+                <a href="https://www.youtube.com/embed/NcfVkVT48Kk" target="_blank">
+                  <img src="/img/bootstrapping_k8s_capc.png" className="img-fluid" alt="Bootstrapping Kubernetes using CAPC"/>
+                </a>
               </div>
             </div>
           </div>
