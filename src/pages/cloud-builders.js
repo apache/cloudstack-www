@@ -131,6 +131,10 @@ requirements.</p>
             </div>
         </section>
 
+        <div class="col col-3 col-lg text-center">
+            <a class="button button--primary button--lg" href="/blog/tags/case-studies" target="_blank">Case Studies</a>
+        </div>
+
 
     <LearnMore/>
     </main>
