@@ -398,6 +398,7 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
     min-height: 375px;
+    height:100%;
 }
 .card-border {
     border: 1px solid #2AA5DC40;
