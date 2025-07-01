@@ -1413,9 +1413,7 @@ Dometrius shares more about the issued solved and the success with
 CloudStack. As a follow up of their talk at the event, we asked a few
 questions to the AT&amp;T team, to understand more about their choice of
 technology and learn for their experience of managing infrastructure
-at a large-scale and enterprise level.</p><iframe width="100%" height="480p" src="https://www.youtube.com/embed/Bc1a8YHdEq4?si=V7QZM660_YS9pjKp" title="YouTube video player" frameborder="0" allow="accelerometer;
-autoplay; clipboard-write; encrypted-media; gyroscope;
-picture-in-picture; web-share"></iframe><div class="text-center">Alex Dometrius, Associate Director - Technology at AT&amp;T, presents at CloudStack Collaboration Conference 2023.</div><strong>Why AT&amp;T chose open-source technologies?</strong><p>Our team has a long history of consuming and contributing to
+at a large-scale and enterprise level.</p><p><a href="https://www.youtube.com/watch?v=Bc1a8YHdEq4" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/preview-ed1b0048b468d717de9aadc64d074a90.png" title="CloudStack GitOps at Scale - video" width="2542" height="1182" class="img_ev3q"></a></p><div class="text-center">Alex Dometrius, Associate Director - Technology at AT&amp;T, presents at CloudStack Collaboration Conference 2023.</div><strong>Why AT&amp;T chose open-source technologies?</strong><p>Our team has a long history of consuming and contributing to
 open-source projects and we strive to use open-source technology
 wherever possible. At risk of stating the cliché benefits of using
 open-source software, there are several reasons why we lean towards
