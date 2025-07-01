@@ -91,38 +91,38 @@ requirements.</p>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-6 key-values">
                         <div className="power-card line">
                             <img src="/img/decrease_TCO_icon.svg" alt=""/>
                             <p className="card-title">Decrease TCO for your IaaS</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-6 key-values">
                         <div className="power-card line">
                             <img src="/img/open-source_icon.svg" alt=""/>
                             <p className="card-title">Completely open-source</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-6 key-values">
                         <div className="power-card line">
                             <img src="/img/community_icon.svg" alt=""/>
                             <p className="card-title">Powered by an active community</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
-                        <div className="power-card">
+                    <div className="col-lg-4 col-md-6 key-values">
+                        <div className="power-card line">
                             <img src="/img/easy_to_use_icon.svg" alt=""/>
                             <p className="card-title">Easy to use</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
-                        <div className="power-card">
+                    <div className="col-lg-4 col-md-6 key-values">
+                        <div className="power-card line">
                             <img src="/img/quick_deploy_icon.svg" alt=""/>
                             <p className="card-title">Quick to deploy</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6">
-                        <div className="power-card">
+                    <div className="col-lg-4 col-md-6 key-values">
+                        <div className="power-card line">
                             <img src="/img/vendor_integration_icon.svg" alt=""/>
                             <p className="card-title">Strong vendor integrations</p>
                         </div>
