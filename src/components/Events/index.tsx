@@ -121,17 +121,6 @@ involved with the community.
                   <a href="https://youtube.com/playlist?list=PLnIKk7GjgFlYRGmxK70VXSgpNXjEBHpYw&si=JQzS5sYCbmTeIsfs" target="_blank" className="btn btn-primary me-3">Watch</a>
                 </div>
               </div>
-              <div className="row">
-                <div className="col-lg-9 pt-3 px-4">
-                  <img src="/img/ceph day.png" alt="" className="events-img events-overview-img"/>
-                  <p className="title mt-2">Ceph and CloudStack Day 2024</p>
-                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Amsterdam, the Netherlands</p>
-                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>February 22, 2024</p>
-                </div>
-                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlYgPbjM3os1YoE10Ys9gEB6" target="_blank" className="btn btn-primary me-3">Watch</a>
-                </div>
-              </div>
             </div>
 
             <div className="text-center load-more">

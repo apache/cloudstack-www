@@ -395,11 +395,12 @@ footer {
 .apache-card {
     border-radius: 18px;
     padding: 10px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     min-height: 375px;
 }
 .card-border {
-	border: 1px solid #2AA5DC40;
+    border: 1px solid #2AA5DC40;
 }
 .apache-card-body {
 	padding: 25px;
@@ -462,6 +463,10 @@ iframe {
 }
 .bg-none .power-card {
 	min-height: 210px;
+}
+.key-values {
+    width: 100%;
+    padding: 5px;
 }
 
 
@@ -1211,13 +1216,10 @@ progress{vertical-align:baseline}
     margin-left:auto;
 }
 
-
 @media (min-width:576px){
     .container,.container-sm{
 	max-width:540px}
-
 }
-
 
 @media (min-width:768px){
     .container,.container-md,.container-sm{
@@ -1225,7 +1227,6 @@ progress{vertical-align:baseline}
     }
 
 }
-
 
 @media (min-width:992px){
     .container,.container-lg,.container-md,.container-sm{
