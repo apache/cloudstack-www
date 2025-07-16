@@ -8,7 +8,7 @@ PMC Information: https://projects.apache.org/committee.html?cloudstack
 
 Board Minutes: https://whimsy.apache.org/board/minutes/CloudStack.html
 
-**PMC Chair**: Nicolás Vázquez (nvazquez)
+**PMC Chair**: Daniel Augusto Veronezi Salvador (gutoveronezi)
 
 The following data is subject to change. The up-to-date information can be found on <a href="http://people.apache.org/committers-by-project.html#cloudstack-pmc">the Apache Peoples site</a>:
 
@@ -39,6 +39,7 @@ The following data is subject to change. The up-to-date information can be found
 - Ian Duffy  (duffy)
 - Ilya Musayev  (ilya)
 - Ivet Petrova  (ivet)
+- João Jandre Paraquetti  (joao)
 - Joe Brockmeier  (jzb)
 - John Burwell  (jburwell)
 - John Kinsella  (jlk)
@@ -54,6 +55,7 @@ The following data is subject to change. The up-to-date information can be found
 - Nux  (nux)
 - Olivier Lamy  (olamy)
 - Paul Angus  (paul_a)
+- Pearl Dsilva  (pearl11594)
 - Pierre-Luc Dion  (pdion891)
 - Prasanna  (tsp)
 - Rafael Weingärtner  (rafael)
@@ -87,6 +89,7 @@ The following data is subject to change. The up-to-date information can be found
 - Anh Tu Nguyen  (tuna)
 - Animesh  (animesh)
 - Anthony Xu  (anthonyxu)
+- Bernardo De Marco Gonçalves  (bernardodemarco)
 - Boris Schrijver  (boris)
 - Boris Stoyanov  (bstoyanov)
 - Brett Porter  (brett)
@@ -97,6 +100,7 @@ The following data is subject to change. The up-to-date information can be found
 - Chiradeep Vittal  (chiradeep)
 - Chris Suich  (csuich2)
 - Clayton Weise  (claytonweise)
+- CodeBleu  (codebleu)
 - Daan  (dahn)
 - Dag Sonstebo  (dsonstebo)
 - Daniel Augusto Veronezi Salvador  (gutoveronezi)
@@ -202,6 +206,7 @@ The following data is subject to change. The up-to-date information can be found
 - Sudhap  (sudhap)
 - Suresh Anaparti  (sureshanaparti)
 - Sven Vogel  (svogel)
+- Swen Brueseke  (sbrueseke)
 - Syed Ahmed  (syed)
 - Toshiaki Hatano  (haeena)
 - Venkata Swamy  (swamy)
