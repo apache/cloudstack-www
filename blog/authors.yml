@@ -1,3 +1,27 @@
+antonia:
+  name: Antonia Shehova-Vasileva
+  title: contributer
+  url: http://www.linkedin.com/in/antonia-shehova-vasileva
+  image_url: https://media.licdn.com/dms/image/v2/D4E03AQHF-3qytzHjzw/profile-displayphoto-shrink_400_400/B4EZRpDcknGcAg-/0/1736929299259?e=1753920000&v=beta&t=5mIamwLe-alEdHXqd_hqTO9FqvtuS3-2CobP5-P_M9c
+
+bobby:
+  name: Boris Stoyanov (Bobby)
+  title: PMC Member
+  url: https://github.com/borisstoyanov
+  image_url: https://github.com/borisstoyanov.png
+
+daan:
+  name: Daan Hoogland
+  title: Apache Foundation Member
+  url: https://github.com/DaanHoogland
+  image_url: https://github.com/DaanHoogland.png
+
+gutoveronezi:
+  name: Daniel Augusto Veronezi Salvador
+  title: PMC Member
+  url: https://github.com/gutoveronezi
+  image_url: https://github.com/gutoveronezi.png
+
 ivet:
   name: Ivet Petrova
   title: PMC Member
@@ -8,31 +32,13 @@ jamie:
   name: Jamie Pell
   title: Community Contributor
   url: https://github.com/jamiepell10
-  image_url: https://github.com/jamiepell10.png
+  image_url: /img/authors/jamie.png
 
-rohit:
-  name: Rohit Yadav
+joaojandre:
+  name: João Jandre Paraquetti
   title: PMC Member
-  url: https://github.com/rohityadavcloud
-  image_url: https://github.com/rohityadavcloud.png
-
-daan:
-  name: Daan Hoogland
-  title: Apache Foundation Member
-  url: https://github.com/DaanHoogland
-  image_url: https://github.com/DaanHoogland.png
-
-bobby:
-  name: Boris Stoyanov (Bobby)
-  title: PMC Member
-  url: https://github.com/borisstoyanov
-  image_url: https://github.com/borisstoyanov.png
-
-shwstppr:
-  name: Abhishek Kumar
-  title: PMC Member
-  url: https://github.com/shwstppr
-  image_url: https://github.com/shwstppr.png
+  url: https://github.com/JoaoJandre
+  image_url: https://github.com/JoaoJandre.png
 
 nicolas:
   name: Nicolas Vazquez
@@ -40,20 +46,26 @@ nicolas:
   url: https://github.com/nvazquez
   image_url: https://github.com/nvazquez.png
 
-gutoveronezi:
-  name: Daniel Augusto Veronezi Salvador
-  title: PMC Member
-  url: https://github.com/gutoveronezi
-  image_url: https://github.com/gutoveronezi.png
-
-joaojandre:
-  name: João Jandre Paraquetti
-  title: Committer
-  url: https://github.com/JoaoJandre
-  image_url: https://github.com/JoaoJandre.png
-
 nux:
   name: Nux
   title: PMC Member
   url: https://www.nux.ro
   image_url: https://github.com/NuxRo.png
+
+rohit:
+  name: Rohit Yadav
+  title: PMC Member
+  url: https://github.com/rohityadavcloud
+  image_url: https://github.com/rohityadavcloud.png
+
+shwstppr:
+  name: Abhishek Kumar
+  title: PMC Member
+  url: https://github.com/shwstppr
+  image_url: https://github.com/shwstppr.png
+
+pearl:
+  name: Pearl Dsilva
+  title: PMC Member
+  url: https://github.com/Pearl1594
+  image_url: https://github.com/Pearl1594.png

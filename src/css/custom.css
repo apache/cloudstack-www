@@ -395,11 +395,13 @@ footer {
 .apache-card {
     border-radius: 18px;
     padding: 10px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     min-height: 375px;
+    height:100%;
 }
 .card-border {
-	border: 1px solid #2AA5DC40;
+    border: 1px solid #2AA5DC40;
 }
 .apache-card-body {
 	padding: 25px;
@@ -463,6 +465,10 @@ iframe {
 .bg-none .power-card {
 	min-height: 210px;
 }
+.key-values {
+    width: 100%;
+    padding: 5px;
+}
 
 
 /* integrations page */
@@ -515,6 +521,13 @@ iframe {
 	border-radius: 18px;
 	margin: 5px;
 }
+.tab-box img {
+	width: auto;
+	height: auto;
+	max-width: 50%;
+	max-height: 50%;
+	object-fit: contain;
+}
 .box-blue {
 	background-color: #082755;
 }
@@ -541,9 +554,6 @@ iframe {
 .box-ansible {
 	background-image: url(img/ansible_bkg.png);
 	background-size: 100%;
-}
-.box-chef {
-	background-color: #3F5364;
 }
 .box-acronis {
 	background-color: #060F28;
@@ -579,6 +589,13 @@ iframe {
 .box-nutanix {
 	background-color: #A8CB3A;
 }
+.box-cloudstack {
+	background-color: #FFFFFF;
+}
+.box-cloudstack img {
+	height: 50%;
+	width: 50%;
+}
 .box-cloudian {
 	background-image: url(img/cloudian_bkg.png);
 	background-size: 100%;
@@ -597,6 +614,9 @@ iframe {
 }
 .box-apiculus {
     background-color: #cfe9ff;
+}
+.box-linbit {
+	background-color: #F79133;
 }
 .box278 {
 	height: 278px;
@@ -771,6 +791,9 @@ iframe {
 	.events-img {
 		width: 100%;
 		margin-bottom: 15px;
+	}
+	.events-overview-img {
+	    height: auto;
 	}
 	.horizontal-card {
 		text-align: center;
@@ -1211,13 +1234,10 @@ progress{vertical-align:baseline}
     margin-left:auto;
 }
 
-
 @media (min-width:576px){
     .container,.container-sm{
 	max-width:540px}
-
 }
-
 
 @media (min-width:768px){
     .container,.container-md,.container-sm{
@@ -1225,7 +1245,6 @@ progress{vertical-align:baseline}
     }
 
 }
-
 
 @media (min-width:992px){
     .container,.container-lg,.container-md,.container-sm{

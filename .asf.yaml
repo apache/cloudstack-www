@@ -51,8 +51,6 @@ notifications:
 staging:
   profile: ~
   whoami: staged-site
-  outputdir: content
 
 publish:
   whoami:  asf-site
-  outputdir: content

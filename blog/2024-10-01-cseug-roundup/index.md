@@ -9,15 +9,29 @@ slug: cseug-2024-roundup
 
 ![](header.jpg "2024 CSEUG Frankfurt roundup header")
 
-This year’s CloudStack European User Group was another successful event for the community. The event drew a strong audience, highlighting the growth of the CloudStack community in the region.
+This year’s CloudStack European User Group was another successful
+event for the community. The event drew a strong audience,
+highlighting the growth of the CloudStack community in the region.
 
 <!-- truncate -->
 
-Discussions centred around CloudStack’s capabilities as a compelling alternative to VMware, highlighting the many benefits organisations can gain by avoiding vendor lock-in. The CloudStack community would like to extend its gratitude to event host and sponsor, [proIO](https://www.proio.com/), as well as to the additional event sponsors, [ShapeBlue](https://www.shapeblue.com/) and [LINBIT](https://linbit.com/).
+Discussions centred around CloudStack’s capabilities as a compelling
+alternative to VMware, highlighting the many benefits organisations
+can gain by avoiding vendor lock-in. The CloudStack community would
+like to extend its gratitude to event host and sponsor,
+[proIO](https://www.proio.com/), as well as to the additional event
+sponsors, [ShapeBlue](https://www.shapeblue.com/) and
+[LINBIT](https://linbit.com/).
 
 Their invaluable support helped make the event a reality.
 
-Below you can find the sessions slides, abstracts, as well as speaker’s social links in case you would like to connect and have any questions about their session! For this event, there are no session recordings available. However, the upcoming [CloudStack Collaboration Conference](https://www.cloudstackcollab.org/) will have session recordings for those unable to attend in-person.
+<div class="col col-3 col-lg text-center">
+<a class="button button--primary" href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlbXgKta_5Wu8rlDIHsqz407" target="_blank">Watch Session Recordings</a>
+</div>
+<p/>
+Below you can find the sessions slides, abstracts, as well as
+speaker’s social links in case you would like to connect and have any
+questions about their session!
 
 **Access each session's slides by clicking onto the presentation graphic.**
 

@@ -25,26 +25,12 @@ will also be the local event host.
 
 ## Why Attend CSEUG 2025
 
-While the exact venue is yet to be confirmed, you can already mark
-your calendars for what promises to be a valuable gathering for
-developers, operators, and users of Apache CloudStack. Whether you’re
-an existing user of Apache CloudStack or have just started researching
-it, this is the perfect opportunity to connect and learn from fellow
-community members from the European CloudStack ecosystem. The event
-will host a full day of sessions, all focused-on Apache
-CloudStack. From new features to compelling case studies, the event
-promises to be yet another CSEUG to remember.
-
-## Call for Presentations
-
-We’re now accepting submissions for the Call for Presentations! If you
-have technical expertise specific to CloudStack, a case study you
-would like to share, or a new/upcoming feature you have been working
-on, you should submit a session!
-
-<div class="col col-3 col-lg text-center">
-<a class="button button--primary" href="https://docs.google.com/forms/d/e/1FAIpQLScA2IUj5rKIdd1qx-xCX5btB_FBAuBQNMzEjHwaFGhbZLFPcA/viewform?usp=sharing" target="_blank">Submit a Session</a>
-</div>
+Whether you’re an existing user of Apache CloudStack or have just
+started researching it, this is the perfect opportunity to connect and
+learn from fellow community members from the European CloudStack
+ecosystem. The event will host a full day of sessions, all focused-on
+Apache CloudStack. From new features to compelling case studies, the
+event promises to be yet another CSEUG to remember.
 
 ## Who is the Event for?
 
@@ -58,6 +44,34 @@ European CloudStack community. The primary audience includes
 enterprises, cloud service providers, telecommunications companies,
 and managed service providers (MSPs).
 
+## Agenda
+
+**10:00 - 10:45 - Apache CloudStack 101 - Introduction, What’s New and What’s Coming**,
+Giles Sirett, ShapeBlue
+
+**10:55 - 11:25 - Storage Setup for LINSTOR/DRBD/CloudStack**,
+Rene Peinthor, LINBIT
+
+**11:35 - 12:05 - I’d Like to Resell Your CloudStack Services, but...**,
+Brian Turnbow, CDLAN
+
+**12:15 - 12:45 - Fully Open-Source Private Clouds: Freedom, Security, and Control**,
+Swen Brüseke, proIO
+
+**12:45 - 13:45 - Lunch break**
+
+**13:45 - 14:15 - CloudStack + KVM: Your Local Cloud Lab**,
+Francisco Arencibia, Jotelulu
+
+**14:25 - 14:55 - Proposed Feature: Monitoring and Managing Cloud Usage in Apache CloudStack**,
+Grégoire Lamodiere, Joffrey Luangsaysana, DIMSI
+
+**15:05 - 15:35 - Stretching CloudStack Over Multiple Datacenters**,
+Wido den Hollander, Your.Online
+
+**15:45 - 16:15 - Pushing the Limits: CloudStack at 25K Hosts**,
+Boris Stoyanov, ShapeBlue
+
 ## Meet [LINBIT - Our Host](https://linbit.com/)
 
 LINBIT is the company behind the open-source storage software DRBD and
@@ -68,5 +82,6 @@ Kernel in 2010 by Linus Torvalds. LINBIT’s roots are deeply embedded
 in the open-source community, and its software and solutions are
 utilized by established organizations and businesses worldwide.
 
+## The Event Venue is Confirmed!
 
-## The CloudStack European User Group is scheduled to take place at [QUARTIER BELVEDERE CENTRAL 3, Gertrude-Fröhlich-Sandner-Straße 3, 1100 Vienna, Austriа.](https://maps.app.goo.gl/bL1qhDM8eC7EJNMM9)
+**This year’s Spring Edition of CSEUG** will be held near **Vienna’s historic Old Town**, at [Quartier Belvedere Central 3](https://shapeblue.us1.list-manage.com/track/click?u=5dc04ec275e7bd0b6af196418&id=c21a8d9a71&e=3c67b97b3c). Conveniently located just **20 minutes from Vienna International Airport** by car or public transport, this venue offers an easily accessible and welcoming space for our community members traveling to the event.
