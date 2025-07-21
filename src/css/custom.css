@@ -207,7 +207,7 @@ h1 {
     margin-bottom: 20px;
 }
 .power-card.line {
-	position: relative;
+    position: relative;
 }
 .power-card.line::before {
 	position: absolute;
@@ -230,6 +230,75 @@ h1 {
 }
 .card-text {
 	min-height: 120px;
+}
+
+/* Powers section mobile optimizations */
+@media only screen and (max-width: 768px) {
+    .powers {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        background: none !important;
+    }
+
+    .powers .row {
+        margin-left: -0.5rem;
+        margin-right: -0.5rem;
+    }
+
+    .powers .col-lg-4,
+    .powers .col-md-6 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .powers .col-lg-4:last-child,
+    .powers .col-md-6:last-child {
+        margin-bottom: 0;
+    }
+
+    .powers .power-card {
+        background-color: transparent !important;
+        margin-bottom: 0.5rem !important;
+        padding: 1rem !important;
+    }
+
+    .powers .power-card .card-text {
+        min-height: auto !important;
+        margin-bottom: 0.75rem !important;
+    }
+}
+
+/* Powers section small mobile optimizations */
+@media only screen and (max-width: 576px) {
+    .powers {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+        background: none !important;
+    }
+
+    .powers .row {
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
+    }
+
+    .powers .col-lg-4,
+    .powers .col-md-6 {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .powers .power-card {
+        background-color: transparent !important;
+        margin-bottom: 0.25rem !important;
+        padding: 0.75rem !important;
+    }
+
+    .powers .power-card .card-text {
+        min-height: auto !important;
+        margin-bottom: 0.5rem !important;
+    }
 }
 
 /* solves */
@@ -1236,7 +1305,8 @@ progress{vertical-align:baseline}
 
 @media (min-width:576px){
     .container,.container-sm{
-	max-width:540px}
+	max-width:540px;
+    }
 }
 
 @media (min-width:768px){
