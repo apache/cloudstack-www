@@ -18,16 +18,6 @@ energy.
 
 <!-- truncate -->
 
-CloudStack India User Group 2025 – Event Roundup
-
-The 2025 edition of the CloudStack India User Group (CSIUG) brought
-together passionate users, contributors, and innovators from across
-the region to explore the evolving landscape of Apache
-CloudStack. Hosted in person at the D1 Yotta Data Center in Greater
-Noida and supported by ShapeBlue, Yotta and LINBIT, the event was
-packed with technical talks, deployment insights, and collaborative
-energy.
-
 <div class="col col-3 col-lg text-center">
   <a class="button button--primary" href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlaO1t3mtHeJ_g_MKBQKnfkR" target="_blank">Watch Session Recordings</a>
 </div>
@@ -102,7 +92,7 @@ A technical deep dive into how Yotta has automated complex CloudStack
 deployments using a custom-built web UI that drives Ansible playbooks
 interactively.
 
-[![] "Simplifying End-to-End Apache CloudStack Deployment with a Web-Based Automation Portal - slides"](VivekYotta.png https://www.slideshare.net/slideshow/simplifying-end-to-end-apache-cloudstack-deployment-with-a-web-based-automation-portal/281704660)
+[![](VivekYotta.png "Simplifying End-to-End Apache CloudStack Deployment with a Web-Based Automation Portal - slides")](https://www.slideshare.net/slideshow/simplifying-end-to-end-apache-cloudstack-deployment-with-a-web-based-automation-portal/281704660)
 
 ##### Extensions Framework (XaaS) - Enabling Orchestrate Anything - [Harikrishna Patnala](https://www.linkedin.com/in/harikrishnapatnala/) - Lead Software Engineer & [Abhishek Kumar](https://www.linkedin.com/in/shwstppr/) - Software Engineer at ShapeBlue
 
