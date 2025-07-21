@@ -136,7 +136,7 @@ computing</strong> capabilities with Edge zones.
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="power-card">
+                <div className="power-card line">
                   <img src="/img/enterprises_icon.svg" alt=""/>
                   <p className="card-title mb-3">Enterprises</p>
                   <p className="card-text">
