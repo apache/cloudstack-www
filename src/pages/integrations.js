@@ -296,8 +296,18 @@ export default function CloudStackIntegrations() {
           className: "box-kubernetes box192",
           imageSrc: "/img/kubernetes_logo.svg",
           altText: "kubernetes",
-          colClass: "col-md-12",
-          iconColor: "light" // light icon for dark kubernetes logo
+          colClass: "col-md-6",
+          iconColor: "light"
+        },
+        {
+          key: "capc",
+          title: "Cluster API Provider for CloudStack",
+          description: "The Cluster API Provider for CloudStack (CAPC) extends Kubernetes Cluster API to support automated provisioning and lifecycle management of Kubernetes clusters on Apache CloudStack environments. Developed and maintained under the Kubernetes SIG Cluster Lifecycle project, CAPC allows administrators to declaratively define, deploy, and manage Kubernetes clusters using Kubernetes-native resources, applying infrastructure-as-code principles consistently across environments.\n\nUsing CAPC, organizations can automate the creation of management and workload clusters on CloudStack, leveraging Cluster API concepts like MachineDeployments and KubeadmControlPlane. CAPC interacts directly with CloudStack APIs to provision virtual machines, configure networking, and orchestrate node lifecycles. Features include support for multi-node control planes, use of isolated or shared networks, cloud-init-based instance bootstrapping, and infrastructure reconciliation aligned with Kubernetes best practices.\n\nThis integration empowers CloudStack users to standardize Kubernetes deployments, simplify cluster scaling and upgrades, and adopt hybrid or multi-cloud strategies using a consistent Kubernetes-centric management approach.",
+          className: "box-kubernetes box192",
+          imageSrc: "/img/cluster_api.svg",
+          altText: "capc",
+          colClass: "col-md-6",
+          iconColor: "light"
         }
       ]
     },
@@ -365,7 +375,17 @@ export default function CloudStackIntegrations() {
           className: "box-veeam box192",
           imageSrc: "/img/veeam_logo.svg",
           altText: "veeam",
-          colClass: "col-md-12",
+          colClass: "col-md-6",
+          iconColor: "dark"
+        },
+        {
+          key: "prometheus",
+          title: "Prometheus",
+          description: "Apache CloudStack includes built‑in support for exporting real‑time metrics in Prometheus format via a dedicated plugin. Once enabled through global settings (such as prometheus.exporter.enable), the management server exposes an HTTP /metrics endpoint. This endpoint delivers zone‑aware metrics covering host status (online/offline), CPU and memory usage, VM counts, and more. A typical monitoring setup involves running Prometheus to scrape these metrics, alongside complementary exporters like node_exporter (for host-level system metrics) or libvirt/vmware exporters for hypervisor specifics. These metrics can be visualized and analyzed using dashboards in Grafana — several community resources document this end-to-end integration. The plugin is widely adopted in production environments, and enhances operational visibility out‑of‑the‑box, enabling better capacity planning, alerting, and SLA monitoring.",
+          className: "box-white box192",
+          imageSrc: "/img/prometheus.svg",
+          altText: "prometheus",
+          colClass: "col-md-6",
           iconColor: "dark"
         }
       ]
