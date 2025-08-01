@@ -8,7 +8,7 @@ PMC Information: https://projects.apache.org/committee.html?cloudstack
 
 Board Minutes: https://whimsy.apache.org/board/minutes/CloudStack.html
 
-**PMC Chair**: Daniel Augusto Veronezi Salvador (gutoveronezi)
+**PMC Chair**: Nicolás Vázquez (nvazquez)
 
 The following data is subject to change. The up-to-date information can be found on <a href="http://people.apache.org/committers-by-project.html#cloudstack-pmc">the Apache Peoples site</a>:
 
@@ -16,9 +16,9 @@ The following data is subject to change. The up-to-date information can be found
 
 - Abhishek Kumar  (shwstppr)
 - Alena Prokharchyk  (alena1108)
-- Alexandre Mattioli  (alexandremattioli)
 - Alex Huang  (ahuang)
 - Alex Karasulu  (akarasulu)
+- Alexandre Mattioli  (alexandremattioli)
 - Andrija Panic  (andrijapanic)
 - Animesh  (animesh)
 - Boris Schrijver  (boris)
@@ -72,8 +72,8 @@ The following data is subject to change. The up-to-date information can be found
 - Wei Zhou  (weizhou)
 - Wido den Hollander  (widodh)
 - Wilder Rodrigues  (ekho)
-- William Chan  (willchan)
 - Will Stevens  (swill)
+- William Chan  (willchan)
 
 **<a name="committers">Committers</a>**:
 
@@ -81,9 +81,9 @@ The following data is subject to change. The up-to-date information can be found
 - Abhishek Kumar  (shwstppr)
 - Ahmad Emneina  (ahmad)
 - Alena Prokharchyk  (alena1108)
-- Alexandre Mattioli  (alexandremattioli)
 - Alex Huang  (ahuang)
 - Alex Karasulu  (akarasulu)
+- Alexandre Mattioli  (alexandremattioli)
 - Amogh Vasekar  (amoghvk)
 - Andrija Panic  (andrijapanic)
 - Anh Tu Nguyen  (tuna)
@@ -216,7 +216,7 @@ The following data is subject to change. The up-to-date information can be found
 - Wei Zhou  (weizhou)
 - Wido den Hollander  (widodh)
 - Wilder Rodrigues  (ekho)
-- William Chan  (willchan)
 - Will Stevens  (swill)
+- William Chan  (willchan)
 - Xin Zhang  (frankzhang)
 - Yoshikazu Nojima  (ynojima)
