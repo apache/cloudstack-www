@@ -97,7 +97,7 @@ Board Minutes: https://whimsy.apache.org/board/minutes/CloudStack.html
 
 """)
 
-        pmc_chair = "Daniel Augusto Veronezi Salvador (gutoveronezi)"
+        pmc_chair = "Nicolás Vázquez (nvazquez)"
         f.write(f"**PMC Chair**: {pmc_chair}\n\n")
 
         f.write("The following data is subject to change. The up-to-date information can be found on <a href=\"http://people.apache.org/committers-by-project.html#cloudstack-pmc\">the Apache Peoples site</a>:\n\n")
