@@ -10,6 +10,7 @@ slug: cseug-autumn-2025-agenda
 
 
 We're revealing the full agenda for [the upcoming CloudStack European User Group in London](https://www.eventbrite.com/e/autumn-edition-cloudstack-european-user-group-2025-tickets-1366848914899?aff=oddtdtcreator), a must-attend event for anyone working with or interested in open-source cloud infrastructure. This year's agenda brings together leading experts from across the CloudStack ecosystem to share real-world use cases, technical deep dives, and community discussions.
+
 From building Tier 1 infrastructure and exploring the future of orchestration, to enabling scientific research and rethinking performance metrics—there’s something for everyone. Whether you're a developer, architect, or decision-maker, this event is your opportunity to connect, learn, and shape the future of Apache CloudStack.
 
 <!-- truncate -->
