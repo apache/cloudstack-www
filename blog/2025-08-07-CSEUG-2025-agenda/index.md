@@ -20,7 +20,7 @@ From building Tier 1 infrastructure and exploring the future of orchestration, t
 
 Steve will talk about this group and the community, and will also provide an introductory overview of CloudStack, covering its core features, architecture, and practical use cases. Attendees will gain insights into how CloudStack simplifies cloud orchestration, supports multiple hypervisors, and integrates seamlessly with existing IT infrastructure. He will also present the CloudStack news, talking through recent releases and new features.
 
-###### 11:25 - 11:55    Apache Cloudstack: Powering research in Apiculture, Aquaponics, and advanced networking, [Mike Hinsley](https://www.linkedin.com/in/michael-hinsley-b29b5234/), [Objectway](https://objectway.com/)
+###### 11:25 - 11:55    Apache Cloudstack: Powering research in Apiculture, Aquaponics, and advanced networking, Mike Hinsley, Objectway
 
 Exploring how Apache CloudStack serves as a versatile infrastructure foundation for innovative research in apiculture, aquaponics, and advanced networking. The practical implementations including IoT sensor networks for bee colony monitoring, automated aquaponics control systems, and complex network testbeds using EVE-NG Pro with SONiC virtual switches. How open-source cloud infrastructure can power cutting-edge agricultural research while providing the scalability, flexibility, and cost-effectiveness essential for modern research environments.
 
