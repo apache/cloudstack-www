@@ -18,7 +18,12 @@ the following usages:
 - share log files
 - use any of [the third party integration components](integrations), that are meant for monitoring, storage, network and more.
 
-That said, the project will work with any one on improving the secure
+In addition to that, it is your own responsibility to
+
+- protect against DoS and brute-force attacks.
+- provide full fletched monitoring. Though some facilities are provided, putting appropriate monitoring remains the ultimate responsibility of the operator.
+
+That all said, the project will work with any one on improving the secure
 use of the software it provides, with any 3rd party integration
 vendors or users of the software. This can be done on public GitHub
 issues or confidentially if so desired.
