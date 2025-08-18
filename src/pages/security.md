@@ -21,7 +21,7 @@ the following usages:
 In addition to that, it is your own responsibility to
 
 - protect against DoS and brute-force attacks.
-- provide full fletched monitoring. Though some facilities are provided, putting appropriate monitoring remains the ultimate responsibility of the operator.
+- provide full fledged monitoring. Though some facilities are provided, putting appropriate monitoring remains the ultimate responsibility of the operator.
 
 That all said, the project will work with any one on improving the secure
 use of the software it provides, with any 3rd party integration
