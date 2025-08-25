@@ -22,7 +22,7 @@ In addition to that, it is your own responsibility, as an operator to
 
 - protect against DoS and brute-force attacks.
 - provide full fledged monitoring. Though some facilities are provided, putting appropriate monitoring remains the ultimate responsibility of the operator.
-- ensure the security and integrity, including safeguarding them against unauthorized external access of critical cloud resources. These include, but are not limited to OS level access to Hosts, Management Servers, SytemVMs and routers.
+- ensure the security and integrity, including safeguarding them against unauthorized external access of critical cloud resources. These include, but are not limited to OS level access to Hosts, Management Servers, SystemVMs and routers.
 
 That all said, the project will work with any one on improving the secure
 use of the software it provides, with any 3rd party integration
