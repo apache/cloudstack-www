@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.21.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>listGuiThemes</h1>
+                                        <p>Lists GUI themes.</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>accountid</i></td><td style="width:500px;"><i>The ID of the account to be filtered.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>commonname</i></td><td style="width:500px;"><i>The internet Common Name (CN) to be filtered.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>domainid</i></td><td style="width:500px;"><i>The ID of the domain to be filtered.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>id</i></td><td style="width:500px;"><i>The theme ID.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>keyword</i></td><td style="width:500px;"><i>List by keyword</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>listall</i></td><td style="width:500px;"><i>Whether to list all themes.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>listonlydefaulttheme</i></td><td style="width:500px;"><i>Whether to only list the default theme.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>name</i></td><td style="width:500px;"><i>The name of the theme.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>page</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>pagesize</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>showpublic</i></td><td style="width:500px;"><i>Whether to list public themes.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>showremoved</i></td><td style="width:500px;"><i>Whether to list removed themes.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">ID of the custom GUI theme.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>accountids</strong></td><td style="width:500px;">A set of account UUIDs (also known as ID for the end-user) separated by comma that can retrieve the theme.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>commonnames</strong></td><td style="width:500px;">A set of Common Names (CN) (fixed or wildcard) separated by comma that can retrieve the theme; e.g.: *acme.com,acme2.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>created</strong></td><td style="width:500px;">When the GUI theme was created.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>css</strong></td><td style="width:500px;">The CSS to be retrieved and imported into the GUI when matching the theme access configurations.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>description</strong></td><td style="width:500px;">Description of the GUI theme.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainids</strong></td><td style="width:500px;">A set of domain UUIDs (also known as ID for the end-user) separated by comma that can retrieve the theme.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ispublic</strong></td><td style="width:500px;">Defines whether a theme can be retrieved by anyone when only the `commonNames` is informed. If the `domainIds` or `accountIds` is informed, it is considered as `false`.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>jsonconfiguration</strong></td><td style="width:500px;">The JSON with the configurations to be retrieved and imported into the GUI when matching the theme access configurations.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;">Name of the GUI theme.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>recursivedomains</strong></td><td style="width:500px;">Whether to consider the subdomains of the informed domain IDs.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>removed</strong></td><td style="width:500px;">When the GUI theme was removed.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
