@@ -96,7 +96,7 @@ https://www.shapeblue.com/packages/
 </div>
 <div className="col col--9">
 <em>
-“Apache CloudStack 4.21.0 is a Regular (non-LTS) release after long time, with the last one being 4.12.0 in April 2019. This release introduces exciting new features designed to help organizations build faster, more efficient clouds while simplifying their management. The 4.21.0 release is a joint effort of the whole community for the last six months and more – with contributors and committers from around the world collaborating on feature
+“Apache CloudStack 4.21.0 is a Regular (non-LTS) release after a long time, with the last one being 4.12.0 in April 2019. This release introduces exciting new features designed to help organizations build faster, more efficient clouds while simplifying their management. The 4.21.0 release is a joint effort of the whole community for the last six months and more – with contributors and committers from around the world collaborating on feature
 
 development and code quality. Operators and users can now explore GPU workloads, integrate external systems through the new extensibility framework, and benefit from many other enhancements.
 

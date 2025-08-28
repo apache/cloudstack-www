@@ -62,7 +62,7 @@ Gain insights from community members Swen Brüseke and Ivet Petrova as they refl
 <div className="row">
 <div className="col col--3">
 
-![](ivet.png "Ivet Petrova" class="blog-image")
+![](/img/ivet.png "Ivet Petrova" class="blog-image")
 
 </div>
 <div className="col col--9">

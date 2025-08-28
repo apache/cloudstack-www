@@ -39,7 +39,7 @@ develop new skills and knowledge.
 >
 >-&nbsp;[Ayush Pandey](https://www.linkedin.com/in/itsayushpandey/), GSoC 2023 Student
 
-![](nicolas.png "Nicolas")
+![](/img/authors/nicolas.png "Nicolas")
 
 >“I am very excited to be coordinating the CloudStack projects for the Google
 >Summer of Code 2023 and mentoring Ayush on his project. I think GSOC is a great
