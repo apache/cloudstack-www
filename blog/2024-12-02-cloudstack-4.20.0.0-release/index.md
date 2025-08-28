@@ -91,7 +91,7 @@ https://www.shapeblue.com/packages/
 <div className="row">
 <div className="col col--3">
 
-![](joao.jpg "João Jandre Paraquetti" class="blog-image")
+![](/img/authors/joao.jpg "João Jandre Paraquetti" class="blog-image")
 
 </div>
 <div className="col col--9">
@@ -119,7 +119,7 @@ Furthermore, already existing features were revamped, such as the Quota plugin, 
 <div className="row">
 <div className="col col--3">
 
-![](gutoveronezi.jpeg "Daniel Augusto Veronezi Salvador" class="blog-image")
+![](/img/authors/gutoveronezi.jpeg "Daniel Augusto Veronezi Salvador" class="blog-image")
 
 </div>
 <div className="col col--9">

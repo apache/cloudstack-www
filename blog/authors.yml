@@ -14,13 +14,13 @@ daan:
   name: Daan Hoogland
   title: Apache Foundation Member
   url: https://github.com/DaanHoogland
-  image_url: https://github.com/DaanHoogland.png
+  image_url: /img/authors/dahn.png
 
 gutoveronezi:
   name: Daniel Augusto Veronezi Salvador
   title: PMC Member
   url: https://github.com/gutoveronezi
-  image_url: https://github.com/gutoveronezi.png
+  image_url: /img/authors/gutoveronezi.jpeg
 
 ivet:
   name: Ivet Petrova
@@ -38,13 +38,13 @@ joaojandre:
   name: João Jandre Paraquetti
   title: PMC Member
   url: https://github.com/JoaoJandre
-  image_url: https://github.com/JoaoJandre.png
+  image_url: /img/authors/joao.jpg
 
 nicolas:
   name: Nicolas Vazquez
   title: PMC Member
   url: https://github.com/nvazquez
-  image_url: https://github.com/nvazquez.png
+  image_url: /img/authors/nicolas.png
 
 nux:
   name: Nux
