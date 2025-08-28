@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.21.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>createDomain</h1>
+                                        <p>Creates a domain</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;"><strong>creates domain with this name</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>domainid</i></td><td style="width:500px;"><i>Domain UUID, required for adding domain from another Region</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>networkdomain</i></td><td style="width:500px;"><i>Network domain for networks in the domain</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>parentdomainid</i></td><td style="width:500px;"><i>assigns new domain a parent domain by domain ID of the parent.  If no parent domain is specified, the ROOT domain is assumed.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">the ID of the domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>backupavailable</strong></td><td style="width:500px;">the total number of backups available to this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>backuplimit</strong></td><td style="width:500px;">the total number of backups which can be stored by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>backupstorageavailable</strong></td><td style="width:500px;">the total backup storage space (in GiB) available to the domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>backupstoragelimit</strong></td><td style="width:500px;">the total backup storage space (in GiB) the domain can own</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>backupstoragetotal</strong></td><td style="width:500px;">the total backup storage space (in GiB) owned by the domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>backuptotal</strong></td><td style="width:500px;">the total number of backups stored by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>bucketavailable</strong></td><td style="width:500px;">the total number of buckets available to this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>bucketlimit</strong></td><td style="width:500px;">the total number of buckets which can be stored by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>buckettotal</strong></td><td style="width:500px;">the total number of buckets stored by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cpuavailable</strong></td><td style="width:500px;">the total number of cpu cores available to be created for this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cpulimit</strong></td><td style="width:500px;">the total number of cpu cores the domain can own</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cputotal</strong></td><td style="width:500px;">the total number of cpu cores owned by domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>created</strong></td><td style="width:500px;">the date when this domain was created</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domaindetails</strong></td><td style="width:500px;">details for the domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>gpuavailable</strong></td><td style="width:500px;">the total number of gpus available to be created for this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>gpulimit</strong></td><td style="width:500px;">the total number of gpus the domain can own</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>gputotal</strong></td><td style="width:500px;">the total number of gpus owned by domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>haschild</strong></td><td style="width:500px;">whether the domain has one or more sub-domains</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>icon</strong></td><td style="width:500px;">Base64 string representation of the resource icon</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ipavailable</strong></td><td style="width:500px;">the total number of public ip addresses available for this domain to acquire</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>iplimit</strong></td><td style="width:500px;">the total number of public ip addresses this domain can acquire</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>iptotal</strong></td><td style="width:500px;">the total number of public ip addresses allocated for this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>level</strong></td><td style="width:500px;">the level of the domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>memoryavailable</strong></td><td style="width:500px;">the total memory (in MB) available to be created for this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>memorylimit</strong></td><td style="width:500px;">the total memory (in MB) the domain can own</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>memorytotal</strong></td><td style="width:500px;">the total memory (in MB) owned by domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;">the name of the domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkavailable</strong></td><td style="width:500px;">the total number of networks available to be created for this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkdomain</strong></td><td style="width:500px;">the network domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networklimit</strong></td><td style="width:500px;">the total number of networks the domain can own</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networktotal</strong></td><td style="width:500px;">the total number of networks owned by domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>objectstorageavailable</strong></td><td style="width:500px;">the total object storage space (in GiB) available to the domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>objectstoragelimit</strong></td><td style="width:500px;">the total object storage space (in GiB) the domain can own</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>objectstoragetotal</strong></td><td style="width:500px;">the total object storage space (in GiB) owned by the domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>parentdomainid</strong></td><td style="width:500px;">the domain ID of the parent domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>parentdomainname</strong></td><td style="width:500px;">the domain name of the parent domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>path</strong></td><td style="width:500px;">the path of the domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>primarystorageavailable</strong></td><td style="width:500px;">the total primary storage space (in GiB) available to be used for this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>primarystoragelimit</strong></td><td style="width:500px;">the total primary storage space (in GiB) the domain can own</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>primarystoragetotal</strong></td><td style="width:500px;">the total primary storage space (in GiB) owned by domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>projectavailable</strong></td><td style="width:500px;">the total number of projects available for administration by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>projectlimit</strong></td><td style="width:500px;">the total number of projects the domain can own</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>projecttotal</strong></td><td style="width:500px;">the total number of projects being administrated by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>secondarystorageavailable</strong></td><td style="width:500px;">the total secondary storage space (in GiB) available to be used for this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>secondarystoragelimit</strong></td><td style="width:500px;">the total secondary storage space (in GiB) the domain can own</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>secondarystoragetotal</strong></td><td style="width:500px;">the total secondary storage space (in GiB) owned by domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>snapshotavailable</strong></td><td style="width:500px;">the total number of snapshots available for this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>snapshotlimit</strong></td><td style="width:500px;">the total number of snapshots which can be stored by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>snapshottotal</strong></td><td style="width:500px;">the total number of snapshots stored by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>state</strong></td><td style="width:500px;">the state of the domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>taggedresources</strong></td><td style="width:500px;">The tagged resource limit and count for the domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>templateavailable</strong></td><td style="width:500px;">the total number of templates available to be created by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>templatelimit</strong></td><td style="width:500px;">the total number of templates which can be created by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>templatetotal</strong></td><td style="width:500px;">the total number of templates which have been created by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vmavailable</strong></td><td style="width:500px;">the total number of virtual machines available for this domain to acquire</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vmlimit</strong></td><td style="width:500px;">the total number of virtual machines that can be deployed by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vmtotal</strong></td><td style="width:500px;">the total number of virtual machines deployed by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>volumeavailable</strong></td><td style="width:500px;">the total volume available for this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>volumelimit</strong></td><td style="width:500px;">the total volume which can be used by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>volumetotal</strong></td><td style="width:500px;">the total volume being used by this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vpcavailable</strong></td><td style="width:500px;">the total number of vpcs available to be created for this domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vpclimit</strong></td><td style="width:500px;">the total number of vpcs the domain can own</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vpctotal</strong></td><td style="width:500px;">the total number of vpcs owned by domain</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
