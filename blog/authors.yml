@@ -26,7 +26,7 @@ ivet:
   name: Ivet Petrova
   title: PMC Member
   url: https://github.com/IvetPM
-  image_url: https://github.com/IvetPM.png
+  image_url: /img/authors/ivet.png
 
 jamie:
   name: Jamie Pell
@@ -56,7 +56,7 @@ rohit:
   name: Rohit Yadav
   title: PMC Member
   url: https://github.com/rohityadavcloud
-  image_url: https://github.com/rohityadavcloud.png
+  image_url: /img/authors/rohit.png
 
 shwstppr:
   name: Abhishek Kumar
@@ -68,7 +68,7 @@ suresh:
   name: Suresh Anaparti
   title: PMC Member
   url: https://github.com/sureshanaparti
-  image_url: https://github.com/sureshanaparti.png
+  image_url: /img/Suresh.jpg
 
 pearl:
   name: Pearl Dsilva

@@ -95,7 +95,7 @@ you want to be."
 </div>
 <div className="col col--3">
 
-![](rohit.png "Rohit Yadav" class="blog-image")
+![](/img/authors/rohit.png "Rohit Yadav" class="blog-image")
 
 </div>
 </div>
