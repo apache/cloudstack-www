@@ -2,7 +2,7 @@
 layout: post
 title: Apache CloudStack CloudMonkey 6.5.0 Release
 tags: [announcement]
-authors: [abhishek]
+authors: [shwstppr]
 slug: cloudmonkey-6.5-release
 ---
 
