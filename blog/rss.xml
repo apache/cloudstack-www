@@ -4,10 +4,33 @@
         <title>Apache CloudStack Blog</title>
         <link>https://cloudstack.apache.org/blog</link>
         <description>Apache CloudStack Blog</description>
-        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apache CloudStack CloudMonkey 6.5.0 Release]]></title>
+            <link>https://cloudstack.apache.org/blog/cloudmonkey-6.5-release</link>
+            <guid>https://cloudstack.apache.org/blog/cloudmonkey-6.5-release</guid>
+            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are pleased to announce the release of Apache CloudStack CloudMonkey v6.5.0,]]></description>
+            <content:encoded><![CDATA[<p><a href="/blog/cloudmonkey-6.5-release"><img loading="lazy" src="/assets/images/banner-00cffd639418c48fde1f4c479259e9b6.svg" title="CloudMonkey Image" width="1484" height="363" class="img_ev3q"></a></p><p>We are pleased to announce the release of Apache CloudStack CloudMonkey v6.5.0,
+the latest version of the popular command-line interface tool for managing
+Apache CloudStack environments.</p><p>CloudMonkey 6.5.0 focuses on practical improvements: simpler template/ISO
+uploads from the CLI, built-in 2FA prompts for secure sign-in, and more helpful
+autocompletion that suggests resource names (with details) as you type.
+Some of the key highlights of this release include:</p><ul><li>Adds support for template/ISO file upload</li><li>Adds support for Two-Factor Authentication (2FA) prompts</li><li>Improves autocompletion filtering and listing for different
+resources, with name/detail-based suggestions</li><li>Enables sending API requests using HTTP POST</li><li>Improves output formatting for multiple formats and asynchronous APIs</li><li>Enhances filtering output, with support for async APIs and reverse
+filtering via the excludefilter option</li><li>Updates inbuilt API precache to ACS v4.21</li><li>Improves credential fallback for command-line scenario</li><li>Hardens file permissions for config and history file access</li><li>Improves validation when setting configuration values</li><li>Improves overall linting, tests, and automated workflows for the repository</li></ul><p>CloudMonkey v6.5.0 is <a href="https://cloudstack.apache.org/downloads.html" target="_blank" rel="noopener noreferrer">available for download</a>
+now from the Apache CloudStack website. For more information on the release, including a full list
+of new features and bug fixes, please refer to the release notes.</p><a href="https://github.com/apache/cloudstack-cloudmonkey/releases/tag/6.5.0" target="_blank" rel="noopener noreferrer" class="button button--primary">Download CloudMonkey v6.5.0</a><br><br><h1>Downloads and Documentation</h1><p>The official source code for CloudMonkey v6.5.0 can be downloaded from:
+<a href="https://cloudstack.apache.org/downloads.html" target="_blank" rel="noopener noreferrer">https://cloudstack.apache.org/downloads.html</a></p><p>CloudMonkey's usage details are documented at
+<a href="https://github.com/apache/cloudstack-cloudmonkey/wiki" target="_blank" rel="noopener noreferrer">https://github.com/apache/cloudstack-cloudmonkey/wiki</a></p><p>We encourage all CloudStack users to upgrade to CloudMonkey 6.5.0 to take
+advantage of the latest features and improvements. As always, we welcome
+feedback and contributions from the community to help make CloudMonkey even
+better.</p><p>Thank you for your continued support of Apache CloudStack CloudMonkey.</p>]]></content:encoded>
+            <category>announcement</category>
+        </item>
         <item>
             <title><![CDATA[Apache CloudStack 4.21.0.0 Release]]></title>
             <link>https://cloudstack.apache.org/blog/cloudstack-4.21.0.0-release</link>
