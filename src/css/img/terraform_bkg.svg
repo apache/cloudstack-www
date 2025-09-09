@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="278" height="131" viewBox="0 0 278 131">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectangle_31878" data-name="Rectangle 31878" width="278" height="131" rx="18" transform="translate(1262 3219)" fill="#08111f"/>
+      <rect id="Rectangle_31878" data-name="Rectangle 31878" width="278" height="131" transform="translate(1262 3219)" fill="#08111f"/>
     </clipPath>
     <clipPath id="clip-path-2">
       <rect id="Rectangle_31872" data-name="Rectangle 31872" width="228" height="196" transform="translate(0 126.145)" fill="none"/>
@@ -14,7 +14,7 @@
     </clipPath>
   </defs>
   <g id="terraform_bkg" transform="translate(-1262 -3219)">
-    <rect id="Rectangle_31861" data-name="Rectangle 31861" width="278" height="131" rx="18" transform="translate(1262 3219)" fill="#08111f"/>
+    <rect id="Rectangle_31861" data-name="Rectangle 31861" width="278" height="131" transform="translate(1262 3219)" fill="#08111f"/>
     <g id="Mask_Group_54038" data-name="Mask Group 54038" clip-path="url(#clip-path)">
       <g id="Group_96021" data-name="Group 96021" transform="translate(500 -104)">
         <path id="Path_90355" data-name="Path 90355" d="M26.89,126.145h3.22L228,12.735V10.889L27.135,126l-.245.141ZM8.136,126,228,0V1.846L11.11,126.145H7.89Zm57,0L228,32.666v1.846L68.11,126.145H64.89Zm-19,0L228,21.777v1.846L49.11,126.145H45.89l.246-.141m38,0L228,43.555V45.4L87.11,126.145H83.89l.245-.141Zm19,0L228,54.443v1.846L106.109,126.145H102.89Zm18.755.141h3.22L228,67.179V65.333L122.135,126Zm95,0L228,119.777v1.846l-7.891,4.522ZM141.135,126,228,76.222v1.846l-83.891,48.077h-3.22Zm19,0L228,87.11v1.846l-64.891,37.189h-3.22Zm38,0L228,108.888v1.847l-26.89,15.41h-3.221Zm-19,0L228,98v1.846l-45.891,26.3H178.89Z" transform="translate(732 3031)" fill="#844fba"/>
