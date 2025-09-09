@@ -248,6 +248,8 @@ export default function CloudStackIntegrations() {
       integrations: [
         {
           key: "acronis",
+          title: "Acronis Cyber Protect Cloud",
+          description: "Acronis Cyber Protect Cloud is a comprehensive data protection and cybersecurity platform designed for service providers, combining backup, anti-malware, security management, and endpoint protection in a single solution. It supports a wide range of hypervisors, including VMware vSphere, Microsoft Hyper-V, Citrix XenServer, Red Hat Virtualization, Linux KVM, Oracle VM, and Nutanix AHV. Within cloud environments managed by Apache CloudStack, Acronis can operate alongside the underlying virtualization infrastructure to provide efficient backup and disaster recovery services for virtual machine instances.\n\nThe platform offers both agent-based and agentless backup capabilities. For agentless operations, it uses hypervisor-level APIs (such as VMware vStorage APIs for Data Protection) to perform image-level backups without installing agents inside guest VMs, while agent-based deployment is also available for specific workloads and Linux KVM environments. Its Instant Restore technology allows virtual machines to be recovered and restarted directly from backup storage, minimizing downtime and ensuring business continuity. Additionally, Acronis provides hypervisor mobility, enabling backups to be restored to different hypervisor platforms when needed.",
           className: "box-acronis box192",
           imageSrc: "/img/acronis_logo.svg",
           altText: "acronis",
@@ -397,6 +399,8 @@ export default function CloudStackIntegrations() {
       integrations: [
         {
           key: "tungsten",
+          title: "OpenSDN",
+          description: "OpenSDN, formerly known as Tungsten Fabric and OpenContrail, is a software-defined networking (SDN) platform that provides centralized control and automation for virtual networking. Its integration with Apache CloudStack enables advanced networking features directly within the orchestrator, including distributed routing, NAT, ACLs, load balancing, and DHCP.\n\nWithin CloudStack, OpenSDN is configured as a zone-level isolated network provider, allowing the creation of networks and instances to automatically trigger the provisioning of virtual networking components such as vRouters and VRFs. This approach eliminates complex manual configurations and integrates SDN network management seamlessly into CloudStack's operational workflows.\n\nThe integration supports KVM hypervisors and focuses on providing flexible network segmentation, dynamic routing, and abstraction between compute and networking resources for cloud environments requiring advanced SDN capabilities.",
           className: "box-tfabric box192",
           imageSrc: "/img/tungsten_logo.svg",
           altText: "tungsten fabric",
@@ -457,6 +461,8 @@ export default function CloudStackIntegrations() {
         },
         {
           key: "pure",
+          title: "Pure FlashArray",
+          description: "Pure Storage provides enterprise-grade, all-flash storage solutions optimized for performance, scalability, and simplicity. Its FlashArray products deliver low-latency block storage for critical workloads, supporting features such as inline deduplication, compression, and always-on encryption. Pure Storage integrates seamlessly into data center environments to deliver consistent, high-performance storage for virtualized and cloud-native applications.\n\nApache CloudStack integrates with Pure Storage through its Fibre Channel multipath support for KVM hypervisors, introduced in version 4.19. This integration allows CloudStack to utilize Pure FlashArray systems as shared block storage with multiple active Fibre Channel paths between hosts and storage arrays. The multipath configuration enhances redundancy and throughput, ensuring high availability and optimal I/O performance for virtual machine disks. Administrators can configure multipath-enabled primary storage pools in CloudStack, leveraging Pure Storage's data services for improved storage efficiency, reliability, and operational simplicity.\n\nBy combining Pure Storage with Apache CloudStack, organizations can deploy high-performance cloud environments backed by resilient and scalable all-flash storage, supporting demanding enterprise workloads with minimal management overhead.",
           className: "box-pure box131",
           imageSrc: "/img/pure_storage-logo.svg",
           altText: "pure storage",
@@ -473,6 +479,8 @@ export default function CloudStackIntegrations() {
         },
         {
           key: "gluster",
+          title: "Gluster",
+          description: "Gluster is a free and open-source, scale-out network filesystem crafted for distributed cloud and media workloads. Leveraging commodity hardware, it delivers high availability and fault tolerance, while enabling linear scalability as storage needs evolve. Apache CloudStack integrates Gluster in both primary and secondary storage roles. As primary storage, Gluster volumes are mounted directly on hypervisors—typically over FUSE—with support for libgfapi-backed QEMU integration when creating VM disks. In primary use cases, CloudStack can deploy VM volumes, templates, ISOs and snapshots directly onto Gluster volumes, allowing full lifecycle management through its UI and APIs. For secondary storage, Gluster can serve as backing for templates and ISOs, replacing or complementing NFS. Using CloudStack's infrastructure wizard, administrators can seamlessly add Gluster volumes as zone- or cluster-level pools. This integration supports essential CloudStack features: snapshotting, cloning, and thin provisioning, all orchestrated centrally for simplified operations. Overall, combined with CloudStack, Gluster delivers a robust, distributed storage solution suited for both VM and block-level storage in both private and public cloud contexts.",
           className: "box-gluster box131",
           imageSrc: "/img/gluster_logo.png",
           altText: "gluster",
