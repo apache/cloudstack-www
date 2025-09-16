@@ -87,7 +87,9 @@ kubicorn.
                 </p>
               </div>
               <div className="col-lg-6">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/NcfVkVT48Kk" title="Bootstrapping K8S Cluster using CAPC - Apache CloudStack - Kubernetes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                <a href="https://www.youtube.com/embed/NcfVkVT48Kk" target="_blank">
+                  <img src="/img/bootstrapping_k8s_capc.png" className="img-fluid" alt="Bootstrapping Kubernetes using CAPC"/>
+                </a>
               </div>
             </div>
           </div>

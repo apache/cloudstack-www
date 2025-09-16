@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Daniel Salvador - VP of Apache CloudStack
-tags: [news]
+tags: [community, news]
 authors: [ivet]
 slug: vp-2024
 ---

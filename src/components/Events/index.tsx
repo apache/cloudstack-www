@@ -22,11 +22,55 @@ involved with the community.
 
             <div className="horizontal-card">
               <div className="hc-header">Upcoming Events:</div>
+              <div className="row">
+                <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/cseug-2025-autumn.png" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">Autumn Edition: CloudStack European User Group 2025</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>London, UK</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>September 18th, 2025</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://www.eventbrite.com/e/autumn-edition-cloudstack-european-user-group-2025-tickets-1366848914899?aff=oddtdtcreator" className="btn btn-primary me-3">Register</a>
+                  <a href="/blog/cseug-2025-london" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/ccc-2025.jpg" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">CloudStack Collaboration Conference 2025</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Milan, Italy</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 19-21, 2025</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://www.eventbrite.co.uk/e/cloudstack-collaboration-conference-2025-tickets-1301872940009?aff=oddtdtcreator" className="btn btn-primary me-3">Register</a>
+                  <a href="https://www.cloudstackcollab.org/" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
+                </div>
+              </div>
             </div>
 
             <div className="horizontal-card">
               <div className="hc-header">Past Events:</div>
               <div className="row">
+                <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/csiug2025.png" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">CloudStack India User Group 2025</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Greater Noida, India</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>July 11th, 2025</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="/blog/csiug25-roundup" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
+                  <a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlaO1t3mtHeJ_g_MKBQKnfkR" target="_blank" className="btn btn-primary me-3">Watch</a>
+                </div>
+                <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/cseug-2025.png" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">CloudStack European User Group 2025</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Vienna, Austria</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>May 8th, 2025</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="/blog/cseug-2025" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
+                  <a href="https://www.youtube.com/watch?v=Kcp8BSb2QJE&list=PLnIKk7GjgFlaMg8GePeADgfC-XLmUD8-l" target="_blank" className="btn btn-primary me-3">Watch</a>
+                </div>
                 <div className="col-lg-9 pt-3 px-4">
                   <img src="/img/CCC-2024.png" alt="" className="events-img events-overview-img"/>
                   <p className="title mt-2">CloudStack Collaboration Conference 2024</p>
@@ -34,7 +78,8 @@ involved with the community.
                   <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 20-22, 2024</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="/blog/ccc-2024" className="btn btn-outline-secondary me-3">Read More</a>
+                  <a href="/blog/ccc-2024" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
+                  <a href="https://youtube.com/playlist?list=PLnIKk7GjgFlaWZzwxq7UxIYdMGy_oo0W5&si=2dvKUkuoxM82hARV" target="_blank" className="btn btn-primary me-3">Watch</a>
                 </div>
               </div>
 
@@ -48,7 +93,7 @@ involved with the community.
                   <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>October 7-10, 2024</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://communityovercode.org/" className="btn btn-outline-secondary me-3">Read More</a>
+                  <a href="https://communityovercode.org/" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
                 </div>
               </div>
               <div className="row">
@@ -59,29 +104,7 @@ involved with the community.
                   <p className="events-info"><img src="/img/calendar_icon.png" className="me-2" alt=""/>Sep 19, 2024</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="/blog/cseug-2024" className="btn btn-outline-secondary me-3">Read More</a>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-9 pt-3 px-4">
-                  <img src="/img/india 2024.jpeg" alt="" className="events-img events-overview-img"/>
-                  <p className="title mt-2">CloudStack India User Group 2024</p>
-                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Hyderabad, India</p>
-                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>February 23, 2024</p>
-                </div>
-                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://cloudstack.apache.org/blog/india-user-group-2024/" className="btn btn-outline-secondary me-3">Read More</a>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-9 pt-3 px-4">
-                  <img src="/img/ceph day.png" alt="" className="events-img events-overview-img"/>
-                  <p className="title mt-2">Ceph and CloudStack day 2024</p>
-                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Amsterdam, the Netherlands</p>
-                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>February 22, 2024</p>
-                </div>
-                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlYgPbjM3os1YoE10Ys9gEB6" className="btn btn-primary">Watch</a>
+                  <a href="/blog/cseug-2024" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
                 </div>
               </div>
             </div>

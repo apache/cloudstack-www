@@ -95,7 +95,7 @@ the environment by not producing new hardware.
 <div className="row">
 <div className="col col--3">
 
-![](nicolas.png "Nicolas")
+![](/img/authors/nicolas.png "Nicolas")
 
 </div>
 <div className="col col--9">

@@ -43,7 +43,7 @@ possible.</p></blockquote>
 
 <h5><a name="ApacheCloudstackWeeklyNews-25February2013-QAScrumMeetingMinutes"></a>QA Scrum Meeting Minutes</h5>
 
-<p><a href="/confluence/display/CLOUDSTACK/Minutes+18th+Feb+2013" title="Minutes 18th Feb 2013">The QA Scrum meeting minutes for 18 February 2013</a> sent to the mailing list.</p>
+<p><a href="https://cwiki.apache.org/confluence/display/CLOUDSTACK/Minutes+18th+Feb+2013" title="Minutes 18th Feb 2013">The QA Scrum meeting minutes for 18 February 2013</a> sent to the mailing list.</p>
 
 <h5><a name="ApacheCloudstackWeeklyNews-25February2013-WeeklyIRCMeetingMinutes"></a>Weekly IRC Meeting Minutes</h5>
 

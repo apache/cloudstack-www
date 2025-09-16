@@ -20,17 +20,12 @@ The project currently has several lists:
 - [issues@](https://lists.apache.org/list.html?issues@cloudstack.apache.org): Notifications from CloudStack's Jira project. This is a high volume list.
 - [marketing@](https://lists.apache.org/list.html?marketing@cloudstack.apache.org): Discussions about marketing CloudStack.
 
-The preferred language to use on the lists above is English. To support the global nature of the CloudStack user community, we also have the following regionally specific user lists:
-
-- [users-cn@](https://lists.apache.org/list.html?users-cn@cloudstack.apache.org): Chinese
-
 <h2>To Subscribe to the Mailing Lists</h2>
 
 If you want to subscribe to list, send an email to *listname*-subscribe@cloudstack.apache.org:
 
 - To join the announce mailing list email <a href="mailto:announce-subscribe@cloudstack.apache.org">announce-subscribe@cloudstack.apache.org</a>.
 - To join the users mailing list email <a href="mailto:users-subscribe@cloudstack.apache.org">users-subscribe@cloudstack.apache.org</a>.
-- To join the users-cn mailing list email <a href="mailto:users-cn-subscribe@cloudstack.apache.org">users-cn-subscribe@cloudstack.apache.org</a>.
 - To join the dev mailing list email <a href="mailto:dev-subscribe@cloudstack.apache.org">dev-subscribe@cloudstack.apache.org</a>.
 - To join the commits mailing list email <a href="mailto:commits-subscribe@cloudstack.apache.org">commits-subscribe@cloudstack.apache.org</a>.
 - To join the issues mailing list email <a href="mailto:issues-subscribe@cloudstack.apache.org">issues-subscribe@cloudstack.apache.org</a>.
@@ -44,7 +39,6 @@ subscribed with.
 
 - To leave the announce mailing list email <a href="mailto:announce-unsubscribe@cloudstack.apache.org">announce-unsubscribe@cloudstack.apache.org</a>.
 - To leave the users mailing list email <a href="mailto:users-unsubscribe@cloudstack.apache.org">users-unsubscribe@cloudstack.apache.org</a>.
-- To leave the users-cn mailing list email <a href="mailto:users-cn-unsubscribe@cloudstack.apache.org">users-cn-unsubscribe@cloudstack.apache.org</a>.
 - To leave the dev mailing list email <a href="mailto:dev-unsubscribe@cloudstack.apache.org">dev-unsubscribe@cloudstack.apache.org</a>.
 - To leave the commits mailing list email <a href="mailto:commits-unsubscribe@cloudstack.apache.org">commits-unsubscribe@cloudstack.apache.org</a>.
 - To leave the issues mailing list email <a href="mailto:issues-unsubscribe@cloudstack.apache.org">issues-unsubscribe@cloudstack.apache.org</a>.

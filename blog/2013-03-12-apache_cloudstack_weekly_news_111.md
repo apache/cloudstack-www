@@ -43,7 +43,7 @@ inefficient for certain primary storage types, for example if you end up creatin
 
 <h5><a name="ApacheCloudStackWeeklyNews-11March2013-BuildVerificationTest%28BVT%29forCloudStackCheckins"></a>Build Verification Test (BVT) for CloudStack Checkins</h5>
 
-<p>Alex Huang <a href="http://markmail.org/message/kvtkfjaswopqkd7m" class="external-link" rel="nofollow">proposed</a> building a BVT system to "ensure that checkins do not break the <a href="/confluence/pages/createpage.action?spaceKey=CLOUDSTACK&amp;title=master&amp;linkCreation=true&amp;fromPageId=30756122" class="createlink">master</a> branch." </p>
+<p>Alex Huang <a href="http://markmail.org/message/kvtkfjaswopqkd7m" class="external-link" rel="nofollow">proposed</a> building a BVT system to "ensure that checkins do not break the <a href="https://cwiki.apache.org/confluence/pages/createpage.action?spaceKey=CLOUDSTACK&amp;title=master&amp;linkCreation=true&amp;fromPageId=30756122" class="createlink">master</a> branch." </p>
 
 <p>After a fair amount of discussion, Chip Childers <a href="http://markmail.org/message/2tavrqatlyyrwmp6" class="external-link" rel="nofollow">responded, saying that the first step to getting Gerrit</a> is "for us to agree to using it and to be able to clearly articulate <b>why</b>.  Without being able to explain our issue, we'll be questioned about jumping to a tool-based solution by the infra team."</p>
 

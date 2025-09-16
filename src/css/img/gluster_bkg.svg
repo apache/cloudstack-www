@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="278" height="90" viewBox="0 0 278 90">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectangle_32033" data-name="Rectangle 32033" width="278" height="90" rx="18" transform="translate(966 3660)" fill="#fff"/>
+      <rect id="Rectangle_32033" data-name="Rectangle 32033" width="278" height="90" transform="translate(966 3660)" fill="#fff"/>
     </clipPath>
     <clipPath id="clip-path-2">
       <rect id="Rectangle_32034" data-name="Rectangle 32034" width="1077.025" height="356.064" fill="none" stroke="#707070" stroke-width="1"/>
     </clipPath>
   </defs>
   <g id="gluster_bkg" transform="translate(-966 -3660)">
-    <rect id="Rectangle_31923" data-name="Rectangle 31923" width="278" height="90" rx="18" transform="translate(966 3660)" fill="#fff"/>
+    <rect id="Rectangle_31923" data-name="Rectangle 31923" width="278" height="90" transform="translate(966 3660)" fill="#fff"/>
     <g id="Mask_Group_54049" data-name="Mask Group 54049" clip-path="url(#clip-path)">
       <g id="Group_97290" data-name="Group 97290" transform="translate(591.182 3621)">
         <line id="Line_6069" data-name="Line 6069" y1="59.803" transform="translate(175.081 87.972)" fill="none" stroke="#e0e0e0" stroke-linecap="round" stroke-width="1"/>
@@ -200,8 +200,8 @@
       </g>
     </g>
     <g id="Rectangle_32035" data-name="Rectangle 32035" transform="translate(966 3660)" fill="none" stroke="#e0e0e0" stroke-width="1">
-      <rect width="278" height="90" rx="18" stroke="none"/>
-      <rect x="0.5" y="0.5" width="277" height="89" rx="17.5" fill="none"/>
+      <rect width="278" height="90" stroke="none"/>
+      <rect x="0.5" y="0.5" width="277" height="89" fill="none"/>
     </g>
   </g>
 </svg>

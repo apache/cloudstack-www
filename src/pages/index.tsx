@@ -26,8 +26,8 @@ Apache CloudStack™  is an open-source software system designed to deploy and m
             <div className="center-buttons">
               <a href="downloads" className="btn btn-light btn-size">Download</a>
 	      &nbsp;
-              <a href="https://docs.cloudstack.apache.org/en/4.20.0.0/" target="_blank" className="btn btn-outline-light btn-size">Documentation</a>
-              <p className="small mt-3">Apache CloudStack 4.20.0.0 is out!</p>
+              <a href="https://docs.cloudstack.apache.org/en/4.21.0.0/" target="_blank" className="btn btn-outline-light btn-size">Documentation</a>
+              <p className="small mt-3">Apache CloudStack 4.21.0.0 is out!</p>
             </div>
           </div>
           <div className="col-lg-7"><img src="/img/CloudStack_monkey_cloud.png" className="img-fluid" alt=""/></div>
@@ -38,7 +38,7 @@ Apache CloudStack™  is an open-source software system designed to deploy and m
           <img src="/img/brainboard.png" height="25" alt=""/>
           <img src="/img/ntt.svg" height="18" alt=""/>
           <img src="/img/leaseweb.svg" height="25" alt=""/>
-          <img src="/img/logo-indiqus.png" height="20" alt=""/>
+          <img src="/img/logo-yotta .png" height="20" alt=""/>
           <img src="/img/Logo_arsat.png" height="20" alt=""/>
           <img src="/img/we_systems.svg" height="50" alt=""/>
           <img src="/img/AT&T_logo_2016.svg" height="38" alt=""/>
@@ -136,7 +136,7 @@ computing</strong> capabilities with Edge zones.
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="power-card">
+                <div className="power-card line">
                   <img src="/img/enterprises_icon.svg" alt=""/>
                   <p className="card-title mb-3">Enterprises</p>
                   <p className="card-text">
@@ -219,10 +219,10 @@ specific infrastructure.
               <div className="col col-lg-5">
                 <h2 className="section-title mb-4 margin-second">Latest Release</h2>
                 <div className="center-buttons">
-                  <p className="px18">Apache CloudStack 4.20.0.0 is out!<br/>This is the latest LTS release.</p>
+                  <p className="px18">Apache CloudStack 4.21.0.0 is out!<br/>This is the latest Regular release.</p>
                   <a href="downloads" className="btn btn-primary btn-size">Download</a>
                   &nbsp;
-                  <a href="https://docs.cloudstack.apache.org/en/4.20.0.0/" target="_blank" className="btn btn-outline-secondary btn-size">Documentation</a>
+                  <a href="https://docs.cloudstack.apache.org/en/4.21.0.0/" target="_blank" className="btn btn-outline-secondary btn-size">Documentation</a>
                 </div>
               </div>
               <div className="col-lg-7"><img src="/img/CloudStack_release_illustration.png" className="img-fluid img-release" alt=""/></div>
@@ -258,7 +258,7 @@ to Apache page, or go straight to our Developer Resources page.
 Interested in helping out with Apache CloudStack? Great! We welcome
 participation from anybody willing to work The Apache Way.
                     </p>
-                    <a href="https://github.com/apache/cloudstack" className="btn btn-primary">Learn More</a>
+                    <a href="https://github.com/apache/cloudstack" className="btn btn-primary">Explore the Code</a>
                   </div>
                 </div>
                 <div className="col col-lg-3 col-md-6">
@@ -270,7 +270,7 @@ participation from anybody willing to work The Apache Way.
 We need folks to help with documentation, translation, promotion, and
 having someone with snazzy Web design skills would not be a bad thing!
                     </p>
-                    <a href="https://join.slack.com/t/apachecloudstack/shared_invite/zt-2aegc22z7-tPCxpptfcebTBtd59qcZSQ" className="btn btn-primary">Learn More</a>
+                    <a href="mailto:users@cloudstack.apache.org?subject=Request%20to%20join%20Slack%20community&body=Thanks,%0A%0ARegards." className="btn btn-primary">Request Access</a>
                   </div>
                 </div>
                 <div className="col col-lg-3 col-md-6">
@@ -279,11 +279,9 @@ having someone with snazzy Web design skills would not be a bad thing!
                     <p className="blue-title">CONTRIBUTE CONTENT</p>
                     <p className="join-title">Blog</p>
                     <p className="text">
-Want to share your success story? Or you are working on a new feature?
-Contribute your content to our blog or join the Meet the Community
-Video Series.
+Share a feature you have been working on, a success story, or alternative content to the CloudStack blog!
                     </p>
-                    <a href="blog" className="btn btn-primary">Learn More</a>
+                    <a href="blog" className="btn btn-primary">Dive In</a>
                   </div>
                 </div>
                 <div className="col col-lg-3 col-md-6">
@@ -292,7 +290,7 @@ Video Series.
                     <p className="blue-title">WHERE TO ASK FOR HELP</p>
                     <p className="join-title">Mailing List</p>
                     <p className="text">Need some help getting started? Feel free to ask on the Mailing List.</p>
-                    <a href="mailing-lists" className="btn btn-primary">Learn More</a>
+                    <a href="mailing-lists" className="btn btn-primary">Subscribe</a>
                   </div>
                 </div>
               </div>
