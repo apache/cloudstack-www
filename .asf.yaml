@@ -37,9 +37,7 @@ github:
 
   collaborators:
     - acs-robot
-    - IvetPM
     - jamiepell10
-    - vishesh92
 
 notifications:
   commits:      commits@cloudstack.apache.org
