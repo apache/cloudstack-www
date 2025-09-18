@@ -51,7 +51,8 @@ repos:
         exclude: \.svg$
       - id: fix-byte-order-marker
       - id: forbid-submodules
-      #- id: mixed-line-ending
+      - id: mixed-line-ending
+        exclude: ^static/img/.*
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
         exclude: ^static/.*$
