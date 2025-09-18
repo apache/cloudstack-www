@@ -8,7 +8,7 @@ slug: the-apache-software-foundation-announces3
 
 "In the past years, CloudStack has been proving a mature and
 easy-to-use platform. The released 4.16.0.0 LTS adds new features,
-enhancements, and bug fixes that will help tech-savy companies stay up
+enhancements, and bug fixes that will help tech-savvy companies stay up
 to date." said Gabriel Brascher, Vice President of Apache CloudStack.
 
 <!-- truncate -->
