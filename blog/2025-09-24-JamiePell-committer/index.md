@@ -92,4 +92,3 @@ face-to-face, share ideas, and strengthen relationships. Many
 contributors and project members are also very active in GitHub
 discussions, though I personally participate less there since my focus
 is more on the marketing and community outreach side of the project.
-
