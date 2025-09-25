@@ -2,11 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2025-09-02T00:00:00.000Z</updated>
+    <updated>2025-09-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[New ACS Committer, Jamie Pell gives his thoughts on the current state of the project]]></title>
+        <id>https://cloudstack.apache.org/blog/jamie-pell-committer</id>
+        <link href="https://cloudstack.apache.org/blog/jamie-pell-committer"/>
+        <updated>2025-09-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jamie Pell has been]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/Banner-2abeb81147bb34182521e41ed5e76ebb.png" title="Blog Header Image" width="1384" height="721" class="img_ev3q"></p><p><a href="https://www.linkedin.com/in/jamie-pell/" target="_blank" rel="noopener noreferrer">Jamie Pell</a> has been
+appointed as a Committer to the CloudStack project. In this written
+interview, he shares insights into his contributions beyond code,
+offers advice for newcomers looking to get involved, discusses the
+value of companies sharing their CloudStack use cases, and more.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="introduce-yourself-in-a-few-words-and-what-your-job-rolecompany-is">Introduce yourself in a few words and what your job role/company is<a href="#introduce-yourself-in-a-few-words-and-what-your-job-rolecompany-is" class="hash-link" aria-label="Direct link to Introduce yourself in a few words and what your job role/company is" title="Direct link to Introduce yourself in a few words and what your job role/company is">​</a></h5><p>Hi, I'm Jamie. I work as the Digital Marketing Lead at
+<a href="https://www.shapeblue.com/" target="_blank" rel="noopener noreferrer">ShapeBlue</a>, the world's largest
+integrator of [Apache CloudStack technologies and a well-known name
+within the CloudStack community. In my role, I lead a range of digital
+initiatives including content creation (both video and written),
+social media strategy, web design and development, SEO, and end-to-end
+digital marketing campaigns. I’m also very involved in supporting and
+promoting the wider CloudStack community, applying the same expertise
+to help drive awareness and growth to the project.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-some-key-projects-and-developments-you-have-worked-on-and-are-currently-working-on">What are some key projects and developments you have worked on and are currently working on?<a href="#what-are-some-key-projects-and-developments-you-have-worked-on-and-are-currently-working-on" class="hash-link" aria-label="Direct link to What are some key projects and developments you have worked on and are currently working on?" title="Direct link to What are some key projects and developments you have worked on and are currently working on?">​</a></h5><p>A project which I finished earlier this year was the new <a href="https://www.cloudstackcollab.org/" target="_blank" rel="noopener noreferrer">CloudStack
+Collaboration Conference</a> website,
+leading the project end to end. The goal was to deliver a modern,
+user-friendly site that better reflects the scale and significance of
+the conference, the most important event in the CloudStack
+calendar. Updating the design was especially important, as the event
+continues to grow in size and interest each year, and the website
+serves as the first point of contact for attendees, sponsors, and the
+wider community.</p><p>Much of my current work is focused on upcoming events, such as this
+year’s <a href="https://www.cloudstackcollab.org/" target="_blank" rel="noopener noreferrer">CloudStack Collaboration
+Conference</a>. My responsibilities
+cover the full event cycle. From promoting registrations and the call
+for presentations, securing sponsorships, onboarding new sponsors and
+coordinating on-site arrangements to ensure everything runs smoothly
+throughout the event.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="beyond-writing-code-what-other-forms-of-contribution-would-most-benefit-the-cloudstack-project">Beyond writing code, what other forms of contribution would most benefit the CloudStack project?<a href="#beyond-writing-code-what-other-forms-of-contribution-would-most-benefit-the-cloudstack-project" class="hash-link" aria-label="Direct link to Beyond writing code, what other forms of contribution would most benefit the CloudStack project?" title="Direct link to Beyond writing code, what other forms of contribution would most benefit the CloudStack project?">​</a></h5><p>One of the most noticeable needs in the CloudStack community today is
+ensuring that the project website is consistently updated to reflect
+the pace of technological progress. The website serves as the first
+point of contact for many potential users, contributors, and
+decision-makers. By keeping it aligned with the latest features,
+trends, and advancements in CloudStack, we not only provide accurate
+information but also demonstrate that the project is vibrant, active,
+and continually evolving.</p><p>I think refreshed website content and more regular solutions briefs &amp;
+case studies all help inform and attract both adopters and
+contributors. When companies share their CloudStack use cases, the
+entire ecosystem benefits. Each story exposes the community to
+different infrastructures, environments, and real-world challenges.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="how-do-companies-benefit-when-sharing-their-use-case">How do companies benefit when sharing their Use Case?<a href="#how-do-companies-benefit-when-sharing-their-use-case" class="hash-link" aria-label="Direct link to How do companies benefit when sharing their Use Case?" title="Direct link to How do companies benefit when sharing their Use Case?">​</a></h5><p>By sharing their approach, companies build a reputation as a trusted
+reference point in the community, while their colleagues involved in
+the work are often seen as thought leaders, providing real-world
+insights that others can learn from. Sharing use cases also provides a
+platform to reinforce important principles such as avoiding vendor
+lock-in, achieving cost efficiency, ensuring scalability, enabling
+flexibility, and the list goes on.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-your-approach-to-working-with-a-community-thats-spread-across-the-globe">What is your approach to working with a community that’s spread across the globe?<a href="#what-is-your-approach-to-working-with-a-community-thats-spread-across-the-globe" class="hash-link" aria-label="Direct link to What is your approach to working with a community that’s spread across the globe?" title="Direct link to What is your approach to working with a community that’s spread across the globe?">​</a></h5><p>I collaborate with the community primarily through <a href="https://cloudstack.apache.org/mailing-lists/" target="_blank" rel="noopener noreferrer">the mailing
+lists</a>, which are the
+central communication channels for Apache CloudStack. That’s where
+most of the discussions take place, and it’s a great way to stay
+connected with contributors across the world. I also engage a lot
+through community events, which provide the chance to meet people
+face-to-face, share ideas, and strengthen relationships. Many
+contributors and project members are also very active in GitHub
+discussions, though I personally participate less there since my focus
+is more on the marketing and community outreach side of the project.</p>]]></content>
+        <author>
+            <name>Ivet Petrova</name>
+            <uri>https://github.com/IvetPM</uri>
+        </author>
+        <category label="community" term="community"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache CloudStack CloudMonkey 6.5.0 Release]]></title>
         <id>https://cloudstack.apache.org/blog/cloudmonkey-6.5-release</id>
