@@ -2,11 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2025-09-24T00:00:00.000Z</updated>
+    <updated>2025-09-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[CloudStack European User Group – Autumn Edition - Event Roundup]]></title>
+        <id>https://cloudstack.apache.org/blog/cseug25-autumn-roundup</id>
+        <link href="https://cloudstack.apache.org/blog/cseug25-autumn-roundup"/>
+        <updated>2025-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The recent CloudStack European User Group in London gathered cloud]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/Roundup-459cf486c6f83fd676dcc192d6459b30.png" title="Blog Header Image" width="1200" height="628" class="img_ev3q"></p><p>The recent CloudStack European User Group in London gathered cloud
+builders, researchers, and technology enthusiasts to explore the
+latest developments in Apache CloudStack and share practical
+experiences from the field. With a full agenda of technical talks and
+community discussions, the event once again highlighted the strength
+of collaboration in the CloudStack ecosystem.</p><div class="col col-3 col-lg text-center"><a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlYq0GjNqEhYt6UhQT3lH3YB" target="_blank" rel="noopener noreferrer" class="button button--primary">Watch Session Recordings</a></div><br><p>Below you can find the sessions slides, abstracts, as well as
+speaker’s social links in case you would like to connect and have any
+questions about their session!</p><p><strong>Access each session's slides by clicking onto the presentation graphic.</strong></p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="welcome-community-and-cloudstack-101---steve-roles-shapeblue">Welcome, Community, and CloudStack 101 - <a href="https://www.linkedin.com/in/steveroles/" target="_blank" rel="noopener noreferrer">Steve Roles</a>, <a href="https://www.linkedin.com/company/shapeblue" target="_blank" rel="noopener noreferrer">ShapeBlue</a><a href="#welcome-community-and-cloudstack-101---steve-roles-shapeblue" class="hash-link" aria-label="Direct link to welcome-community-and-cloudstack-101---steve-roles-shapeblue" title="Direct link to welcome-community-and-cloudstack-101---steve-roles-shapeblue">​</a></h5><p>The day opened with an introduction to the CloudStack community from
+Steve Roles (ShapeBlue) and an overview of the platform’s core
+features, architecture, and use cases. Attendees also heard about the
+latest releases and new functionality.</p><p><a href="https://www.slideshare.net/slideshow/introduction-101-whats-new-steve-roles-pptx/283420636" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Steve-dcaaade3dfd9f6ba8bbd0f1a254bb667.png" title="Welcome, Community, and CloudStack 101 - slides" width="839" height="472" class="img_ev3q"></a></p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="apache-cloudstack-powering-research-in-apiculture-aquaponics-and-advanced-networking---mike-hinsley-gyocyo">Apache CloudStack: Powering Research in Apiculture, Aquaponics, and Advanced Networking - Mike Hinsley, GYOCYO<a href="#apache-cloudstack-powering-research-in-apiculture-aquaponics-and-advanced-networking---mike-hinsley-gyocyo" class="hash-link" aria-label="Direct link to Apache CloudStack: Powering Research in Apiculture, Aquaponics, and Advanced Networking - Mike Hinsley, GYOCYO" title="Direct link to Apache CloudStack: Powering Research in Apiculture, Aquaponics, and Advanced Networking - Mike Hinsley, GYOCYO">​</a></h5><p>Mike Hinsley (GYOCYO) showcased how CloudStack powers innovative
+research environments, from IoT systems for bee colony monitoring to
+automated aquaponics setups and complex network testbeds. His session
+demonstrated how open-source infrastructure enables cost-effective,
+scalable research projects.</p><p><a href="https://www.slideshare.net/slideshow/apache-cloudstack-powering-research-in-apiculture-aquaponics-and-advanced-networking-mike-hinsley-pdf/283421050" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Mike-81ac078f5085e5f6eb1116198a6ae506.png" title="Apache CloudStack: Powering Research in Apiculture, Aquaponics, and Advanced Networking - slides" width="1603" height="848" class="img_ev3q"></a></p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="design-and-build-a-tier-1-infrastructure-for-your-cloudstack-cloud---nikolay-tenev-storpool">Design and Build a Tier 1 Infrastructure for Your CloudStack Cloud - <a href="https://www.linkedin.com/in/ntenev/" target="_blank" rel="noopener noreferrer">Nikolay Tenev</a>, <a href="https://www.linkedin.com/company/storpool/" target="_blank" rel="noopener noreferrer">StorPool</a><a href="#design-and-build-a-tier-1-infrastructure-for-your-cloudstack-cloud---nikolay-tenev-storpool" class="hash-link" aria-label="Direct link to design-and-build-a-tier-1-infrastructure-for-your-cloudstack-cloud---nikolay-tenev-storpool" title="Direct link to design-and-build-a-tier-1-infrastructure-for-your-cloudstack-cloud---nikolay-tenev-storpool">​</a></h5><p>Nikolay Tenev (StorPool) discussed how to build Tier 1 infrastructure
+for CloudStack clouds, focusing on delivering high uptime,
+performance, scalability, disaster recovery, and cost efficiency. His
+session highlighted how the right infrastructure enables service
+providers to meet demanding SLAs while simplifying operations.</p><p><a href="https://www.slideshare.net/slideshow/design-and-build-a-tier-1-infrastructure-for-your-cloudstack-cloud-pdf/283421075" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Nikolay-6695fa14cccb682b521dffde743ded2a.png" title="Design and Build a Tier 1 Infrastructure for Your CloudStack Cloud - slides" width="1685" height="942" class="img_ev3q"></a></p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="double-the-savings-on-repatriation-with-an-ampere-combination--pete-logan-ampere">Double the Savings on Repatriation with an Ampere Combination – <a href="https://www.linkedin.com/in/petelogan/" target="_blank" rel="noopener noreferrer">Pete Logan</a>, <a href="https://www.linkedin.com/company/amperecomp/" target="_blank" rel="noopener noreferrer">Ampere</a><a href="#double-the-savings-on-repatriation-with-an-ampere-combination--pete-logan-ampere" class="hash-link" aria-label="Direct link to double-the-savings-on-repatriation-with-an-ampere-combination--pete-logan-ampere" title="Direct link to double-the-savings-on-repatriation-with-an-ampere-combination--pete-logan-ampere">​</a></h5><p>Pete Logan (Ampere) explained how moving workloads from hyperscalers
+to Ampere CPU-based systems with CloudStack can reduce TCO, improve
+efficiency, and provide a smooth path for Arm-based workloads.</p><p><a href="https://www.slideshare.net/slideshow/double-the-savings-on-repatriation-with-an-ampere-combination/283421099" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Pete-816f70ca18015822df8a29c835661b45.png" title="Double the Savings on Repatriation with an Ampere Combination - slides" width="1605" height="901" class="img_ev3q"></a></p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="latency-is-all-that-matters-not-bandwidth--wido-den-hollander-youronline">Latency Is All That Matters, Not Bandwidth – <a href="https://www.linkedin.com/in/widodh/" target="_blank" rel="noopener noreferrer">Wido den Hollander</a>, <a href="https://www.linkedin.com/company/youronline/" target="_blank" rel="noopener noreferrer">Your.Online</a><a href="#latency-is-all-that-matters-not-bandwidth--wido-den-hollander-youronline" class="hash-link" aria-label="Direct link to latency-is-all-that-matters-not-bandwidth--wido-den-hollander-youronline" title="Direct link to latency-is-all-that-matters-not-bandwidth--wido-den-hollander-youronline">​</a></h5><p>Wido den Hollander (Your.Online) explored why latency, rather than
+bandwidth, is the critical factor for cloud performance. His session
+sparked discussions about designing cloud environments with
+responsiveness as the priority.</p><p><a href="https://www.slideshare.net/slideshow/latency-is-all-that-matters-not-bandwidth-wido-den-hollander/283421175" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Wido-5b7ce9ae4b32b7281f892c92abd85f1b.png" title="Latency Is All That Matters, Not Bandwidt - slides" width="1601" height="900" class="img_ev3q"></a></p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="cloudstack-extensions-framework-xaas---enabling-orchestrate-anything--demo---lucian-burlacu-shapeblue">CloudStack Extensions Framework (XaaS) - Enabling Orchestrate Anything + Demo - Lucian Burlacu, <a href="https://www.linkedin.com/company/shapeblue/" target="_blank" rel="noopener noreferrer">ShapeBlue</a><a href="#cloudstack-extensions-framework-xaas---enabling-orchestrate-anything--demo---lucian-burlacu-shapeblue" class="hash-link" aria-label="Direct link to cloudstack-extensions-framework-xaas---enabling-orchestrate-anything--demo---lucian-burlacu-shapeblue" title="Direct link to cloudstack-extensions-framework-xaas---enabling-orchestrate-anything--demo---lucian-burlacu-shapeblue">​</a></h5><p>Lucian Burlacu introduced the new Extensions Framework, demonstrating
+how it enables cloud builders to integrate custom services,
+orchestrators, and third-party hypervisors into CloudStack, extending
+its flexibility and vendor-neutral capabilities.</p><p><a href="https://www.slideshare.net/slideshow/cloudstack-extensions-framework-xaas-enabling-orchestrate-anything-demo-lucian-burlacu/283421201" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Lucian-fc02ef21015cc70adc55797b40d0b8f0.png" title="CloudStack Extensions Framework (XaaS) - Enabling Orchestrate Anything + Demo - slides" width="1437" height="806" class="img_ev3q"></a></p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="cloudstack-community-forum-embracing-open-source-for-true-independence">CloudStack Community Forum: Embracing Open-Source for True Independence<a href="#cloudstack-community-forum-embracing-open-source-for-true-independence" class="hash-link" aria-label="Direct link to CloudStack Community Forum: Embracing Open-Source for True Independence" title="Direct link to CloudStack Community Forum: Embracing Open-Source for True Independence">​</a></h5><p>The event closed with a community forum facilitated by Ivet
+Petrova. Attendees discussed open-source collaboration, shared best
+practices, and explored how CloudStack enables independence and
+freedom from vendor lock-in.</p><p>Events like these are a testament to the active, global community that
+drives Apache CloudStack forward. Supporters and sponsors of the event
+are <a href="https://shapeblue.com" target="_blank" rel="noopener noreferrer">ShapeBlue</a> and
+<a href="https://storpool.com" target="_blank" rel="noopener noreferrer">StorPool</a>. A big thank you goes to the
+organisers, sponsors, speakers, and participants who made this
+gathering a success.</p><p>The next major gathering for the community is the CloudStack
+Collaboration Conference—the largest CloudStack event of the
+year—happening on 19–21 November in Milan. We invite everyone to join
+us there and be part of the community.</p><div class="col col-3 col-lg text-center"><a href="https://www.cloudstackcollab.org/" target="_blank" rel="noopener noreferrer" class="button button--primary">Register now</a></div>]]></content>
+        <author>
+            <name>Antonia Shehova-Vasileva</name>
+            <uri>http://www.linkedin.com/in/antonia-shehova-vasileva</uri>
+        </author>
+        <category label="roundup" term="roundup"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New ACS Committer, Jamie Pell gives his thoughts on the current state of the project]]></title>
         <id>https://cloudstack.apache.org/blog/jamie-pell-committer</id>
