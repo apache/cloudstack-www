@@ -21,7 +21,7 @@ value of companies sharing their CloudStack use cases, and more.
 
 Hi, I'm Jamie. I work as the Digital Marketing Lead at
 [ShapeBlue](https://www.shapeblue.com/), the world's largest
-integrator of [Apache CloudStack technologies and a well-known name
+integrator of Apache CloudStack technologies and a well-known name
 within the CloudStack community. In my role, I lead a range of digital
 initiatives including content creation (both video and written),
 social media strategy, web design and development, SEO, and end-to-end
