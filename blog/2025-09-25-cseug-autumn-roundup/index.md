@@ -28,16 +28,16 @@ questions about their session!
 
 **Access each session's slides by clicking onto the presentation graphic.**
 
-##### Welcome, Community, and CloudStack 101 - [Steve Roles](https://www.linkedin.com/in/steveroles/), [ShapeBlue](https://shapeblue.com)
+##### Welcome, Community, and CloudStack 101 - [Steve Roles](https://www.linkedin.com/in/steveroles/), [ShapeBlue](https://www.linkedin.com/company/shapeblue)
 
 The day opened with an introduction to the CloudStack community from
 Steve Roles (ShapeBlue) and an overview of the platform’s core
 features, architecture, and use cases. Attendees also heard about the
 latest releases and new functionality.
 
-[![](Steve.png "Welcome, Community, and CloudStack 101 - slides")](https://www.slideshare.net/slideshow/)
+[![](Steve.png "Welcome, Community, and CloudStack 101 - slides")](https://www.slideshare.net/slideshow/introduction-101-whats-new-steve-roles-pptx/283420636)
 
-##### Apache CloudStack: Powering Research in Apiculture, Aquaponics, and Advanced Networking - [Mike Hinsley](https://), [GYOCYO](https://)
+##### Apache CloudStack: Powering Research in Apiculture, Aquaponics, and Advanced Networking - Mike Hinsley, GYOCYO
 
 Mike Hinsley (GYOCYO) showcased how CloudStack powers innovative
 research environments, from IoT systems for bee colony monitoring to
@@ -45,7 +45,7 @@ automated aquaponics setups and complex network testbeds. His session
 demonstrated how open-source infrastructure enables cost-effective,
 scalable research projects.
 
-[![](Mike.png "Apache CloudStack: Powering Research in Apiculture, Aquaponics, and Advanced Networking - slides")](https://www.slideshare.net/slideshow/)
+[![](Mike.png "Apache CloudStack: Powering Research in Apiculture, Aquaponics, and Advanced Networking - slides")](https://www.slideshare.net/slideshow/apache-cloudstack-powering-research-in-apiculture-aquaponics-and-advanced-networking-mike-hinsley-pdf/283421050)
 
 ##### Design and Build a Tier 1 Infrastructure for Your CloudStack Cloud - [Nikolay Tenev](https://www.linkedin.com/in/ntenev/), [StorPool](https://www.linkedin.com/company/storpool/)
 
@@ -55,7 +55,7 @@ performance, scalability, disaster recovery, and cost efficiency. His
 session highlighted how the right infrastructure enables service
 providers to meet demanding SLAs while simplifying operations.
 
-[![](Nikolay.png "Design and Build a Tier 1 Infrastructure for Your CloudStack Cloud - slides")](https://www.slideshare.net/slideshow/)
+[![](Nikolay.png "Design and Build a Tier 1 Infrastructure for Your CloudStack Cloud - slides")](https://www.slideshare.net/slideshow/design-and-build-a-tier-1-infrastructure-for-your-cloudstack-cloud-pdf/283421075)
 
 ##### Double the Savings on Repatriation with an Ampere Combination – [Pete Logan](https://www.linkedin.com/in/petelogan/), [Ampere](https://www.linkedin.com/company/amperecomp/)
 
@@ -63,7 +63,7 @@ Pete Logan (Ampere) explained how moving workloads from hyperscalers
 to Ampere CPU-based systems with CloudStack can reduce TCO, improve
 efficiency, and provide a smooth path for Arm-based workloads.
 
-[![](Pete.png "Double the Savings on Repatriation with an Ampere Combination - slides")](https://www.slideshare.net/slideshow/)
+[![](Pete.png "Double the Savings on Repatriation with an Ampere Combination - slides")](https://www.slideshare.net/slideshow/double-the-savings-on-repatriation-with-an-ampere-combination/283421099)
 
 ##### Latency Is All That Matters, Not Bandwidth – [Wido den Hollander](https://www.linkedin.com/in/widodh/), [Your.Online](https://www.linkedin.com/company/youronline/)
 
@@ -72,16 +72,16 @@ bandwidth, is the critical factor for cloud performance. His session
 sparked discussions about designing cloud environments with
 responsiveness as the priority.
 
-[![](Wido.png "Latency Is All That Matters, Not Bandwidt - slides")](https://www.slideshare.net/slideshow/)
+[![](Wido.png "Latency Is All That Matters, Not Bandwidt - slides")](https://www.slideshare.net/slideshow/latency-is-all-that-matters-not-bandwidth-wido-den-hollander/283421175)
 
-##### CloudStack Extensions Framework (XaaS) - Enabling Orchestrate Anything + Demo - [Lucian Burlacu](https://), [ShapeBlue](https://www.linkedin.com/company/shapeblue/)
+##### CloudStack Extensions Framework (XaaS) - Enabling Orchestrate Anything + Demo - Lucian Burlacu, [ShapeBlue](https://www.linkedin.com/company/shapeblue/)
 
 Lucian Burlacu introduced the new Extensions Framework, demonstrating
 how it enables cloud builders to integrate custom services,
 orchestrators, and third-party hypervisors into CloudStack, extending
 its flexibility and vendor-neutral capabilities.
 
-[![](Lucian.png "CloudStack Extensions Framework (XaaS) - Enabling Orchestrate Anything + Demo - slides")](https://www.slideshare.net/slideshow/)
+[![](Lucian.png "CloudStack Extensions Framework (XaaS) - Enabling Orchestrate Anything + Demo - slides")](https://www.slideshare.net/slideshow/cloudstack-extensions-framework-xaas-enabling-orchestrate-anything-demo-lucian-burlacu/283421201)
 
 ##### CloudStack Community Forum: Embracing Open-Source for True Independence
 
