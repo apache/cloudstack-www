@@ -84,7 +84,7 @@ def generate_markdown(pmc_members, committers):
     pmc_members.sort(key=lambda x: locale.strxfrm(x[0].lower()))
     committers.sort(key=lambda x: locale.strxfrm(x[0].lower()))
     repo_path = get_repo_path()
-    with open(repo_path + "/src/pages/who.md", "w", encoding="utf-8") as f:
+    with open(repo_path + "/src/pages/who.mdx", "w", encoding="utf-8") as f:
         f.write("""---
 title: Apache CloudStack Project Membership
 ---
@@ -95,10 +95,13 @@ PMC Information: https://projects.apache.org/committee.html?cloudstack
 
 Board Minutes: https://whimsy.apache.org/board/minutes/CloudStack.html
 
-""")
+````mdx-code-block
+import VP from "@site/src/components/VP";
 
-        pmc_chair = "Nicolás Vázquez (nvazquez)"
-        f.write(f"**PMC Chair**: {pmc_chair}\n\n")
+<VP/>
+````
+
+""")
 
         f.write("The following data is subject to change. The up-to-date information can be found on <a href=\"http://people.apache.org/committers-by-project.html#cloudstack-pmc\">the Apache Peoples site</a>:\n\n")
 
