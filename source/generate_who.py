@@ -96,7 +96,7 @@ PMC Information: https://projects.apache.org/committee.html?cloudstack
 Board Minutes: https://whimsy.apache.org/board/minutes/CloudStack.html
 
 ````mdx-code-block
-import Releases from "@site/src/components/VP";
+import VP from "@site/src/components/VP";
 
 <VP/>
 ````

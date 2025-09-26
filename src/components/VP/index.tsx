@@ -21,13 +21,14 @@ export default function VP(): JSX.Element {
       <div className="row">
         <div className="col col--3">
 
-<img src={pmc_chair_picture} alt="{pmc_chair_name}" class="blog-image"/>
+<img src={pmc_chair_picture} alt={pmc_chair_name} className="blog-image"/>
 
         </div>
         <div className="col col--9">
 
-          <p><b>PMC Chair</b>: {pmc_chair_name}</p>
           <p>
+	    <b>
+		PMC Chair</b>: {pmc_chair_name}
                 <a href={git_link} target="_blank">
 		  <img src="/img/git_logo.svg" width="40px" alt=""/>
 		</a>
