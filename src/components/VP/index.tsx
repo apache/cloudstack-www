@@ -26,17 +26,24 @@ export default function VP(): JSX.Element {
         </div>
         <div className="col col--9">
 
+          <div className="row">
+            <div className="col">
           <p>
-	    <b>
-		PMC Chair</b>: {pmc_chair_name}
+		PMC Chair: <b>{pmc_chair_name}</b>
+	  </p>
+	    </div>
+	    <div className="col col--2">
+	  <p>
                 <a href={git_link} target="_blank">
-		  <img src="/img/git_logo.svg" width="40px" alt=""/>
+		  <img src="/img/git_logo.svg" width="20px" alt=""/>
 		</a>
-		&nbsp;
+		&nbsp;&nbsp;
                 <a href={linked_link} target="_blank">
-		  <img src="/img/social/LinkedIn-Blue.png" width="40px" alt=""/>
+		  <img src="/img/social/LinkedIn-Blue.png" width="20px" alt=""/>
 		</a>
 	  </p>
+	    </div>
+	  </div>
           <p>
 
             {pmc_chair_quote}
