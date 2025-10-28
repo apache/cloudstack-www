@@ -40,6 +40,12 @@ joaojandre:
   url: https://github.com/JoaoJandre
   image_url: /img/authors/joao.jpg
 
+kiran:
+  name: Kiran Chavala
+  title: ACS committer
+  url: https://github.com/kiranchavala
+  image_url: /img/authors/kiran.jpg
+
 nicolas:
   name: Nicolas Vazquez
   title: PMC Member
