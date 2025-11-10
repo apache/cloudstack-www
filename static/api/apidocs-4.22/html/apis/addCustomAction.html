@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.22.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>addCustomAction</h1>
+                                        <p>Add a custom action for an extension</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>extensionid</strong></td><td style="width:500px;"><strong>The ID of the extension to associate the action with</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;"><strong>Name of the action</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>allowedroletypes</i></td><td style="width:500px;"><i>List of role types allowed for the action</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>description</i></td><td style="width:500px;"><i>Description of the action</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>details</i></td><td style="width:500px;"><i>Details in key/value pairs using format details[i].keyname=keyvalue. Example: details[0].vendor=xxx&amp;&amp;details[0].version=2.0</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>enabled</i></td><td style="width:500px;"><i>Whether the action is enabled or not. Default is disabled.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>errormessage</i></td><td style="width:500px;"><i>Error message that will be used on failure during execution of the action. Name of the action, extension, resource can be used as - actionName, extensionName, resourceName. Example: Failed to complete {{actionName}} for {{resourceName}} with {{extensionName}}</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>parameters</i></td><td style="width:500px;"><i>Parameters mapping for the action using keys - name, type, required. 'name' is mandatory. If 'type' is not specified then STRING will be used. If 'required' is not specified then false will be used. Example: parameters[0].name=xxx&amp;parameters[0].type=BOOLEAN&amp;parameters[0].required=true</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>resourcetype</i></td><td style="width:500px;"><i>Resource type for which the action is available</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>successmessage</i></td><td style="width:500px;"><i>Success message that will be used on successful execution of the action. Name of the action, extension, resource can be used as - actionName, extensionName, resourceName. Example: Successfully complete {{actionName}} for {{resourceName}} with {{extensionName}}</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>timeout</i></td><td style="width:500px;"><i>Specifies the timeout in seconds to wait for the action to complete before failing. Default value is 5 seconds</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">ID of the custom action</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>allowedroletypes</strong></td><td style="width:500px;">List of role types allowed for the custom action</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>created</strong></td><td style="width:500px;">Creation timestamp of the custom action</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>description</strong></td><td style="width:500px;">Description of the custom action</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>details</strong></td><td style="width:500px;">Details of the custom action</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>enabled</strong></td><td style="width:500px;">Whether the custom action is enabled or not</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>errormessage</strong></td><td style="width:500px;">Message that will be used on failure during execution of the action</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>extensionid</strong></td><td style="width:500px;">ID of the extension that this custom action belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>extensionname</strong></td><td style="width:500px;">Name of the extension that this custom action belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;">Name of the custom action</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>resourcetype</strong></td><td style="width:500px;">Resource type for which the action is available</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>successmessage</strong></td><td style="width:500px;">Message that will be used on successful execution of the action</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>timeout</strong></td><td style="width:500px;">Specifies the timeout in seconds to wait for the action to complete before failing</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>parameters(*)</strong></td><td style="width:500px;">List of the parameters for the action</td>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>name</strong></td><td style="width:500px;">Name of the parameter</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>required</strong></td><td style="width:500px;">Whether the parameter is required or not</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>type</strong></td><td style="width:500px;">Type of the parameter</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>validationformat</strong></td><td style="width:500px;">Validation format for value of the parameter. Available for specific types</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>valueoptions</strong></td><td style="width:500px;">Comma-separated list of options for value of the parameter</td>
+                                            </tr>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

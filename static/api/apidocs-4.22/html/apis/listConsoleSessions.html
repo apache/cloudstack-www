@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.22.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>listConsoleSessions</h1>
+                                        <p>Lists console sessions.</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>accountid</i></td><td style="width:500px;"><i>The ID of the account that created the console endpoint.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>acquired</i></td><td style="width:500px;"><i>Lists acquired console sessions, defaults to false. Acquired console sessions are the ones that have been accessed. The 'activeonly' parameter has precedence over the 'acquired' parameter, i.e., when the 'activeonly' parameter is 'true', the 'acquired' parameter value will be ignored.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>activeonly</i></td><td style="width:500px;"><i>Lists only active console sessions, defaults to true. Active sessions are the ones that have been acquired and have not been removed.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>clientaddress</i></td><td style="width:500px;"><i>IP address of the client that accessed the console session.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>consoleendpointcreatoraddress</i></td><td style="width:500px;"><i>IP address of the creator of the console endpoint.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>domainid</i></td><td style="width:500px;"><i>The domain ID of the account that created the console endpoint.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>enddate</i></td><td style="width:500px;"><i>Lists console sessions generated up until this date. The recommended format is "yyyy-MM-dd'T'HH:mm:ssZ" (e.g.: "2023-01-01T12:00:00+0100"); however, the following formats are also accepted: "yyyy-MM-dd HH:mm:ss" (e.g.: "2023-01-01 12:00:00") and "yyyy-MM-dd" (e.g.: "2023-01-01" - if the time is not added, it will be interpreted as "23:59:59"). If the recommended format is not used, the date will be considered in the server timezone.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>hostid</i></td><td style="width:500px;"><i>Lists console sessions from the specified host.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>id</i></td><td style="width:500px;"><i>The ID of the console session.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>isrecursive</i></td><td style="width:500px;"><i>Lists console sessions recursively per domain. If an account ID is informed, only the account's console sessions will be listed. Defaults to false.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>keyword</i></td><td style="width:500px;"><i>List by keyword</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>page</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>pagesize</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>startdate</i></td><td style="width:500px;"><i>Lists console sessions generated from this date onwards. The recommended format is "yyyy-MM-dd'T'HH:mm:ssZ" (e.g.: "2023-01-01T12:00:00+0100"); however, the following formats are also accepted: "yyyy-MM-dd HH:mm:ss" (e.g.: "2023-01-01 12:00:00") and "yyyy-MM-dd" (e.g.: "2023-01-01" - if the time is not added, it will be interpreted as "00:00:00"). If the recommended format is not used, the date will be considered in the server timezone.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>userid</i></td><td style="width:500px;"><i>The ID of the user that created the console endpoint.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>virtualmachineid</i></td><td style="width:500px;"><i>The ID of the virtual machine.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">ID of the console session.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>account</strong></td><td style="width:500px;">Account that created the console endpoint.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>accountid</strong></td><td style="width:500px;">ID of the account that created the console endpoint.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>acquired</strong></td><td style="width:500px;">Date when the console session was acquired.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>clientaddress</strong></td><td style="width:500px;">IP address of the client that created the console session.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>consoleendpointcreatoraddress</strong></td><td style="width:500px;">IP address of the creator of the console endpoint.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>created</strong></td><td style="width:500px;">Date when the console session's endpoint was created.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domain</strong></td><td style="width:500px;">Domain of the account that created the console endpoint.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainid</strong></td><td style="width:500px;">Domain ID of the account that created the console endpoint.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainpath</strong></td><td style="width:500px;">Domain path of the account that created the console endpoint.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hostid</strong></td><td style="width:500px;">ID of the host.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hostname</strong></td><td style="width:500px;">Name of the host.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>removed</strong></td><td style="width:500px;">Date when the console session was removed.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>user</strong></td><td style="width:500px;">User that created the console endpoint.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>userid</strong></td><td style="width:500px;">ID of the user that created the console endpoint.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>virtualmachineid</strong></td><td style="width:500px;">ID of the virtual machine.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>virtualmachinename</strong></td><td style="width:500px;">Name of the virtual machine.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

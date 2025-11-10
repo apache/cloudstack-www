@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.22.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>createSnapshot</h1>
+                                        <p>Creates an instant snapshot of a volume.</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>volumeid</strong></td><td style="width:500px;"><strong>The ID of the disk volume</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>account</i></td><td style="width:500px;"><i>The account of the snapshot. The account parameter must be used with the domainId parameter.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>asyncbackup</i></td><td style="width:500px;"><i>asynchronous backup if true</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>domainid</i></td><td style="width:500px;"><i>The domain ID of the snapshot. If used with the account parameter, specifies a domain for the account associated with the disk volume. If account is NOT provided then snapshot will be assigned to the caller account and domain.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>locationtype</i></td><td style="width:500px;"><i>Currently applicable only for managed storage. Valid location types: 'primary', 'secondary'. Default = 'primary'.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>name</i></td><td style="width:500px;"><i>the name of the snapshot</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>policyid</i></td><td style="width:500px;"><i>policy id of the snapshot, if this is null, then use MANUAL_POLICY.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>quiescevm</i></td><td style="width:500px;"><i>quiesce vm if true</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>storageids</i></td><td style="width:500px;"><i>A comma-separated list of IDs of the storage pools in other zones in which the snapshot will be made available. The snapshot will always be made available in the zone in which the volume is present.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>tags</i></td><td style="width:500px;"><i>Map of tags (key/value pairs)</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>usestoragereplication</i></td><td style="width:500px;"><i>This parameter enables the option the snapshot to be copied to supported primary storage</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>zoneids</i></td><td style="width:500px;"><i>A comma-separated list of IDs of the zones in which the snapshot will be made available. The snapshot will always be made available in the zone in which the volume is present.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">ID of the snapshot</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>account</strong></td><td style="width:500px;">the account associated with the snapshot</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>chainsize</strong></td><td style="width:500px;">chain size of snapshot including all parent snapshots. Shown only for incremental snapshots if snapshot.show.chain.size setting is set to true</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>created</strong></td><td style="width:500px;">  the date the snapshot was created</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>datastoreid</strong></td><td style="width:500px;">ID of the datastore for the snapshot entry</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>datastorename</strong></td><td style="width:500px;">name of the datastore for the snapshot entry</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>datastorestate</strong></td><td style="width:500px;">state of the snapshot on the datastore</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>datastoretype</strong></td><td style="width:500px;">type of the datastore for the snapshot entry</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domain</strong></td><td style="width:500px;">the domain name of the snapshot's account</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainid</strong></td><td style="width:500px;">the domain ID of the snapshot's account</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainpath</strong></td><td style="width:500px;">path of the Domain the snapshot's account belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>downloaddetails</strong></td><td style="width:500px;">download progress of a snapshot</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>intervaltype</strong></td><td style="width:500px;">valid types are hourly, daily, weekly, monthy, template, and none.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>locationtype</strong></td><td style="width:500px;">valid location types are primary and secondary.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;">name of the snapshot</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>osdisplayname</strong></td><td style="width:500px;">display name of the os on volume</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ostypeid</strong></td><td style="width:500px;">id of the os on volume</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>physicalsize</strong></td><td style="width:500px;">physical size of backedup snapshot on image store</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>project</strong></td><td style="width:500px;">the project name of the snapshot</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>projectid</strong></td><td style="width:500px;">the project id of the snapshot</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>revertable</strong></td><td style="width:500px;">indicates whether the underlying storage supports reverting the volume to this snapshot</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>snapshottype</strong></td><td style="width:500px;">the type of the snapshot</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>state</strong></td><td style="width:500px;">the state of the snapshot. BackedUp means that snapshot is ready to be used; Creating - the snapshot is being allocated on the primary storage; BackingUp - the snapshot is being backed up on secondary storage</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>status</strong></td><td style="width:500px;">the status of the template</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>virtualsize</strong></td><td style="width:500px;">virtual size of backedup snapshot on image store</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>volumeid</strong></td><td style="width:500px;">ID of the disk volume</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>volumename</strong></td><td style="width:500px;">name of the disk volume</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>volumestate</strong></td><td style="width:500px;">state of the disk volume</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>volumetype</strong></td><td style="width:500px;">type of the disk volume</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zoneid</strong></td><td style="width:500px;">id of the availability zone</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zonename</strong></td><td style="width:500px;">name of the availability zone</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>jobid</strong></td><td style="width:500px;">the ID of the latest async job acting on this object</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>jobstatus</strong></td><td style="width:500px;">the current status of the latest async job acting on this object</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
