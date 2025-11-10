@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.22.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>destroySystemVm</h1>
+                                        <p>Destroys a system virtual machine.</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;"><strong>The ID of the system virtual machine</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">the ID of the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>activeviewersessions</strong></td><td style="width:500px;">the number of active console sessions for the console proxy system vm</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>agentstate</strong></td><td style="width:500px;">the agent state of the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>arch</strong></td><td style="width:500px;">CPU arch of the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>created</strong></td><td style="width:500px;">the date and time the system VM was created</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>disconnected</strong></td><td style="width:500px;">the last disconnected date of host</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>dns1</strong></td><td style="width:500px;">the first DNS for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>dns2</strong></td><td style="width:500px;">the second DNS for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>gateway</strong></td><td style="width:500px;">the gateway for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>guestvlan</strong></td><td style="width:500px;">guest vlan range</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hostcontrolstate</strong></td><td style="width:500px;">the control state of the host for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hostid</strong></td><td style="width:500px;">the host ID for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hostname</strong></td><td style="width:500px;">the hostname for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hypervisor</strong></td><td style="width:500px;">the hypervisor on which the template runs</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>isdynamicallyscalable</strong></td><td style="width:500px;">true if vm contains XS/VMWare tools inorder to support dynamic scaling of VM cpu/memory.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>linklocalip</strong></td><td style="width:500px;">the link local IP address for the system vm</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>linklocalmacaddress</strong></td><td style="width:500px;">the link local MAC address for the system vm</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>linklocalnetmask</strong></td><td style="width:500px;">the link local netmask for the system vm</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;">the name of the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkdomain</strong></td><td style="width:500px;">the network domain for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>podid</strong></td><td style="width:500px;">the Pod ID for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>podname</strong></td><td style="width:500px;">the Pod name for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>privateip</strong></td><td style="width:500px;">the private IP address for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>privatemacaddress</strong></td><td style="width:500px;">the private MAC address for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>privatenetmask</strong></td><td style="width:500px;">the private netmask for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>publicip</strong></td><td style="width:500px;">the public IP address for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>publicmacaddress</strong></td><td style="width:500px;">the public MAC address for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>publicnetmask</strong></td><td style="width:500px;">the public netmask for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>publicvlan</strong></td><td style="width:500px;">public vlan range</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>serviceofferingid</strong></td><td style="width:500px;">the ID of the service offering of the system virtual machine.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>serviceofferingname</strong></td><td style="width:500px;">the name of the service offering of the system virtual machine.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>state</strong></td><td style="width:500px;">the state of the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>systemvmtype</strong></td><td style="width:500px;">the system VM type</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>templateid</strong></td><td style="width:500px;">the template ID for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>templatename</strong></td><td style="width:500px;">the template name for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>version</strong></td><td style="width:500px;">the systemvm agent version</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zoneid</strong></td><td style="width:500px;">the Zone ID for the system VM</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zonename</strong></td><td style="width:500px;">the Zone name for the system VM</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
