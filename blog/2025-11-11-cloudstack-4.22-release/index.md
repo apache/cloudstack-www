@@ -84,7 +84,7 @@ https://www.shapeblue.com/cloudstack-packages/
 <div className="row">
 <div className="col col--3">
 
-![](/img/Harikrishna.jpg "Harikrishna Patnala" class="blog-image")
+![](/img/authors/harikrishna.png "Harikrishna Patnala" class="blog-image")
 
 </div>
 <div className="col col--9">
