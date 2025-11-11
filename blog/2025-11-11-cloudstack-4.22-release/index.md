@@ -24,7 +24,7 @@ The 4.22 release contains 10 new features, around 15 improvements and more than 
 
 · CSI Driver for CKS
 
-· Console Access for Proxmox in Extensions Framework 
+· Console Access for Proxmox in Extensions Framework
 
 · VMware-to-KVM Migration Enhancements
 
@@ -71,13 +71,13 @@ https://cloudstack.apache.org/downloads.html
 
 In addition to the official source code release, individual contributors have also made convenience binaries available on the Apache CloudStack download page, and can be found at:
 
-https://download.cloudstack.org/el/8/ 
+https://download.cloudstack.org/el/8/
 https://download.cloudstack.org/el/9/
 https://download.cloudstack.org/el/10/
 https://download.cloudstack.org/suse/15
 https://download.cloudstack.org/ubuntu/dists/
 https://download.cloudstack.org/debian/dists/
-https://www.shapeblue.com/cloudstack-packages/ 
+https://www.shapeblue.com/cloudstack-packages/
 
 ##### A Word from the Community
 
