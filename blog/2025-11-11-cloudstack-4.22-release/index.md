@@ -6,7 +6,7 @@ authors: [harikrishna]
 slug: cloudstack-4.22.0.0-release
 ---
 
-[![](4.22.png "Apache CloudStack 4.22.0.0 Release")](/blog/cloudstack-4.22.0.0-release)
+[![](4.22.jpg "Apache CloudStack 4.22.0.0 Release")](/blog/cloudstack-4.22.0.0-release)
 
 The Apache CloudStack project is pleased to announce the release of CloudStack 4.22.0.0, which is a LTS release.
 
@@ -32,21 +32,21 @@ The 4.22 release contains 10 new features, around 15 improvements and more than 
 
 · Per-Zone Console Proxy Configuration
 
-· Direct Volume Migration within Cluster
+· Direct Volume Migrations by-passing Secondary Storage
 
-· Persistent KVM Domains
+· Persistent domain for unmanaged KVM instances from CS
 
-· Support for userdata on System VMs
+· Support for User Data on System VMs
 
 · EL10 & OpenSUSE 15.6 Platform Support
 
 · Stronger Checksum Algorithm (SHA-512)
 
-· Enable KVM volume and VM snapshot by default
+· Enable KVM Volume and VM snapshot by default
 
-· Support xz format for template registration
+· Support XZ compression format for template registration with KVM
 
-· Support for shared Filesystem on Config Drive Networks
+· Support for Shared Filesystem on Networks with Config Drive
 
 
 CloudStack LTS branches are supported for 24 months and will receive updates for the first 18 months and only blocker defects, security updates in the last 6 months.
@@ -76,6 +76,7 @@ https://download.cloudstack.org/el/9/
 https://download.cloudstack.org/el/10/
 https://download.cloudstack.org/suse/15
 https://download.cloudstack.org/ubuntu/dists/
+https://download.cloudstack.org/debian/dists/
 https://www.shapeblue.com/cloudstack-packages/ 
 
 ##### A Word from the Community
