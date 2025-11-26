@@ -24,13 +24,13 @@ involved with the community.
               <div className="hc-header">Upcoming Events:</div>
               <div className="row">
                 <div className="col-lg-9 pt-3 px-4">
-                  <img src="/img/ccc-2025.jpg" alt="" className="events-img events-overview-img"/>
-                  <p className="title mt-2">CloudStack Collaboration Conference 2025</p>
-                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Milan, Italy</p>
-                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 19-21, 2025</p>
+                  <img src="/img/CCC-2026.jpg" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">CloudStack Collaboration Conference 2026</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Edinburgh, Scotland</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 18-20, 2025</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://www.eventbrite.co.uk/e/cloudstack-collaboration-conference-2025-tickets-1301872940009?aff=oddtdtcreator" className="btn btn-primary me-3">Register</a>
+                  <a href="https://www.eventbrite.com/e/cloudstack-collaboration-conference-2026-tickets-1975705589603?aff=oddtdtcreator" className="btn btn-primary me-3">Register</a>
                   <a href="https://www.cloudstackcollab.org/" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
                 </div>
               </div>
@@ -38,6 +38,17 @@ involved with the community.
 
             <div className="horizontal-card">
               <div className="hc-header">Past Events:</div>
+              <div className="row">
+                <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/ccc-2025.jpg" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">CloudStack Collaboration Conference 2025</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Milan, Italy</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 19-21, 2025</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://www.cloudstackcollab.org/" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
+                </div>
+              </div>
               <div className="row">
                 <div className="col-lg-9 pt-3 px-4">
                   <img src="/img/cseug-2025-autumn.png" alt="" className="events-img events-overview-img"/>
@@ -71,18 +82,6 @@ involved with the community.
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="/blog/cseug-2025" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
                   <a href="https://www.youtube.com/watch?v=Kcp8BSb2QJE&list=PLnIKk7GjgFlaMg8GePeADgfC-XLmUD8-l" target="_blank" className="btn btn-primary me-3">Watch</a>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-9 pt-3 px-4">
-                  <img src="/img/CCC-2024.png" alt="" className="events-img events-overview-img"/>
-                  <p className="title mt-2">CloudStack Collaboration Conference 2024</p>
-                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Madrid, Spain</p>
-                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 20-22, 2024</p>
-                </div>
-                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="/blog/ccc-2024" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
-                  <a href="https://youtube.com/playlist?list=PLnIKk7GjgFlaWZzwxq7UxIYdMGy_oo0W5&si=2dvKUkuoxM82hARV" target="_blank" className="btn btn-primary me-3">Watch</a>
                 </div>
               </div>
             </div>
