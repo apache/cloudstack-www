@@ -27,7 +27,7 @@ involved with the community.
                   <img src="/img/CCC-2026.jpg" alt="" className="events-img events-overview-img"/>
                   <p className="title mt-2">CloudStack Collaboration Conference 2026</p>
                   <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Edinburgh, Scotland</p>
-                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 18-20, 2025</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 18-20, 2026</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://www.eventbrite.com/e/cloudstack-collaboration-conference-2026-tickets-1975705589603?aff=oddtdtcreator" className="btn btn-primary me-3">Register</a>
