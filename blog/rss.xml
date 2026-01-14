@@ -4,10 +4,46 @@
         <title>Apache CloudStack Blog</title>
         <link>https://cloudstack.apache.org/blog</link>
         <description>Apache CloudStack Blog</description>
-        <lastBuildDate>Mon, 29 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Explore the Sessions from the CloudStack Collaboration Conference 2025!]]></title>
+            <link>https://cloudstack.apache.org/blog/ccc-2025-roundup</link>
+            <guid>https://cloudstack.apache.org/blog/ccc-2025-roundup</guid>
+            <pubDate>Tue, 13 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The CloudStack Collaboration Conference 2025 took place in Milan,]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="/assets/images/CCC-2025-roundup-banner-e5e6bd8721c3f9474174e0b7fbb950ce.png" title="Blog Header Image" width="1200" height="628" class="img_ev3q"></p><p>The CloudStack Collaboration Conference 2025 took place in Milan,
+Italy from November 19 to 21, bringing together CloudStack users,
+developers, and operators from across the global community. This
+annual in person event once again provided a valuable space for
+collaboration, knowledge sharing, and shaping the future of Apache
+CloudStack.</p><p>Hosted at the Enterprise Hotel in Milan, the conference featured a
+packed agenda of technical sessions, deep dive workshops, and open
+discussions. Topics ranged from CloudStack architecture and
+scalability to automation, storage, networking, security, and real
+world operational best practices. Attendees had the opportunity to
+learn directly from industry experts, exchange experiences with peers,
+and explore the latest developments across the CloudStack ecosystem.</p><p>We would like to extend our sincere thanks to our 2025 sponsors for
+their support in making this event possible:
+<a href="https://www.shapeblue.com/" target="_blank" rel="noopener noreferrer">ShapeBlue</a>,
+<a href="https://ussignal.com/" target="_blank" rel="noopener noreferrer">US Signal</a>,
+<a href="https://linbit.com/" target="_blank" rel="noopener noreferrer">LINBIT</a>,
+<a href="https://storpool.com/" target="_blank" rel="noopener noreferrer">StorPool</a>,
+<a href="https://cyso.cloud/" target="_blank" rel="noopener noreferrer">Cyso Cloud</a>,
+<a href="https://www.dimsi.fr/" target="_blank" rel="noopener noreferrer">DIMSI</a>,
+<a href="https://www.cdlan.it/" target="_blank" rel="noopener noreferrer">CDLAN</a>,
+<a href="https://your.online/" target="_blank" rel="noopener noreferrer">Your.Online</a>,
+<a href="https://amperecomputing.com/" target="_blank" rel="noopener noreferrer">Ampere</a>,
+<a href="https://www.stackconsole.io/" target="_blank" rel="noopener noreferrer">Stack Console</a>,
+<a href="https://yotta.com/" target="_blank" rel="noopener noreferrer">Yotta</a>,
+<a href="https://www.proio.com/" target="_blank" rel="noopener noreferrer">proIO</a>, and
+<a href="https://wesystems.de/" target="_blank" rel="noopener noreferrer">weSystems</a>.</p><p>Click the button below to view the official Event Roundup blog, where
+you can access the session recordings, slides, abstracts, and the
+photos taken at the event.</p><div class="col col-3 col-lg text-center"><a href="https://www.cloudstackcollab.org/event-roundup-cloudstack-collaboration-conference-2025/" target="_blank" rel="noopener noreferrer" class="button button--primary">Event Roundup</a></div>]]></content:encoded>
+            <category>roundup</category>
+        </item>
         <item>
             <title><![CDATA[CloudStack Kubernetes Provider v1.2.0 Release]]></title>
             <link>https://cloudstack.apache.org/blog/cloudstack-kubernetes-provider-v1.2.0</link>
