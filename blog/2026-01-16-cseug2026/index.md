@@ -58,6 +58,10 @@ This is your chance to share knowledge with fellow CloudStack users, operators, 
 
 Submit your proposal using the button below!
 
+<div class="col col-3 col-lg text-center">
+<a class="button button--primary" href="https://cloudstack.short.gy/AEwc92" target="_blank">Submit</a>
+</div>
+
 Hosted by CBS (Statistics Netherlands)
 We’re proud to have CBS (Statistics Netherlands) as the host of the CloudStack European User Group 2026.
 
