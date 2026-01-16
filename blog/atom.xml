@@ -2,11 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2026-01-13T00:00:00.000Z</updated>
+    <updated>2026-01-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Connect with Apache CloudStack at CloudFest 2026]]></title>
+        <id>https://cloudstack.apache.org/blog/cloudfest-2026</id>
+        <link href="https://cloudstack.apache.org/blog/cloudfest-2026"/>
+        <updated>2026-01-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From March 23–26, 2026, CloudFest returns to Europa-Park in]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/banner-36573555f8a395a093a3d33aa9db1d1a.png" title="Blog Header Image" width="1200" height="628" class="img_ev3q"></p><p>From <b>March 23–26, 2026</b>, CloudFest returns to <b>Europa-Park in
+Rust, Germany</b>, bringing together the global internet infrastructure
+community for four days of networking, technology, and innovation.</p><p>Apache CloudStack will once again be represented at the event, with
+the project exhibiting at booth R36. Attendees will have the
+opportunity to learn how CloudStack enables flexible, open-source
+cloud infrastructure, offering operators and service providers a
+powerful alternative to proprietary virtualization platforms.</p><p>CloudFest 2026 provides an ideal setting for cloud builders, hosting
+providers, and infrastructure specialists to explore CloudStack’s
+capabilities, exchange ideas, and discuss how open-source
+virtualization continues to shape the future of cloud computing.</p><div class="row"><div class="col col--9"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-a-free-ticket">Get a Free Ticket!<a href="#get-a-free-ticket" class="hash-link" aria-label="Direct link to Get a Free Ticket!" title="Direct link to Get a Free Ticket!">​</a></h2><p>Click the button below to redeem a free pass, worth €499 EUR!</p><a href="https://registration.cloudfest.com/registration?code=d7XdxKux" target="_blank" rel="noopener noreferrer" class="button button--primary">Register for Free</a></div><div class="col col--3"><p><img loading="lazy" src="/assets/images/StandardPass-baeae2ab680fe4984587c429c7dd963a.png" title="a free pass for the cloudstack team&quot; class=&quot;blog-image" width="371" height="494" class="img_ev3q"></p></div></div><h1>Visit the Apache CloudStack Booth at CloudFest</h1><p>Stop by the Apache CloudStack stand at booth R36 during CloudFest to
+speak directly with CloudStack experts and community members. The team
+will be on hand to walk through real world use cases, discuss current
+capabilities, make demos, and answer questions around operating
+CloudStack in production environments.</p><p>The Booth is also a place to have practical conversations around
+topics such as moving away from proprietary platforms, designing
+flexible cloud architectures, and operating open-source infrastructure
+at scale. Whether you are exploring CloudStack for the first time or
+already running it in your environment, the stand offers an
+opportunity to learn, exchange ideas, and dig deeper into how
+CloudStack fits modern cloud requirements.</p><h1>Why Apache CloudStack?</h1><p>Choosing the right platform is one of the most important decisions for
+organisations building public or private cloud services. The wrong
+choice can increase complexity, raise costs, and limit long term
+flexibility.</p><p>Apache CloudStack is built to support cloud operators, service
+providers, and enterprises that need a reliable, open-source cloud and
+virtualization management platform. It offers a mature feature set,
+straightforward deployment, and proven scalability across multi
+datacentre environments. Backed by an active and friendly community,
+delivering regular releases and new features, CloudStack helps
+organisations maintain control over their infrastructure, reduce
+dependency on proprietary vendors, and operate cloud services
+efficiently as they grow.</p>]]></content>
+        <author>
+            <name>Jamie Pell</name>
+            <uri>https://github.com/jamiepell10</uri>
+        </author>
+        <category label="news" term="news"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Explore the Sessions from the CloudStack Collaboration Conference 2025!]]></title>
         <id>https://cloudstack.apache.org/blog/ccc-2025-roundup</id>
