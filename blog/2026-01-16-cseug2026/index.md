@@ -6,7 +6,7 @@ authors: [jamie]
 slug: cseug-2026
 ---
 
-[![](banner.png "Blog Header Image")](https://www.eventbrite.co.uk/e/cloudstack-european-user-group-2026-tickets-1980615585533?aff=oddtdtcreator)
+[![](/img/CSEUG-2026-05-21_1200x628px.jpg "Blog Header Image")](https://www.eventbrite.co.uk/e/cloudstack-european-user-group-2026-tickets-1980615585533?aff=oddtdtcreator)
 
 We’re pleased to announce that the CloudStack European User Group
 (CSEUG) 2026 will take place in the Netherlands on May 21st. This year’s
