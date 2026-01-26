@@ -6,7 +6,7 @@ authors: [jamie]
 slug: cloudfest-2026
 ---
 
-![](banner.png "Blog Header Image")
+![](/img/CloudFest2026.png "Blog Header Image")
 
 From <b>March 23–26, 2026</b>, CloudFest returns to <b>Europa-Park in
 Rust, Germany</b>, bringing together the global internet infrastructure
