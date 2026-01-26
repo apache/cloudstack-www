@@ -24,14 +24,13 @@ involved with the community.
               <div className="hc-header">Upcoming Events:</div>
               <div className="row">
                 <div className="col-lg-9 pt-3 px-4">
-                  <img src="/img/CCC-2026.jpg" alt="" className="events-img events-overview-img"/>
-                  <p className="title mt-2">CloudStack Collaboration Conference 2026</p>
-                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Edinburgh, Scotland</p>
-                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 18-20, 2026</p>
+                  <img src="/img/CloudFest2026.png" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">Meet Apache CloudStack at CloudFest 2026</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Rust, Germany</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>March 23-26, 2026</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://www.eventbrite.com/e/cloudstack-collaboration-conference-2026-tickets-1975705589603?aff=oddtdtcreator" className="btn btn-primary me-3">Register</a>
-		  <a href="https://www.cloudstackcollab.org/" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
+                  <a href="/blog/cloudfest-2026" target="_blank" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
                 </div>
               </div>
               <div className="row">
@@ -44,6 +43,18 @@ involved with the community.
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://www.eventbrite.co.uk/e/cloudstack-european-user-group-2026-tickets-1980615585533?aff=oddtdtcreator" class="btn btn-primary me-3">Register</a>
                   <a href="/blog/cseug-2026" target="_blank" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/CCC-2026.jpg" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">CloudStack Collaboration Conference 2026</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Edinburgh, Scotland</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 18-20, 2026</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://www.eventbrite.com/e/cloudstack-collaboration-conference-2026-tickets-1975705589603?aff=oddtdtcreator" className="btn btn-primary me-3">Register</a>
+		  <a href="https://www.cloudstackcollab.org/" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
                 </div>
               </div>
             </div>
