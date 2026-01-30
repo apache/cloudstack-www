@@ -69,7 +69,7 @@ involved with the community.
                   <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>November 19-21, 2025</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://www.cloudstackcollab.org/" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
+                  <a href="https://www.cloudstackcollab.org/event-roundup-cloudstack-collaboration-conference-2025/" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
 		  <a href="https://www.youtube.com/playlist?list=PLnIKk7GjgFlZd5FgXpLP1MJmaB9cFesSk" target="_blank" className="btn btn-primary me-3">Watch</a>
                 </div>
               </div>
