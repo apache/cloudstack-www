@@ -47,6 +47,18 @@ involved with the community.
               </div>
               <div className="row">
                 <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/CoC2026.png" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">CloudStack Collaboration Conference 2026</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Glascow, Scotland</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>October 11-14, 2026</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+		  <a href=" https://communityovercode.org/call-for-presentations/" target="_blank" className="btn btn-primary me-3" >Submit</a>
+                  <a href="/blog/coc2026" className="btn btn-outline-secondary me-3">Read More</a>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-lg-9 pt-3 px-4">
                   <img src="/img/CCC-2026.jpg" alt="" className="events-img events-overview-img"/>
                   <p className="title mt-2">CloudStack Collaboration Conference 2026</p>
                   <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Edinburgh, Scotland</p>
