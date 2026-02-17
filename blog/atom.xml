@@ -14,8 +14,8 @@
         <updated>2026-02-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The Apache Software Foundation (ASF) has]]></summary>
         <content type="html"><![CDATA[<p><a href="https://communityovercode.org/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/CoC2026-22c24dadf1383fa4bf1c38282c330c4d.png" title="Blog Header Image" width="1200" height="628" class="img_ev3q"></a></p><p><a href="https://www.apache.org" target="_blank" rel="noopener noreferrer">The Apache Software Foundation (ASF)</a> has
-announced that Community Over Code Europe 2026 will take place October
-11 to 14, 2026 in Glasgow, Scotland, at the Hilton Hotel.</p><p>Community Over Code is the annual conference of the ASF, bringing
+announced that <a href="https://communityovercode.org/" target="_blank" rel="noopener noreferrer">Community Over Code Europe 2026</a> will take place October 11 to 14, 2026
+in Glasgow, Scotland, at the Hilton Hotel.</p><p>Community Over Code is the annual conference of the ASF, bringing
 together contributors, committers, users, and open-source enthusiasts
 from across its 350 plus community driven projects. For more than 27
 years, Community Over Code and its ApacheCon predecessors have
@@ -30,12 +30,7 @@ CloudStack track at Community Over Code Europe 2026. The track will be
 chaired by CloudStack PMC members, Daniel Salvador and Ivet Petrova.</p><p>The goal of the CloudStack track is to address both foundational and
 advanced concepts within Apache CloudStack, while showcasing the
 latest developments and real-world use cases from across the
-ecosystem. Sessions will cover topics such as:</p><p>• CloudStack architecture and core components
-• Advanced networking and storage integrations
-• Automation, orchestration, and API driven operations
-• New features and roadmap updates
-• Large scale production deployments and case studies
-• Community processes and contribution pathways</p><p>Whether you are new to Apache CloudStack or operating it at scale in
+ecosystem. Sessions will cover topics such as:</p><ul><li>CloudStack architecture and core components</li><li>Advanced networking and storage integrations</li><li>Automation, orchestration, and API driven operations</li><li>New features and roadmap updates</li><li>Large scale production deployments and case studies</li><li>Community processes and contribution pathways</li></ul><p>Whether you are new to Apache CloudStack or operating it at scale in
 production, the CloudStack track will offer practical insights,
 technical depth, and direct engagement with project contributors and
 users.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="call-for-presentations-now-open">Call for Presentations Now Open<a href="#call-for-presentations-now-open" class="hash-link" aria-label="Direct link to Call for Presentations Now Open" title="Direct link to Call for Presentations Now Open">​</a></h2><p>If you have ideas for topics related to Apache CloudStack and plan to
@@ -49,11 +44,7 @@ proposal can be found by clicking the button below.</p><div class="col col-3 col
 projects, exchange ideas face to face, and shape the future direction
 of open-source technologies. The event features dedicated tracks from
 a wide range of Apache projects, including but not limited to Groovy,
-Airflow, Cassandra, and many others across the ecosystem.</p><p>For the Apache CloudStack community, this event provides:
-• A platform to share innovations and best practices
-• A chance to connect with contributors from across Europe and beyond
-• Dedicated time for roadmap discussions and collaboration
-• Exposure to other ASF projects and cross community ideas</p><h1>Mark Your Calendars</h1><p>Community Over Code Europe 2026 will take place October 11 to 14, 2026
+Airflow, Cassandra, and many others across the ecosystem.</p><p>For the Apache CloudStack community, this event provides:</p><ul><li>A platform to share innovations and best practices</li><li>A chance to connect with contributors from across Europe and beyond</li><li>Dedicated time for roadmap discussions and collaboration</li><li>Exposure to other ASF projects and cross community ideas</li></ul><h1>Mark Your Calendars</h1><p>Community Over Code Europe 2026 will take place October 11 to 14, 2026
 in Glasgow, Scotland.</p><p>Save the dates, start thinking about your session ideas, and join us
 in bringing the Apache CloudStack community together in-person once
 again!</p>]]></content>
