@@ -10,8 +10,9 @@ slug: coceu26
 
 
 [The Apache Software Foundation (ASF)](https://www.apache.org) has
-announced that Community Over Code Europe 2026 will take place October
-11 to 14, 2026 in Glasgow, Scotland, at the Hilton Hotel.
+announced that [Community Over Code Europe 2026](
+https://communityovercode.org/) will take place October 11 to 14, 2026
+in Glasgow, Scotland, at the Hilton Hotel.
 
 Community Over Code is the annual conference of the ASF, bringing
 together contributors, committers, users, and open-source enthusiasts
@@ -40,12 +41,12 @@ advanced concepts within Apache CloudStack, while showcasing the
 latest developments and real-world use cases from across the
 ecosystem. Sessions will cover topics such as:
 
-• CloudStack architecture and core components
-• Advanced networking and storage integrations
-• Automation, orchestration, and API driven operations
-• New features and roadmap updates
-• Large scale production deployments and case studies
-• Community processes and contribution pathways
+- CloudStack architecture and core components
+- Advanced networking and storage integrations
+- Automation, orchestration, and API driven operations
+- New features and roadmap updates
+- Large scale production deployments and case studies
+- Community processes and contribution pathways
 
 Whether you are new to Apache CloudStack or operating it at scale in
 production, the CloudStack track will offer practical insights,
@@ -82,10 +83,10 @@ a wide range of Apache projects, including but not limited to Groovy,
 Airflow, Cassandra, and many others across the ecosystem.
 
 For the Apache CloudStack community, this event provides:
-• A platform to share innovations and best practices
-• A chance to connect with contributors from across Europe and beyond
-• Dedicated time for roadmap discussions and collaboration
-• Exposure to other ASF projects and cross community ideas
+- A platform to share innovations and best practices
+- A chance to connect with contributors from across Europe and beyond
+- Dedicated time for roadmap discussions and collaboration
+- Exposure to other ASF projects and cross community ideas
 
 # Mark Your Calendars
 
