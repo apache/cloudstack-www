@@ -35,7 +35,7 @@ involved with the community.
               </div>
               <div className="row">
                 <div className="col-lg-9 pt-3 px-4">
-                  <img src="/img/CSEUG-2026-05-21_1200x628px.jpg" alt="" className="events-img events-overview-img"/>
+                  <img src="/img/CSEUG-2026-05-21.png" alt="" className="events-img events-overview-img"/>
                   <p className="title mt-2">CloudStack European User Group 2026</p>
                   <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>the Hague, the Netherlands</p>
                   <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>May 21, 2026</p>
