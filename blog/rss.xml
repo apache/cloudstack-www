@@ -4,10 +4,90 @@
         <title>Apache CloudStack Blog</title>
         <link>https://cloudstack.apache.org/blog</link>
         <description>Apache CloudStack Blog</description>
-        <lastBuildDate>Fri, 13 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[CloudStack European User Group: Agenda Announced]]></title>
+            <link>https://cloudstack.apache.org/blog/cseug26-agenda</link>
+            <guid>https://cloudstack.apache.org/blog/cseug26-agenda</guid>
+            <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[We’re excited to announce the full agenda for the upcoming *CloudStack]]></description>
+            <content:encoded><![CDATA[<p><a href="https://www.eventbrite.co.uk/e/cloudstack-european-user-group-2026-tickets-1980615585533?aff=oddtdtcreator" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="/assets/images/Agenda-55dab28660181d60204d2acd0df3857b.png" title="Blog Header Image" width="2326" height="1196" class="img_ev3q"></a></p><p>We’re excited to announce the full agenda for the upcoming <em>CloudStack
+European User Group on 21 May</em> in the Hague, at CBS – Statistics
+Netherlands — a full day dedicated to cloud infrastructure, digital
+sovereignty, storage innovation, and real-world Apache CloudStack
+deployments.</p><p>The event brings together industry experts, Apache CloudStack
+contributors, and infrastructure specialists to share practical
+insights, technical deep dives, and migration strategies.</p><h1>Event Agenda</h1><p><em><strong>09:30 – 10:00</strong></em></p><p><strong>Registration and Morning Coffee </strong></p><p>Start the day by networking with fellow Apache CloudStack users,
+partners, and community members.</p><p><em><strong>10:00 – 10:15</strong></em></p><p><strong>Event Opening and Kick Off <a href="https://www.linkedin.com/in/ivpetrova/" target="_blank" rel="noopener noreferrer">Ivet Petrova</a> — Marketing Director, <a href="https://www.shapeblue.com/" target="_blank" rel="noopener noreferrer">ShapeBlue</a></strong></p><p>Welcome remarks and introduction to the day’s sessions.</p><p><em><strong>10:15 – 10:30</strong></em></p><p><strong> CBS Digital Sovereignty Strategy <a href="https://www.linkedin.com/in/eriklogtenberg/?originalSubdomain=nl" target="_blank" rel="noopener noreferrer">Erik Logtenberg</a> — CIO, <a href="https://www.cbs.nl/en-gb" target="_blank" rel="noopener noreferrer">CBS</a></strong></p><p>An overview of CBS’s approach to digital sovereignty and cloud independence.</p><p><em><strong>10:30 – 11:00</strong></em></p><p><strong> What's New in Apache CloudStack – Release and Features Overview <a href="https://www.linkedin.com/in/bstoyanov/" target="_blank" rel="noopener noreferrer">Boris Stoyanov</a> — Director of Engineering, <a href="https://www.shapeblue.com/" target="_blank" rel="noopener noreferrer">ShapeBlue</a></strong></p><p>Let’s take a look at the 4.23 release and what’s new. Attendees will
+walk through the latest features and enhancements, highlighting how
+they improve performance, usability, and scalability. Beyond the
+release notes, you’ll gain practical insights into how to apply these
+updates in real-world environments - helping you get the most value
+out of your CloudStack deployment.</p><p><em><strong>11:00 – 11:10</strong></em></p><p><strong>Coffee Break</strong></p><p><em><strong>11:10 – 11:40</strong></em></p><p><strong>A Deep-Dive Into the Integration of CloudStack and Ceph Primary Storage <a href="https://www.linkedin.com/in/widodh/" target="_blank" rel="noopener noreferrer">Wido den Hollander</a> — CTO, <a href="https://your.online/" target="_blank" rel="noopener noreferrer">Your.Online</a></strong></p><p>This session provides a deep dive into integrating Apache CloudStack
+with Ceph as primary storage - widely considered a gold standard for
+organizations building reliable, open-source IaaS platforms. We’ll
+explore architecture, deployment patterns, and key design
+considerations for creating scalable and resilient cloud environments.</p><p>Attendees will gain practical insights into performance optimization,
+high availability, and operational best practices, along with lessons
+learned from real-world experience of a decade working with both
+technologies.</p><p><em><strong>11:40 – 12:10</strong></em></p><p><strong>Digital Sovereignty in Practice: Building a High-Performance Cloud Without Vendor Lock-In <a href="https://www.linkedin.com/in/swen-br%C3%BCseke-391912193/" target="_blank" rel="noopener noreferrer">Swen Brüseke</a> — CEO, <a href="https://www.proio.com/" target="_blank" rel="noopener noreferrer">ProIO</a></strong></p><p>Digital sovereignty is no longer just a buzzword; it has become a
+critical survival strategy for enterprises. But how do you build a
+cloud platform that is performant, cost-effective, and truly free from
+vendor lock-in? proIO has been consistently relying on Apache
+CloudStack since 2013. In this session, we will discuss why private
+clouds are more relevant than ever in the current global climate and
+how we push our platform to its limits as "heavy users" to deliver
+premium Managed Hosting. We will provide technical insights into our
+stack—from Linbit-based Hyperconverged Infrastructure (HCI) to our
+strategic partnership with ShapeBlue. Join us for a look behind the
+scenes from a CloudStack Committer’s perspective on the synergy
+between Open Source DNA and Enterprise requirements.</p><p><em><strong>12:10 – 12:40</strong></em></p><p><strong>LINSTOR as CloudStack Primary Storage: From Theory to Production War Stories <a href="https://www.linkedin.com/in/rene-peinthor-588b50339/" target="_blank" rel="noopener noreferrer">Rene Peinthor</a> — Software Engineer, <a href="https://linbit.com/" target="_blank" rel="noopener noreferrer">LINBIT</a></strong></p><p>This talk will start with a theoretical introduction of LINSTOR-SDS
+and will then dive into common production problems and stories we
+encountered and how to avoid them.</p><p><em><strong>12:40 – 13:40</strong></em></p><p><strong>Lunch Break</strong></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="afternoon-sessions">Afternoon Sessions<a href="#afternoon-sessions" class="hash-link" aria-label="Direct link to Afternoon Sessions" title="Direct link to Afternoon Sessions">​</a></h2><p><em><strong>13:00 – 15:00</strong></em></p><p>Apache CloudStack for Beginners – Workshop A dedicated hands-on
+workshop designed for newcomers and those looking to strengthen their
+Apache CloudStack fundamentals. Participants will learn core
+architecture concepts, deployment basics, and practical operational
+guidance.</p><p><em><strong>13:40 – 14:10</strong></em></p><p><strong>Kubernetes is Not the New VM: Choosing the Right Abstraction for Modern Infrastructure <a href="https://www.linkedin.com/in/stoil-stoilov/" target="_blank" rel="noopener noreferrer">Stoil Stoilov</a> — Senior DevOps Engineer, <a href="https://storpool.com/" target="_blank" rel="noopener noreferrer">StorPool Storage</a></strong></p><p>In this talk, we challenge the “Kubernetes replaces VMs” myth and
+instead present a practical, operator-focused framework for deciding
+when to use Kubernetes and when to rely on virtual machines—especially
+in CloudStack environments. We will explore the fundamental
+differences between VMs and containers, including isolation
+boundaries, lifecycle management, networking models, and operational
+complexity. Through real-world scenarios, we’ll highlight where
+Kubernetes excels (cloud-native workloads, horizontal scaling,
+stateless services) and where VMs remain the better choice (stateful
+systems, legacy applications, strong isolation requirements,
+predictable performance). Finally, we’ll discuss how CloudStack users
+can combine both paradigms effectively—using VMs as the foundation and
+Kubernetes as a workload layer—rather than treating them as competing
+technologies.</p><p><em><strong>14:20 – 14:50</strong></em></p><p><strong>Safeguarding Apache CloudStack – Data Protection &amp; Recovery Powered by Commvault <a href="https://www.linkedin.com/in/rubenrenders/" target="_blank" rel="noopener noreferrer">Ruben Renders</a> — Solutions Director, MSP &amp; Sovereign Solutions, <a href="https://www.commvault.com/" target="_blank" rel="noopener noreferrer">Commvault</a></strong></p><p>Explore how Commvault enhances Apache CloudStack with enterprise-grade
+data protection and recovery. Attendees will gain insight into
+Commvault’s broader portfolio while learning how to build a strong
+foundation for cyber resilience; supported by a demo and practical
+implementation blueprints.</p><p><em><strong>14:50 – 15:15</strong></em></p><p><strong>Coffee Break</strong></p><p><em><strong>15:15 – 15:45</strong></em></p><p><strong>CloudStack Multisite Networking <a href="https://www.linkedin.com/in/noa-omer/?originalSubdomain=nl" target="_blank" rel="noopener noreferrer">Noa Omer</a> — Platform Engineer, <a href="https://cyso.com/en/" target="_blank" rel="noopener noreferrer">Cyso Group</a></strong></p><p>In this session, Noa, Platform Engineer at Cyso Cloud, presents how
+Cyso deploys Apache CloudStack to establish multisite networking
+across two geographically distributed regions. The presentation covers
+cross-region zone interconnectivity, network fabric design, and
+routing configuration, alongside an honest account of the operational
+complexities encountered and the outcomes achieved.</p><p><em><strong>15:55 – 16:30</strong></em></p><p><strong>From VMware to CloudStack/KVM: A Structured Migration Strategy with Minimal Downtime <a href="https://www.linkedin.com/in/ingo-jochim/?locale=en_US" target="_blank" rel="noopener noreferrer">Ingo Jochim</a>, Head of Cloud Architecture &amp; <a href="https://www.linkedin.com/in/prashanth-mandadi-reddy/" target="_blank" rel="noopener noreferrer">Prashanth Reddy</a>, Cloud Architect — ShapeBlue</strong></p><p>As organizations look to reduce vendor lock-in and regain control over
+their infrastructure, migrating from VMware to open-source platforms
+like Apache CloudStack with KVM is becoming an increasingly relevant
+path. However, such migrations require careful planning to ensure
+reliability, continuity, and minimal disruption to workloads.</p><p>This talk presents a structured, practical approach to migrating
+virtualized environments from VMware to CloudStack/KVM. It covers the
+full migration lifecycle, starting with environment discovery and
+detailed documentation, followed by planning and technical
+preparation. Attendees will learn how to validate the migration
+process through controlled</p><p>test migrations before executing large-scale mass migrations.</p><p>A key focus of the session is achieving migrations with minimal
+downtime. The presentation will explore techniques such as warm
+migration, performing an initial bulk data transfer in advance, and
+executing a short cutover window using delta synchronization to
+transfer only the final changes.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us-on-21-may">Join Us on 21 May<a href="#join-us-on-21-may" class="hash-link" aria-label="Direct link to Join Us on 21 May" title="Direct link to Join Us on 21 May">​</a></h2><p>Whether you're new to Apache CloudStack or an experienced operator, this event offers valuable insights, technical learning, and networking opportunities.</p><p>Register now and meet the community on <em>21 May</em> for a day of learning, collaboration, and Apache CloudStack innovation.</p><p>The event is supported by ShapeBlue, Cyso Group and CBS – Statistics Netherlands.</p>]]></content:encoded>
+            <category>news</category>
+        </item>
         <item>
             <title><![CDATA[Join the Apache CloudStack at Community Over Code Europe 2026 in Glasgow]]></title>
             <link>https://cloudstack.apache.org/blog/coceu26</link>
