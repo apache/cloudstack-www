@@ -1,6 +1,6 @@
 import React from "react";
 
-const pmc_chair_quote = `"some text"`
+const pmc_chair_quote = `"I’m excited to continue as VP this year, with a clear focus: supporting a active, open community and ensuring the project is healthy, especially as reliable, private clouds are ever more important."`
 
 const pmc_chair_name = "Wido den Hollander"
 const pmc_chair_picture = "/img/authors/wido.png"
