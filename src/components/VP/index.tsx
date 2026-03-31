@@ -1,17 +1,11 @@
 import React from "react";
 
-const pmc_chair_quote = `"Earlier this year, I was selected by my fellow PMC members as the project’s VP. The main role of the VP is to report
-        quarterly to the Apache Software Foundation Board,
-        representing CloudStack and providing updates on the health
-        and status of the project. I am grateful for the opportunity
-        to serve as the CloudStack VP and to work with amazing people
-        from the community to continue making CloudStack an even
-        greater cloud orchestration platform!"`
+const pmc_chair_quote = `"I’m excited to continue as VP this year, with a clear focus: supporting a active, open community and ensuring the project is healthy, especially as reliable, private clouds are ever more important."`
 
-const pmc_chair_name = "Nicolás Vázquez"
-const pmc_chair_picture = "/img/authors/nicolas.png"
-const pmc_chair_githandle = "nvazquez"
-const pmc_chair_linked = "nvazquezuy"
+const pmc_chair_name = "Wido den Hollander"
+const pmc_chair_picture = "/img/authors/wido.png"
+const pmc_chair_githandle = "wido"
+const pmc_chair_linked = "widodh"
 
 const git_link = "https://github.com/"+pmc_chair_githandle
 const linked_link = "https://www.linkedin.com/in/"+pmc_chair_linked
