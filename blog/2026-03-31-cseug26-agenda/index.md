@@ -186,3 +186,7 @@ Whether you're new to Apache CloudStack or an experienced operator, this event o
 Register now and meet the community on *21 May* for a day of learning, collaboration, and Apache CloudStack innovation.
 
 The event is supported by ShapeBlue, Cyso Group and CBS – Statistics Netherlands.
+
+<div class="col col-3 col-lg text-center">
+<a class="button button--primary" href="https://www.eventbrite.co.uk/e/cloudstack-european-user-group-2026-tickets-1980615585533?aff=oddtdtcreator" target="_blank">Register Now</a>
+</div>
