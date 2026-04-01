@@ -43,24 +43,15 @@ experiences, and open discussion, with the goal of helping attendees
 learn from each other and leave with ideas they can apply into their
 own infrastructure.
 
-## Call for Presentations is Open
+## Event Agenda
 
-The Call for Presentations is officially open, and we’re inviting the community to submit session proposals.
-
-This is your chance to share knowledge with fellow CloudStack users, operators, and contributors from across Europe and beyond. We’re looking for talks that bring practical value and fresh perspectives, including:
-
-- Technical deep dives and architecture sessions
-- Real world CloudStack implementations and lessons learned
-- Operational best practices and reliability strategies
-- Automation, integrations, and tooling
-- New features and updates from across the ecosystem
-- Open-source cloud experiences beyond CloudStack that the community can learn from
-
-Submit your proposal using the button below!
+We’re pleased to announce that the event agenda is now live. Click below to explore this year’s sessions.
 
 <div class="col col-3 col-lg text-center">
-<a class="button button--primary" href="https://cloudstack.short.gy/AEwc92" target="_blank">Submit</a>
+<a class="button button--primary" href="cseug26-agenda/" target="_blank">Explore Agenda</a>
 </div>
+
+<br/>
 
 Hosted by CBS (Statistics Netherlands)
 We’re proud to have CBS (Statistics Netherlands) as the host of the CloudStack European User Group 2026.
