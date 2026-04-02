@@ -17,8 +17,9 @@ Hollander](https://www.linkedin.com/in/widodh/) as the new Vice
 President of Apache CloudStack. A long-time PMC member and
 contributor, Wido has been working on CloudStack for over 15 years,
 bringing deep technical experience and real-world operational insight
-from the cloud industry.  This blog shares key snippets from Wido’s
-first interview since being voted CloudStack VP for 2026.
+from the cloud industry.  This blog shares key snippets from [Wido’s
+first interview](https://www.youtube.com/watch?v=wP7ogfFPDLk) since
+being voted CloudStack VP for 2026.
 
 <!-- truncate -->
 
@@ -134,3 +135,8 @@ new users to step into the community, be active, stand up, and you are
 more than welcome to send in contributions which can be documentation,
 pull requests for code. But be at events, be vocal, or just help
 somebody on the mailing lists.”
+
+
+<div class="col col-3 col-lg text-center">
+<a class="button button--primary" href="https://www.youtube.com/watch?v=wP7ogfFPDLk" target="_blank">Watch the full interview</a>
+</div>
