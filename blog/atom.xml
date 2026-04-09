@@ -2,11 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2026-04-01T00:00:00.000Z</updated>
+    <updated>2026-04-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Apache CloudStack Welcomes New Committer Abhisar Sinha]]></title>
+        <id>https://cloudstack.apache.org/blog/abhisar-sinha-committer</id>
+        <link href="https://cloudstack.apache.org/blog/abhisar-sinha-committer"/>
+        <updated>2026-04-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Abhisar Sinha]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/Banner-b2fdc917cf22d02a4136c3ea0c9dc71d.png" title="Blog Header Image" width="2488" height="1286" class="img_ev3q"></p><p><a href="https://www.linkedin.com/in/abhisar-sinha-04016618/" target="_blank" rel="noopener noreferrer">Abhisar Sinha</a>
+has been appointed as a Committer to the CloudStack project. In this
+written interview, we catch up with Abhisar to learn more about his
+journey into the community, the contributions he has made across key
+areas of the project, and the work he is currently focused on. We also
+explore his perspective on recent developments in Apache CloudStack,
+as well as what he would like to see next as the project continues to
+evolve.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="introduce-yourself-in-a-few-words-and-what-your-current-job-role-is">Introduce yourself in a few words and what your current job role is<a href="#introduce-yourself-in-a-few-words-and-what-your-current-job-role-is" class="hash-link" aria-label="Direct link to Introduce yourself in a few words and what your current job role is" title="Direct link to Introduce yourself in a few words and what your current job role is">​</a></h5><p>Hi, I am Abhisar Sinha, working as a Senior Software Engineer at
+ShapeBlue since early 2024. I have 14 years of industry experience. My
+day-to-day work involves developing new features and interacting with
+the community, including fixing bugs, reviewing PRs, contributing to
+discussions, and managing releases.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-some-of-your-key-contributions-to-the-apache-cloudstack-project">What are some of your key contributions to the Apache CloudStack project?<a href="#what-are-some-of-your-key-contributions-to-the-apache-cloudstack-project" class="hash-link" aria-label="Direct link to What are some of your key contributions to the Apache CloudStack project?" title="Direct link to What are some of your key contributions to the Apache CloudStack project?">​</a></h5><p>I have worked on the Shared FileSystem feature, which was a marquee
+feature in 4.20. Since then, I have focused on Backup and Recovery
+infrastructure improvements, including features like Create Instance
+from Backup. In 4.22, I developed the inbuilt extensions for Proxmox
+and Hyper-V as part of the Extensions Framework. Currently, I am
+working on Veeam integration for KVM in CloudStack, as well as the VPN
+Provider Framework.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="what-would-your-advice-be-to-people-interested-in-the-cloudstack-project-but-not-sure-how-to-get-involved">What would your advice be to people interested in the CloudStack project, but not sure how to get involved?<a href="#what-would-your-advice-be-to-people-interested-in-the-cloudstack-project-but-not-sure-how-to-get-involved" class="hash-link" aria-label="Direct link to What would your advice be to people interested in the CloudStack project, but not sure how to get involved?" title="Direct link to What would your advice be to people interested in the CloudStack project, but not sure how to get involved?">​</a></h5><p>I would recommend getting involved with the community through mailing
+lists or GitHub. Explore areas that interest you, go through the
+available guides and documentation, and don’t hesitate to reach
+out. Let the community know you’re interested, and people will help
+guide you.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="what-do-you-think-are-some-of-the-standout-features-introduced-in-the-last-two-years">What do you think are some of the standout features introduced in the last two years?<a href="#what-do-you-think-are-some-of-the-standout-features-introduced-in-the-last-two-years" class="hash-link" aria-label="Direct link to What do you think are some of the standout features introduced in the last two years?" title="Direct link to What do you think are some of the standout features introduced in the last two years?">​</a></h5><p>CloudStack has seen a significant number of new features and
+improvements over the last couple of years. Some standout additions
+include ARM64 support, GPU as a first-class feature, the Extensions
+Framework, and continued enhancements to the Backup and Recovery
+framework.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-some-features-that-have-not-been-developed-yet-and-are-not-in-the-current-roadmap-that-you-would-like-to-see">What are some features that have not been developed yet and are not in the current roadmap that you would like to see<a href="#what-are-some-features-that-have-not-been-developed-yet-and-are-not-in-the-current-roadmap-that-you-would-like-to-see" class="hash-link" aria-label="Direct link to What are some features that have not been developed yet and are not in the current roadmap that you would like to see" title="Direct link to What are some features that have not been developed yet and are not in the current roadmap that you would like to see">​</a></h5><p>I would like to see a feature that makes troubleshooting easier,
+possibly integrated into the UI and APIs, using AI to analyze logs and
+identify the most probable causes of failures.</p><p>Another interesting direction for CloudStack could be expansion into
+managed services. Shared FileSystems is one such example, but it could
+benefit from improvements like auto-scaling and broader protocol
+support. Database-as-a-Service could also be a valuable addition.</p>]]></content>
+        <author>
+            <name>Jamie Pell</name>
+            <uri>https://github.com/jamiepell10</uri>
+        </author>
+        <category label="community" term="community"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Meet the New VP of CloudStack: Wido den Hollander]]></title>
         <id>https://cloudstack.apache.org/blog/new-vp-wido-den-hollander</id>
