@@ -20,7 +20,7 @@ improvements since the CloudStack 4.20.1.0 release.
 Some of the highlights include:
 
 Support for Mysql 8.4
-* Copy templates from other secondary storage instead of downloading them
+* Prioritize copying templates from other secondary storages instead of downloading them
 * New Prometheus metric to track host certificate expiry
 * KVM DRS optimizations
 * Support for custom SSH port for KVM hosts
@@ -76,6 +76,7 @@ download page, and can be found at:
 
 - https://download.cloudstack.org/el/8/
 - https://download.cloudstack.org/el/9/
+- https://download.cloudstack.org/el/10/
 - https://download.cloudstack.org/suse/15
 - https://download.cloudstack.org/ubuntu/dists/
 - https://www.shapeblue.com/packages/
