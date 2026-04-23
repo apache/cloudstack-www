@@ -15,7 +15,7 @@ The Apache CloudStack project is pleased to announce the release of CloudStack
 
 The CloudStack 4.20.3.0 release is a maintenance release as part of
 its 4.20.x LTS branch and contains around 150 fixes and
-improvements since the CloudStack 4.20.1.0 release.
+improvements since the CloudStack 4.20.2.0 release.
 
 Some of the highlights include:
 
