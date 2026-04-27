@@ -131,7 +131,7 @@ technologies.
 
 *__14:20 – 14:50__*
 
-__Safeguarding Apache CloudStack – Data Protection & Recovery Powered by Commvault [Ruben Renders]( https://www.linkedin.com/in/rubenrenders/) — Solutions Director, MSP & Sovereign Solutions, [Commvault](https://www.commvault.com/)__
+__Safeguarding Apache CloudStack – Data Protection & Recovery Powered by Commvault [Marc De Schepper](https://www.linkedin.com/in/deschepperm/) — Sales Engineering Manager BeNeLux and Nordics, [Commvault](https://www.commvault.com/)__
 
 Explore how Commvault enhances Apache CloudStack with enterprise-grade
 data protection and recovery. Attendees will gain insight into
@@ -169,9 +169,8 @@ virtualized environments from VMware to CloudStack/KVM. It covers the
 full migration lifecycle, starting with environment discovery and
 detailed documentation, followed by planning and technical
 preparation. Attendees will learn how to validate the migration
-process through controlled
-
-test migrations before executing large-scale mass migrations.
+process through controlled test migrations before executing
+large-scale mass migrations.
 
 A key focus of the session is achieving migrations with minimal
 downtime. The presentation will explore techniques such as warm
