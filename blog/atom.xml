@@ -206,7 +206,7 @@ systems, legacy applications, strong isolation requirements,
 predictable performance). Finally, we’ll discuss how CloudStack users
 can combine both paradigms effectively—using VMs as the foundation and
 Kubernetes as a workload layer—rather than treating them as competing
-technologies.</p><p><em><strong>14:20 – 14:50</strong></em></p><p><strong>Safeguarding Apache CloudStack – Data Protection &amp; Recovery Powered by Commvault <a href="https://www.linkedin.com/in/rubenrenders/" target="_blank" rel="noopener noreferrer">Ruben Renders</a> — Solutions Director, MSP &amp; Sovereign Solutions, <a href="https://www.commvault.com/" target="_blank" rel="noopener noreferrer">Commvault</a></strong></p><p>Explore how Commvault enhances Apache CloudStack with enterprise-grade
+technologies.</p><p><em><strong>14:20 – 14:50</strong></em></p><p><strong>Safeguarding Apache CloudStack – Data Protection &amp; Recovery Powered by Commvault <a href="https://www.linkedin.com/in/deschepperm/" target="_blank" rel="noopener noreferrer">Marc De Schepper</a> — Sales Engineering Manager BeNeLux and Nordics, <a href="https://www.commvault.com/" target="_blank" rel="noopener noreferrer">Commvault</a></strong></p><p>Explore how Commvault enhances Apache CloudStack with enterprise-grade
 data protection and recovery. Attendees will gain insight into
 Commvault’s broader portfolio while learning how to build a strong
 foundation for cyber resilience; supported by a demo and practical
@@ -224,7 +224,8 @@ virtualized environments from VMware to CloudStack/KVM. It covers the
 full migration lifecycle, starting with environment discovery and
 detailed documentation, followed by planning and technical
 preparation. Attendees will learn how to validate the migration
-process through controlled</p><p>test migrations before executing large-scale mass migrations.</p><p>A key focus of the session is achieving migrations with minimal
+process through controlled test migrations before executing
+large-scale mass migrations.</p><p>A key focus of the session is achieving migrations with minimal
 downtime. The presentation will explore techniques such as warm
 migration, performing an initial bulk data transfer in advance, and
 executing a short cutover window using delta synchronization to
