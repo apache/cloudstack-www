@@ -149,9 +149,9 @@ The 4.22.0.1 release notes can be found at:
 
 In addition to the official source code release, individual contributors have also made release packages available on the Apache CloudStack download page, and available at:
 
-- https://download.cloudstack.org/el/7/
 - https://download.cloudstack.org/el/8/
 - https://download.cloudstack.org/el/9/
+- https://download.cloudstack.org/el/10/
 - https://download.cloudstack.org/suse/15/
 - https://download.cloudstack.org/ubuntu/dists/
 - https://www.shapeblue.com/cloudstack-packages/
