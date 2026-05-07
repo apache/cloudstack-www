@@ -27,9 +27,9 @@ The Apache CloudStack project announces the release of LTS releases [4.20.3.0](h
 
 The CVEs are credited to the following reporters:
 
-- CVE-2025-66170:
   - Fabricio Duarte <fabricio.duarte.jr@gmail.com> (reporter)
-  - Gabriel Ortiga Fernandes <gabrielpordeus@gmail.com> (reporter)
+  - Gabriel Ortiga Fernandes <gabriel.ortiga@hotmail.com> (reporter)
+  - Gabriel Pordeus Santos <gabrielpordeus@gmail.com> (reporter)
 
 ### Affected versions:
 
@@ -46,9 +46,9 @@ Users are recommended to upgrade to version 4.22.0.1 or later, which addresses t
 
 The CVEs are credited to the following reporters:
 
-- CVE-2025-66171:
   - Fabricio Duarte <fabricio.duarte.jr@gmail.com> (reporter)
-  - Gabriel Ortiga Fernandes <gabrielpordeus@gmail.com> (reporter)
+  - Gabriel Ortiga Fernandes <gabriel.ortiga@hotmail.com> (reporter)
+  - Gabriel Pordeus Santos <gabrielpordeus@gmail.com> (reporter)
 
 ### Affected versions:
 
@@ -65,13 +65,12 @@ Users are recommended to upgrade to version 4.22.0.1 or later, which addresses t
 
 The CVEs are credited to the following reporters:
 
-- CVE-2025-66172:
   - Fabricio Duarte <fabricio.duarte.jr@gmail.com> (reporter)
-  - Gabriel Ortiga Fernandes <gabrielpordeus@gmail.com> (reporter)
+  - Gabriel Ortiga Fernandes <gabriel.ortiga@hotmail.com> (reporter)
+  - Gabriel Pordeus Santos <gabrielpordeus@gmail.com> (reporter)
 
 ### Affected versions:
 
-- CVE-2025-66170:
   - Apache CloudStack 4.21.0.0 through 4.22.0.0
 
 ### Resolution
@@ -84,12 +83,10 @@ Users are recommended to upgrade to version 4.22.0.1 or later, which addresses t
 
 The CVEs are credited to the following reporters:
 
-- CVE-2025-66467:
-  - Roman Kozello (reporter)
+  - Roman Kozello <roman.kozello@gmail.com> (reporter)
 
 ### Affected versions:
 
-- CVE-2025-66467:
   - Apache CloudStack 4.19.0.0 through 4.20.2.0
   - Apache CloudStack 4.21.0.0 through 4.22.0.0
 
@@ -104,13 +101,11 @@ Users are recommended to upgrade to version 4.20.3.0 or 4.22.0.1 or later, which
 
 The CVEs are credited to the following reporters:
 
-- CVE-2025-69233:
-  - Fernando Oliveira (reporter)
-  - Gustavo Viana (reporter)
+  - Fernando Oliveira <ferolicar82@gmail.com> (reporter)
+  - Gustavo Viana <viana.gust@gmail.com> (reporter)
 
 ### Affected versions:
 
-- CVE-2025-66467:
   - Apache CloudStack 4.0.0 through 4.20.2.0
   - Apache CloudStack 4.21.0.0 through 4.22.0.0
 
@@ -119,18 +114,36 @@ The CVEs are credited to the following reporters:
 Users are recommended to upgrade to version 4.20.3.0 or 4.22.0.1 or later, which addresses these issues.
 
 
+## [CVE-2026-25077](https://www.cve.org/CVERecord?id=CVE-2026-25077):Unauthenticated Command Injection in Direct Download Templates
+
+### Credits
+
+The CVEs are credited to the following reporters:
+
+  - Reza <reza.sicherheit@gmail.com> (reporter)
+
+
+### Affected versions:
+
+  - Apache CloudStack 4.11.0 through 4.20.2.0
+  - Apache CloudStack 4.21.0.0 through 4.22.0.0
+
+### Resolution
+
+Users are recommended to upgrade to version 4.20.3.0 or 4.22.0.1 or later,
+which addresses the issue.
+
+
 ## [CVE-2026-25199](https://www.cve.org/CVERecord?id=CVE-2026-25199): Proxmox Extension Allows Unauthorized Cross-Tenant Instance Access
 
 ### Credits
 
 The CVEs are credited to the following reporters:
 
-- CVE-2026-25199:
   - Sander Grendelman <sander.grendelman@axians.com> (reporter)
 
 ### Affected versions:
 
-- CVE-2026-25199:
   - Apache CloudStack 4.21.0.0 through 4.22.0.0
 
 ### Resolution
