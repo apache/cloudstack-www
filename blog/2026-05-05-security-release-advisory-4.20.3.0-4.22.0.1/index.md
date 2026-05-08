@@ -163,7 +163,7 @@ the KVM-based infrastructure managed by CloudStack.
 
 The CVEs are credited to the following reporters:
 
-  - Reza <reza.sicherheit@gmail.com> (reporter)
+  - Reza at HazardLab (https://hazardlab.ninja) (reporter)
 
 
 ### Affected versions:
