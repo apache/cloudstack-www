@@ -1,6 +1,7 @@
 import React from "react";
 
 const versions = [
+       '4.22.0.1',
        '4.22.0.0',
        '4.21.0.0',
        '4.20.3.0',
