@@ -2,11 +2,114 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cloudstack.apache.org/blog</id>
     <title>Apache CloudStack Blog</title>
-    <updated>2026-05-05T00:00:00.000Z</updated>
+    <updated>2026-05-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cloudstack.apache.org/blog"/>
     <subtitle>Apache CloudStack Blog</subtitle>
     <icon>https://cloudstack.apache.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Apache CloudStack Welcomes Kiran Chavala as a PMC Member]]></title>
+        <id>https://cloudstack.apache.org/blog/new-pmc-kiran</id>
+        <link href="https://cloudstack.apache.org/blog/new-pmc-kiran"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kiran Chavala is the newest PMC]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/kiran-3e3a7f3100fc3b039796f6ba316c0ee5.png" title="Blog Header Image" width="1200" height="628" class="img_ev3q"></p><p><a href="https://www.linkedin.com/in/kiranchavala" target="_blank" rel="noopener noreferrer">Kiran Chavala</a> is the newest PMC
+member of the Apache CloudStack Project. As a QA Engineer at ShapeBlue, Kiran
+brings over a decade of experience in cloud and IaaS technologies, along with a
+strong track record of contributions across testing, feature validation,
+observability, and community support.</p><p>In this interview, Kiran shares his journey with Apache CloudStack, his
+perspective on the value of open-source collaboration, and the projects he’s
+been working on — from Terraform plugin releases to Kubernetes integration and
+monitoring tools. He also discusses how global community collaboration drives
+innovation and outlines his vision for the future of CloudStack, including
+sovereign cloud initiatives, AI-ready infrastructure, and continued growth
+driven by flexibility and vendor independence.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="introduce-yourself-in-a-few-words-and-what-your-job-rolecompany-is">Introduce yourself in a few words and what your job role/company is?<a href="#introduce-yourself-in-a-few-words-and-what-your-job-rolecompany-is" class="hash-link" aria-label="Direct link to Introduce yourself in a few words and what your job role/company is?" title="Direct link to Introduce yourself in a few words and what your job role/company is?">​</a></h5><p>I’m Kiran Chavala, a QA Engineer at ShapeBlue with over a decade of experience
+in cloud and IaaS technologies. I work extensively with Apache CloudStack, where
+my role involves testing new features, identifying bugs and security-related
+issues, and ensuring overall product quality before releases. I also contribute
+to improving user experience, documentation, and tooling within the CloudStack
+ecosystem, while actively supporting users and community members.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="what-do-you-think-are-the-benefits-of-utilising-open-source-projects-like-cloudstack">What do you think are the benefits of utilising open-source projects, like CloudStack?<a href="#what-do-you-think-are-the-benefits-of-utilising-open-source-projects-like-cloudstack" class="hash-link" aria-label="Direct link to What do you think are the benefits of utilising open-source projects, like CloudStack?" title="Direct link to What do you think are the benefits of utilising open-source projects, like CloudStack?">​</a></h5><p>Open-source projects like Apache CloudStack provide unmatched flexibility,
+transparency, and innovation. Organisations can avoid vendor lock-in and tailor
+solutions to their specific needs while benefiting from a globally distributed
+community of contributors continuously improving the platform.</p><p>From my experience, open-source fosters faster innovation cycles—features evolve
+through real-world feedback, and issues are quickly identified and resolved. It
+also creates opportunities for collaboration across organisations, enabling
+knowledge sharing and building highly scalable, production-grade cloud
+environments without licensing constraints.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="how-do-you-collaborate-with-the-community-distributed-around-the-world">How do you collaborate with the community distributed around the world?<a href="#how-do-you-collaborate-with-the-community-distributed-around-the-world" class="hash-link" aria-label="Direct link to How do you collaborate with the community distributed around the world?" title="Direct link to How do you collaborate with the community distributed around the world?">​</a></h5><p>Collaboration in open source is inherently global, and I engage with the
+CloudStack community through multiple channels. This includes participating in
+mailing list requests, contributing to GitHub pull requests, and helping users
+troubleshoot issues.</p><p>I also share knowledge through blogs, talks, and documentation, which helps
+onboard new users and contributors. Being part of a distributed community means
+working asynchronously, respecting different time zones, and communicating
+clearly through well-documented discussions and code contributions. This
+collaborative model ensures that ideas and improvements come from diverse
+perspectives.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-some-key-projects-and-developments-you-have-worked-on-and-are-currently-working-on">What are some key projects and developments you have worked on and are currently working on?<a href="#what-are-some-key-projects-and-developments-you-have-worked-on-and-are-currently-working-on" class="hash-link" aria-label="Direct link to What are some key projects and developments you have worked on and are currently working on?" title="Direct link to What are some key projects and developments you have worked on and are currently working on?">​</a></h5><p>I’ve contributed to Apache CloudStack across several areas, including UI
+improvements, API validation, and feature validation. My work involves raising
+issues and discussions in the CloudStack Community.</p><p>I’m also actively working with the CloudStack Plugin and tooling ecosystem,
+including:</p><ul><li>Served as Release Manager for the Terraform plugin of CloudStack</li><li>Observability using Prometheus and Grafana</li><li>Kubernetes integration with CloudStack</li><li>Monitoring and benchmarking tools for cloud environments</li></ul><p>Additionally, I regularly experiment with new open-source technologies and share
+my learnings through blogs and community discussions.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="how-do-you-think-the-cloudstack-project-will-continue-to-grow-over-the-next-five-years">How do you think the CloudStack project will continue to grow over the next five years?<a href="#how-do-you-think-the-cloudstack-project-will-continue-to-grow-over-the-next-five-years" class="hash-link" aria-label="Direct link to How do you think the CloudStack project will continue to grow over the next five years?" title="Direct link to How do you think the CloudStack project will continue to grow over the next five years?">​</a></h5><p>Apache CloudStack is well-positioned for steady, meaningful growth over the next
+five years, especially as organisations increasingly prioritise control,
+compliance, and flexibility in their infrastructure.</p><p>One of the biggest drivers will be the rise of sovereign cloud initiatives, in
+which governments and enterprises seek full ownership of their data,
+infrastructure, and security posture. CloudStack’s open-source nature, combined
+with its mature multi-tenancy and networking capabilities, makes it an ideal
+platform for building sovereign and regionally compliant cloud environments
+without relying on hyperscalers.</p><p>Vendor lock-in becomes critical. CloudStack’s open-source model enables
+organisations to retain complete control over their stack, choose their own
+hardware and integrations, and build cloud environments that align with regional
+and regulatory requirements—without being tied to a single vendor ecosystem.</p><p>Another important area is AI and data-intensive workloads. The infrastructure
+requirements for AI/ML—such as GPU orchestration, scalable storage, and
+high-performance networking—align well with CloudStack’s strengths. With
+continued enhancements around GPU support, automation, and integration,
+CloudStack can serve as a strong foundation for private AI clouds and research
+environments.</p>]]></content>
+        <author>
+            <name>Antonia Shehova-Vasileva</name>
+            <uri>http://www.linkedin.com/in/antonia-shehova-vasileva</uri>
+        </author>
+        <category label="community" term="community"/>
+        <category label="news" term="news"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache CloudStack Welcomes Manoj Kumar as a Committer to the Project]]></title>
+        <id>https://cloudstack.apache.org/blog/new-commiter-manoj</id>
+        <link href="https://cloudstack.apache.org/blog/new-commiter-manoj"/>
+        <updated>2026-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Manoj Kumar is now a]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="/assets/images/manoj-f926e1b75d2dffed32a8a68c868ee6d3.png" title="Blog Header Image" width="1200" height="628" class="img_ev3q"></p><p><a href="https://www.linkedin.com/in/manoj-kumar-66b627a/" target="_blank" rel="noopener noreferrer">Manoj Kumar</a> is now a
+Committer to the Apache CloudStack project. In this interview, he shares his
+journey as a software engineer at ShapeBlue and his experience contributing to
+Apache CloudStack. He discusses some of his key contributions to the project,
+including platform improvements, automation features, and the CloudStack
+One-line Installer, while also highlighting the importance of community
+collaboration and consistent contribution.</p><p>Manoj also reflects on major developments in CloudStack over the past two years,
+such as GPU support and VMware-to-KVM migration, and shares his thoughts on
+future opportunities around observability, infrastructure integrations, and
+AI-focused workloads.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="introduce-yourself-in-a-few-words-and-what-your-current-job-role-is">Introduce yourself in a few words and what your current job role is?<a href="#introduce-yourself-in-a-few-words-and-what-your-current-job-role-is" class="hash-link" aria-label="Direct link to Introduce yourself in a few words and what your current job role is?" title="Direct link to Introduce yourself in a few words and what your current job role is?">​</a></h5><p>I’m Manoj Kumar, a Senior Software Engineer at ShapeBlue. I’ve been in software
+engineering for around 14 years, working across different domains—from digital
+marketing systems to large data platforms at Oracle and Master Data Management
+solutions.</p><p>At ShapeBlue, I work on Apache CloudStack. My day-to-day work involves building
+new features, fixing issues, writing documentation, and reviewing PRs. It’s a
+mix of development and community collaboration.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-some-of-your-key-contributions-to-the-apache-cloudstack-project">What are some of your key contributions to the Apache CloudStack project?<a href="#what-are-some-of-your-key-contributions-to-the-apache-cloudstack-project" class="hash-link" aria-label="Direct link to What are some of your key contributions to the Apache CloudStack project?" title="Direct link to What are some of your key contributions to the Apache CloudStack project?">​</a></h5><p>I’ve worked on a range of features across backend, UI, automation, and platform
+improvements:</p><ul><li>CloudStack One-line Installer: GitHub Repository</li><li>Instance Lease feature</li><li>Making KVM domains persistent when unmanaged from CloudStack</li><li>Enforcing password changes after admin reset (root/domain users)</li><li>Auto-populating templates during zone deployment</li></ul><p>Recently, I’ve also started actively participating in PR reviews and
+release-related activities. That’s been a great learning experience and has
+helped me understand the project more deeply.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="what-would-your-advice-be-to-people-interested-in-the-cloudstack-project-but-not-sure-how-to-get-involved">What would your advice be to people interested in the CloudStack project, but not sure how to get involved?<a href="#what-would-your-advice-be-to-people-interested-in-the-cloudstack-project-but-not-sure-how-to-get-involved" class="hash-link" aria-label="Direct link to What would your advice be to people interested in the CloudStack project, but not sure how to get involved?" title="Direct link to What would your advice be to people interested in the CloudStack project, but not sure how to get involved?">​</a></h5><p>My advice is simple—start small and stay consistent.</p><p>There are many ways to contribute beyond just code:</p><ul><li>Join the community and follow discussions to understand how things work</li><li>Try installing and using CloudStack (the one-line installer helps a lot)</li><li>Documentation is a great starting point and very impactful</li><li>Pick an area you’re comfortable with—UI, backend, database, scripts, etc.</li><li>Report issues and try fixing them when possible</li><li>Ask questions and share your experiments with the community</li><li>Be patient; contributions grow over time with consistency</li></ul><h5 class="anchor anchorWithStickyNavbar_LWe7" id="what-do-you-think-are-some-of-the-standout-features-introduced-in-the-last-two-years">What do you think are some of the standout features introduced in the last two years?<a href="#what-do-you-think-are-some-of-the-standout-features-introduced-in-the-last-two-years" class="hash-link" aria-label="Direct link to What do you think are some of the standout features introduced in the last two years?" title="Direct link to What do you think are some of the standout features introduced in the last two years?">​</a></h5><p>A few things stand out for me.
+GPU support is a major addition, especially with growing AI/ML workloads. The
+extension framework is another important improvement that makes CloudStack
+easier to extend in a clean way.</p><p>There has also been solid progress on VMware-to-KVM migration, helping users
+move toward open infrastructure. Improvements in backup and recovery have also
+strengthened day-to-day operational reliability.</p><h5 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-some-features-that-have-not-been-developed-yet-and-are-not-in-the-current-roadmap-that-you-would-like-to-see">What are some features that have not been developed yet and are not in the current roadmap that you would like to see?<a href="#what-are-some-features-that-have-not-been-developed-yet-and-are-not-in-the-current-roadmap-that-you-would-like-to-see" class="hash-link" aria-label="Direct link to What are some features that have not been developed yet and are not in the current roadmap that you would like to see?" title="Direct link to What are some features that have not been developed yet and are not in the current roadmap that you would like to see?">​</a></h5><p>From my perspective, there are a few interesting areas for future improvement.</p><p>Better observability and operability would go a long way—especially for
+large-scale environments, where debugging and visibility can be challenging.</p><p>Deeper storage and networking integrations would also be valuable as
+infrastructures become more heterogeneous.</p><p>And finally, I think there is a big opportunity in the AI infrastructure
+space—making CloudStack more aligned with GPU-heavy, high-performance, modern
+data center workloads.</p>]]></content>
+        <author>
+            <name>Antonia Shehova-Vasileva</name>
+            <uri>http://www.linkedin.com/in/antonia-shehova-vasileva</uri>
+        </author>
+        <category label="community" term="community"/>
+        <category label="news" term="news"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[ADVISORY] Apache CloudStack LTS Security Releases 4.20.3.0 and 4.22.0.1]]></title>
         <id>https://cloudstack.apache.org/blog/security-release-advisory-4.20.3.0-4.22.0.1</id>
