@@ -28,8 +28,27 @@ $ sha512sum --check <release-filename>.sha512
 
 ### Source Releases
 
-Apache CloudStack's most recent release is `4.22.0.1`. This is current
+Apache CloudStack's most recent release is `4.22.1.0`. This is current
 CloudStack LTS release.
+
+<a className="button button--primary button--lg" href="https://dlcdn.apache.org/cloudstack/releases/4.22.1.0/apache-cloudstack-4.22.1.0-src.tar.bz2">Get the 4.22.1.0 Source</a>&nbsp;
+<a className="button button--secondary button--sm" href="https://dlcdn.apache.org/cloudstack/KEYS">KEYS</a>&nbsp;
+<a className="button button--secondary button--sm" href="https://dlcdn.apache.org/cloudstack/releases/4.22.1.0/apache-cloudstack-4.22.1.0-src.tar.bz2.asc">PGP</a>&nbsp;
+<a className="button button--secondary button--sm" href="https://dlcdn.apache.org/cloudstack/releases/4.22.1.0/apache-cloudstack-4.22.1.0-src.tar.bz2.sha512">SHA512</a>
+<br/><br/>
+
+Full release notes can be found in the version [4.22.1.0 Release
+Notes](https://docs.cloudstack.apache.org/en/4.22.1.0/releasenotes/) website.
+
+Instructions for building from source and installing Apache CloudStack can be
+found in the [Installation
+Guide](https://docs.cloudstack.apache.org/en/4.22.1.0/installguide/).
+Instructions for building from source and upgrading from a previous version of
+CloudStack to Apache CloudStack 4.22.1.0 can be found in the upgrade section of
+the Release Notes (see above).
+
+The latest CloudStack LTS maintenance release for version `4.22.x.x` is `4.22.1.0` as part of the
+previous LTS release.
 
 <a className="button button--primary button--lg" href="https://dlcdn.apache.org/cloudstack/releases/4.22.0.1/apache-cloudstack-4.22.0.1-src.tar.bz2">Get the 4.22.0.1 Source</a>&nbsp;
 <a className="button button--secondary button--sm" href="https://dlcdn.apache.org/cloudstack/KEYS">KEYS</a>&nbsp;
@@ -47,25 +66,6 @@ Instructions for building from source and upgrading from a previous version of
 CloudStack to Apache CloudStack 4.22.0.1 can be found in the upgrade section of
 the Release Notes (see above).
 
-The latest CloudStack LTS maintenance release for version `4.20.x.x` is `4.20.3.0` as part of the
-previous LTS release.
-
-<a className="button button--primary button--lg" href="https://dlcdn.apache.org/cloudstack/releases/4.20.3.0/apache-cloudstack-4.20.3.0-src.tar.bz2">Get the 4.20.3.0 Source</a>&nbsp;
-<a className="button button--secondary button--sm" href="https://dlcdn.apache.org/cloudstack/KEYS">KEYS</a>&nbsp;
-<a className="button button--secondary button--sm" href="https://dlcdn.apache.org/cloudstack/releases/4.20.3.0/apache-cloudstack-4.20.3.0-src.tar.bz2.asc">PGP</a>&nbsp;
-<a className="button button--secondary button--sm" href="https://dlcdn.apache.org/cloudstack/releases/4.20.3.0/apache-cloudstack-4.20.3.0-src.tar.bz2.sha512">SHA512</a>
-<br/><br/>
-
-Full release notes can be found in the version [4.20.3.0 Release
-Notes](https://docs.cloudstack.apache.org/en/4.20.3.0/releasenotes/) website.
-
-Instructions for building from source and installing Apache CloudStack can be
-found in the [Installation
-Guide](https://docs.cloudstack.apache.org/en/4.20.3.0/installguide/).
-Instructions for building from source and upgrading from a previous version of
-CloudStack to Apache CloudStack 4.20.3.0 can be found in the upgrade section of
-the Release Notes (see above).
-
 ### Community Packages
 
 For easier installation or upgrades, the official source code release has been
@@ -73,15 +73,16 @@ supplemented by community members who have chosen to provide package
 repositories that also include noredist libraries:
 
 - Ubuntu DEB repository: http://download.cloudstack.org/ubuntu
+- EL10 RPM repository: http://download.cloudstack.org/el/10/
 - EL9 RPM repository: http://download.cloudstack.org/el/9/
 - EL8 RPM repository: http://download.cloudstack.org/el/8/
-- EL7 RPM repository: http://download.cloudstack.org/el/7/
 - SUSE/openSUSE 15 RPM repository: http://download.cloudstack.org/suse/15/
 
 Experimental ARM64 packages:
 - Ubuntu/DEB repository: http://download.cloudstack.org/arm64/
 
 Old repositories for distros eached EOL:
+- EL7 RPM repository (for 4.19 and older releases): http://download.cloudstack.org/el/7/
 - EL6 RPM repository (for 4.13 and older releases): http://download.cloudstack.org/centos/6/
 
 Instructions for using these community provided repositories can be found in the
