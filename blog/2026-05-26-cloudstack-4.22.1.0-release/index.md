@@ -56,7 +56,7 @@ More information about Apache CloudStack can be found at: https://cloudstack.apa
 
 # Documentation
 
-What's new in  CloudStack 4.22.1.0: https://docs.cloudstack.apache.org/en/4.22.1.0/releasenotes/about.html
+What's new in CloudStack 4.22.1.0: https://docs.cloudstack.apache.org/en/4.22.1.0/releasenotes/about.html
 
 The 4.22.1.0 release notes include a full list of issues fixed, as well as upgrade instructions from previous versions of Apache CloudStack, and can be found at: https://docs.cloudstack.apache.org/en/4.22.1.0/releasenotes/
 
@@ -80,7 +80,9 @@ https://download.cloudstack.org/suse/15/
 
 https://download.cloudstack.org/ubuntu/dists/
 
-https://www.shapeblue.com/packages/
+https://download.cloudstack.org/debian/dists/
+
+https://www.shapeblue.com/cloudstack-packages/
 
 ##### A Word from the Community
 
