@@ -88,7 +88,7 @@ In this session, Stoil Sotilov challenged the common assumption that Kubernetes 
 
 Instead, the talk presented a practical framework for deciding when to use Kubernetes and when virtual machines remain the better choice — particularly in CloudStack environments. The session explored differences in isolation, lifecycle management, networking, and operational complexity, while highlighting real-world scenarios where each technology performs best.
 
-[![](Kubernetes.png "Kubernetes Is Not the New VM: Choosing the Right Abstraction for Modern Infrastructure – slides")](https://www.slideshare.net/slideshow/kubernetes-is-not-the-new-vm-choosing-the-right-abstraction-for-modern-infrastructure-stoil-stoilov/287784343
+[![](Kubernetes.png "Kubernetes Is Not the New VM: Choosing the Right Abstraction for Modern Infrastructure – slides")](https://www.slideshare.net/slideshow/kubernetes-is-not-the-new-vm-choosing-the-right-abstraction-for-modern-infrastructure-stoil-stoilov/287784343)
 
 ##### Safeguarding Apache CloudStack – Data Protection & Recovery Powered by Commvault – [Marc De Schepper]( https://www.linkedin.com/in/deschepperm/), [Commvault](https://www.commvault.com/)
 
@@ -127,4 +127,7 @@ They discussed when and why CBS decided to adopt Apache CloudStack, the challeng
 A big thank you the hosts and a sponsor of the event – [CBS – Statistcks Netherlands]( https://www.cbs.nl/en-gb) and to [ShapeBlue](https://shapeblue.com) and [Cyso Group]( https://cyso.com/en/) for supporting the event. All the organisers, sponsors, speakers, and participants made this gathering a significant success.
 The next major gathering for the community is the CloudStack Collaboration Conference—the largest CloudStack event of the year—happening on 18–20 November in Edinburgh. We invite everyone to join us there and be part of the community.
 
-Button:  [Register now](https://www.eventbrite.com/e/cloudstack-collaboration-conference-2026-tickets-1975705589603?aff=oddtdtcreator)
+<div class="col col-3 col-lg text-center">
+  <a class="button button--primary" href="https://www.eventbrite.com/e/cloudstack-collaboration-conference-2026-tickets-1975705589603?aff=oddtdtcreator" target="_blank">Register now</a>
+</div>
+<br/>
