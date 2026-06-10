@@ -44,7 +44,7 @@ PMC through validation and fixing the issue. If the issue is
 validated, it will still take time to fix the issue. The amount of
 time depends on the availability of volunteers and number people
 involved that have a stake in the issue. In later years it has turned
-out to take up to six months, from notification to public announcement
+out to take more and more time from notification to public announcement
 of the vulnerability, due to parallel work on multiple issues. During
 this time, the team will communicate with you as they proceed through
 the response procedure, and ask that the issue not be announced before
