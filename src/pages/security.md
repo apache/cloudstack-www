@@ -39,12 +39,16 @@ team](https://www.apache.org/security/) via email to
 vulnerability, how it might be exploited, and any additional information that
 might be useful.
 
-Upon notification, the ASF security team will work with the CloudStack PMC
-through validation and fixing the issue. If the issue is validated, it generally
-takes 2-4 weeks from notification to public announcement of the vulnerability.
-During this time, the team will communicate with you as they proceed through the
-response procedure, and ask that the issue not be announced before an
-agreed-upon date.
+Upon notification, the ASF security team will work with the CloudStack
+PMC through validation and fixing the issue. If the issue is
+validated, it will still take time to fix the issue. The amount of
+time depends on the availability of volunteers and number people
+involved that have a stake in the issue. In later years it has turned
+out to take up to six months, from notification to public announcement
+of the vulnerability, due to parallel work on multiple issues. During
+this time, the team will communicate with you as they proceed through
+the response procedure, and ask that the issue not be announced before
+an agreed-upon date.
 
 **Please do not create publicly-viewable JIRA tickets related to the issue**. If
 validated, a JIRA ticket with the security flag set will be created for tracking
