@@ -6,7 +6,7 @@ authors: [ivet]
 slug: wesystems-wear-cloudstack
 ---
 
-A guest post by [Alexander Monderkam](https://www.linkedin.com/in/alexander-monderkamp-a1a9b4171/), weSystems
+A guest post by [Alexander Monderkamp](https://www.linkedin.com/in/alexander-monderkamp-a1a9b4171/), weSystems
 
 ![](stand.png "the festival stand overview")
 
