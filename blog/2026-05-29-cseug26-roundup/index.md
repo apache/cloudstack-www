@@ -18,7 +18,7 @@ the continued growth and momentum of the CloudStack community.
 <!-- truncate -->
 
 <div class="col col-3 col-lg text-center">
-  <a class="button button--primary" href="https://www.youtube.com/watch?v=GTN-l-B-iPY&list=PLnIKk7GjgFlbrStHohANRr8-IuX4EE1pq" target="_blank">Watch Session Recordings</a>
+  <a class="button button--primary" href="https://www.youtube.com/watch?v=GTN-l-B-iPY&list=PLnIKk7GjgFlbrStHohANRr8-IuX4EE1pq" target="_blank" rel="noopener noreferrer">Watch Session Recordings</a>
 </div>
 <br/>
 

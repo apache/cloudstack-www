@@ -30,7 +30,7 @@ involved with the community.
                   <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>October 11-14, 2026</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-		  <a href="https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/register" target="_blank" className="btn btn-primary me-3" >Register</a>
+                  <a href="https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/register" target="_blank" rel="noopener noreferrer" className="btn btn-primary me-3">Register</a>
                   <a href="/blog/coceu26" className="btn btn-outline-secondary me-3">Read More</a>
                 </div>
               </div>
@@ -58,8 +58,8 @@ involved with the community.
                   <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>May 21, 2026</p>
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="/blog/cseug26-roundup" target="_blank" target="_blank" className="btn btn-outline-secondary me-3" >Read More</a>
-		  <a href="https://www.youtube.com/watch?v=GTN-l-B-iPY&list=PLnIKk7GjgFlbrStHohANRr8-IuX4EE1pq" target="_blank" className="btn btn-primary me-3">Watch</a>
+                  <a href="/blog/cseug26-roundup" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary me-3">Read More</a>
+		  <a href="https://www.youtube.com/watch?v=GTN-l-B-iPY&list=PLnIKk7GjgFlbrStHohANRr8-IuX4EE1pq" target="_blank" rel="noopener noreferrer" className="btn btn-primary me-3">Watch</a>
                 </div>
               </div>
               <div className="row">
