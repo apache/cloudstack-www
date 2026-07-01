@@ -59,7 +59,7 @@ involved with the community.
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="/blog/cseug26-roundup" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary me-3">Read More</a>
-		  <a href="https://www.youtube.com/watch?v=GTN-l-B-iPY&list=PLnIKk7GjgFlbrStHohANRr8-IuX4EE1pq" target="_blank" rel="noopener noreferrer" className="btn btn-primary me-3">Watch</a>
+                   <a href="https://www.youtube.com/watch?v=GTN-l-B-iPY&list=PLnIKk7GjgFlbrStHohANRr8-IuX4EE1pq" target="_blank" rel="noopener noreferrer" className="btn btn-primary me-3">Watch</a>
                 </div>
               </div>
               <div className="row">
