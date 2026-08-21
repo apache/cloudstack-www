@@ -14,6 +14,7 @@ The Apache CloudStack project announces the release of LTS releases [4.20.3.1](h
 - CVE-2026-50112 (severity 'Critical')
 - CVE-2026-50222 (severity 'Important')
 - CVE-2026-59085 (severity 'Moderate')
+- CVE-2026-59654 (severity 'Medium')
 - CVE-2026-59655 (severity 'Moderate')
 - CVE-2026-59657 (severity 'Low')
 - CVE-2026-59780 (severity 'Low')
@@ -160,6 +161,32 @@ The CVEs are credited to the following reporters:
 ### Affected versions:
 
   - Apache CloudStack 4.20.0.0 through 4.20.3.0
+  - Apache CloudStack 4.21.0.0 through 4.22.1.0
+
+### Resolution
+
+Users are recommended to upgrade to versions 4.20.3.1 or 4.22.1.1 or later, which
+addresses these issues.
+
+
+
+## [CVE-2026-59654](https://www.cve.org/CVERecord?id=CVE-2026-59654): DoS caused by database connections leak
+
+Missing Release of Resource after Effective Lifetime vulnerability in
+Apache CloudStack's scoped global configuration functionality. It
+affects different modules and plugins of the CloudStack management
+server, including Quota, Host-HA, etc., and may lead to eventual
+denial of service (DoS) scenario for the management server.
+
+### Credits
+
+The CVEs are credited to the following reporters:
+
+ - Henrique Sato <henriquesato2003@gmail.com> (reporter)
+
+### Affected versions:
+
+  - Apache CloudStack 4.7.0 through 4.20.3.0
   - Apache CloudStack 4.21.0.0 through 4.22.1.0
 
 ### Resolution
