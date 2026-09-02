@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.23.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>listVPCs</h1>
+                                        <p>Lists VPCs</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>account</i></td><td style="width:500px;"><i>List resources by Account. Must be used with the domainId parameter.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>cidr</i></td><td style="width:500px;"><i>List by CIDR of the VPC. All VPC Guest Network's CIDRs should be within this CIDR</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>displaytext</i></td><td style="width:500px;"><i>List by display text of The VPC</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>domainid</i></td><td style="width:500px;"><i>List only resources belonging to the domain specified</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>fordisplay</i></td><td style="width:500px;"><i>List resources by display flag; only ROOT admin is eligible to pass this parameter</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>id</i></td><td style="width:500px;"><i>List VPC by ID</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>isrecursive</i></td><td style="width:500px;"><i>Defaults to false, but if true, lists all resources from the parent specified by the domainId till leaves.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>keyword</i></td><td style="width:500px;"><i>List by keyword</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>listall</i></td><td style="width:500px;"><i>If set to false, list only resources belonging to the command's caller; if set to true - list resources that the caller is authorized to see. Default value is false. Resources dedicated to a project are listed only if using the projectid parameter.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>name</i></td><td style="width:500px;"><i>List by name of the VPC</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>page</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>pagesize</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>projectid</i></td><td style="width:500px;"><i>List objects by project; if projectid=-1 lists All Instances</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>restartrequired</i></td><td style="width:500px;"><i>List VPCs by restartRequired option</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>showicon</i></td><td style="width:500px;"><i>Flag to display the resource icon for VPCs</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>state</i></td><td style="width:500px;"><i>List VPCs by state</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>supportedservices</i></td><td style="width:500px;"><i>List VPC supporting certain services</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>tags</i></td><td style="width:500px;"><i>List resources by tags (key/value pairs)</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>vpcofferingid</i></td><td style="width:500px;"><i>List by ID of the VPC offering</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>zoneid</i></td><td style="width:500px;"><i>List by zone</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">The ID of the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>account</strong></td><td style="width:500px;">The owner of the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>asnumber</strong></td><td style="width:500px;">AS NUMBER</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>asnumberid</strong></td><td style="width:500px;">UUID of AS NUMBER</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>bgppeers</strong></td><td style="width:500px;">The BGP peers for the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cidr</strong></td><td style="width:500px;">The CIDR the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>created</strong></td><td style="width:500px;">The date this VPC was created</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>displaytext</strong></td><td style="width:500px;">An alternate display text of the VPC.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>distributedvpcrouter</strong></td><td style="width:500px;">Does VPC use distributed router for one hop forwarding and host based Network ACL's</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>dns1</strong></td><td style="width:500px;">The first IPv4 DNS for the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>dns2</strong></td><td style="width:500px;">The second IPv4 DNS for the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domain</strong></td><td style="width:500px;">The domain name of the owner</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainid</strong></td><td style="width:500px;">The domain ID of the VPC owner</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainpath</strong></td><td style="width:500px;">The domain path of the owner</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>fordisplay</strong></td><td style="width:500px;">Is VPC for display to the regular user</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>icon</strong></td><td style="width:500px;">Base64 string representation of the resource icon</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip4routes</strong></td><td style="width:500px;">The routes for the VPC to ease adding route in upstream router</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip4routing</strong></td><td style="width:500px;">The IPv4 routing mode of VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip6dns1</strong></td><td style="width:500px;">The first IPv6 DNS for the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip6dns2</strong></td><td style="width:500px;">The second IPv6 DNS for the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip6routes</strong></td><td style="width:500px;">The routes for the Network to ease adding route in upstream router</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>keepmacaddressonpublicnic</strong></td><td style="width:500px;">Indicates whether to use the same MAC address for the public NIC of VRs on the same network. If "true", when creating redundant routers or recreating a VR, CloudStack will use the same MAC address for the public NIC of all VRs. Otherwise, if "false", new public NICs will always have  a new MAC address.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;">The name of the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>network</strong></td><td style="width:500px;">The list of Networks belonging to the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkdomain</strong></td><td style="width:500px;">The Network domain of the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>project</strong></td><td style="width:500px;">The project name of the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>projectid</strong></td><td style="width:500px;">The project ID of the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>publicmtu</strong></td><td style="width:500px;">MTU configured on the public interfaces of the VPC VR</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>redundantvpcrouter</strong></td><td style="width:500px;">If this VPC has redundant router</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>regionlevelvpc</strong></td><td style="width:500px;">True if VPC is region level</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>restartrequired</strong></td><td style="width:500px;">True VPC requires restart</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>state</strong></td><td style="width:500px;">State of the VPC. Can be Inactive/Enabled</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vpcofferingconservemode</strong></td><td style="width:500px;">true if VPC offering is ip conserve mode enabled</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vpcofferingid</strong></td><td style="width:500px;">VPC offering ID the VPC is created from</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vpcofferingname</strong></td><td style="width:500px;">VPC offering name the VPC is created from</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zoneid</strong></td><td style="width:500px;">Zone ID of the VPC</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zonename</strong></td><td style="width:500px;">The name of the zone the VPC belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>service(*)</strong></td><td style="width:500px;">The list of supported services</td>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>name</strong></td><td style="width:500px;">The service name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>capability(*)</strong></td><td style="width:500px;">The list of capabilities</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">canchooseservicecapability</td><td style="width:500px;">Can this service capability value can be choosable while creatine Network offerings</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">name</td><td style="width:500px;">The capability name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">value</td><td style="width:500px;">The capability value</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>provider(*)</strong></td><td style="width:500px;">The service provider name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">id</td><td style="width:500px;">UUID of the Network provider</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">canenableindividualservice</td><td style="width:500px;">True if individual services can be enabled/disabled</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">destinationphysicalnetworkid</td><td style="width:500px;">The destination physical Network</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">name</td><td style="width:500px;">The provider name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">physicalnetworkid</td><td style="width:500px;">The physical Network this belongs to</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">servicelist</td><td style="width:500px;">Services for this provider</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">state</td><td style="width:500px;">State of the Network provider</td>
+                                            </tr>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>tags(*)</strong></td><td style="width:500px;">The list of resource tags associated with the project</td>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>account</strong></td><td style="width:500px;">The Account associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>customer</strong></td><td style="width:500px;">Customer associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domain</strong></td><td style="width:500px;">The domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domainid</strong></td><td style="width:500px;">The ID of the domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domainpath</strong></td><td style="width:500px;">Path of the Domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>key</strong></td><td style="width:500px;">Tag key name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>project</strong></td><td style="width:500px;">The project name where tag belongs to</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>projectid</strong></td><td style="width:500px;">The project ID the tag belongs to</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>resourceid</strong></td><td style="width:500px;">ID of the resource</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>resourcetype</strong></td><td style="width:500px;">Resource type</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>value</strong></td><td style="width:500px;">Tag value</td>
+                                            </tr>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

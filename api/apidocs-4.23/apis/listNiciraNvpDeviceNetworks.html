@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.23.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>listNiciraNvpDeviceNetworks</h1>
+                                        <p>Lists network that are using a nicira nvp device</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>nvpdeviceid</strong></td><td style="width:500px;"><strong>nicira nvp device ID</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>keyword</i></td><td style="width:500px;"><i>List by keyword</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>page</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>pagesize</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">The ID of the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>account</strong></td><td style="width:500px;">The owner of the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>aclid</strong></td><td style="width:500px;">ACL ID associated with the VPC Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>aclname</strong></td><td style="width:500px;">ACL name associated with the VPC Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>acltype</strong></td><td style="width:500px;">ACL type - access type to the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>asnumber</strong></td><td style="width:500px;">AS NUMBER</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>asnumberid</strong></td><td style="width:500px;">UUID of AS NUMBER</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>bgppeers</strong></td><td style="width:500px;">The BGP peers for the network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>broadcastdomaintype</strong></td><td style="width:500px;">Broadcast domain type of the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>broadcasturi</strong></td><td style="width:500px;">Broadcast URI of the Network. This parameter is visible to ROOT admins only</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>canusefordeploy</strong></td><td style="width:500px;">List Networks available for Instance deployment</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>cidr</strong></td><td style="width:500px;">CloudStack managed address space, all CloudStack managed Instances get IP address from CIDR</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>created</strong></td><td style="width:500px;">The date this Network was created</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>details</strong></td><td style="width:500px;">The details of the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>displaynetwork</strong></td><td style="width:500px;">An optional field, whether to the display the Network to the end user or not.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>displaytext</strong></td><td style="width:500px;">The displaytext of the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>dns1</strong></td><td style="width:500px;">The first IPv4 DNS for the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>dns2</strong></td><td style="width:500px;">The second IPv4 DNS for the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>dnssubdomain</strong></td><td style="width:500px;">DNS subdomain associated to the network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>dnszone</strong></td><td style="width:500px;">DNS zone associated to the network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domain</strong></td><td style="width:500px;">The domain name of the Network owner</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainid</strong></td><td style="width:500px;">The domain ID of the Network owner</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainpath</strong></td><td style="width:500px;">Path of the Domain the network belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>egressdefaultpolicy</strong></td><td style="width:500px;">True if guest Network default egress policy is allow; false if default egress policy is deny</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>externalid</strong></td><td style="width:500px;">The external ID of the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>gateway</strong></td><td style="width:500px;">The Network's gateway</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>icon</strong></td><td style="width:500px;">Base64 string representation of the resource icon</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>internetprotocol</strong></td><td style="width:500px;">The internet protocol of Network offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip4routes</strong></td><td style="width:500px;">The routes for the network to ease adding route in upstream router</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip4routing</strong></td><td style="width:500px;">The IPv4 routing type of network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip6cidr</strong></td><td style="width:500px;">The CIDR of IPv6 Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip6dns1</strong></td><td style="width:500px;">The first IPv6 DNS for the network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip6dns2</strong></td><td style="width:500px;">The second IPv6 DNS for the network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip6gateway</strong></td><td style="width:500px;">The gateway of IPv6 Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip6routes</strong></td><td style="width:500px;">The routes for the Network to ease adding route in upstream router</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ip6routing</strong></td><td style="width:500px;">The IPv6 routing type of network offering</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>isdefault</strong></td><td style="width:500px;">True if Network is default, false otherwise</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ispersistent</strong></td><td style="width:500px;">List Networks that are persistent</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>issystem</strong></td><td style="width:500px;">True if Network is system, false otherwise</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>keepmacaddressonpublicnic</strong></td><td style="width:500px;">Indicates whether to use the same MAC address for the public NIC of VRs on the same network. If "true", when creating redundant routers or recreating a VR, CloudStack will use the same MAC address for the public NIC of all VRs. Otherwise, if "false", new public NICs will always have  a new MAC address.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;">The name of the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>netmask</strong></td><td style="width:500px;">The Network's netmask</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkcidr</strong></td><td style="width:500px;">The Network CIDR of the guest Network configured with IP reservation. It is the summation of CIDR and RESERVED_IP_RANGE</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkdomain</strong></td><td style="width:500px;">The Network domain</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkofferingavailability</strong></td><td style="width:500px;">Availability of the Network offering the Network is created from</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkofferingconservemode</strong></td><td style="width:500px;">True if Network offering is IP conserve mode enabled</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkofferingdisplaytext</strong></td><td style="width:500px;">Display text of the Network offering the Network is created from</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkofferingid</strong></td><td style="width:500px;">Network offering ID the Network is created from</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkofferingname</strong></td><td style="width:500px;">Name of the Network offering the Network is created from</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>physicalnetworkid</strong></td><td style="width:500px;">The physical Network id</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>privatemtu</strong></td><td style="width:500px;">MTU configured on the network VR's private interfaces</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>project</strong></td><td style="width:500px;">The project name of the address</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>projectid</strong></td><td style="width:500px;">The project ID of the IP address</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>publicmtu</strong></td><td style="width:500px;">MTU configured on the Network VR's public facing interfaces</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>receivedbytes</strong></td><td style="width:500px;">The total number of Network traffic bytes received</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>redundantrouter</strong></td><td style="width:500px;">If the Network has redundant routers enabled</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>related</strong></td><td style="width:500px;">Related to what other Network configuration</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>reservediprange</strong></td><td style="width:500px;">The Network's IP range not to be used by CloudStack guest Instances and can be used for non CloudStack purposes</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>restartrequired</strong></td><td style="width:500px;">True if Network requires restart</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>sentbytes</strong></td><td style="width:500px;">The total number of Network traffic bytes sent</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>specifyipranges</strong></td><td style="width:500px;">True if Network supports specifying IP ranges, false otherwise</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>specifyvlan</strong></td><td style="width:500px;">True if network supports specifying vlan, false otherwise</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>state</strong></td><td style="width:500px;">State of the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>strechedl2subnet</strong></td><td style="width:500px;">True if Network can span multiple zones</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>subdomainaccess</strong></td><td style="width:500px;">True if users from subdomains can access the domain level Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>supportsvmautoscaling</strong></td><td style="width:500px;">If Network offering supports Instance autoscaling feature</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>traffictype</strong></td><td style="width:500px;">The traffic type of the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>tungstenvirtualrouteruuid</strong></td><td style="width:500px;">Tungsten-Fabric virtual router the Network belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>type</strong></td><td style="width:500px;">The type of the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vlan</strong></td><td style="width:500px;">The VLAN of the Network. This parameter is visible to ROOT admins only</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vpcid</strong></td><td style="width:500px;">VPC the Network belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vpcname</strong></td><td style="width:500px;">Name of the VPC to which this Network belongs</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zoneid</strong></td><td style="width:500px;">Zone ID of the Network</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zonename</strong></td><td style="width:500px;">The name of the zone the Network belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zonesnetworkspans</strong></td><td style="width:500px;">If a Network is enabled for 'stretched L2 subnet' then represents zones on which Network currently spans</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>service(*)</strong></td><td style="width:500px;">The list of services</td>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>name</strong></td><td style="width:500px;">The service name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>capability(*)</strong></td><td style="width:500px;">The list of capabilities</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">canchooseservicecapability</td><td style="width:500px;">Can this service capability value can be choosable while creatine Network offerings</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">name</td><td style="width:500px;">The capability name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">value</td><td style="width:500px;">The capability value</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>provider(*)</strong></td><td style="width:500px;">The service provider name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">id</td><td style="width:500px;">UUID of the Network provider</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">canenableindividualservice</td><td style="width:500px;">True if individual services can be enabled/disabled</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">destinationphysicalnetworkid</td><td style="width:500px;">The destination physical Network</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">name</td><td style="width:500px;">The provider name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">physicalnetworkid</td><td style="width:500px;">The physical Network this belongs to</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">servicelist</td><td style="width:500px;">Services for this provider</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:165px; padding-left:40px;">state</td><td style="width:500px;">State of the Network provider</td>
+                                            </tr>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>tags(*)</strong></td><td style="width:500px;">The list of resource tags associated with Network</td>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>account</strong></td><td style="width:500px;">The Account associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>customer</strong></td><td style="width:500px;">Customer associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domain</strong></td><td style="width:500px;">The domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domainid</strong></td><td style="width:500px;">The ID of the domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domainpath</strong></td><td style="width:500px;">Path of the Domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>key</strong></td><td style="width:500px;">Tag key name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>project</strong></td><td style="width:500px;">The project name where tag belongs to</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>projectid</strong></td><td style="width:500px;">The project ID the tag belongs to</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>resourceid</strong></td><td style="width:500px;">ID of the resource</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>resourcetype</strong></td><td style="width:500px;">Resource type</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>value</strong></td><td style="width:500px;">Tag value</td>
+                                            </tr>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
