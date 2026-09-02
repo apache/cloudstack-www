@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.23.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>createAutoScaleVmGroup</h1>
+                                        <p>Creates and automatically starts an Instance based on a service offering, disk offering, and Template.</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>lbruleid</strong></td><td style="width:500px;"><strong>The ID of the load balancer rule</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>maxmembers</strong></td><td style="width:500px;"><strong>The maximum number of members in the Instance Group, The number of Instances in the Instance group will be equal to or less than this number.</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>minmembers</strong></td><td style="width:500px;"><strong>The minimum number of members in the Instance Group, the number of Instances in the Instance group will be equal to or more than this number.</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>scaledownpolicyids</strong></td><td style="width:500px;"><strong>List of scaledown autoscale policies</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>scaleuppolicyids</strong></td><td style="width:500px;"><strong>List of scaleup autoscale policies</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vmprofileid</strong></td><td style="width:500px;"><strong>The autoscale profile that contains information about the Instances in the Instance group.</strong></td><td style="width:180px;"><strong>true</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>fordisplay</i></td><td style="width:500px;"><i>An optional field, whether to the display the group to the end user or not</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>interval</i></td><td style="width:500px;"><i>The frequency in which the performance counters to be collected</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>name</i></td><td style="width:500px;"><i>The name of the autoscale Instance Group</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">The autoscale Instance group ID</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>account</strong></td><td style="width:500px;">The Account owning the Instance group</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>associatednetworkid</strong></td><td style="width:500px;">The id of the guest Network the LB rule belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>associatednetworkname</strong></td><td style="width:500px;">The name of the guest Network the LB rule belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>availablevirtualmachinecount</strong></td><td style="width:500px;">The number of available Instances (in Running, Starting, Stopping or Migrating state) in the Instance Group</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>created</strong></td><td style="width:500px;">The date when this Instance group was created</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domain</strong></td><td style="width:500px;">The domain name of the Instance group</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainid</strong></td><td style="width:500px;">The domain ID of the Instance group</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainpath</strong></td><td style="width:500px;">path of the domain to which the vm group belongs</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>fordisplay</strong></td><td style="width:500px;">Is group for display to the regular User</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>interval</strong></td><td style="width:500px;">The frequency at which the conditions have to be evaluated</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>lbprovider</strong></td><td style="width:500px;">The LB provider of the guest Network the LB rule belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>lbruleid</strong></td><td style="width:500px;">The Load balancer rule ID</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>maxmembers</strong></td><td style="width:500px;">The maximum number of members in the Instance Group, The number of Instances in the Instance group will be equal to or less than this number.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>minmembers</strong></td><td style="width:500px;">The minimum number of members in the Instance Group, the number of Instances in the Instance group will be equal to or more than this number.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>name</strong></td><td style="width:500px;">The name of the autoscale Instance group </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>privateport</strong></td><td style="width:500px;">The private port</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>project</strong></td><td style="width:500px;">The project name of the Instance group</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>projectid</strong></td><td style="width:500px;">The project id of the Instance group</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>publicip</strong></td><td style="width:500px;">The public IP address</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>publicipid</strong></td><td style="width:500px;">The public IP address ID</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>publicport</strong></td><td style="width:500px;">The public port</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>scaledownpolicies</strong></td><td style="width:500px;">List of scaledown autoscale policies</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>scaleuppolicies</strong></td><td style="width:500px;">List of scaleup autoscale policies</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>state</strong></td><td style="width:500px;">The current state of the AutoScale Instance Group</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vmprofileid</strong></td><td style="width:500px;">The autoscale profile that contains information about the Instances in the Instance group.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../includes/main.css" type="text/css">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <title>Apache CloudStack | The Power Behind Your Cloud</title>
+    </head>
+    <body>
+        <div id="insidetopbg">
+            <div id="inside_wrapper">
+                <div class="uppermenu_panel">
+                    <div class="uppermenu_box"></div>
+                </div>
+                <div id="main_controller">
+                    <div id="inside_header">
+                        <div class="header_top">
+                            <a class="cloud_logo" href="http://cloudstack.org"></a>
+                            <div class="mainemenu_panel"></div>
+                        </div>
+                    </div>
+                    <div id="main_content">
+                        <div class="inside_apileftpanel">
+                            <div class="inside_contentpanel" style="width:930px;">
+                                <div class="api_titlebox">
+                                    <div class="api_titlebox_left">
+                                        <span>
+						Apache CloudStack 4.23.0.0 Root Admin API Reference
+					</span>
+                                        <p></p>
+                                        <h1>listPublicIpAddresses</h1>
+                                        <p>Lists all public IP addresses</p>
+                                    </div>
+                                    <div class="api_titlebox_right">
+                                        <a class="api_backbutton" href="../index.html"></a>
+                                    </div>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Request parameters</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Parameter Name</strong></td><td style="width:500px;">Description</td><td style="width:180px;">Required</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>account</i></td><td style="width:500px;"><i>List resources by Account. Must be used with the domainId parameter.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>allocatedonly</i></td><td style="width:500px;"><i>Limits search results to allocated public IP addresses</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>associatednetworkid</i></td><td style="width:500px;"><i>Lists all public IP addresses associated to the Network specified</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>domainid</i></td><td style="width:500px;"><i>List only resources belonging to the domain specified</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>fordisplay</i></td><td style="width:500px;"><i>List resources by display flag; only ROOT admin is eligible to pass this parameter</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>forloadbalancing</i></td><td style="width:500px;"><i>List only IPs used for load balancing</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>forprovider</i></td><td style="width:500px;"><i>true if range is dedicated for external network provider</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>forsystemvms</i></td><td style="width:500px;"><i>true if range is dedicated for system VMs</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>forvirtualnetwork</i></td><td style="width:500px;"><i>The virtual Network for the IP address</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>id</i></td><td style="width:500px;"><i>Lists IP address by ID</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>ipaddress</i></td><td style="width:500px;"><i>Lists the specified IP address</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>isrecursive</i></td><td style="width:500px;"><i>Defaults to false, but if true, lists all resources from the parent specified by the domainId till leaves.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>issourcenat</i></td><td style="width:500px;"><i>List only source NAT IP addresses</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>isstaticnat</i></td><td style="width:500px;"><i>List only static NAT IP addresses</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>keyword</i></td><td style="width:500px;"><i>List by keyword</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>listall</i></td><td style="width:500px;"><i>If set to false, list only resources belonging to the command's caller; if set to true - list resources that the caller is authorized to see. Default value is false. Resources dedicated to a project are listed only if using the projectid parameter.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>networkid</i></td><td style="width:500px;"><i>Lists all public IP addresses by source Network ID</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>page</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>pagesize</i></td><td style="width:500px;"><i></i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>physicalnetworkid</i></td><td style="width:500px;"><i>Lists all public IP addresses by physical Network ID</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>projectid</i></td><td style="width:500px;"><i>List objects by project; if projectid=-1 lists All Instances</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>retrieveonlyresourcecount</i></td><td style="width:500px;"><i>Makes the API's response contains only the resource count</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>state</i></td><td style="width:500px;"><i>Lists all public IP addresses by state. A comma-separated list of states can be passed.</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>tags</i></td><td style="width:500px;"><i>List resources by tags (key/value pairs)</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>vlanid</i></td><td style="width:500px;"><i>Lists all public IP addresses by VLAN ID</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>vpcid</i></td><td style="width:500px;"><i>List IPs belonging to the VPC</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><i>zoneid</i></td><td style="width:500px;"><i>Lists all public IP addresses by zone ID</i></td><td style="width:180px;"><i>false</i></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="api_tablepanel">
+                                    <h2>Response Tags</h2>
+                                    <table class="apitable">
+                                        <tr class="hed">
+                                            <td style="width:200px;"><strong>Response Name</strong></td><td style="width:500px;">Description</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>id</strong></td><td style="width:500px;">Public IP address ID</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>account</strong></td><td style="width:500px;">The Account the public IP address is associated with</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>allocated</strong></td><td style="width:500px;">Date the public IP address was acquired</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>associatednetworkid</strong></td><td style="width:500px;">The ID of the Network associated with the IP address</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>associatednetworkname</strong></td><td style="width:500px;">The name of the Network associated with the IP address</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domain</strong></td><td style="width:500px;">The domain the public IP address is associated with</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainid</strong></td><td style="width:500px;">The domain ID the public IP address is associated with</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>domainpath</strong></td><td style="width:500px;">path of the domain to which the public IP address belongs</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>fordisplay</strong></td><td style="width:500px;">Is public IP for display to the regular user</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>forprovider</strong></td><td style="width:500px;">true if range is dedicated for external network providers</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>forsystemvms</strong></td><td style="width:500px;">true if range is dedicated for System VMs</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>forvirtualnetwork</strong></td><td style="width:500px;">The virtual Network for the IP address</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>hasrules</strong></td><td style="width:500px;">Whether the IP address has Firewall/PortForwarding/LoadBalancing rules defined</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>ipaddress</strong></td><td style="width:500px;">Public IP address</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>isportable</strong></td><td style="width:500px;">Is public IP portable across the zones</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>issourcenat</strong></td><td style="width:500px;">True if the IP address is a source NAT address, false otherwise</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>isstaticnat</strong></td><td style="width:500px;">True if this IP is for static NAT, false otherwise</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>issystem</strong></td><td style="width:500px;">True if this IP is system IP (was allocated as a part of deployVm or createLbRule)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkid</strong></td><td style="width:500px;">The ID of the Network where IP belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>networkname</strong></td><td style="width:500px;">The name of the Network where IP belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>physicalnetworkid</strong></td><td style="width:500px;">The physical Network this belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>project</strong></td><td style="width:500px;">The project name of the address</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>projectid</strong></td><td style="width:500px;">The project id of the IP address</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>purpose</strong></td><td style="width:500px;">Purpose of the IP address. In Acton this value is not null for IPs with isSystem=true, and can have either StaticNat or LB value</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>state</strong></td><td style="width:500px;">State of the IP address. Can be: Allocating, Allocated, Releasing, Reserved and Free</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>virtualmachinedisplayname</strong></td><td style="width:500px;">Instance display name the IP address is assigned to (not null only for static NAT IP)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>virtualmachineid</strong></td><td style="width:500px;">Instance id the IP address is assigned to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>virtualmachinename</strong></td><td style="width:500px;">Instance name the IP address is assigned to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>virtualmachinetype</strong></td><td style="width:500px;">Instance type the IP address is assigned to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vlanid</strong></td><td style="width:500px;">The ID of the VLAN associated with the IP address. This parameter is visible to ROOT admins only</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vlanname</strong></td><td style="width:500px;">The VLAN associated with the IP address</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vmipaddress</strong></td><td style="width:500px;">Instance (DNAT) IP address (not null only for static NAT IP)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vpcid</strong></td><td style="width:500px;">VPC ID the IP belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>vpcname</strong></td><td style="width:500px;">VPC name the IP belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zoneid</strong></td><td style="width:500px;">The ID of the zone the public IP address belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>zonename</strong></td><td style="width:500px;">The name of the zone the public IP address belongs to</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>tags(*)</strong></td><td style="width:500px;">The list of resource tags associated with IP address</td>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>account</strong></td><td style="width:500px;">The Account associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>customer</strong></td><td style="width:500px;">Customer associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domain</strong></td><td style="width:500px;">The domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domainid</strong></td><td style="width:500px;">The ID of the domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>domainpath</strong></td><td style="width:500px;">Path of the Domain associated with the tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>key</strong></td><td style="width:500px;">Tag key name</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>project</strong></td><td style="width:500px;">The project name where tag belongs to</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>projectid</strong></td><td style="width:500px;">The project ID the tag belongs to</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>resourceid</strong></td><td style="width:500px;">ID of the resource</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>resourcetype</strong></td><td style="width:500px;">Resource type</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:180px; padding-left:25px;"><strong>value</strong></td><td style="width:500px;">Tag value</td>
+                                            </tr>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>jobid</strong></td><td style="width:500px;">the ID of the latest async job acting on this object</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width:200px;"><strong>jobstatus</strong></td><td style="width:500px;">the current status of the latest async job acting on this object</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div id="comments_thread">
+                        <script src="https://comments.apache.org/show_comments.lua?site=test" async="true"></script>
+                        <noscript>
+                            <iframe width="930" height="500" src="https://comments.apache.org/iframe.lua?site=test&amp;page=4.2.0/rootadmin"></iframe>
+                        </noscript>
+                    </div>
+                    <div id="footer_maincontroller">
+                        <p>
+                            Copyright &copy; 2015 The Apache Software Foundation, Licensed under the
+                   <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+                            <br>
+                                            Apache, CloudStack, Apache CloudStack, the Apache CloudStack logo, the CloudMonkey logo  and the Apache feather logo are trademarks of The Apache Software Foundation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
