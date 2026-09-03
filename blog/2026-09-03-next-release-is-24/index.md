@@ -13,25 +13,18 @@ that would have been 4.24 will be released as 24. The "4." prefix is gone.
 
 ## What changes
 
-· The next feature release is 24, with the full version 24.0.0
-
-· Maintenance releases on that branch become 24.1.0, 24.2.0, and so on
-
-· Feature releases after that become 25, 26, 27
-
-· The branch is called 24, packages and tarballs will say 24.0.0
+- The next feature release is 24, with the full version 24.0.0
+- Maintenance releases on that branch become 24.1.0, 24.2.0, and so on
+- Feature releases after that become 25, 26, 27
+- The branch is called 24, packages and tarballs will say 24.0.0
 
 ## What does not change
 
-· 4.23 is not affected. It was released as planned under the old scheme
-
-· The release cadence stays the same
-
-· The LTS policy stays the same
-
-· The branching and release process stays the same
-
-· The backwards compatibility guarantees stay the same
+- 4.23 is not affected. It was released as planned under the old scheme
+- The release cadence stays the same
+- The LTS policy stays the same
+- The branching and release process stays the same
+- The backwards compatibility guarantees stay the same
 
 Dropping the "4." is not a signal that 24 breaks APIs or brings disruptive
 changes. It is a naming change and nothing else.
@@ -57,13 +50,11 @@ would even mean for CloudStack.
 
 ## What you may need to check
 
-· If you have tooling, scripts or monitoring that parses the CloudStack version
+- If you have tooling, scripts or monitoring that parses the CloudStack version
   and assumes it starts with "4.", update it. A version can now be three
   numbers, such as 24.0.0
-
-· Repository paths and package names will use 24.x once 24.0.0 is out
-
-· The upgrade path itself is unchanged. Upgrading from 4.23 to 24 works the same
+- Repository paths and package names will use 24.x once 24.0.0 is out
+- The upgrade path itself is unchanged. Upgrading from 4.23 to 24 works the same
   way any other upgrade does
 
 ## How this was decided
