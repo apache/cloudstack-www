@@ -4,10 +4,36 @@
         <title>Apache CloudStack Blog</title>
         <link>https://cloudstack.apache.org/blog</link>
         <description>Apache CloudStack Blog</description>
-        <lastBuildDate>Wed, 02 Sep 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Sep 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The next CloudStack release is 24]]></title>
+            <link>https://cloudstack.apache.org/blog/next-release-is-24</link>
+            <guid>https://cloudstack.apache.org/blog/next-release-is-24</guid>
+            <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Apache CloudStack project is changing how it numbers releases. The release]]></description>
+            <content:encoded><![CDATA[<p>The Apache CloudStack project is changing how it numbers releases. The release
+that would have been 4.24 will be released as 24. The "4." prefix is gone.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-changes">What changes<a href="#what-changes" class="hash-link" aria-label="Direct link to What changes" title="Direct link to What changes">​</a></h2><p>· The next feature release is 24, with the full version 24.0.0</p><p>· Maintenance releases on that branch become 24.1.0, 24.2.0, and so on</p><p>· Feature releases after that become 25, 26, 27</p><p>· The branch is called 24, packages and tarballs will say 24.0.0</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-does-not-change">What does not change<a href="#what-does-not-change" class="hash-link" aria-label="Direct link to What does not change" title="Direct link to What does not change">​</a></h2><p>· 4.23 is not affected. It was released as planned under the old scheme</p><p>· The release cadence stays the same</p><p>· The LTS policy stays the same</p><p>· The branching and release process stays the same</p><p>· The backwards compatibility guarantees stay the same</p><p>Dropping the "4." is not a signal that 24 breaks APIs or brings disruptive
+changes. It is a naming change and nothing else.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="why">Why<a href="#why" class="hash-link" aria-label="Direct link to Why" title="Direct link to Why">​</a></h2><p>The leading "4." has not meant anything for years. We have not had a 5.0, and
+there was never a plan for one. In practice everybody already talks about "4.20"
+as twenty, and about "4.22" as twenty two. The docs, the branch names, the
+release notes and the mailing list all work that way.</p><p>So the version we publish now matches the version people actually use. It also
+removes a question that kept coming back, which is what a major version bump
+would even mean for CloudStack.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-you-may-need-to-check">What you may need to check<a href="#what-you-may-need-to-check" class="hash-link" aria-label="Direct link to What you may need to check" title="Direct link to What you may need to check">​</a></h2><p>· If you have tooling, scripts or monitoring that parses the CloudStack version
+and assumes it starts with "4.", update it. A version can now be three
+numbers, such as 24.0.0</p><p>· Repository paths and package names will use 24.x once 24.0.0 is out</p><p>· The upgrade path itself is unchanged. Upgrading from 4.23 to 24 works the same
+way any other upgrade does</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-this-was-decided">How this was decided<a href="#how-this-was-decided" class="hash-link" aria-label="Direct link to How this was decided" title="Direct link to How this was decided">​</a></h2><p>This was a vote on the <a href="mailto:dev@cloudstack.apache.org" target="_blank" rel="noopener noreferrer">dev@cloudstack.apache.org</a> mailing list. It opened on 14
+August 2026, closed on 21 August 2026, and passed by lazy majority with four
+binding votes in favour, one non binding vote in favour, one abstention and one
+against.</p><p>You can read the full thread here:
+<a href="http://www.mail-archive.com/dev@cloudstack.apache.org/msg107393.html" target="_blank" rel="noopener noreferrer">VOTE Version naming: drop the "4." prefix starting with release 24</a></p><p>The version change has been made on the main branch. We will also talk about it
+at the CloudStack Collaboration Conference in November, so there is a chance to
+ask questions in person.</p><p>If anything is unclear, ask on the users or dev mailing list. We would rather
+answer it now than have people confused about which release they are running.</p>]]></content:encoded>
+            <category>announcement</category>
+        </item>
         <item>
             <title><![CDATA[Apache CloudStack 4.23.0.0 Release]]></title>
             <link>https://cloudstack.apache.org/blog/cloudstack-4.23.0.0-release</link>
