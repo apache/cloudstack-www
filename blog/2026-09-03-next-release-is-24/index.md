@@ -47,6 +47,14 @@ So the version we publish now matches the version people actually use. It also
 removes a question that kept coming back, which is what a major version bump
 would even mean for CloudStack.
 
+>“We dropped the "4." because it stopped meaning anything years ago, not
+>because anything changed. CloudStack is a mature platform, this change signals
+>that. It has been running production clouds for more than 10 years and has
+>been an Apache Software Foundation project since 2013. It just works. That
+>stability is not a vendor promise, it is how the project is governed.”
+>
+>-Wido den Hollander, PMC Member, Apache CloudStack
+
 ## What you may need to check
 
 · If you have tooling, scripts or monitoring that parses the CloudStack version
