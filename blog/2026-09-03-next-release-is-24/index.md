@@ -6,6 +6,8 @@ authors: [wido]
 slug: next-release-is-24
 ---
 
+[![](banner.jpg "The next CloudStack release is 24")](/blog/next-release-is-24)
+
 The Apache CloudStack project is changing how it numbers releases. The release
 that would have been 4.24 will be released as 24. The "4." prefix is gone.
 
