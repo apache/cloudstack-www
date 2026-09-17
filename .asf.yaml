@@ -29,26 +29,39 @@ github:
     - infrastructure
     - hosting
   enabled_merge_buttons:
-    squash:  true
-    merge:   false
-    rebase:  false
+    squash: true
+    merge: false
+    rebase: false
 
-  protected_branches: ~
+  protected_branches:
 
   collaborators:
     - acs-robot
     - jamiepell10
 
+  rulesets:
+    - name: "Default Branch Protection"
+      type: branch
+      branches:
+        includes:
+          - "~DEFAULT_BRANCH"
+          - "release/*"
+          - "rel/*"
+        excludes: []
+      bypass_teams:
+        - root
+      restrict_deletion: true
+      restrict_force_push: true
 notifications:
-  commits:      commits@cloudstack.apache.org
-  issues:       issues@cloudstack.apache.org
+  commits: commits@cloudstack.apache.org
+  issues: issues@cloudstack.apache.org
   pullrequests: issues@cloudstack.apache.org
-  jobs:         commits@cloudstack.apache.org
+  jobs: commits@cloudstack.apache.org
 
 # Staging and publishing profile for cloudstack-www.git:
 staging:
-  profile: ~
+  profile:
   whoami: staged-site
 
 publish:
-  whoami:  asf-site
+  whoami: asf-site
