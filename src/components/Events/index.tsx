@@ -31,7 +31,7 @@ involved with the community.
                 </div>
                 <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
                   <a href="https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/register" target="_blank" rel="noopener noreferrer" className="btn btn-primary me-3">Register</a>
-                  <a href="/blog/coceu26" className="btn btn-outline-secondary me-3">Read More</a>
+                  <a href="/blog/coceu-2026" className="btn btn-outline-secondary me-3">Read More</a>
                 </div>
               </div>
               <div className="row">
