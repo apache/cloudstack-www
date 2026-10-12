@@ -3849,3 +3849,148 @@ textarea.form-control-lg{min-height:calc(1.5em + 1rem + calc(var(--bs-border-wid
 .d-print-none{display:none!important}
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+/* ==========================================
+   DARK THEME SYSTEM OVERRIDES
+   ========================================== */
+
+[data-theme='dark'] {
+  /* Brand Adjustments */
+  --ifm-color-primary: #42a8d6; /* Slightly brighter for dark bg */
+  --ifm-background-color: #0d1117;
+  --ifm-secondary-bg: #161b22;
+  --ifm-footer-background-color: #0d1117;
+  --ifm-navbar-background-color: #161b22;
+
+  /* Bootstrap-style Variable Overrides */
+  --bs-body-bg: #0d1117;
+  --bs-body-color: #e6edf3;
+}
+
+/* Navbar specific */
+[data-theme='dark'] .navbar {
+  background-color: var(--ifm-navbar-background-color);
+  border-bottom: 1px solid #30363d;
+}
+
+/* Sections with Light Blue backgrounds */
+[data-theme='dark'] .light-blue {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+}
+
+/* Cards (Power Cards, Join Cards, Integration Boxes) */
+[data-theme='dark'] .power-card,
+[data-theme='dark'] .join-card,
+[data-theme='dark'] .card-users,
+[data-theme='dark'] .horizontal-card {
+  background-color: #1c2128 !important;
+  border-color: #30363d;
+  color: #c9d1d9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='dark'] .card-title,
+[data-theme='dark'] .join-title {
+  color: #fff;
+}
+
+[data-theme='dark'] .card-text,
+[data-theme='dark'] .text {
+  color: #8b949e;
+}
+
+/* Fix for dark blue sections (Solves) */
+[data-theme='dark'] .dark-blue {
+  background-color: #081a25; /* Slightly deeper than light mode */
+  border: 1px solid #10435B;
+}
+
+/* Tabbed Content Overrides */
+[data-theme='dark'] .tab-content {
+  background: #1c2128;
+  color: #fff;
+  border: 1px solid #30363d;
+}
+
+[data-theme='dark'] .nav-underline .nav-link {
+  color: #8b949e;
+}
+
+[data-theme='dark'] .nav-underline .nav-link.active {
+  color: var(--ifm-color-primary);
+}
+
+/* Footer Fixes */
+[data-theme='dark'] .footer-bottom {
+  border-top: 1px solid #30363d;
+}
+
+/* Search Box */
+[data-theme='dark'] .top-search {
+  background: #0d1117;
+  color: #fff;
+  border: 1px solid #30363d;
+}
+
+[data-theme='dark'] {
+  /* The Integration Card/Box */
+  .tab-box {
+    background-color: #1c2128 !important; /* GitHub-style Dark Gray */
+    border-color: #30363d !important;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+  }
+  .header-cloud, .header-integrations, .header-kubernetes, .integrations {
+    color: black;
+  }
+
+  .tab-box:hover {
+    background-color: #21262d !important;
+    border-color: #42a8d6 !important; /* CloudStack Blue */
+  }
+
+  /* Integration Title & Descriptions */
+  .integration-title {
+    color: #f0f6fc !important;
+  }
+
+  .tab-box p {
+    color: #8b949e !important;
+  }
+
+  /* Integration Logos */
+  /* If some logos have white backgrounds built into the PNG/SVG,
+     we give them a slight rounded background so they don't look "cut out" */
+  .tab-box img {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  /* Category Filter Buttons (if applicable) */
+  .button-group .button {
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+  }
+
+  .button-group .button--active {
+    background-color: #42a8d6;
+    color: #ffffff;
+    border-color: #42a8d6;
+  }
+}
+
+[data-theme='dark'] {
+  /* This ensures that any "gap" created by flexbox is the same color as the content */
+  .__docusaurus,
+  .main-wrapper,
+  body {
+    background-color: #0d1117 !important;
+  }
+
+  /* Target the specific About page container to ensure it doesn't have a bottom margin
+     causing a double-gap effect */
+  .main-wrapper > div {
+    background-color: transparent !important;
+  }
+}
