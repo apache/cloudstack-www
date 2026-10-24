@@ -283,6 +283,16 @@ export default function CloudStackIntegrations() {
           altText: "cloudstack",
           colClass: "col-md-6",
           iconColor: "dark"
+        },
+        {
+          key: "sendense",
+          title: "Sendense",
+          description: "Sendense integrates with Apache CloudStack to provide VM backup and recovery, replication between CloudStack environments, and VMware-to-CloudStack migration and recovery. The integration uses the CloudStack API for infrastructure discovery and recovery configuration and supports multi-tenant service-provider deployments. Sendense runs within the operator's infrastructure and does not require software inside protected guest VMs.",
+          className: "box-cloudstack box192",
+          imageSrc: "/img/sendense-logo.png",
+          altText: "Sendence",
+          colClass: "col-md-6",
+          iconColor: "dark"
         }
       ]
     },
