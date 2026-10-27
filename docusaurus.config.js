@@ -276,7 +276,8 @@ Foundation.
       },
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: true,
+        disableSwitch: false, // Changed from true to false
+        respectPrefersColorScheme: true,
       },
     }),
 
