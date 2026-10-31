@@ -27,13 +27,13 @@ repos:
       - id: identity
       - id: check-hooks-apply
   - repo: https://github.com/oxipng/oxipng
-    rev: v9.1.5
+    rev: 36f3ef8aac65ecf1761739ea2f2e530281f1312b  # frozen: v10.2.1
     hooks:
       - id: oxipng
         args: ['--fix', '-o', '4', '--strip', 'safe', '--alpha']
         stages: [manual]
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: 3e8a8703264a2f4a69428a0aa4dcb512790b2c8c  # frozen: v6.0.0
     hooks:
       #- id: check-added-large-files
       - id: check-case-conflict
