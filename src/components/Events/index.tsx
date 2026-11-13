@@ -24,18 +24,6 @@ involved with the community.
               <div className="hc-header">Upcoming Events:</div>
               <div className="row">
                 <div className="col-lg-9 pt-3 px-4">
-                  <img src="/img/CoC2026.png" alt="" className="events-img events-overview-img"/>
-                  <p className="title mt-2">Community over Code 2026</p>
-                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Glascow, Scotland</p>
-                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>October 11-14, 2026</p>
-                </div>
-                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
-                  <a href="https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/register" target="_blank" rel="noopener noreferrer" className="btn btn-primary me-3">Register</a>
-                  <a href="/blog/coceu-2026" className="btn btn-outline-secondary me-3">Read More</a>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-9 pt-3 px-4">
                   <img src="/img/CCC-2026.jpg" alt="" className="events-img events-overview-img"/>
                   <p className="title mt-2">CloudStack Collaboration Conference 2026</p>
                   <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Edinburgh, Scotland</p>
@@ -50,6 +38,18 @@ involved with the community.
 
             <div className="horizontal-card">
               <div className="hc-header">Past Events:</div>
+              <div className="row">
+                <div className="col-lg-9 pt-3 px-4">
+                  <img src="/img/CoC2026.png" alt="" className="events-img events-overview-img"/>
+                  <p className="title mt-2">Community over Code 2026</p>
+                  <p className="events-info"><img src="img/pin_icon.png" className="me-2" alt=""/>Glascow, Scotland</p>
+                  <p className="events-info"><img src="img/calendar_icon.png" className="me-2" alt=""/>October 11-14, 2026</p>
+                </div>
+                <div className="col-lg-3 px-4 events-btn-margin d-flex justify-content-center justify-content-lg-end align-items-center">
+                  <a href="https://web.cvent.com/event/ac71ce47-2b5f-424c-abfe-5b48255315fb/register" target="_blank" rel="noopener noreferrer" className="btn btn-primary me-3">Register</a>
+                  <a href="/blog/coceu-2026" className="btn btn-outline-secondary me-3">Read More</a>
+                </div>
+              </div>
               <div className="row">
                 <div className="col-lg-9 pt-3 px-4">
                   <img src="/img/CSEUG-2026-05-21.png" alt="" className="events-img events-overview-img"/>
