@@ -293,6 +293,16 @@ export default function CloudStackIntegrations() {
           altText: "Sendence",
           colClass: "col-md-6",
           iconColor: "dark"
+        },
+        {
+          key: "kboss",
+          title: "KBOSS",
+          description: "Apache CloudStack's Backup and Recovery (B&R) framework, introduced in version 4.14, provides a standardized and extensible approach for integrating backup solutions within the CloudStack ecosystem. Expanding upon this framework, version 4.23 introduced the KBOSS Backup and Recovery Plugin, a native solution designed specifically for the KVM hypervisor. This plugin enables administrators to perform incremental instance backups to the secondary storages in the environment, without relying on third-party backup software.\n\nAdministrators configure backup offerings with the desired features, which can be assigned to virtual machines to facilitate scheduled or ad-hoc backups. Backup operations are managed directly through the CloudStack UI or API, streamlining the backup process within the existing cloud management workflow.\n\nIn version 4.23, KBOSS already supports full and incremental backups, backup compression, backup validation and quick restore (similar to Veeam's instant restore). Meanwhile, new features are constantly being introduced, such as file extraction from backups, which will be available in version 24.0.0. This native integration offers a cost-effective and straightforward backup solution for organizations utilizing KVM within their CloudStack environments.",
+          className: "box-cloudstack box192",
+          imageSrc: "/img/ACS_logo.svg",
+          altText: "cloudstack",
+          colClass: "col-md-6",
+          iconColor: "dark"
         }
       ]
     },
